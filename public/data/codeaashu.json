@@ -1,0 +1,13 @@
+{
+    "name": "Ashutosh Singh",
+    "location": "Patna, Bihar, India",
+    "bio": "A Man Who Codes & Designs Using His Hidden Creativity.",
+    "avatar": "https://github.com/codeaashu.png",
+    "portfolio": "https://ashutosh-kumar.vercel.app",
+    "skills": ["React", "Tailwind", "JavaScript", "TypeScript", "NodeJS", "Python", "NextJS", "Redux", "GSAP", "ThreeJS", "WebDevelopment", "MernStack", "WebDesign"],
+    "social": {
+      "GitHub": "https://github.com/codeaashu",
+      "Twitter": "https://twitter.com/warrior_aashuu",
+      "LinkedIn": "https://www.linkedin.com/in/ashutoshkumaraashu/"
+    }
+  }
