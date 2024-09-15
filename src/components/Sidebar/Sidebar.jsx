@@ -52,9 +52,12 @@ function Sidebar() {
           </button>
         </a>
         <a href="https://www.linkedin.com/company/devdisplay/" target="_blank" rel="noreferrer">
-          <button className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+        <button className="inline-flex items-center cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+          <svg className="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M20.447 20.453h-3.9v-5.8c0-1.38-.03-3.16-1.9-3.16-1.99 0-2.29 1.55-2.29 3.15v5.8h-3.9V9h3.74v1.55h.05c.52-1 1.8-2.08 3.71-2.08 3.97 0 4.7 2.63 4.7 6.04v5.92zm-17.86-11.92c-1.24 0-2.25 1.01-2.25 2.25 0 1.24.99 2.25 2.25 2.25s2.25-1.01 2.25-2.25-1.01-2.25-2.25-2.25zM2.5 20.453h3.9v-11h-3.9v11z"/>
+          </svg>
             Connect
-          </button>
+        </button>
         </a>
       </div>
     </div>
