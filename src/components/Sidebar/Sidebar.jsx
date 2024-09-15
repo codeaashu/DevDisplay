@@ -51,6 +51,11 @@ function Sidebar() {
             Add your profile
           </button>
         </a>
+        <a href="https://www.linkedin.com/company/devdisplay/" target="_blank" rel="noreferrer">
+          <button className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+            Connect
+          </button>
+        </a>
       </div>
     </div>
   );
