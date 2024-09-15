@@ -1,0 +1,13 @@
+{
+  "name": "Pankaj Kumar",
+  "location": "Ara, Bihar, India",
+  "bio": "I'm Pankaj Kumar, a passionate and driven Bachelor of Computer Applications (BCA) student with a strong focus on web development. Proficient in a diverse array of programming languages, including Python, C, C++, Java (with a special affinity for JAVA), HTML, and CSS, I'm committed to continuous learning and innovation.",
+  "avatar": "https://github.com/pankajproject.png",
+  "portfolio": "https://github.com/pankajproject",
+  "skills": ["Java", "C", "C++", "DMBS", "PHP", "SQL", "Python", "HTML", "CSS", "JavaScript"],
+  "social": {
+    "GitHub": "https://github.com/pankajproject",
+    "Twitter": "https://twitter.com/positive__p",
+    "LinkedIn": "https://www.linkedin.com/in/pankaj-kumar999/"
+  }
+}
