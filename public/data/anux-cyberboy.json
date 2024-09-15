@@ -4,7 +4,20 @@
   "bio": "I'm an engineering student at IMT Atlantique and I'm currently doing my final internship at EY as a cybersecurity consultant. I work on both organizational and technical issues. I also have a degree in applied economics from the University of Paris Saclay",
   "avatar": "https://github.com/anux-cyberboy.png",
   "portfolio": "https://github.com/anux-cyberboy",
-  "skills": ["Hacking", "Web Scrapping", "Shell Script", "Cyber Security", "Linux", "Shell", "Firebase", "Supabase", "Webpack", "Babel", "Hacker", "Bug Bounty"],
+  "skills": [
+    "Hacking",
+    "Web Scrapping",
+    "Shell Script",
+    "Cyber Security",
+    "Linux",
+    "Shell",
+    "Firebase",
+    "Supabase",
+    "Webpack",
+    "Babel",
+    "Hacker",
+    "Bug Bounty"
+  ],
   "social": {
     "GitHub": "https://github.com/anux-cyberboy",
     "Twitter": "https://x.com/AnuxGamerz",

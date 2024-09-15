@@ -4,7 +4,22 @@
   "bio": "A CS Graduate done MERN Stack development current learning full-stack, and also I'm a Team Leader with great leadership ability. ",
   "avatar": "https://github.com/saanaakhan.png",
   "portfolio": "https://github.com/saanaakhan",
-  "skills": ["React", "Vue", "TypeScript", "Node", "Next.js", "Laravel", "PHP", "TailwindCSS", "AWS", "MySQL", "MongoDB", "ExpressJS", "PostgreSQL", "NodeJS"],
+  "skills": [
+    "React",
+    "Vue",
+    "TypeScript",
+    "Node",
+    "Next.js",
+    "Laravel",
+    "PHP",
+    "TailwindCSS",
+    "AWS",
+    "MySQL",
+    "MongoDB",
+    "ExpressJS",
+    "PostgreSQL",
+    "NodeJS"
+  ],
   "social": {
     "GitHub": "https://github.com/saanaakhan",
     "Twitter": "https://twitter.com/SanaKhan_PK",

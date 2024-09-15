@@ -4,7 +4,18 @@
   "bio": "A graduate MS EE student of Columbia University, specializing in Data-Driven Analysis and Computation. With experience as a software engineering and ML intern at JP Morgan Chase, Bosch, and through academic research, I’ve gained skills in handling big data with AWS, Apache Kafka, Spark, optimizing neural networks, and transfer learning. I'm also a competitive coder in Java, with a strong passion for the latest advancements in machine learning and data analysis.",
   "avatar": "https://github.com/swasthiprao.png",
   "portfolio": "https://github.com/swasthiprao",
-  "skills": ["Python", "JavaScript", "Node.js", "MongoDB", "Elasticsearch", "AWS", "Docker", "Cybersecurity", "MySQL", "Laravel"],
+  "skills": [
+    "Python",
+    "JavaScript",
+    "Node.js",
+    "MongoDB",
+    "Elasticsearch",
+    "AWS",
+    "Docker",
+    "Cybersecurity",
+    "MySQL",
+    "Laravel"
+  ],
   "social": {
     "GitHub": "https://github.com/swasthiprao",
     "Twitter": "https://twitter.com/RaoSwasthi",

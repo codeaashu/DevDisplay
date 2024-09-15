@@ -4,7 +4,21 @@
   "bio": "Pursuing a Master's at HEC Paris, with 2 years of experience as an engineer building scalable applications. ",
   "avatar": "https://github.com/linamikou.png",
   "portfolio": "https://github.com/linamikou",
-  "skills": ["Node.js", "PHP", "Laravel", "WordPress", "MYSQL", "Docker", "HTML", "CSS", "JavaScript", "Tailwind CSS", "TypeScript", "React", "OOP"],
+  "skills": [
+    "Node.js",
+    "PHP",
+    "Laravel",
+    "WordPress",
+    "MYSQL",
+    "Docker",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Tailwind CSS",
+    "TypeScript",
+    "React",
+    "OOP"
+  ],
   "social": {
     "GitHub": "https://github.com/linamikou",
     "Twitter": "https://twitter.com/mikou_lina",

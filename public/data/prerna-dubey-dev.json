@@ -4,7 +4,22 @@
   "bio": "I've amassed over 3 years of experience in software development. I'm passionate about translating project visions and objectives into reality, offering tangible results in line with client expectations. One of my most recent projects involved designing and rolling-out a new piece of application to optimize the efficiency of ETL data pipelines and enhanced visualization using Tableau dashboards.",
   "avatar": "https://github.com/prerna-dubey-dev.png",
   "portfolio": "https://github.com/prerna-dubey-dev",
-  "skills": ["JavaScript", "ReactJs", "NextJS", "Ruby", "Rails", "Python", "Django", "Typescript", "Tailwind CSS", "NodeJs", "SQL", "Git", "Linux", "Effective Communication"],
+  "skills": [
+    "JavaScript",
+    "ReactJs",
+    "NextJS",
+    "Ruby",
+    "Rails",
+    "Python",
+    "Django",
+    "Typescript",
+    "Tailwind CSS",
+    "NodeJs",
+    "SQL",
+    "Git",
+    "Linux",
+    "Effective Communication"
+  ],
   "social": {
     "GitHub": "https://github.com/prerna-dubey-dev",
     "Twitter": "https://twitter.com/PrernaDubey64",
