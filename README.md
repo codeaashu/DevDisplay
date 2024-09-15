@@ -12,13 +12,13 @@
   <h1 align="center">👨🏻‍💻 Introducing to DevDisplay 👨🏻‍💻</h1>
   <img src="./public/devDisplayLOGO.png" width="100px" />
   <br><a href="https://DevDisplay.vercel.app/"><strong>Dev Display</strong></a>
-  <h4 align="center">✦ Discover and Connect with Skilled Developers! ✦</h4></br>
+  <h4 align="center">✦ Discover - Connect - Collab - Build - Promote ✦</h4></br>
   
-  ` DevDisplay is an open source project that aims to create a platform for developers to showcase their skills and connect with potential collaborators, all in a user-friendly and searchable format. `
+  ` DevDisplay is an Open Source Community where you can discover and Connect with Skilled Developers, share your ideas, and build projects with collaborative support also you can promote your project through this community. `
 </div>
 
 <div align="center">
-<h1>👩‍💻 DevDisplay - Discover and Connect with Skilled Developers!</h1>
+<h1>👩‍💻 DevDisplay - Discover - Connect - Collab - Build - Promote</h1>
 </div>
 
 ## Table of Contents
@@ -41,7 +41,7 @@
 ## About 🚀
 
 - DevDisplay - [Website](https://DevDisplay.vercel.app/)
-- **`DevDisplay`** is an open source project that aims to create a platform for developers to showcase their skills and connect with potential collaborators, all in a user-friendly and searchable format.
+- **`DevDisplay`** is an Open Source Community where you can discover and Connect with Skilled Developers, share your ideas, and build projects with collaborative support also you can promote your project through this community.
 - With **`DevDisplay`**, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.
 
 <a id="features"></a>
