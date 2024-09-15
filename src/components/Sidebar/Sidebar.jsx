@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaLinkedin } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
@@ -53,14 +54,14 @@ function Sidebar() {
         </a>
         <a href="https://www.linkedin.com/company/devdisplay/" target="_blank" rel="noreferrer">
           <button className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-            Connect us
+            Connect us <FaLinkedin className="text-2xl text-blue-600 duration-300 hover:scale-125" />
           </button>
         </a>
       </div>
       <div className="pt-6">
         <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
           <button className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white mr-4">
-          DevDisplay Community Spotlight
+          DevDisplay Community Spotlight 🌟
           </button>
         </a>
       </div>
