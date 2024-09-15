@@ -53,8 +53,8 @@ function Sidebar() {
         </a>
         <a href="https://www.linkedin.com/company/devdisplay/" target="_blank" rel="noreferrer">
           <button className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-            Connect On
-            <FaLinkedin className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            Connect
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.268h-3v-5.604c0-1.336-.026-3.056-1.861-3.056-1.861 0-2.145 1.453-2.145 2.956v5.704h-3v-10h2.879v1.367h.041c.401-.762 1.38-1.561 2.841-1.561 3.039 0 3.604 2 3.604 4.599v5.595z"/></svg>
           </button>
         </a>
       </div>
