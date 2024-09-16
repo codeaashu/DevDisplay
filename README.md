@@ -6,7 +6,6 @@
   ![GitHub pulls](https://img.shields.io/github/issues-pr/codeaashu/DevDisplay?style=social)
   ![GitHub issues](https://img.shields.io/github/issues/codeaashu/DevDisplay?style=social)
   ![GitHub LICENSE](https://img.shields.io/github/license/codeaashu/DevDisplay?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu)
 
 <hr>
   <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="25" height="25" /> Welcome to DevDisplay <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="25" height="25" /></h1>
@@ -83,7 +82,7 @@ DevDisplay is an Open Source Developer Community where you can discover and Conn
 
 <h4 align="center"><img src="https://contrib.rocks/image?repo=codeaashu/DevDisplay" /><br><a href="https://ashutosh-kumar.vercel.app/"><strong>Ashutosh Singh</strong></a><br><br>
 
-  [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/2fB3YRZt) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ashutoshkumaraashu) [![Twitter](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/warrior_aashuu) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/warrior_aashuu) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/codeaashu)<br>
+  [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/2fB3YRZt)  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ashutoshkumaraashu)  [![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu)  [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/warrior_aashuu)  [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/codeaashu)<br>
   <br>A Man Who Codes & Designs Using His Hidden Creativity. A proficient Web Developer & Designer specializing in crafting captivating Websites & Apps. Till now he has built 50+ WEB APP.</h4><hr>
 
 <h1 align="center">© LICENSE <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Check%20Box%20With%20Check.webp" alt="Check Box With Check" width="25" height="25" /></h1>
