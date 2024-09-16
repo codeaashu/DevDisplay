@@ -1,8 +1,9 @@
 <div align="center">                                                                        
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codeaashu/DevDisplay)
-  ![GitHub stars](https://img.shields.io/github/stars/codeaashu/DevDisplay?style=social) 
+  ![GitHub Repo size](https://img.shields.io/github/repo-size/codeaashu/DevDisplay)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/codeaashu/DevDisplay?style=social) 
   ![GitHub forks](https://img.shields.io/github/forks/codeaashu/DevDisplay?style=social)
+  ![GitHub contributors](https://img.shields.io/github/contributors/codeaashu/DevDisplay)
   ![GitHub pulls](https://img.shields.io/github/issues-pr/codeaashu/DevDisplay?style=social)
   ![GitHub issues](https://img.shields.io/github/issues/codeaashu/DevDisplay?style=social)
   ![GitHub LICENSE](https://img.shields.io/github/license/codeaashu/DevDisplay?style=social)
