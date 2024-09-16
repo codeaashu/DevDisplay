@@ -18,16 +18,8 @@
 DevDisplay is an Open Source Developer Community where you can discover and Connect with Skilled Developers, share your ideas, and build projects with collaborative support also you can promote your project through this community. With DevDisplay, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.
 </div>
 
-
-## Feature <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" />
-
-- One of the key features of **`DevDisplay`** is its powerful search functionality.
-- Users can search for developers based on specific skills, locations or name, making it easy to Display developers with expertise in a particular technology or programming language.
-- This makes **`DevDisplay`** a valuable resource for project managers, recruiters, and anyone looking to connect with skilled developers for collaboration or employment opportunities.
-
-<a id="how-to-add-your-profile-data"></a>
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thinking%20Face.png" alt="Thinking Face" width="25" height="25" /> How to add your profile Data <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /><a href="https://youtu.be/fgqQqdY9Cno"><strong> Video Instruction</strong></a>
+<h1 align="center">How to add your profile <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thinking%20Face.png" alt="Thinking Face" width="25" height="25" /></h1>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /><a href="https://youtu.be/fgqQqdY9Cno"><strong> Get help with video instruction</strong></a>
 
 > Thank you for your interest in contributing to our open-source project! <br>
 
