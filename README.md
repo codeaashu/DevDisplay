@@ -87,7 +87,7 @@
    ["filename1.json", "filename2.json", "your_github_username.json"]
    ```
 8. **Save** the **`ProfileLists.json`** file.
-9. **Contribute** Click On Contribute Button:
+9. **Contribute** Follow this 👇🏻:
 10. **Commit your changes:** To save your changes to the branch,, run the following command:
     ```bash
     git commit -m "add: <your-name>"
