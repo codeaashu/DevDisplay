@@ -16,7 +16,7 @@
 
 <h1 align="center">About <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /></h1>
 DevDisplay is an Open Source Developer Community where you can discover and Connect with Skilled Developers, share your ideas, and build projects with collaborative support also you can promote your project through this community. With DevDisplay, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.
-</div>
+</div><hr>
 
 <h1 align="center">How to add your profile <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thinking%20Face.png" alt="Thinking Face" width="25" height="25" /></h1>
 <h3 align="center">Thank you for your interest in contributing to our open-source project!<br><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /><a href="https://youtu.be/fgqQqdY9Cno"><strong> Get help with video instruction</strong></a></h3>
@@ -67,28 +67,16 @@ DevDisplay is an Open Source Developer Community where you can discover and Conn
 
 10. **Wait for review and merge:** Wait for the project maintainers to review and merge your changes.
 
-<h3 align="center">Once your changes are merged, <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="25" height="25" /> your profile data will be added to the project's **`Profile.json`** file and your profile will be displayed on the project's website.</h3>
+<h3 align="center">Once your changes are merged <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Your profile will be displayed on the project's website.</h3><hr>
 
-<a id="contributing"></a>
+<h2 align="center">Contribution Support <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="25" height="25" /></h2>
 
-## Contributing 👨‍💻
+<h4 align="center">Thank you for contributing to our open-source project! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="25" height="25" /> Contributions make the open source community such an amazing place to learn, inspire, and create. <br><br> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" />  We appreciate your support <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" /></h4>
+<h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Don't forget to give star this repository <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /></h1>
 
-Contributions make the open source community such an amazing place to learn, inspire, and create. <br>
-**Any contributions you make are truly appreciated!**
+<h2 align="center">LICENSE <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Check%20Box%20With%20Check.webp" alt="Check Box With Check" width="25" height="25" /></h2>
 
-<a id="contributors"></a>
-
-## Contributors 🤝
-
-<a href="https://github.com/codeaashu/DevDisplay/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=codeaashu/DevDisplay" />
-</a>
-
-<a id="license"></a>
-
-## License
-
-<table>
+<table align="center">
   <tr>
      <td>
        <p align="center"> <img src="https://github.com/malivinayak/malivinayak/blob/main/LICENSE-Logo/MIT.png?raw=true" width="80%"></img>
@@ -99,10 +87,3 @@ This project is licensed under <a href="./LICENSE">MIT</a>. <img width=2300/>
     </td>
   </tr>
 </table>
-
-<a id="support"></a>
-
-## Support 🙏
-
-Thank you for contributing to our open-source project! We appreciate your support 🚀 <br>
-Don't forget to leave a star ⭐
