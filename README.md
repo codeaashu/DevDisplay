@@ -22,21 +22,6 @@
 <h1>👩‍💻 DevDisplay - Discover - Connect - Collab - Build - Promote</h1>
 </div>
 
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [About <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" />](#about-)
-- [Features <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" />](#features-)
-- [How to add your profile Data 🤔](#how-to-add-your-profile-data-)
-  - [Prerequisites](#prerequisites)
-  - [How to Install Git](#how-to-install-git)
-  - [How to Install Node.js and npm](#how-to-install-nodejs-and-npm)
-  - [Steps to Add Your Profile Data](#steps-to-add-your-profile-data)
-- [Contributing 👨‍💻](#contributing-)
-- [Contributors 🤝](#contributors-)
-- [License](#license)
-- [Support 🙏](#support-)
-
 <a id="about"></a>
 
 ## About <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" />
