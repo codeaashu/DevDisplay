@@ -19,9 +19,9 @@ DevDisplay is an Open Source Developer Community where you can discover and Conn
 </div>
 
 <h1 align="center">How to add your profile <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thinking%20Face.png" alt="Thinking Face" width="25" height="25" /></h1>
-<h3 align="center">Thank you for your interest in contributing to our open-source project!<br><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /><a href="https://youtu.be/fgqQqdY9Cno"><strong> Get help with video instruction</strong></a></h3><br>
+<h3 align="center">Thank you for your interest in contributing to our open-source project!<br><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /><a href="https://youtu.be/fgqQqdY9Cno"><strong> Get help with video instruction</strong></a></h3>
 
-### Steps to Add Your Profile Data <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Down.png" alt="Backhand Index Pointing Down" width="25" height="25" />
+<h3 align="center">Steps to Add Your Profile Data <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Down.png" alt="Backhand Index Pointing Down" width="25" height="25" /></h3>
 
 1. **Fork the repository:** To create a copy of the repository in your GitHub account, click on the "Fork" button in the top right corner of the project repository page.
 
@@ -67,7 +67,7 @@ DevDisplay is an Open Source Developer Community where you can discover and Conn
 
 10. **Wait for review and merge:** Wait for the project maintainers to review and merge your changes.
 
-Once your changes are merged, <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="25" height="25" /> your profile data will be added to the project's **`Profile.json`** file and your profile will be displayed on the project's website.
+<h3 align="center">Once your changes are merged, <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="25" height="25" /> your profile data will be added to the project's **`Profile.json`** file and your profile will be displayed on the project's website.</h3>
 
 <a id="contributing"></a>
 
