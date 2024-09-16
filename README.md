@@ -67,7 +67,7 @@ DevDisplay is an Open Source Developer Community where you can discover and Conn
 
 10. **Wait for review and merge:** Wait for the project maintainers to review and merge your changes.
 
-<h3 align="center">Once your changes are merged, <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="25" height="25" /> your profile will be displayed on the project's website.</h3><hr>
+<h3 align="center">Once your changes are merged <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Your profile will be displayed on the project's website.<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="25" height="25" /></h3><hr>
 
 
 ## Contributing 👨‍💻
@@ -75,9 +75,7 @@ DevDisplay is an Open Source Developer Community where you can discover and Conn
 Contributions make the open source community such an amazing place to learn, inspire, and create. <br>
 **Any contributions you make are truly appreciated!**
 
-<a id="contributors"></a>
-
-## Contributors 🤝
+<h2 align="center">Contributors <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="25" height="25" /></h2>
 
 <a href="https://github.com/codeaashu/DevDisplay/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=codeaashu/DevDisplay" />
@@ -97,11 +95,9 @@ Contributions make the open source community such an amazing place to learn, ins
 This project is licensed under <a href="./LICENSE">MIT</a>. <img width=2300/>
     </td>
   </tr>
-</table>
+</table><hr>
 
-<a id="support"></a>
+<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="25" height="25" /> Support <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Heart%20Hands%20Medium-Light%20Skin%20Tone.png" alt="Heart Hands Medium-Light Skin Tone" width="25" height="25" /></h2>
 
-## Support 🙏
-
-Thank you for contributing to our open-source project! We appreciate your support 🚀 <br>
-Don't forget to leave a star ⭐
+Thank you for contributing to our open-source project! We appreciate your support <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" /> <br>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" />Don't forget to leave a star <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" />
