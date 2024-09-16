@@ -76,8 +76,8 @@ DevDisplay is an Open Source Developer Community where you can discover and Conn
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /> Creator OF DevDisplay <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /></h1>
 
 <h4 align="center"><img src="https://contrib.rocks/image?repo=codeaashu/DevDisplay" /><br><a href="https://ashutosh-kumar.vercel.app/"><strong>Ashutosh Singh</strong></a><br>
-  [![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu) 
-  [![Linkedin Follow](https://img.shields.io/linkedin/follow/warrior_aashuu?style=social)](https://linkedin.com/intent/follow?screen_name=Ashutosh Kumar)
+  
+  [![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu)
   A Man Who Codes & Designs Using His Hidden Creativity. A proficient Web Developer & Designer specializing in crafting captivating Websites & Apps. Till now he has built 50+ WEB APP.</h4><hr>
 
 <h1 align="center">© LICENSE <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Check%20Box%20With%20Check.webp" alt="Check Box With Check" width="25" height="25" /></h1>
