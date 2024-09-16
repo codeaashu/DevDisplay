@@ -55,7 +55,7 @@
 
 <a id="how-to-add-your-profile-data"></a>
 
-## How to add your profile Data 🤔
+## How to add your profile Data <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thinking%20Face.png" alt="Thinking Face" width="25" height="25" />  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /><a href="https://youtu.be/fgqQqdY9Cno"><strong>Video Instruction</strong></a>
 
 > Thank you for your interest in contributing to our open-source project! <br>
 
