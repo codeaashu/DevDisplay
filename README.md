@@ -30,6 +30,7 @@ DevDisplay is an Open Source Developer Community where you can discover and Conn
 3. **Create a new JSON file** named **`your_github_username.json`** (replace your_github_username with your actual GitHub username). Open the file you just created.
 
 4. **Add** the following JSON object, replacing the placeholder values with your own details:
+
    ```json
    {
      "name": "Your Name",
@@ -45,25 +46,21 @@ DevDisplay is an Open Source Developer Community where you can discover and Conn
      }
    }
    ```
- 
+
 5. **Save** the **`your_github_username.json`** file.
 
 6. **Navigate** to the **`src`** folder in your project directory. Open the **`ProfilesList.json`** file.
 
 7. **Add your JSON filename** (your_github_username.json) to the array of filenames in the ProfileList.json file, like this:
+
    ```json
-   [
-   "filename1.json",
-   "filename2.json",
-   "filename3.json",
-   "your_github_username.json"
-   ]
+   ["filename1.json", "filename2.json", "filename3.json", "your_github_username.json"]
    ```
 
 8. **Save** the **`ProfileLists.json`** file.
 
 9. **Contribute** Follow this 👇🏻:
-  <img src="./public/How to contribute.png"/>
+   <img src="./public/How to contribute.png"/>
 
 10. **Wait for review and merge:** Wait for the project maintainers to review and merge your changes.
 

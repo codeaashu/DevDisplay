@@ -7,26 +7,6 @@ function Profile({ data }) {
 }
 
 function Card({ data }) {
-  const cardRef = React.useRef();
-
-  const handleWheel = (event) => {
-    event.stopPropagation();
-    event.preventDefault();
-    let container = event.target;
-    if (!container) return false;
-
-    while (!container.classList.contains('skills-container')) {
-      container = container.parentNode;
-    }
-
-    const delta = event.deltaX || event.deltaY;
-    container.scrollLeft += delta;
-  };
-
-  React.useEffect(() => {
-    cardRef.current.addEventListener('wheel', handleWheel, { passive: false });
-  }, []);
-
   return (
     <div className="mb-6 h-auto rounded-lg bg-white p-4 shadow dark:bg-textPrimary">
       <div className="relative flex gap-4">
@@ -48,15 +28,12 @@ function Card({ data }) {
             <FaLocationDot />
             {data.location}
           </p>
-          <div
-            className="skills-container mt-4 flex h-auto gap-4 overflow-hidden hover:overflow-x-scroll hover:scroll-smooth"
-            ref={cardRef}
-          >
+          <div className="skills-container mt-4 flex h-auto gap-4 overflow-x-auto">
             {data.skills &&
               data.skills.map((skill, index) => {
                 return (
                   <div
-                    className="inline h-auto cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
+                    className="inline cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
                     key={index}
                   >
                     {skill}
