@@ -3,7 +3,7 @@
   ![GitHub Repo size](https://img.shields.io/github/repo-size/codeaashu/DevDisplay)
   ![GitHub Repo stars](https://img.shields.io/github/stars/codeaashu/DevDisplay?style=social) 
   ![GitHub forks](https://img.shields.io/github/forks/codeaashu/DevDisplay?style=social)
-  ![GitHub contributors](https://img.shields.io/github/contributors/codeaashu/DevDisplay)
+  ![GitHub contributors](https://img.shields.io/github/contributors/codeaashu/DevDisplay?style=social)
   ![GitHub pulls](https://img.shields.io/github/issues-pr/codeaashu/DevDisplay?style=social)
   ![GitHub issues](https://img.shields.io/github/issues/codeaashu/DevDisplay?style=social)
   ![GitHub LICENSE](https://img.shields.io/github/license/codeaashu/DevDisplay?style=social)
@@ -22,15 +22,11 @@
 <h1>👩‍💻 DevDisplay - Discover - Connect - Collab - Build - Promote</h1>
 </div>
 
-<a id="about"></a>
-
 ## About <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" />
 
 - DevDisplay - [Website](https://DevDisplay.vercel.app/)
 - **`DevDisplay`** is an Open Source Community where you can discover and Connect with Skilled Developers, share your ideas, and build projects with collaborative support also you can promote your project through this community.
 - With **`DevDisplay`**, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.
-
-<a id="features"></a>
 
 ## Feature <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" />
 
