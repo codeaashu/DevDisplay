@@ -47,7 +47,7 @@ function Sidebar() {
       </div>
       <div className="text-secondaryColor dark:text-white">Open Source community where you can discover, connect, collab with skilled developers, share your ideas then build projects and also promote the project through this community.</div>
       <div className="pt-5">
-        <a href="https://github.com/codeaashu/DevDisplay?tab=readme-ov-file#how-to-add-your-profile-data-" target="_blank" rel="noreferrer">
+        <a href="https://github.com/codeaashu/DevDisplay?tab=readme-ov-file#-how-to-add-your-profile-data--video-instruction" target="_blank" rel="noreferrer">
           <button className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white mr-4">
             Add your profile
           </button>
