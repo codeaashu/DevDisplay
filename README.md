@@ -25,8 +25,8 @@
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [About 🚀](#about-)
-- [Features 💪](#features-)
+- [About <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" />](#about-)
+- [Features <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" />](#features-)
 - [How to add your profile Data 🤔](#how-to-add-your-profile-data-)
   - [Prerequisites](#prerequisites)
   - [How to Install Git](#how-to-install-git)
@@ -39,7 +39,7 @@
 
 <a id="about"></a>
 
-## About 🚀
+## About <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" />
 
 - DevDisplay - [Website](https://DevDisplay.vercel.app/)
 - **`DevDisplay`** is an Open Source Community where you can discover and Connect with Skilled Developers, share your ideas, and build projects with collaborative support also you can promote your project through this community.
@@ -47,7 +47,7 @@
 
 <a id="features"></a>
 
-## Feature 💪
+## Feature <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" />
 
 - One of the key features of **`DevDisplay`** is its powerful search functionality.
 - Users can search for developers based on specific skills, locations or name, making it easy to Display developers with expertise in a particular technology or programming language.
