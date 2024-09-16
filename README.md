@@ -16,7 +16,7 @@
 
 <h1 align="center">About <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /></h1>
 DevDisplay is an Open Source Developer Community where you can discover and Connect with Skilled Developers, share your ideas, and build projects with collaborative support also you can promote your project through this community. With DevDisplay, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.
-</div>
+</div><hr>
 
 <h1 align="center">How to add your profile <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thinking%20Face.png" alt="Thinking Face" width="25" height="25" /></h1>
 <h3 align="center">Thank you for your interest in contributing to our open-source project!<br><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /><a href="https://youtu.be/fgqQqdY9Cno"><strong> Get help with video instruction</strong></a></h3>
@@ -67,9 +67,8 @@ DevDisplay is an Open Source Developer Community where you can discover and Conn
 
 10. **Wait for review and merge:** Wait for the project maintainers to review and merge your changes.
 
-<h3 align="center">Once your changes are merged, <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="25" height="25" /> your profile data will be added to the project's **`Profile.json`** file and your profile will be displayed on the project's website.</h3>
+<h3 align="center">Once your changes are merged, <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="25" height="25" /> your profile will be displayed on the project's website.</h3><hr>
 
-<a id="contributing"></a>
 
 ## Contributing 👨‍💻
 
