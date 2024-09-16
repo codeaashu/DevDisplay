@@ -55,7 +55,7 @@ function Sidebar() {
         <a href="https://www.linkedin.com/company/devdisplay/" target="_blank" rel="noreferrer">
           <button className="inline-flex items-center cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             <span>Connect</span>
-            <FaLinkedin className="ml-2 text-2xl text-blue-600 duration-300 hover:scale-125" />
+            <FaLinkedin className="ml-2 text-2xl text-black-600 duration-300 hover:scale-125" />
           </button>
         </a>
       </div>
