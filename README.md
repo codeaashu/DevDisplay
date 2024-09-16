@@ -1,6 +1,5 @@
 <div align="center">                                                                        
   
-  ![GitHub Repo size](https://img.shields.io/github/repo-size/codeaashu/DevDisplay)
   ![GitHub Repo stars](https://img.shields.io/github/stars/codeaashu/DevDisplay?style=social) 
   ![GitHub forks](https://img.shields.io/github/forks/codeaashu/DevDisplay?style=social)
   ![GitHub contributors](https://img.shields.io/github/contributors/codeaashu/DevDisplay?style=social)
