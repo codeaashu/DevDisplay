@@ -62,21 +62,9 @@
 ### Steps to Add Your Profile Data
 
 1. **Fork the repository:** To create a copy of the repository in your GitHub account, click on the "Fork" button in the top right corner of the project repository page.
-2. **Clone the forked repository:** To clone the repository to your local development environment, open the terminal or command prompt and run the following command:
-
-   ```bash
-   git clone https://github.com/<your-github-username>/DevDisplay.git
-   ```
-
-3. **Install dependencies:** To install the necessary dependencies for the project, navigate to the project directory and run the following command:
-
-   ```bash
-   npm install
-   ```
-
-4. **Navigate** to the **`public/data`** folder in your project directory.
-5. **Create a new JSON file** named **`your_github_username.json`** (replace your_github_username with your actual GitHub username). Open the file you just created.
-6. **Add** the following JSON object, replacing the placeholder values with your own details:
+2. **Navigate** to the **`public/data`** folder in your project directory.
+3. **Create a new JSON file** named **`your_github_username.json`** (replace your_github_username with your actual GitHub username). Open the file you just created.
+4. **Add** the following JSON object, replacing the placeholder values with your own details:
    ```json
    {
      "name": "Your Name",
@@ -92,22 +80,15 @@
      }
    }
    ```
-7. **Save** the **`your_github_username.json`** file.
-8. **Navigate** to the **`src`** folder in your project directory. Open the **`ProfilesList.json`** file.
-9. **Add your JSON filename** (your_github_username.json) to the array of filenames in the ProfileList.json file, like this:
+5. **Save** the **`your_github_username.json`** file.
+6. **Navigate** to the **`src`** folder in your project directory. Open the **`ProfilesList.json`** file.
+7. **Add your JSON filename** (your_github_username.json) to the array of filenames in the ProfileList.json file, like this:
    ```json
    ["filename1.json", "filename2.json", "your_github_username.json"]
    ```
-10. **Save** the **`ProfileLists.json`** file.
-11. **Create a new branch:** To create a new branch for your profile, run the following command:
-    ```bash
-    git checkout -b add-profile
-    ```
-12. **Add your changed files:** Add changed files to the stage by running the following command:
-    ```bash
-    git add .
-    ```
-13. **Commit your changes:** To save your changes to the branch,, run the following command:
+8. **Save** the **`ProfileLists.json`** file.
+9. **Contribute** Click On Contribute Button:
+10. **Commit your changes:** To save your changes to the branch,, run the following command:
     ```bash
     git commit -m "add: <your-name>"
     ```
