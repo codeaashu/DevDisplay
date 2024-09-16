@@ -10,40 +10,25 @@
 
 <hr>
   <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="25" height="25" /> Welcome to DevDisplay <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="25" height="25" /></h1>
-  <img src="./public/devDisplayLOGO.png" width="100px" />
-  <br><a href="https://DevDisplay.vercel.app/"><strong>Dev Display</strong></a>
-  <h4 align="center">✦ Discover - Connect - Collab - Build - Promote ✦</h4></br>
-  
-  ` DevDisplay is an Open Source Community where you can discover and Connect with Skilled Developers, share your ideas, and build projects with collaborative support also you can promote your project through this community. `
+  <img src="./public/devDisplayLOGO.png" width="100px" /><br>
+  <br><a href="https://DevDisplay.vercel.app/"><strong>DevDisplay - Open Source Developer Community</strong></a>
+  <h2 align="center">   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Eyes.webp" alt="Eyes" width="25" height="25" /> Discover     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Raising%20Hands.webp" alt="Raising Hands" width="25" height="25" /> Connect     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Handshake.webp" alt="Handshake" width="25" height="25" /> Collab     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Technologist.webp" alt="Technologist" width="25" height="25" /> Build     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Megaphone.webp" alt="Megaphone" width="25" height="25" /> Promote   </h2>
+
+<h1 align="center">About <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /></h1>
+DevDisplay is an Open Source Developer Community where you can discover and Connect with Skilled Developers, share your ideas, and build projects with collaborative support also you can promote your project through this community. With DevDisplay, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.
 </div>
 
-<div align="center">
-<h1>👩‍💻 DevDisplay - Discover - Connect - Collab - Build - Promote</h1>
-</div>
+<h1 align="center">How to add your profile <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thinking%20Face.png" alt="Thinking Face" width="25" height="25" /></h1>
+<h3 align="center">Thank you for your interest in contributing to our open-source project!<br><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /><a href="https://youtu.be/fgqQqdY9Cno"><strong> Get help with video instruction</strong></a></h3>
 
-## About <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" />
-
-- DevDisplay - [Website](https://DevDisplay.vercel.app/)
-- **`DevDisplay`** is an Open Source Community where you can discover and Connect with Skilled Developers, share your ideas, and build projects with collaborative support also you can promote your project through this community.
-- With **`DevDisplay`**, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.
-
-## Feature <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" />
-
-- One of the key features of **`DevDisplay`** is its powerful search functionality.
-- Users can search for developers based on specific skills, locations or name, making it easy to Display developers with expertise in a particular technology or programming language.
-- This makes **`DevDisplay`** a valuable resource for project managers, recruiters, and anyone looking to connect with skilled developers for collaboration or employment opportunities.
-
-<a id="how-to-add-your-profile-data"></a>
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thinking%20Face.png" alt="Thinking Face" width="25" height="25" /> How to add your profile Data <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /><a href="https://youtu.be/fgqQqdY9Cno"><strong> Video Instruction</strong></a>
-
-> Thank you for your interest in contributing to our open-source project! <br>
-
-### Steps to Add Your Profile Data
+<h3 align="center">Steps to Add Your Profile Data <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Down.png" alt="Backhand Index Pointing Down" width="25" height="25" /></h3>
 
 1. **Fork the repository:** To create a copy of the repository in your GitHub account, click on the "Fork" button in the top right corner of the project repository page.
+
 2. **Navigate** to the **`public/data`** folder in your project directory.
+
 3. **Create a new JSON file** named **`your_github_username.json`** (replace your_github_username with your actual GitHub username). Open the file you just created.
+
 4. **Add** the following JSON object, replacing the placeholder values with your own details:
    ```json
    {
@@ -60,18 +45,29 @@
      }
    }
    ```
+ 
 5. **Save** the **`your_github_username.json`** file.
+
 6. **Navigate** to the **`src`** folder in your project directory. Open the **`ProfilesList.json`** file.
+
 7. **Add your JSON filename** (your_github_username.json) to the array of filenames in the ProfileList.json file, like this:
    ```json
-   ["filename1.json", "filename2.json", "your_github_username.json"]
+   [
+   "filename1.json",
+   "filename2.json",
+   "filename3.json",
+   "your_github_username.json"
+   ]
    ```
+
 8. **Save** the **`ProfileLists.json`** file.
+
 9. **Contribute** Follow this 👇🏻:
   <img src="./public/How to contribute.png"/>
+
 10. **Wait for review and merge:** Wait for the project maintainers to review and merge your changes.
 
-Once your changes are merged, your profile data will be added to the project's **`Profile.json`** file and your profile will be displayed on the project's website.
+<h3 align="center">Once your changes are merged, <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="25" height="25" /> your profile data will be added to the project's **`Profile.json`** file and your profile will be displayed on the project's website.</h3>
 
 <a id="contributing"></a>
 
