@@ -88,16 +88,8 @@
    ```
 8. **Save** the **`ProfileLists.json`** file.
 9. **Contribute** Follow this 👇🏻:
-10. **Commit your changes:** To save your changes to the branch,, run the following command:
-    ```bash
-    git commit -m "add: <your-name>"
-    ```
-14. **Push to the branch:** To push the changes to the remote repository, run the following command:
-    ```bash
-    git push origin add-profile
-    ```
-15. **Create a pull request:** To submit your changes to the main repository, create a pull request by clicking on the "Compare & pull request" button on your forked repository page.
-16. **Wait for review and merge:** Wait for the project maintainers to review and merge your changes.
+  <img src="./public/How to contribute.png"/>
+10. **Wait for review and merge:** Wait for the project maintainers to review and merge your changes.
 
 Once your changes are merged, your profile data will be added to the project's **`Profile.json`** file and your profile will be displayed on the project's website.
 
