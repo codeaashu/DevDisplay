@@ -4,7 +4,12 @@
   "bio": "A dedicated B.Tech 3rd year student at GCET G-Noida, passionate about coding. Committed to continuous learning and mastering new skills.",
   "avatar": "https://github.com/Abhishekkumarsharma1001.png",
   "portfolio": "https://github.com/Abhishekkumarsharma1001",
-  "skills": ["HTML", "CSS", "JS", "Cyber Security"],
+  "skills": [
+    "HTML", 
+    "CSS", 
+    "JS", 
+    "Cyber Security"
+  ],
   "social": {
     "GitHub": "https://github.com/Abhishekkumarsharma1001",
     "Twitter": "https://x.com/ABHISHE89558593",
