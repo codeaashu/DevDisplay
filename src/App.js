@@ -1,6 +1,6 @@
 import AboutUS from './components/Sidebar/AboutUs';
 import Homepage from './Homepage';
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <BrowserRouter>

@@ -20,6 +20,7 @@ function Sidebar() {
       setTheme('dark');
     }
   }
+
   const navigate = useNavigate();
   function handleAbout(e) {
     e.preventDefault();
@@ -53,27 +54,26 @@ function Sidebar() {
         </div>
       </div>
       <div className="text-secondaryColor dark:text-white">Discover and Connect with Skilled Developers.</div>
-      <div className="my-5 flex flex-row items-center justify-center space-x-3 pt-5 md:flex-col md:space-x-0 md:space-y-5">
+      <div className="my-5 flex flex-row items-center justify-center space-x-3 pt-1 md:flex-col md:space-x-0 md:space-y-5 md:pt-5">
         <a href="https://github.com/codeaashu/DevDisplay#how-to-add-your-profile-" target="_blank" rel="noreferrer">
-          <button className="inline-block h-[50px] w-full cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-6 py-2 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white md:w-[200px]">
+          <button className="inline-block h-[30px] w-full cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-6 py-2 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white md:h-[50px] md:w-[200px]">
             Add your profile
           </button>
         </a>
 
         <a href="https://www.linkedin.com/company/devdisplay/" target="_blank" rel="noreferrer">
-          <button className="mt-0 inline-flex h-[50px] w-full cursor-pointer items-center justify-center space-x-3 rounded-lg border-2 border-textSecondary bg-textSecondary px-6 py-2 font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white md:w-[200px]">
+          <button className="mt-0 inline-flex h-[30px] w-full cursor-pointer items-center justify-center space-x-3 rounded-lg border-2 border-textSecondary bg-textSecondary px-6 py-2 font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white md:h-[50px] md:w-[200px]">
             <span>Connect us</span>
             <FaLinkedin className="text-[1.2rem] text-blue-600 duration-300 hover:scale-125" />
           </button>
         </a>
       </div>
-      <button
-        className="border-secondaryColor-blue mt-3 inline-flex h-[50px] w-full items-center justify-center space-x-3 rounded-lg border-2 border-blue-400 bg-secondaryColor px-6 py-2 font-poppoins text-sm text-white transition-all duration-500 dark:border-textSecondary dark:text-white md:mx-12 md:mt-0 md:flex md:w-[200px] md:space-x-3"
-        onClick={handleAbout}
-      >
-        <span className="md:flex md:items-center">About Us</span>
-        <FcAbout className="text-[1.2rem] duration-300 hover:scale-125" />
-      </button>
+      <a href="https://www.linkedin.com/company/devdisplay/" target="_blank" rel="noreferrer">
+        <button className="border-secondaryColor-blue mx-[130px] mt-1 inline-flex h-[30px] items-center justify-center space-x-3 rounded-lg border-2 border-blue-400 bg-secondaryColor  bg-sky-500 px-6 py-2 font-poppoins text-sm  transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:border-textSecondary dark:text-white md:mx-12 md:mt-0 md:flex md:h-[50px] md:w-[200px] md:space-x-3">
+          <span className=" md:flex md:items-center">Sponser</span>
+          <FcAbout className="text-[1.2rem] duration-300 hover:scale-125" />
+        </button>
+      </a>
     </div>
   );
 }
