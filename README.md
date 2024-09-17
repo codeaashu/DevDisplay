@@ -16,7 +16,8 @@
 <h1 align="center">About <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /></h1>
 DevDisplay is an Open Source Developer Community where you can discover and Connect with Skilled Developers, share your ideas, and build projects with collaborative support also you can promote your project through this community. With DevDisplay, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.<br><br>
 
-Connect with DevDisplay Community on  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" />  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/devdisplay/)
+Connect with DevDisplay Community on <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /> [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/devdisplay/)
+
 </div><hr>
 
 <h1 align="center">How to add your profile <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thinking%20Face.png" alt="Thinking Face" width="25" height="25" /></h1>
@@ -31,6 +32,7 @@ Connect with DevDisplay Community on  <img src="https://raw.githubusercontent.co
 3. **Create a new JSON file** named **`your_github_username.json`** (replace your_github_username with your actual GitHub username). Open the file you just created.
 
 4. **Add** the following JSON object, replacing the placeholder values with your own details:
+
    ```json
    {
      "name": "Your Name",
@@ -46,25 +48,21 @@ Connect with DevDisplay Community on  <img src="https://raw.githubusercontent.co
      }
    }
    ```
- 
+
 5. **Save** the **`your_github_username.json`** file.
 
 6. **Navigate** to the **`src`** folder in your project directory. Open the **`ProfilesList.json`** file.
 
 7. **Add your JSON filename** (your_github_username.json) to the array of filenames in the ProfileList.json file, like this:
+
    ```json
-   [
-   "filename1.json",
-   "filename2.json",
-   "filename3.json",
-   "your_github_username.json"
-   ]
+   ["filename1.json", "filename2.json", "filename3.json", "your_github_username.json"]
    ```
 
 8. **Save** the **`ProfileLists.json`** file.
 
 9. **Contribute** Follow this 👇🏻:
-  <img src="./public/How to contribute.png"/>
+   <img src="./public/How to contribute.png"/>
 
 10. **Wait for review and merge:** Wait for the project maintainers to review and merge your changes.
 
@@ -84,8 +82,8 @@ Connect with DevDisplay Community on  <img src="https://raw.githubusercontent.co
 
 <h4 align="center"><img src="https://contrib.rocks/image?repo=codeaashu/DevDisplay" /><br><a href="https://ashutosh-kumar.vercel.app/"><strong>Ashutosh Singh</strong></a><br><br>
 
-  [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/2fB3YRZt)  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ashutoshkumaraashu)  [![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu)  [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/warrior_aashuu)  [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/codeaashu)<br>
-  <br>A Man Who Codes & Designs Using His Hidden Creativity. A proficient Web Developer & Designer specializing in crafting captivating Websites & Apps. Till now he has built 50+ WEB APP.</h4><hr>
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/2fB3YRZt) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ashutoshkumaraashu) [![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/warrior_aashuu) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/codeaashu)<br>
+<br>A Man Who Codes & Designs Using His Hidden Creativity. A proficient Web Developer & Designer specializing in crafting captivating Websites & Apps. Till now he has built 50+ WEB APP.</h4><hr>
 
 <h1 align="center">© LICENSE <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Check%20Box%20With%20Check.webp" alt="Check Box With Check" width="25" height="25" /></h1>
 

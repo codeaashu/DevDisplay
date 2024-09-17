@@ -45,24 +45,31 @@ function Sidebar() {
           </button>
         </div>
       </div>
-      <div className="text-secondaryColor dark:text-white">Open Source community where you can discover, connect, collab with skilled developers, share your ideas then build projects and also promote the project through this community.</div>
+      <div className="text-secondaryColor dark:text-white">
+        Open Source community where you can discover, connect, collab with skilled developers, share your ideas then
+        build projects and also promote the project through this community.
+      </div>
       <div className="pt-5">
-        <a href="https://github.com/codeaashu/DevDisplay?tab=readme-ov-file#how-to-add-your-profile-" target="_blank" rel="noreferrer">
-          <button className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white mr-4">
+        <a
+          href="https://github.com/codeaashu/DevDisplay?tab=readme-ov-file#how-to-add-your-profile-"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             Add your profile
           </button>
         </a>
         <a href="https://www.linkedin.com/company/devdisplay/" target="_blank" rel="noreferrer">
-          <button className="inline-flex items-center cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+          <button className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             <span>Connect</span>
-            <FaLinkedin className="ml-2 text-1xl text-black-600 duration-300 hover:scale-125" />
+            <FaLinkedin className="text-1xl text-black-600 ml-2 duration-300 hover:scale-125" />
           </button>
         </a>
       </div>
       <div className="pt-6">
         <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
-          <button className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white mr-4">
-          DevDisplay - Community Spotlight 🌟
+          <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+            DevDisplay - Community Spotlight 🌟
           </button>
         </a>
       </div>
