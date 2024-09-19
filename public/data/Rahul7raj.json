@@ -1,0 +1,12 @@
+{
+    "name": "Rahul K Raj",
+    "location": "Bharuch, Gujarat, India",
+    "bio": "Hi 👋, I'm Rahul Raj Kushwaha, a passionate full-stack developer from India who loves coding, development, and exploring various creative pursuits. I enjoy working with multiple languages to find the best fit for each project and prefer remote work to utilize my time efficiently.",
+    "avatar": "https://github.com/Rahul7raj.png",
+    "portfolio": "https://pageraja.com/rahulkraj/",
+    "skills": ["NodeJS", "ReactJS", "PHP", "Laravel", "TypeScript", "UI/UX", "C#", ".Net", "Ionic", "Angular", "Golang"],
+    "social": {
+      "GitHub": "https://github.com/Rahul7raj",
+      "LinkedIn": "https://www.linkedin.com/in/rahul-k-raj/"
+    }
+  }
