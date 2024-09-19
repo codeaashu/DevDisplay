@@ -1,0 +1,14 @@
+{
+  "name": "Vaibhav Kumar",
+  "location": "Patna ,Bihar",
+  "bio": "A proficient Full Stack Developer with extensive experience in developing scalable Frontend and backend systems and Full Stack Apps.
+",
+  "avatar": "https://github.com/<your-github-username>.png",
+  "portfolio": "Your Portfolio URL or Github URL",
+  "skills": ["HTML", "CSS", "JAVASCRIPT","PYTHON","FIGMA"],
+  "social": {
+    "GitHub": "https://github.com/<github-username>",
+    "Twitter": "https://twitter.com/<twitter-username>",
+    "LinkedIn": "https://www.linkedin.com/in/vaibhav620?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app>"
+  }
+}
