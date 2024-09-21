@@ -1,0 +1,13 @@
+{
+  "name": "Ankesh Malhotra",
+  "location": "Patna",
+  "bio": "",
+  "avatar": "https://github.com/ankeshmalhotra>.png",
+  "portfolio": "https://github.com/ankeshmalhotra",
+  "skills": ["java", "git/github", "MySql"],
+  "social": {
+    "GitHub": "https://github.com/<ankeshmalhotra>",
+    "Twitter": "https://twitter.com/@malhotra_ankesh",
+    "LinkedIn": "https://www.linkedin.com/in/ankesh-malhotra-52a51824a/"
+  }
+}
