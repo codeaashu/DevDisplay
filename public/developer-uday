@@ -1,0 +1,11 @@
+{
+  "name": "Uday Pratap Singh",
+  "location": "Patna, Bihar",
+  "bio": "I love to create creative animated portfolios and landing pages",
+  "avatar": "https://github.com/developer-uday.png",
+  "skills": ["HTML", "CSS", "JavaScript", "React.js", "GSAP & Lenis", "ScrollTrigger", "TypeScript", "Tailwindcss"],
+  "social": {
+    "GitHub": "https://github.com/developer-uday",
+    "LinkedIn": "https://www.linkedin.com/in/udaysingh6202/"
+  }
+}
