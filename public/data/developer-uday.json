@@ -3,9 +3,11 @@
   "location": "Patna, Bihar",
   "bio": "I love to create creative animated portfolios and landing pages",
   "avatar": "https://github.com/developer-uday.png",
+  "portfolio": "https://github.com/developer-uday",
   "skills": ["HTML", "CSS", "JavaScript", "React.js", "GSAP & Lenis", "ScrollTrigger", "TypeScript", "Tailwindcss"],
   "social": {
     "GitHub": "https://github.com/developer-uday",
+    "Twitter": "#",
     "LinkedIn": "https://www.linkedin.com/in/udaysingh6202/"
   }
 }
