@@ -3,7 +3,7 @@
     "location": "Vadodara, Gujarat, India",
     "bio": "Hi, I'm Viral Jain, a full-stack web developer focused on building innovative web applications with React (Next.js)",
     "avatar": "https://github.com/viraljain7.png",
-    "portfolio": "https://shadow-fox-two.vercel.app.com",
+    "portfolio": "https://shadow-fox-two.vercel.app/",
     "skills": ["Next.js", "TypeScript",  "Javascript", "React.js", "Tailwind css", "Redux toolkit","MongoDB","Expressjs","Nodejs"],
     "social": {
       "GitHub": "https://github.com/viraljain7",
