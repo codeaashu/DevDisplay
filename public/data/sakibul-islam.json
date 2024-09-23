@@ -1,0 +1,23 @@
+{
+  "name": "Sakibul Islam",
+  "location": "Barishal, Bangladesh",
+  "bio": "I love bringing ideas into life",
+  "avatar": "https://github.com/sakibul-islam.png",
+  "portfolio": "https://sakibulislam.dev",
+  "skills": [
+    "JavaScript",
+    "Typescript",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "Marterial UI",
+    "TailwindCSS",
+    "Chrome Extension Development"
+  ],
+  "social": {
+    "GitHub": "https://github.com/sakibul-islam",
+    "Twitter": "https://twitter.com/sakibulislam21",
+    "LinkedIn": "https://www.linkedin.com/in/sakibulislam21"
+  }
+}
