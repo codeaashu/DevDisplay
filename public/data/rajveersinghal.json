@@ -1,13 +1,13 @@
 {
   "name": "Rajveer SInghal",
   "location": "Nawada, Bihar, India",
-  "bio": "Rajveer Singhal is an MCA student specializing in data science, skilled in Python, Java, and web development, with a strong focus on AI and front-end technologies.",
+  "bio": "An MCA student specializing in data science, skilled in Python, Java, and web development, with a strong focus on AI and front-end technologies.",
   "avatar": "https://github.com/rajveersinghal.png",
   "portfolio": "https://rajveersinghal.github.io/My_Portfolio/",
-  "skills": ["Data Analysis", "Web Development", "AI and Machine Learning","Programming"],
+  "skills": ["Data Analysis", "Web Development", "AI and Machine Learning", "Programming"],
   "social": {
     "GitHub": "https://github.com/rajveersinghal",
-    "Twitter": "https://twitter.com/<twitter-username>",
+    "Twitter": "#",
     "LinkedIn": "https://www.linkedin.com/in/rajveer-singhal/"
   }
 }
