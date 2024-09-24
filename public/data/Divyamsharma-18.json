@@ -1,5 +1,5 @@
 {
-"name": "Divyam Sharma",
+  "name": "Divyam Sharma",
   "location": "India",
   "bio": "Coder | GameDev | AI enthusiast | Loves to turn creative ideas into interactive digital experiences",
   "avatar": "https://github.com/Divyamsharma-18.png",
@@ -12,7 +12,7 @@
     "Next.js",
     "Chakra UI",
     "Tailwind",
-    "FIGMA", 
+    "FIGMA" 
   ],
   "social": {
     "GitHub": "https://github.com/Divyamsharma-18",
