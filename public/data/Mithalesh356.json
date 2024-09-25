@@ -1,0 +1,13 @@
+{
+  "name": "Mithalesh Kumar",
+  "location": "Patna,Bihar",
+  "bio": "I am a Backend Developer at @Americana ",
+  "avatar": "https://github.com/Mithalesh356.png",
+  "portfolio": "",
+  "skills": ["ReactJs", "C#.Net", "SQL Server"],
+  "social": {
+    "GitHub": "https://github.com/Mithalesh@356",
+    "Twitter": "https://twitter.com/<twitter-username>",
+    "LinkedIn": "https://www.linkedin.com/in/<linkedin-username>"
+  }
+}
