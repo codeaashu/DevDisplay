@@ -1,0 +1,21 @@
+{
+  "name": "Chiluveru rohith kumar",
+  "location": "vadodara,Gujarat,India",
+  "bio": "I'm Rohith Chiluveru— a UI/UX-centric front-end developer with expertise in JavaScript, HTML, and CSS and advancing in React.",
+  "avatar": "http://localhost:3000/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F166550088%3Fv%3D4&w=384&q=95",
+  "portfolio": "https://rohithchiluveru.vercel.app/",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "Figma",
+    "Tailwind CSS",
+    "Bootstrap"
+  ],
+  "social": {
+    "GitHub": "https://github.com/rohithchiluveru",
+    "Twitter": "https://twitter.com/rohithchiluveru",
+    "LinkedIn": "https://www.linkedin.com/in/rohithchiluveru"
+  }
+}
