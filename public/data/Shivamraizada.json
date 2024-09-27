@@ -1,0 +1,13 @@
+{
+  "name": "Shivam Raizada",
+  "location": "Patna, India",
+  "bio": "Aspiring Flutter Developer",
+  "avatar": "https://github.com/Shivamraizada.png",
+  "portfolio": "https://github.com/Shivamraizada",
+  "skills": ["Flutter", "JAVA", "HTML", "CSS", "JS"],
+  "social": {
+    "GitHub": "https://github.com/Shivamraizada",
+    "Twitter": "https://twitter.com/Shivam_Raizada_",
+    "LinkedIn": "https://www.linkedin.com/in/shivam-kumar-ray-b94502285/"
+  }
+}
