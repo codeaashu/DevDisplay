@@ -38,13 +38,13 @@ Connect with DevDisplay Community on <img src="https://raw.githubusercontent.com
      "name": "Your Name",
      "location": "Your Location",
      "bio": "Your Bio should be 20-30 words not more than that",
-     "avatar": "https://github.com/<your-github-username>.png",
+     "avatar": "https://github.com/your-github-username.png",
      "portfolio": "Your Portfolio URL or Github URL",
      "skills": ["Your Skill 1", "Your Skill 2", "..."],
      "social": {
-       "GitHub": "https://github.com/<github-username>",
-       "Twitter": "https://twitter.com/<twitter-username>",
-       "LinkedIn": "https://www.linkedin.com/in/<linkedin-username>"
+       "GitHub": "https://github.com/your-github-username",
+       "Twitter": "https://twitter.com/your-twitter-username",
+       "LinkedIn": "https://www.linkedin.com/in/your-linkedin-username"
      }
    }
    ```
