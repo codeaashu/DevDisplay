@@ -1,0 +1,13 @@
+{
+    "name": "Abhishek Kumar",
+    "location": "Dhanbad",
+    "bio": "Your Bio should be 20-30 words not more than that",
+    "avatar": "https://avatars.githubusercontent.com/u/122656682?v=4",
+    "portfolio": "https://github.com/Code-With-Abhishek-Kumar",
+    "skills": ["HTML", "CSS", "JS" , "node js" , "Express Js" , "tailwindcss"],
+    "social": {
+      "GitHub": "https://github.com/Code-With-Abhishek-Kumar",
+      "Twitter": "#",
+      "LinkedIn": "https://www.linkedin.com/in/abhishek-gupta-545aa2260/"
+    }
+  }
