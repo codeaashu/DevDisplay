@@ -21,17 +21,17 @@ function Sidebar() {
 
   return (
     <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%] md:px-2 lg:px-7">
-      <div className="mb-2 flex h-12 items-center gap-2.5">
+      <div className="mb-2 flex h-12 items-center gap-2.5  ">
         <div className="text-secondaryColor dark:text-white">
           <FontAwesomeIcon icon={faCode} size="2xl" />
         </div>
         <a href="https://devdisplay.vercel.app/">
-          <div className="flex text-[2rem] font-bold md:text-[1rem] lg:text-[2rem]">
+          <div className="flex text-[2rem] font-bold md:text-[1rem] lg:text-[1.35rem] xl:text-[1.75rem]  ">
             <p className="text-secondaryColor dark:text-white">Dev</p>
             <p className="text-textSecondary">Display</p>
           </div>
         </a>
-        <div className="ml-auto">
+        <div className="ml-auto  ">
           <button
             type="button"
             className="h-10 w-10 cursor-pointer rounded-lg border-2 border-borderSecondary bg-white transition-all hover:border-textSecondary hover:text-textSecondary dark:border-borderColor dark:bg-textPrimary dark:text-white dark:hover:border-textSecondary dark:hover:text-textSecondary"
@@ -55,8 +55,8 @@ function Sidebar() {
           target="_blank"
           rel="noreferrer"
         >
-          <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-            Add  your  profile
+          <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white md:mb-2 ">
+            Add your profile
           </button>
         </a>
         <a href="https://www.linkedin.com/company/devdisplay/" target="_blank" rel="noreferrer">
@@ -69,12 +69,12 @@ function Sidebar() {
       <div className="pt-6">
         <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
           <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-          DevDisplay - Community Spotlight 🌟
+            DevDisplay - Community Spotlight 🌟
           </button>
         </a>
         {/* <a href="#" target="_blank" rel="noreferrer">
           <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-            Opportunities  Hub 
+            Opportunities  Hub
           </button>
         </a> */}
       </div>
