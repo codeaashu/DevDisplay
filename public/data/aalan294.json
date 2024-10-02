@@ -1,0 +1,13 @@
+{
+  "name": "Aalan sason singarayan A",
+  "location": "Chennai, Tamil Nadu, India",
+  "bio": "Web3 Developer | Specializing in Ethereum DApps | Proficient in MERN Stack",
+  "avatar": "https://github.com/aalan294.png",
+  "portfolio": "https://aalans-portfolio.onrender.com/",
+  "skills": ["React", "Node", "MongoDB", "MERN", "Solidity", "Ethereum", "Blockchain", "Web3", "RestAPI"],
+  "social": {
+    "GitHub": "https://github.com/aalan294",
+    "Twitter": "https://twitter.com/aalan294",
+    "LinkedIn": "https://www.linkedin.com/in/aalan294"
+  }
+}
