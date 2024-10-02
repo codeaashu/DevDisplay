@@ -1,0 +1,13 @@
+{
+  "name": "Mohit Agrawal",
+  "location": "India",
+  "bio": "I craft softwares for mobile and browsers with different languages.",
+  "avatar": "https://github.com/mohitagrawal939.png",
+  "portfolio": "https://mohitagrawal.xyz",
+  "skills": ["ReactJS", "NodeJS", "ExpressJS", "AWS", "Ci/CD", "VCS"],
+  "social": {
+    "GitHub": "https://github.com/mohitagrawal939",
+    "Twitter": "https://twitter.com/mohitagrawal939",
+    "LinkedIn": "https://www.linkedin.com/in/mohitagrawal939"
+  }
+}

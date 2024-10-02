@@ -1,0 +1,28 @@
+{
+  "name": "Richa Hazarika",
+  "location": "Birbhum, West Bengal, India",
+  "bio": "Student at Maryam college, currently learning Web3 Technology. I'm passionate to become a Blockchain Developer",
+  "avatar": "https://github.com/richahazarika.png",
+  "portfolio": "https://github.com/richahazarika",
+  "skills": [
+    "Web3",
+    "Blockchain",
+    "Cryptography",
+    "Solidity",
+    "Rust",
+    "GO",
+    "JavaScript",
+    "TypeScript",
+    "Vyper",
+    "IPFS",
+    "Metamask",
+    "Ethereum",
+    "AWS",
+    "Azure"
+  ],
+  "social": {
+    "GitHub": "https://github.com/richahazarika",
+    "Twitter": "https://x.com/RichaHazarika7",
+    "LinkedIn": "https://www.linkedin.com/in/richa-hazarika-335422115/"
+  }
+}

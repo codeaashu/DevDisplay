@@ -1,0 +1,13 @@
+{
+  "name": "Abhijit Kumar Gupta",
+  "location": "Howrah, West Bengal",
+  "bio": "Developer skilled in HTML, CSS, JavaScript, C, and Python, with experience in front-end and back-end development, focusing on creating dynamic and efficient web applications.",
+  "avatar": "https://github.com/AbhijitKumarGupta04.png",
+  "portfolio": "https://github.com/AbhijitKumarGupta04",
+  "skills": ["HTML", "CSS", "JAVASCRIPT", "PYTHON"],
+  "social": {
+    "GitHub": "https://github.com/AbhijitKumarGupta04",
+    "Twitter": "https://x.com/KrguptaAbhijit",
+    "LinkedIn": "https://www.linkedin.com/in/abhijit-kr-gupta-61701b240/"
+  }
+}

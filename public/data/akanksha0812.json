@@ -1,0 +1,13 @@
+{
+  "name": "Akanksha Mishra",
+  "location": "Delhi, India",
+  "bio": "Software Engineer",
+  "avatar": "https://github.com/akanksha0812.png",
+  "portfolio": "https://github.com/akanksha0812",
+  "skills": ["NestJS", "Typescript", "NodeJS", "ReactJS", "SQL", "NestJS", "API", "Git"],
+  "social": {
+    "GitHub": "https://github.com/akanksha0812",
+    "Twitter": "https://x.com/Akanksh13529302",
+    "LinkedIn": "https://www.linkedin.com/in/akanksha-mishra-845a1321a/"
+  }
+}

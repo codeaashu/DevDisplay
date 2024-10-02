@@ -1,0 +1,12 @@
+{
+  "name": "Raunak Pandey",
+  "location": "Kolkata, West Bengal, India",
+  "bio": "Pursuing BCA at The Calcutta Anglo Gujarati Education Society",
+  "avatar": "https://github.com/Raunak-Pandey.png",
+  "portfolio": "https://github.com/Raunak-Pandey",
+  "skills": ["C", "HTML", "CSS", "JS"],
+  "social": {
+    "GitHub": "https://github.com/Raunak-Pandey",
+    "LinkedIn": "https://www.linkedin.com/in/raunak-pandey-bca"
+  }
+}

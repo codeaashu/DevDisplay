@@ -1,0 +1,13 @@
+{
+  "name": "Sampuran Kishore Srivastava",
+  "location": "New Delhi",
+  "bio": "Software Engineer",
+  "avatar": "https://github.com/Sampurankishoresrivastava.png",
+  "portfolio": "https://my-portfolio-psi-neon-10.vercel.app/",
+  "skills": ["Cpp", "JavaScript", "SQL", "ReactJs", "NodeJs"],
+  "social": {
+    "GitHub": "https://github.com/Sampurankishoresrivastava",
+    "Twitter": "https://x.com/SampuranKishore",
+    "LinkedIn": "https://www.linkedin.com/in/sampuran-kishore-srivastava-723b36212/"
+  }
+}
