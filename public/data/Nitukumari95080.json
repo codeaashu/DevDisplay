@@ -1,0 +1,13 @@
+{
+  "name": "Nitu Kumari",
+  "location": "Dehradun",
+  "bio": "I am an full-stack Developer .I specialize in JavaScript and python. Passionate about open-source, clean code, and continuous learning new continuous learning",
+  "avatar": "https://github.com/Nitukumari95080.png",
+  "portfolio": "https://github.com/Nitukumari95080/newPortfolioBoot",
+  "skills": ["HTML5", "CSS", "React","JavaScript","NodeJs","Express","MongoDb","Figma","Canva"],
+  "social": {
+    "GitHub": "https://github.com/Nitukumari95080",
+    "Twitter": "https://twitter.com/NituKumari70",
+    "LinkedIn": "https://www.linkedin.com/in/nitukumari70/"
+  }
+}
