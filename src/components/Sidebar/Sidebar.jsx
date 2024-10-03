@@ -77,11 +77,9 @@ function Sidebar() {
           Spotlight
           </button>
         </a>
-        <a href="#" target="_blank" rel="noreferrer">
           <button onClick={handleOpportunities} className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             Opportunities Hub
           </button>
-        </a>
       </div>
     </div>
   );
