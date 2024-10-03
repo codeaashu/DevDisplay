@@ -7,6 +7,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@reduxjs/toolkit": "^2.2.7",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^14.2.1",
     "@testing-library/user-event": "^14.5.2",
@@ -18,6 +19,8 @@
     "react-icons": "^5.0.1",
     "react-router-dom": "^6.22.0",
     "react-scripts": "5.0.1",
+    "redux": "^5.0.1",
+    "typewriter-effect": "^2.21.0",
     "web-vitals": "^3.5.2"
   },
   "scripts": {

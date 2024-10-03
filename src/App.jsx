@@ -3,12 +3,15 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Opportunities from './Page/Opportunities';
 function App() {
   return (
-    <BrowserRouter>
+      
+      <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/opportunities" element={<Opportunities />} />
       </Routes>
     </BrowserRouter>
+  
+
   );
 }
 export default App;

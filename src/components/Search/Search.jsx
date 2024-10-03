@@ -1,13 +1,17 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useContext } from 'react';
 import useDebounce from '../../hooks/useDebouncer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlass, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass, faMoon, faSun, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { ThemeContext } from '../../context/ThemeContext';
 
 function Search({ onSearch }) {
   const [searchValue, setSearchValue] = useState('');
   const [prevSearchValue, setPrevSearchValue] = useState('');
   const [searchCriteria, setSearchCriteria] = useState('name');
   const searchInput = useRef(null);
+  const {theme, toggletheme} = useContext(ThemeContext)
+
+
 
   const handleInputChange = (event) => {
     setSearchValue(event.target.value);
@@ -60,7 +64,7 @@ function Search({ onSearch }) {
   return (
     <div className="relative flex items-center justify-end space-x-4 pb-6">
       <select
-        className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
+        className={theme === "light" ?  "focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white" :  "focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 text-base  outline-none dark:border-borderColor dark:bg-secondaryColor   text-white bg-gray-700"}
         value={searchCriteria}
         onChange={handleCriteriaChange}
       >
@@ -70,7 +74,7 @@ function Search({ onSearch }) {
       </select>
       <div className="relative w-full">
         <input
-          className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 w-full rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 pr-12 font-spaceMono text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
+          className={theme === "light" ? "focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 w-full rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 pr-12 font-spaceMono text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white" : "focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 w-full rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 pr-12 font-spaceMono text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white bg-gray-700"}
           ref={searchInput}
           type="text"
           onChange={handleInputChange}
@@ -81,17 +85,28 @@ function Search({ onSearch }) {
         {searchValue ? (
           <FontAwesomeIcon
             onClick={handleDeleteButtonClick}
-            className="hover:text-primaryFocus dark:hover:text-secondaryFocus absolute right-4 top-1/2 -translate-y-1/2 scale-125 transform cursor-pointer text-xl text-secondaryColor dark:text-white"
+            className={ "hover:text-primaryFocus dark:hover:text-secondaryFocus absolute right-4 top-1/2 -translate-y-1/2 scale-125 transform cursor-pointer text-xl text-secondaryColor dark:text-white "}
             icon={faXmark}
           />
         ) : (
           <FontAwesomeIcon
             onClick={handleSearchButtonClick}
-            className="hover:text-primaryFocus dark:hover:text-secondaryFocus absolute right-4 top-1/2 -translate-y-1/2 transform cursor-pointer text-xl text-secondaryColor dark:text-white"
+            className={theme === "light" ? "hover:text-primaryFocus dark:hover:text-secondaryFocus absolute right-4 top-1/2 -translate-y-1/2 transform cursor-pointer text-xl text-secondaryColor dark:text-white" : "hover:text-primaryFocus dark:hover:text-secondaryFocus absolute right-4 top-1/2 -translate-y-1/2 transform cursor-pointer text-xl text-secondaryColor dark:text-white text-gray-500" }
             icon={faMagnifyingGlass}
           />
         )}
       </div>
+      <button
+            type="button"
+            className={theme === "light" ? "h-10 w-10 cursor-pointer rounded-lg border-2 border-borderSecondary bg-white transition-all hover:border-textSecondary hover:text-textSecondary dark:border-borderColor dark:bg-textPrimary dark:text-white dark:hover:border-textSecondary dark:hover:text-textSecondary" : "h-10 w-10 cursor-pointer rounded-lg border-2 border-borderSecondary bg-gray-500 transition-all hover:border-textSecondary hover:text-textSecondary dark:border-borderColor dark:bg-textPrimary dark:text-white dark:hover:border-textSecondary dark:hover:text-textSecondary"}
+            onClick={toggletheme}
+          >
+            {theme === 'light'  ? (
+              <FontAwesomeIcon icon={faSun} fontSize="1rem" />
+            ) : (
+              <FontAwesomeIcon icon={faMoon} fontSize="1rem" />
+            )}
+          </button>
     </div>
   );
 }

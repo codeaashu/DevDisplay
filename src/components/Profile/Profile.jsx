@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
+import { ThemeContext } from '../../context/ThemeContext';
 
 function Profile({ data }) {
   return <Card data={data} />;
 }
 
 function Card({ data }) {
+  
   const cardRef = React.useRef();
+  const {theme} = useContext(ThemeContext)
 
   const handleWheel = (event) => {
     event.stopPropagation();
@@ -28,7 +31,7 @@ function Card({ data }) {
   }, []);
 
   return (
-    <div className="mb-6 h-auto rounded-lg bg-white p-4 shadow dark:bg-textPrimary">
+    <div className="mb-6 h-auto rounded-lg  p-4 shadow dark:bg-textPrimary border">
       <div className="relative flex gap-4">
         <div className="h-24 w-24 flex-shrink-0">
           <img src={data.avatar} className="h-full w-full rounded-full" alt="User logo" />
@@ -36,7 +39,7 @@ function Card({ data }) {
         <div className="w-[55%] sm:w-[75%]">
           <h3>
             <a
-              className="text-lg font-bold hover:text-textSecondary dark:text-white"
+              className={theme === "light" ? "text-lg font-bold hover:text-textSecondary dark:text-white" : "text-lg font-bold hover:text-textSecondary dark:text-white text-white"}
               href={data.portfolio}
               target="_blank"
               rel="noreferrer"
@@ -44,7 +47,7 @@ function Card({ data }) {
               {data.name}
             </a>
           </h3>
-          <p className="flex items-center gap-x-1 text-sm dark:text-white">
+          <p className={theme === 'light' ? "flex items-center gap-x-1 text-sm dark:text-white" : " text-gray-400 flex items-center gap-x-1 text-sm dark:text-white" }>
             <FaLocationDot />
             {data.location}
           </p>
@@ -76,7 +79,7 @@ function Card({ data }) {
         </div>
       </div>
       <div className="mt-4">
-        <div className="dark:text-white">{data.bio}</div>
+        <div className={theme === "light" ? "dark:text-white" : "text-gray-300"}>{data.bio}</div>
         <div className="mt-1 flex gap-x-4">
           <a href={data.social.GitHub} target="_blank" rel="noreferrer">
             <FaGithub className="text-2xl text-blue-600 duration-300 hover:scale-125" />

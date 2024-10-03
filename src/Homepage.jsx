@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useContext } from 'react';
 import Profile from './components/Profile/Profile';
 import ProfileSkeleton from './components/ProfileSkeleton/ProfileSkeleton';
 import Search from './components/Search/Search';
@@ -8,12 +8,14 @@ import NoResultFound from './components/NoResultFound/NoResultFound';
 import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import filenames from './ProfilesList.json';
+import { ThemeContext } from './context/ThemeContext';
 
 function Homepage() {
   const profilesRef = useRef();
   const [profiles, setProfiles] = useState([]);
   const [searching, setSearching] = useState(false);
   const [combinedData, setCombinedData] = useState([]);
+  const {theme} = useContext(ThemeContext)
   const [currentPage, setCurrentPage] = useState(1);
   const [shuffledProfiles, setShuffledProfiles] = useState([]);
   const [loadingProfiles, setLoadingProfiles] = useState(false);
@@ -133,7 +135,7 @@ function Homepage() {
   };
 
   return currentUrl === '/' ? (
-    <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
+    <div className={theme === 'light' ? "App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row" : "App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row bg-slate-900"} >
       <Sidebar />
       <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7" ref={profilesRef}>
         <Search onSearch={handleSearch} />
