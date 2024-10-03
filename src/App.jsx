@@ -1,7 +1,7 @@
 // import AboutUS from './components/Sidebar/AboutUs';
 import Homepage from './Homepage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Opportunities from './page/Opportunities';
+import Opportunities from './Page/Opportunities';
 function App() {
   return (
     <BrowserRouter>
