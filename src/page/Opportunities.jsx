@@ -8,7 +8,6 @@ const opportunities = [
   { title: 'Hackathons', items: ['Global AI Hackathon', 'Blockchain Innovation Challenge', 'Green Tech Hackathon'] },
   { title: 'Tech Events', items: ['TechCrunch Disrupt', 'Web Summit', 'Google I/O'] },
   { title: 'BootCamps', items: ['Full Stack Web Development', 'Data Science Immersive', 'UX/UI Design Bootcamp'] },
-  { title: 'Tech Webinars', items: ['AI in Healthcare', 'Cybersecurity Best Practices', 'Cloud Computing Trends'] },
   { title: 'Devfest', items: ['Google DevFest 2024', 'Apple WWDC', 'Microsoft Build'] },
 ]
 
