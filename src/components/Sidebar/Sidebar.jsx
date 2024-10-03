@@ -1,28 +1,35 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
 
 function Sidebar() {
-  const [theme, setTheme] = useState('dark');
-  const navigate = useNavigate();
-  function toggleTheme() {
-    const htmlElement = document.documentElement;
-    const isDarkModeEnabled = htmlElement.classList.contains('dark');
+  const [theme, setTheme] = useState(() => {
+    return document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+  });
 
-    if (isDarkModeEnabled) {
-      htmlElement.classList.remove('dark');
-      setTheme('light');
-    } else {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const htmlElement = document.documentElement;
+    if (theme === 'dark') {
       htmlElement.classList.add('dark');
-      setTheme('dark');
+      htmlElement.classList.remove('light');
+    } else {
+      htmlElement.classList.add('light');
+      htmlElement.classList.remove('dark');
     }
+  }, [theme]);
+
+  function toggleTheme() {
+    setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
   }
 
   function handleOpportunities() {
     navigate('/opportunities');
   }
+
   return (
     <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%] md:px-2 lg:px-7">
       <div className="mb-2 flex h-12 items-center gap-2.5">
@@ -41,10 +48,10 @@ function Sidebar() {
             className="h-10 w-10 cursor-pointer rounded-lg border-2 border-borderSecondary bg-white transition-all hover:border-textSecondary hover:text-textSecondary dark:border-borderColor dark:bg-textPrimary dark:text-white dark:hover:border-textSecondary dark:hover:text-textSecondary"
             onClick={toggleTheme}
           >
-            {theme === 'light' ? (
-              <FontAwesomeIcon icon={faMoon} fontSize="1rem" />
-            ) : (
+            {theme === 'dark' ? (
               <FontAwesomeIcon icon={faSun} fontSize="1rem" />
+            ) : (
+              <FontAwesomeIcon icon={faMoon} fontSize="1rem" />
             )}
           </button>
         </div>
