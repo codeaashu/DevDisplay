@@ -56,9 +56,7 @@ export default function Opportunities() {
               {category.items.map((item, index) => (
                 <li key={index} className="flex items-center">
                   <ExternalLink className="mr-2 h-4 w-4 text-[#00a6fb]" />
-                  <a href="#" className="transition-colors hover:text-[#00a6fb]">
-                    {item}
-                  </a>
+                  <button className="text-left transition-colors hover:text-[#00a6fb]">{item}</button>
                 </li>
               ))}
             </ul>
