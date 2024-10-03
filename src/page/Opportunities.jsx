@@ -12,7 +12,7 @@ const opportunities = [
   { title: 'Devfest', items: ['Google DevFest 2024', 'Apple WWDC', 'Microsoft Build'] },
 ]
 
-export default function OpportunityHub() {
+export default function Opportunities() {
   return (
     <div className="min-h-screen bg-[#141d2f] text-white">
       <header className="p-4 bg-[#00a6fb]">
