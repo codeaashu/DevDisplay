@@ -26,7 +26,6 @@ export default function Opportunities() {
           className="absolute inset-0 z-0"
           animate={{
             backgroundPosition: ['0% 0%', '100% 100%'],
-            opacity: [0.5, 1],
           }}
           transition={{
             duration: 20,
