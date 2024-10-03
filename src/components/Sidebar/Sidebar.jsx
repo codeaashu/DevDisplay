@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
 
 function Sidebar() {
   const [theme, setTheme] = useState('dark');
+  const navigate = useNavigate();
 
   function toggleTheme() {
     const htmlElement = document.documentElement;
@@ -18,7 +20,10 @@ function Sidebar() {
       setTheme('dark');
     }
   }
+  function handleOpportunities() {
 
+    navigate('/opportunities');
+  }
   return (
     <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%] md:px-2 lg:px-7">
       <div className="mb-2 flex h-12 items-center gap-2.5">
@@ -73,7 +78,7 @@ function Sidebar() {
           </button>
         </a>
         <a href="#" target="_blank" rel="noreferrer">
-          <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+          <button onClick={handleOpportunities} className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             Opportunities Hub
           </button>
         </a>
