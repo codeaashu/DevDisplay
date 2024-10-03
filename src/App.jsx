@@ -1,4 +1,3 @@
-// import AboutUS from './components/Sidebar/AboutUs';
 import Homepage from './Homepage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Opportunities from './Page/Opportunities';
