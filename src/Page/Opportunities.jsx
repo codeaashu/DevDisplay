@@ -3,12 +3,21 @@ import { motion } from 'framer-motion';
 import { ExternalLink } from 'lucide-react';
 
 const opportunities = [
-  { title: 'Jobs', items: ['Software Engineer at TechCorp', 'Data Scientist at DataInc', 'UX Designer at DesignHub'] },
+  {
+    title: 'Hybrid & Onsite Jobs',
+    items: ['Software Engineer at TechCorp', 'Data Scientist at DataInc', 'UX Designer at DesignHub'],
+  },
+  {
+    title: 'Remote Jobs',
+    items: ['Software Engineer at Microsoft', 'JAVA Develoepr at YULK', 'UI Designer at Xdesign'],
+  },
   {
     title: 'Internships',
     items: ['Summer Internship at Google', 'Fall Internship at Microsoft', 'Remote Internship at Amazon'],
   },
+  { title: 'Freelance Work', items: ['  Web developer', 'Web Designer', 'AI Enginner'] },
   { title: 'Hackathons', items: ['Global AI Hackathon', 'Blockchain Innovation Challenge', 'Green Tech Hackathon'] },
+  { title: 'Open Source', items: ['DevDisplay', 'Hacktoberfest - 2024', 'GSSOC - 2024'] },
   { title: 'Tech Events', items: ['TechCrunch Disrupt', 'Web Summit', 'Google I/O'] },
   { title: 'BootCamps', items: ['Full Stack Web Development', 'Data Science Immersive', 'UX/UI Design Bootcamp'] },
   { title: 'Devfest', items: ['Google DevFest 2024', 'Apple WWDC', 'Microsoft Build'] },
