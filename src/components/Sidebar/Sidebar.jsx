@@ -30,6 +30,10 @@ function Sidebar() {
     navigate('/opportunities');
   }
 
+  function handleResources() {
+    navigate('/resources');
+  }
+
   return (
     <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%] md:px-2 lg:px-7">
       <div className="mb-2 flex h-12 items-center gap-2.5">
@@ -89,6 +93,19 @@ function Sidebar() {
         >
           Opportunities Hub
         </button>
+      </div>
+      <div className="pt-7">
+        <button
+          onClick={handleResources}
+          className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+        >
+          Tech Resources
+        </button>
+        <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
+          <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+            SpotLight
+          </button>
+        </a>
       </div>
     </div>
   );
