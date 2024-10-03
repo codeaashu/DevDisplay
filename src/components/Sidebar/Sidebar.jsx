@@ -1,22 +1,33 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
 
 function Sidebar() {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState(() => {
+    return document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+  });
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const htmlElement = document.documentElement;
+    if (theme === 'dark') {
+      htmlElement.classList.add('dark');
+      htmlElement.classList.remove('light');
+    } else {
+      htmlElement.classList.add('light');
+      htmlElement.classList.remove('dark');
+    }
+  }, [theme]);
 
   function toggleTheme() {
-    const htmlElement = document.documentElement;
-    const isDarkModeEnabled = htmlElement.classList.contains('dark');
+    setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
+  }
 
-    if (isDarkModeEnabled) {
-      htmlElement.classList.remove('dark');
-      setTheme('light');
-    } else {
-      htmlElement.classList.add('dark');
-      setTheme('dark');
-    }
+  function handleOpportunities() {
+    navigate('/opportunities');
   }
 
   return (
@@ -37,10 +48,10 @@ function Sidebar() {
             className="h-10 w-10 cursor-pointer rounded-lg border-2 border-borderSecondary bg-white transition-all hover:border-textSecondary hover:text-textSecondary dark:border-borderColor dark:bg-textPrimary dark:text-white dark:hover:border-textSecondary dark:hover:text-textSecondary"
             onClick={toggleTheme}
           >
-            {theme === 'light' ? (
-              <FontAwesomeIcon icon={faMoon} fontSize="1rem" />
-            ) : (
+            {theme === 'dark' ? (
               <FontAwesomeIcon icon={faSun} fontSize="1rem" />
+            ) : (
+              <FontAwesomeIcon icon={faMoon} fontSize="1rem" />
             )}
           </button>
         </div>
@@ -56,7 +67,7 @@ function Sidebar() {
           rel="noreferrer"
         >
           <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-            Add  your  profile
+            Add your profile
           </button>
         </a>
         <a href="https://www.linkedin.com/company/devdisplay/" target="_blank" rel="noreferrer">
@@ -69,6 +80,7 @@ function Sidebar() {
       <div className="pt-6">
         <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
           <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+            Spotlight
           Spotlight
           </button>
         </a>
@@ -77,6 +89,12 @@ function Sidebar() {
             Opportunities Hub
           </button>
         </a>
+        <button
+          onClick={handleOpportunities}
+          className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+        >
+          Opportunities Hub
+        </button>
       </div>
     </div>
   );
