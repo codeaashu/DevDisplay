@@ -4,7 +4,19 @@
   "bio": "A passionate DeveOps Engineer from India I work in WebPanelSalution company IT sector and my Free Time I Solve This Problem of LeedCode",
   "avatar": "https://github.com/codewithmanjeet1.png",
   "portfolio": "https://github.com/codewithmanjeet1",
-  "skills": ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "ANGULAR 18", "ANGULAR MATERIAL", "NODE JS ", "EXPRESS JS", "MONGODB", "EJS", "GIT AND GITHUB" ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT",
+    "BOOTSTRAP",
+    "ANGULAR 18",
+    "ANGULAR MATERIAL",
+    "NODE JS ",
+    "EXPRESS JS",
+    "MONGODB",
+    "EJS",
+    "GIT AND GITHUB"
+  ],
   "social": {
     "GitHub": "https://github.com/codewithmanjeet1",
     "Twitter": "#",

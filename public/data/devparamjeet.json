@@ -4,7 +4,18 @@
   "bio": "Full Stack Developer, utilizing Tailwind CSS, Next.js, and AWS to create robust web solutions with expertise.",
   "avatar": "https://github.com/devparamjeet.png",
   "portfolio": "https://github.com/devparamjeet",
-  "skills": ["React JS", "NODE JS", "Express JS", "NEXT Js", "Git", "GITHUB", "npm", "Tailwind CSS", "Mongo DB", "Python"],
+  "skills": [
+    "React JS",
+    "NODE JS",
+    "Express JS",
+    "NEXT Js",
+    "Git",
+    "GITHUB",
+    "npm",
+    "Tailwind CSS",
+    "Mongo DB",
+    "Python"
+  ],
   "social": {
     "GitHub": "https://github.com/devparamjeet",
     "Twitter": "https://x.com/devparamjeet",

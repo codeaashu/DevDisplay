@@ -4,15 +4,7 @@
   "bio": "I'm Rohith Chiluveru— a UI/UX-centric front-end developer with expertise in JavaScript, HTML, and CSS and advancing in React.",
   "avatar": "https://avatars.githubusercontent.com/u/166550088?v=4",
   "portfolio": "https://rohithchiluveru.vercel.app/",
-  "skills": [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React.js",
-    "Figma",
-    "Tailwind CSS",
-    "Bootstrap"
-  ],
+  "skills": ["HTML", "CSS", "JavaScript", "React.js", "Figma", "Tailwind CSS", "Bootstrap"],
   "social": {
     "GitHub": "https://github.com/rohithchiluveru",
     "Twitter": "https://twitter.com/rohithchiluveru",
