@@ -36,9 +36,9 @@ export default function Opportunities() {
           }}
         />
         <div className="relative z-10 text-center">
-          <h2 className="text-4xl font-bold mb-4">Latest Opportunities In Tech Fields</h2>
+          <h2 className="text-4xl font-bold mb-4">Opportunities In Tech Fields</h2>
           <p className="text-xl">
-             Explore the hub of latest & upcoming Opportunities
+             Explore the hub of all the latest & upcoming Opportunities in one place
             <br />
             (jobs, internships, hackathons, events, bootcamps, webinars, devfests)
           </p>
