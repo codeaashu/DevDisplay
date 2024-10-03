@@ -14,9 +14,9 @@ const opportunities = [
 
 export default function Opportunities() {
   return (
-    <div className="min-h-screen bg-[#141d2f] text-white">
+    <div className="min-h-screen bg-[#141d2f] text-white text-center">
       <header className="p-4 bg-[#00a6fb]">
-        <h1 className="text-2xl font-bold">Opportunity Hub</h1>
+        <h1 className="text-2xl font-bold">Opportunities Hub</h1>
       </header>
 
       <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
@@ -36,9 +36,9 @@ export default function Opportunities() {
           }}
         />
         <div className="relative z-10 text-center">
-          <h2 className="text-4xl font-bold mb-4">Opportunities in Tech Fields</h2>
+          <h2 className="text-4xl font-bold mb-4">Latest Opportunities In Tech Fields</h2>
           <p className="text-xl">
-            Get latest opportunities in tech industry
+             Explore the hub of latest & upcoming Opportunities
             <br />
             (jobs, internships, hackathons, events, bootcamps, webinars, devfests)
           </p>

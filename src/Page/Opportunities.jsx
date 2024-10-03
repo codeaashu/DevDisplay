@@ -14,9 +14,9 @@ const opportunities = [
 
 export default function Opportunities() {
   return (
-    <div className="min-h-screen bg-[#141d2f] text-white">
+    <div className="min-h-screen bg-[#141d2f] text-white text-center">
       <header className="p-4 bg-[#00a6fb]">
-        <h1 className="text-2xl font-bold">Opportunity Hub</h1>
+        <h1 className="text-2xl font-bold">Opportunities Hub</h1>
       </header>
 
       <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
