@@ -25,7 +25,8 @@ export default function Opportunities() {
         <motion.div
           className="absolute inset-0 z-0"
           animate={{
-            backgroundPosition: ['0% 0%', '50% 50%', '100% 100%', '50% 50%', '0% 0%'],
+            backgroundPosition: ['0% 0%', '100% 100%'],
+            opacity: [0.5, 1],
           }}
           transition={{
             duration: 20,
