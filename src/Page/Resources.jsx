@@ -151,9 +151,7 @@ export default function TechResources() {
         </motion.section>
 
         <motion.section variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true }}>
-          <h2 className="mb-6 flex items-center text-3xl font-bold">
-            <Robot className="mr-2" /> Top AI Tools
-          </h2>
+          <h2 className="mb-6 flex items-center text-3xl font-bold">{/* <Robot className="mr-2" /> Top AI Tools */}</h2>
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             {aiCategories.map((category) => (
               <motion.button

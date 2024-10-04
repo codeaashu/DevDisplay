@@ -8,6 +8,7 @@ import NoResultFound from './components/NoResultFound/NoResultFound';
 import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import filenames from './ProfilesList.json';
+import Loader from './animations/Loader/Loader';
 
 function Homepage() {
   const profilesRef = useRef();
@@ -17,6 +18,7 @@ function Homepage() {
   const [currentPage, setCurrentPage] = useState(1);
   const [shuffledProfiles, setShuffledProfiles] = useState([]);
   const [loadingProfiles, setLoadingProfiles] = useState(false);
+
   const recordsPerPage = 20;
 
   const currentUrl = window.location.pathname;
@@ -92,22 +94,42 @@ function Homepage() {
   const handleNextPage = () => {
     const totalPages = Math.ceil((searching ? profiles.length : combinedData.length) / recordsPerPage);
     if (currentPage < totalPages) {
-      setCurrentPage(currentPage + 1);
+      setLoadingProfiles(true);
+
+      profilesRef.current.scrollTo({
+        top: 0,
+        behavior: 'auto',
+      });
+
+      setTimeout(() => {
+        setCurrentPage(currentPage + 1);
+        setLoadingProfiles(false);
+      }, 500);
     }
   };
 
   const handlePrevPage = () => {
     if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
+      setLoadingProfiles(true);
+
+      profilesRef.current.scrollTo({
+        top: 0,
+        behavior: 'auto',
+      });
+
+      setTimeout(() => {
+        setCurrentPage(currentPage - 1);
+        setLoadingProfiles(false);
+      }, 500);
     }
   };
 
-  useEffect(() => {
-    profilesRef.current.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  }, [currentPage]);
+  // useEffect(() => {
+  //   profilesRef.current.scrollTo({
+  //     top: 0,
+  //     behavior: 'smooth',
+  //   });
+  // }, [currentPage]);
 
   const getPaginatedData = () => {
     const data = searching ? profiles : shuffledProfiles;
@@ -128,16 +150,26 @@ function Homepage() {
         </>
       );
     }
+
     const paginatedData = getPaginatedData();
     return paginatedData.map((currentRecord, index) => <Profile data={currentRecord} key={index} />);
   };
 
   return currentUrl === '/' ? (
-    <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
+    <div className="App flex flex-col bg-primaryColor  dark:bg-secondaryColor md:flex-row">
       <Sidebar />
-      <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7" ref={profilesRef}>
+      <div
+        className="flex w-full flex-col overflow-y-scroll pl-5 pr-4  md:h-screen md:w-[77%] md:py-7"
+        ref={profilesRef}
+      >
         <Search onSearch={handleSearch} />
-        {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
+        {loadingProfiles ? (
+          <Loader />
+        ) : profiles.length === 0 && searching ? (
+          <NoResultFound />
+        ) : (
+          <div className="h-full overflow-scroll">{renderProfiles()}</div>
+        )}
         {combinedData.length > 0 && (
           <Pagination
             currentPage={currentPage}

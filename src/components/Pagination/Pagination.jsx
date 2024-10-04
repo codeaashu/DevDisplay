@@ -14,7 +14,7 @@ function Pagination({ currentPage, totalPages, onNextPage, onPrevPage }) {
   };
 
   return (
-    <div className="flex items-center justify-center gap-12">
+    <div className="flex items-center justify-center gap-12 md:mt-4">
       <button onClick={handlePrevPage} disabled={currentPage === 1} className="focus:outline-none disabled:opacity-30">
         <span
           href="#"
