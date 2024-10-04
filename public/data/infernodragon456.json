@@ -1,13 +1,27 @@
 {
-    "name": "Vighnesh Mandavkar",
-    "location": "Panvel, Maharashtra",
-    "bio": "Heya! I am a B. Tech Comp. Science and Eng. 3rd Year student, currently enrolled in IIT Jodhpur. I am a full stack web developer, and I have also worked in various AI projects in domains like - Image Classification, Transfer Learning, Reinforcement Learning, Generative AI, ... and more. I love things that are an amalgamation of creativity and technology, which is why I also enjoy Game Dev and UI/UX design. ",
-    "avatar": "https://github.com/infernodragon456.png",
-    "portfolio": "https://github.com/infernodragon456",
-    "skills": ["HTML", "CSS", "TypeScript", "React.js", "Next.js", "MongoDB", "Python", "TailwindCSS", "Deep Learning", "Machine Learning", "Transfer Learning", "Reinforcement Learning", "Generative AI"],
-    "social": {
-      "GitHub": "https://github.com/infernodragon456",
-      "Twitter": "https://x.com/VighneshMandav1",
-      "LinkedIn": "https://www.linkedin.com/in/vighnesh-mandavkar-3103b8254/"
-    }
+  "name": "Vighnesh Mandavkar",
+  "location": "Panvel, Maharashtra",
+  "bio": "Heya! I am a B. Tech Comp. Science and Eng. 3rd Year student, currently enrolled in IIT Jodhpur. I am a full stack web developer, and I have also worked in various AI projects in domains like - Image Classification, Transfer Learning, Reinforcement Learning, Generative AI, ... and more. I love things that are an amalgamation of creativity and technology, which is why I also enjoy Game Dev and UI/UX design. ",
+  "avatar": "https://github.com/infernodragon456.png",
+  "portfolio": "https://github.com/infernodragon456",
+  "skills": [
+    "HTML",
+    "CSS",
+    "TypeScript",
+    "React.js",
+    "Next.js",
+    "MongoDB",
+    "Python",
+    "TailwindCSS",
+    "Deep Learning",
+    "Machine Learning",
+    "Transfer Learning",
+    "Reinforcement Learning",
+    "Generative AI"
+  ],
+  "social": {
+    "GitHub": "https://github.com/infernodragon456",
+    "Twitter": "https://x.com/VighneshMandav1",
+    "LinkedIn": "https://www.linkedin.com/in/vighnesh-mandavkar-3103b8254/"
   }
+}
