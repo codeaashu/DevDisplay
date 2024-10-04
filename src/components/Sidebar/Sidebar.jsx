@@ -5,21 +5,17 @@ import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
 
 function Sidebar() {
-  const [theme, setTheme] = useState(() => {
-    return document.documentElement.classList.contains('dark') ? 'dark' : 'light';
-  });
-
   const navigate = useNavigate();
+  const [theme, setTheme] = useState(() => {
+    const storedTheme = JSON.parse(localStorage.getItem('theme'));
+    return storedTheme || (document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+  });
 
   useEffect(() => {
     const htmlElement = document.documentElement;
-    if (theme === 'dark') {
-      htmlElement.classList.add('dark');
-      htmlElement.classList.remove('light');
-    } else {
-      htmlElement.classList.add('light');
-      htmlElement.classList.remove('dark');
-    }
+    htmlElement.classList.toggle('dark', theme === 'dark');
+    htmlElement.classList.toggle('light', theme === 'light');
+    localStorage.setItem('theme', JSON.stringify(theme));
   }, [theme]);
 
   function toggleTheme() {
