@@ -5,21 +5,17 @@ import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
 
 function Sidebar() {
-  const [theme, setTheme] = useState(() => {
-    return document.documentElement.classList.contains('dark') ? 'dark' : 'light';
-  });
-
   const navigate = useNavigate();
+  const [theme, setTheme] = useState(() => {
+    const storedTheme = JSON.parse(localStorage.getItem('theme'));
+    return storedTheme || (document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+  });
 
   useEffect(() => {
     const htmlElement = document.documentElement;
-    if (theme === 'dark') {
-      htmlElement.classList.add('dark');
-      htmlElement.classList.remove('light');
-    } else {
-      htmlElement.classList.add('light');
-      htmlElement.classList.remove('dark');
-    }
+    htmlElement.classList.toggle('dark', theme === 'dark');
+    htmlElement.classList.toggle('light', theme === 'light');
+    localStorage.setItem('theme', JSON.stringify(theme));
   }, [theme]);
 
   function toggleTheme() {
@@ -41,7 +37,10 @@ function Sidebar() {
           <FontAwesomeIcon icon={faCode} size="2xl" />
         </div>
         <a href="https://devdisplay.vercel.app/">
-          <div className="flex text-[2rem] font-bold md:text-[1rem] lg:text-[2rem]">
+          <div
+            className="flex  text-[2rem] font-bold
+           md:text-[1.05rem] lg:text-[1.25rem] min-[1200px]:text-[1.75rem]  "
+          >
             <p className="text-secondaryColor dark:text-white">Dev</p>
             <p className="text-textSecondary">Display</p>
           </div>
@@ -64,13 +63,17 @@ function Sidebar() {
         Open Source community where you can discover, connect, collab with skilled developers, share your ideas then
         build projects and also promote the project through this community.
       </div>
-      <div className="pt-5">
+      <div className="flex flex-wrap items-center justify-center gap-2 pt-5 ">
         <a
           href="https://github.com/codeaashu/DevDisplay?tab=readme-ov-file#how-to-add-your-profile-"
           target="_blank"
           rel="noreferrer"
         >
-          <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+          <button
+            className="mr-4
+
+          inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+          >
             Add your profile
           </button>
         </a>
@@ -81,21 +84,21 @@ function Sidebar() {
           </button>
         </a>
       </div>
-      <div className="pt-6">
+      <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
         <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
-          <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+          <button className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             Spotlight
           </button>
         </a>
         <button
           onClick={handleOpportunities}
-          className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+          className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
         >
           Opportunities Hub
         </button>
       </div>
-      <div className="pt-7">
-        <a href="https://ai.google.dev" target="_blank" rel="noreferrer">
+      <div className="flex flex-wrap items-center justify-center gap-2 pt-7 ">
+        <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
           <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             SpotLight
           </button>
