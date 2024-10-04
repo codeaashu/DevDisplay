@@ -95,7 +95,7 @@ function Sidebar() {
         </button>
       </div>
       <div className="pt-7">
-        <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
+        <a href="https://ai.google.dev" target="_blank" rel="noreferrer">
           <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             SpotLight
           </button>
