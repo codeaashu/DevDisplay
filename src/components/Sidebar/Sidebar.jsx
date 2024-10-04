@@ -1,22 +1,29 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
 
 function Sidebar() {
-  const [theme, setTheme] = useState('dark');
+  const navigate = useNavigate();
+  const [theme, setTheme] = useState(() => {
+    const storedTheme = JSON.parse(localStorage.getItem('theme'));
+    return storedTheme || (document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+  });
+
+  useEffect(() => {
+    const htmlElement = document.documentElement;
+    htmlElement.classList.toggle('dark', theme === 'dark');
+    htmlElement.classList.toggle('light', theme === 'light');
+    localStorage.setItem('theme', JSON.stringify(theme));
+  }, [theme]);
 
   function toggleTheme() {
-    const htmlElement = document.documentElement;
-    const isDarkModeEnabled = htmlElement.classList.contains('dark');
+    setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
+  }
 
-    if (isDarkModeEnabled) {
-      htmlElement.classList.remove('dark');
-      setTheme('light');
-    } else {
-      htmlElement.classList.add('dark');
-      setTheme('dark');
-    }
+  function handleOpportunities() {
+    navigate('/opportunities');
   }
 
   return (
@@ -37,10 +44,10 @@ function Sidebar() {
             className="h-10 w-10 cursor-pointer rounded-lg border-2 border-borderSecondary bg-white transition-all hover:border-textSecondary hover:text-textSecondary dark:border-borderColor dark:bg-textPrimary dark:text-white dark:hover:border-textSecondary dark:hover:text-textSecondary"
             onClick={toggleTheme}
           >
-            {theme === 'light' ? (
-              <FontAwesomeIcon icon={faMoon} fontSize="1rem" />
-            ) : (
+            {theme === 'dark' ? (
               <FontAwesomeIcon icon={faSun} fontSize="1rem" />
+            ) : (
+              <FontAwesomeIcon icon={faMoon} fontSize="1rem" />
             )}
           </button>
         </div>
@@ -72,7 +79,10 @@ function Sidebar() {
             Spotlight
           </button>
         </a>
-        <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+        <button
+          onClick={handleOpportunities}
+          className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+        >
           Opportunities Hub
         </button>
       </div>
