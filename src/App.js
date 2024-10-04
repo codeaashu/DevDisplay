@@ -9,7 +9,7 @@ import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import filenames from './ProfilesList.json';
 
-function Homepage() {
+function App() {
   const profilesRef = useRef();
   const [profiles, setProfiles] = useState([]);
   const [searching, setSearching] = useState(false);
@@ -69,20 +69,14 @@ function Homepage() {
     const normalizedValue = normalizeString(value);
 
     const filteredResults = combinedData.filter((user) => {
-      const normalizedUserName = normalizeString(user.name);
-      const normalizedUserLocation = normalizeString(user.location);
-      const normalizedUserSkills = user.skills.map(normalizeString);
-
-      switch (criteria) {
-        case 'name':
-          return normalizedUserName.includes(normalizedValue);
-        case 'location':
-          return normalizedUserLocation.includes(normalizedValue);
-        case 'skill':
-          return normalizedUserSkills.some((skill) => skill.includes(normalizedValue));
-        default:
-          return false;
+      if (criteria === 'name') {
+        return normalizeString(user.name).includes(normalizedValue);
+      } else if (criteria === 'location') {
+        return normalizeString(user.location).includes(normalizedValue);
+      } else if (criteria === 'skill') {
+        return user.skills.some((skill) => normalizeString(skill).includes(normalizedValue));
       }
+      return false;
     });
 
     setProfiles(filteredResults);
@@ -153,4 +147,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default App;
