@@ -1,6 +1,7 @@
 import Homepage from './Homepage';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Opportunities from './Page/Opportunities';
+import Opportunities from './page/Opportunities';
 function App() {
   return (
     <BrowserRouter>

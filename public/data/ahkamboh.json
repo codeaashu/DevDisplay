@@ -4,18 +4,7 @@
   "bio": "Meet Ali Hamza Kamboh, a Software Engineer and AI Product Developer with over 2 years of experience.",
   "avatar": "https://github.com/ahkamboh.png",
   "portfolio": "https://alihamzakamboh.com",
-  "skills": [
-    "Next.js",
-    "Ruby on Rails",
-    "TypeScript",
-    "Python",
-    "GW BASIC",
-    "AI Development",
-    "LLM",
-    "RAG",
-    "C",
-    "C++"
-  ],
+  "skills": ["Next.js", "Ruby on Rails", "TypeScript", "Python", "GW BASIC", "AI Development", "LLM", "RAG", "C", "C++"],
   "social": {
     "GitHub": "https://github.com/ahkamboh",
     "Twitter": "https://twitter.com/alihamzakambohh",

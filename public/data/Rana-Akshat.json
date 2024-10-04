@@ -4,20 +4,7 @@
   "bio": "Software engineer enthusiast with experience in Data analytics and Web Development, always up-skilling in new technologies",
   "avatar": "https://github.com/Rana-Akshat.png",
   "portfolio": "https://www.github.com/Rana-Akshat",
-  "skills": [
-    "Python",
-    "Power BI",
-    "ReactJs",
-    "HTML",
-    "CSS",
-    "Javascript",
-    "Tableau",
-    "Docker",
-    "Kubernetes",
-    "Terraform",
-    "Github Actions",
-    "Jenkins"
-  ],
+  "skills": ["Python", "Power BI", "ReactJs", "HTML", "CSS", "Javascript", "Tableau", "Docker", "Kubernetes", "Terraform", "Github Actions", "Jenkins"],
   "social": {
     "GitHub": "https://github.com/Rana-Akshat",
     "Twitter": "#",
