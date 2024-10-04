@@ -229,28 +229,23 @@ export default function TechResources() {
         </motion.section>
       </main>
 
-      <footer className="bg-[#0d1321] py-8 text-white">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col items-center justify-between md:flex-row">
-            <div className="mb-4 md:mb-0">
-              <h3 className="text-2xl font-bold">Tech Resources</h3>
-              <p>Empowering developers with knowledge</p>
-            </div>
-            <div className="flex space-x-4">
-              <a href="#" className="transition-colors hover:text-[#00a6fb]">
-                About
-              </a>
-              <a href="#" className="transition-colors hover:text-[#00a6fb]">
-                Contact
-              </a>
-              <a href="#" className="transition-colors hover:text-[#00a6fb]">
-                Privacy Policy
-              </a>
-            </div>
-          </div>
-          <div className="mt-8 text-center">
-            <p>&copy; {new Date().getFullYear()} Tech Resources. All rights reserved.</p>
-          </div>
+      <footer className="mt-12 bg-[#00a6fb] p-8">
+        <div className="container mx-auto text-center">
+          <h3 className="mb-4 text-2xl font-bold">Join the Tech Revolution</h3>
+          <p className="mb-4">Stay updated with the latest opportunities and events in the tech world.</p>
+          <form className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="w-full rounded-lg px-4 py-2 text-[#141d2f] sm:w-auto"
+            />
+            <button
+              type="submit"
+              className="w-full rounded-lg bg-[#141d2f] px-6 py-2 text-white transition-colors hover:bg-[#1e2a42] sm:w-auto"
+            >
+              Subscribe
+            </button>
+          </form>
         </div>
       </footer>
     </div>
