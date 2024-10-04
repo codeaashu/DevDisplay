@@ -4,7 +4,21 @@
   "bio": "Passionate Java developer with expertise in HTML, CSS, JavaScript, and React. Proficient in Java, JDBC, Servlets, JSP, Hibernate, MySQL, and Spring. Committed to building efficient and scalable web applications while continuously enhancing my skills and knowledge.",
   "avatar": "https://github.com/De-Coder-Pritam.png",
   "portfolio": "https://github.com/De-Coder-Pritam",
-  "skills": ["HTML", "CSS", "TailwindCSS","BOOTSTRAP","JAVASCRIPT","REACT","JAVA","JDBC","SERVLET","JSP","HIBERNATE","SPRING","MYSQL"],
+  "skills": [
+    "HTML",
+    "CSS",
+    "TailwindCSS",
+    "BOOTSTRAP",
+    "JAVASCRIPT",
+    "REACT",
+    "JAVA",
+    "JDBC",
+    "SERVLET",
+    "JSP",
+    "HIBERNATE",
+    "SPRING",
+    "MYSQL"
+  ],
   "social": {
     "GitHub": "https://github.com/De-Coder-Pritam",
     "Twitter": "https://x.com/PritamKrBranwal?t=X-gHKT7mRlnJqr8floh9Hg&s=08 ",
