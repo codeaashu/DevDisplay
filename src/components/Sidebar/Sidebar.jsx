@@ -62,7 +62,7 @@ function Sidebar() {
           target="_blank"
           rel="noreferrer"
         >
-          <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+          <button className="mb-4 mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             Add your profile
           </button>
         </a>
@@ -73,9 +73,9 @@ function Sidebar() {
           </button>
         </a>
       </div>
-      <div className="pt-6">
+      <div className="pt-4">
         <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
-          <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+          <button className="mb-4 mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             Spotlight
           </button>
         </a>
