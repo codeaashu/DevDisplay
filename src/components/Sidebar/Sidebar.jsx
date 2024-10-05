@@ -26,6 +26,10 @@ function Sidebar() {
     navigate('/opportunities');
   }
 
+  function handleResources() {
+    navigate('/resources');
+  }
+
   return (
     <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%] md:px-2 lg:px-7">
       <div className="mb-2 flex h-12 items-center gap-2.5">
@@ -33,7 +37,10 @@ function Sidebar() {
           <FontAwesomeIcon icon={faCode} size="2xl" />
         </div>
         <a href="https://devdisplay.vercel.app/">
-          <div className="flex text-[2rem] font-bold md:text-[1rem] lg:text-[2rem]">
+          <div
+            className="flex  text-[2rem] font-bold
+           md:text-[1.05rem] lg:text-[1.25rem] min-[1200px]:text-[1.75rem]  "
+          >
             <p className="text-secondaryColor dark:text-white">Dev</p>
             <p className="text-textSecondary">Display</p>
           </div>
@@ -56,13 +63,17 @@ function Sidebar() {
         Open Source community where you can discover, connect, collab with skilled developers, share your ideas then
         build projects and also promote the project through this community.
       </div>
-      <div className="pt-5">
+      <div className="flex flex-wrap items-center justify-center gap-2 pt-5 ">
         <a
           href="https://github.com/codeaashu/DevDisplay?tab=readme-ov-file#how-to-add-your-profile-"
           target="_blank"
           rel="noreferrer"
         >
-          <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+          <button
+            className="mr-4
+
+          inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+          >
             Add your profile
           </button>
         </a>
@@ -73,21 +84,30 @@ function Sidebar() {
           </button>
         </a>
       </div>
-      <div className="pt-6">
+      <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
         <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
-          <button className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+          <button className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             Spotlight
           </button>
         </a>
         <button
           onClick={handleOpportunities}
-          className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+          className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
         >
           Opportunities Hub
+        </button>
+      </div>
+      <div className="flex flex-wrap items-center justify-center gap-2 pt-7 ">
+        
+        <button
+          onClick={handleResources}
+          className="mr-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+        >
+          Tech Resources
         </button>
       </div>
     </div>
   );
 }
 
-export default Sidebar;
+export default Sidebar;
