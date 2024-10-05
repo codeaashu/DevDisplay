@@ -1,0 +1,13 @@
+{
+  "name": "Vaibhav Kulkarni",
+  "location": "Hyderabad, India",
+  "bio": "A passionate software developer with expertise in JavaScript, Python, and web application development. Enjoys building innovative projects and is eager to grow in the tech industry.",
+  "avatar": "https://github.com/ivaibhavkulkarni.png",
+  "portfolio": "https://portfolio-nu-ten-21.vercel.app/",
+  "skills": ["MERN Stack Developer", "DSA", "Swift"],
+  "social": {
+    "GitHub": "https://github.com/ivaibhavkulkarni",
+    "Twitter": "https://x.com/ivaibhavkulkarn",
+    "LinkedIn": "https://www.linkedin.com/in/vaibhav-kulkarni-7230051ab/"
+  }
+}
