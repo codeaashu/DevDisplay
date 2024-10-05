@@ -37,8 +37,9 @@ function App() {
       try {
         const promises = filenames.map((file) => fetchData(`/data/${file}`));
         const combinedData = await Promise.all(promises);
-        setCombinedData(combinedData);
-        setShuffledProfiles(shuffleProfiles(combinedData));
+        const flattenedData = combinedData.flat();
+        setCombinedData(flattenedData);
+        setShuffledProfiles(shuffleProfiles(flattenedData));
       } catch (error) {
         console.error('Error combining data:', error);
         setCombinedData([]);
