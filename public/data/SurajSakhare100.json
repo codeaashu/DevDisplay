@@ -1,0 +1,13 @@
+{
+  "name": "Suraj Sakhare",
+  "location": "Pune",
+  "bio": "Passionate MERN Stack Web Developer skilled in C++, Java, JavaScript.",
+  "avatar": "https://github.com/SurajSakhare100.png",
+  "portfolio": "https://www.surajsakhare.me/",
+  "skills": ["C++", "React", "..."],
+  "social": {
+    "GitHub": "https://github.com/SurajSakhare100",
+    "Twitter": "https://twitter.com/your-twitter-username",
+    "LinkedIn": "https://www.linkedin.com/in/suraj-sakhare10"
+  }
+}
