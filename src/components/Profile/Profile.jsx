@@ -13,7 +13,6 @@ function Card({ data }) {
     event.stopPropagation();
     event.preventDefault();
     let container = event.target;
-    if (!container) return false;
 
     while (!container.classList.contains('skills-container')) {
       container = container.parentNode;
@@ -24,14 +23,19 @@ function Card({ data }) {
   };
 
   React.useEffect(() => {
-    cardRef.current.addEventListener('wheel', handleWheel, { passive: false });
+    const currentRef = cardRef.current;
+    currentRef.addEventListener('wheel', handleWheel, { passive: false });
+
+    return () => {
+      currentRef.removeEventListener('wheel', handleWheel);
+    };
   }, []);
 
   return (
     <div className="mb-6 h-auto rounded-lg bg-white p-4 shadow dark:bg-textPrimary">
       <div className="relative flex gap-4">
         <div className="h-24 w-24 flex-shrink-0">
-          <img src={data.avatar} className="h-full w-full rounded-full" alt="User logo" />
+          <img src={data.avatar} className="h-full w-full rounded-full" alt={`${data.name}'s Avatar`} />
         </div>
         <div className="w-[55%] sm:w-[75%]">
           <h3>
@@ -46,27 +50,24 @@ function Card({ data }) {
           </h3>
           <p className="flex items-center gap-x-1 text-sm dark:text-white">
             <FaLocationDot />
-            {data.location}
+            {data.location || 'Location not available'}
           </p>
           <div
             className="skills-container mt-4 flex h-auto gap-4 overflow-hidden hover:overflow-x-scroll hover:scroll-smooth"
             ref={cardRef}
           >
-            {data.skills &&
-              data.skills.map((skill, index) => {
-                return (
-                  <div
-                    className="inline h-auto cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
-                    key={index}
-                  >
-                    {skill}
-                  </div>
-                );
-              })}
+            {data.skills?.map((skill, index) => (
+              <div
+                className="inline h-auto cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
+                key={index}
+              >
+                {skill}
+              </div>
+            ))}
           </div>
         </div>
         <div
-          className={` md:absolute md:right-2 md:top-2 ${
+          className={`md:absolute md:right-2 md:top-2 ${
             data.portfolio ? 'ml-auto w-28 hover:underline' : 'ml-auto w-28 cursor-not-allowed brightness-50'
           }`}
         >
@@ -76,18 +77,23 @@ function Card({ data }) {
         </div>
       </div>
       <div className="mt-4">
-        <div className="dark:text-white">{data.bio}</div>
+        <div className="dark:text-white">{data.bio || 'No bio available'}</div>
         <div className="mt-1 flex gap-x-4">
-          <a href={data.social.GitHub} target="_blank" rel="noreferrer">
-            <FaGithub className="text-2xl text-blue-600 duration-300 hover:scale-125" />
-          </a>
-
-          <a href={data.social.Twitter} target="_blank" rel="noreferrer">
-            <FaXTwitter className="text-2xl text-blue-600 duration-300 hover:scale-125" />
-          </a>
-          <a href={data.social.LinkedIn} target="_blank" rel="noreferrer">
-            <FaLinkedin className="text-2xl text-blue-600 duration-300 hover:scale-125" />
-          </a>
+          {data.social?.GitHub && (
+            <a href={data.social.GitHub} target="_blank" rel="noreferrer" aria-label="GitHub Profile">
+              <FaGithub className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+          {data.social?.Twitter && (
+            <a href={data.social.Twitter} target="_blank" rel="noreferrer" aria-label="Twitter Profile">
+              <FaXTwitter className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+          {data.social?.LinkedIn && (
+            <a href={data.social.LinkedIn} target="_blank" rel="noreferrer" aria-label="LinkedIn Profile">
+              <FaLinkedin className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
         </div>
       </div>
     </div>
