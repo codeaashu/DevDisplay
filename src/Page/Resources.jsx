@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ChevronDown, Github, Code, Robot, Rocket } from 'lucide-react';
+import { ChevronDown, Github, Code, Bot, Rocket } from 'lucide-react';
 
 const programmingLanguages = ['JavaScript', 'Python', 'Java', 'C++', 'Ruby'];
 const githubRepos = [
@@ -152,7 +152,7 @@ export default function TechResources() {
 
         <motion.section variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true }}>
           <h2 className="mb-6 flex items-center text-3xl font-bold">
-            <Robot className="mr-2" /> Top AI Tools
+            <Bot className="mr-2" /> Top AI Tools
           </h2>
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             {aiCategories.map((category) => (
@@ -235,13 +235,13 @@ export default function TechResources() {
               <p>Empowering developers with knowledge</p>
             </div>
             <div className="flex space-x-4">
-              <a href="#" className="transition-colors hover:text-[#00a6fb]">
+              <a href="/about" className="transition-colors hover:text-[#00a6fb]">
                 About
               </a>
-              <a href="#" className="transition-colors hover:text-[#00a6fb]">
+              <a href="/contact" className="transition-colors hover:text-[#00a6fb]">
                 Contact
               </a>
-              <a href="#" className="transition-colors hover:text-[#00a6fb]">
+              <a href="/privacy-policy" className="transition-colors hover:text-[#00a6fb]">
                 Privacy Policy
               </a>
             </div>
