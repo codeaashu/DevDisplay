@@ -1,0 +1,13 @@
+{
+  "name": "Suraj Sakhare",
+  "location": "Pune, India",
+  "bio": "Passionate about full-stack development using the MERN stack, animations, and creating efficient, scalable web applications.",
+  "avatar": "https://github.com/SurajSakhare100.png",
+  "portfolio": "https://www.surajsakhare.me/",
+  "skills": ["MERN Stack", "React", "Tailwind CSS", "GSAP Animations", "MongoDB"],
+  "social": {
+    "GitHub": "https://github.com/SurajSakhare100",
+    "Twitter": "https://twitter.com/your-twitter-username",
+    "LinkedIn": "https://www.linkedin.com/in/suraj-sakhare10/"
+  }
+}
