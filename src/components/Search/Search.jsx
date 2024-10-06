@@ -17,7 +17,7 @@ function Search({ onSearch }) {
     setSearchCriteria(event.target.value);
   };
 
-  const debouncedValue = useDebounce(searchValue, 100);
+  const debouncedValue = useDebounce(searchValue, 500);
 
   useEffect(() => {
     if (debouncedValue !== prevSearchValue) {
