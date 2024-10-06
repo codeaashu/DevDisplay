@@ -1,16 +1,13 @@
 {
-    "name": "Varun Kasyap",
-    "location": "Hyderabad",
-    "bio": "I am a 2025 CS Grad",
-    "avatar": "https://github.com/varunkasyap.png",
-    "portfolio": "https://github.com/varunkasyap",
-    "skills": [
-        "MERN",
-        "C++"
-    ],
-    "social": {
-        "GitHub": "https://github.com/varunkasyap",
-        "Twitter": "https://x.com/varunkasyapp",
-        "LinkedIn": "https://www.linkedin.com/in/varunkasyap/"
-    }
+  "name": "Varun Kasyap",
+  "location": "Hyderabad",
+  "bio": "I am a 2025 CS Grad",
+  "avatar": "https://github.com/varunkasyap.png",
+  "portfolio": "https://github.com/varunkasyap",
+  "skills": ["MERN", "C++"],
+  "social": {
+    "GitHub": "https://github.com/varunkasyap",
+    "Twitter": "https://x.com/varunkasyapp",
+    "LinkedIn": "https://www.linkedin.com/in/varunkasyap/"
+  }
 }
