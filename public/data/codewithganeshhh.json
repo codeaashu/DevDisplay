@@ -1,29 +1,28 @@
 {
-    "name": "Ganesh Kumar",
-    "location": "Jamshedpur ,Jharkhand ,India",
-    "bio": "I am Ganesh Kumar BCA 2nd year studeng ,I am tech club lead of my University , An aspiring SDE",
-    "avatar": "https://github.com/codewithganeshhh.png",
-    "portfolio": "https://codewithganeshhh.github.io/PORTFOLIO",
-    "skills": [
-      "JavaScript",
-      "ReactJS",
-      "NodeJS",
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "MySQL",
-      "MongoDB",
-      "Git",
-      "Docker",
-      "C",
-      "C++",
-      "Figma",
-      "Canva"
-    ],
-    "social": {
-      "GitHub": "https://github.com/codewithganeshhh",
-      "Twitter": "https://x.com/codewithganesh",
-      "LinkedIn": "https://www.linkedin.com/in/ganesh-kumar-816544282/"
-    }
+  "name": "Ganesh Kumar",
+  "location": "Jamshedpur, Jharkhand, India",
+  "bio": "I am Ganesh Kumar BCA 2nd year studeng ,I am tech club lead of my University , An aspiring SDE",
+  "avatar": "https://github.com/codewithganeshhh.png",
+  "portfolio": "https://codewithganeshhh.github.io/PORTFOLIO",
+  "skills": [
+    "JavaScript",
+    "ReactJS",
+    "NodeJS",
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "MySQL",
+    "MongoDB",
+    "Git",
+    "Docker",
+    "C",
+    "C++",
+    "Figma",
+    "Canva"
+  ],
+  "social": {
+    "GitHub": "https://github.com/codewithganeshhh",
+    "Twitter": "https://x.com/codewithganesh",
+    "LinkedIn": "https://www.linkedin.com/in/ganesh-kumar-816544282/"
   }
-  
+}
