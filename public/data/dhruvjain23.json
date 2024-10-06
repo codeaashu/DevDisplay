@@ -1,13 +1,13 @@
 {
   "name": "Dhruv Jain",
-  "location": "Srinagar,India",
+  "location": "Srinagar, India",
   "bio": "MERN Stack Developer|TypeScript|Tailwind CSS| Student",
   "avatar": "https://github.com/dhruvjain23.png",
   "portfolio": "https://github.com/dhruvjain23",
   "skills": ["MERN Stack", "TypeScript", "Tailwind CSS", "Backend", "Python"],
   "social": {
     "GitHub": "https://github.com/dhruvjain23",
-    "Twitter": "https://twitter.com/your-twitter-username",
+    "Twitter": "#",
     "LinkedIn": "https://www.linkedin.com/in/dhruvjain12/"
   }
 }
