@@ -1,0 +1,13 @@
+{
+    "name": "Vaishnav Patil",
+    "location": "Nashik, Maharashtra, India",
+    "bio": "Full stack developer with experience in MERN stack.",
+    "avatar": "https://github.com/vaishnav-3.png",
+    "portfolio": "https://github.com/vaishnav-3",
+    "skills": ["React", "Typescript", "JavaScript", "TailwindCss", "Postgres", "NodeJS", "MongoDB", "Docker"],
+    "social": {
+      "GitHub": "https://github.com/vaishnav-3",
+      "Twitter": "https://twitter.com/vaishnav1103",
+      "LinkedIn": "https://www.linkedin.com/in/vaishnav03"
+    }
+  }
