@@ -2,17 +2,17 @@
   "name": "Dipanshu Rawat",
   "location": "Prayagraj, U.P",
   "bio": "<Fullstack /> Developer mostly do <Frontend /> and Contribute to open-source Softwares.",
-  "avatar": "https://avatars.githubusercontent.com/u/124811276?v=4",
+  "avatar": "https://github.com/dipanshurdev.png",
   "portfolio": "https://dipanshurdev.netlify.app/",
   "skills": [
-    "React js⚛️",
-    "TailwindCSS💨",
-    "TypeScript🔐",
+    "React js",
+    "TailwindCSS",
+    "TypeScript",
     "Next js",
     "JavaScript",
-    "Astro js⬆️",
+    "Astro js",
     "Three js",
-    "MERN🚀",
+    "MERN",
     "Appwrite",
     "Prisma.io",
     "Sanity.io",
@@ -21,7 +21,7 @@
   ],
   "social": {
     "GitHub": "https://github.com/dipanshurdev",
-    "Twitter": "https://x.com/dipanshurdev ",
+    "Twitter": "https://x.com/dipanshurdev",
     "LinkedIn": "https://www.linkedin.com/in/dipanshurdev"
   }
 }
