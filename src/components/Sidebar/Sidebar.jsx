@@ -85,6 +85,14 @@ function Sidebar() {
         >
           Opportunities Hub
         </button>
+
+        {/* New Tech Resources Button */}
+        <button
+          onClick={() => navigate('/tech-resources')}
+          className="mr-4 mt-4 inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+        >
+          Tech Resources
+        </button>
       </div>
     </div>
   );
