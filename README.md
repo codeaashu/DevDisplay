@@ -66,19 +66,7 @@ Connect with DevDisplay Community on <img src="https://raw.githubusercontent.com
 
 10. **Wait for review and merge:** Wait for the project maintainers to review and merge your changes.
 
-<h3 align="center">Once your changes are merged <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Your profile will be displayed on the project's website. <br>
-
-<a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0244.gif" border="0" alt="animated-line-image-0244" /></a><br>
-<a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0382.gif" border="0" alt="animated-line-image-0382" /></a><br>
-<a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0019.gif" border="0" alt="animated-line-image-0019" /></a><br>
-<a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0230.gif" border="0" alt="animated-line-image-0230" /></a><br>
-<a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0168.gif" border="0" alt="animated-line-image-0168" /></a><br>
-<a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0543.gif" border="0" alt="animated-line-image-0543" /></a>
-
-
-
-</h3>
-
+<h3 align="center">Once your changes are merged <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Your profile will be displayed on the project's website. <br><a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0382.gif" border="0" alt="animated-line-image-0382" /></a></h3>
 
 <h1 align="center">Tech Stack <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Inbox%20Tray.webp" alt="Inbox Tray" width="25" height="25" /></h1>
 <div align="center">
