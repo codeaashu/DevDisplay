@@ -235,13 +235,13 @@ export default function TechResources() {
               <p>Empowering developers with knowledge</p>
             </div>
             <div className="flex space-x-4">
-              <a href="#" className="transition-colors hover:text-[#00a6fb]">
+              <a href="/" className="transition-colors hover:text-[#00a6fb]">
                 About
               </a>
-              <a href="#" className="transition-colors hover:text-[#00a6fb]">
+              <a href="/" className="transition-colors hover:text-[#00a6fb]">
                 Contact
               </a>
-              <a href="#" className="transition-colors hover:text-[#00a6fb]">
+              <a href="/" className="transition-colors hover:text-[#00a6fb]">
                 Privacy Policy
               </a>
             </div>
