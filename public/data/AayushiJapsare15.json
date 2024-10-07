@@ -2,11 +2,12 @@
   "name": "Ayushi japsare",
   "location": "Mumbai",
   "bio": "I am a passionate developer with experience in building web applications using modern technologies. I love learning new things.",
-  "avatar": "https://avatars.githubusercontent.com/u/98393445?v=4",
+  "avatar": "https://github.com/AayushiJapsare15.png",
   "portfolio": "https://github.com/AayushiJapsare15",
-  "skills": ["JavaScript", "React", "Node.js", "MySQL", "Tailwind CSS","ml"],
+  "skills": ["JavaScript", "React", "Node.js", "MySQL", "Tailwind CSS", "ml"],
   "social": {
     "GitHub": "https://github.com/AayushiJapsare15",
+    "Twitter": "#",
     "LinkedIn": "https://www.linkedin.com/in/aayushi-japsare-3830601b8/"
   }
 }
