@@ -1,0 +1,13 @@
+{
+    "name": "Jyothika Manoj",
+    "location": "Kozhikode",
+    "bio": "Your Bio should be 20-30 words not more than that",
+    "avatar": "https://github.com/jyothimanoj12.png",
+    "portfolio": "https://github.com/jyothimanoj12",
+    "skills": ["HTML", "CSS", "JAVASCRIPT"],
+    "social": {
+      "GitHub": "https://github.com/jyothimanoj12",
+      "Twitter": "https://twitter.com/your-twitter-username",
+      "LinkedIn": "https://www.linkedin.com/in/jyothika-manoj-59a25622a"
+    }
+  }
