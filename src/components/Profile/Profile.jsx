@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState, useCallback } from 'react';
+import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
 
@@ -7,48 +7,25 @@ function Profile({ data }) {
 }
 
 function Card({ data }) {
-  const skillsContainerRef = useRef(null);
-  const [isDragging, setIsDragging] = useState(false);
-  const [startX, setStartX] = useState(0);
-  const [scrollLeft, setScrollLeft] = useState(0);
+  const cardRef = React.useRef();
 
-  const handleMouseDown = useCallback((e) => {
-    setIsDragging(true);
-    setStartX(e.pageX - skillsContainerRef.current.offsetLeft);
-    setScrollLeft(skillsContainerRef.current.scrollLeft);
-  }, []);
+  const handleWheel = (event) => {
+    event.stopPropagation();
+    event.preventDefault();
+    let container = event.target;
+    if (!container) return false;
 
-  const handleMouseUp = useCallback(() => {
-    setIsDragging(false);
-  }, []);
-
-  const handleMouseMove = useCallback(
-    (e) => {
-      if (!isDragging) return;
-      e.preventDefault();
-      const x = e.pageX - skillsContainerRef.current.offsetLeft;
-      const walk = (x - startX) * 1;
-      requestAnimationFrame(() => {
-        skillsContainerRef.current.scrollLeft = scrollLeft - walk;
-      });
-    },
-    [isDragging, startX, scrollLeft],
-  );
-
-  useEffect(() => {
-    const container = skillsContainerRef.current;
-    if (container) {
-      container.addEventListener('mousedown', handleMouseDown);
-      window.addEventListener('mouseup', handleMouseUp);
-      window.addEventListener('mousemove', handleMouseMove);
-
-      return () => {
-        container.removeEventListener('mousedown', handleMouseDown);
-        window.removeEventListener('mouseup', handleMouseUp);
-        window.removeEventListener('mousemove', handleMouseMove);
-      };
+    while (!container.classList.contains('skills-container')) {
+      container = container.parentNode;
     }
-  }, [handleMouseDown, handleMouseUp, handleMouseMove]);
+
+    const delta = event.deltaX || event.deltaY;
+    container.scrollLeft += delta;
+  };
+
+  React.useEffect(() => {
+    cardRef.current.addEventListener('wheel', handleWheel, { passive: false });
+  }, []);
 
   return (
     <div className="mb-6 h-auto rounded-lg bg-white p-4 shadow dark:bg-textPrimary">
@@ -72,27 +49,24 @@ function Card({ data }) {
             {data.location}
           </p>
           <div
-            ref={skillsContainerRef}
-            className="skills-container mt-4 flex h-auto cursor-grab gap-4 overflow-x-auto whitespace-nowrap pb-2 active:cursor-grabbing"
-            style={{
-              scrollbarWidth: 'none',
-              msOverflowStyle: 'none',
-              WebkitOverflowScrolling: 'touch',
-            }}
+            className="skills-container mt-4 flex h-auto gap-4 overflow-hidden hover:overflow-x-scroll hover:scroll-smooth"
+            ref={cardRef}
           >
             {data.skills &&
-              data.skills.map((skill, index) => (
-                <div
-                  className="inline-block h-auto cursor-default select-none whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
-                  key={index}
-                >
-                  {skill}
-                </div>
-              ))}
+              data.skills.map((skill, index) => {
+                return (
+                  <div
+                    className="inline h-auto cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
+                    key={index}
+                  >
+                    {skill}
+                  </div>
+                );
+              })}
           </div>
         </div>
         <div
-          className={`md:absolute md:right-2 md:top-2 ${
+          className={` md:absolute md:right-2 md:top-2 ${
             data.portfolio ? 'ml-auto w-28 hover:underline' : 'ml-auto w-28 cursor-not-allowed brightness-50'
           }`}
         >
@@ -109,11 +83,13 @@ function Card({ data }) {
               <FaGithub className="text-2xl text-blue-600 duration-300 hover:scale-125" />
             </a>
           )}
+
           {data.social?.Twitter && (
             <a href={data.social.Twitter} target="_blank" rel="noreferrer">
               <FaXTwitter className="text-2xl text-blue-600 duration-300 hover:scale-125" />
             </a>
           )}
+
           {data.social?.LinkedIn && (
             <a href={data.social.LinkedIn} target="_blank" rel="noreferrer">
               <FaLinkedin className="text-2xl text-blue-600 duration-300 hover:scale-125" />
