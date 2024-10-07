@@ -67,7 +67,7 @@ Connect with DevDisplay Community on <img src="https://raw.githubusercontent.com
 10. **Wait for review and merge:** Wait for the project maintainers to review and merge your changes.
 
 <h3 align="center">Once your changes are merged <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Your profile will be displayed on the project's website.</h3>
-<a align="center" href="https://www.animatedimages.org/cat-lines-562.htm"><img align="center" src="https://www.animatedimages.org/data/media/562/animated-line-image-0084.gif" border="0" alt="animated-line-image-0084" /></a>
+<a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0382.gif" border="0" alt="animated-line-image-0382" /></a>
 
 <h1 align="center">Tech Stack <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Inbox%20Tray.webp" alt="Inbox Tray" width="25" height="25" /></h1>
 <div align="center">
