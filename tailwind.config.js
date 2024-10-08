@@ -12,13 +12,13 @@ module.exports = {
         poppoins: ['Poppins'],
       },
       animation: {
-        ["loop-scroll"]: "loop-scroll 50s linear infinite",
+        ['loop-scroll']: 'loop-scroll 50s linear infinite',
       },
       keyframes: {
-        "loop-scroll": {
-         from: { transform: "translateX(0)" },
+        'loop-scroll': {
+          from: { transform: 'translateX(0)' },
           to: {
-            transform: "translateX(-100%)",
+            transform: 'translateX(-100%)',
           },
         },
       },
