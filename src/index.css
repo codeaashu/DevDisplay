@@ -65,6 +65,6 @@ code {
 
 @layer utilities {
   .paused {
- animation-play-state: paused;
+    animation-play-state: paused;
   }
 }
