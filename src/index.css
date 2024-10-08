@@ -62,3 +62,9 @@ code {
     background-color: hsl(200, 20%, 95%);
   }
 }
+
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
+  }
+}
