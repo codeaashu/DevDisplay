@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink } from 'lucide-react';
+import { FaSun, FaMoon } from 'react-icons/fa';
 
+// Sample opportunities data
 const opportunities = [
   {
     title: 'Hybrid & Onsite Jobs',
@@ -9,13 +11,13 @@ const opportunities = [
   },
   {
     title: 'Remote Jobs',
-    items: ['Software Engineer at Microsoft', 'JAVA Develoepr at YULK', 'UI Designer at Xdesign'],
+    items: ['Software Engineer at Microsoft', 'JAVA Developer at YULK', 'UI Designer at Xdesign'],
   },
   {
     title: 'Internships',
     items: ['Summer Internship at Google', 'Fall Internship at Microsoft', 'Remote Internship at Amazon'],
   },
-  { title: 'Freelance Work', items: ['  Web developer', 'Web Designer', 'AI Enginner'] },
+  { title: 'Freelance Work', items: ['Web Developer', 'Web Designer', 'AI Engineer'] },
   { title: 'Hackathons', items: ['Global AI Hackathon', 'Blockchain Innovation Challenge', 'Green Tech Hackathon'] },
   { title: 'Open Source', items: ['DevDisplay', 'Hacktoberfest - 2024', 'GSSOC - 2024'] },
   { title: 'Tech Events', items: ['TechCrunch Disrupt', 'Web Summit', 'Google I/O'] },
@@ -23,13 +25,37 @@ const opportunities = [
   { title: 'Devfest', items: ['Google DevFest 2024', 'Apple WWDC', 'Microsoft Build'] },
 ];
 
-export default function Opportunities() {
+function ThemeToggle({ theme, toggleTheme }) {
   return (
-    <div className="min-h-screen bg-[#141d2f] text-center text-white">
-      <header className="bg-[#00a6fb] p-4">
-        <h1 className="text-2xl font-bold">Opportunities Hub</h1>
+    <div
+      onClick={toggleTheme}
+      className="cursor-pointer sticky top-4 z-10" // Ensure it sticks to the top with correct z-index
+    >
+      {theme === 'dark' ? (
+        <FaSun className="text-white h-6 w-6 transition-colors hover:text-[#00a6fb]" />
+      ) : (
+        <FaMoon className="text-black h-6 w-6 transition-colors hover:text-[#00a6fb]" />
+      )}
+    </div>
+  );
+}
+
+export default function Opportunities() {
+  const [theme, setTheme] = useState('dark');
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
+  };
+
+  return (
+    <div className={theme === 'dark' ? 'min-h-screen bg-[#141d2f] text-white' : 'min-h-screen bg-[#f0f0f0] text-black'}>
+      {/* Header */}
+      <header className={theme === 'dark' ? 'bg-[#00a6fb] p-4' : 'bg-[#ffcc00] p-4'}>
+        {/* Theme Toggle */}
+        <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
       </header>
 
+      {/* Animated Section */}
       <section className="relative flex h-[50vh] items-center justify-center overflow-hidden">
         <motion.div
           className="absolute inset-0 z-0"
@@ -43,7 +69,9 @@ export default function Opportunities() {
           }}
           style={{
             backgroundImage:
-              'linear-gradient(45deg, #141d2f 25%, #00a6fb 25%, #00a6fb 50%, #141d2f 50%, #141d2f 75%, #00a6fb 75%, #00a6fb 100%)',
+              theme === 'dark'
+                ? 'linear-gradient(45deg, #141d2f 25%, #00a6fb 25%, #00a6fb 50%, #141d2f 50%, #141d2f 75%, #00a6fb 75%, #00a6fb 100%)'
+                : 'linear-gradient(45deg, #ffffff 25%, #ffcc00 25%, #ffcc00 50%, #ffffff 50%, #ffffff 75%, #ffcc00 75%, #ffcc00 100%)',
             backgroundSize: '400% 400%',
           }}
         />
@@ -57,14 +85,20 @@ export default function Opportunities() {
         </div>
       </section>
 
+      {/* Main Content */}
       <main className="container mx-auto grid gap-8 p-4 md:grid-cols-2 lg:grid-cols-3">
         {opportunities.map((category) => (
-          <div key={category.title} className="rounded-lg bg-[#1e2a42] p-4 shadow-lg">
-            <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">{category.title}</h3>
+          <div
+            key={category.title}
+            className={theme === 'dark' ? 'rounded-lg bg-[#1e2a42] p-4 shadow-lg' : 'rounded-lg bg-[#ffffff] p-4 shadow-lg'}
+          >
+            <h3 className={theme === 'dark' ? 'mb-4 text-2xl font-bold text-[#00a6fb]' : 'mb-4 text-2xl font-bold text-[#ffcc00]'}>
+              {category.title}
+            </h3>
             <ul className="space-y-2">
               {category.items.map((item, index) => (
                 <li key={index} className="flex items-center">
-                  <ExternalLink className="mr-2 h-4 w-4 text-[#00a6fb]" />
+                  <ExternalLink className={theme === 'dark' ? 'mr-2 h-4 w-4 text-[#00a6fb]' : 'mr-2 h-4 w-4 text-[#ffcc00]'} />
                   <button className="text-left transition-colors hover:text-[#00a6fb]">{item}</button>
                 </li>
               ))}
@@ -73,7 +107,8 @@ export default function Opportunities() {
         ))}
       </main>
 
-      <footer className="mt-12 bg-[#00a6fb] p-8">
+      {/* Footer */}
+      <footer className={theme === 'dark' ? 'mt-12 bg-[#00a6fb] p-8' : 'mt-12 bg-[#ffcc00] p-8'}>
         <div className="container mx-auto text-center">
           <h3 className="mb-4 text-2xl font-bold">Join the Tech Revolution</h3>
           <p className="mb-4">Stay updated with the latest opportunities and events in the tech world.</p>
@@ -81,11 +116,11 @@ export default function Opportunities() {
             <input
               type="email"
               placeholder="Enter your email"
-              className="w-full rounded-lg px-4 py-2 text-[#141d2f] sm:w-auto"
+              className={theme === 'dark' ? 'w-full rounded-lg px-4 py-2 text-[#141d2f] sm:w-auto' : 'w-full rounded-lg px-4 py-2 text-[#000] sm:w-auto'}
             />
             <button
               type="submit"
-              className="w-full rounded-lg bg-[#141d2f] px-6 py-2 text-white transition-colors hover:bg-[#1e2a42] sm:w-auto"
+              className={theme === 'dark' ? 'w-full rounded-lg bg-[#141d2f] px-6 py-2 text-white hover:bg-[#1e2a42] sm:w-auto' : 'w-full rounded-lg bg-[#ffcc00] px-6 py-2 text-black hover:bg-[#ffd700] sm:w-auto'}
             >
               Subscribe
             </button>
