@@ -1,13 +1,13 @@
 {
-    "name": "Soumyodeep Das",
-    "location": "Kolkata, West Bengal, India",
-    "bio": "Passoinate Web Dev and Open Source Contributor",
-    "avatar": "https://github.com/Soumyodeep-Das.png",
-    "portfolio": "https://github.com/Soumyodeep-Das",
-    "skills": ["React Native", "React", "Java SpringBoot", "MERN Stack", "PHP", "Docker"],
-    "social": {
-      "GitHub": "https://github.com/Soumyodeep-Das",
-      "Twitter": "https://twitter.com/soumyodeep_das",
-      "LinkedIn": "https://www.linkedin.com/in/soumyodeep-das/"
-    }
+  "name": "Soumyodeep Das",
+  "location": "Kolkata, West Bengal, India",
+  "bio": "Passoinate Web Dev and Open Source Contributor",
+  "avatar": "https://github.com/Soumyodeep-Das.png",
+  "portfolio": "https://github.com/Soumyodeep-Das",
+  "skills": ["React Native", "React", "Java SpringBoot", "MERN Stack", "PHP", "Docker"],
+  "social": {
+    "GitHub": "https://github.com/Soumyodeep-Das",
+    "Twitter": "https://twitter.com/soumyodeep_das",
+    "LinkedIn": "https://www.linkedin.com/in/soumyodeep-das/"
   }
+}
