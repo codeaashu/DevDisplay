@@ -48,21 +48,59 @@ function Card({ data }) {
             <FaLocationDot />
             {data.location}
           </p>
+          <div className=' overflow-hidden flex group'>
           <div
-            className="skills-container mt-4 flex h-auto gap-4 overflow-hidden hover:overflow-x-scroll hover:scroll-smooth"
+            className=" animate-loop-scroll skills-container mt-4 flex h-auto gap-4  whitespace-nowrap mr-2 group-hover:paused "
             ref={cardRef}
           >
             {data.skills &&
               data.skills.map((skill, index) => {
                 return (
                   <div
-                    className="inline h-auto cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
+                    className=" inline h-auto  cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]" 
                     key={index}
                   >
                     {skill}
                   </div>
                 );
               })}
+           
+          </div>
+          <div
+            className=" animate-loop-scroll skills-container mt-4 flex h-auto gap-4  whitespace-nowrap mr-2 group-hover:paused" aria-hidden="true"
+            ref={cardRef}
+          >
+            {data.skills &&
+              data.skills.map((skill, index) => {
+                return (
+                  <div
+                    className=" inline h-auto  cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
+                    key={index}
+                  >
+                    {skill}
+                  </div>
+                );
+              })}
+           
+          </div>
+          <div
+            className=" animate-loop-scroll skills-container mt-4 flex h-auto gap-4  whitespace-nowrap group-hover:paused" aria-hidden="true"
+            ref={cardRef}
+          >
+            {data.skills &&
+              data.skills.map((skill, index) => {
+                return (
+                  <div
+                    className=" inline h-auto  cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
+                    key={index}
+                  >
+                    {skill}
+                  </div>
+                );
+              })}
+           
+          </div>
+         
           </div>
         </div>
         <div

@@ -26,9 +26,6 @@ function Sidebar() {
     navigate('/opportunities');
   }
 
-  function handleResources() {
-    navigate('/resources');
-  }
 
   return (
     <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%] md:px-2 lg:px-7">
