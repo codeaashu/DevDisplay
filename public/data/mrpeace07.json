@@ -1,0 +1,13 @@
+{
+  "name": "Nishanth S",
+  "location": "India",
+  "bio": "A Passionate Full-Stack developer starting into Open source",
+  "avatar": "https://github.com/mrpeace07.png",
+  "portfolio": "",
+  "skills": ["MERN", "JAVASCRIPT", "HTML5", "CSS", "C++", "Figma", "Open source", "DSA"],
+  "social": {
+    "GitHub": "https://github.com/mrpeace07",
+    "Twitter": "https://twitter.com/your-twitter-username",
+    "LinkedIn": "https://www.linkedin.com/in/nishanth-s-35b515222"
+  }
+}
