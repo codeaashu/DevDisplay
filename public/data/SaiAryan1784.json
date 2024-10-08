@@ -4,7 +4,22 @@
   "bio": "A 3rd Year undergrad from India, Full stack dev, UI/UX and currently exploring AI/ML. Badminton and designing are few of my hobbies.",
   "avatar": "https://github.com/SaiAryan1784.png",
   "portfolio": "https://github.com/SaiAryan1784",
-  "skills": ["HTML", "CSS", "TailwindCSS", "React.js", "MongoDB", "ExpressJs", "Python", "JavaScript", "C++", "C", "Next.js", "Prisma", "Figma", "TensorFlow.js"],
+  "skills": [
+    "HTML",
+    "CSS",
+    "TailwindCSS",
+    "React.js",
+    "MongoDB",
+    "ExpressJs",
+    "Python",
+    "JavaScript",
+    "C++",
+    "C",
+    "Next.js",
+    "Prisma",
+    "Figma",
+    "TensorFlow.js"
+  ],
   "social": {
     "GitHub": "https://github.com/SaiAryan1784",
     "Twitter": "https://twitter.com/NUCLEAR1784",
