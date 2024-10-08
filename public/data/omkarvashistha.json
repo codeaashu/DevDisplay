@@ -1,0 +1,25 @@
+{
+  "name": "Omkar Vashistha",
+  "location": "Bangalore,India",
+  "bio": "I am a Full-Stack Developer with expertise in MERN stack, specializing in full stack development and developing solutions over 3 years",
+  "avatar": "https://github.com/omkarvashistha.png",
+  "portfolio": "https://omkar-project-portfolio.netlify.app/",
+  "skills": [
+    "JavaScript",
+    "React",
+    "HTML",
+    "Css",
+    "Mongodb",
+    "SQL",
+    "Firestore",
+    "NextJS",
+    "ExpressJs",
+    "REST APIs",
+    "Playwright"
+  ],
+  "social": {
+    "GitHub": "https://github.com/omkarvashistha",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/omkar-vashistha/"
+  }
+}

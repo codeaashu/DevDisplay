@@ -1,0 +1,26 @@
+{
+  "name": "Sai Dinesh",
+  "location": "Visakhapatnam, Andhra Pradesh",
+  "bio": "A passionate developer who is interested in research, exploration, and innovation.",
+  "avatar": "https://github.com/saidinesh49.png",
+  "portfolio": "https://github.com/saidinesh49",
+  "skills": [
+    "C++",
+    "Python",
+    "Java",
+    "Figma",
+    "React",
+    "NextJS",
+    "NodeJS",
+    "NestJS",
+    "MongoDB",
+    "Postgres",
+    "Supabase",
+    "Firebase"
+  ],
+  "social": {
+    "GitHub": "https://github.com/saidinesh49",
+    "Twitter": "https://twitter.com/Dinesh_010",
+    "LinkedIn": "https://www.linkedin.com/in/palisetty-sai-dinesh"
+  }
+}

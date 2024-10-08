@@ -26,7 +26,6 @@ function Sidebar() {
     navigate('/opportunities');
   }
 
-
   return (
     <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%] md:px-2 lg:px-7">
       <div className="mb-2 flex h-12 items-center gap-2.5">
@@ -98,4 +97,4 @@ function Sidebar() {
   );
 }
 
-export default Sidebar;
+export default Sidebar;
