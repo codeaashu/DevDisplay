@@ -1,10 +1,21 @@
 {
-  "name": "damarudh varma",
-  "location": "Hyderabad ,Telangana",
+  "name": "Damarudh varma",
+  "location": "Hyderabad, Telangana",
   "bio": "MERN Stack Developer | Flutter Developer | Innovate, Integrate, Iterate: Thriving with Flutter and MERN Stack Synergy",
   "avatar": "https://github.com/damarudhvarma.png",
   "portfolio": "https://damarudh.teamapartx.com",
-  "skills": ["MERN", "Postman", "Next.js", "Docker"],
+  "skills": [
+    "MERN",
+    "Postman",
+    "Next.js",
+    "Docker",
+    "Development",
+    "Frontend",
+    "ReactJS",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB"
+  ],
   "social": {
     "GitHub": "https://github.com/damarudhvarma",
     "Twitter": "https://x.com/damarudhvarma",
