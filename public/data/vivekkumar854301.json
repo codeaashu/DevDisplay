@@ -1,0 +1,13 @@
+{
+    "name": "Vivek kumar",
+    "location": "Chennai",
+    "bio": "hii my self vivek , i am from chennai , correctly i am work in clarium tech . i have 1 year experience in java full stack developer using angular ,typescript, scss, springboot,restapi,java  ",
+    "avatar": "https://avatars.githubusercontent.com/u/80684694?s=400&u=0632c912412ab1979dd2e76b6329c5753fc0b4ca&v=4.png",
+    "portfolio": "https://portfoliovivekkumar.netlify.app/",
+    "skills": ["angular", "java", "springboot"],
+    "social": {
+      "GitHub": "https://github.com/your-github-username",
+      "Twitter": "https://twitter.com/@20bce10724",
+      "LinkedIn": "www.linkedin.com/in/vivek-kumar-782317209"
+    }
+  }
