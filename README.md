@@ -1,4 +1,4 @@
-     <div align="center">                                                                         
+      <div align="center">                                                                         
   
   ![GitHub Repo stars](https://img.shields.io/github/stars/codeaashu/DevDisplay?style=social) 
   ![GitHub forks](https://img.shields.io/github/forks/codeaashu/DevDisplay?style=social)
