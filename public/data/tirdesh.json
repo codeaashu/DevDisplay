@@ -4,9 +4,26 @@
   "bio": "Full Stack Developer pursuing MS in Information Systems at Northeastern. Passionate about AI, cloud computing, and innovative web applications.",
   "avatar": "https://github.com/tirdesh.png",
   "portfolio": "https://nocodenolife.vercel.app/",
-  "skills": ["Python", "Java", "JavaScript", "TypeScript", "React", "Node.js", "Angular", "Next.js", "Flask", "MongoDB", "MySQL", "Docker", "Kubernetes", "Cloud Computing", "Machine Learning"],
+  "skills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Angular",
+    "Next.js",
+    "Flask",
+    "MongoDB",
+    "MySQL",
+    "Docker",
+    "Kubernetes",
+    "Cloud Computing",
+    "Machine Learning"
+  ],
   "social": {
     "GitHub": "https://github.com/tirdesh",
+    "Twitter": "#",
     "LinkedIn": "https://linkedin.com/in/tirdesh"
   }
 }
