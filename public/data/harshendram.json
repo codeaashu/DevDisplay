@@ -1,10 +1,22 @@
 {
   "name": "Harshendra M",
-  "location": "Bengaluru,Karnataka,India",
+  "location": "Bengaluru, Karnataka, India",
   "bio": "",
   "avatar": "https://github.com/harshendram.png",
   "portfolio": "https://github.com/harshendram",
-  "skills": ["Redux", "DSA", "React js","JavaScript","Python","HTML","CSS","C++","Competitive Programming","GitHub","Front-end"],
+  "skills": [
+    "Redux",
+    "DSA",
+    "React js",
+    "JavaScript",
+    "Python",
+    "HTML",
+    "CSS",
+    "C++",
+    "Competitive Programming",
+    "GitHub",
+    "Front-end"
+  ],
   "social": {
     "GitHub": "https://github.com/harshendram",
     "Twitter": "https://x.com/harami_harsh?t=5s7kkAf-j9XLlLekfxLr9Q&s=09",
