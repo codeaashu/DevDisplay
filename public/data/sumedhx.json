@@ -1,0 +1,13 @@
+{
+    "name": "Sumedh Suralkar",
+    "location": "Jalgaon",
+    "bio": "Passionate full-stack dev, crafting sleek web apps with MERN. Always learning, coding, and pushing boundaries. Let's build something epic!",
+    "avatar": "https://github.com/sumedhx.png",
+    "portfolio": "https://github.com/sumedhx",
+    "skills": ["Javascript", "HTML & CSS", "Bootstrap", "MERN", "Java", "Python"],
+    "social": {
+      "GitHub": "https://github.com/sumedhx",
+      "Twitter": "https://twitter.com/sumedhsuralkar",
+      "LinkedIn": "https://www.linkedin.com/in/sumedhsuralkar"
+    }
+  }
