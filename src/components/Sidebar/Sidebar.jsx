@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin, FaUser } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
+import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react';
 
 function Sidebar() {
   const navigate = useNavigate();
@@ -54,6 +55,20 @@ function Sidebar() {
             )}
           </button>
         </div>
+        <div className="md:hidden ">
+          <SignedIn>
+            <div className="flex items-center justify-center">
+              <UserButton
+                appearance={{
+                  elements: {
+                    userButtonAvatarBox: 'w-8 h-8',
+                    userButtonOuter: 'p-3',
+                  },
+                }}
+              />
+            </div>
+          </SignedIn>
+        </div>
       </div>
       <div className="text-secondaryColor dark:text-white">
         Open Source community where you can discover, connect, collab with skilled developers, share your ideas then
@@ -79,8 +94,6 @@ function Sidebar() {
             <FaLinkedin className="text-1xl text-black-600 ml-2 duration-300 hover:scale-125" />
           </button>
         </a>
-      </div>
-      <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
         <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
           <button className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             Spotlight
@@ -92,6 +105,15 @@ function Sidebar() {
         >
           Opportunities Hub
         </button>
+
+        <SignedOut>
+          <SignInButton mode="modal">
+            <button className="inline-flex cursor-pointer items-center gap-2 rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+              <FaUser />
+              Sign-in
+            </button>
+          </SignInButton>
+        </SignedOut>
       </div>
     </div>
   );
