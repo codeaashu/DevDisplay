@@ -1,0 +1,13 @@
+{
+  "name": "Aditya Shukla",
+  "location": "India",
+  "bio": "I'm Vastavikadi, a Full Stack Developer specialised in MERN stack. I am fascinated with the connection between web development and artificial intelligence and creating innovative, scalable web applications.",
+  "avatar": "https://github.com/vastavikadi.png",
+  "portfolio": "vastavikportfolio.vercel.app",
+  "skills": ["DSA", "MERN-STACK", "OPEN-SOURCE CONTRIBUTOR"],
+  "social": {
+    "GitHub": "https://github.com/vastavikadi",
+    "Twitter": "https://twitter.com/vastavikadi",
+    "LinkedIn": "https://www.linkedin.com/in/vastavikadi"
+  }
+}
