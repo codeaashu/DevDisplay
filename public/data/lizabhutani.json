@@ -4,7 +4,20 @@
   "bio": "Front end developer, curious to contribute into open source projects",
   "avatar": "https://github.com/lizabhutani.png",
   "portfolio": "https://github.com/lizabhutani",
-  "skills": ["HTML", "CSS", "JavaScript", "C", "C++", "Java", "Ruby", "Git", "PostmanAPI", "Google Cloud"],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "C",
+    "C++",
+    "Java",
+    "Ruby",
+    "Git",
+    "PostmanAPI",
+    "Google Cloud",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/lizabhutani",
     "Twitter": "https://twitter.com/liza_bhutani",
