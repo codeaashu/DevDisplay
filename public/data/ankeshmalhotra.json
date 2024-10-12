@@ -4,7 +4,17 @@
   "bio": "AN aspiring Android App Developer",
   "avatar": "https://github.com/ankeshmalhotra.png",
   "portfolio": "https://github.com/ankeshmalhotra",
-  "skills": ["java", "MySql", "App Development", "Git", "GitHub", "Android Development"],
+  "skills": [
+    "java",
+    "MySql",
+    "App Development",
+    "Git",
+    "GitHub",
+    "Android Development",
+    "Jetpack",
+    "MVVM Architecture",
+    "Firebase"
+  ],
   "social": {
     "GitHub": "https://github.com/ankeshmalhotra",
     "Twitter": "https://twitter.com/malhotra_ankesh",
