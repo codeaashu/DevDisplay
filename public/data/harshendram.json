@@ -1,7 +1,7 @@
 {
   "name": "Harshendra M",
   "location": "Bengaluru, Karnataka, India",
-  "bio": "",
+  "bio": "Aspiring Developer",
   "avatar": "https://github.com/harshendram.png",
   "portfolio": "https://github.com/harshendram",
   "skills": [
@@ -15,7 +15,9 @@
     "C++",
     "Competitive Programming",
     "GitHub",
-    "Front-end"
+    "Front-end",
+    "Web Development",
+    "Git"
   ],
   "social": {
     "GitHub": "https://github.com/harshendram",

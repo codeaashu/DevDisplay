@@ -4,7 +4,19 @@
   "bio": "A passionate software developer with expertise in JavaScript, Python, and web application development. Enjoys building innovative projects and is eager to grow in the tech industry.",
   "avatar": "https://github.com/ivaibhavkulkarni.png",
   "portfolio": "https://portfolio-nu-ten-21.vercel.app/",
-  "skills": ["MERN Stack Developer", "DSA", "Swift"],
+  "skills": [
+    "MERN Stack Developer",
+    "ReactJS",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "DSA",
+    "Swift",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/ivaibhavkulkarni",
     "Twitter": "https://x.com/ivaibhavkulkarn",

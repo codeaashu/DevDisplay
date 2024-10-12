@@ -4,7 +4,20 @@
   "bio": "A Passionate Full-Stack developer starting into Open source",
   "avatar": "https://github.com/mrpeace07.png",
   "portfolio": "https://mrpeace-portfolio.netlify.app/",
-  "skills": ["MERN", "JAVASCRIPT", "HTML5", "CSS", "C++", "Figma", "Open source", "DSA"],
+  "skills": [
+    "MERN",
+    "JAVASCRIPT",
+    "HTML5",
+    "CSS",
+    "C++",
+    "Figma",
+    "Open source",
+    "DSA",
+    "Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/mrpeace07",
     "Twitter": "#",
