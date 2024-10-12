@@ -4,7 +4,22 @@
   "bio": "Software Engineer, Passionate about problem-solving and implementing algorithms, favorite subject DAA, DSA",
   "avatar": "https://github.com/jaydeeprawat17.png",
   "portfolio": "https://github.com/jaydeeprawat17",
-  "skills": ["HTML", "CSS", "JAVASCRIPT", "PYTHON", "REACT", "C++", "C", "JAVA", "C#", "SQL"],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT",
+    "PYTHON",
+    "REACT",
+    "C++",
+    "C",
+    "JAVA",
+    "C#",
+    "SQL",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/jaydeeprawat17",
     "Twitter": "https://twitter.com/@jaydeep_ra69755",
