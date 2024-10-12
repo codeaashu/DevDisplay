@@ -1,0 +1,13 @@
+  {
+      "name": "Anushree Jaiswal",
+      "location": "Prayagraj, Uttar Pradesh, India",
+      "bio": "I am coderKrysio, a passionate web developer based in Prayagraj, India, I bring a wealth of technical expertise and a zest for creating digital wonders.",
+      "avatar": "https://github.com/coderKrysio.png",
+      "portfolio": "https://coderkrysio.vercel.app/",
+      "skills": ["Next JS", "Tailwind CSS", "React js", "JavaScript", "Typescript", "Java", "Python", "HTML", "CSS", "DSA", "Competitive Programming", "GitHub", "Front-end", "UI Libraries"],
+      "social": {
+          "GitHub": "https://github.com/coderKrysio",
+          "Twitter": "https://twitter.com/coderKrysio",
+          "LinkedIn": "https://www.linkedin.com/in/coderkrysio"
+      }
+  }
