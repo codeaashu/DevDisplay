@@ -4,7 +4,19 @@
   "bio": "Software Developer | AI Enthusiast | Creative Innovator",
   "avatar": "https://github.com/Chakridhar2555.png",
   "portfolio": "http://chakridhar.teamapartx.com",
-  "skills": ["python", "MERN", "flutter", "Web Development", "Frontend", "ReactJS", "MongoDB", "ExpressJS", "NodeJS"],
+  "skills": [
+    "python",
+    "MERN",
+    "flutter",
+    "Web Development",
+    "Frontend",
+    "ReactJS",
+    "MongoDB",
+    "ExpressJS",
+    "NodeJS",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/Chakridhar2555",
     "Twitter": "https://twitter.com/your-twitter-username",

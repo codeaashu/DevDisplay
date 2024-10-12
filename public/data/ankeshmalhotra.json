@@ -1,10 +1,10 @@
 {
   "name": "Ankesh Malhotra",
   "location": "Patna",
-  "bio": "",
+  "bio": "AN aspiring Android App Developer",
   "avatar": "https://github.com/ankeshmalhotra.png",
   "portfolio": "https://github.com/ankeshmalhotra",
-  "skills": ["java", "git/github", "MySql"],
+  "skills": ["java", "MySql", "App Development", "Git", "GitHub", "Android Development"],
   "social": {
     "GitHub": "https://github.com/ankeshmalhotra",
     "Twitter": "https://twitter.com/malhotra_ankesh",
