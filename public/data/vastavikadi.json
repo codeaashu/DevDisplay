@@ -3,7 +3,7 @@
   "location": "India",
   "bio": "I'm Vastavikadi, a Full Stack Developer specialised in MERN stack. I am fascinated with the connection between web development and artificial intelligence and creating innovative, scalable web applications.",
   "avatar": "https://github.com/vastavikadi.png",
-  "portfolio": "vastavikportfolio.vercel.app",
+  "portfolio": "https://vastavikportfolio.vercel.app/",
   "skills": ["DSA", "MERN-STACK", "OPEN-SOURCE CONTRIBUTOR", "NextJS", "ExpressJS", "React", "React-Native", "JAVA", "C/C++", "Python", "Django", "Tailwind CSS", "NodeJS", "Blockchain","Solidity", "AI","Smart-Contracts"],
   "social": {
     "GitHub": "https://github.com/vastavikadi",
