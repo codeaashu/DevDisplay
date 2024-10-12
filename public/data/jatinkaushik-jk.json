@@ -4,7 +4,8 @@
   "bio": "Passionate CSE student crafting dynamic applications. Enthusiastic about collaboration and creating remarkable projects. Let's connect, code, and innovate! 🚀✨",
   "avatar": "https://github.com/jatinkaushik-jk.png",
   "portfolio": "https://github.com/jatinkaushik-jk",
-  "skills": ["TypeScript",
+  "skills": [
+    "TypeScript",
     "JavaScript",
     "React.js",
     "Next.js",
@@ -20,7 +21,8 @@
     "Node.js",
     "DSA",
     "Git",
-    "GitHub"],
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/jatinkaushik-jk",
     "Instagram": "https://instagram.com/jatinkaushik.jk",
