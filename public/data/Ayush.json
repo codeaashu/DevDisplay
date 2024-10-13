@@ -1,0 +1,31 @@
+{
+  "name": "Ayush Kumar Pandey",
+  "location": "Pune, Maharashtra, India",
+  "bio": "I am a dedicated Full Stack Developer with expertise in C++ and modern web technologies. With solid academic background and hands-on experience, I specialize in Data Structures, Algorithms, and full-stack development using MERN and Next.js. I've solved over 500 problems on LeetCode and 400 on GeeksForGeeks, achieving Institute Rank 1.",
+  "avatar": "https://github.com/w0wayush.png",
+  "portfolio": "https://ayushw0w.netlify.app/",
+  "skills": [
+    "TypeScript",
+    "JavaScript",
+    "React.js",
+    "Next.js",
+    "C++",
+    "HTML",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Git",
+    "Docker",
+    "Java",
+    "Mongo DB",
+    "Node.js",
+    "DSA",
+    "Azure Cloud Services",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/w0wayush",
+    "Twitter": "https://x.com/ayushw0w",
+    "LinkedIn": "https://www.linkedin.com/in/ayush-kumar-pandey/"
+  }
+}

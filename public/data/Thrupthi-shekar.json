@@ -1,0 +1,24 @@
+{
+  "name": "Thrupthi r shekar",
+  "location": "Hassan, Karnataka, India",
+  "bio": "Computer Science student with a passion for building user-centric web applications. Possesses strong full-stack development skills (HTML5, CSS3, JavaScript frameworks, Python, MongoDB) gained through internships and personal projects.",
+  "avatar": "https://github.com/Thrupthi-shekar.png",
+  "portfolio": "https://github.com/Thrupthi-shekar",
+  "skills": [
+    "html",
+    "css",
+    "javascript",
+    "mongodb",
+    "reactjs",
+    "tailwind css",
+    "nodejs",
+    "expressjs",
+    "figma",
+    "postman"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Thrupthi-shekar",
+    "Twitter": "https://x.com/RThrupthi88632",
+    "LinkedIn": "https://www.linkedin.com/in/thrupthi-r-shekar-162523251/"
+  }
+}

@@ -4,7 +4,18 @@
   "bio": "Full Stack Developer | UI/UX Enthusiast | Cyber Security | Ethical Hacking | Eager to Explore New Opportunities",
   "avatar": "https://github.com/iamaloksy.png",
   "portfolio": "https://github.com/iamaloksy",
-  "skills": ["Fullstack-Developer", "UI-UX Developer", "CEH & Cyber Security"],
+  "skills": [
+    "Fullstack-Developer",
+    "UI-UX Developer",
+    "CEH",
+    "Cyber Security",
+    "Web Development",
+    "Frontend",
+    "Backend",
+    "MernStack",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/iamaloksy",
     "Twitter": "https://twitter.com/iamaloksi",

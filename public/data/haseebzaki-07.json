@@ -1,0 +1,26 @@
+{
+  "name": "Haseeb Zaki",
+  "location": "Bhopal",
+  "bio": "A passionate software developer with a strong focus on building robust and scalable applications.",
+  "avatar": "https://github.com/haseebzaki-07.png",
+  "portfolio": "https://github.com/haseebzaki-07",
+  "skills": [
+    "Next-js",
+    "React",
+    "Postgres",
+    "Docker",
+    "MongoDB",
+    "Express",
+    "NodeJS",
+    "C++",
+    "Java",
+    "TypeScript",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/haseebzaki-07",
+    "Twitter": "https://x.com/HaseebZaki1",
+    "LinkedIn": "https://www.linkedin.com/in/haseebzaki"
+  }
+}

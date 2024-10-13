@@ -11,6 +11,17 @@ module.exports = {
         spaceMono: ['"Space Mono"', 'monospace', 'sans-serif'],
         poppoins: ['Poppins'],
       },
+      animation: {
+        ['loop-scroll']: 'loop-scroll 50s linear infinite',
+      },
+      keyframes: {
+        'loop-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: {
+            transform: 'translateX(-100%)',
+          },
+        },
+      },
       colors: ({ colors }) => ({
         borderColor: 'rgba(194, 183, 183, 0.1)',
         borderSecondary: 'rgba(20, 29, 47, 0.1)',

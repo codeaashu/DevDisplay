@@ -1,0 +1,26 @@
+{
+  "name": "Chandrima Hazra",
+  "location": "Jamshedpur, India",
+  "bio": "Sophomore currently pursuing a BTech in Computer Science and Engineering from NIT Jamshedpur, with experience in MERN Stack web development and active involvement in open-source contributions.",
+  "avatar": "https://github.com/hazraChandrima.png",
+  "portfolio": "https://github.com/hazraChandrima",
+  "skills": [
+    "HTML/CSS",
+    "JavaScript",
+    "Next.js",
+    "React",
+    "MERN Stack",
+    "C",
+    "Java",
+    "Tailwind CSS",
+    "Figma",
+    "Git",
+    "GitHub",
+    "PowerShell"
+  ],
+  "social": {
+    "GitHub": "https://github.com/hazraChandrima",
+    "Twitter": "https://x.com/hazra78436",
+    "LinkedIn": "https://www.linkedin.com/in/chandrima-hazra-65494a219"
+  }
+}

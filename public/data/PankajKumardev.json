@@ -1,0 +1,13 @@
+{
+  "name": "Pankaj Kumar ",
+  "location": "New Delhi",
+  "bio": "Aspiring Developer",
+  "avatar": "https://github.com/PankajKumardev.png",
+  "portfolio": "https://pankaj-kumar-neon.vercel.app/",
+  "skills": ["React", "Express", "Postgres", "Web Development", "Frontend", "Git", "GitHub", "MERN"],
+  "social": {
+    "GitHub": "https://github.com/PankajKumardev",
+    "Twitter": "https://twitter.com/Pankajkumar_dev",
+    "LinkedIn": "https://www.linkedin.com/in/pankajkumardev0"
+  }
+}
