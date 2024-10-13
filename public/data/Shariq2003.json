@@ -1,0 +1,12 @@
+{
+  "name": "Shariq",
+  "location": "Uttar Pradesh",
+  "bio": "Shariq | B. Tech in Computer Science and Engineering (AI & ML) 🎓 Student at Moradabad Institute of Technology (MIT), AKTU",
+  "avatar": "https://github.com/Shariq2003.png",
+  "portfolio": "https://portfolio-nine-rosy-72.vercel.app/",
+  "skills": ["React", "DSA", "NodeJS","Web Development"],
+  "social": {
+    "GitHub": "https://github.com/your-github-username",
+    "LinkedIn": "https://www.linkedin.com/in/shariq-sd/"
+  }
+}
