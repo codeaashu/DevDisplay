@@ -1,10 +1,21 @@
 {
   "name": "Rohith K",
-  "location": "Your Location",
+  "location": "Palghat, Kerala, India",
   "bio": "Hi, I'm Rohith! I'm a passionate front-end developer with a focus on building beautiful and responsive web and mobile applications.",
   "avatar": "https://github.com/RohithNair27.png",
   "portfolio": "https://github.com/RohithNair27",
-  "skills": ["React Native", "React JS", "Redux", "Javascript", "Typescript"],
+  "skills": [
+    "React Native",
+    "React JS",
+    "Redux",
+    "Javascript",
+    "Typescript",
+    "MernStack",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/RohithNair27",
     "Twitter": "https://twitter.comRohithNair_27",

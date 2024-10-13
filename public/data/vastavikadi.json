@@ -1,6 +1,6 @@
 {
   "name": "Aditya Shukla",
-  "location": "India",
+  "location": "Jaipur, Rajasthan, India",
   "bio": "I'm Vastavikadi, a Full Stack Developer specialised in MERN stack. I am fascinated with the connection between web development and artificial intelligence and creating innovative, scalable web applications.",
   "avatar": "https://github.com/vastavikadi.png",
   "portfolio": "https://vastavikportfolio.vercel.app/",
@@ -21,7 +21,9 @@
     "Blockchain",
     "Solidity",
     "AI",
-    "Smart-Contracts"
+    "Smart-Contracts",
+    "Git",
+    "GitHub"
   ],
   "social": {
     "GitHub": "https://github.com/vastavikadi",
