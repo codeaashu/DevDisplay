@@ -4,7 +4,21 @@
   "bio": "Hi 👋, I'm Ajay Achugatla, a passionate Web developer who loves coding, development, and exploring various creative pursuits.",
   "avatar": "https://github.com/AjayAchugatla.png",
   "portfolio": "https://github.com/AjayAchugatla/",
-  "skills": ["HTML", "CSS", "Javascript", "React", "Express", "Java", "Node.js", "SQL", "Mongo db"],
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "React",
+    "Express",
+    "Java",
+    "Node.js",
+    "SQL",
+    "Mongo db",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/AjayAchugatla/",
     "Twitter": "https://x.com/AjayAchugatla",
