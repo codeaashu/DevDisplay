@@ -4,7 +4,19 @@
   "bio": "A Student pursuing Bachelor in computer science.",
   "avatar": "https://github.com/darshinihoney.png",
   "portfolio": "https://github.com/darshinihoney",
-  "skills": ["JavaScript","React","NodeJS","MongoDB","Web Development","Frontend","Git","ExpressJS","C++","HTML","CSS"],
+  "skills": [
+    "JavaScript",
+    "React",
+    "NodeJS",
+    "MongoDB",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "ExpressJS",
+    "C++",
+    "HTML",
+    "CSS"
+  ],
   "social": {
     "GitHub": "https://github.com/darshinihoney",
     "Twitter": "#",
