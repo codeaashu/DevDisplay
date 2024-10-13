@@ -1,0 +1,13 @@
+{
+  "name": "Ajay Achugatla",
+  "location": "Hyderabad, India",
+  "bio": "Hi 👋, I'm Ajay Achugatla, a passionate Web developer who loves coding, development, and exploring various creative pursuits.",
+  "avatar": "https://github.com/AjayAchugatla.png",
+  "portfolio": "https://github.com/AjayAchugatla/",
+  "skills": ["HTML", "CSS", "Javascript", "React", "Express", "Java", "Node.js", "SQL", "Mongo db"],
+  "social": {
+    "GitHub": "https://github.com/AjayAchugatla/",
+    "Twitter": "https://x.com/AjayAchugatla",
+    "LinkedIn": "https://www.linkedin.com/in/achugatla-ajay-kumar-71b4ba292/"
+  }
+}
