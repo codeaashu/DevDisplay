@@ -1,7 +1,7 @@
 {
   "name": "Ansul Agrawal",
   "location": "Bangalore, India",
-  "bio": "Hello, I'm a Software Engineer specializing in modern web development. I have extensive experience working with technologies such as React, Node.js, and Shopify, building dynamic and user-friendly web applications. My journey in software development has led me to work on diverse projects, ranging from freelance gigs to large-scale open-source contributions. I’m passionate about creating high-quality, scalable solutions and take pride in writing clean, maintainable code. I enjoy collaborating with teams to bring ideas to life and solving complex problems with innovative approaches. My work often involves integrating third-party services, optimizing performance, and staying up to date with the latest industry trends and best practices. As a lifelong learner, I continuously explore new tools and frameworks, aiming to stay at the forefront of technology. Outside of coding, I contribute to tech communities by sharing knowledge, mentoring other developers, and participating in hackathons and coding challenges. I’m always open to new opportunities and look forward to connecting with like-minded professionals to create impactful software solutions.",
+  "bio": "Hello, I'm a Software Engineer specializing in modern web development. I have extensive experience working with technologies such as React, Node.js, and Shopify, building dynamic and user-friendly web applications. My journey in software development has led me to work on diverse projects, ranging from freelance gigs to large-scale open-source contributions.",
   "avatar": "https://github.com/ansulagrawal.png",
   "portfolio": "https://www.ansulagrawal.in",
   "skills": [
@@ -61,6 +61,7 @@
   ],
   "social": {
     "GitHub": "https://github.com/ansulagrawal",
+    "Twitter": "#",
     "LinkedIn": "https://www.linkedin.com/in/ansulagrawal"
   }
 }
