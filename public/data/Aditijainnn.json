@@ -1,0 +1,12 @@
+{
+  "name": "Aditi Jain",
+  "location": "India",
+  "bio": "Hey I'm Aditi a tech enthusiast doing bachelor's in Computer Science Engineering learning new tech stacks.Looking forward to contribute and collaborate.",
+  "avatar": "https://github.com/Aditijainnn.png",
+  "portfolio": "https://github.com/Aditijainnn",
+  "skills": ["Frontend", "sql", "Python", "Java", "c++"],
+  "social": {
+    "GitHub": "https://github.com/Aditijainnn",
+    "LinkedIn": "https://www.linkedin.com/in/aditi-jain-1053b4282/"
+  }
+}
