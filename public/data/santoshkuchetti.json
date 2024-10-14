@@ -1,0 +1,36 @@
+{
+  "name": "Santosh",
+  "location": "AndraPradesh, India",
+  "bio": "Front-End developer. Curious and keen on learning and improving. Love to work on opensource projects",
+  "avatar": "https://avatars.githubusercontent.com/u/106766496?s=96&v=4",
+  "portfolio": "https://santoshkuchettiportfolio.netlify.app/",
+  "skills": [
+    "ReactJs",
+    "TypeScript",
+    "Java",
+    "Antdesign",
+    "TailwindCSS",
+    "ContextAPI",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MySQL",
+    "Oracle",
+    "SQLserver",
+    "PostgreSQL",
+    "WMS",
+    "SCM",
+    "MariaDB",
+    "SQLite"
+  ],
+  "social": {
+    "GitHub": "https://github.com/santoshkuchetti",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/santoshkuchetti/"
+  }
+}

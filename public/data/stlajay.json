@@ -1,0 +1,38 @@
+{
+  "name": "Ajay Deshmukh",
+  "location": "India",
+  "bio": "I'm a research enthusiat, while web design and gaming (dev) is sort of my hobby.",
+  "avatar": "https://github.com/stlajay.png",
+  "portfolio": "https://github.com/stlajay",
+  "skills": [
+    "Cybersecurity",
+    "Cloud Computing",
+    "Ruby",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "ReactJS",
+    "Redux",
+    "Python",
+    "Django",
+    "Flask",
+    "Django REST Framework",
+    "AWS Lambda",
+    "NodeJS",
+    "MongoDB",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "Gaming",
+    "Web Design",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/stlajay",
+    "Twitter": "https://twitter.com/stajyy",
+    "LinkedIn": "https://www.linkedin.com/in/"
+  }
+}
