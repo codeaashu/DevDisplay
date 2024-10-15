@@ -1,0 +1,13 @@
+{
+    "name": "Aditya Pattanayak",
+    "location": "Bhubaneswar",
+    "bio": "Passionate Geek looking for Bugs to deBug || Interested in Problem Solving and Web3",
+    "avatar": "https://avatars.githubusercontent.com/u/126982848?v=4",
+    "portfolio": "https://github.com/AdityaP700",
+    "skills": ["React JS", "Django", "Express Js","Solana","RUST"],
+    "social": {
+      "GitHub": "https://github.com/AdityaP700",
+      "Twitter": "https://x.com/AdityaPat_",
+      "LinkedIn": "https://www.linkedin.com/in/aditya-pattanayak-6b303b267/"
+    }
+  }
