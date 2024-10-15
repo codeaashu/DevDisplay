@@ -1,0 +1,13 @@
+{
+  "name": "Shubham Pandey",
+  "location": "Tamilnadu",
+  "bio": "I'm a Creative Student and Web Developer from India, working in web development. I enjoy turning complex problems into simple, beautiful and intuitive designs.",
+  "avatar": "https://github.com/heizshubham.png",
+  "portfolio": "https://shubham-portfolio-plum.vercel.app/",
+  "skills": ["Web Development", "DBMS", "DSA"],
+  "social": {
+    "GitHub": "https://github.com/heizshubham",
+    "Twitter": "https://twitter.com/theshubham404",
+    "LinkedIn": "www.linkedin.com/in/shubham-pandey-02852a1b2"
+  }
+}
