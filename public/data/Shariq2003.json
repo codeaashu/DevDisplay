@@ -1,12 +1,27 @@
 {
   "name": "Shariq",
-  "location": "Uttar Pradesh",
+  "location": "Uttar Pradesh, India",
   "bio": "Shariq | B. Tech in Computer Science and Engineering (AI & ML) 🎓 Student at Moradabad Institute of Technology (MIT), AKTU",
   "avatar": "https://github.com/Shariq2003.png",
   "portfolio": "https://portfolio-nine-rosy-72.vercel.app/",
-  "skills": ["React", "DSA", "NodeJS", "Web Development"],
+  "skills": [
+    "React",
+    "DSA",
+    "NodeJS",
+    "Express",
+    "MongoDB",
+    "AWS",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "Tailwind CSS",
+    "JavaScript",
+    "MERN"
+  ],
   "social": {
     "GitHub": "https://github.com/your-github-username",
+    "Twitter": "#",
     "LinkedIn": "https://www.linkedin.com/in/shariq-sd/"
   }
 }
