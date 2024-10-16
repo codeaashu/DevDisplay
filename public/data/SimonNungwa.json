@@ -4,7 +4,22 @@
   "bio": "I am a software Engineering student and Indie developer in Abuja, Nigeria. Always open to work on open source projects.",
   "avatar": "https://github.com/SimonNungwa.png",
   "portfolio": "https://github.com/SimonNungwa",
-  "skills": ["React js", "MongoDB", "Docker", "Python", "Tailwind"],
+  "skills": [
+    "React js",
+    "MongoDB",
+    "Docker",
+    "Python",
+    "Tailwind",
+    "MERN",
+    "Node js",
+    "Express",
+    "Web Development",
+    "Frontend",
+    "Backend",
+    "DevOps",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/SimonNungwa",
     "Twitter": "https://x.com/SimonNungwa",
