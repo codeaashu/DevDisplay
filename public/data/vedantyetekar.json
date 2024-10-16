@@ -4,7 +4,21 @@
   "bio": "Software Engineer",
   "avatar": "https://github.com/vedanty3.png",
   "portfolio": "https://vedantyetekar.vercel.app/",
-  "skills": ["Next.js", "GraphQL", "Prisma", "Typescript"],
+  "skills": [
+    "Next.js",
+    "GraphQL",
+    "Prisma",
+    "Typescript",
+    "React",
+    "Tailwind CSS",
+    "JavaScript",
+    "Node.js",
+    "PostgreSQL",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/vedanty3",
     "Twitter": "https://twitter.com/__vedant4",
