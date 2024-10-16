@@ -1,0 +1,34 @@
+{
+  "name": "Nitesh Sharma",
+  "location": "Chandigarh, India",
+  "bio": "I am a full-stack web developer.",
+  "avatar": "https://github.com/nitesh32.png",
+  "portfolio": "https://nitesh32.github.io/nit_folio/",
+  "skills": [
+    "React",
+    "Python",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "C++",
+    "Django",
+    "Node.js",
+    "MongoDB",
+    "MySQL",
+    "PostgreSQL",
+    "GraphQL",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "DevOps",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/nitesh32",
+    "Twitter": "https://twitter.com/NiteshS1123",
+    "LinkedIn": "https://www.linkedin.com/in/nitesh-sharma-3429541bb/"
+  }
+}

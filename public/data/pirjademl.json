@@ -1,0 +1,29 @@
+{
+  "name": "Magdum Pirjade",
+  "location": "Pune, Maharashtra",
+  "bio": "I am a full stack web developer . Love building backend Systems .Curious about everything in the tech",
+  "avatar": "https://github.com/pirjademl.png",
+  "portfolio": "https://pirjademl.github.io/",
+  "skills": [
+    "React",
+    "Redux",
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Node js",
+    "Express",
+    "MongoDB",
+    "mysql",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/pirjademl",
+    "Twitter": "https://twitter.com/iampirjade",
+    "LinkedIn": "https://www.linkedin.com/in/magdum-pirjade-981955215/"
+  }
+}
