@@ -1,13 +1,27 @@
 {
-    "name": "Aksh Jaiswal",
-    "location": "JHARKHAND ",
-    "bio": "I'm a passionate mobile developer specializing in creating culturally enriching and immersive mobile experiences. ",
-    "avatar": "https://github.com/akshjswl.png",
-    "portfolio": "https://github.com/akshjswl",
-    "skills": ["JavaScript", "React", "TypeScript","C","Python"],
-    "social": {
-      "GitHub": "https://github.com/akshjswl",
-      "Twitter": "https://twitter.com/AkshJaiswal005",
-      "LinkedIn": "https://www.linkedin.com/in/aksh-jaiswal-06740428b/"
-    }
+  "name": "Aksh Jaiswal",
+  "location": "JHARKHAND, India",
+  "bio": "I'm a passionate mobile developer specializing in creating culturally enriching and immersive mobile experiences. ",
+  "avatar": "https://github.com/akshjswl.png",
+  "portfolio": "https://github.com/akshjswl",
+  "skills": [
+    "JavaScript",
+    "React",
+    "TypeScript",
+    "C",
+    "Python",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "HTML",
+    "CSS",
+    "SASS",
+    "Responsive Design"
+  ],
+  "social": {
+    "GitHub": "https://github.com/akshjswl",
+    "Twitter": "https://twitter.com/AkshJaiswal005",
+    "LinkedIn": "https://www.linkedin.com/in/aksh-jaiswal-06740428b/"
   }
+}
