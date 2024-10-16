@@ -3,6 +3,7 @@
   "location": "Hyderabad, Telangana",
   "bio": "UI/UX Designer & Software Engineer | Crafting Intuitive User Experiences & Building Scalable Solutions with C++, Java, and Modern Web Technologies",
   "avatar": "https://github.com/Harshavardhan2k3.png",
+  "portfolio": "https://github.com/Harshavardhan2k3",
   "skills": [
     "Python",
     "Java",
@@ -15,10 +16,11 @@
     "Git",
     "GitHub",
     "UI/UX",
-    "JIRA",
+    "JIRA"
   ],
   "social": {
     "GitHub": "https://github.com/Harshavardhan2k3",
+    "Twitter": "#",
     "LinkedIn": "https://www.linkedin.com/in/harshavardhan-nooka"
   }
 }
