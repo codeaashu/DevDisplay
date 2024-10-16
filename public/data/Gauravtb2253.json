@@ -1,0 +1,12 @@
+{
+  "name": "Gaurav Bomble",
+  "location": "Mumbai",
+  "bio": "A passionate web developer with a interest in DevOps.",
+  "avatar": "https://github.com/Gauravtb2253.png",
+  "portfolio": "https://github.com/Gauravtb2253",
+  "skills": ["ReactJs", "ExpressJs", "MongoDB", "NodeJs", "Jenkins", "Spring Boot", "Flutter", "Java", "SQL", "Linux"],
+  "social": {
+    "GitHub": "https://github.com/Gauravtb2253",
+    "LinkedIn": "https://www.linkedin.com/in/gaurav-bomble-787287229/"
+  }
+}
