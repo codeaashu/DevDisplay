@@ -1,0 +1,13 @@
+{
+  "name": "Shrutakeerti Datta",
+  "location": "Kolkata",
+  "bio": "A junior year student who is interested in Machine Learning, NLP, CV.",
+  "avatar": "https://avatars.githubusercontent.com/u/121077624?v=4",
+  "portfolio": "https://github.com/Shrutakeerti",
+  "skills": ["Python", "NLP", "Computer Vision"],
+  "social": {
+    "GitHub": "https://github.com/Shrutakeerti",
+    "Twitter": "https://x.com/ShrutakeertiD",
+    "LinkedIn": "https://www.linkedin.com/in/shrutakeerti-datta-872179246/"
+  }
+}
