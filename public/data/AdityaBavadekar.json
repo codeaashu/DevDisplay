@@ -1,0 +1,13 @@
+{
+  "name": "Aditya Bavadekar",
+  "location": "India",
+  "bio": "I am an enthusiastic web and app developer",
+  "avatar": "https://github.com/AdityaBavadekar.png",
+  "portfolio": "https://adityabavadekar.github.io/",
+  "skills": ["C++", "Python", "Kotlin", "Web development"],
+  "social": {
+    "GitHub": "https://github.com/AdityaBavadekar",
+    "Twitter": "https://twitter.com/",
+    "LinkedIn": "https://www.linkedin.com/in/adityabavadekar"
+  }
+}
