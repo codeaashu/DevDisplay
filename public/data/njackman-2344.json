@@ -1,0 +1,31 @@
+{
+  "name": "Nicholas Jackman",
+  "location": "Los Angeles, CA",
+  "bio": "An actor turned programmer who knows productivity and spanish.",
+  "avatar": "https://github.com/njackman-2344.png",
+  "portfolio": "https://github.com/njackman-2344",
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "React",
+    "Redux",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Python",
+    "Django",
+    "Flask",
+    "Docker",
+    "Kubernetes",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/njackman-2344",
+    "Twitter": "https://twitter.com/NicholasJackm10",
+    "LinkedIn": "https://www.linkedin.com/in/nicholas-jackman-74bb562b/"
+  }
+}

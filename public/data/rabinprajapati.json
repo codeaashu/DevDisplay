@@ -1,0 +1,35 @@
+{
+  "name": "Rabin Prajapati",
+  "location": "Bhaktapur, Nepal",
+  "bio": "A beginner full-stack web development enthusiast, focused on learning HTML, CSS, and JavaScript. Eager to grow, collaborate, and contribute to open-source communities.",
+  "avatar": "https://github.com/rabinprajapati.png",
+  "portfolio": "https://github.com/rabinprajapati",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "PHP",
+    "Node",
+    "Reactjs",
+    "Laravel",
+    "Vue.js",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Tailwind UI",
+    "React Native",
+    "Python",
+    "Django",
+    "Flask",
+    "SQL",
+    "NoSQL",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/rabinprajapati",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/rabin-prajapati-79865610a"
+  }
+}
