@@ -1,13 +1,26 @@
 {
   "name": "Aditya Bavadekar",
-  "location": "India",
+  "location": "Pune, Maharashtra, India",
   "bio": "I am an enthusiastic web and app developer",
   "avatar": "https://github.com/AdityaBavadekar.png",
   "portfolio": "https://adityabavadekar.github.io/",
-  "skills": ["C++", "Python", "Kotlin", "Web development"],
+  "skills": [
+    "C++",
+    "Python",
+    "Kotlin",
+    "Web Development",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Mobile Development",
+    "App Developement",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/AdityaBavadekar",
-    "Twitter": "https://twitter.com/",
+    "Twitter": "#",
     "LinkedIn": "https://www.linkedin.com/in/adityabavadekar"
   }
 }
