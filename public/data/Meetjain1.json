@@ -1,0 +1,13 @@
+{
+    "name": "Meet Jain",
+    "location": "Bhopal (MP), India",
+    "bio": "B.Tech@IIIT Jabalpur |💻Passionate Developer |Web Developer@GSSoC | Blockchain Dev Intern@TimechainLabs | Ex-Intern @Concettomedia | 9+ OpenSource Experiences |",
+    "avatar": "https://github.com/Meetjain1.png",
+    "portfolio": "https://github.com/Meetjain1",
+    "skills": ["C++", "Python", "JavaScript", "SQL", "Typescript", "Php", "Nodejs", "React.js", "Nextjs", "Css", "MongoDB", "Sveltejs", "Html", "PostgreSql", "Express.js", "Nestjs", "Tailwind", "Redux","Postman", "Heroku", "Github", "Bun", "Git", "Google Cloud", "Arduino"] ,
+    "social": {
+      "GitHub": "https://github.com/Meetjain1",
+      "Twitter": "https://twitter.com/Meetjain_100",
+      "LinkedIn": "https://linkedin.com/in/meet-jain-413015265/"
+    }
+}
