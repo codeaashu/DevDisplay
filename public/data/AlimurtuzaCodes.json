@@ -1,0 +1,34 @@
+{
+  "name": "Alimurtuza",
+  "location": "India",
+  "bio": "Mobile and Web App Developer",
+  "avatar": "https://github.com/AlimurtuzaCodes.png",
+  "portfolio": "https://github.com/AlimurtuzaCodes/",
+  "skills": [
+    "React",
+    "React Native",
+    "Javascript",
+    "Java",
+    "C++",
+    "Kotlin",
+    "Node.js",
+    "Python",
+    "GoLang",
+    "MongoDB",
+    "Firebase",
+    "Docker",
+    "Google Cloud Platform",
+    "AWS",
+    "Serverless",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/AlimurtuzaCodes",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/p-alimurtuza"
+  }
+}
