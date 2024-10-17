@@ -1,13 +1,27 @@
 {
-    "name": "Vidhan Thakur",
-    "location": "Delhi, India",
-    "bio": "Hey there! 👋 I'm Vidhan Thakur, a dynamic and innovative full-stack web developer with a zest for crafting seamless online experiences.",
-    "avatar": "https://github.com/VidhanThakur09.png",
-    "portfolio": "https://github.com/VidhanThakur09",
-    "skills": ["JAVA", "HTML", "CSS","JS","Python","Figma","CANVA","UX/UI"],
-    "social": {
-      "GitHub": "https://github.com/VidhanThakur09",
-      "Twitter": "https://twitter.com",
-      "LinkedIn": "https://www.linkedin.com/in/vidhan-thakur27/"
-    }
+  "name": "Vidhan Thakur",
+  "location": "Delhi, India",
+  "bio": "Hey there! 👋 I'm Vidhan Thakur, a dynamic and innovative full-stack web developer with a zest for crafting seamless online experiences.",
+  "avatar": "https://github.com/VidhanThakur09.png",
+  "portfolio": "https://github.com/VidhanThakur09",
+  "skills": [
+    "JAVA",
+    "HTML",
+    "CSS",
+    "JS",
+    "Python",
+    "Figma",
+    "CANVA",
+    "UX/UI",
+    "Web Designing",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/VidhanThakur09",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/vidhan-thakur27/"
   }
+}
