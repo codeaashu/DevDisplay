@@ -4,7 +4,20 @@
   "bio": "Student from India",
   "avatar": "https://github.com/tholkappiar.png",
   "portfolio": "https://github.com/tholkappiar",
-  "skills": ["HTML", "CSS", "JavaScript", "ReactJS", "NodeJS", "MySQL", "JAVA"],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "ReactJS",
+    "NodeJS",
+    "MySQL",
+    "JAVA",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
   "social": {
     "GitHub": "https://github.com/tholkappiar",
     "Twitter": "https://twitter.com/tholkappiar",

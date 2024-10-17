@@ -1,7 +1,7 @@
 {
   "name": "Swasthi Rao",
   "location": "New York, US",
-  "bio": "A graduate MS EE student of Columbia University, specializing in Data-Driven Analysis and Computation. With experience as a software engineering and ML intern at JP Morgan Chase, Bosch, and through academic research, I’ve gained skills in handling big data with AWS, Apache Kafka, Spark, optimizing neural networks, and transfer learning. I'm also a competitive coder in Java, with a strong passion for the latest advancements in machine learning and data analysis.",
+  "bio": "A graduate MS EE student of Columbia University, specializing in Data-Driven Analysis and Computation.",
   "avatar": "https://github.com/swasthiprao.png",
   "portfolio": "https://github.com/swasthiprao",
   "skills": [
@@ -13,8 +13,18 @@
     "AWS",
     "Docker",
     "Cybersecurity",
+    "Data Analysis",
     "MySQL",
-    "Laravel"
+    "Laravel",
+    "Data Visualization",
+    "Machine Learning",
+    "Natural Language Processing",
+    "Deep Learning",
+    "Computer Vision",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
   ],
   "social": {
     "GitHub": "https://github.com/swasthiprao",

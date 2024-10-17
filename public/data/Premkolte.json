@@ -1,0 +1,29 @@
+{
+  "name": "Prem Kolte",
+  "location": "Mapusa, Goa",
+  "bio": "Aspiring Developer",
+  "avatar": "https://github.com/Premkolte.png",
+  "portfolio": "https://linktr.ee/PremKolte",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Express.js",
+    "Node.js",
+    "MOndoDb",
+    "Next Js",
+    "MERN",
+    "Web Development",
+    "Frontend",
+    "Backend",
+    "Database",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Premkolte",
+    "Twitter": "https://x.com/PremKolte26",
+    "LinkedIn": "https://www.linkedin.com/in/prem-kolte/"
+  }
+}

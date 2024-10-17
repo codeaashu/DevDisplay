@@ -4,7 +4,21 @@
   "bio": "I am a full stack developer and a data anlaytics enthusiast",
   "avatar": "https://github.com/vigdisha.png",
   "portfolio": "https://github.com/vigdisha/portfolio",
-  "skills": ["HTML", "CSS", "JS", "React", "Nodejs", "mongodb"],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JS",
+    "React",
+    "Nodejs",
+    "mongodb",
+    "FULL Stack",
+    "Web Development",
+    "Frontend",
+    "Backend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
   "social": {
     "GitHub": "https://github.com/vigdisha",
     "Twitter": "https://twitter.com/coffeebreath18",

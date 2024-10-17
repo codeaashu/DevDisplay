@@ -4,7 +4,22 @@
   "bio": "I'm Deependra Singh currently pursuing b.tech from Nsut in ECE branch.",
   "avatar": "https://github.com/trdxDeepu.png",
   "portfolio": "https://deependra-singh.vercel.app/",
-  "skills": ["HTML", "CSS", "Javascript", "React", "Firebase", "Supabase", "React Query", "Redux", "TailwindCss"],
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "React",
+    "Firebase",
+    "Supabase",
+    "React Query",
+    "Redux",
+    "TailwindCss",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
   "social": {
     "GitHub": "https://github.com/trdxDeepu",
     "Twitter": "https://twitter.com/singhdepu566",

@@ -4,7 +4,22 @@
   "bio": "I am a young man passionate about software development",
   "avatar": "https://github.com/sukuasoft.png",
   "portfolio": "https://github.com/sukuasoft",
-  "skills": ["C#", "Javascript", "PHP", "React", "Web development", "Game development"],
+  "skills": [
+    "C#",
+    "Javascript",
+    "PHP",
+    "React",
+    "HTML",
+    "CSS",
+    "Python",
+    "SQL",
+    "Javascript",
+    "Web development",
+    "Game development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/sukuasoft",
     "Twitter": "https://twitter.com/SSukuakueche",
