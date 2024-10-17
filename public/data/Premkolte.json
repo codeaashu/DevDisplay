@@ -1,0 +1,13 @@
+{
+    "name": "Prem Kolte",
+    "location": "Mapusa, Goa",
+    "bio": "Your Bio should be 20-30 words not more than that",
+    "avatar": "https://github.com/Premkolte.png",
+    "portfolio": "https://linktr.ee/PremKolte",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Express.js/Node.js", "MOndoDb", "Web Development", "GitHub","Next Js", "MERN"],
+    "social": {
+      "GitHub": "https://github.com/Premkolte",
+      "Twitter": "https://x.com/PremKolte26",
+      "LinkedIn": "https://www.linkedin.com/in/prem-kolte/"
+    }
+  }
