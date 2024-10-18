@@ -1,0 +1,13 @@
+{
+  "name": "AE-Hertz",
+  "location": "India",
+  "bio": "I’m a passionate web developer focused on creating beautiful and functional user interfaces. Eager to start my professional career, I transform ideas into engaging web experiences through my skills and projects.",
+  "avatar": "https://avatars.githubusercontent.com/u/93651229?s=400&u=3541894342f01be4f0a03b4f0569be92a73283c8&v=4",
+  "portfolio": "https://hertz-portfolio.vercel.app/",
+  "skills": ["React", "Next", "Tailwind", "Express", "Scss", "Framer Motion", "GSAP", "Git"],
+  "social": {
+    "GitHub": "https://github.com/AE-Hertz",
+    "Twitter": "https://x.com/Abhi_Hertz",
+    "LinkedIn": "https://www.linkedin.com/in/abhinandan-kumar-373b31136/"
+  }
+}
