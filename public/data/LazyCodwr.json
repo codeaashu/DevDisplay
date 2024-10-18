@@ -1,0 +1,13 @@
+{
+  "name": "Sameer Khan",
+  "location": "Fatehpur, UttarPradesh",
+  "bio": "Sameer Khan is a front-end developer focused on creative web development projects. He actively participates in design competitions and takes on various development challenges.",
+  "avatar": "https://github.com/LazyCodwr.png",
+  "portfolio": "https://lazycodwr.netlify.app/",
+  "skills": ["Front-end Developer", "UI & UX Designer", "Web Developer"],
+  "social": {
+    "GitHub": "https://github.com/LazyCodwr",
+    "Twitter": "https://x.com/Sameer_8teen",
+    "LinkedIn": "https://www.linkedin.com/in/sameer-khan-6784b9320/"
+  }
+}
