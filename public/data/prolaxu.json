@@ -1,0 +1,33 @@
+{
+  "name": "Laxman Adhikari",
+  "location": "Kathmandu, Nepal",
+  "bio": "Hello, I am Laxman and I am a self-taught  developer with a strong passion for coding and learning. I have been making projects for almost 4 years. I love to explore a new piece of technology. I am always on the lookout for new projects and opportunities to expand my skills.",
+  "avatar": "https://github.com/prolaxu.png",
+  "portfolio": "https://github.com/prolaxu",
+  "skills": [
+    "Laravel PHP",
+    "JavaScript",
+    "Tailwind CSS",
+    "Vue.js",
+    "Python",
+    "Django",
+    "React",
+    "Node.js",
+    "PostgreSQL",
+    "MongoDB",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "GCP",
+    "Azure",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/prolaxu",
+    "Twitter": "https://twitter.com/prolaxu",
+    "LinkedIn": "https://www.linkedin.com/in/laxman-adhikari-2a35161a0/"
+  }
+}

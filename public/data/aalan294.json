@@ -4,7 +4,21 @@
   "bio": "Web3 Developer | Specializing in Ethereum DApps | Proficient in MERN Stack",
   "avatar": "https://github.com/aalan294.png",
   "portfolio": "https://aalans-portfolio.onrender.com/",
-  "skills": ["React", "Node", "MongoDB", "MERN", "Solidity", "Ethereum", "Blockchain", "Web3", "RestAPI"],
+  "skills": [
+    "React",
+    "Node",
+    "MongoDB",
+    "MERN",
+    "Solidity",
+    "Ethereum",
+    "Blockchain",
+    "Web3",
+    "RestAPI",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/aalan294",
     "Twitter": "https://twitter.com/aalan294",

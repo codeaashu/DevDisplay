@@ -1,12 +1,27 @@
 {
   "name": "Subroto",
   "location": "Patna, Bihar, India",
-  "bio": "A dedicated BCA student with a solid foundation in core Java, C++, and Data Structures and Algorithms (DSA). Proficient in web development, in front-end technologies, with a focus on delivering efficient and innovative solutions. Passionate about coding and continuously improving technical skills through various projects and problem-solving challenges.",
+  "bio": "A dedicated BCA student with a solid foundation in core Java, C++, and Data Structures and Algorithms (DSA). Proficient in web development, in front-end technologies, with a focus on delivering efficient and innovative solutions.",
   "avatar": "https://github.com/Subroto17.png",
   "portfolio": "https://github.com/Subroto17",
-  "skills": ["Core Java", "C++", "DSA", "JavaScript", "React.Js", "Tailwind CSS", "SQL", "Git", "Github"],
+  "skills": [
+    "Core Java",
+    "C++",
+    "DSA",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "React.Js",
+    "Tailwind CSS",
+    "SQL",
+    "Git",
+    "Github",
+    "MERN"
+  ],
   "social": {
     "GitHub": "https://github.com/Subroto17",
+    "Twitter": "#",
     "LinkedIn": "https://www.linkedin.com/in/subroto-raj/"
   }
 }

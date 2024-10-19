@@ -1,0 +1,29 @@
+{
+  "name": "Tyarla Shirisha",
+  "location": "Hyderabad, Telangana",
+  "bio": "Enthusiastic web developer with knowledge in various domains ",
+  "avatar": "https://github.com/Shirisha-16.png",
+  "portfolio": "https://github.com/Shirisha-16",
+  "skills": [
+    "Mysql",
+    "HTML",
+    "CSS",
+    "Javascript",
+    "MERN",
+    "ReactJS",
+    "NodeJS",
+    "Express",
+    "MongoDB",
+    "GraphQL",
+    "Database",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Shirisha-16",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/tyarla-shirisha-a30750257"
+  }
+}

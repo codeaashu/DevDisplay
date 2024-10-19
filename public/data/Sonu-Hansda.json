@@ -1,0 +1,26 @@
+{
+  "name": "Sonu Hansda",
+  "location": "Jamshedpur, India",
+  "bio": "Hello folks , My name is Sonu Hansda. I am a student of NIT Jamshedpur. My tech stacks include MERN, NextJS, Flutter and Django.",
+  "avatar": "https://raw.githubusercontent.com/Sonu-Hansda/Sonu-Hansda/refs/heads/main/profile_image.jpeg",
+  "portfolio": "https://github.com/Sonu-Hansda",
+  "skills": [
+    "Flutter Developer",
+    "MERN Stack",
+    "ReactJS",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "Django",
+    "NextJS",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Sonu-Hansda",
+    "Twitter": "https://x.com/sonu_hansda23",
+    "LinkedIn": "https://www.linkedin.com/in/sonu-hansda"
+  }
+}

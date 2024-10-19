@@ -4,7 +4,18 @@
   "bio": "I am a passionate developer with experience in building web applications using modern technologies. I love learning new things.",
   "avatar": "https://github.com/AayushiJapsare15.png",
   "portfolio": "https://github.com/AayushiJapsare15",
-  "skills": ["JavaScript", "React", "Node.js", "MySQL", "Tailwind CSS", "ml"],
+  "skills": [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "MySQL",
+    "Tailwind CSS",
+    "ml",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/AayushiJapsare15",
     "Twitter": "#",

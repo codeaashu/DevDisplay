@@ -1,0 +1,32 @@
+{
+  "name": "Hem Raj",
+  "location": "Hyderabad, Telangana",
+  "bio": "Student at Osmania University, currently learning Reactjs and Nextjs. I'm passionate to become a Frontend developer",
+  "avatar": "https://github.com/Hemraj-7.png",
+  "portfolio": "https://hemraj-7.netlify.app/",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "C Language",
+    "C++",
+    "Java",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Node JS",
+    "React JS",
+    "Next JS",
+    "MERN",
+    "Responsive Design",
+    "MongoDB",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Hemraj-7",
+    "Twitter": "https://hemraj-7.netlify.app/",
+    "LinkedIn": "https://www.linkedin.com/in/hem-raj-862624202/"
+  }
+}

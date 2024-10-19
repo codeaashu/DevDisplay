@@ -1,0 +1,32 @@
+{
+  "name": "Vijay Singh Rathore",
+  "location": "Gurugram, Haryana, India",
+  "bio": "Full Stack Developer skilled in MERN, TypeScript, NextJS. Experienced in building dynamic, scalable web applications and optimizing performance across frontend and backend systems.",
+  "avatar": "https://github.com/VijaySingh8650.png",
+  "portfolio": "https://vijaysingh8650.github.io/",
+  "skills": [
+    "ReactJS",
+    "NextJS",
+    "TypeScript",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "Prisma",
+    "Supabase",
+    "Web Development",
+    "Frontend",
+    "Backend",
+    "Database Management",
+    "API Development",
+    "Deployment",
+    "CI/CD",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/VijaySingh8650",
+    "Twitter": "https://twitter.com/VijaySi91629929",
+    "LinkedIn": "https://www.linkedin.com/in/vijay-singh-rathore-738860166/"
+  }
+}

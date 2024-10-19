@@ -1,0 +1,27 @@
+{
+  "name": "Rithvik Reddy",
+  "location": "Hyderabad, Telangana",
+  "bio": "A passionate software developer with expertise in Java,Python, and Machine Learning. Enjoys building innovative projects and is eager to grow in the tech industry.",
+  "avatar": "https://github.com/rithvikreddybasani.png",
+  "portfolio": "https://react-portfolio-dummy.vercel.app/",
+  "skills": [
+    "Java",
+    "Python",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Machine Learning",
+    "Competitive Programming",
+    "Data Structures",
+    "SQL",
+    "ReactJS",
+    "NodeJS",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/rithvikreddybasani",
+    "Twitter": "https://x.com/RithvikBasani",
+    "LinkedIn": "https://www.linkedin.com/in/basani-rithvik-reddy"
+  }
+}

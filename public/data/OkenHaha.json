@@ -1,7 +1,7 @@
 {
   "name": "Oken Keithellakpam",
   "location": "Manipur, India",
-  "bio": ["AI/ML Engineer", "Software Developer", "Python", "JavaScript"],
+  "bio": "Software Developer",
   "avatar": "https://github.com/OkenHaha.png",
   "portfolio": "https://okenhaha.github.io/portfolio/",
   "skills": [
@@ -19,7 +19,9 @@
     "NodeJS",
     "Django3.0",
     "Python",
-    "JavaScript"
+    "JavaScript",
+    "Git",
+    "GitHub"
   ],
   "social": {
     "GitHub": "https://github.com/OkenHaha",

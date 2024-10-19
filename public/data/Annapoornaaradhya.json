@@ -1,0 +1,30 @@
+{
+  "name": "Annapoorna V",
+  "location": "Bangalore, India",
+  "bio": "I'm a dedicated Computer Science Enthusiast with a profound fascination in this field .I'm always open to learning new things.",
+  "avatar": "https://github.com/Annapoornaaradhya.png",
+  "portfolio": "https://github.com/Annapoornaaradhya",
+  "skills": [
+    "Python",
+    "C Program",
+    "Database Management System",
+    "Data Structures",
+    "Algorithms",
+    "Machine Learning",
+    "Deep Learning",
+    "Natural Language Processing",
+    "AIML",
+    "PowerBI",
+    "Tableau",
+    "Web Development",
+    "Data Analysis",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Annapoornaaradhya",
+    "Twitter": "https://twitter.com/Annapoorna1918",
+    "LinkedIn": "https://www.linkedin.com/in/annapoorna-aradhya/"
+  }
+}

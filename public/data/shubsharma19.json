@@ -1,0 +1,36 @@
+{
+  "name": "Shubh Sharma",
+  "location": "Bareilly, India",
+  "bio": "Self-taught, Exploring Front-end Web-dev and DevOps, Open Source Advocate, Technical Writer",
+  "avatar": "https://github.com/shubhxg.png",
+  "portfolio": "https://github.com/shubhxg",
+  "skills": [
+    "HTML",
+    "CSS",
+    "Tailwind",
+    "Java",
+    "Git",
+    "Github",
+    "Linux",
+    "Figma",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Azure",
+    "Jira",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "Open Source",
+    "Technical Writing",
+    "Product Management",
+    "Design",
+    "User Experience"
+  ],
+  "social": {
+    "GitHub": "https://github.com/shubhxg",
+    "Twitter": "https://twitter.com/shubhstwt",
+    "LinkedIn": "https://www.linkedin.com/in/shubhsharma19"
+  }
+}

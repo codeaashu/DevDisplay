@@ -4,7 +4,19 @@
   "bio": "Software Engineer",
   "avatar": "https://github.com/akanksha0812.png",
   "portfolio": "https://github.com/akanksha0812",
-  "skills": ["NestJS", "Typescript", "NodeJS", "ReactJS", "SQL", "NestJS", "API", "Git"],
+  "skills": [
+    "NestJS",
+    "Typescript",
+    "NodeJS",
+    "ReactJS",
+    "SQL",
+    "NestJS",
+    "API",
+    "Git",
+    "Web Development",
+    "Frontend",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/akanksha0812",
     "Twitter": "https://x.com/Akanksh13529302",

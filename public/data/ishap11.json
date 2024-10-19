@@ -1,0 +1,30 @@
+{
+  "name": "Isha Prajapati",
+  "location": "Agra , Uttar Pradesh",
+  "bio": "Inspiring Student seeking knowledge | Full Stack Web Developer",
+  "avatar": "https://github.com/ishap11.png",
+  "portfolio": "https://portfolio-isha.netlify.app/",
+  "skills": [
+    "Java",
+    "OOPs",
+    "JavaScript",
+    "NodeJS",
+    "ReactJs",
+    "MongoDB",
+    "DBMS",
+    "OS",
+    "DSA",
+    "MySQL",
+    "Git",
+    "HTML",
+    "CSS",
+    "PHP",
+    "JsonPowerDB",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/ishap11",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/isha-prajapati-072b35251/"
+  }
+}

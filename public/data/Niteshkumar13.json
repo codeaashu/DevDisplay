@@ -15,7 +15,10 @@
     "Django",
     "MySQL",
     "MongoDB",
-    "PostgreSQL"
+    "PostgreSQL",
+    "Frontend",
+    "Git",
+    "GitHub"
   ],
   "social": {
     "GitHub": "https://github.com/Niteshkumar13",

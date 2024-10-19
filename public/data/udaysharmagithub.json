@@ -1,7 +1,7 @@
 {
   "name": "Uday Sharma",
   "location": "Uttrakhand, India",
-  "bio": "A proficient Full Stack Developer with extensive experience in developing scalable Frontend and backend systems and Full Stack Apps. Eager to bring a fresh perspective, adaptability, and enthusiasm to a dynamic team. I am working on upscaling my skills by learning Advance Backend development, Gen AI and LLM. Passionate and always eager to learn new technologies and frameworks to improve the quality of the Work.",
+  "bio": "A proficient Full Stack Developer with extensive experience in developing scalable Frontend and backend systems and Full Stack Apps. Eager to bring a fresh perspective, adaptability, and enthusiasm to a dynamic team.",
   "avatar": "https://github.com/UdaySharmaGitHub.png",
   "portfolio": "https://github.com/UdaySharmaGitHub",
   "skills": [
@@ -19,7 +19,8 @@
     "Node.js",
     "Next.js",
     "LLM",
-    "Git & Github",
+    "Git",
+    "Github",
     "C++",
     "Java",
     "Python",

@@ -1,0 +1,39 @@
+{
+  "name": "Sean Kim",
+  "location": "California, USA",
+  "bio": "MERN stack developer, I enjoy coding in general. Currently learning security field",
+  "avatar": "https://github.com/AseanK.png",
+  "portfolio": "https://github.com/AseanK",
+  "skills": [
+    "JavaScript",
+    "Express.js",
+    "MongoDB",
+    "NodeJS",
+    "React",
+    "Redux",
+    "Bootstrap",
+    "SASS",
+    "GraphQL",
+    "Security",
+    "JWT",
+    "Passport.js",
+    "OWASP",
+    "Penetration Testing",
+    "Cybersecurity",
+    "API Design",
+    "RESTful API",
+    "GraphQL API",
+    "OAuth",
+    "AWS",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/AseanK",
+    "Twitter": "#",
+    "LinkedIn": "#"
+  }
+}

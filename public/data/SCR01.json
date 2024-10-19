@@ -1,10 +1,26 @@
 {
   "name": "Sharad Chandra Reddy",
   "location": "Bhopal, MP, India",
-  "bio": "Aspiring software developer with hands-on experience in competitive programming and web development. I've been a finalist in Cognizant Technoverse'23 and participated in Flipkart Grid'24, where I collaborated on robotics challenges. I've also been a campus ambassador at Coding Ninjas, contributing to my growth as a programmer.",
+  "bio": "Aspiring software developer with hands-on experience in competitive programming and web development. I've been a finalist in Cognizant Technoverse'23 and participated in Flipkart Grid'24, where I collaborated on robotics challenges.",
   "avatar": "https://github.com/SCR01.png",
   "portfolio": "https://github.com/SCR01",
-  "skills": ["React.js", "C++", "MERN Stack"],
+  "skills": [
+    "React.js",
+    "C++",
+    "MERN Stack",
+    "Node.js",
+    "JavaScript",
+    "ExpressJS",
+    "MongoDB",
+    "NodeJS",
+    "HTML",
+    "CSS",
+    "Web Development",
+    "Frontend",
+    "Backend",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/SCR01",
     "Twitter": "https://x.com/SCR01111",
