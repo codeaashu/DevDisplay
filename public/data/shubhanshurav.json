@@ -1,0 +1,13 @@
+{
+  "name": "Shubhanshu Rao",
+  "location": "Auraiya, Uttar Pradesh",
+  "bio": "Full-Stack Web Developer with Comprehensive Mastery of MERN Technologies.",
+  "avatar": "https://github.com/shubhanshurav.png",
+  "portfolio": "https://shubhanshu-rao-resume.netlify.app/",
+  "skills": ["React.js", "Node.js", "Express.js", "MongoDb", "JavaScript", "TailwindCSS", "C++", "Git & Github", "HTML & CSS", "Fullstack Developer", "Problem Solving", "Postman", "Redux","Bootstrap"],
+  "social": {
+    "GitHub": "https://github.com/shubhanshurav",
+    "Twitter": "https://x.com/shubhanshu_rao",
+    "LinkedIn": "https://www.linkedin.com/in/shubhanshu-rao-052320208/"
+  }
+}
