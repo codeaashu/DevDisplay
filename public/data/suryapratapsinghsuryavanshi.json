@@ -1,10 +1,22 @@
 {
   "name": "Suryapratap Singh Suryavanshi",
-  "location": "India",
+  "location": "Bengaluru, Karnataka, India",
   "bio": "Just a tech enthusiast who loves to learn and teach.",
   "avatar": "https://github.com/suryapratapsinghsuryavanshi.png",
   "portfolio": "https://suryapratap.netlify.app",
-  "skills": ["NodeJS", "Python", "DevOps", "Automation", "Shell Script"],
+  "skills": [
+    "NodeJS",
+    "Python",
+    "DevOps",
+    "Automation",
+    "Shell Script",
+    "Web Development",
+    "Frontend",
+    "backend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
   "social": {
     "GitHub": "https://github.com/suryapratapsinghsuryavanshi",
     "Twitter": "https://twitter.com/surypratapsing4",
