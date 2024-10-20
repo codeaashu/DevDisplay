@@ -1,0 +1,13 @@
+{
+    "name": "Suryapratap Singh Suryavanshi",
+    "location": "India",
+    "bio": "Just a tech enthusiast who loves to learn and teach.",
+    "avatar": "https://github.com/suryapratapsinghsuryavanshi.png",
+    "portfolio": "https://suryapratap.netlify.app",
+    "skills": ["NodeJS", "Python", "DevOps", "Automation", "Shell Script"],
+    "social": {
+      "GitHub": "https://github.com/suryapratapsinghsuryavanshi",
+      "Twitter": "https://twitter.com/surypratapsing4",
+      "LinkedIn": "https://www.linkedin.com/in/suryapratapsinghsuryavanshi"
+    }
+  }
