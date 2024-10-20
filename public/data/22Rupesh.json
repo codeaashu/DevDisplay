@@ -1,0 +1,13 @@
+{
+  "name": "22Rupesh",
+  "location": "Varansi Uttar Pradesh",
+  "bio": "I am student of IIIT Bhagalpur Branch CSE",
+  "avatar": "https://github.com/22Rupesh.png",
+  "portfolio": "https://github.com/22Rupesh",
+  "skills": ["HTML", "CSS", "JAVASCRIPT","REACT"],
+  "social": {
+    "GitHub": "https://github.com/22Rupesh",
+    "Twitter": "https://twitter.com/your-twitter-username",
+    "LinkedIn": "www.linkedin.com/in/rupesh-rovert-056ba1298"
+  }
+}
