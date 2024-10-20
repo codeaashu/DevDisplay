@@ -4,7 +4,22 @@
   "bio": "Passionate about technology, particularly in web development and software engineering, with hands-on experience in both frontend and backend technologies.",
   "avatar": "https://github.com/paras-verma7454.png",
   "portfolio": "https://github.com/paras-verma7454",
-  "skills": ["C++", "HTML", "CSS","JavaScript","TypeScript","React","Tailwind CSS","Node.js","Express.js","Prisma ORM","MongoDB","PostgreSQL","Git","GitHub"],
+  "skills": [
+    "C++",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "Prisma ORM",
+    "MongoDB",
+    "PostgreSQL",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/paras-verma7454",
     "Twitter": "https://x.com/ParasVerma7454",
