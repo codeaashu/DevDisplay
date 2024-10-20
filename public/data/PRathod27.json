@@ -1,7 +1,7 @@
 {
   "name": "Prem Rathod",
   "location": "Jalgaon, Maharashtra, India",
-  "bio": "Hello, I’m Prem Rathod. I’m a passionate Data Scientist. Right now, I’m learning machine learning and generative AI. I have a strong grasp of MERN Stack. I’ve worked on MERN projects and now I’m a mentor at GirlScript Code of Conduct.",
+  "bio": "A passionate Data Scientist. Right now, I'm learning machine learning and generative AI. I have a strong grasp of MERN Stack. I've worked on MERN projects and now I'm a mentor at GirlScript Code of Conduct.",
   "avatar": "https://github.com/PRathod27.png",
   "portfolio": "https://github.com/PRathod27",
   "skills": [
@@ -16,7 +16,10 @@
     "Selenium",
     "Pandas",
     "Numpy",
-    "Web Scraping"
+    "Web Scraping",
+    "Frontend",
+    "Git",
+    "GitHub"
   ],
   "social": {
     "GitHub": "https://github.com/PRathod27",
