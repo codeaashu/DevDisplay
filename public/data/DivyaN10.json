@@ -1,0 +1,13 @@
+{
+  "name": "Divya N",
+  "location": "Bengaluru,Karnataka,India",
+  "bio": "Software Engineer,Web Development Enthusiast,Open Source Contributor",
+  "avatar": "https://github.com/DivyaN10.png",
+  "portfolio": "https://github.com/DivyaN10",
+  "skills": ["HTML", "CSS", "JAVA SCRIPT","PYTHON","MySQL","GitHub"],
+  "social": {
+    "GitHub": "https://github.com/DivyaN10",
+    "Twitter": "https://twitter.com/your-twitter-username",
+    "LinkedIn": "https://www.linkedin.com/in/divya-nagaraj-b76ab52aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  }
+}
