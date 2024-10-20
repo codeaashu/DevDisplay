@@ -1,0 +1,13 @@
+{
+  "name": "Hetu Kariya",
+  "location": "Ahemdabad",
+  "bio": "I am a passionate developer with experience in building web applications using modern technologies. I love learning new things.",
+  "avatar": "https://avatars.githubusercontent.com/u/131229641?v=4",
+  "portfolio": "https://github.com/HetuKariya",
+  "skills": ["JavaScript", "React", "HTML5", "MySQL", "CSS3", "ml", "Web Development", "Frontend", "Git", "GitHub"],
+  "social": {
+    "GitHub": "https://github.com/HetuKariya",
+    "Twitter": "https://x.com/KariyaHetu",
+    "LinkedIn": "https://www.linkedin.com/in/hetu-kariya-20a999284/"
+  }
+}
