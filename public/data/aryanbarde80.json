@@ -1,0 +1,33 @@
+{
+  "name": "Aryan Barde",
+  "location": "Jabalpur, Madhya Pradesh",
+  "bio": "Full-stack developer passionate about React, Node.js, and building seamless user experiences. Skilled in JavaScript, MongoDB, Firebase, AWS, and more. Exploring data structures and algorithms daily",
+  "avatar": "https://github.com/aryanbarde80.png",
+  "portfolio": "https://github.com/aryanbarde80",
+  "skills": [
+    "React",
+    "Node.js",
+    "JavaScript",
+    "C#",
+    "DotNET",
+    "Java",
+    "Python",
+    "Golang",
+    "MongoDB",
+    "Firebase",
+    "ExpressJS",
+    "Tailwind CSS",
+    "JWT",
+    "Git",
+    "GitHub",
+    "SQL",
+    "MySQL",
+    "Oracle DB",
+    "MariaDB"
+  ],
+  "social": {
+    "GitHub": "https://github.com/aryanbarde80",
+    "Twitter": "https://twitter.com/aryan62505",
+    "LinkedIn": "https://www.linkedin.com/in/aryanbarde80"
+  }
+}
