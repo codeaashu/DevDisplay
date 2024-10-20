@@ -12,7 +12,8 @@
     "JavaScript",
     "SQL",
     "React.js",
-    "Unix/Linux",
+    "Unix",
+    "Linux",
     "Arduino",
     "Raspberry Pi",
     "NVIDIA's Jetson",
@@ -25,6 +26,7 @@
   ],
   "social": {
     "GitHub": "https://github.com/deepesh611",
+    "Twitter": "#",
     "LinkedIn": "https://www.linkedin.com/in/deepesh-patil-103a87258/"
   }
 }
