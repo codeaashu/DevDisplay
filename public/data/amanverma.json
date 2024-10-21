@@ -1,14 +1,13 @@
 {
-    "name": "Aman Verma",
-    "location": "Lucknow,India",
-    "bio": "A dedicated B.Tech 2nd year student at MMMUT, passionate about coding. Committed to continuous learning and mastering new skills",
-    "avatar": "https://avatars.githubusercontent.com/u/183379031?v=4",
-    "portfolio": "https://github.com/amanver45",
-    "skills": ["Java", "Html", "Css", "Js", "C" ,"Web Development", "Frontend", "Git", "GitHub"],
-    "social": {
-      "GitHub": "https://github.com/amanver45",
-      "Twitter": "https://twitter.com/amanver45",
-      "LinkedIn": "https://www.linkedin.com/in/aman-verma-47b626294/"
-    }
+  "name": "Aman Verma",
+  "location": "Lucknow,India",
+  "bio": "A dedicated B.Tech 2nd year student at MMMUT, passionate about coding. Committed to continuous learning and mastering new skills",
+  "avatar": "https://avatars.githubusercontent.com/u/183379031?v=4",
+  "portfolio": "https://github.com/amanver45",
+  "skills": ["Java", "Html", "Css", "Js", "C", "Web Development", "Frontend", "Git", "GitHub"],
+  "social": {
+    "GitHub": "https://github.com/amanver45",
+    "Twitter": "https://twitter.com/amanver45",
+    "LinkedIn": "https://www.linkedin.com/in/aman-verma-47b626294/"
   }
-  
+}
