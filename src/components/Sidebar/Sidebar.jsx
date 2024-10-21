@@ -55,43 +55,41 @@ function Sidebar() {
           </button>
         </div>
       </div>
-      <div className="text-secondaryColor dark:text-white">
-        Open Source community where you can discover, connect, collab with skilled developers, share your ideas then
-        build projects and also promote the project through this community.
-      </div>
-      <div className="flex flex-wrap items-center justify-center gap-2 pt-5 ">
-        <a
-          href="https://github.com/codeaashu/DevDisplay?tab=readme-ov-file#how-to-add-your-profile-"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <button
-            className="
-
-          inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+      <div className="flex flex-col">
+        <div className="text-secondaryColor dark:text-white">
+          Open Source community where you can discover, connect, collab with skilled developers, share your ideas then
+          build projects and also promote the project through this community.
+        </div>
+        <div className="flex flex-col gap-2 pt-5">
+          <a
+            href="https://github.com/codeaashu/DevDisplay?tab=readme-ov-file#how-to-add-your-profile-"
+            target="_blank"
+            rel="noreferrer"
           >
-            Add your profile
+            <button className="w-full cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+              Add your profile
+            </button>
+          </a>
+          <a href="https://www.linkedin.com/company/devdisplay/" target="_blank" rel="noreferrer">
+            <button className="flex w-full cursor-pointer items-center justify-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+              <span>Connect</span>
+              <FaLinkedin className="text-1xl text-black-600 ml-2 duration-300 hover:scale-125" />
+            </button>
+          </a>
+        </div>
+        <div className="flex flex-col gap-2 pt-2">
+          <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
+            <button className=" w-full cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+              Spotlight
+            </button>
+          </a>
+          <button
+            onClick={handleOpportunities}
+            className="cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+          >
+            Opportunities Hub
           </button>
-        </a>
-        <a href="https://www.linkedin.com/company/devdisplay/" target="_blank" rel="noreferrer">
-          <button className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-            <span>Connect</span>
-            <FaLinkedin className="text-1xl text-black-600 ml-2 duration-300 hover:scale-125" />
-          </button>
-        </a>
-      </div>
-      <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
-        <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
-          <button className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-            Spotlight
-          </button>
-        </a>
-        <button
-          onClick={handleOpportunities}
-          className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
-        >
-          Opportunities Hub
-        </button>
+        </div>
       </div>
     </div>
   );
