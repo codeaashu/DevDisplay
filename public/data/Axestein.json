@@ -1,0 +1,13 @@
+{
+    "name": "Aditya Kumar Singh",
+    "location": "Mumbai, India",
+    "bio": "I am a second year undergraduate student pursuing B.Tech CSE in SRM University, Kattankulathur. I hope to contribute my skills to work upon real time projects that have an impact on the world. Open to all opportunities and learning from real-world professionals.",
+    "avatar": "https://github.com/Axestein.png",
+    "portfolio": "https://portfoliov1-one-neon.vercel.app/",
+    "skills": ["ReactJS", "NodeJS", "ExpressJS","Typescript", "NextJS", "MongoDB","C++","Java", "SpringBoot", "MySQL"],
+    "social": {
+      "GitHub": "https://github.com/Axestein",
+      "Twitter": "https://www.linkedin.com/in/adityakumarsingh2005/",
+      "LinkedIn": "https://x.com/adityasingh7211"
+    }
+  }
