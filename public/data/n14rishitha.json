@@ -1,1 +1,34 @@
 
+{
+  "name": "Rishitha Nandanapu",
+  "location": "Andhra Pradesh, India",
+  "bio": "I'm a full-stack developer with a passion for AI/ML technologies. I enjoy building innovative solutions and mentoring others through programs like GSSoC.",
+  "avatar": "",
+  "portfolio": "https://github.com/n14rishitha",
+  "skills": [
+    "C++",
+    "Python",
+    "DSA",
+    "JavaScript",
+    "SQL",
+    "Nodejs",
+    "React.js",
+    "Nextjs",
+    "Css",
+    "Html",
+    "PostgreSql",
+    "Express.js",
+    "Nestjs",
+    "Redux",
+    "Postman",
+    "Java",
+    "Github",
+    "Git",
+    "Google Cloud",
+  ],
+  "social": {
+    "GitHub": "https://github.com/n14rishitha",
+    "Twitter": "https://x.com/n_rishitha_",
+    "LinkedIn": "https://www.linkedin.com/in/rishitha-nandanapu-a61015301/"
+  }
+}
