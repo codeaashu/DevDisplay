@@ -27,8 +27,8 @@ function Sidebar() {
   }
 
   return (
-    <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%] md:px-2 lg:px-7">
-      <div className="mb-2 flex h-12 items-center gap-2.5">
+    <div className="ml-4 mr-5 mt-8 h-full w-full border-2 border-r-2 border-borderSecondary border-red-600 px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%] md:px-2">
+      <div className="mb-2 flex h-12 w-full items-center gap-2.5 border-2 border-red-700">
         <div className="text-secondaryColor dark:text-white">
           <FontAwesomeIcon icon={faCode} size="2xl" />
         </div>
