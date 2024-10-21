@@ -1,10 +1,27 @@
 {
-  "name": "H Khushi",
-  "location": "Bengaluru,karnataka,India",
+  "name": "Khushi H",
+  "location": "Bengaluru, karnataka, India",
   "bio": "passionate about coding and problem-solving, always eager to learn and innovate",
-  "skills": ["HTML", "CSS", "PYTHON","C","JAVA","SQL"],
+  "avatar": "https://github.com/khushi5824.png",
+  "portfolio": "https://github.com/khushi5824",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "Problem Solving",
+    "PYTHON",
+    "C",
+    "JAVA",
+    "SQL",
+    "Database"
+  ],
   "social": {
     "GitHub": "https://github.com/khushi5824",
-    "LinkedIn": "https://www.linkedin.com/in/khushi-h-b4975625a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/khushi-h-b4975625a/"
   }
 }
