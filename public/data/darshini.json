@@ -1,0 +1,26 @@
+{
+  "name": "Bachu Darshini",
+  "location": "Secunderabad, Telangana, India",
+  "bio": "A Student pursuing Bachelor in computer science.",
+  "avatar": "https://github.com/darshinihoney.png",
+  "portfolio": "https://github.com/darshinihoney",
+  "skills": [
+    "JavaScript",
+    "React",
+    "NodeJS",
+    "MongoDB",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "ExpressJS",
+    "C++",
+    "HTML",
+    "CSS",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/darshinihoney",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/darshini-bachu-3442a42a7/"
+  }
+}
