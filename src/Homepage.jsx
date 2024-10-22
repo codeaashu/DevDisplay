@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar/Sidebar';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import NoResultFound from './components/NoResultFound/NoResultFound';
 import Pagination from './components/Pagination/Pagination';
+import { motion } from 'framer-motion';
 import './App.css';
 import filenames from './ProfilesList.json';
 
@@ -118,28 +119,66 @@ function App() {
           {Array(5)
             .fill('profile-skeleton')
             .map((item, index) => (
-              <ProfileSkeleton key={index} />
+              <motion.div
+                key={index}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.1 * index }}
+              >
+                <ProfileSkeleton />
+              </motion.div>
             ))}
         </>
       );
     }
     const paginatedData = getPaginatedData();
-    return paginatedData.map((currentRecord, index) => <Profile data={currentRecord} key={index} />);
+    return paginatedData.map((currentRecord, index) => (
+      <motion.div
+        key={index}
+        initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5, delay: 0.05 * index }}
+      >
+        <Profile data={currentRecord} key={index} />
+      </motion.div>
+    ));
   };
 
   return currentUrl === '/' ? (
     <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
       <Sidebar />
       <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7" ref={profilesRef}>
-        <Search onSearch={handleSearch} />
-        {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+          <Search onSearch={handleSearch} />
+        </motion.div>
+        {profiles.length === 0 && searching ? (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <NoResultFound />
+          </motion.div>
+        ) : (
+          renderProfiles()
+        )}
         {combinedData.length > 0 && (
-          <Pagination
-            currentPage={currentPage}
-            totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
-            onNextPage={handleNextPage}
-            onPrevPage={handlePrevPage}
-          />
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <Pagination
+              currentPage={currentPage}
+              totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
+              onNextPage={handleNextPage}
+              onPrevPage={handlePrevPage}
+            />
+          </motion.div>
         )}
       </div>
     </div>
