@@ -1,13 +1,26 @@
 {
   "name": "Anjali Raikwar",
-  "location": "Jabalpur MP",
-  "bio": "As a driven and curious computer science engineering student, I am constantly exploring the frontiers of technology. From delving into algorithms and coding to mastering the intricacies of artificial intelligence and software development, I am committed to honing my skills and pushing the boundaries of what's possible!!
-",
+  "location": "Jabalpur, MP",
+  "bio": "As a driven and curious computer science engineering student, I am constantly exploring the frontiers of technology.",
   "avatar": "https://github.com/ANJI1026.png",
   "portfolio": "http://8.208.31.173/myportfolio/",
-  "skills": ["Java", "Web Developer", "Blockchain", "AWS", "MySQL", "DBMS",],
+  "skills": [
+    "Java",
+    "Web Developer",
+    "Blockchain",
+    "AWS",
+    "MySQL",
+    "DBMS",
+    "Web Development",
+    "Frontend",
+    "Database",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
   "social": {
     "GitHub": "https://github.com/ANJI1026",
+    "Twitter": "#",
     "LinkedIn": "https://www.linkedin.com/in/anjali-raikwar-44ba0730a/"
   }
 }
