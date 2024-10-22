@@ -9,7 +9,7 @@ import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import filenames from './ProfilesList.json';
 
-function App() {
+function Homepage() {
   const profilesRef = useRef();
   const [profiles, setProfiles] = useState([]);
   const [searching, setSearching] = useState(false);
@@ -75,13 +75,14 @@ function App() {
       } else if (criteria === 'location') {
         return normalizeString(user.location).includes(normalizedValue);
       } else if (criteria === 'skill') {
-        return user.skills.some((skill) => normalizeString(skill).includes(normalizedValue));
+        return user.skills.some((skill) => normalizeString(skill) === normalizedValue);
       }
       return false;
     });
 
     setProfiles(filteredResults);
     setSearching(true);
+    setCurrentPage(1); // Reset to first page when searching
   };
 
   const handleNextPage = () => {
@@ -148,4 +149,4 @@ function App() {
   );
 }
 
-export default App;
+export default Homepage;
