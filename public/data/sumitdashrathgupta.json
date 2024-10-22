@@ -1,0 +1,13 @@
+{
+  "name": "Sumit Gupta",
+  "location": "Thane Maharashtra",
+  "bio": "My Name is Sumit Gupta . I am From Mumbai . I am a passionate full-stack developer with a focus on mastering frontend development and continuously expanding my skills in various other technologies.
+          With a drive to innovate and learn, I enjoy tackling complex problems and building user-friendly solutions.",
+  "avatar": "https://avatars.githubusercontent.com/u/132937352?v=4",
+  "portfolio": "https://sumitg-dev.netlify.app/",
+  "skills": ["HTML5", "CSS3", "JavaScript", "ReactJS", "SQL", "Git", "GitHub","FrontEnd", "Web Development", "MS-Excel", "Visual Studio"],
+  "social": {
+    "GitHub": "https://github.com/sumitdashrathgupta",
+    "LinkedIn": "https://www.linkedin.com/in/sumitgupta150/"
+  }
+}
