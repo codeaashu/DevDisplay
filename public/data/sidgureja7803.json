@@ -1,0 +1,38 @@
+{
+  "name": "Siddhant Gureja",
+  "location": "Rishikesh, Uttarakhand, India",
+  "bio": "Hi! I am Siddhant currently pursuing B.E. in Computer and Electronics. I am a Mern Stack Developer and want to collaborate with fellow developers.",
+  "avatar": "https://github.com/sidgureja7803.png",
+  "portfolio": "https://github.com/sidgureja7803",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "MongoDB",
+    "Express.js",
+    "Redux",
+    "MERN Stack",
+    "Database Management Systems (DBMS)",
+    "Cloud Computing",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "NoSQL Databases (MongoDB, Cassandra, Redis)",
+    "Data Structure and Algorithms",
+    "Operating Systems",
+    "System Programming",
+    "Networking",
+    "Software Engineering",
+    "Project Management",
+    "Agile Methodologies",
+    "Version Control Systems (Git, SVN)",
+    "Sc"
+  ],
+  "social": {
+    "GitHub": "https://github.com/sidgureja7803",
+    "Twitter": "https://twitter.com/sidgureja",
+    "LinkedIn": "www.linkedin.com/in/sidgureja"
+  }
+}
