@@ -1,0 +1,13 @@
+{
+  "name": "Pushpa Vishwakarma",
+  "location": "Thane Maharashtra",
+  "bio": "I am a recent graduate with a B.Sc. in Information Technology from Ramanand Arya D.A.V. College, Mumbai University."
+  "avatar": "https://github.com/Pushpa472.png",
+  "portfolio": "https://github.com/Pushpa472",
+  "skills": ["HTML5", "CSS3", "JavaScript", "ReactJS", "SQL", "Git", "GitHub", "Tailwind Css", "FrontEnd", "Web Development", "MS-Excel", "Visual Studio"],
+  "social": {
+    "GitHub": "https://github.com/Pushpa472",
+    "Twitter": "https://twitter.com/your-twitter-username",
+    "LinkedIn": "https://www.linkedin.com/in/pushpa-vishwakarma"
+  }
+}
