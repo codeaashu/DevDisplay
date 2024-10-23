@@ -1,0 +1,28 @@
+{
+  "name": "Vivek Choudhary",
+  "location": "Malerkotla, Punjab, India",
+  "bio": "Enthusiasm for MERN Stack development. I thrive on the excitement of continuous learning, embracing the challenge of acquiring new everyday.",
+  "avatar": "https://github.com/Vivek-C365.png",
+  "portfolio": "https://github.com/Vivek-C365",
+  "skills": [
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "JAVASCRIPT",
+    "REACT",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "NODE.js",
+    "Express.js",
+    "MONGODb",
+    "Next.js",
+    "Problem Solving"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Vivek-C365",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/vivek-choudhary-880207191/"
+  }
+}
