@@ -1,0 +1,14 @@
+{
+  "name": "ANUJ KUMAR",
+  "location": "Jamshedpur, Jharkhand , India",
+  "bio": "Beginner web developer skilled in HTML, CSS, JavaScript, and React. Passionate about creating responsive websites and learning modern web technologies. Currently working on projects to enhance my frontend development skills.
+",
+  "avatar": "https://github.com/kumar1035.png",
+  "portfolio": "https://github.com/kumar1035",
+  "skills": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
+  "social": {
+    "GitHub": "https://github.com/kumar1035",
+    "Twitter": "https://x.com/Kumar_anuj05?s=09",
+    "LinkedIn": "https://www.linkedin.com/in/anuj-kumar-2b376a281"
+  }
+}
