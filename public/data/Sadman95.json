@@ -1,0 +1,16 @@
+{
+    "name": "Sadman Sakib",
+    "location": "Bangladesh",
+    "bio": "A software engineer with expertise in web application development, proficient in React, Node.js, JavaScript, and clean code architecture, delivering scalable, high-performance solutions.",
+    "avatar": "https://avatars.githubusercontent.com/u/86881892?v=4",
+    "portfolio": "https://github.com/Sadman95",
+    "skills": [
+        "JavaScript",
+        "React",
+        "Nodejs"
+    ],
+    "social": {
+        "GitHub": "https://github.com/Sadman95",
+        "LinkedIn": "https://www.linkedin.com/in/sadman-sakib-082083201"
+    }
+}
