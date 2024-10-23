@@ -26,7 +26,7 @@ module.exports = {
         borderColor: 'rgba(194, 183, 183, 0.1)',
         borderSecondary: 'rgba(20, 29, 47, 0.1)',
         textPrimary: '#1E2A47',
-        textSecondary: '#00A6FB',
+        textSecondary: '#6CB4EE',
         primaryColor: 'rgb(243, 244, 246)',
         secondaryColor: 'rgba(20, 29, 47, 1)',
         inherit: colors.inherit,
