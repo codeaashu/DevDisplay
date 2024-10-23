@@ -1,0 +1,32 @@
+{
+  "name": "Eshita Das",
+  "location": "Bauria, Howrah, West Bengal",
+  "bio": "Bsc CS Student | Aspiring Software Developer | Passionate About Web Development & Problem Solving | Open Source Enthusiast.",
+  "avatar": "https://github.com/Edasgh.png",
+  "portfolio": "https://github.com/Edasgh",
+  "skills": [
+    "React.js",
+    "Redux",
+    "Next.js",
+    "JavaScript",
+    "C Language",
+    "Tailwind",
+    "CSS3",
+    "HTML5",
+    "GitHub",
+    "PHP",
+    "Web Development",
+    "Frontend",
+    "MERN",
+    "MongoDB",
+    "MySql",
+    "Express",
+    "NODE.JS",
+    "Git",
+    "GitHub"],
+  "social": {
+    "GitHub": "https://github.com/Edasgh",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/eshita-das-084b962b0/"
+  }
+}
