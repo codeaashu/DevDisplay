@@ -1,28 +1,28 @@
 {
-    "name": "Eshita Das",
-    "location": "Bauria, Howrah, West Bengal",
-    "bio": "BSc CS Student | Aspiring Software Developer | I like to explore technologies related to Web Development (specially MERN Stack)",
-    "avatar": "https://github.com/Edasgh.png",
-    "portfolio": "https://github.com/Edasgh",
-    "skills": [
-        "HTML5",
-        "CSS3",
-        "JAVASCRIPT",
-        "React.js",
-        "Tailwind CSS",
-        "MERN",
-        "Web Development",
-        "Frontend",
-        "MongoDB",
-        "Express.js",
-        "PHP",
-        "C Language",
-        "Git",
-        "GitHub"
-    ],
-    "social": {
-        "GitHub": "https://github.com/Edasgh",
-        "Twitter": "#",
-        "LinkedIn": "https://www.linkedin.com/in/eshita-das-084b962b0/"
-    }
+  "name": "Eshita Das",
+  "location": "Bauria, Howrah, West Bengal",
+  "bio": "BSc CS Student | Aspiring Software Developer | I like to explore technologies related to Web Development (specially MERN Stack)",
+  "avatar": "https://github.com/Edasgh.png",
+  "portfolio": "https://github.com/Edasgh",
+  "skills": [
+    "HTML5",
+    "CSS3",
+    "JAVASCRIPT",
+    "React.js",
+    "Tailwind CSS",
+    "MERN",
+    "Web Development",
+    "Frontend",
+    "MongoDB",
+    "Express.js",
+    "PHP",
+    "C Language",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Edasgh",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/eshita-das-084b962b0/"
+  }
 }
