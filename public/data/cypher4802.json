@@ -1,0 +1,12 @@
+{
+  "name": "Tanmay",
+  "location": "Roorkee",
+  "bio": "I am a Passionate Dev Enthusiast",
+  "avatar": "https://github.com/cypher4802.png",
+  "portfolio": "https://github.com/cypher4802",
+  "skills": ["React-JS", "Java Script", "Mongo DB", "Unity", "React-Native"],
+  "social": {
+    "GitHub": "https://github.com/cypher4802",
+    "LinkedIn": "https://www.linkedin.com/in/tanmay-sharma"
+  }
+}
