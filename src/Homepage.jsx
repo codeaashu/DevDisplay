@@ -17,7 +17,8 @@ function Homepage() {
   const [currentPage, setCurrentPage] = useState(1);
   const [shuffledProfiles, setShuffledProfiles] = useState([]);
   const [loadingProfiles, setLoadingProfiles] = useState(false);
-  const recordsPerPage = 20;
+	
+	const recordsPerPage = 20;
 
   const currentUrl = window.location.pathname;
   useEffect(() => {
@@ -66,21 +67,6 @@ function Homepage() {
         .replace(/\s*,\s*/g, ' ')
         .replace(/\s+/g, ' ')
         .trim();
-
-    const normalizedValue = normalizeString(value);
-
-    const filteredResults = combinedData.filter((user) => {
-      if (criteria === 'name') {
-        return normalizeString(user.name).includes(normalizedValue);
-      } else if (criteria === 'location') {
-        return normalizeString(user.location).includes(normalizedValue);
-      } else if (criteria === 'skill') {
-        return user.skills.some((skill) => normalizeString(skill) === normalizedValue);
-      }
-      return false;
-    });
-
-    setProfiles(filteredResults);
     setSearching(true);
     setCurrentPage(1); // Reset to first page when searching
   };
