@@ -9,7 +9,7 @@ import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import filenames from './ProfilesList.json';
 
-function App() {
+function Homepage() {
   const profilesRef = useRef();
   const [profiles, setProfiles] = useState([]);
   const [searching, setSearching] = useState(false);
@@ -67,37 +67,8 @@ function App() {
         .replace(/\s*,\s*/g, ' ')
         .replace(/\s+/g, ' ')
         .trim();
-
-    if (criteria !== 'skill') {
-      let normalizedValue = normalizeString(value);
-
-      const filteredResults = combinedData.filter((user) => {
-        if (criteria === 'name') {
-          return normalizeString(user.name).includes(normalizedValue);
-        } else if (criteria === 'location') {
-          return normalizeString(user.location).includes(normalizedValue);
-        } 
-        return false;
-      });
-
-      setProfiles(filteredResults);
-    } else if(criteria === "skill") {
-			// if criteria is skill the it will filter the data 
-			if(value.length > 0){
-				let setOfSearchSkills = new Set(value.map(skill => skill.toLowerCase())); // Convert searchSkills to lowercase for comparison
-				const filteredUsers = shuffledProfiles.filter(user => 
-					user.skills.some(skill => setOfSearchSkills.has(skill.toLowerCase())) // Ensure skill is also lowercase
-				);
-				setProfiles(filteredUsers);
-			} else {
-				//if skills are empty it will reset the data		
-				setProfiles(shuffledProfiles)
-			}
-		} else {
-			setProfiles(false);
-		}
-		
     setSearching(true);
+    setCurrentPage(1); // Reset to first page when searching
   };
 
   const handleNextPage = () => {
@@ -164,4 +135,4 @@ function App() {
   );
 }
 
-export default App;
+export default Homepage;
