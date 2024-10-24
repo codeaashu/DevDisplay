@@ -1,0 +1,13 @@
+{
+  "name": "MD Rehan",
+  "location": "Kolkata",
+  "bio": "Fueled by a love for learning and a passion for building cutting-edge web technologies, I dive deep into the world of full-stack development. Constantly exploring new tools and techniques, I aim to create impactful, forward-thinking digital solutions",
+  "avatar": "https://avatars.githubusercontent.com/u/143922855?s=400&u=2c70300eaa3981080e234cff127ec0e05721a9c2&v=4",
+  "portfolio": "",
+  "skills": ["JavaScript", "React", "HTML", "CSS", "NodeJS", "ExpressJS", "Tailwind", "MangoDB", "C++"],
+  "social": {
+    "GitHub": "https://github.com/REHAN-18",
+    "Twitter": "https://twitter.com/@imRehan_18",
+    "LinkedIn": "https://www.linkedin.com/in/mdrehan18/"
+  }
+}
