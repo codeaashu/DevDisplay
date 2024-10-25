@@ -22,8 +22,8 @@ function Search({ onSearch }) {
   };
 
   const handleCriteriaChange = (event) => {
-    if(event.target.value !== "skill") {
-        handleClearSkills();
+    if (event.target.value !== 'skill') {
+      handleClearSkills();
     }
     setSearchCriteria(event.target.value);
   };
@@ -31,7 +31,7 @@ function Search({ onSearch }) {
   const debouncedValue = useDebounce(searchValue, 500);
 
   useEffect(() => {
-    if (debouncedValue !== prevSearchValue && searchCriteria !== "skill") {
+    if (debouncedValue !== prevSearchValue && searchCriteria !== 'skill') {
       onSearch({ value: debouncedValue, criteria: searchCriteria });
       setPrevSearchValue(debouncedValue);
     }
@@ -39,7 +39,7 @@ function Search({ onSearch }) {
   }, [debouncedValue]);
 
   const handleSearch = () => {
-    if ((searchValue !== prevSearchValue && searchCriteria !== "skill") || searchValue.trim() === "") {
+    if ((searchValue !== prevSearchValue && searchCriteria !== 'skill') || searchValue.trim() === '') {
       onSearch({ value: searchValue, criteria: searchCriteria });
       setPrevSearchValue(searchValue);
     }
@@ -48,7 +48,7 @@ function Search({ onSearch }) {
   const handleSearchOnEnter = (event) => {
     if (event.keyCode === 13) {
       //if searchCriteia is skill then it will add that skill to searchSkills
-      if (searchCriteria ==='skill') {
+      if (searchCriteria === 'skill') {
         let searchvalue = normalizeString(searchValue);
         searchvalue = searchvalue.trim();
         if (searchvalue.length > 0) {
@@ -65,10 +65,10 @@ function Search({ onSearch }) {
 
   useEffect(() => {
     //when new skill is added to searchSkill it will filter the data
-    if(searchCriteria === "skill") {
+    if (searchCriteria === 'skill') {
       onSearch({ value: searchSkills, criteria: searchCriteria });
       setPrevSearchValue('');
-    } 
+    }
   }, [searchSkills]);
 
   const handleSearchButtonClick = () => {
@@ -84,12 +84,12 @@ function Search({ onSearch }) {
     }
   };
 
-  //Reset the profiles 
+  //Reset the profiles
   const handleClearSkills = () => {
     setSearchSkills([]);
     setSearchValue('');
     setPrevSearchValue('');
-    onSearch({ value: [], criteria: "skill" });
+    onSearch({ value: [], criteria: 'skill' });
     searchInput.current.focus();
   };
 
@@ -139,7 +139,6 @@ function Search({ onSearch }) {
             placeholder={`Search user by ${searchCriteria}`}
             onKeyDown={handleSearchOnEnter}
       </div>
-
 
       {/* This block show the skills the user searched */}
       {searchCriteria === 'skill' && searchSkills && searchSkills.length > 0 ? (
