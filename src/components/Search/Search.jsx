@@ -9,7 +9,6 @@ function Search({ onSearch }) {
   const [prevSearchValue, setPrevSearchValue] = useState('');
   const [searchCriteria, setSearchCriteria] = useState('name');
   const searchInput = useRef(null);
-
   const [searchSkills, setSearchSkills] = useState([]);
 
   const normalizeString = (str) =>
@@ -32,13 +31,13 @@ function Search({ onSearch }) {
 
   const debouncedValue = useDebounce(searchValue, 500);
 
+  // Fixed useEffect with correct dependency array
   useEffect(() => {
     if (debouncedValue !== prevSearchValue && searchCriteria !== 'skill') {
       onSearch({ value: debouncedValue, criteria: searchCriteria });
       setPrevSearchValue(debouncedValue);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [debouncedValue]);
+  }, [debouncedValue, searchCriteria, prevSearchValue, onSearch]);
 
   const handleSearch = () => {
     if ((searchValue !== prevSearchValue && searchCriteria !== 'skill') || searchValue.trim() === '') {
@@ -48,30 +47,25 @@ function Search({ onSearch }) {
   };
 
   const handleSearchOnEnter = (event) => {
-    if (event.keyCode === 13) {
-      //if searchCriteia is skill then it will add that skill to searchSkills
-      if (searchCriteria === 'skill') {
-        let searchvalue = normalizeString(searchValue);
-        searchvalue = searchvalue.trim();
-        if (searchvalue.length > 0) {
-          var set = new Set(searchSkills);
-          set.add(searchvalue);
-          setSearchSkills((prev) => [...set]);
-        }
+    if (event.key === 'Enter') {
+      const normalizedValue = normalizeString(searchValue);
+      if (searchCriteria === 'skill' && normalizedValue) {
+        setSearchSkills((prev) => Array.from(new Set([...prev, normalizedValue])));
         setSearchValue('');
       } else {
         handleSearch();
       }
+    } else if (event.key === 'Escape') {
+      setSearchValue('');
     }
   };
 
   useEffect(() => {
-    //when new skill is added to searchSkill it will filter the data
     if (searchCriteria === 'skill') {
       onSearch({ value: searchSkills, criteria: searchCriteria });
       setPrevSearchValue('');
     }
-  }, [searchSkills]);
+  }, [searchSkills, searchCriteria, onSearch]);
 
   const handleSearchButtonClick = () => {
     handleSearch();
@@ -86,7 +80,6 @@ function Search({ onSearch }) {
     }
   };
 
-  //Reset the profiles
   const handleClearSkills = () => {
     setSearchSkills([]);
     setSearchValue('');
@@ -101,7 +94,7 @@ function Search({ onSearch }) {
 
   return (
     <div className="relative pb-6">
-      <div className="relative flex items-center justify-end space-x-4 ">
+      <div className="relative flex items-center justify-end space-x-4">
         <select
           className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
           value={searchCriteria}
@@ -137,8 +130,7 @@ function Search({ onSearch }) {
         </div>
       </div>
 
-      {/* This block show the skills the user searched */}
-      {searchCriteria === 'skill' && searchSkills && searchSkills.length > 0 ? (
+      {searchCriteria === 'skill' && searchSkills.length > 0 && (
         <>
           <button
             onClick={handleClearSkills}
@@ -148,7 +140,7 @@ function Search({ onSearch }) {
           </button>
           <SearchSkillsContainer searchSkills={searchSkills} setSearchSkills={setSearchSkills} />
         </>
-      ) : null}
+      )}
     </div>
   );
 }
