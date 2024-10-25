@@ -17,8 +17,8 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [shuffledProfiles, setShuffledProfiles] = useState([]);
   const [loadingProfiles, setLoadingProfiles] = useState(false);
-	
-	const recordsPerPage = 20;
+
+  const recordsPerPage = 20;
 
   const currentUrl = window.location.pathname;
   useEffect(() => {
@@ -76,27 +76,27 @@ function App() {
           return normalizeString(user.name).includes(normalizedValue);
         } else if (criteria === 'location') {
           return normalizeString(user.location).includes(normalizedValue);
-        } 
+        }
         return false;
       });
 
       setProfiles(filteredResults);
-    } else if(criteria === "skill") {
-			// if criteria is skill the it will filter the data 
-			if(value.length > 0){
-				let setOfSearchSkills = new Set(value.map(skill => skill.toLowerCase())); // Convert searchSkills to lowercase for comparison
-				const filteredUsers = shuffledProfiles.filter(user => 
-					user.skills.some(skill => setOfSearchSkills.has(skill.toLowerCase())) // Ensure skill is also lowercase
-				);
-				setProfiles(filteredUsers);
-			} else {
-				//if skills are empty it will reset the data		
-				setProfiles(shuffledProfiles)
-			}
-		} else {
-			setProfiles(false);
-		}
-		
+    } else if (criteria === 'skill') {
+      // if criteria is skill the it will filter the data
+      if (value.length > 0) {
+        let setOfSearchSkills = new Set(value.map((skill) => skill.toLowerCase())); // Convert searchSkills to lowercase for comparison
+        const filteredUsers = shuffledProfiles.filter(
+          (user) => user.skills.some((skill) => setOfSearchSkills.has(skill.toLowerCase())), // Ensure skill is also lowercase
+        );
+        setProfiles(filteredUsers);
+      } else {
+        //if skills are empty it will reset the data
+        setProfiles(shuffledProfiles);
+      }
+    } else {
+      setProfiles(false);
+    }
+
     setSearching(true);
   };
 
