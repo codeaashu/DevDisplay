@@ -5,29 +5,28 @@
   "avatar": "https://github.com/Harsha-01-cmd",
   "portfolio": "https://github.com/Harsha-01-cmd",
   "skills": [
-    "HTML", 
-    "CSS", 
-    "JavaScript", 
-    "TypeScript", 
-    "React.js", 
-    "Next.js", 
-    "Node.js", 
-    "Express.js", 
-    "MongoDB", 
-    "Tailwind CSS", 
-    "Bootstrap", 
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Tailwind CSS",
+    "Bootstrap",
     "Git & GitHub",
-    "Python", 
-    "SQL", 
-    "Responsive Design", 
+    "Python",
+    "SQL",
+    "Responsive Design",
     "SEO Optimization",
     "Data Structures & Algorithms"
-]
+  ],
 
   "social": {
     "GitHub": "https://github.com/Harsha-01-cmd",
     "LinkedIn": "https://www.linkedin.com/in/harsha-rashmi-478a3a289/",
     "Instagram": "https://www.instagram.com/thesinhaharsha28/"
-}
-
+  }
 }
