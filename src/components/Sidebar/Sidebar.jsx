@@ -27,8 +27,8 @@ function Sidebar() {
   }
 
   return (
-    <div className="ml-4 mr-5 mt-8 h-full w-full border-2 border-r-2 border-borderSecondary border-red-600 px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%] md:px-2 lg:h-[90vh] ">
-      <div className="mb-2 flex h-12 w-full items-center gap-2.5 border-2 border-red-700">
+    <div className="ml-4 mt-4 h-full w-full  border-r-2 border-borderSecondary px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%] md:px-2 lg:h-[90vh]  xl:h-full">
+      <div className="mb-2 flex h-12 w-full items-center gap-2.5 ">
         <div className="text-secondaryColor dark:text-white">
           <FontAwesomeIcon icon={faCode} size="2xl" />
         </div>
@@ -59,32 +59,32 @@ function Sidebar() {
         Open Source community where you can discover, connect, collab with skilled developers, share your ideas then
         build projects and also promote the project through this community.
       </div>
-      <div className="flex flex-wrap items-center justify-center gap-2 pt-5 ">
+      <div className="justify-left flex flex-wrap items-center gap-2 pt-5 ">
         <a
           href="https://github.com/codeaashu/DevDisplay?tab=readme-ov-file#how-to-add-your-profile-"
           target="_blank"
           rel="noreferrer"
         >
-          <button className="inline-block h-[40px] w-[150px] cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+          <button className="inline-block h-[40px] w-[150px] cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm text-white transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             Add your profile
           </button>
         </a>
         <a href="https://www.linkedin.com/company/devdisplay/" target="_blank" rel="noreferrer">
-          <button className="inline-flex h-[40px] w-[150px] cursor-pointer items-center justify-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+          <button className="inline-flex h-[40px] w-[150px] cursor-pointer items-center justify-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm text-white transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             <span>Connect</span>
             <FaLinkedin className="text-1xl text-black-600 ml-2 duration-300 hover:scale-125" />
           </button>
         </a>
       </div>
-      <div className="flex flex-row flex-wrap items-center justify-center gap-2 py-1.5 text-center">
+      <div className="justify-left flex flex-row flex-wrap items-center gap-2 py-1.5 text-center">
         <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
-          <button className="inline-flex h-[40px] w-[150px] cursor-pointer items-center justify-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+          <button className="inline-flex h-[40px] w-[150px] cursor-pointer items-center justify-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm text-white transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             Spotlight
           </button>
         </a>
         <button
           onClick={handleOpportunities}
-          className="inline-flex h-[40px] w-[150px] cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+          className="text inline-flex h-[40px] w-[150px] cursor-pointer items-center justify-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm text-white transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
         >
           Opportunities Hub
         </button>
