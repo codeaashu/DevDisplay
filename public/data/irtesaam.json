@@ -1,0 +1,13 @@
+{
+  "name": "Irtesaam Atfi",
+  "location": "Varanasi, India",
+  "bio": "I'm a MERN Stack developer and Linux enthusiast with a focus on Penetration Testing domain. Currently exploring open source community and contributing in events like GSSoC & Hacktoberfest. I also have a keen interest in Photography and often travel across country for the same.",
+  "avatar": "https://github.com/irtesaam.png",
+  "portfolio": "https://github.com/irtesaam",
+  "skills": ["Linux OS", "Git", "MERN Stack", "Tailwind CSS", "C++", "Next.js", "LaTeX"],
+  "social": {
+    "GitHub": "https://github.com/irtesaam",
+    "Twitter": "https://twitter.com/Irte_M81",
+    "LinkedIn": "https://www.linkedin.com/in/irtesaam"
+  }
+}
