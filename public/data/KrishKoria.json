@@ -1,0 +1,13 @@
+{
+    "name": "Krish Koria",
+    "location": "Pune, Maharashtra, India",
+    "bio": "I'm a Computer Science student from IIIT Pune, I am passionate about coding, continuous learning, and contributing to open-source projects. Let's create something amazing together!",
+    "avatar": "https://github.com/KrishKoria.png",
+    "portfolio": "https://www.krishkoria.com/",
+    "skills": ["C", "C++", "Java", "Python", "Kotlin", "Dart", "JavaScript", "TypeScript", "SQL", "R", "NoSQL", "React.js", "Flutter", "Node.js", "Express.js", "Next.js", "TailwindCSS", "AWS", "Git", "Docker", "Google Cloud Platform", "Tensorflow", "Matplotlib", "Pytorch", "Weight And Biases"],
+    "social": {
+      "GitHub": "https://github.com/KrishKoria",
+      "Twitter": "https://twitter.com/@THEINDIANJEWEL1",
+      "LinkedIn": "https://www.linkedin.com/in/krishkoria"
+    }
+  }
