@@ -4,7 +4,19 @@
   "bio": "AIML Engineer, Brand whisperer and idea alchemist, brewing up impactful projects with a dash of strategy and a splash of creativity. Here to turn sparks of inspiration into unforgettable experiences!",
   "avatar": "https://github.com/PranayBhatnagar.png",
   "portfolio": "https://pranaybhatnagar.vercel.app/",
-  "skills": ["Web Development", "AI ML", "and much more"],
+  "skills": [
+    "Web Development",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "ReactJS",
+    "NextJS",
+    "NodeJS",
+    "AI ML",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/PranayBhatnagar",
     "Twitter": "https://twitter.com/PBhatnagar2025",
