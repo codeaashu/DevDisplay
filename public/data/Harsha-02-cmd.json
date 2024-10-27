@@ -1,0 +1,24 @@
+{
+  "name": "Harsha Rashmi",
+  "location": "Jamshedpur, India",
+  "bio": "A full stack web developer and an open source enthusiast.",
+  "avatar": "https://avatars.githubusercontent.com/u/178094088?v=4",
+  "portfolio": "https://github.com/Harsha-01-cmd",
+  "skills": [
+    "JavaScript",
+    "React",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN",
+    "HTML",
+    "CSS",
+    "MongoDB",
+  ],
+  "social": {
+    "GitHub": "https://github.com/Harsha-01-cmd",
+    "Instagram": "https://www.instagram.com/thesinhaharsha28",
+    "LinkedIn": "https://www.linkedin.com/in/harsha-rashmi-478a3a289"
+  }
+}
