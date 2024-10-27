@@ -28,3 +28,37 @@
   background: var(--primary-color);
   border-radius: 5px;
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 40s linear infinite;
+}
+
+:root {
+  --royalBlue: #4169e1;
+}
+
+.bg-royalBlue {
+  background-color: var(--royalBlue) !important;
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
