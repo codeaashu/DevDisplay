@@ -84,8 +84,8 @@ function App() {
     } else if (criteria === 'skill') {
       if (value.length > 0) {
         let setOfSearchSkills = new Set(value.map((skill) => skill.toLowerCase()));
-        const filteredUsers = shuffledProfiles.filter(
-          (user) => user.skills.some((skill) => setOfSearchSkills.has(skill.toLowerCase())),
+        const filteredUsers = shuffledProfiles.filter((user) =>
+          user.skills.some((skill) => setOfSearchSkills.has(skill.toLowerCase())),
         );
         setProfiles(filteredUsers);
       } else {
