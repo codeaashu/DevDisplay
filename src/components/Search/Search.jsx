@@ -1,8 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import useDebounce from '../../hooks/useDebouncer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlass, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass, faXmark, faMicrophone } from '@fortawesome/free-solid-svg-icons';
 import SearchSkillsContainer from './SearchSkillsContainer';
+import VoiceSearch from './VoiceSearch';
 
 function Search({ onSearch }) {
   const [searchValue, setSearchValue] = useState('');
@@ -11,6 +12,17 @@ function Search({ onSearch }) {
   const searchInput = useRef(null);
 
   const [searchSkills, setSearchSkills] = useState([]);
+
+  //voice search
+  const [voiceText, setVoiceText] = useState(""); // to store recognized text
+  const [isListening, setIsListening] = useState(false); // to toggle listening state
+
+  useEffect(()=>{
+    setSearchValue(voiceText);
+    
+  },[voiceText])
+
+
 
   const normalizeString = (str) =>
     str
@@ -99,6 +111,8 @@ function Search({ onSearch }) {
     searchInput.current.focus();
   }, []);
 
+  
+
   return (
     <div className="relative pb-6">
       <div className="relative flex items-center justify-end space-x-4 ">
@@ -113,7 +127,7 @@ function Search({ onSearch }) {
         </select>
         <div className="relative w-full">
           <input
-            className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 w-full rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 pr-12 font-spaceMono text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
+            className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 w-full rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 pr-20 font-spaceMono text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
             ref={searchInput}
             type="text"
             onChange={handleInputChange}
@@ -128,12 +142,19 @@ function Search({ onSearch }) {
               icon={faXmark}
             />
           ) : (
+            
             <FontAwesomeIcon
-              onClick={handleSearchButtonClick}
-              className="hover:text-primaryFocus dark:hover:text-secondaryFocus absolute right-4 top-1/2 -translate-y-1/2 transform cursor-pointer text-xl text-secondaryColor dark:text-white"
-              icon={faMagnifyingGlass}
-            />
+               onClick={handleSearchButtonClick}
+               className="hover:text-primaryFocus dark:hover:text-secondaryFocus absolute right-4 top-1/2 -translate-y-1/2 transform cursor-pointer text-xl text-secondaryColor dark:text-white"
+               icon={faMagnifyingGlass}
+             />
+          
           )}
+          <FontAwesomeIcon
+            onClick={() => setIsListening((prev)=>!prev)}
+            className="hover:text-primaryFocus dark:hover:text-secondaryFocus absolute right-12 top-1/2 -translate-y-1/2 transform cursor-pointer text-xl text-secondaryColor dark:text-white"
+            icon={faMicrophone}
+          />
         </div>
       </div>
 
@@ -149,6 +170,8 @@ function Search({ onSearch }) {
           <SearchSkillsContainer searchSkills={searchSkills} setSearchSkills={setSearchSkills} />
         </>
       ) : null}
+
+      <VoiceSearch setVoiceText={setVoiceText} isListening={isListening} setIsListening={setIsListening} />
     </div>
   );
 }
