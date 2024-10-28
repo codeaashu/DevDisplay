@@ -14,15 +14,12 @@ function Search({ onSearch }) {
   const [searchSkills, setSearchSkills] = useState([]);
 
   //voice search
-  const [voiceText, setVoiceText] = useState(""); // to store recognized text
+  const [voiceText, setVoiceText] = useState(''); // to store recognized text
   const [isListening, setIsListening] = useState(false); // to toggle listening state
 
-  useEffect(()=>{
+  useEffect(() => {
     setSearchValue(voiceText);
-    
-  },[voiceText])
-
-
+  }, [voiceText]);
 
   const normalizeString = (str) =>
     str
@@ -111,8 +108,6 @@ function Search({ onSearch }) {
     searchInput.current.focus();
   }, []);
 
-  
-
   return (
     <div className="relative pb-6">
       <div className="relative flex items-center justify-end space-x-4 ">
@@ -142,16 +137,14 @@ function Search({ onSearch }) {
               icon={faXmark}
             />
           ) : (
-            
             <FontAwesomeIcon
-               onClick={handleSearchButtonClick}
-               className="hover:text-primaryFocus dark:hover:text-secondaryFocus absolute right-4 top-1/2 -translate-y-1/2 transform cursor-pointer text-xl text-secondaryColor dark:text-white"
-               icon={faMagnifyingGlass}
-             />
-          
+              onClick={handleSearchButtonClick}
+              className="hover:text-primaryFocus dark:hover:text-secondaryFocus absolute right-4 top-1/2 -translate-y-1/2 transform cursor-pointer text-xl text-secondaryColor dark:text-white"
+              icon={faMagnifyingGlass}
+            />
           )}
           <FontAwesomeIcon
-            onClick={() => setIsListening((prev)=>!prev)}
+            onClick={() => setIsListening((prev) => !prev)}
             className="hover:text-primaryFocus dark:hover:text-secondaryFocus absolute right-12 top-1/2 -translate-y-1/2 transform cursor-pointer text-xl text-secondaryColor dark:text-white"
             icon={faMicrophone}
           />
