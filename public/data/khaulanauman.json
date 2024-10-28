@@ -1,0 +1,13 @@
+{
+  "name": "Khaula Nauman",
+  "location": "Pakistan",
+  "bio": "A software engineering student that loves creating websites, learning and teaching others about it.",
+  "avatar": "https://github.com/khaulanauman.png",
+  "portfolio": "https://github.com/khaulanauman",
+  "skills": ["React", "NextJS", "Java", "Pyhton", "SQL", "Javascript"],
+  "social": {
+    "GitHub": "https://github.com/khaulanauman",
+    "Twitter": "https://twitter.com/khaulahoots",
+    "LinkedIn": "https://www.linkedin.com/in/khaula-nauman/"
+  }
+}
