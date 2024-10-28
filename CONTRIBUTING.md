@@ -35,31 +35,31 @@ If you're new to Git and GitHub, no worries! Here are some useful resources:
 ```bash
 DEVDISPLAY/
 ├── .github/                  # GitHub-related configurations such as workflows, issue templates, etc
-│   
+│
 ├── .husky/                   # Some pre-committed files
-│   
+│
 ├── dist/                     # Stylesheet file is included here
-│   
+│
 ├── public/                   # Contains images and the index.html file
-│     
+│
 ├── src/                      # Contains javascript files and stylesheet files
-│   
-├── .gitignore             
-│   
-├── .prettierrc.json                     
-│     
-├── CODE_OF_CONDUCT.md        # Some rules for the contributors        
-│   
+│
+├── .gitignore
+│
+├── .prettierrc.json
+│
+├── CODE_OF_CONDUCT.md        # Some rules for the contributors
+│
 ├── CONTRIBUTING.md           # Instructions for the contributors
-│   
+│
 ├── LICENSE                   # A permission to do something
-│   
-├── package-lock.json        
+│
+├── package-lock.json
 ├──
-├── package.json            
+├── package.json
 ├──
 ├── README.md                 # Some instructions related to the contributions
-├──                                
+├──
 ├── tailwind.config.js
 ```
 
@@ -68,17 +68,17 @@ DEVDISPLAY/
 # First Pull Request ✨
 
 1. **Star this repository**
-    Click on the top right corner marked as **Stars** at last.
+   Click on the top right corner marked as **Stars** at last.
 
 2. **Fork this repository**
-    Click on the top right corner marked as **Fork** at second last.
+   Click on the top right corner marked as **Fork** at second last.
 
 3. **Clone the forked repository**
 
 ```bash
 git clone https://github.com/<your-github-username>/DevDisplay.git
 ```
-  
+
 4. **Navigate to the project directory**
 
 ```bash
@@ -146,36 +146,43 @@ npm test
 # Alternatively, contribute using GitHub Desktop 🖥️
 
 1. **Open GitHub Desktop:**
-  Launch GitHub Desktop and log in to your GitHub account if you haven't already.
+   Launch GitHub Desktop and log in to your GitHub account if you haven't already.
 
 2. **Clone the Repository:**
+
 - If you haven't cloned the project repository yet, you can do so by clicking on the "File" menu and selecting "Clone Repository."
 - Choose the project repository from the list of repositories on GitHub and clone it to your local machine.
 
-3.**Switch to the Correct Branch:**
+  3.**Switch to the Correct Branch:**
+
 - Ensure you are on the branch that you want to submit a pull request for.
 - If you need to switch branches, you can do so by clicking on the "Current Branch" dropdown menu and selecting the desired branch.
 
 4. **Make Changes:**
+
 - Make your changes to the code or files in the repository using your preferred code editor.
 
 5. **Commit Changes:**
+
 - In GitHub Desktop, you'll see a list of the files you've changed. Check the box next to each file you want to include in the commit.
 - Enter a summary and description for your changes in the "Summary" and "Description" fields, respectively. Click the "Commit to <branch-name>" button to commit your changes to the local branch.
 
 6. **Push Changes to GitHub:**
+
 - After committing your changes, click the "Push origin" button in the top right corner of GitHub Desktop to push your changes to your forked repository on GitHub.
 
 7. **Create a Pull Request:**
+
 - Go to the GitHub website and navigate to your fork of the project repository.
 - You should see a button to "Compare & pull request" between your fork and the original repository. Click on it.
 
 8. **Review and Submit:**
+
 - On the pull request page, review your changes and add any additional information, such as a title and description, that you want to include with your pull request.
 - Once you're satisfied, click the "Create pull request" button to submit your pull request.
 
 9. **Wait for Review:**
-Your pull request will now be available for review by the project maintainers. They may provide feedback or ask for changes before merging your pull request into the main branch of the project repository.
+   Your pull request will now be available for review by the project maintainers. They may provide feedback or ask for changes before merging your pull request into the main branch of the project repository.
 
 <br>
 
