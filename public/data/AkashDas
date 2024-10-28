@@ -1,0 +1,13 @@
+{
+    "name": "Akash Das",
+    "location": "Kolkata",
+    "bio": "Fullstack Developer",
+    "avatar": "https://avatars.githubusercontent.com/u/76689571?v=4",
+    "portfolio": "https://github.com/akash70629",
+    "skills": ["Reactjs", "Express", "Nodejs","MongoDB", "Bootstrap","MySQL", "TailwindCSS", "PostgresSQL", "JavaScript", "C", "CSS", "HTML"],
+    "social": {
+      "GitHub": "https://github.com/akash70629",
+      "Twitter": "https://x.com/Akash____Das",
+      "LinkedIn": "https://www.linkedin.com/in/akash-das-real/"
+    }
+  }
