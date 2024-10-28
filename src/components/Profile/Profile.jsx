@@ -57,7 +57,7 @@ function Card({ data }) {
                 data.skills.map((skill, index) => {
                   return (
                     <div
-                      className=" inline h-auto  cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
+                      className=" inline h-auto  cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-2  text-blue-50 sm:text-xs md:h-[30px]"
                       key={index}
                     >
                       {skill}
@@ -74,7 +74,7 @@ function Card({ data }) {
                 data.skills.map((skill, index) => {
                   return (
                     <div
-                      className=" inline h-auto  cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
+                      className=" inline h-auto  cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2  py-2  text-blue-50 sm:text-xs md:h-[30px]"
                       key={index}
                     >
                       {skill}
@@ -91,7 +91,7 @@ function Card({ data }) {
                 data.skills.map((skill, index) => {
                   return (
                     <div
-                      className=" inline h-auto  cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
+                      className=" inline h-auto  cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2  py-2  text-blue-50  sm:text-xs md:h-[30px]"
                       key={index}
                     >
                       {skill}
@@ -112,23 +112,23 @@ function Card({ data }) {
         </div>
       </div>
       <div className="mt-4">
-        <div className="dark:text-white">{data.bio}</div>
-        <div className="mt-1 flex gap-x-4">
+        <div className="text-sm text-blue-950 dark:text-blue-100">{data.bio}</div>
+        <div className="mt-3 flex justify-center  gap-x-4">
           {data.social?.GitHub && (
             <a href={data.social.GitHub} target="_blank" rel="noreferrer">
-              <FaGithub className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+              <FaGithub className="text-xl text-blue-500 duration-300 hover:scale-125 hover:text-blue-600" />
             </a>
           )}
 
           {data.social?.Twitter && (
             <a href={data.social.Twitter} target="_blank" rel="noreferrer">
-              <FaXTwitter className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+              <FaXTwitter className="text-xl text-blue-500 duration-300 hover:scale-125 hover:text-blue-600" />
             </a>
           )}
 
           {data.social?.LinkedIn && (
             <a href={data.social.LinkedIn} target="_blank" rel="noreferrer">
-              <FaLinkedin className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+              <FaLinkedin className="text-xl text-blue-500 duration-300 hover:scale-125 hover:text-blue-600" />
             </a>
           )}
         </div>

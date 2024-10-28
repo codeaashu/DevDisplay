@@ -3,11 +3,14 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
+import { PiUserCirclePlusFill } from 'react-icons/pi';
+import { SiSpotlight } from 'react-icons/si';
+import { MdHub } from 'react-icons/md';
 
 function Sidebar() {
   const navigate = useNavigate();
   const [theme, setTheme] = useState(() => {
-    const storedTheme = JSON.parse(localStorage.getItem('theme'));
+    const storedTheme = localStorage.getItem('theme');
     return storedTheme || (document.documentElement.classList.contains('dark') ? 'dark' : 'light');
   });
 
@@ -59,7 +62,7 @@ function Sidebar() {
         Open Source community where you can discover, connect, collab with skilled developers, share your ideas then
         build projects and also promote the project through this community.
       </div>
-      <div className="flex flex-wrap items-center justify-center gap-2 pt-5 ">
+      <div className="flex flex-wrap items-center gap-2 pt-5  ">
         <a
           href="https://github.com/codeaashu/DevDisplay?tab=readme-ov-file#how-to-add-your-profile-"
           target="_blank"
@@ -70,7 +73,10 @@ function Sidebar() {
 
           inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
           >
-            Add your profile
+            <div className="flex items-center gap-1">
+              <PiUserCirclePlusFill size={18} />
+              Add your profile
+            </div>
           </button>
         </a>
         <a href="https://www.linkedin.com/company/devdisplay/" target="_blank" rel="noreferrer">
@@ -80,17 +86,22 @@ function Sidebar() {
           </button>
         </a>
       </div>
-      <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
+      <div className="flex flex-row flex-wrap items-center  gap-2 pt-6">
         <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
           <button className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-            Spotlight
+            <div className="flex items-center gap-1">
+              <SiSpotlight size={13} />
+              Spotlight
+            </div>
           </button>
         </a>
         <button
           onClick={handleOpportunities}
           className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
         >
-          Opportunities Hub
+          <div className="flex items-center gap-1">
+            <MdHub size={11} /> Opportunities Hub
+          </div>
         </button>
       </div>
     </div>
