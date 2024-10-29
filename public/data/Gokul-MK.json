@@ -1,6 +1,6 @@
 {
   "name": "Gokul M",
-  "location": "Chennai, India",
+  "location": "Chennai, Tamil Nadu, India",
   "bio": "👋 Hi, I'm Gokul M, a final-year B.Tech student specializing in AI, ML, and front-end development. Passionate about tech innovation, UI/UX, and building impactful, user-centered applications.",
   "avatar": "https://github.com/Gokul-MK.png",
   "portfolio": "https://github.com/Gokul-MK",
@@ -13,6 +13,10 @@
     "Machine Learning",
     "Data Analytics",
     "UI/UX Design",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
     "NLP",
     "Generative AI",
     "Azure AI Services",
@@ -20,7 +24,7 @@
   ],
   "social": {
     "GitHub": "https://github.com/Gokul-MK",
-    "Twitter": "https://x.com/gokul_m58?t=-Ebn_pU-B2PgUTAu1M4nhQ&s=09",
+    "Twitter": "https://x.com/gokul_m58",
     "LinkedIn": "https://www.linkedin.com/in/gokul-m-a2978b255/"
   }
 }

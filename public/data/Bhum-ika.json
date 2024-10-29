@@ -1,7 +1,7 @@
 {
   "name": "Bhumika Sharma",
   "location": "Delhi",
-  "bio": "Hey there! I’m a frontend developer with a knack for React.js and Next.js. I love building dynamic web experiences and enjoy sharpening my problem-solving skills by diving into data structures and algorithms. Always excited to learn and create!",
+  "bio": "Hey there! I'm a frontend developer with a knack for React.js and Next.js. I love building dynamic web experiences and enjoy sharpening my problem-solving skills by diving into data structures and algorithms. Always excited to learn and create!",
   "avatar": "https://avatars.githubusercontent.com/u/91523494?v=4",
   "portfolio": "https://portfolio-obuq.vercel.app/",
   "skills": [
@@ -13,14 +13,19 @@
     "HTML",
     "Java",
     "CSS",
+    "JavaScript",
     "Framer Motion",
     "Bootstrap",
+    "DSA",
+    "Web Development",
+    "Frontend",
     "Git",
-    "DSA"
+    "GitHub",
+    "MERN"
   ],
   "social": {
     "GitHub": "https://github.com/Bhum-ika",
-    "Twitter": "https://twitter.com/your-twitter-username",
+    "Twitter": "#",
     "LinkedIn": "https://www.linkedin.com/in/bhumikaasharma/"
   }
 }
