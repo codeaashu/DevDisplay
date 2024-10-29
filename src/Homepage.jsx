@@ -83,15 +83,13 @@ function App() {
 
       setProfiles(filteredResults);
     } else if (criteria === 'skill') {
-      // if criteria is skill the it will filter the data
       if (value.length > 0) {
-        let setOfSearchSkills = new Set(value.map((skill) => skill.toLowerCase())); // Convert searchSkills to lowercase for comparison
-        const filteredUsers = shuffledProfiles.filter(
-          (user) => user.skills.some((skill) => setOfSearchSkills.has(skill.toLowerCase())), // Ensure skill is also lowercase
+        let setOfSearchSkills = new Set(value.map((skill) => skill.toLowerCase()));
+        const filteredUsers = shuffledProfiles.filter((user) =>
+          user.skills.some((skill) => setOfSearchSkills.has(skill.toLowerCase())),
         );
         setProfiles(filteredUsers);
       } else {
-        //if skills are empty it will reset the data
         setProfiles(shuffledProfiles);
       }
     } else {
@@ -141,7 +139,13 @@ function App() {
       );
     }
     const paginatedData = getPaginatedData();
-    return paginatedData.map((currentRecord, index) => <Profile data={currentRecord} key={index} />);
+    return (
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        {paginatedData.map((currentRecord, index) => (
+          <Profile data={currentRecord} key={index} />
+        ))}
+      </div>
+    );
   };
 
   return currentUrl === '/' ? (
