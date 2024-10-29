@@ -1,0 +1,13 @@
+{
+  "name": "Ujjawal Tripathi",
+  "location": "Pune, India",
+  "bio": "A developer interested in developing things in Python",
+  "avatar": "https://github.com/tripujjawal.png",
+  "portfolio": "https://github.com/tripujjawal",
+  "skills": ["Python", "Data Science", "Machine Learning"],
+  "social": {
+    "GitHub": "https://github.com/tripujjawal",
+    "LinkedIn": "https://in.linkedin.com/in/ujjawal-tripathi-4812761b4"
+  }
+}
+
