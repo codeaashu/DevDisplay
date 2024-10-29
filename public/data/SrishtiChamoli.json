@@ -1,12 +1,34 @@
 {
-    "name": "Srishti Chamoli",
-    "location": "Dehradun, Uttarakhand",
-    "bio": "I'm upskilling on being a Full Stack Engineer, who also has keen interest in AI/ML.",
-    "avatar": "https://github.com/SrishtiChamoli.png",
-    "portfolio": "https://github.com/SrishtiChamoli",
-    "skills": ["Web Development", "MERN", "Machine Learning","C++","Bootstrap","Tailwind CSS","TensorFlow","Scikit-Learn","React.js","NEXT.js","Git","Github","MySQL","Python","Problem Solving","Data Analysis","Pandas","NumPy","Matplotlib","Seaborn"],
-    "social": {
-      "GitHub": "https://github.com/SrishtiChamoli",
-      "LinkedIn": "https://www.linkedin.com/in/srishti-chamoli/"
-    }
+  "name": "Srishti Chamoli",
+  "location": "Dehradun, Uttarakhand",
+  "bio": "I'm upskilling on being a Full Stack Engineer, who also has keen interest in AI/ML.",
+  "avatar": "https://github.com/SrishtiChamoli.png",
+  "portfolio": "https://github.com/SrishtiChamoli",
+  "skills": [
+    "Web Development",
+    "MERN",
+    "Machine Learning",
+    "C++",
+    "Bootstrap",
+    "Tailwind CSS",
+    "TensorFlow",
+    "Scikit-Learn",
+    "React.js",
+    "NEXT.js",
+    "Git",
+    "Github",
+    "MySQL",
+    "Python",
+    "Problem Solving",
+    "Data Analysis",
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Seaborn"
+  ],
+  "social": {
+    "GitHub": "https://github.com/SrishtiChamoli",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/srishti-chamoli/"
   }
+}
