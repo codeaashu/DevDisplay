@@ -4,7 +4,21 @@
   "bio": "A software engineering student that loves creating websites, learning and teaching others about it.",
   "avatar": "https://github.com/khaulanauman.png",
   "portfolio": "https://github.com/khaulanauman",
-  "skills": ["React", "NextJS", "Java", "Pyhton", "SQL", "Javascript"],
+  "skills": [
+    "React",
+    "HTML",
+    "CSS",
+    "NextJS",
+    "Java",
+    "Pyhton",
+    "SQL",
+    "Javascript",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
   "social": {
     "GitHub": "https://github.com/khaulanauman",
     "Twitter": "https://twitter.com/khaulahoots",

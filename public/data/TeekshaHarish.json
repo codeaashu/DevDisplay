@@ -3,11 +3,28 @@
   "location": "Delhi",
   "bio": "Engineering student and MERN developer",
   "avatar": "https://github.com/TeekshaHarish.png",
-  "portfolio": "Your Portfolio URL or Github URL",
-  "skills": ["Reactjs", "Express", "Nodejs", "MongoDB", "Python", "FastAPI", "MySQL", "TailwindCSS", "PostgresSQL"],
+  "portfolio": "https://github.com/TeekshaHarish",
+  "skills": [
+    "Reactjs",
+    "Express",
+    "Nodejs",
+    "MongoDB",
+    "Python",
+    "FastAPI",
+    "MySQL",
+    "TailwindCSS",
+    "PostgresSQL",
+    "Web Development",
+    "Frontend",
+    "Backend",
+    "database",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
   "social": {
     "GitHub": "https://github.com/TeekshaHarish",
-    "Twitter": "https://twitter.com/your-twitter-username",
-    "LinkedIn": "https://www.linkedin.com/in/your-linkedin-username"
+    "Twitter": "#",
+    "LinkedIn": "#"
   }
 }
