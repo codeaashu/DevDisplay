@@ -1,1 +1,28 @@
-//yet to type
+{
+  "name": "Pranjal Pant",
+  "location": "Delhi, India",
+  "bio": "A passionate developer who's building systems for the web 🌐 and app developement.",
+  "avatar": "https://github.com/dotpranjal.png",
+  "portfolio": "https://github.com/dotpranjal",
+  "skills": [
+    "Javascript",
+    "Typescript",
+    "React",
+    "Next.Js",
+    "MySQL",
+    "MongoDB",
+    "Docker",
+    "Git",
+    "Tailwind CSS",
+    "REST APIs",
+    "Full Stack Web Development",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/dotpranjal",
+    "Twitter": "https://twitter.com/oddpranjal",
+    "LinkedIn": "https://www.linkedin.com/in/pranjal-pant-bb2516270/"
+  }
+}
