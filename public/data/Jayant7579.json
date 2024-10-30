@@ -1,0 +1,12 @@
+{
+  "name": "Jayant Chauhan",
+  "location": "Najibabad, Uttar Pradesh",
+  "bio": "Tech-Savvy AI Student | Expert in Full-Stack Development and Graphic Design",
+  "avatar": "https://avatars.githubusercontent.com/u/105379510?v=4",
+  "portfolio": "Your Portfolio URL or Github URL",
+  "skills": ["Python", "Node.js", "ReactJS", "MongoDB", "JavaScript", "Illustrator"],
+  "social": {
+    "GitHub": "https://github.com/Jayant7579",
+    "LinkedIn": "https://www.linkedin.com/in/jayant7579/"
+  }
+}
