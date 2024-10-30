@@ -1,9 +1,8 @@
-
 name: 'open-issue reminder'
 
 on:
   schedule:
-    - cron: '15 4 * * *' 
+    - cron: '15 4 * * *'
 jobs:
   welcome:
     runs-on: ubuntu-latest
