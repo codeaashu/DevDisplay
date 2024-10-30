@@ -1,0 +1,13 @@
+{
+  "name": "Aditya",
+  "location": "United Stated of America(USA)",
+  "bio": "Passionate web developer with intermediate skills in HTML, CSS, and JavaScript. Enjoys creating responsive designs and exploring new technologies to enhance user experiences. Always eager to learn more!",
+  "avatar": "https://github.com/adityadhawan44.png",
+  "portfolio": "Your Portfolio URL or Github URL",
+  "skills": ["HTML", "CSS", "Java","Python","C","C++","frontend","backend"],
+  "social": {
+    "GitHub": "https://github.com/adityadhawan44",
+    "Twitter": "https://twitter.com/your-twitter-username",
+    "LinkedIn": "https://www.linkedin.com/in/aditya-dhawan-987318ad"
+  }
+}
