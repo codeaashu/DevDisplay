@@ -4,9 +4,21 @@
   "bio": "A developer interested in developing things in Python",
   "avatar": "https://github.com/tripujjawal.png",
   "portfolio": "https://github.com/tripujjawal",
-  "skills": ["Python", "Data Science", "Machine Learning"],
+  "skills": [
+    "Python",
+    "Flask",
+    "Django",
+    "Data Science",
+    "Machine Learning",
+    "Natural Language Processing",
+    "Computer Vision",
+    "Artificial Intelligence",
+    "Quantum Computing",
+    "Deep Learning"
+  ],
   "social": {
     "GitHub": "https://github.com/tripujjawal",
+    "Twitter": "#",
     "LinkedIn": "https://in.linkedin.com/in/ujjawal-tripathi-4812761b4"
   }
 }
