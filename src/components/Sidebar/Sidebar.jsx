@@ -56,7 +56,7 @@ function Sidebar() {
         </div>
       </div>
       <div className="text-secondaryColor dark:text-white">
-        A global open-source community platform that brings together all your tech needs in one place.
+        A global open source community platform that brings together all your tech needs in one place.
       </div>
       <div className="flex flex-wrap items-center justify-center gap-2 pt-5 ">
         <a
