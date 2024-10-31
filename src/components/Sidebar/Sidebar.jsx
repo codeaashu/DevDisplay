@@ -32,7 +32,7 @@ function Sidebar() {
         <div className="text-secondaryColor dark:text-white">
           <FontAwesomeIcon icon={faCode} size="2xl" />
         </div>
-        <a href="https://devdisplay.vercel.app/">
+        <a href="https://www.devdisplay.org/">
           <div
             className="flex  text-[2rem] font-bold
            md:text-[1.05rem] lg:text-[1.25rem] min-[1200px]:text-[1.75rem]  "
