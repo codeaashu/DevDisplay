@@ -1,0 +1,13 @@
+{
+  "name": "Ayush Koundel",
+  "location": "India",
+  "bio": "Front-End Developer skilled in creating responsive, user-centered websites using HTML, CSS, and JavaScript. Experienced in React, and passionate about delivering seamless, high-performance web experiences.",
+  "avatar": "https://github.com/lazzysimp.png",
+  "portfolio": "https://github.com/lazzysimp",
+  "skills": ["HTML", "CSS", "JAVA"],
+  "social": {
+    "GitHub": "https://github.com/lazzysimp",
+    "Twitter": "https://twitter.com/your-twitter-username",
+    "LinkedIn": "www.linkedin.com/in/ayush-koundel-6bb851278"
+  }
+}
