@@ -52,7 +52,7 @@ export default function Opportunities() {
           <p className="text-xl">
             Explore the hub of all the latest & upcoming Opportunities in one place
             <br />
-            (jobs, internships, hackathons, events, bootcamps, webinars, devfests)
+            (Page is in Working Progress)
           </p>
         </div>
       </section>
