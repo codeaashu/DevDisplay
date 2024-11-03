@@ -5,7 +5,7 @@
 We take the security of DevDisplay seriously. If you discover any security vulnerabilities, please report them to us responsibly by following these steps:
 
 1. **DO NOT** create a public GitHub issue for security vulnerabilities
-2. Send an email to [devdisplay@gmail.com] with details about the vulnerability
+2. Send an email to [hellow.ashutosh@gmail.com] with details about the vulnerability
 3. Include the following information:
    - Description of the vulnerability
    - Steps to reproduce
