@@ -11,7 +11,7 @@ function App() {
         <title>DevDisplay - Global Open Source Community Platform</title>
         <meta
           name="description"
-          content="DevDisplay brings together all your tech needs in one place. Showcase your skills, connect, collaborate, build and promote."
+          content="DevDisplay brings together all your tech needs in one place. Showcase your skills, connect globally, collaborate, build and promote."
         />
         <meta
           name="keywords"
@@ -23,7 +23,7 @@ function App() {
         <meta property="og:title" content="DevDisplay - Global Open Source Community Platform" />
         <meta
           property="og:description"
-          content="Join DevDisplay to Showcase your skills, connect, collaborate, build and promote."
+          content="Join DevDisplay to Showcase your skills, connect globally, collaborate, build and promote."
         />
         <meta property="og:image" content="https://www.devdisplay.org/og-image.jpg" />
         <meta property="og:url" content="https://www.devdisplay.org" />
@@ -31,10 +31,10 @@ function App() {
         <meta property="og:site_name" content="DevDisplay" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="DevDisplay - Your Global Open Source Community Platform" />
+        <meta name="twitter:title" content="DevDisplay - Global Open Source Community Platform" />
         <meta
           name="twitter:description"
-          content="Showcase your skills, connect with collaborators, and join a user-friendly platform for developers worldwide."
+          content="Showcase your skills, connect globally, collaborate, build and promote."
         />
         <meta name="twitter:image" content="https://www.devdisplay.org/twitter-image.jpg" />
         <meta name="twitter:site" content="@devdisplay_" />
