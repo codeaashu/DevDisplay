@@ -23,16 +23,19 @@ We take the security of DevDisplay seriously. If you discover any security vulne
 ### For Contributors
 
 1. **Code Review**
+
    - All code changes must go through peer review
    - Security-sensitive code requires additional review
    - Follow secure coding guidelines
 
 2. **Dependencies**
+
    - Keep all dependencies up to date
    - Regularly check for known vulnerabilities in dependencies
    - Use only trusted and well-maintained packages
 
 3. **Authentication & Authorization**
+
    - Use strong password policies
    - Implement proper session management
    - Follow the principle of least privilege
@@ -45,6 +48,7 @@ We take the security of DevDisplay seriously. If you discover any security vulne
 ### For Users
 
 1. **Account Security**
+
    - Use strong, unique passwords
    - Enable two-factor authentication when available
    - Keep your access tokens secure
@@ -63,6 +67,7 @@ We take the security of DevDisplay seriously. If you discover any security vulne
 ## Scope
 
 This security policy applies to:
+
 - The main DevDisplay repository
 - Official plugins and extensions
 - Official documentation
@@ -71,6 +76,7 @@ This security policy applies to:
 ## Out of Scope
 
 The following are considered out of scope:
+
 - Third-party plugins not maintained by DevDisplay
 - User-modified configurations
 - Issues already reported
@@ -79,11 +85,13 @@ The following are considered out of scope:
 ## Contact
 
 For security-related inquiries:
+
 - Email: [devdisplay@gmail.com]
 - PGP Key: [Link to PGP key]
 
 Thank you for helping keep DevDisplay and its users safe!
 
 ---
+
 Last updated: [02-11-24]
 Version: 1.0
