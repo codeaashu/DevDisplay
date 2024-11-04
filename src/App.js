@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Homepage from './Homepage';
 import TechDisplay from './Page/TechDisplay.jsx';
+import Home from './Page/Home.jsx';
 import Opportunities from './Page/Opportunities.jsx';
 import IdeaSubmission from './Page/IdeaSubmission.jsx';
 import PortfolioBuilder from './Page/PortfolioBuilder.jsx';
@@ -63,6 +64,7 @@ function App() {
       <Routes>
         <Route index element={<Homepage />} />
         <Route path="/TechDisplay" element={<TechDisplay />} />
+        <Route path="/Home" element={<Home />} />
         <Route path="/Opportunities" element={<Opportunities />} />
         <Route path="/IdeaSubmission" element={<IdeaSubmission />} />
         <Route path="/PortfolioBuilder" element={<PortfolioBuilder />} />
