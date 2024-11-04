@@ -82,10 +82,9 @@ function Sidebar() {
       <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
         <button
           onClick={handleTechDisplay}
-          class="focus-visible:ring-ring group relative my-4 flex h-9 w-full max-w-52 items-center justify-center gap-2 overflow-hidden whitespace-pre rounded-md bg-black px-4 py-2 text-sm font-medium text-white shadow transition-all duration-300 ease-out hover:bg-black/90 hover:ring-2 hover:ring-black hover:ring-offset-2 focus-visible:outline-none focus-visible:ring-1 disabled:pointer-events-none disabled:opacity-50 md:flex"
-          // className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+          className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
         >
-          TechDisplay
+          Unlock 🚀 DevDisplay
         </button>
       </div>
     </div>
