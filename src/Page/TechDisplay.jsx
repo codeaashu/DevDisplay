@@ -4,7 +4,7 @@ import { Home, Briefcase, BookOpen, Code, Lightbulb, MessageCircle, User, FileTe
 const Sidebar = () => {
   return (
     <div className="flex h-screen flex-col bg-gray-800 p-4 text-white">
-      <div className="flex flex-col items-center">
+      <div className="items-left flex flex-col">
         <img src="./devDisplayLOGO.png" alt="DevDisplay" className="mb-4 h-16 w-16" />
         <nav className="flex flex-col gap-4">
           <a href="/Home" className="flex items-center gap-2">
