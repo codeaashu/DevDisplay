@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Homepage from './Homepage';
-import Opportunities from './Page/Opportunities.jsx';
+import TechDisplay from './Page/TechDisplay.jsx';
 
 function App() {
   return (
@@ -55,7 +55,7 @@ function App() {
 
       <Routes>
         <Route index element={<Homepage />} />
-        <Route path="/opportunities" element={<Opportunities />} />
+        <Route path="/TechDisplay" element={<TechDisplay />} />
       </Routes>
     </BrowserRouter>
   );
