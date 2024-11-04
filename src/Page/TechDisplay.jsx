@@ -15,7 +15,7 @@ const Sidebar = () => {
             <Briefcase className="h-6 w-6" />
             Opportunities
           </a>
-          <a href="/resources" className="flex items-center gap-2">
+          <a href="/Resources" className="flex items-center gap-2">
             <BookOpen className="h-6 w-6" />
             Tech Resources
           </a>
@@ -23,19 +23,19 @@ const Sidebar = () => {
             <Code className="h-6 w-6" />
             Projects
           </a>
-          <a href="/idea-submission" className="flex items-center gap-2">
+          <a href="/IdeaSubmission" className="flex items-center gap-2">
             <Lightbulb className="h-6 w-6" />
             Idea Submission
           </a>
-          <a href="/discussions" className="flex items-center gap-2">
+          <a href="/Discussions" className="flex items-center gap-2">
             <MessageCircle className="h-6 w-6" />
             Discussions
           </a>
-          <a href="/portfolio-builder" className="flex items-center gap-2">
+          <a href="/PortfolioBuilder" className="flex items-center gap-2">
             <User className="h-6 w-6" />
             Portfolio Builder
           </a>
-          <a href="/resume-builder" className="flex items-center gap-2">
+          <a href="/ResumeBuilder" className="flex items-center gap-2">
             <FileText className="h-6 w-6" />
             Resume Builder
           </a>
