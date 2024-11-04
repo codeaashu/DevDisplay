@@ -41,12 +41,6 @@ const Sidebar = () => {
           </a>
         </nav>
       </div>
-      <div className="mt-auto flex flex-col items-center">
-        <img src="/path/to/profile-pic.jpg" alt="Profile" className="mb-2 h-12 w-12 rounded-full" />
-        <p className="text-sm">John Doe</p>
-        <p className="text-xs text-gray-400">Followers: 123</p>
-        <button className="mt-2 rounded-lg bg-blue-500 px-4 py-2">Add New</button>
-      </div>
     </div>
   );
 };
