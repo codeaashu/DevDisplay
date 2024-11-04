@@ -80,11 +80,38 @@ function Sidebar() {
         </a>
       </div>
       <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
-        <button
+        {/* <button
           onClick={handleTechDisplay}
           className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
         >
           TechDisplay
+        </button> */}
+
+        <button
+          onClick={handleTechDisplay}
+          class="focus-visible:ring-ring group relative my-4 flex h-9 w-full max-w-52 items-center justify-center gap-2 overflow-hidden whitespace-pre rounded-md bg-black px-4 py-2 text-sm font-medium text-white shadow transition-all duration-300 ease-out hover:bg-black/90 hover:ring-2 hover:ring-black hover:ring-offset-2 focus-visible:outline-none focus-visible:ring-1 disabled:pointer-events-none disabled:opacity-50 md:flex"
+        >
+          <span class="absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 bg-white opacity-10 transition-all duration-1000 ease-out group-hover:-translate-x-40"></span>
+          <div class="flex items-center">
+            <span class="ml-1 text-white">TechDisplay</span>
+          </div>
+          <div class="ml-2 flex items-center gap-1 text-sm md:flex">
+            <svg
+              class="h-4 w-4 text-gray-500 transition-all duration-300 group-hover:text-yellow-300"
+              data-slot="icon"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                fill-rule="evenodd"
+              ></path>
+            </svg>
+            <span class="font-display inline-block font-medium tabular-nums tracking-wider text-white">64</span>
+          </div>
         </button>
       </div>
     </div>
