@@ -3,6 +3,13 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Homepage from './Homepage';
 import TechDisplay from './Page/TechDisplay.jsx';
+import Opportunities from './Page/Opportunities.jsx';
+import IdeaSubmission from './Page/IdeaSubmission.jsx';
+import PortfolioBuilder from './Page/PortfolioBuilder.jsx';
+import Projects from './Page/Projects.jsx';
+import ResumeBuilder from './Page/ResumeBuilder.jsx';
+import Resources from './Page/Resources.jsx';
+import Discussions from './Page/Discussions.jsx';
 
 function App() {
   return (
@@ -56,6 +63,13 @@ function App() {
       <Routes>
         <Route index element={<Homepage />} />
         <Route path="/TechDisplay" element={<TechDisplay />} />
+        <Route path="/Opportunities" element={<Opportunities />} />
+        <Route path="/IdeaSubmission" element={<IdeaSubmission />} />
+        <Route path="/PortfolioBuilder" element={<PortfolioBuilder />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/ResumeBuilder" element={<ResumeBuilder />} />
+        <Route path="/Resources" element={<Resources />} />
+        <Route path="/Discussions" element={<Discussions />} />
       </Routes>
     </BrowserRouter>
   );
