@@ -31,15 +31,6 @@ const HomePage = () => {
         <p className="mt-4 text-lg">Elevate your coding and development journey with DevDisplay</p>
         <button className="mt-6 rounded-lg bg-blue-500 px-6 py-3 text-white">Register Now</button>
 
-        {/* Supported By Section */}
-        <div className="mt-10 flex justify-center gap-8">
-          {/* Replace with logos as needed */}
-          <img src="logo1.png" alt="DigitalOcean" className="w-24" />
-          <img src="logo2.png" alt="Microsoft for Startups" className="w-24" />
-          <img src="logo3.png" alt="GitBook" className="w-24" />
-          <img src="logo4.png" alt="MELTCD" className="w-24" />
-        </div>
-
         {/* Profile Section */}
         <section className="mt-12 rounded-lg bg-blue-800 p-8 text-left">
           <h2 className="mb-4 text-3xl font-bold">
