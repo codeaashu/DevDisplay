@@ -5,7 +5,7 @@ const HomePage = () => {
     <div className="min-h-screen bg-black font-sans text-white">
       {/* Navbar */}
       <header className="flex items-center justify-between p-6">
-        <div className="text-2xl font-bold">Digitomize</div>
+        <div className="text-2xl font-bold">DevDisplay</div>
         <nav className="flex gap-4">
           <a href="#" className="hover:underline">
             Home
@@ -28,7 +28,7 @@ const HomePage = () => {
         <h1 className="mt-8 text-5xl font-bold">
           One place for all your <span className="text-blue-500">coding platforms</span> needs
         </h1>
-        <p className="mt-4 text-lg">Elevate your coding and development journey with Digitomize</p>
+        <p className="mt-4 text-lg">Elevate your coding and development journey with DevDisplay</p>
         <button className="mt-6 rounded-lg bg-blue-500 px-6 py-3 text-white">Register Now</button>
 
         {/* Supported By Section */}
@@ -74,7 +74,7 @@ const HomePage = () => {
 
       {/* Footer */}
       <footer className="mt-12 bg-gray-800 p-8 text-center">
-        <p className="text-white">&copy; 2024 Digitomize. All rights reserved.</p>
+        <p className="text-white">&copy; 2024 DevDisplay. All rights reserved.</p>
         <div className="mt-4 flex justify-center gap-8">
           <a href="#" className="text-white">
             Feedback
@@ -83,7 +83,7 @@ const HomePage = () => {
             Contact Us
           </a>
           <a href="#" className="text-white">
-            About Digitomize
+            About DevDisplay
           </a>
           <a href="#" className="text-white">
             Join our Discord
