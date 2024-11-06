@@ -4,7 +4,19 @@
   "bio": "Python Developer and Data Analyst with expertise in AI, Gen AI development, and cloud computing.",
   "avatar": "https://github.com/Savvythelegend.png",
   "portfolio": "https://github.com/Savvythelegend",
-  "skills": ["Python", "Data Analysis", "Prompt Engineering", "Full-Stack Development", "Cloud Computing"],
+  "skills": [
+    "Python",
+    "Data Analysis",
+    "Prompt Engineering",
+    "Full-Stack Development",
+    "Cloud Computing",
+    "AI",
+    "Backend",
+    "Frontend",
+    "database",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/Savvythelegend",
     "Twitter": "https://x.com/Mehfooj194108",
