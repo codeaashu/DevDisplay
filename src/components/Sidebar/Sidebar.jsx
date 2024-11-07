@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { FaLinkedin } from 'react-icons/fa';
+import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+import React, { useEffect, useState } from 'react';
+import { FaLinkedin } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 
 function Sidebar() {
@@ -29,14 +29,13 @@ function Sidebar() {
   return (
     <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%] md:px-2 lg:px-7">
       <div className="mb-2 flex h-12 items-center gap-2.5">
-        <div className="text-secondaryColor dark:text-white">
-          <FontAwesomeIcon icon={faCode} size="2xl" />
-        </div>
+        <img src="" alt="" />
         <a href="https://www.devdisplay.org/">
           <div
             className="flex  text-[2rem] font-bold
            md:text-[1.05rem] lg:text-[1.25rem] min-[1200px]:text-[1.75rem]  "
           >
+            <img src="/devDisplayLOGO.png" alt="devdisplaylogo" width={40} height={40} />
             <p className="text-secondaryColor dark:text-white">Dev</p>
             <p className="text-textSecondary">Display</p>
           </div>
