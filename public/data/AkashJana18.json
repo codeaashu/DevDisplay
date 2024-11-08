@@ -1,0 +1,25 @@
+{
+  "name": "Akash Jana",
+  "location": "India",
+  "bio": "Crafting dynamic web experiences with Next.js and Tailwind, I blend clean design with the power of AI. An open-source enthusiast driven by innovation and seamless digital interactions.",
+  "avatar": "https://github.com/AkashJana18.png",
+  "portfolio": "https://akash-jana.vercel.app",
+  "skills": [
+    "Python",
+    "Javascript",
+    "Typescript",
+    "React",
+    "Next.js",
+    "TailwindCSS",
+    "Go",
+    "Frontend Engineering",
+    "AI & ML",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/AkashJana18",
+    "Twitter": "https://twitter.com/Akashj_01",
+    "LinkedIn": "https://www.linkedin.com/in/akashjana"
+  }
+}

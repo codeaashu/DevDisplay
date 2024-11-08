@@ -16,7 +16,7 @@ function App() {
   return (
     <BrowserRouter>
       <Helmet>
-        <title>DevDisplay - Global Open Source Community Platform</title>
+        <title>DevDisplay - Global Open Source Tech Platform</title>
         <meta
           name="description"
           content="DevDisplay brings together all your tech needs in one place. Showcase your skills, connect globally, collaborate, build and promote."
@@ -28,7 +28,7 @@ function App() {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta property="og:title" content="DevDisplay - Global Open Source Community Platform" />
+        <meta property="og:title" content="DevDisplay - Global Open Source Tech Platform" />
         <meta
           property="og:description"
           content="Join DevDisplay to Showcase your skills, connect globally, collaborate, build and promote."
@@ -39,7 +39,7 @@ function App() {
         <meta property="og:site_name" content="DevDisplay" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="DevDisplay - Global Open Source Community Platform" />
+        <meta name="twitter:title" content="DevDisplay - Global Open Source Tech Platform" />
         <meta
           name="twitter:description"
           content="Showcase your skills, connect globally, collaborate, build and promote."
