@@ -1,0 +1,13 @@
+{
+  "name": "Ch Venkata Sri Sai",
+  "location": "Hyderabad",
+  "bio": "Full Stack web developer with experience in Machine Learning, AI. Passionate about building projects, contributing to other's work and DSA",
+  "avatar": "https://github.com/Venkat-737.png",
+  "portfolio": "https://github.com/Venkat-737",
+  "skills": ["JavaScript", "MERN","Web development", "Next JS", "TailwindCSS","Machine Learning", "AI", "Python", "Git","Java","C++","MySQL","Supabase","Flask" ],
+  "social": {
+    "GitHub": "https://github.com/Venkat-737",
+    "Twitter": "https://twitter.com/Venkat670",
+    "LinkedIn": "https://www.linkedin.com/in/venkata-sri-sai-467614294/"
+  }
+}
