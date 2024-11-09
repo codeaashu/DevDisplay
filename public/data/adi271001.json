@@ -1,0 +1,30 @@
+{
+  "name": "Aditya D",
+  "location": "Bangalore Karnataka",
+  "bio": "DevOps Engineer | AI,ML,DL | Cybersecurity| Cloud| Open Source",
+  "avatar": "https://github.com/adi271001.png",
+  "portfolio": "https://github.com/adi271001",
+  "skills": [
+    "DevOps",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Azure",
+    "Google Cloud",
+    "Machine Learning",
+    "Deep Learning",
+    "AI",
+    "ML",
+    "DL",
+    "Cybersecurity",
+    "cloud",
+    "open source",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/adi271001",
+    "Twitter": "https://twitter.com/ADITYAD29257528",
+    "LinkedIn": "https://www.linkedin.com/in/aditya-d-23453a179"
+  }
+}

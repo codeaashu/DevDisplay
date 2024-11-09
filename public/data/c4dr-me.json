@@ -1,0 +1,36 @@
+{
+  "name": "Jayant .",
+  "location": "Delhi, India",
+  "bio": "Tech Enthusiast | Open Source Contributor | Full Stack Developer | Data Science Enthusiast",
+  "avatar": "https://github.com/c4dr-me.png",
+  "portfolio": "https://github.com/c4dr-me",
+  "skills": [
+    "MongoDB",
+    "React",
+    "Node.js",
+    "Express",
+    "Python",
+    "Machine Learning",
+    "JavaScript",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "SASS",
+    "Tailwind",
+    "Web Development",
+    "Frontend",
+    "Backend",
+    "API",
+    "Database",
+    "NoSQL",
+    "GraphQL",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/c4dr-me",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/jayant-lnu/"
+  }
+}

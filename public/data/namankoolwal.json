@@ -1,0 +1,32 @@
+{
+  "name": "Naman Khandelwal",
+  "location": "Rajasthan, India",
+  "bio": "Innovative Full-Stack Developer crafting seamless digital experiences. Skilled in front-end and back-end development, delivering high-performance solutions as a freelance and front-end specialist.",
+  "avatar": "https://github.com/namankoolwal.png",
+  "portfolio": "https://portfolio-namank.vercel.app/",
+  "skills": [
+    "Figma",
+    "HTML5",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "Tailwind CSS",
+    "Bootstrap",
+    "React.js",
+    "Redux",
+    "GSAP",
+    "Framer Motion",
+    "Node.js",
+    "Express.js",
+    "MySQL",
+    "MongoDB",
+    "Git",
+    "GitHub",
+    "WordPress"
+  ],
+  "social": {
+    "GitHub": "https://github.com/namankoolwal",
+    "Twitter": "https://twitter.com/NAMANKH31936926",
+    "LinkedIn": "https://linkedin.com/in/naman-khandelwal-568971189"
+  }
+}

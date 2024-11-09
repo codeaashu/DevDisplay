@@ -1,0 +1,32 @@
+{
+  "name": "Deepesh Patil",
+  "location": "Maharashtra, India",
+  "bio": "A dedicated programmer with a strong passion for technology in the domains of Cyber Security and Network Administration. I have a keen interest in exploring the latest advancements in programming, to improve my skills.",
+  "avatar": "https://github.com/deepesh611.png",
+  "portfolio": "https://deepesh-patil.vercel.app/",
+  "skills": [
+    "Python",
+    "Shell",
+    "C++",
+    "Java",
+    "JavaScript",
+    "SQL",
+    "React.js",
+    "Unix",
+    "Linux",
+    "Arduino",
+    "Raspberry Pi",
+    "NVIDIA's Jetson",
+    "Git",
+    "Github",
+    "GitKraken",
+    "Postman",
+    "Tailwind.css",
+    "Next.js"
+  ],
+  "social": {
+    "GitHub": "https://github.com/deepesh611",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/deepesh-patil-103a87258/"
+  }
+}

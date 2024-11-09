@@ -1,0 +1,32 @@
+{
+  "name": "Aditya Pratap Singh",
+  "location": "Tiruchirappalli, Tamil Nadu, India",
+  "bio": "As a passionate tech enthusiast, I am deeply interested in all technology-related things, especially in development where I can contribute to the real world",
+  "avatar": "https://avatars.githubusercontent.com/u/104073199?v=4",
+  "portfolio": "https://github.com/Aditya-PS-05",
+  "skills": [
+    "Full Stack Web Development",
+    "Node.js",
+    "React",
+    "Redux",
+    "Next.js",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Smart Contract Development",
+    "Rust",
+    "C++",
+    "Solidity",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Aditya-PS-05",
+    "Twitter": "https://x.com/AdityaPrat7441",
+    "LinkedIn": "https://www.linkedin.com/in/aditya-pratap-singh-952a8820a/"
+  }
+}

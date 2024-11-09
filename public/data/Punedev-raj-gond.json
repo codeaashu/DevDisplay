@@ -1,10 +1,26 @@
 {
   "name": "Pune dev",
-  "location": "Patna,Bihar,India",
+  "location": "Patna, Bihar, India",
   "bio": "inspiring Student seeking knowledge | BCA-Java developer/Android development ",
   "avatar": "https://github.com/Punedev-raj-gond.png",
   "portfolio": "https://github.com/Punedev-raj-gond",
-  "skills": ["Java", "Android", "Android studio", "Swing", "Database", "MySQL"],
+  "skills": [
+    "Java",
+    "Android",
+    "Android studio",
+    "Swing",
+    "Database",
+    "MySQL",
+    "Spring Boot",
+    "Maven",
+    "Git",
+    "GitHub",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "C++",
+    "C"
+  ],
   "social": {
     "GitHub": "https://github.com/Punedev-raj-gond",
     "Twitter": "#",

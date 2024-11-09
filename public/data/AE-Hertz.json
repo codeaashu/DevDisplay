@@ -1,0 +1,29 @@
+{
+  "name": "Abhinandan Kumar",
+  "location": "India",
+  "bio": "I'm a passionate web developer focused on creating beautiful and functional user interfaces. Eager to start my professional career, I transform ideas into engaging web experiences through my skills and projects.",
+  "avatar": "https://github.com/AE-Hertz.png",
+  "portfolio": "https://hertz-portfolio.vercel.app/",
+  "skills": [
+    "React",
+    "Next",
+    "Tailwind",
+    "Express",
+    "Scss",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Framer Motion",
+    "GSAP",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/AE-Hertz",
+    "Twitter": "https://x.com/Abhi_Hertz",
+    "LinkedIn": "https://www.linkedin.com/in/abhinandan-kumar-373b31136/"
+  }
+}

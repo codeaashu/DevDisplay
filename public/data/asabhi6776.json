@@ -1,0 +1,31 @@
+{
+  "name": "Abhishek Singh",
+  "location": "Bangalore, India",
+  "bio": "I'm Abhishek Singh, a seasoned DevOps engineer with 4 years of experience in Kubernetes, Docker, Ansible, monitoring, logging, and CI/CD.",
+  "avatar": "https://github.com/asabhi6776.png",
+  "portfolio": "https://github.com/asabhi6776",
+  "skills": [
+    "Python",
+    "HTML",
+    "CSS",
+    "Bash",
+    "Postgresql",
+    "MongoDB",
+    "MySQL",
+    "Kafka",
+    "Airflow",
+    "Kubernetes",
+    "GOlang",
+    "Flask",
+    "Docker",
+    "CI/CD",
+    "Terraform",
+    "Git",
+    "Ansible"
+  ],
+  "social": {
+    "GitHub": "https://github.com/asabhi6776",
+    "Twitter": "https://twitter.com/asabhi6776",
+    "LinkedIn": "https://www.linkedin.com/in/asabhi6776"
+  }
+}

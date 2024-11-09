@@ -1,0 +1,39 @@
+{
+  "name": "Saurabh R",
+  "location": "Mumbai, India",
+  "bio": "I am a Frontend Developer with specialized in Reactjs, I love to work with js, I always try to build user friendly UI.",
+  "avatar": "https://github.com/saurabh29r.png",
+  "portfolio": "https://github.com/saurabh29r",
+  "skills": [
+    "ReactJS",
+    "Node.js",
+    "javaScript",
+    "CSS",
+    "Bootstrap",
+    "JWT Auth",
+    "REST APIs",
+    "Typescript",
+    "sqlite",
+    "python",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MySQL",
+    "Oracle",
+    "SQLserver",
+    "PostgreSQL",
+    "WMS",
+    "SCM",
+    "MariaDB",
+    "SQLite",
+    "TypeScript",
+    "Express.js",
+    "TailwindCSS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/ansisme",
+    "Twitter": "#",
+    "LinkedIn": "#"
+  }
+}

@@ -22,8 +22,8 @@ function Sidebar() {
     setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
   }
 
-  function handleOpportunities() {
-    navigate('/opportunities');
+  function handleTechDisplay() {
+    navigate('/TechDisplay');
   }
   function handleAbout() {
     navigate('/about');
@@ -35,7 +35,7 @@ function Sidebar() {
         <div className="text-secondaryColor dark:text-white">
           <FontAwesomeIcon icon={faCode} size="2xl" />
         </div>
-        <a href="https://devdisplay.vercel.app/">
+        <a href="https://www.devdisplay.org/">
           <div
             className="flex  text-[2rem] font-bold
            md:text-[1.05rem] lg:text-[1.25rem] min-[1200px]:text-[1.75rem]  "
@@ -59,8 +59,7 @@ function Sidebar() {
         </div>
       </div>
       <div className="text-secondaryColor dark:text-white">
-        Open Source community where you can discover, connect, collab with skilled developers, share your ideas then
-        build projects and also promote the project through this community.
+        A global open source community platform that brings together all your tech needs in one place.
       </div>
       <div className="flex flex-wrap items-center justify-center gap-2 pt-5 ">
         <a
@@ -80,16 +79,11 @@ function Sidebar() {
         </a>
       </div>
       <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
-        <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
-          <button className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-            Spotlight
-          </button>
-        </a>
         <button
-          onClick={handleOpportunities}
+          onClick={handleTechDisplay}
           className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
         >
-          Opportunities Hub
+          Unlock the Power of DevDisplay
         </button>
         <button
           onClick={handleAbout}

@@ -1,0 +1,25 @@
+{
+  "name": "Bhavya Kumar Singh",
+  "location": "Greater Noida, India",
+  "bio": "A Developer",
+  "avatar": "https://github.com/Bhavya-72.png",
+  "portfolio": "https://github.com/Bhavya-72",
+  "skills": [
+    "Web Development",
+    "C",
+    "C++ Programming",
+    "DevOps",
+    "Frontend",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Bhavya-72",
+    "Twitter": "https://x.com/BhavyaKuma59296",
+    "LinkedIn": "https://www.linkedin.com/in/bhavya-kumar-129008202/"
+  }
+}

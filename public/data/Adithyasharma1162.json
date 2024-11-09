@@ -1,0 +1,32 @@
+{
+  "name": "Adithya Sharma",
+  "location": "Hyderabad, India",
+  "bio": "Full Stack Developer heavily focused on backend, with years of experience in Python, APIs, AWS, Next.Js, Javascript",
+  "avatar": "https://github.com/Adithyasharma1162.png",
+  "portfolio": "https://github.com/Adithyasharma1162",
+  "skills": [
+    "Python",
+    "REST APIs",
+    "AWS",
+    "Javascript",
+    "Docker",
+    "Flask",
+    "PostgreSQL",
+    "SQL",
+    "Terraform",
+    "Next.Js",
+    "Typescript",
+    "Java",
+    "C++",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Adithyasharma1162",
+    "Twitter": "https://x.com/AdithyaSharma_",
+    "LinkedIn": "https://www.linkedin.com/in/adithyasharma-m"
+  }
+}

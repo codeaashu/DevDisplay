@@ -1,0 +1,25 @@
+{
+  "name": "Ashwin Kushwaha",
+  "location": "Vadodara, Gujarat, India",
+  "bio": "Passionate software developer skilled in Java, Android app development, Python, and Django. I love building innovative solutions and exploring cutting-edge technologies.",
+  "avatar": "https://github.com/kushwxha.png",
+  "portfolio": "https://github.com/kushwxha",
+  "skills": [
+    "Java",
+    "Python",
+    "Django",
+    "Android studio",
+    "App Developement",
+    "Firebase",
+    "Postman API",
+    "eclipse",
+    "VS Code",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/kushwxha",
+    "Twitter": "https://twitter.com/daredevil609",
+    "LinkedIn": "https://www.linkedin.com/in/kushwxha"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Rupali r",
+  "location": "Bangalore",
+  "bio": "An aspiring Full stack Developer",
+  "avatar": "https://github.com/Rupali1104.png",
+  "portfolio": "https://github.com/Rupali1104",
+  "skills": ["Javascript", "HTML", "CSS", "Python", "C++", "Web Development", "Frontend", "Git", "GitHub", "MERN"],
+  "social": {
+    "GitHub": "https://github.com/Rupali1104",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/rupali-r"
+  }
+}

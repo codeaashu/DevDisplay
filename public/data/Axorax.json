@@ -1,0 +1,30 @@
+{
+  "name": "Aayan Abdullah",
+  "location": "Bangladesh",
+  "bio": "I like to do stuff.",
+  "avatar": "https://github.com/axorax.png",
+  "portfolio": "https://github.com/axorax",
+  "skills": [
+    "web development",
+    "UI/UX design",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "GraphQL",
+    "MongoDB",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN",
+    "Tailwind CSS",
+    "Sass",
+    "Bootstrap",
+    "Material-UI",
+    "Ant Design"
+  ],
+  "social": {
+    "GitHub": "https://github.com/axorax",
+    "Twitter": "https://twitter.com/axorax_",
+    "LinkedIn": "https://www.linkedin.com/in/axorax"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Achintya Srivastava",
+  "location": "Varanasi, India",
+  "bio": "Aspiring Software Developer",
+  "avatar": "https://github.com/your-github-username.png",
+  "portfolio": "https://github.com/achintyasrivastav",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "ReactJs",
+    "NodeJs",
+    "ExpressJs",
+    "MongoDB",
+    "ThreeJs",
+    "Web Development",
+    "Web Design",
+    "GitHub",
+    "Animations",
+    "Competitive Programming",
+    "DSA",
+    "Frontend",
+    "Git",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/achintyasrivastav",
+    "Twitter": "https://x.com/achintya__28",
+    "LinkedIn": "https://www.linkedin.com/in/achintya-srivastava777"
+  }
+}

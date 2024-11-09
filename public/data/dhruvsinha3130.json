@@ -1,0 +1,30 @@
+{
+  "name": "Deep Raj",
+  "location": "Patna, Bihar, India",
+  "bio": "YBCA Student | Aspiring Software Developer | Passionate About Web Development & Problem Solving",
+  "avatar": "https://github.com/dhruvsinha3130.png",
+  "portfolio": "https://deepraj31portfolio.netlify.app/",
+  "skills": [
+    "Python",
+    "Java",
+    "C++",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "React.js",
+    "Flutter",
+    "MySQL",
+    "MongoDB",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/dhruvsinha3130",
+    "Twitter": "https://x.com/Deep_Raj31/",
+    "LinkedIn": "https://www.linkedin.com/in/deep-raj-16514a284/"
+  }
+}

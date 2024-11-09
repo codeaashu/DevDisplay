@@ -1,0 +1,26 @@
+{
+  "name": "Shivansh Singh",
+  "location": "Lucknow, India",
+  "bio": "An aspiring web developer who is an undergrad and recently started exploring open source. Looking for some great opportunities in fullstack development.",
+  "avatar": "https://github.com/shivanshsin0203.png",
+  "portfolio": "https://github.com/shivanshsin0203",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Node",
+    "Bootstrap",
+    "Java",
+    "DSA",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/shivanshsin0203",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/shivansh-singh-736521289/"
+  }
+}

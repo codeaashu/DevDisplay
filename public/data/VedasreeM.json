@@ -1,0 +1,26 @@
+{
+  "name": "Vedasree M",
+  "location": "Kerala, India",
+  "bio": "Hi! I'm Vedasree M, a computer science enthusiast driven by curiosity and a love for programming. Excited to learn, grow, and connect with mentors and tech professionals!",
+  "avatar": "https://github.com/VedasreeM.png",
+  "portfolio": "https://github.com/VedasreeM",
+  "skills": [
+    "Java",
+    "DSA",
+    "Problem Solving",
+    "Git",
+    "GitHub",
+    "Data Structures",
+    "Time Complexity",
+    "Space Complexity",
+    "Object-Oriented Programming",
+    "Algorithms",
+    "C",
+    "VS Code"
+  ],
+  "social": {
+    "GitHub": "https://github.com/VedasreeM",
+    "Twitter": "https://x.com/Vedasree04",
+    "LinkedIn": "https://www.linkedin.com/in/vedasree-m/"
+  }
+}

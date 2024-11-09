@@ -1,0 +1,31 @@
+{
+  "name": "Aryan Mittal",
+  "location": "Yamunanagar, Haryana, India",
+  "bio": "Hi 👋, I'm Aryan, a dedicated web developer with a passion for coding, building applications, and exploring diverse creative endeavors.",
+  "avatar": "https://github.com/AryanMittal11.png",
+  "portfolio": "https://github.com/AryanMittal11",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Tailwind CSS",
+    "Web Development",
+    "Frontend",
+    "Java",
+    "Python",
+    "C++",
+    "Data Structures",
+    "Algorithms",
+    "UI/UX",
+    "Figma",
+    "Git",
+    "Github"
+  ],
+  "social": {
+    "GitHub": "https://github.com/AryanMittal11",
+    "Twitter": "https://x.com/Aryan_Mittal11",
+    "LinkedIn": "https://www.linkedin.com/in/mittal-aryan"
+  }
+}

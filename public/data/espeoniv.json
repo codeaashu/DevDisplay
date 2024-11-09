@@ -1,0 +1,25 @@
+{
+  "name": "EspeonIV",
+  "location": "East Coast",
+  "bio": "A React developer interested in learning new things to further my knowledge and career.",
+  "avatar": "https://github.com/espeoniv.png",
+  "portfolio": "https://github.com/EspeonIV",
+  "skills": [
+    "React.js",
+    "Javascript",
+    "Node.js",
+    "Web Development",
+    "Frontend",
+    "Backend",
+    "HTML",
+    "CSS",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/EspeonIV",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/coleman-scott-iv-a49a02136/"
+  }
+}

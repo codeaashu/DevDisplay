@@ -1,7 +1,7 @@
 {
   "name": "suksham",
   "location": "Delhi, India",
-  "bio": "I am a fullstack web developer currently pursuing a B.Tech in Computer Science and Engineering from ADGITM. I am in my 3rd year of college and have experience in various technologies, including MongoDB, Express.js, React.js, Node.js, Bootstrap, HTML, and CSS. I also have a strong understanding of data structures.",
+  "bio": "I am a fullstack web developer currently pursuing a B.Tech in Computer Science and Engineering from ADGITM. I am in my 3rd year of college and have experience in various technologies like mern. I also have a strong understanding of data structures.",
   "avatar": "https://github.com/suksham11.png",
   "portfolio": "https://github.com/suksham11",
   "skills": [
@@ -17,7 +17,9 @@
     "Bootstrap",
     "HTML",
     "CSS",
-    "JavaScript"
+    "JavaScript",
+    "Web Development",
+    "Frontend"
   ],
   "social": {
     "GitHub": "https://github.com/suksham11",

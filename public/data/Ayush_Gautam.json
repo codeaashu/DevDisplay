@@ -1,0 +1,28 @@
+{
+  "name": "Ayush Gautam",
+  "location": "Jabalpur, Madhya Pradesh",
+  "bio": "Brijesh Thummar is a Computer Science student focusing on Quant Development. He is skilled in C, Java, Rust, and Swift, with a passion for problem-solving, open-source contributions, and developing innovative software solutions.",
+  "avatar": "https://github.com/Ayushgautam16.png",
+  "portfolio": "https://github.com/Ayushgautam16",
+  "skills": [
+    "HTML",
+    "CSS",
+    "Java",
+    "JavaScript",
+    "Rust",
+    "MySql",
+    "Apache Maven",
+    "Figma",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN",
+    "Backend"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Ayushgautam16",
+    "Twitter": "https://x.com/Ayush91407",
+    "LinkedIn": "https://www.linkedin.com/in/ayush-gautam-9baa14248/"
+  }
+}
