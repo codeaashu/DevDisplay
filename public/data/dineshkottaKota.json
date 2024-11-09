@@ -1,0 +1,33 @@
+{
+  "name": "Dinesh Kottakota",
+  "location": "Amaravati",
+  "bio": "Dinesh Kottakota: Final-year SRM student, MERN stack developer, AI/ML enthusiast, Kaggle Expert, MongoDB-certified, skilled in data science and analytics, with experience in deep learning and computer vision.",
+  "avatar": "https://github.com/dineshkottaKota.png",
+  "portfolio": "https://github.com/dineshkottaKota",
+  "skills": [
+    "MERN Stack Development",
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Redux",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "Machine Learning",
+    "Data Analytics",
+    "Computer Vision",
+    "Deep Learning",
+    "TensorFlow",
+    "AI Model Evaluation"
+  ],
+  "social": {
+    "GitHub": "https://github.com/dineshkottaKota",
+    "Twitter": "https://github.com/dineshkottaKota",
+    "LinkedIn": "https://www.linkedin.com/in/dinesh-kottakota/"
+  }
+}
