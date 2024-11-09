@@ -82,18 +82,6 @@ function Sidebar() {
         >
           Unlock the Power of DevDisplay
         </button>
-        <a
-          href="https://www.producthunt.com/posts/devdisplay?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-devdisplay"
-          target="_blank"
-        >
-          <img
-            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=594879&theme=dark"
-            alt="DevDisplay - Global&#0032;open&#0032;source&#0032;tech&#0032;platform | Product Hunt"
-            style="width: 250px; height: 54px;"
-            width="250"
-            height="54"
-          />
-        </a>
       </div>
     </div>
   );
