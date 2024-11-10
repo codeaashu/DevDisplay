@@ -6,7 +6,7 @@ import Home from './Page/Home.jsx';
 import Opportunities from './Page/Opportunities.jsx';
 import IdeaSubmission from './Page/IdeaSubmission.jsx';
 import PortfolioBuilder from './Page/PortfolioBuilder.jsx';
-import Projects from './Page/Projects.jsx';
+import ProjectShowcase from './Page/ProjectShowcase.jsx';
 import ResumeBuilder from './Page/ResumeBuilder.jsx';
 import Resources from './Page/Resources.jsx';
 import Discussions from './Page/Discussions.jsx';
@@ -15,7 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <Helmet>
-        <title>DevDisplay - Global Open Source Tech Platform</title>
+        <title>DevDisplay - Global Tech Hub</title>
         <meta
           name="description"
           content="DevDisplay brings together all your tech needs in one place. Showcase your skills, connect globally, collaborate, build and promote."
@@ -27,7 +27,7 @@ function App() {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta property="og:title" content="DevDisplay - Global Open Source Tech Platform" />
+        <meta property="og:title" content="DevDisplay - Global Tech Hub" />
         <meta
           property="og:description"
           content="Join DevDisplay to Showcase your skills, connect globally, collaborate, build and promote."
@@ -38,7 +38,7 @@ function App() {
         <meta property="og:site_name" content="DevDisplay" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="DevDisplay - Global Open Source Tech Platform" />
+        <meta name="twitter:title" content="DevDisplay - Global Tech Hub" />
         <meta
           name="twitter:description"
           content="Showcase your skills, connect globally, collaborate, build and promote."
@@ -50,8 +50,8 @@ function App() {
 
         <link rel="canonical" href="https://www.devdisplay.org" />
 
-        <link rel="icon" href="/devDisplayLOGO.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/DevDisplay ICON.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/DevDisplay ICON.png" />
 
         <meta name="theme-color" content="#317EFB" />
 
@@ -66,7 +66,7 @@ function App() {
         <Route path="/Opportunities" element={<Opportunities />} />
         <Route path="/IdeaSubmission" element={<IdeaSubmission />} />
         <Route path="/PortfolioBuilder" element={<PortfolioBuilder />} />
-        <Route path="/Projects" element={<Projects />} />
+        <Route path="/ProjectShowcase" element={<ProjectShowcase />} />
         <Route path="/ResumeBuilder" element={<ResumeBuilder />} />
         <Route path="/Resources" element={<Resources />} />
         <Route path="/Discussions" element={<Discussions />} />
