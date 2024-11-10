@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Briefcase, BookOpen, Code, Lightbulb, MessageCircle, User, FileText } from 'lucide-react';
+import { Briefcase, BookOpen, Code, Lightbulb, MessageCircle, User, FileText } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Globe from '../components/Globe';
 
@@ -127,7 +127,7 @@ const TechFeatures = () => {
   );
 };
 
-const TechDisplay = () => {
+const Home = () => {
   return (
     <div className="background-wrapper bg-gray-400">
       <Navbar />
