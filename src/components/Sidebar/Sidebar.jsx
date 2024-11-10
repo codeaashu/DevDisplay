@@ -80,7 +80,7 @@ function Sidebar() {
           onClick={handleTechDisplay}
           className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
         >
-          Unlock the Power of DevDisplay
+          Click here to contribute on DevDisplay
         </button>
       </div>
       <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
