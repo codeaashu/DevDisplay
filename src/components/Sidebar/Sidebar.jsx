@@ -1,8 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
+
+const TARGET_TEXT = 'Click here to contribute on DevDisplay';
+const CYCLES_PER_LETTER = 2;
+const SHUFFLE_TIME = 50;
+const CHARS = '!@#$%^&*():{};|,.<>/?';
 
 function Sidebar() {
   const navigate = useNavigate();
@@ -25,6 +31,40 @@ function Sidebar() {
   function handleTechDisplay() {
     navigate('/TechDisplay');
   }
+
+  const intervalRef = useRef(null);
+  const [text, setText] = useState(TARGET_TEXT);
+
+  const scramble = () => {
+    let pos = 0;
+
+    intervalRef.current = setInterval(() => {
+      const scrambled = TARGET_TEXT.split('')
+        .map((char, index) => {
+          if (pos / CYCLES_PER_LETTER > index) {
+            return char;
+          }
+
+          const randomCharIndex = Math.floor(Math.random() * CHARS.length);
+          const randomChar = CHARS[randomCharIndex];
+
+          return randomChar;
+        })
+        .join('');
+
+      setText(scrambled);
+      pos++;
+
+      if (pos >= TARGET_TEXT.length * CYCLES_PER_LETTER) {
+        stopScramble();
+      }
+    }, SHUFFLE_TIME);
+  };
+
+  const stopScramble = () => {
+    clearInterval(intervalRef.current || undefined);
+    setText(TARGET_TEXT);
+  };
 
   return (
     <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%] md:px-2 lg:px-7">
@@ -76,12 +116,37 @@ function Sidebar() {
         </a>
       </div>
       <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
-        <button
+        <motion.button
+          whileHover={{
+            scale: 1.025,
+          }}
+          whileTap={{
+            scale: 0.975,
+          }}
+          onMouseEnter={scramble}
+          onMouseLeave={stopScramble}
           onClick={handleTechDisplay}
-          className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+          className="group relative overflow-hidden rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
         >
-          Click here to contribute on DevDisplay
-        </button>
+          <div className="relative z-10 flex items-center gap-2">
+            <span>Unlock The Power Of DevDisplay</span>
+          </div>
+          <motion.span
+            initial={{
+              y: '100%',
+            }}
+            animate={{
+              y: '-100%',
+            }}
+            transition={{
+              repeat: Infinity,
+              repeatType: 'mirror',
+              duration: 1,
+              ease: 'linear',
+            }}
+            className="absolute inset-0 z-0 scale-125 bg-gradient-to-t from-indigo-400/0 from-40% via-indigo-400/100 to-indigo-400/0 to-60% opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          />
+        </motion.button>
       </div>
       <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
         <a
