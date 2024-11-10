@@ -7,12 +7,11 @@ const ProjectsPage = () => {
         <h1 className="text-2xl font-bold">
           This is the Project Showcase page - Want to Build this page as a contributer
         </h1>
-        <h1 className="text-2xl font-bold"></h1>
       </header>
       <h1 className="text-2xl font-bold">Features</h1>
       <h1>
         Add a features in this page where developer can showcase their project - Develoepr first add their project
-        through the open source contribution and then the project are showcasing in this page{' '}
+        through the open source contribution and then the project are showcasing here
       </h1>
       <hr />
       <h1>

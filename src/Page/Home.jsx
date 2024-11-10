@@ -65,7 +65,7 @@ const TechFeatures = () => {
         </a>
 
         <a
-          href="/tech-discussion"
+          href="/Discussions"
           className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
           <div className="border border-transparent transition duration-300 hover:border-blue-500">
