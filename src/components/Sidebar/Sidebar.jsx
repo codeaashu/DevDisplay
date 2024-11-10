@@ -22,8 +22,8 @@ function Sidebar() {
     setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
   }
 
-  function handleTechDisplay() {
-    navigate('/TechDisplay');
+  function handleHome() {
+    navigate('/Home');
   }
 
   return (
@@ -77,7 +77,7 @@ function Sidebar() {
       </div>
       <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
         <button
-          onClick={handleTechDisplay}
+          onClick={handleHome}
           className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
         >
           Unlock the Power of DevDisplay
