@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
         {/* Logo */}
         <div className="text-2xl font-bold">
-          <img src="./devDisplayLOGO.png" alt="DevDisplay" className="h-16 w-16" />
+          <img src="./DevDisplay ICON.png" alt="DevDisplay" className="h-16 w-16" />
         </div>
 
         {/* Links for larger screens */}
