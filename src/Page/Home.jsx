@@ -33,51 +33,97 @@ const TechFeatures = () => {
       </div>
 
       {/* Grid Layout for Features */}
-      <div className="grid grid-cols-1 gap-6 text-center md:grid-cols-2  lg:grid-cols-4">
-        <div className="feature-card rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:bg-gray-700">
-          <h3 className="mb-4 text-2xl font-semibold">Opportunities</h3>
-          <p>Explore various career and learning opportunities in the tech industry.</p>
-        </div>
+      <div className="grid grid-cols-1 gap-6 text-center md:grid-cols-2 lg:grid-cols-4">
+        <a
+          href="/opportunities"
+          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="border border-transparent transition duration-300 hover:border-blue-500">
+            <h3 className="mb-4 text-2xl font-semibold">Opportunities</h3>
+            <p>Explore various career and learning opportunities in the tech industry.</p>
+          </div>
+        </a>
 
-        <div className="feature-card rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:bg-gray-700">
-          <h3 className="mb-4 text-2xl font-semibold">Resources</h3>
-          <p>Access a wide range of learning resources, tools, and libraries to boost your skills.</p>
-        </div>
+        <a
+          href="/resources"
+          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="border border-transparent transition duration-300 hover:border-blue-500">
+            <h3 className="mb-4 text-2xl font-semibold">Resources</h3>
+            <p>Access a wide range of learning resources, tools, and libraries to boost your skills.</p>
+          </div>
+        </a>
 
-        <div className="feature-card rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:bg-gray-700">
-          <h3 className="mb-4 text-2xl font-semibold">Project Showcase</h3>
-          <p>Showcase your projects, get feedback, and inspire others to collaborate.</p>
-        </div>
+        <a
+          href="/project-showcase"
+          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="border border-transparent transition duration-300 hover:border-blue-500">
+            <h3 className="mb-4 text-2xl font-semibold">Project Showcase</h3>
+            <p>Showcase your projects, get feedback, and inspire others to collaborate.</p>
+          </div>
+        </a>
 
-        <div className="feature-card rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:bg-gray-700">
-          <h3 className="mb-4 text-2xl font-semibold">Tech Discussion</h3>
-          <p>Engage in tech discussions, share ideas, and stay updated on the latest trends.</p>
-        </div>
+        <a
+          href="/tech-discussion"
+          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="border border-transparent transition duration-300 hover:border-blue-500">
+            <h3 className="mb-4 text-2xl font-semibold">Tech Discussion</h3>
+            <p>Engage in tech discussions, share ideas, and stay updated on the latest trends.</p>
+          </div>
+        </a>
 
-        <div className="feature-card rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:bg-gray-700">
-          <h3 className="mb-4 text-2xl font-semibold">Ideas Submission</h3>
-          <p>Submit your innovative ideas, get feedback, and explore collaborations.</p>
-        </div>
+        <a
+          href="/ideas-submission"
+          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="border border-transparent transition duration-300 hover:border-blue-500">
+            <h3 className="mb-4 text-2xl font-semibold">Ideas Submission</h3>
+            <p>Submit your innovative ideas, get feedback, and explore collaborations.</p>
+          </div>
+        </a>
 
-        <div className="feature-card rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:bg-gray-700">
-          <h3 className="mb-4 text-2xl font-semibold">Portfolio Ideas</h3>
-          <p>Get inspired with creative ideas to enhance your portfolio and make an impact.</p>
-        </div>
+        <a
+          href="/portfolio-ideas"
+          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="border border-transparent transition duration-300 hover:border-blue-500">
+            <h3 className="mb-4 text-2xl font-semibold">Portfolio Ideas</h3>
+            <p>Get inspired with creative ideas to enhance your portfolio and make an impact.</p>
+          </div>
+        </a>
 
-        <div className="feature-card rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:bg-gray-700">
-          <h3 className="mb-4 text-2xl font-semibold">Portfolio Building</h3>
-          <p>Learn the best practices to build a standout portfolio that impresses recruiters.</p>
-        </div>
+        <a
+          href="/portfolio-building"
+          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="border border-transparent transition duration-300 hover:border-blue-500">
+            <h3 className="mb-4 text-2xl font-semibold">Portfolio Building</h3>
+            <p>Learn the best practices to build a standout portfolio that impresses recruiters.</p>
+          </div>
+        </a>
 
-        <div className="feature-card rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:bg-gray-700">
-          <h3 className="mb-4 text-2xl font-semibold">Resume Building</h3>
-          <p>Create a professional resume with tips and templates tailored to the tech industry.</p>
-        </div>
+        <a
+          href="/resume-building"
+          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="border border-transparent transition duration-300 hover:border-blue-500">
+            <h3 className="mb-4 text-2xl font-semibold">Resume Building</h3>
+            <p>Create a professional resume with tips and templates tailored to the tech industry.</p>
+          </div>
+        </a>
       </div>
-      <div className="feature-card mt-6 rounded-lg bg-gray-800 p-6 text-center shadow-lg transition duration-300 hover:bg-gray-700">
-        <h3 className="mb-4 text-2xl font-semibold">Want to Add Features?</h3>
-        <p>Suggest new features you'd love to see and help shape the tech community.</p>
-      </div>
+
+      <a
+        href="/add-features"
+        className="feature-card mt-6 block rounded-lg bg-gray-800 p-6 text-center shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+      >
+        <div className="border border-transparent transition duration-300 hover:border-blue-500">
+          <h3 className="mb-4 text-2xl font-semibold">Want to Add Features?</h3>
+          <p>Suggest new features you'd love to see and help shape the tech community.</p>
+        </div>
+      </a>
     </section>
   );
 };
