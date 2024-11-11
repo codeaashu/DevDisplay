@@ -60,7 +60,7 @@ const Hero = () => {
         </h2>
         <p className="text-md md:text-md mx-auto my-8 max-w-2xl">Global platform that fulfills all your tech needs</p>
       </div>
-      <div className="relative -top-20 left-20 flex h-[400px] w-full max-w-[600px] items-center justify-center md:h-[500px] lg:h-[600px]">
+      <div className="relative flex h-fit w-full max-w-[600px] items-center justify-center overflow-visible md:-top-20 md:left-20 md:h-[500px] lg:h-[600px]">
         <Globe />
       </div>
     </section>
