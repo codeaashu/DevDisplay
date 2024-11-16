@@ -1,10 +1,24 @@
 {
   "name": "Riddhi Rustagi",
   "location": "Delhi, India",
-  "bio": "I’m a passionate Computer Science Engineering student at Indira Gandhi Delhi Technical University for Women (IGDTUW), actively exploring and contributing to the world of web development, open-source, and problem-solving.",
+  "bio": "I'm a passionate Computer Science Engineering student at Indira Gandhi Delhi Technical University for Women (IGDTUW), actively exploring and contributing to the world of web development, open-source, and problem-solving.",
   "avatar": "https://github.com/Riddhi050803.png",
   "portfolio": "https://riddhirustagiportfolio-riddhi050803s-projects.vercel.app/",
-  "skills": ["HTML", "CSS", "JavaScript","Bootstrap", "Tailwind", "React js", "Redux", "Mongo DB", "Express js", "Node js", "UI/UX"],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Bootstrap",
+    "Tailwind",
+    "React js",
+    "Redux",
+    "Mongo DB",
+    "Express js",
+    "Node js",
+    "UI/UX",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/Riddhi050803",
     "Twitter": "https://twitter.com/RiddhiRustagii",
