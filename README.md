@@ -10,16 +10,65 @@
 <a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0382.gif" border="0" alt="animated-line-image-0382" /></a>
 
   <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="25" height="25" /> Welcome to DevDisplay <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="25" height="25" /></h1>
-  <a href="https://devdisplay.vercel.app/"><img src="./public/devDisplayLOGO.png" width="100px" /></a><br>
+  <a href="https://www.devdisplay.org/"><img src="./public/devDisplayLOGO.png" width="100px" /></a><br>
   <br><a href="https://github.com/codeaashu/DevDisplay/issues/111"><strong>DevDisplay is a part of Hacktoberfest2024 - GSSoC'2024</strong></a>
   <h2 align="center">   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Eyes.webp" alt="Eyes" width="25" height="25" /> Discover     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Raising%20Hands.webp" alt="Raising Hands" width="25" height="25" /> Connect     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Handshake.webp" alt="Handshake" width="25" height="25" /> Collab     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Technologist.webp" alt="Technologist" width="25" height="25" /> Build     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Megaphone.webp" alt="Megaphone" width="25" height="25" /> Promote   </h2>
 <a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0382.gif" border="0" alt="animated-line-image-0382" /></a>
 
 <h1 align="center">About <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /></h1>
-DevDisplay is an Open Source Developer Community where you can discover and Connect with Skilled Developers, share your ideas, and build projects with collaborative support also you can promote your project through this community. With DevDisplay, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.<br><br>
+DevDisplay is a global open source community platform that brings together all your tech needs in one place.<br><br>
 
 Connect with DevDisplay Community on <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /> [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/devdisplay/)<br>
 <br><a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0382.gif" border="0" alt="animated-line-image-0382" /></a></div>
+
+## Featured In
+
+<table>
+
+   <tr>
+      <th>Program Logo</th>
+      <th>Program Name</th>
+      <th>Program Description</th>
+   </tr>
+   <tr>
+      <td><img src="./public/assets/FeaturedIn/GSSOC.png" width="200" height="auto" loading="lazy" alt="GSSoC 24"/></td>
+      <td><a href="https://gssoc.girlscript.tech/">GirlScript Summer of Code</a></td>
+      <td>GirlScript Summer of Code is a three-month-long Open Source Program conducted every summer by GirlScript Foundation. It is an initiative to bring more beginners to Open-Source Software Development.</td>
+   </tr>
+   <tr>
+      <td><img src="./public/assets/FeaturedIn/SWOC.jpg" width="200" height="auto" loading="lazy" alt="swoc"/></td>
+      <td><a href="https://www.socialwinterofcode.com/">Social Winter of Code</a></td>
+      <td>Social Winter Of Code is the 2 month long open source program by Social India , with the aim to introduce more and more people to the world of Open source.</td>
+   </tr>
+   <tr>
+      <td><img src="./public/assets/FeaturedIn/ieeeIGDTUW.jpg" width="200" height="auto" loading="lazy" alt="IEEE IGDTUW"/></td>
+      <td><a href="https://ieee-igdtuw.github.io/IEEE-IGDTUW-Official-Website/">IEEE IGDTUW Open Source Week</a></td>
+      <td>IEEE IGDTUW Open Source Week is a week-long event aimed at fostering collaboration and skill-building in open-source. Participants can work on impactful projects, learn version control, and gain real-world experience while contributing to open-source communities.</td>
+    </tr>
+    <tr>
+      <td><img src="./public/assets/FeaturedIn/HACKTOBERFEST.jpg" width="200" height="auto" loading="lazy" alt="Hacktoberfest"/></td>
+      <td><a href="https://hacktoberfest.com/">Hacktoberfest</a></td>
+      <td>Hacktoberfest is a month-long virtual event that celebrates open-source software and encourages people to contribute to open-source projects</td>
+   </tr>
+   <tr>
+      <td><img src="./public/assets/FeaturedIn/TublianOS.jpg" width="200" height="auto" loading="lazy" alt="tublian"/></td>
+      <td><a href="https://www.tublian.com/internship">Tublian</a></td>
+      <td>Tublian open source internship program lets software developers get real open source experience by collaborating with major open source projects.</td>
+   </tr>
+   <tr>
+      <td><img src="./public/assets/FeaturedIn/iwoc.png" width="200" height="auto" loading="lazy" alt="iwoc"/></td>
+      <td><a href="https://iwoc.codes/">Innogeeks Winter of Code</a></td>
+      <td>Innogeeks Winter of Code is a month-long open-source program envisioned by the Innogeeks. It is an online initiative that introduces new contributors to open-source software development.</td>
+   </tr>
+      <tr>
+      <td><img src="./public/assets/FeaturedIn/KWOC.jpg" width="200" height="auto" loading="lazy" alt="kwoc"/></td>
+      <td><a href="https://kwoc.kossiitkgp.org/">Kharagpur Winter of Code</a></td>
+      <td>Kharagpur Winter of Code is a 5-week long online program for students who are new to open source software development. The program not only helps students to get involved in open source, but also prepares them for many open source summer programs.</td>
+   </tr>
+
+</table>
+
+<hr>
 
 <h1 align="center">How to add your profile <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thinking%20Face.png" alt="Thinking Face" width="25" height="25" /></h1>
 <h3 align="center">Thank you for your interest in contributing to our open-source project!<br><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /><a href="https://youtu.be/fgqQqdY9Cno" target="_blank"><strong> Get help with video instruction</strong></a></h3>

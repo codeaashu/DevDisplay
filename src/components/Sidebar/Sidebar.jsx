@@ -30,8 +30,8 @@ function Sidebar() {
     setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
   }
 
-  function handleOpportunities() {
-    navigate('/opportunities');
+  function handleHome() {
+    navigate('/Home');
   }
 
   return (
@@ -40,7 +40,7 @@ function Sidebar() {
         <div className="text-secondaryColor dark:text-white">
           <FontAwesomeIcon icon={faCode} size="2xl" />
         </div>
-        <a href="https://devdisplay.vercel.app/">
+        <a href="https://www.devdisplay.org/">
           <div
             className="flex  text-[2rem] font-bold
            md:text-[1.05rem] lg:text-[1.25rem] min-[1200px]:text-[1.75rem]  "
@@ -64,8 +64,7 @@ function Sidebar() {
         </div>
       </div>
       <div className="text-secondaryColor dark:text-white">
-        Open Source community where you can discover, connect, collab with skilled developers, share your ideas then
-        build projects and also promote the project through this community.
+        A global open source community platform that brings together all your tech needs in one place.
       </div>
       <div className="flex flex-wrap items-center justify-center gap-2 pt-5 ">
         <a
@@ -73,11 +72,7 @@ function Sidebar() {
           target="_blank"
           rel="noreferrer"
         >
-          <button
-            className="
-
-          inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
-          >
+          <button className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
             Add your profile
           </button>
         </a>
@@ -89,17 +84,27 @@ function Sidebar() {
         </a>
       </div>
       <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
-        <a href="https://ai.google.dev/competition/projects/helpmate-ai" target="_blank" rel="noreferrer">
-          <button className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-            Spotlight
-          </button>
-        </a>
         <button
-          onClick={handleOpportunities}
+          onClick={handleHome}
           className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
         >
-          Opportunities Hub
+          Unlock the Power of DevDisplay
         </button>
+      </div>
+      <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
+        <a
+          href="https://www.producthunt.com/posts/devdisplay?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-devdisplay"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=594879&theme=dark"
+            alt="DevDisplay - Global open source tech platform | Product Hunt"
+            style={{ width: '250px', height: '54px' }}
+            width="250"
+            height="54"
+          />
+        </a>
       </div>
     </div>
   );

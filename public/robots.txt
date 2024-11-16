@@ -1,3 +1,5 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /private
+Allow: /
+
+Sitemap: https://www.devdisplay.org/sitemap.xml

@@ -1,0 +1,13 @@
+{
+  "name": "Saumya Yadav",
+  "location": "Delhi, India",
+  "bio": "Open-source enthusiast with a passion for contributing to community-driven projects. Skilled in web development, machine learning, and C++. IGDTUW'27 CSE-AI",
+  "avatar": "https://github.com/saumyayadav25.png",
+  "portfolio": "https://github.com/saumyayadav25",
+  "skills": ["CPP", "Machine Learning", "HTML", "CSS", "JavaScript", "DSA", "GitHub", "Frontend", "Git"],
+  "social": {
+    "GitHub": "https://github.com/saumyayadav25",
+    "Twitter": "https://twitter.com/SaumyaYadav817",
+    "LinkedIn": "https://www.linkedin.com/in/saumya-yadav-"
+  }
+}
