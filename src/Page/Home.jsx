@@ -45,7 +45,7 @@ const TechFeatures = () => {
         </a>
 
         <a
-          href="/resources"
+          href="/Resources"
           className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
           <div className="border border-transparent transition duration-300 hover:border-blue-500">
@@ -75,7 +75,7 @@ const TechFeatures = () => {
         </a>
 
         <a
-          href="/ideas-submission"
+          href="/IdeaSubmission"
           className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
           <div className="border border-transparent transition duration-300 hover:border-blue-500">
@@ -85,7 +85,7 @@ const TechFeatures = () => {
         </a>
 
         <a
-          href="/portfolio-ideas"
+          href="/PortfolioIdeas"
           className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
           <div className="border border-transparent transition duration-300 hover:border-blue-500">
@@ -95,7 +95,7 @@ const TechFeatures = () => {
         </a>
 
         <a
-          href="/portfolio-building"
+          href="/PortfolioBuilder"
           className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
           <div className="border border-transparent transition duration-300 hover:border-blue-500">
@@ -105,7 +105,7 @@ const TechFeatures = () => {
         </a>
 
         <a
-          href="/resume-building"
+          href="/ResumeBuilder"
           className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
           <div className="border border-transparent transition duration-300 hover:border-blue-500">
@@ -116,11 +116,11 @@ const TechFeatures = () => {
       </div>
 
       <a
-        href="/add-features"
+        href="/https://github.com/codeaashu/DevDisplay"
         className="feature-card mt-6 block rounded-lg bg-gray-800 p-6 text-center shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
       >
         <div className="border border-transparent transition duration-300 hover:border-blue-500">
-          <h3 className="mb-4 text-2xl font-semibold">Want to Add Features?</h3>
+          <h3 className="mb-4 text-2xl font-semibold">Want to Add New Features?</h3>
           <p>Suggest new features you'd love to see and help shape the tech community.</p>
         </div>
       </a>

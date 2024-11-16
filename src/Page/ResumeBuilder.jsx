@@ -4,35 +4,18 @@ const ResumeBuilderPage = () => {
   return (
     <div className="min-h-screen bg-gray-100 p-4">
       <header className="bg-blue-600 p-4 text-white">
-        <h1 className="text-2xl font-bold">Resume Builder</h1>
+        <h1 className="text-2xl font-bold">
+          This is the Resume Building page - Want to Build this page as a contributer
+        </h1>
       </header>
-      <main className="mt-4">
-        <form className="rounded-lg bg-white p-4 shadow">
-          <div className="mb-4">
-            <label className="mb-2 block text-sm font-bold">Personal Details</label>
-            <input type="text" className="w-full rounded-lg border p-2" />
-          </div>
-          <div className="mb-4">
-            <label className="mb-2 block text-sm font-bold">Skills</label>
-            <input type="text" className="w-full rounded-lg border p-2" />
-          </div>
-          <div className="mb-4">
-            <label className="mb-2 block text-sm font-bold">Experience</label>
-            <input type="text" className="w-full rounded-lg border p-2" />
-          </div>
-          <div className="mb-4">
-            <label className="mb-2 block text-sm font-bold">Education</label>
-            <input type="text" className="w-full rounded-lg border p-2" />
-          </div>
-          <button type="submit" className="rounded-lg bg-blue-500 px-4 py-2">
-            Download PDF
-          </button>
-        </form>
-        <section className="mt-8">
-          <h2 className="text-xl font-bold">Template Selection</h2>
-          {/* Add template selection here */}
-        </section>
-      </main>
+      <h1 className="text-2xl font-bold">Features</h1>
+      <h1>
+        Add a Resume builder where resume template is already available user just fill the info and resume will be ready
+      </h1>
+      <hr />
+      <h1 className="text-2xl font-bold">Take help by this 👇🏻</h1>
+      <h1>Resume building inspiration 1--- https://github.com/codeaashu/Resume-Builder</h1>
+      <h1>Resume building inspiration 2 --- https://github.com/DeveloperAshish8/rezume</h1>
     </div>
   );
 };
