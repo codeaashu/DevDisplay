@@ -15,7 +15,7 @@ const Hero = () => {
         </h2>
         <p className="text-md md:text-md mx-auto my-8 max-w-2xl">Global platform that fulfills all your tech needs</p>
       </div>
-      <div className="relative -top-20 left-20 flex h-[400px] w-full max-w-[600px] items-center justify-center md:h-[500px] lg:h-[600px]">
+      <div className="relative -top-10 left-16 flex h-[400px] w-full max-w-[600px] items-center justify-center md:h-[500px] lg:h-[600px]">
         <Globe />
       </div>
     </section>
@@ -120,7 +120,9 @@ const TechFeatures = () => {
         className="feature-card mt-6 block rounded-lg bg-gray-800 p-6 text-center shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
       >
         <div className="border border-transparent transition duration-300 hover:border-blue-500">
-          <h3 className="mb-4 text-2xl font-semibold">Want to Add New Features?</h3>
+          <h3 className="mb-4 text-2xl font-semibold">
+            Want to <span className="text-blue-400">Add New Features</span> ?
+          </h3>
           <p>Suggest new features you'd love to see and help shape the tech community.</p>
         </div>
       </a>

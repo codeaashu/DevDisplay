@@ -3,12 +3,12 @@ import createGlobe from 'cobe';
 
 function Globe() {
   const canvasRef = useRef();
-  const [globeSize, setGlobeSize] = useState(window.innerWidth < 500 ? window.innerWidth : 500);
+  const [globeSize, setGlobeSize] = useState(window.innerWidth < 550 ? 300 : 500);
 
   useEffect(() => {
     // Adjust globe size on screen resize
     const handleResize = () => {
-      setGlobeSize(window.innerWidth < 500 ? window.innerWidth : 500);
+      setGlobeSize(window.innerWidth < 550 ? 300 : 500);
     };
 
     handleResize();
@@ -49,15 +49,16 @@ function Globe() {
   }, [window.innerWidth]);
 
   return (
-    <div style={{ width: '100%', height: '100%' }}>
+    <div style={{ width: '100%', height: '100%' }} className="mt-10">
       <canvas
         ref={canvasRef}
         style={{
-          width: '100%', // Make canvas responsive
-          height: '100%', // Make canvas responsive
+          width: globeSize, // Make canvas responsive
+          height: 'auto', // Make canvas responsive
           maxWidth: '100%',
           aspectRatio: 1,
         }}
+        className="overflow-visible"
       />
     </div>
   );
