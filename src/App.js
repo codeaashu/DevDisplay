@@ -5,6 +5,7 @@ import Homepage from './Homepage';
 import Home from './Page/Home.jsx';
 import Opportunities from './Page/Opportunities.jsx';
 import IdeaSubmission from './Page/IdeaSubmission.jsx';
+import PortfolioIdeas from './Page/PortfolioIdeas.jsx';
 import PortfolioBuilder from './Page/PortfolioBuilder.jsx';
 import ProjectShowcase from './Page/ProjectShowcase.jsx';
 import ResumeBuilder from './Page/ResumeBuilder.jsx';
@@ -65,6 +66,7 @@ function App() {
         <Route path="/Home" element={<Home />} />
         <Route path="/Opportunities" element={<Opportunities />} />
         <Route path="/IdeaSubmission" element={<IdeaSubmission />} />
+        <Route path="/PortfolioIdeas" element={<PortfolioIdeas />} />
         <Route path="/PortfolioBuilder" element={<PortfolioBuilder />} />
         <Route path="/ProjectShowcase" element={<ProjectShowcase />} />
         <Route path="/ResumeBuilder" element={<ResumeBuilder />} />
