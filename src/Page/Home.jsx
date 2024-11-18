@@ -130,12 +130,56 @@ const TechFeatures = () => {
   );
 };
 
+const supporters = [
+  { name: 'Digital Ocean', logo: '/assets/SupportedBy/DigitalOcean.png' },
+  { name: 'Git Book', logo: '/assets/SupportedBy/GitBookLight_1.png' },
+  { name: 'Melt CD', logo: '/assets/SupportedBy/meltcd.png' },
+  { name: 'Microsoft for Startups', logo: '/assets/SupportedBy/MicrosoftForStartups.png' },
+  { name: 'MSME', logo: '/assets/SupportedBy/MSME.png' },
+  { name: 'Notion', logo: '/assets/SupportedBy/Notion.png' },
+  { name: 'Peerlist', logo: '/assets/SupportedBy/Peerlist.png' },
+  { name: 'Product Hunt', logo: '/assets/SupportedBy/ProductHunt.png' },
+  { name: 'Vercel', logo: '/assets/SupportedBy/Vercel.png' },
+];
+
+const SupportedBy = () => {
+  return (
+    <div className="my-10 py-10">
+      <h2 className="my-10 text-center text-4xl font-bold text-[#00a6fb]">Supported By</h2>
+
+      <div className="relative mx-auto flex max-w-[99vw] overflow-x-hidden">
+        {/* First Marquee */}
+        <div className="animate-marquee flex space-x-8">
+          {supporters.map((sponsor, index) => (
+            <div key={index} className="flex h-[100px] w-[200px] flex-shrink-0 items-center justify-center">
+              <img src={sponsor.logo} alt={sponsor.name} className="h-full w-auto object-contain" />
+            </div>
+          ))}
+        </div>
+
+        {/* Second Marquee */}
+        <div className="animate-marquee2 absolute top-0 flex space-x-8">
+          {supporters.map((sponsor, index) => (
+            <div
+              key={index + supporters.length}
+              className="flex h-[100px] w-[200px] flex-shrink-0 items-center justify-center"
+            >
+              <img src={sponsor.logo} alt={sponsor.name} className="h-full w-auto object-contain" />
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const Home = () => {
   return (
     <div className="background-wrapper bg-gray-400">
       <Navbar />
       <Hero />
       <TechFeatures />
+      <SupportedBy />
     </div>
   );
 };
