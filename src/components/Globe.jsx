@@ -1,8 +1,18 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import createGlobe from 'cobe';
 
 function Globe() {
   const canvasRef = useRef();
+  const [globeSize, setGlobeSize] = useState(window.innerWidth < 550 ? 300 : 500);
+
+  useEffect(() => {
+    // Adjust globe size on screen resize
+    const handleResize = () => {
+      setGlobeSize(window.innerWidth < 550 ? 300 : 500);
+    };
+
+    handleResize();
+  }, [window.innerWidth]);
 
   useEffect(() => {
     let phi = 0;
@@ -10,8 +20,8 @@ function Globe() {
     // Initialize the globe with the canvas ref
     const globe = createGlobe(canvasRef.current, {
       devicePixelRatio: 1,
-      width: 500, // Double the resolution for better quality
-      height: 500, // Double the resolution for better quality
+      width: globeSize, // Double the resolution for better quality
+      height: globeSize, // Double the resolution for better quality
       phi: 0,
       theta: 0,
       dark: 1,
@@ -36,18 +46,19 @@ function Globe() {
     return () => {
       globe.destroy();
     };
-  }, []);
+  }, [window.innerWidth]);
 
   return (
-    <div style={{ width: '100%', height: '100%' }}>
+    <div style={{ width: '100%', height: '100%' }} className="mt-10">
       <canvas
         ref={canvasRef}
         style={{
-          width: '100%', // Make canvas responsive
-          height: '100%', // Make canvas responsive
+          width: globeSize, // Make canvas responsive
+          height: 'auto', // Make canvas responsive
           maxWidth: '100%',
           aspectRatio: 1,
         }}
+        className="overflow-visible"
       />
     </div>
   );
