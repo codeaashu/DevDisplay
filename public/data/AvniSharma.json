@@ -2,7 +2,7 @@
   "name": "Avni Sharma",
   "location": "Jaipur",
   "bio": "Fullstack Developer",
-  "avatar": "https://avatars.githubusercontent.com/u/176400523?v=4",
+  "avatar": "https://github.com/AVNI-THEEXPLORER.png",
   "portfolio": "https://github.com/AVNI-THEEXPLORER",
   "skills": [
     "Reactjs",
@@ -16,11 +16,16 @@
     "JavaScript",
     "C",
     "CSS",
-    "HTML"
+    "HTML",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
   ],
   "social": {
     "GitHub": "https://github.com/AVNI-THEEXPLORER",
-
-    "LinkedIn": "www.linkedin.com/in/avni-sharma-91718631b"
+    "Twitter": "https://twitter.com/devdisplay_",
+    "LinkedIn": "https://www.linkedin.com/in/avni-sharma-91718631b"
   }
 }
