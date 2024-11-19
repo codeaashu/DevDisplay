@@ -1,0 +1,13 @@
+{
+  "name": "Deepesh Gupta",
+  "location": "Jaipur, Rajasthan, India",
+  "bio": "DevOps Engineer focused on automation, cloud infrastructure, and scalable CI/CD solutions.",
+  "avatar": "https://avatars.githubusercontent.com/u/108192513?v=4",
+  "portfolio": "https://github.com/deepeshmlgupta",
+  "skills": ["Cloud Computing", "DevOps", "Docker", "Kubernetes", "Jenkins", "Terraform", "AWS", "GCP", "Azure", "Linux", "JavaScript", "ReactJS", "Node.js"],
+  "social": {
+    "GitHub": "https://github.com/deepeshmlgupta",
+    "Twitter": "https://x.com/deepeshmlgupta",
+    "LinkedIn": "https://www.linkedin.com/in/deepeshmlgupta"
+  }
+}
