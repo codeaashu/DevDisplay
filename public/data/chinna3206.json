@@ -1,13 +1,27 @@
 {
   "name": "Chandrika Sruthi Manepalli",
   "location": "Hyderabad, India",
-  "bio": "Passionate Frontend Web developer skilled in HTML, CSS, JS, SQL, Python, Java, C, R",
+  "bio": "Passionate Frontend Web developer",
   "avatar": "https://github.com/chinna3206.png",
   "portfolio": "chinnaaaaa.ccbp.tech",
-  "skills": ["HTML", "CSS", "JS","SQL", "PYTHON", "JAVA", "BOOTSTRAP", "C", "R", "FRONTEND", "GITHUB", "WEB DEVELOPMENT"],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JS",
+    "SQL",
+    "PYTHON",
+    "JAVA",
+    "BOOTSTRAP",
+    "C",
+    "R",
+    "FRONTEND",
+    "GITHUB",
+    "WEB DEVELOPMENT",
+    "Git"
+  ],
   "social": {
     "GitHub": "https://github.com/chinna3206/",
     "Twitter": "https://x.com/ChandrikaS68483",
-    "LinkedIn": "www.linkedin.com/in/chandrikasruthi"
+    "LinkedIn": "https://www.linkedin.com/in/chandrikasruthi"
   }
 }
