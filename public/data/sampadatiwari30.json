@@ -4,9 +4,20 @@
   "bio": "Frontend Web Developer specializing in designing sophisticated, user-focused, and visually compelling web experiences.",
   "avatar": "https://github.com/sampadatiwari30.png",
   "portfolio": "https://github.com/sampadatiwari30",
-  "skills": ["HTML", "CSS", "Javascript","Bootstrap", "Git", "Github"],
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Bootstrap",
+    "Git",
+    "Github",
+    "Web Development",
+    "Frontend",
+    "Problem Solving"
+  ],
   "social": {
     "GitHub": "https://github.com/sampadatiwari30",
-    "LinkedIn": "https://www.linkedin.com/in/Sampada Tiwari"
+    "Twitter": "https://twitter.com/devdisplay_",
+    "LinkedIn": "https://www.linkedin.com/in/sampada-tiwari-217123257/"
   }
 }
