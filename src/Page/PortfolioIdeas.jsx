@@ -10,7 +10,7 @@ const ProjectsPage = () => {
       </header>
       <h1 className="text-2xl font-bold">Features</h1>
       <h1>
-        Add a features in this page where developer can showcase their portfolio - Develoepr first add their portfolio
+        Add a features in this page where developers can showcase their portfolio - Develoepr first add their portfolio
         through the open source contribution and then the portfolio are showcasing here
       </h1>
       <hr />
