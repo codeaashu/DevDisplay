@@ -158,14 +158,6 @@ Connect with DevDisplay Community on <img src="https://raw.githubusercontent.com
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/2fB3YRZt) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ashutoshkumaraashu) [![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/warrior_aashuu) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/codeaashu)<br>
 <br>A creative Full Stack Web Developer & A reliable designer you can rely on for all your design needs • Till now build 50+ WEB APP • Trailblazer</h4><hr>
 
-## 👥 Team
-
-| ![Saransh Bangar](https://github.com/codeaashu.png) |
-|:--:|
-| **Ashutosh Singh** <br> <sub>CREATOR</sub> | 
-| [![LinkedIn](https://img.icons8.com/fluency/32/000000/linkedin.png)](https://www.linkedin.com/in/ashutoshkumaraashu/) [![Gmail](https://img.icons8.com/fluency/32/000000/gmail.png)](mailto:hellow.ashutosh@gmail.com) [![Twitter](https://img.icons8.com/fluency/32/000000/twitter.png)](https://x.com/warrior_aashuu) |
-
-
 <h1 align="center">© LICENSE <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Check%20Box%20With%20Check.webp" alt="Check Box With Check" width="25" height="25" /></h1>
 
 <table align="center">
