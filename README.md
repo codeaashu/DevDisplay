@@ -1,10 +1,33 @@
 <div align="center">
 
+<table align="center">
+    <thead align="center">
+        <tr border: 2px;>
+            <td><b>🌟 Stars</b></td>
+            <td><b>🍴 Forks</b></td>
+            <td><b>🐛 Issues</b></td>
+            <td><b>🔔 Open PRs</b></td>
+            <td><b>🔕 Close PRs</b></td>
+            <td><b>🌐 Contributors</b></td>
+        </tr>
+     </thead>
+     <tbody>
+         <tr>
+            <td><img alt="Stars" src="https://img.shields.io/github/stars/devdisplay/DevDisplay?style=flat&logo=github"/></td>
+             <td><img alt="Forks" src="https://img.shields.io/github/forks/devdisplay/DevDisplay?style=flat&logo=github"/></td>
+            <td><img alt="Issues" src="https://img.shields.io/github/issues/devdisplay/DevDisplay?style=flat&logo=github"/></td>
+            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/devdisplay/DevDisplay?style=flat&logo=github"/></td>
+           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/devdisplay/DevDisplay?style=flat&color=green&logo=github"/></td>
+           <td><img alt="Contributors" src="https://img.shields.io/github/contributors/devdisplay/DevDisplay?style=flat&color=green&logo=github"/></td>
+        </tr>
+    </tbody>
+</table>
+
 <a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0382.gif" border="0" alt="animated-line-image-0382" /></a>
 
   <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="25" height="25" /> Welcome to DevDisplay <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="25" height="25" /></h1>
   <a href="https://www.devdisplay.org/"><img src="./public/devDisplayLOGO.png" width="100px" /></a><br>
-  <br><a href="https://github.com/codeaashu/DevDisplay/issues/111"><strong>DevDisplay is a part of Hacktoberfest2024 - GSSoC'2024</strong></a>
+  <br><a href="https://github.com/devdisplay/DevDisplay/issues/111"><strong>DevDisplay is a part of Hacktoberfest2024 - GSSoC'2024</strong></a>
   <h2 align="center">   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Eyes.webp" alt="Eyes" width="25" height="25" /> Discover     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Raising%20Hands.webp" alt="Raising Hands" width="25" height="25" /> Connect     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Handshake.webp" alt="Handshake" width="25" height="25" /> Collab     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Technologist.webp" alt="Technologist" width="25" height="25" /> Build     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Megaphone.webp" alt="Megaphone" width="25" height="25" /> Promote   </h2>
 <a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0382.gif" border="0" alt="animated-line-image-0382" /></a>
 
@@ -120,8 +143,8 @@ Connect with DevDisplay Community on <img src="https://raw.githubusercontent.com
 <h1 align="center">Contribution Support <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="25" height="25" /></h1>
 
 <h4 align="center">Thank you for contributing to our open-source project! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="25" height="25" /> Contributions make the open source community such an amazing place to learn, inspire, and create. <br><br> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" />  We appreciate your support <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" /></h4><br>
-<a align="center"  href="https://github.com/codeaashu/devDisplay/graphs/contributors">
-  <img align="center" src="https://contrib.rocks/image?repo=codeaashu/devDisplay" />
+<a align="center"  href="https://github.com/devdisplay/DevDisplay/graphs/contributors">
+  <img align="center" src="https://contrib.rocks/image?repo=devdisplay/DevDisplay" />
 </a><br>
 <h3 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Star this repository you love our project <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /></h3><hr>
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /> Creator of DevDisplay <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /></h1>
