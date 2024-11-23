@@ -13,12 +13,12 @@
      </thead>
      <tbody>
          <tr>
-            <td><img alt="Stars" src="https://img.shields.io/github/stars/devdisplay/DevDisplay?style=flat&logo=github"/></td>
-             <td><img alt="Forks" src="https://img.shields.io/github/forks/devdisplay/DevDisplay?style=flat&logo=github"/></td>
-            <td><img alt="Issues" src="https://img.shields.io/github/issues/devdisplay/DevDisplay?style=flat&logo=github"/></td>
-            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/devdisplay/DevDisplay?style=flat&logo=github"/></td>
-           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/devdisplay/DevDisplay?style=flat&color=green&logo=github"/></td>
-           <td><img alt="Contributors" src="https://img.shields.io/github/contributors/devdisplay/DevDisplay?style=flat&color=green&logo=github"/></td>
+            <td><img alt="Stars" src="https://img.shields.io/github/stars/devdisplay/DevDisplay?style=flat&color=black&logo=github"/></td>
+             <td><img alt="Forks" src="https://img.shields.io/github/forks/devdisplay/DevDisplay?style=flat&color=black&logo=github"/></td>
+            <td><img alt="Issues" src="https://img.shields.io/github/issues/devdisplay/DevDisplay?style=flat&color=black&logo=github"/></td>
+            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/devdisplay/DevDisplay?style=flat&color=black&logo=github"/></td>
+           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/devdisplay/DevDisplay?style=flat&color=black&logo=github"/></td>
+           <td><img alt="Contributors" src="https://img.shields.io/github/contributors/devdisplay/DevDisplay?style=flat&color=black&logo=github"/></td>
         </tr>
     </tbody>
 </table>
