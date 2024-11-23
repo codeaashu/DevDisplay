@@ -13,7 +13,7 @@
     "cobe": "^0.6.3",
     "flag": "^5.0.1",
     "framer-motion": "^11.11.1",
-    "lucide-react": "^0.447.0",
+    "lucide-react": "^0.460.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
