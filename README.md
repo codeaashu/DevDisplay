@@ -1,11 +1,4 @@
-<div align="center">                                                                         
-  
-  ![GitHub Repo stars](https://img.shields.io/github/stars/codeaashu/DevDisplay?style=social) 
-  ![GitHub forks](https://img.shields.io/github/forks/codeaashu/DevDisplay?style=social)
-  ![GitHub contributors](https://img.shields.io/github/contributors/codeaashu/DevDisplay?style=social)
-  ![GitHub pulls](https://img.shields.io/github/issues-pr/codeaashu/DevDisplay?style=social)
-  ![GitHub issues](https://img.shields.io/github/issues/codeaashu/DevDisplay?style=social)
-  ![GitHub LICENSE](https://img.shields.io/github/license/codeaashu/DevDisplay?style=social)
+<div align="center">
 
 <a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0382.gif" border="0" alt="animated-line-image-0382" /></a>
 
