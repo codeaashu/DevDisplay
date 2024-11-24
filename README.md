@@ -73,13 +73,61 @@ DevDisplay is a global open source community platform that brings together all y
 
 <br>
 
-
 ## Supported By
 
-| [![Microsoft for Startups](./public/assets/SupportedBy/MicrosoftForStartups.png)](https://www.microsoft.com/en-us/startups) | [![MSME](./public/assets/SupportedBy/MSME.png)](https://msme.gov.in/) | [![Product Hunt](./public/assets/SupportedBy/ProductHunt.png)](https://www.producthunt.com/products/devdisplay) |
-|---|---|---|
-| [![Digital Ocean](./public/assets/SupportedBy/DigitalOcean.png)](https://www.digitalocean.com/) | [![Vercel](./public/assets/SupportedBy/Vercel.png)](https://devdisplay.vercel.app/) | [![GitBook](./public/assets/SupportedBy/GitBookLight_1.png)](https://www.gitbook.com/) |
-| [![Meltcd](./public/assets/SupportedBy/meltcd.png)](https://github.com/devdisplay/DevDisplay) | [![Notion](./public/assets/SupportedBy/Notion.png)](https://www.notion.so/startups) | [![Peerlist](./public/assets/SupportedBy/Peerlist.png)](https://peerlist.io/) |
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.microsoft.com/en-us/startups">
+        <img src="./public/assets/SupportedBy/MicrosoftForStartups.png" alt="Microsoft for Startups Logo" width="100">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://msme.gov.in/">
+        <img src="./public/assets/SupportedBy/MSME.png" alt="MSME Logo" width="100">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.producthunt.com/products/devdisplay">
+        <img src="./public/assets/SupportedBy/ProductHunt.png" alt="Product Hunt Logo" width="100">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.digitalocean.com/">
+        <img src="./public/assets/SupportedBy/DigitalOcean.png" alt="Digital Ocean Logo" width="100">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://devdisplay.vercel.app/">
+        <img src="./public/assets/SupportedBy/Vercel.png" alt="Vercel Logo" width="100">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.gitbook.com/">
+        <img src="./public/assets/SupportedBy/GitBookLight_1.png" alt="GitBook Logo" width="100">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/devdisplay/DevDisplay">
+        <img src="./public/assets/SupportedBy/meltcd.png" alt="Meltcd Logo" width="100">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.notion.so/startups">
+        <img src="./public/assets/SupportedBy/Notion.png" alt="Notion Logo" width="100">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://peerlist.io/">
+        <img src="./public/assets/SupportedBy/Peerlist.png" alt="Peerlist Logo" width="100">
+      </a>
+    </td>
+  </tr>
+</table>
 
 
 <br><!--Line-->
