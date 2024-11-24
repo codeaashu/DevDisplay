@@ -70,6 +70,18 @@ DevDisplay is a global open source community platform that brings together all y
 <a href="https://www.producthunt.com/products/devdisplay"><img align="center" src="./public/assets/SupportedBy/ProductHunt.png" alt="ProductHunt Logo" height="auto" width="140"></a>
 <a href="https://devdisplay.vercel.app/"><img align="center" src="./public/assets/SupportedBy/Vercel.png" alt="Vercel Logo" height="auto" width="140"></a>
 
+<br>
+
+
+## Supported By
+
+| ![Microsoft for Startups](./public/assets/SupportedBy/MicrosoftForStartups.png) | ![Digital Ocean](./public/assets/SupportedBy/DigitalOcean.png) | ![GitBook](./public/assets/SupportedBy/GitBookLight_1.png) | ![Meltcd](./public/assets/SupportedBy/meltcd.png) |
+|---|---|---|---|
+| ![MSME](./public/assets/SupportedBy/MSME.png) | ![Notion](./public/assets/SupportedBy/Notion.png) | ![Peerlist](./public/assets/SupportedBy/Peerlist.png) | ![ProductHunt](./public/assets/SupportedBy/ProductHunt.png) |
+| ![Vercel](./public/assets/SupportedBy/Vercel.png) |  |  |  |
+
+
+
 <br><!--Line-->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"></div>
 
