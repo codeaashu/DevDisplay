@@ -60,7 +60,16 @@ DevDisplay is a global open source community platform that brings together all y
 </table><br>
 
 
-<h1 align="center">Supported By <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /></h1>
+<h1 align="center">Supported By <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="25" height="25" /></h1>
+<a href="https://www.microsoft.com/en-us/startups"><img align="center" src="./public/assets/SupportedBy/MicrosoftForStartups.png" alt="Microsoft for Startups Logo" height="auto" width="140"></a>
+<a href="https://www.microsoft.com/en-us/startups"><img align="center" src="./public/assets/SupportedBy/MicrosoftForStartups.png" alt="Microsoft for Startups Logo" height="auto" width="140"></a>
+<a href="https://www.microsoft.com/en-us/startups"><img align="center" src="./public/assets/SupportedBy/MicrosoftForStartups.png" alt="Microsoft for Startups Logo" height="auto" width="140"></a>
+<a href="https://www.microsoft.com/en-us/startups"><img align="center" src="./public/assets/SupportedBy/MicrosoftForStartups.png" alt="Microsoft for Startups Logo" height="auto" width="140"></a>
+<a href="https://www.microsoft.com/en-us/startups"><img align="center" src="./public/assets/SupportedBy/MicrosoftForStartups.png" alt="Microsoft for Startups Logo" height="auto" width="140"></a><br>
+<a href="https://www.microsoft.com/en-us/startups"><img align="center" src="./public/assets/SupportedBy/MicrosoftForStartups.png" alt="Microsoft for Startups Logo" height="auto" width="140"></a>
+<a href="https://www.microsoft.com/en-us/startups"><img align="center" src="./public/assets/SupportedBy/MicrosoftForStartups.png" alt="Microsoft for Startups Logo" height="auto" width="140"></a>
+<a href="https://www.microsoft.com/en-us/startups"><img align="center" src="./public/assets/SupportedBy/MicrosoftForStartups.png" alt="Microsoft for Startups Logo" height="auto" width="140"></a>
+<a href="https://www.microsoft.com/en-us/startups"><img align="center" src="./public/assets/SupportedBy/MicrosoftForStartups.png" alt="Microsoft for Startups Logo" height="auto" width="140"></a>
 <a href="https://www.microsoft.com/en-us/startups"><img align="center" src="./public/assets/SupportedBy/MicrosoftForStartups.png" alt="Microsoft for Startups Logo" height="auto" width="140"></a>
 
 <br><!--Line-->
