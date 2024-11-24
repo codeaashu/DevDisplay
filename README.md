@@ -57,7 +57,11 @@ DevDisplay is a global open source community platform that brings together all y
             <td><b><a href="https://www.instagram.com/devdisplay/"> Insta. </a></b></td>
         </tr>
      </tbody>
-</table>
+</table><br>
+
+
+<h1 align="center">Supported By <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /></h1>
+<a href="https://www.microsoft.com/en-us/startups"><img align="center" src="./public/assets/SupportedBy/MicrosoftForStartups.png" alt="Microsoft for Startups Logo" height="auto" width="140"></a>
 
 <br><!--Line-->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"></div>
