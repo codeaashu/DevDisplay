@@ -34,7 +34,37 @@
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 <h1 align="center">About <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /></h1>
-DevDisplay is a global open source community platform that brings together all your tech needs in one place.<br><img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+DevDisplay is a global open-source tech community and organization that brings together all your tech needs in one place.<br>
+
+<details>
+    <summary>One platform <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20with%20Meridians.png" alt="Globe with Meridians" width="25" height="25" /></summary>
+<div align="center">     
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20with%20Meridians.png" alt="Globe with Meridians" width="25" height="25" /> <br>
+🚀 One platform to discover exceptional tech talent
+🔗 One platform to connect with passionate tech enthusiasts
+🤝 One platform to collaborate on groundbreaking ideas
+🔧 One platform to build innovative projects together
+💡 One platform to gain inspiration and ignite creativity
+📚 One platform to access all your tech resources in one place
+🌟 One platform to find the latest opportunities in tech
+💡 One platform to turn your ideas into reality
+🌍 One platform to showcase your projects to the world
+🎯 One platform to highlight your skills and expertise
+📣 One platform to promote your work and gain visibility
+📈 One platform to learn, grow, and thrive with the community
+🏆 One platform to compete and challenge your abilities
+💸 One platform to earn rewards and monetize your skills
+🎁 One platform to get exclusive benefits as a tech enthusiast
+⚡ One platform to fulfill all your tech needs effortlessly
+</div>
+</details>
+</div>
+
+
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+
 
 <div align="center">
 <h1 align="center">Supported By <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Folded Hands Light Skin Tone" width="25" height="25" /></h1>
