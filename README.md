@@ -38,7 +38,8 @@ DevDisplay is a global open source community platform that brings together all y
 
 <div align="center">
   <h2>Connect with DevDisplay Organization <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Folded Hands Light Skin Tone" width="25" height="25" /></h2>
-</div><br>
+</div>
+<br><img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"></div>
 
 <table align="center">
      <thead>
@@ -57,7 +58,8 @@ DevDisplay is a global open source community platform that brings together all y
             <td><b><a href="https://www.instagram.com/devdisplay/"> Insta. </a></b></td>
         </tr>
      </tbody>
-</table><br>
+</table>
+<br><img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"></div>
 
 <h1 align="center">Supported By <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="25" height="25" /></h1>
 <table>
@@ -117,8 +119,7 @@ DevDisplay is a global open source community platform that brings together all y
 <br><!--Line-->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"></div>
 
-## Featured In
-
+<h1 align="center">Featured In <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="25" height="25" /></h1>
 <table>
 
    <tr>
