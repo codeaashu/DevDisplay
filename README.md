@@ -24,10 +24,8 @@
 
   <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /> DevDisplay - Global Tech Hub <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /></h1>
   <a href="https://www.devdisplay.org/"><img src="./public/DevDisplay ICON.png" width="100px" /></a><br>
-  
-  [**WWW.DEVDISPLAY.ORG**](https://www.devdisplay.org)
-
-<br>DevDisplay is a global open-source tech community and organization that brings together all your tech needs in one place.<br>
+  <a href="https://www.devdisplay.org" style="text-decoration: none;"><strong>www.devdisplay.org</strong></a><br>
+  DevDisplay is a global open-source tech community and organization that brings together all your tech needs in one place.<br>
 
 <details>
     <summary>Your all-in-one destination for everything in tech!</summary>
