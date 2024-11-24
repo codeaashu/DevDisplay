@@ -59,7 +59,7 @@ DevDisplay is a global open source community platform that brings together all y
         </tr>
      </tbody>
 </table>
-<br><img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"></div>
+<br><img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"></div><br>
 
 <h1 align="center">Supported By <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="25" height="25" /></h1>
 <table>
@@ -75,17 +75,22 @@ DevDisplay is a global open source community platform that brings together all y
       </a>
     </td>
     <td align="center">
+      <a href="https://cloud.google.com/startup">
+        <img src="./public/assets/SupportedBy/GoogleForStartups.png" alt="Google For Startups Logo" width="140">
+      </a>
+    </td>
+    <td align="center">
       <a href="https://devdisplay.vercel.app/">
         <img src="./public/assets/SupportedBy/Vercel.png" alt="Vercel Logo" width="140">
       </a>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://www.digitalocean.com/">
         <img src="./public/assets/SupportedBy/DigitalOcean.png" alt="Digital Ocean Logo" width="140">
       </a>
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <a href="https://www.producthunt.com/products/devdisplay">
         <img src="./public/assets/SupportedBy/ProductHunt.png" alt="Product Hunt Logo" width="140">
@@ -96,8 +101,6 @@ DevDisplay is a global open source community platform that brings together all y
         <img src="./public/assets/SupportedBy/GitBookLight_1.png" alt="GitBook Logo" width="140">
       </a>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://github.com/devdisplay/DevDisplay">
         <img src="./public/assets/SupportedBy/meltcd.png" alt="Meltcd Logo" width="140">
@@ -114,7 +117,7 @@ DevDisplay is a global open source community platform that brings together all y
       </a>
     </td>
   </tr>
-</table>
+</table><br>
 
 <br><!--Line-->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"></div>
