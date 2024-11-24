@@ -52,7 +52,7 @@ DevDisplay is a global open source community platform that brings together all y
      <tbody>
          <tr>
             <td><img src="./public/assets/SocialLogo/Discord.png" alt="Discord Logo" width="50"></td>
-            <td><img src="./public/assets/SocialLogo/LinkedIn.png" alt="Linkedin Logo" width="50"></td>
+            <td><img src="./public/assets/SocialLogo/Linkedin.webp" alt="Linkedin Logo" width="50"></td>
             <td><img src="./public/assets/SocialLogo/X.png" alt="Twitter Logo" width="50"></td>
             <td><img src="./public/assets/SocialLogo/Instagram.png" alt="Instagram Logo" width="50"></td>
         </tr>
