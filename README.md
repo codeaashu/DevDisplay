@@ -70,6 +70,18 @@ DevDisplay is a global open source community platform that brings together all y
 <a href="https://www.notion.so/startups"><img align="center" src="./public/assets/SupportedBy/Notion.png" alt="Notion Logo" height="auto" width="140"></a>
 <a href="https://peerlist.io/"><img align="center" src="./public/assets/SupportedBy/Peerlist.png" alt="Peerlist Logo" height="auto" width="140"></a>
 
+
+<br>
+
+
+## Supported By
+
+| [![Microsoft for Startups](./public/assets/SupportedBy/MicrosoftForStartups.png)](https://www.microsoft.com/en-us/startups) | [![MSME](./public/assets/SupportedBy/MSME.png)](https://msme.gov.in/) | [![Product Hunt](./public/assets/SupportedBy/ProductHunt.png)](https://www.producthunt.com/products/devdisplay) |
+|---|---|---|
+| [![Digital Ocean](./public/assets/SupportedBy/DigitalOcean.png)](https://www.digitalocean.com/) | [![Vercel](./public/assets/SupportedBy/Vercel.png)](https://devdisplay.vercel.app/) | [![GitBook](./public/assets/SupportedBy/GitBookLight_1.png)](https://www.gitbook.com/) |
+| [![Meltcd](./public/assets/SupportedBy/meltcd.png)](https://github.com/devdisplay/DevDisplay) | [![Notion](./public/assets/SupportedBy/Notion.png)](https://www.notion.so/startups) | [![Peerlist](./public/assets/SupportedBy/Peerlist.png)](https://peerlist.io/) |
+
+
 <br><!--Line-->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"></div>
 
