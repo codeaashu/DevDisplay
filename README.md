@@ -32,7 +32,7 @@
 DevDisplay is a global open-source tech community and organization that brings together all your tech needs in one place.<br>
 
 <details>
-    <summary> One platform to...</summary>
+    <summary> DevDisplay: Your all-in-one destination for everything in tech!</summary>
 <div align="center">     
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="150" height="150" /> <br>
 | **Feature** | **Description** |
@@ -52,24 +52,6 @@ DevDisplay is a global open-source tech community and organization that brings t
 | 💸 | One platform to earn rewards and monetize your skills |
 | 🎁 | One platform to get exclusive benefits as a tech enthusiast |
 | ⚡ | One platform to fulfill all your tech needs effortlessly |
-
-
-
-| 🚀 One platform to discover exceptional tech talent |
-| 🔗 One platform to connect with passionate tech enthusiasts |
-| 🤝 One platform to collaborate on groundbreaking ideas |
-| 🔧 One platform to build innovative projects together |
-| 💡 One platform to gain inspiration and ignite creativity |
-| 📚 One platform to access all your tech resources in one place |
-| 🌟 One platform to find the latest opportunities in tech |
-| 💡 One platform to turn your ideas into reality |
-| 🌍 One platform to showcase your projects to the world |
-| 🎯 One platform to highlight your skills and expertise |
-| 📣 One platform to promote your work and gain visibility |
-| 📈 One platform to learn, grow, and thrive with the community |
-| 💸 One platform to earn rewards and monetize your skills |
-| 🎁 One platform to get exclusive benefits as a tech enthusiast |
-| ⚡ One platform to fulfill all your tech needs effortlessly |
 </div>
 </details>
 </div><hr>
