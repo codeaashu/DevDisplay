@@ -34,7 +34,7 @@
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 <h1 align="center">About <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /></h1>
-DevDisplay is a global open source community platform that brings together all your tech needs in one place.<br><br>
+DevDisplay is a global open source community platform that brings together all your tech needs in one place.<br><img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 <div align="center">
   <h2>Connect with DevDisplay Organization <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Folded Hands Light Skin Tone" width="25" height="25" /></h2>
@@ -59,6 +59,7 @@ DevDisplay is a global open source community platform that brings together all y
 </table>
 <br><img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"></div>
 
+<div align="center">
 <h1 align="center">Supported By <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Folded Hands Light Skin Tone" width="25" height="25" /></h1>
 <table>
   <tr>
@@ -115,7 +116,7 @@ DevDisplay is a global open source community platform that brings together all y
       </a>
     </td>
   </tr>
-</table><br>
+</table></div><br>
 
 <br><!--Line-->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"></div>
