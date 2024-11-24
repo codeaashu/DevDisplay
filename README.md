@@ -75,10 +75,11 @@ DevDisplay is a global open source community platform that brings together all y
 
 ## Supported By
 
-| ![Microsoft for Startups](./public/assets/SupportedBy/MicrosoftForStartups.png) | ![Digital Ocean](./public/assets/SupportedBy/DigitalOcean.png) | ![GitBook](./public/assets/SupportedBy/GitBookLight_1.png) | ![Meltcd](./public/assets/SupportedBy/meltcd.png) |
+| ![Microsoft for Startups](./public/assets/SupportedBy/MicrosoftForStartups.png) | ![Digital Ocean](./public/assets/SupportedBy/DigitalOcean.png) | ![GitBook](./public/assets/SupportedBy/GitBookLight_1.png) |
 |---|---|---|---|
-| ![MSME](./public/assets/SupportedBy/MSME.png) | ![Notion](./public/assets/SupportedBy/Notion.png) | ![Peerlist](./public/assets/SupportedBy/Peerlist.png) | ![ProductHunt](./public/assets/SupportedBy/ProductHunt.png) |
-| ![Vercel](./public/assets/SupportedBy/Vercel.png) |  |  |  |
+| ![Meltcd](./public/assets/SupportedBy/meltcd.png) | ![MSME](./public/assets/SupportedBy/MSME.png) | ![Notion](./public/assets/SupportedBy/Notion.png) | 
+|---|---|---|---|
+| ![Peerlist](./public/assets/SupportedBy/Peerlist.png) | ![ProductHunt](./public/assets/SupportedBy/ProductHunt.png) | ![Vercel](./public/assets/SupportedBy/Vercel.png) |  |  |  |
 
 
 
