@@ -36,7 +36,7 @@ DevDisplay is a global open-source tech community and organization that brings t
 <div align="center">     
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="150" height="150" /> <br>
 
-| **⚡** | **One platform to fulfill all your tech needs** |
+| **⚡** | **One Place** |
 |-------------|-----------------|
 | 🚀 | One platform to discover exceptional tech talent |
 | 🔗 | One platform to connect with passionate tech enthusiasts |
