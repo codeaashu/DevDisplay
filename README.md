@@ -32,11 +32,11 @@
 DevDisplay is a global open-source tech community and organization that brings together all your tech needs in one place.<br>
 
 <details>
-    <summary> DevDisplay: Your all-in-one destination for everything in tech!</summary>
+    <summary>Your all-in-one destination for everything in tech!</summary>
 <div align="center">     
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="150" height="150" /> <br>
 
-| **Feature** | **Description** |
+| **One platform for all your tech needs.** |
 |-------------|-----------------|
 | 🚀 | One platform to discover exceptional tech talent |
 | 🔗 | One platform to connect with passionate tech enthusiasts |
