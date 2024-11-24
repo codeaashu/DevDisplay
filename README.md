@@ -62,26 +62,13 @@ DevDisplay is a global open source community platform that brings together all y
 <h1 align="center">Supported By <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="25" height="25" /></h1>
 <a href="https://www.microsoft.com/en-us/startups"><img align="center" src="./public/assets/SupportedBy/MicrosoftForStartups.png" alt="Microsoft for Startups Logo" height="auto" width="140"></a>
 <a href="https://www.digitalocean.com/"><img align="center" src="./public/assets/SupportedBy/DigitalOcean.png" alt="Digital Ocean Logo" height="auto" width="140"></a>
-<a href="https://www.gitbook.com/"><img align="center" src="./public/assets/SupportedBy/GitBookLight_1.png" alt="GitBook Logo" height="auto" width="140"></a>
+<a href="https://www.gitbook.com/"><img align="center" src="./public/assets/SupportedBy/GitBookLight_1.png" alt="GitBook Logo" height="auto" width="140"></a><br>
 <a href="https://github.com/devdisplay/DevDisplay"><img align="center" src="./public/assets/SupportedBy/meltcd.png" alt="Meltcd Logo" height="auto" width="140"></a>
 <a href="https://msme.gov.in/"><img align="center" src="./public/assets/SupportedBy/MSME.png" alt="MSME Logo" height="auto" width="140"></a>
-<a href="https://www.notion.so/startups"><img align="center" src="./public/assets/SupportedBy/Notion.png" alt="Notion Logo" height="auto" width="140"></a>
+<a href="https://www.notion.so/startups"><img align="center" src="./public/assets/SupportedBy/Notion.png" alt="Notion Logo" height="auto" width="140"></a><br>
 <a href="https://peerlist.io/"><img align="center" src="./public/assets/SupportedBy/Peerlist.png" alt="Peerlist Logo" height="auto" width="140"></a>
 <a href="https://www.producthunt.com/products/devdisplay"><img align="center" src="./public/assets/SupportedBy/ProductHunt.png" alt="ProductHunt Logo" height="auto" width="140"></a>
 <a href="https://devdisplay.vercel.app/"><img align="center" src="./public/assets/SupportedBy/Vercel.png" alt="Vercel Logo" height="auto" width="140"></a>
-
-<br>
-
-
-## Supported By
-
-| ![Microsoft for Startups](./public/assets/SupportedBy/MicrosoftForStartups.png) | ![Digital Ocean](./public/assets/SupportedBy/DigitalOcean.png) | ![GitBook](./public/assets/SupportedBy/GitBookLight_1.png) |
-|---|---|---|---|
-| ![Meltcd](./public/assets/SupportedBy/meltcd.png) | ![MSME](./public/assets/SupportedBy/MSME.png) | ![Notion](./public/assets/SupportedBy/Notion.png) | 
-|---|---|---|---|
-| ![Peerlist](./public/assets/SupportedBy/Peerlist.png) | ![ProductHunt](./public/assets/SupportedBy/ProductHunt.png) | ![Vercel](./public/assets/SupportedBy/Vercel.png) |  |  |  |
-
-
 
 <br><!--Line-->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"></div>
