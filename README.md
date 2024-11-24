@@ -37,6 +37,7 @@
 DevDisplay is a global open source community platform that brings together all your tech needs in one place.<br><br>
 
 Connect with DevDisplay Community on <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /> [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/devdisplay/)<br>
+Connect with DevDisplay Community on <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /> [![Discord](https://img.shields.io/badge/discord-%230077B5.svg?logo=discord&logoColor=white)](https://discord.gg/chyt2UgTv5)<br>
 <br><!--Line-->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"></div>
 
