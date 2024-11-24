@@ -37,6 +37,27 @@
 DevDisplay is a global open source community platform that brings together all your tech needs in one place.<br><br>
 
 Connect with DevDisplay Community on <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /> [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/devdisplay/) • [![Discord](https://img.shields.io/badge/discord-%230077B5.svg?logo=Discord&logoColor=white)](https://discord.gg/chyt2UgTv5) • [![Twitter](https://img.shields.io/badge/x-%230077B5.svg?logo=x&logoColor=white)](https://x.com/devdisplay) • [![Instagram](https://img.shields.io/badge/instagram-%230077B5.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/devdisplay/) 
+
+<br>
+
+
+  <tr>
+      <td><img src="website3.0\public\discord-icon.svg" alt="Discord Logo" width="50"></td>
+      <td><a href="https://discord.gg/chyt2UgTv5"> Join our Official Discord Server </a></td>
+  </tr>
+    <tr>
+      <td><img src="website3.0\public\linkedin-icon.svg" alt="Linkedin Logo" width="50"></td>
+      <td><a href="https://www.linkedin.com/company/devdisplay/"> Follow us on Linkedin</a></td>
+  </tr>
+  <tr>
+      <td><img src="website3.0\public\twitter-icon.svg" alt="Twitter Logo" width="50"></td>
+      <td><a href="https://x.com/devdisplay"> Find us on Twitter </a></td>
+  </tr>
+  <tr>
+      <td><img src="website3.0\public\instagram-icon.svg" alt="Instagram Logo" width="50"></td>
+      <td><a href="https://www.instagram.com/devdisplay/"> Find us on Instagram </a></td>
+  </tr>
+
 <br><!--Line-->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"></div>
 
