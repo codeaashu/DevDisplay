@@ -1,6 +1,16 @@
 <div align="center">
 
 <table align="center">
+     <thead align="center">
+        <tr border: 2px;>
+            <td><b>🌟 Stars</b></td>
+            <td><b>💌 Forks</b></td>
+            <td><b>🐛 Issues</b></td>
+            <td><b>🔔 Open PRs</b></td>
+            <td><b>🔕 Close PRs</b></td>
+            <td><b>🌐 Contributors</b></td>
+        </tr>
+     </thead>
      <tbody>
          <tr>
             <td><img alt="Stars" src="https://img.shields.io/github/stars/devdisplay/DevDisplay?style=flat&color=black&logo=github"/></td>
@@ -11,16 +21,6 @@
            <td><img alt="Contributors" src="https://img.shields.io/github/contributors/devdisplay/DevDisplay?style=flat&color=black&logo=github"/></td>
         </tr>
     </tbody>
-    <thead align="center">
-        <tr border: 2px;>
-            <td><b>🌟 Stars</b></td>
-            <td><b>💌 Forks</b></td>
-            <td><b>🐛 Issues</b></td>
-            <td><b>🔔 Open PRs</b></td>
-            <td><b>🔕 Close PRs</b></td>
-            <td><b>🌐 Contributors</b></td>
-        </tr>
-     </thead>
 </table>
 
 <!--Line-->
@@ -41,14 +41,6 @@ DevDisplay is a global open source community platform that brings together all y
 </div><br>
 
 <table align="center">
-    <thead align="center">
-        <tr border: 2px;>
-            <td><b><a href="https://discord.gg/chyt2UgTv5"> Discord </a></b></td>
-            <td><b><a href="https://www.linkedin.com/company/devdisplay/"> Linkedin </a></b></td>
-            <td><b><a href="https://x.com/devdisplay"> Twitter </a></b></td>
-            <td><b><a href="https://www.instagram.com/devdisplay/"> Instagram </a></b></td>
-        </tr>
-     </thead>
      <tbody>
          <tr>
             <td><img src="./public/assets/SocialLogo/Discord.png" alt="Discord Logo" width="50"></td>
@@ -57,6 +49,14 @@ DevDisplay is a global open source community platform that brings together all y
             <td><img src="./public/assets/SocialLogo/Instagram.png" alt="Instagram Logo" width="50"></td>
         </tr>
     </tbody>
+     <thead align="center">
+        <tr border: 2px;>
+            <td><b><a href="https://discord.gg/chyt2UgTv5"> Discord </a></b></td>
+            <td><b><a href="https://www.linkedin.com/company/devdisplay/"> Linkedin </a></b></td>
+            <td><b><a href="https://x.com/devdisplay"> Twitter </a></b></td>
+            <td><b><a href="https://www.instagram.com/devdisplay/"> Instagram </a></b></td>
+        </tr>
+     </thead>
 </table>
 
 <br><!--Line-->
