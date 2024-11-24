@@ -36,26 +36,28 @@
 <h1 align="center">About <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /></h1>
 DevDisplay is a global open source community platform that brings together all your tech needs in one place.<br><br>
 
-Connect with DevDisplay Community on <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /> [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/devdisplay/) • [![Discord](https://img.shields.io/badge/discord-%230077B5.svg?logo=Discord&logoColor=white)](https://discord.gg/chyt2UgTv5) • [![Twitter](https://img.shields.io/badge/x-%230077B5.svg?logo=x&logoColor=white)](https://x.com/devdisplay) • [![Instagram](https://img.shields.io/badge/instagram-%230077B5.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/devdisplay/)
+<div align="center">
+  <h2>Connect with DevDisplay Organization <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Folded Hands Light Skin Tone" width="25" height="25" /></h2>
+</div><br>
 
-<br>
-
-  <tr>
-      <td><img src="website3.0\public\discord-icon.svg" alt="Discord Logo" width="50"></td>
-      <td><a href="https://discord.gg/chyt2UgTv5"> Join our Official Discord Server </a></td>
-  </tr>
-    <tr>
-      <td><img src="website3.0\public\linkedin-icon.svg" alt="Linkedin Logo" width="50"></td>
-      <td><a href="https://www.linkedin.com/company/devdisplay/"> Follow us on Linkedin</a></td>
-  </tr>
-  <tr>
-      <td><img src="website3.0\public\twitter-icon.svg" alt="Twitter Logo" width="50"></td>
-      <td><a href="https://x.com/devdisplay"> Find us on Twitter </a></td>
-  </tr>
-  <tr>
-      <td><img src="website3.0\public\instagram-icon.svg" alt="Instagram Logo" width="50"></td>
-      <td><a href="https://www.instagram.com/devdisplay/"> Find us on Instagram </a></td>
-  </tr>
+<table align="center">
+    <thead align="center">
+        <tr border: 2px;>
+            <td><b><a href="https://discord.gg/chyt2UgTv5"> Discord </a></b></td>
+            <td><b><a href="https://www.linkedin.com/company/devdisplay/"> Linkedin </a></b></td>
+            <td><b><a href="https://x.com/devdisplay"> Twitter </a></b></td>
+            <td><b><a href="https://www.instagram.com/devdisplay/"> Instagram </a></b></td>
+        </tr>
+     </thead>
+     <tbody>
+         <tr>
+            <td><img src="./public/assets/SocialLogo/Discord.png" alt="Discord Logo" width="50"></td>
+            <td><img src="./public/assets/SocialLogo/LinkedIn.png" alt="Linkedin Logo" width="50"></td>
+            <td><img src="./public/assets/SocialLogo/X.png" alt="Twitter Logo" width="50"></td>
+            <td><img src="./public/assets/SocialLogo/Instagram.png" alt="Instagram Logo" width="50"></td>
+        </tr>
+    </tbody>
+</table>
 
 <br><!--Line-->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"></div>
