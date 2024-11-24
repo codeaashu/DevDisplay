@@ -37,9 +37,9 @@
 DevDisplay is a global open-source tech community and organization that brings together all your tech needs in one place.<br>
 
 <details>
-    <summary>One platform <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20with%20Meridians.png" alt="Globe with Meridians" width="25" height="25" /></summary>
+    <summary> One platform to...</summary>
 <div align="center">     
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20with%20Meridians.png" alt="Globe with Meridians" width="25" height="25" /> <br>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="150" height="150" /> <br>
 🚀 One platform to discover exceptional tech talent
 🔗 One platform to connect with passionate tech enthusiasts
 🤝 One platform to collaborate on groundbreaking ideas
