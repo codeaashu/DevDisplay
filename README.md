@@ -54,7 +54,7 @@ DevDisplay is a global open source community platform that brings together all y
             <td><b><a href="https://discord.gg/chyt2UgTv5"> Discord </a></b></td>
             <td><b><a href="https://www.linkedin.com/company/devdisplay/"> Linkedin </a></b></td>
             <td><b><a href="https://x.com/devdisplay"> Twitter </a></b></td>
-            <td><b><a href="https://www.instagram.com/devdisplay/"> Insta </a></b></td>
+            <td><b><a href="https://www.instagram.com/devdisplay/"> Insta. </a></b></td>
         </tr>
      </tbody>
 </table>
