@@ -1,7 +1,7 @@
 <div align="center">
 
 <table align="center">
-     <thead align="center">
+     <tbody align="center">
         <tr border: 2px;>
             <td><b>🌟 Stars</b></td>
             <td><b>💌 Forks</b></td>
@@ -10,8 +10,8 @@
             <td><b>🔕 Close PRs</b></td>
             <td><b>🌐 Contributors</b></td>
         </tr>
-     </thead>
-     <tbody>
+     </tbody>
+     <thead>
          <tr>
             <td><img alt="Stars" src="https://img.shields.io/github/stars/devdisplay/DevDisplay?style=flat&color=black&logo=github"/></td>
              <td><img alt="Forks" src="https://img.shields.io/github/forks/devdisplay/DevDisplay?style=flat&color=black&logo=github"/></td>
@@ -20,7 +20,7 @@
            <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/devdisplay/DevDisplay?style=flat&color=black&logo=github"/></td>
            <td><img alt="Contributors" src="https://img.shields.io/github/contributors/devdisplay/DevDisplay?style=flat&color=black&logo=github"/></td>
         </tr>
-    </tbody>
+    </thead>
 </table>
 
 <!--Line-->
