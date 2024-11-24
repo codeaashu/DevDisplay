@@ -93,7 +93,13 @@ DevDisplay is a global open source community platform that brings together all y
       </a>
     </td>
   </tr>
-</table></div>
+</table>
+
+<a href="https://www.producthunt.com/posts/devdisplay?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-devdisplay" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=594879&theme=dark" alt="DevDisplay - Global&#0032;open&#0032;source&#0032;tech&#0032;platform | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
+<a href="https://trendshift.io/repositories/12132" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12132" alt="DS4SD%2Fdocling | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+
+</div>
 <br><img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"></div>
 
 <div align="center">
