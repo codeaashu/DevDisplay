@@ -1,16 +1,6 @@
 <div align="center">
 
 <table align="center">
-    <thead align="center">
-        <tr border: 2px;>
-            <td><b>🌟 Stars</b></td>
-            <td><b>💌 Forks</b></td>
-            <td><b>🐛 Issues</b></td>
-            <td><b>🔔 Open PRs</b></td>
-            <td><b>🔕 Close PRs</b></td>
-            <td><b>🌐 Contributors</b></td>
-        </tr>
-     </thead>
      <tbody>
          <tr>
             <td><img alt="Stars" src="https://img.shields.io/github/stars/devdisplay/DevDisplay?style=flat&color=black&logo=github"/></td>
@@ -21,6 +11,16 @@
            <td><img alt="Contributors" src="https://img.shields.io/github/contributors/devdisplay/DevDisplay?style=flat&color=black&logo=github"/></td>
         </tr>
     </tbody>
+    <thead align="center">
+        <tr border: 2px;>
+            <td><b>🌟 Stars</b></td>
+            <td><b>💌 Forks</b></td>
+            <td><b>🐛 Issues</b></td>
+            <td><b>🔔 Open PRs</b></td>
+            <td><b>🔕 Close PRs</b></td>
+            <td><b>🌐 Contributors</b></td>
+        </tr>
+     </thead>
 </table>
 
 <!--Line-->
