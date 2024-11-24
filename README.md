@@ -138,8 +138,7 @@
             <td><b><a href="https://www.instagram.com/devdisplay/"> Insta. </a></b></td>
         </tr>
      </tbody>
-</table>
-<br></div><hr>
+</table></div><hr>
 
 <h1 align="center">Featured In <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /></h1>
 <table>
