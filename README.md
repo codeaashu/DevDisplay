@@ -35,23 +35,41 @@ DevDisplay is a global open-source tech community and organization that brings t
     <summary> One platform to...</summary>
 <div align="center">     
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="150" height="150" /> <br>
-<table>
-          <td>🚀 One platform to discover exceptional tech talent</td>
-          <td>🔗 One platform to connect with passionate tech enthusiasts</td>
-          <td>🤝 One platform to collaborate on groundbreaking ideas</td>
-          <td>🔧 One platform to build innovative projects together</td>
-          <td>💡 One platform to gain inspiration and ignite creativity</td>
-          <td>📚 One platform to access all your tech resources in one place</td>
-          <td>🌟 One platform to find the latest opportunities in tech</td>
-          <td>💡 One platform to turn your ideas into reality</td>
-          <td>🌍 One platform to showcase your projects to the world</td>
-          <td>🎯 One platform to highlight your skills and expertise</td>
-          <td>📣 One platform to promote your work and gain visibility</td>
-          <td>📈 One platform to learn, grow, and thrive with the community</td>
-          <td>💸 One platform to earn rewards and monetize your skills</td>
-          <td>🎁 One platform to get exclusive benefits as a tech enthusiast</td>
-          <td>⚡ One platform to fulfill all your tech needs effortlessly</td>
-</table>
+| **Feature** | **Description** |
+|-------------|-----------------|
+| 🚀 | One platform to discover exceptional tech talent |
+| 🔗 | One platform to connect with passionate tech enthusiasts |
+| 🤝 | One platform to collaborate on groundbreaking ideas |
+| 🔧 | One platform to build innovative projects together |
+| 💡 | One platform to gain inspiration and ignite creativity |
+| 📚 | One platform to access all your tech resources in one place |
+| 🌟 | One platform to find the latest opportunities in tech |
+| 💡 | One platform to turn your ideas into reality |
+| 🌍 | One platform to showcase your projects to the world |
+| 🎯 | One platform to highlight your skills and expertise |
+| 📣 | One platform to promote your work and gain visibility |
+| 📈 | One platform to learn, grow, and thrive with the community |
+| 💸 | One platform to earn rewards and monetize your skills |
+| 🎁 | One platform to get exclusive benefits as a tech enthusiast |
+| ⚡ | One platform to fulfill all your tech needs effortlessly |
+
+
+
+| 🚀 One platform to discover exceptional tech talent |
+| 🔗 One platform to connect with passionate tech enthusiasts |
+| 🤝 One platform to collaborate on groundbreaking ideas |
+| 🔧 One platform to build innovative projects together |
+| 💡 One platform to gain inspiration and ignite creativity |
+| 📚 One platform to access all your tech resources in one place |
+| 🌟 One platform to find the latest opportunities in tech |
+| 💡 One platform to turn your ideas into reality |
+| 🌍 One platform to showcase your projects to the world |
+| 🎯 One platform to highlight your skills and expertise |
+| 📣 One platform to promote your work and gain visibility |
+| 📈 One platform to learn, grow, and thrive with the community |
+| 💸 One platform to earn rewards and monetize your skills |
+| 🎁 One platform to get exclusive benefits as a tech enthusiast |
+| ⚡ One platform to fulfill all your tech needs effortlessly |
 </div>
 </details>
 </div><hr>
