@@ -144,57 +144,8 @@
      </tbody>
 </table></div><hr>
 
-<h1 align="center">Featured In <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /></h1>
-<table>
-
-   <tr>
-      <th>Program Logo</th>
-      <th>Program Name</th>
-      <th>Program Description</th>
-   </tr>
-   <tr>
-      <td><img src="./public/assets/FeaturedIn/GSSOC.png" width="200" height="auto" loading="lazy" alt="GSSoC 24"/></td>
-      <td><a href="https://gssoc.girlscript.tech/">GirlScript Summer of Code</a></td>
-      <td>GirlScript Summer of Code is a three-month-long Open Source Program conducted every summer by GirlScript Foundation. It is an initiative to bring more beginners to Open-Source Software Development.</td>
-   </tr>
-   <tr>
-      <td><img src="./public/assets/FeaturedIn/SWOC.jpg" width="200" height="auto" loading="lazy" alt="swoc"/></td>
-      <td><a href="https://www.socialwinterofcode.com/">Social Winter of Code</a></td>
-      <td>Social Winter Of Code is the 2 month long open source program by Social India , with the aim to introduce more and more people to the world of Open source.</td>
-   </tr>
-   <tr>
-      <td><img src="./public/assets/FeaturedIn/ieeeIGDTUW.jpg" width="200" height="auto" loading="lazy" alt="IEEE IGDTUW"/></td>
-      <td><a href="https://ieee-igdtuw.github.io/IEEE-IGDTUW-Official-Website/">IEEE IGDTUW Open Source Week</a></td>
-      <td>IEEE IGDTUW Open Source Week is a week-long event aimed at fostering collaboration and skill-building in open-source. Participants can work on impactful projects, learn version control, and gain real-world experience while contributing to open-source communities.</td>
-    </tr>
-    <tr>
-      <td><img src="./public/assets/FeaturedIn/HACKTOBERFEST.jpg" width="200" height="auto" loading="lazy" alt="Hacktoberfest"/></td>
-      <td><a href="https://hacktoberfest.com/">Hacktoberfest</a></td>
-      <td>Hacktoberfest is a month-long virtual event that celebrates open-source software and encourages people to contribute to open-source projects</td>
-   </tr>
-   <tr>
-      <td><img src="./public/assets/FeaturedIn/TublianOS.jpg" width="200" height="auto" loading="lazy" alt="tublian"/></td>
-      <td><a href="https://www.tublian.com/internship">Tublian</a></td>
-      <td>Tublian open source internship program lets software developers get real open source experience by collaborating with major open source projects.</td>
-   </tr>
-   <tr>
-      <td><img src="./public/assets/FeaturedIn/iwoc.png" width="200" height="auto" loading="lazy" alt="iwoc"/></td>
-      <td><a href="https://iwoc.codes/">Innogeeks Winter of Code</a></td>
-      <td>Innogeeks Winter of Code is a month-long open-source program envisioned by the Innogeeks. It is an online initiative that introduces new contributors to open-source software development.</td>
-   </tr>
-      <tr>
-      <td><img src="./public/assets/FeaturedIn/KWOC.jpg" width="200" height="auto" loading="lazy" alt="kwoc"/></td>
-      <td><a href="https://kwoc.kossiitkgp.org/">Kharagpur Winter of Code</a></td>
-      <td>Kharagpur Winter of Code is a 5-week long online program for students who are new to open source software development. The program not only helps students to get involved in open source, but also prepares them for many open source summer programs.</td>
-   </tr>
-
-</table>
-
-<hr>
-
-
-<h1 align="center">How to add your profile <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thinking%20Face.png" alt="Thinking Face" width="25" height="25" /></h1>
-<h3 align="center">Thank you for your interest in contributing to our open-source project!<br><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="25" height="25" /><a href="https://youtu.be/fgqQqdY9Cno" target="_blank"><strong> Get help with video instruction</strong></a></h3>
+<h1 align="center">Welcome Contribution <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="25" height="25" /></h1>
+<h3 align="center">Thank you for your interest in contributing to our open-source project! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /><strong> Steps to start your contribution</strong></h3>
 
 <details>
     <summary>How to add your profile <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /></summary>
@@ -250,7 +201,57 @@
 <h1 align="center">Contribution Support <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="25" height="25" /></h1>
 
 <h4 align="center">Thank you for contributing to our open-source project! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="25" height="25" /> Contributions make the open source community such an amazing place to learn, inspire, and create. <br><br> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" />  We appreciate your support <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" /></h4><br>
-<h3 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Star this repository you love our project <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /></h3><hr>
+<h3 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Star this repository you love our project <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /></h3>
+<hr>
+
+
+<h1 align="center">Featured In <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /></h1>
+<table>
+
+   <tr>
+      <th>Program Logo</th>
+      <th>Program Name</th>
+      <th>Program Description</th>
+   </tr>
+   <tr>
+      <td><img src="./public/assets/FeaturedIn/GSSOC.png" width="200" height="auto" loading="lazy" alt="GSSoC 24"/></td>
+      <td><a href="https://gssoc.girlscript.tech/">GirlScript Summer of Code</a></td>
+      <td>GirlScript Summer of Code is a three-month-long Open Source Program conducted every summer by GirlScript Foundation. It is an initiative to bring more beginners to Open-Source Software Development.</td>
+   </tr>
+   <tr>
+      <td><img src="./public/assets/FeaturedIn/SWOC.jpg" width="200" height="auto" loading="lazy" alt="swoc"/></td>
+      <td><a href="https://www.socialwinterofcode.com/">Social Winter of Code</a></td>
+      <td>Social Winter Of Code is the 2 month long open source program by Social India , with the aim to introduce more and more people to the world of Open source.</td>
+   </tr>
+   <tr>
+      <td><img src="./public/assets/FeaturedIn/ieeeIGDTUW.jpg" width="200" height="auto" loading="lazy" alt="IEEE IGDTUW"/></td>
+      <td><a href="https://ieee-igdtuw.github.io/IEEE-IGDTUW-Official-Website/">IEEE IGDTUW Open Source Week</a></td>
+      <td>IEEE IGDTUW Open Source Week is a week-long event aimed at fostering collaboration and skill-building in open-source. Participants can work on impactful projects, learn version control, and gain real-world experience while contributing to open-source communities.</td>
+    </tr>
+    <tr>
+      <td><img src="./public/assets/FeaturedIn/HACKTOBERFEST.jpg" width="200" height="auto" loading="lazy" alt="Hacktoberfest"/></td>
+      <td><a href="https://hacktoberfest.com/">Hacktoberfest</a></td>
+      <td>Hacktoberfest is a month-long virtual event that celebrates open-source software and encourages people to contribute to open-source projects</td>
+   </tr>
+   <tr>
+      <td><img src="./public/assets/FeaturedIn/TublianOS.jpg" width="200" height="auto" loading="lazy" alt="tublian"/></td>
+      <td><a href="https://www.tublian.com/internship">Tublian</a></td>
+      <td>Tublian open source internship program lets software developers get real open source experience by collaborating with major open source projects.</td>
+   </tr>
+   <tr>
+      <td><img src="./public/assets/FeaturedIn/iwoc.png" width="200" height="auto" loading="lazy" alt="iwoc"/></td>
+      <td><a href="https://iwoc.codes/">Innogeeks Winter of Code</a></td>
+      <td>Innogeeks Winter of Code is a month-long open-source program envisioned by the Innogeeks. It is an online initiative that introduces new contributors to open-source software development.</td>
+   </tr>
+      <tr>
+      <td><img src="./public/assets/FeaturedIn/KWOC.jpg" width="200" height="auto" loading="lazy" alt="kwoc"/></td>
+      <td><a href="https://kwoc.kossiitkgp.org/">Kharagpur Winter of Code</a></td>
+      <td>Kharagpur Winter of Code is a 5-week long online program for students who are new to open source software development. The program not only helps students to get involved in open source, but also prepares them for many open source summer programs.</td>
+   </tr>
+</table>
+
+<hr>
+
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /> Creator of DevDisplay <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /></h1>
 
 <h4 align="center"><a href="https://github.com/codeaashu"><img src="./public/CREATOR.jpg" width="100px" /></a><br><a href="https://ashutosh-kumar.vercel.app/"><strong>Ashutosh Singh</strong></a><br><br>
