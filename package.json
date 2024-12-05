@@ -55,7 +55,7 @@
     "flag": "^5.0.1",
     "husky": "^9.1.7",
     "json-loader": "^0.5.7",
-    "prettier": "^3.2.5",
+    "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.15"
   }
