@@ -32,22 +32,23 @@
 <div align="center">     
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="150" height="150" /> <br>
 
-| **⚡** | **One Place** |
-|-------------|-----------------|
-| 🚀 | One platform to discover exceptional tech talent |
-| 🔗 | One platform to connect with passionate tech enthusiasts |
-| 🤝 | One platform to collaborate on groundbreaking ideas |
-| 🔧 | One platform to build innovative projects together |
-| 💡 | One platform to gain inspiration and ignite creativity |
-| 📚 | One platform to access all your tech resources in one place |
-| 🌟 | One platform to find the latest opportunities in tech |
-| 💡 | One platform to turn your ideas into reality |
-| 🌍 | One platform to showcase your projects to the world |
-| 🎯 | One platform to highlight your skills and expertise |
-| 📣 | One platform to promote your work and gain visibility |
-| 📈 | One platform to learn, grow, and thrive with the community |
-| 💸 | One platform to earn rewards and monetize your skills |
-| 🎁 | One platform to get exclusive benefits as a tech enthusiast |
+| **⚡** | **One Place**                                               |
+| ------ | ----------------------------------------------------------- |
+| 🚀     | One platform to discover exceptional tech talent            |
+| 🔗     | One platform to connect with passionate tech enthusiasts    |
+| 🤝     | One platform to collaborate on groundbreaking ideas         |
+| 🔧     | One platform to build innovative projects together          |
+| 💡     | One platform to gain inspiration and ignite creativity      |
+| 📚     | One platform to access all your tech resources in one place |
+| 🌟     | One platform to find the latest opportunities in tech       |
+| 💡     | One platform to turn your ideas into reality                |
+| 🌍     | One platform to showcase your projects to the world         |
+| 🎯     | One platform to highlight your skills and expertise         |
+| 📣     | One platform to promote your work and gain visibility       |
+| 📈     | One platform to learn, grow, and thrive with the community  |
+| 💸     | One platform to earn rewards and monetize your skills       |
+| 🎁     | One platform to get exclusive benefits as a tech enthusiast |
+
 </div>
 </details>
 </div><hr>
@@ -116,6 +117,7 @@
 <a href="https://www.producthunt.com/posts/devdisplay?utm_source=badge-top-post-topic-badge&utm_medium=badge&utm_souce=badge-devdisplay" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-topic-badge.svg?post_id=445392&theme=neutral&period=weekly&topic_id=267" alt="DevDisplay&#0032;environment&#0032;manager&#0032;that&#0032;makes&#0032;you&#0032;2x&#0032;more&#0032;productive | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 <a href="https://www.producthunt.com/posts/devdisplay?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-devdisplay" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=594879&theme=neutral" alt="DevDisplay - Global&#0032;open&#0032;source&#0032;tech&#0032;platform | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 <a href="https://www.producthunt.com/posts/daytona?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-daytona" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=445392&theme=neutral&period=daily" alt="Daytona - Dev&#0032;environment&#0032;manager&#0032;that&#0032;makes&#0032;you&#0032;2x&#0032;more&#0032;productive | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 </div><hr>
 
 <div align="center">

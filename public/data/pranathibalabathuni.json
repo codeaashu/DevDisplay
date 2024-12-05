@@ -4,9 +4,22 @@
   "bio": " want to chamge the world for the better with one new line of code at a time! ",
   "avatar": "https://github.com/pranathibalabathuni.png",
   "portfolio": "https://github.com/pranathibalabathuni",
-  "skills": ["HTML","CSS","Javascript","MYSQL","git","github","python"],
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "MYSQL",
+    "python",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "Prolem Solving",
+    "Database"
+  ],
   "social": {
     "GitHub": "https://github.com/pranathibalabathuni",
-    "LinkedIn": "www.linkedin.com/in/pranathi-balabathuni-47659a305"
+    "Twitter": "https://twitter.com/devdisplay_",
+    "LinkedIn": "https://www.linkedin.com/in/pranathi-balabathuni-47659a305"
   }
 }
