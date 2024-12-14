@@ -1,0 +1,12 @@
+{
+  "name": "Pragya",
+  "location": "New Delhi",
+  "bio": "I am Pragya, a pre-final year B.Tech student in Computer Science at IGDTUW. I am passionate about technology, problem-solving, and exploring innovative solutions. My interests include software development, cryptography, and contributing to impactful projects. At IGDTUW, I have taken on leadership roles and actively participated in technical and social initiatives, showcasing my commitment to personal and professional growth.",
+  "avatar": "https://avatars.githubusercontent.com/u/128255883?v=4",
+  "portfolio": "https://github.com/Pragya1601",
+  "skills": ["C++", "Python", "flask","html","CSS","JS","SQL","Machine Learning","Data Analytics","Cryptography","Data Stryctures and algorithm"],
+  "social": {
+    "GitHub": "https://github.com/Pragya1601",
+    "Twitter": "https://x.com/PragyaChat1601",
+    "LinkedIn": "https://www.linkedin.com/in/pragya-chaturvedi-95a179251/"
+  }
