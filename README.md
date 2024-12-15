@@ -149,6 +149,32 @@
 | <img src="./public/assets/DevBadges/DevPioneer.png" width="250" height="250"> | <img src="./public/assets/DevBadges/DevEnhancer.png" width="250" height="250"> | <img src="./public/assets/DevBadges/DevInnovator.png" width="250" height="250"> |
 |---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 </div>
+
+<p align="center">
+  <h2 align="center">🛠️ How to Earn These Badges 🛠️</h2>
+</p>
+
+<table align="center" width="80%" cellspacing="0" cellpadding="5">
+  <tr>
+    <td align="center">
+      <strong>🌟 Dev Pioneer</strong><br>
+      Add your profile to the DevDisplay platform.
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>🔧 Dev Enhancer</strong><br>
+      Improve or refine existing features with a PR.
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>💡 Dev Innovator</strong><br>
+      Add innovative, creative features to DevDisplay.
+    </td>
+  </tr>
+</table>
+
 ---
 
 ### How to Earn These Badges 🛠️  
