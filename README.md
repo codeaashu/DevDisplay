@@ -144,9 +144,30 @@
      </tbody>
 </table></div><hr>
 
-<marquee behavior="scroll" direction="right" scrollamount="12">Little Fast Scrolling</marquee>
+# DevDisplay Contributor Badges
 
-<marquee width="100%" direction="left" height="100px"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Star This Repository <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /></marquee><hr>
+### 🏅 Contribution Levels and Badges
+
+| Badge           | Description                                                                 | Image Preview                          |
+|-----------------|-----------------------------------------------------------------------------|----------------------------------------|
+| **Dev Pioneer** | 🌟 Label 1 for first-time contributors who join the DevDisplay Community by adding their profile. 🚀 | ![Dev Pioneer](./public/assets/DevBadges/DevPioneer.png)       |
+| **Dev Enhancer**| 🌟 Label 2 for second-time contributors who enhance and refine features of DevDisplay. 🔧          | ![Dev Enhancer](./public/assets/DevBadges/DevEnhancer.png)     |
+| **Dev Innovator**| 🌟 Label 3 for contributors adding new, innovative features to DevDisplay, leading in creativity. 💡 | ![Dev Innovator](./public/assets/DevBadges/DevInnovator.png)   |
+
+---
+
+### How to Earn These Badges 🛠️
+
+1. **Dev Pioneer** 🌟: Add your profile to the DevDisplay platform by contributing a PR with your details.
+2. **Dev Enhancer** 🌟: Refine or improve existing features by submitting a meaningful Pull Request.
+3. **Dev Innovator** 🌟: Propose and add creative, innovative features to DevDisplay.
+
+---
+
+### Adding Your Badge
+After successfully earning a badge, feel free to display it in your personal GitHub profile or portfolio by linking to this repository.
+
+<hr>
 
 <h1 align="center">Welcome Contribution <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="25" height="25" /></h1>
 <h3 align="center">Thank you for your interest in contributing to our open-source project! <br><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /><strong> Steps to start your contribution</strong></h3>
