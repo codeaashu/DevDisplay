@@ -144,26 +144,17 @@
      </tbody>
 </table></div><hr>
 
-# DevDisplay Contributor Badges
+### 🏅 DevDisplay Contributor Badges
 
-### 🏅 Contribution Levels and Badges
-
-| Badge Previews                                                                                 |
-|-----------------------------------------------------------------------------------------------|
-| ![Dev Pioneer](./public/assets/DevBadges/DevPioneer.png) ![Dev Enhancer](./public/assets/DevBadges/DevEnhancer.png) ![Dev Innovator](./public/assets/DevBadges/DevInnovator.png) |
+| ![Dev Pioneer](./public/assets/DevBadges/DevPioneer.png) **Dev Pioneer** | ![Dev Enhancer](./public/assets/DevBadges/DevEnhancer.png) **Dev Enhancer** | ![Dev Innovator](./public/assets/DevBadges/DevInnovator.png) **Dev Innovator** |
+|------------------------------------------------------------------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------|
 
 ---
 
-### How to Earn These Badges 🛠️
-
-1. **Dev Pioneer** 🌟: Add your profile to the DevDisplay platform by contributing a PR with your details.
-2. **Dev Enhancer** 🌟: Refine or improve existing features by submitting a meaningful Pull Request.
-3. **Dev Innovator** 🌟: Propose and add creative, innovative features to DevDisplay.
-
----
-
-### Adding Your Badge
-After successfully earning a badge, feel free to display it in your personal GitHub profile or portfolio by linking to this repository.
+### How to Earn These Badges 🛠️  
+- **Dev Pioneer** 🌟: Add your profile to the DevDisplay platform.  
+- **Dev Enhancer** 🔧: Improve or refine existing features with a PR.  
+- **Dev Innovator** 💡: Add innovative, creative features to DevDisplay.
 
 <hr>
 
