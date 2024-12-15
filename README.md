@@ -152,12 +152,12 @@
 
 <h2 align="center">🛠️ How to Earn These Badges 🛠️</h2>
 
-<p align="center">Follow these steps to earn your DevDisplay Contributor Badges:</p>
+<p align="center">Follow these to earn your DevDisplay Contributor Badges:</p>
 
 ---
 
 <p align="center">
-  <strong>Step 1: 🌟 Dev Pioneer</strong><br>
+  <strong>🌟 Dev Pioneer</strong><br>
   Add your profile to the DevDisplay platform.<br>
   <em>(Join the community by submitting a PR with your details.)</em>
 </p>
@@ -165,7 +165,7 @@
 ---
 
 <p align="center">
-  <strong>Step 2: 🔧 Dev Enhancer</strong><br>
+  <strong>🔧 Dev Enhancer</strong><br>
   Improve or refine existing features.<br>
   <em>(Submit a meaningful Pull Request that enhances the platform.)</em>
 </p>
@@ -173,45 +173,10 @@
 ---
 
 <p align="center">
-  <strong>Step 3: 💡 Dev Innovator</strong><br>
+  <strong>💡 Dev Innovator</strong><br>
   Propose and add innovative, creative features.<br>
   <em>(Lead with creativity by implementing new ideas in DevDisplay.)</em>
 </p>
-
-
-
-<p align="center">
-  <h2 align="center">🛠️ How to Earn These Badges 🛠️</h2>
-</p>
-
-<table align="center" width="80%" cellspacing="0" cellpadding="5">
-  <tr>
-    <td align="center">
-      <strong>🌟 Dev Pioneer</strong><br>
-      Add your profile to the DevDisplay platform.
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <strong>🔧 Dev Enhancer</strong><br>
-      Improve or refine existing features with a PR.
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <strong>💡 Dev Innovator</strong><br>
-      Add innovative, creative features to DevDisplay.
-    </td>
-  </tr>
-</table>
-
----
-
-### How to Earn These Badges 🛠️  
-- **Dev Pioneer** 🌟: Add your profile to the DevDisplay platform.  
-- **Dev Enhancer** 🔧: Improve or refine existing features with a PR.  
-- **Dev Innovator** 💡: Add innovative, creative features to DevDisplay.
-
 <hr>
 
 <h1 align="center">Welcome Contribution <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="25" height="25" /></h1>
