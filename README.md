@@ -154,23 +154,17 @@
 
 <p align="center">Follow these to earn your DevDisplay Contributor Badges:</p>
 
----
-
 <p align="center">
   <strong><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Dev Pioneer</strong><br>
   Add your profile to the DevDisplay platform.<br>
   <em>(Join the community by submitting a PR with your details.)</em>
 </p>
 
----
-
 <p align="center">
   <strong><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /> Dev Enhancer</strong><br>
   Improve or refine existing features.<br>
   <em>(Submit a meaningful Pull Request that enhances the platform.)</em>
 </p>
-
----
 
 <p align="center">
   <strong><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Light%20Bulb.webp" alt="Light Bulb" width="25" height="25" /> Dev Innovator</strong><br>
