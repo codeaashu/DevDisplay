@@ -143,12 +143,12 @@
         </tr>
      </tbody>
 </table></div><hr>
-
+<div align="center">
 ### 🏅 DevDisplay Contributor Badges
 
-| <img src="./public/assets/DevBadges/DevPioneer.png" width="100" height="100"> | <img src="./public/assets/DevBadges/DevEnhancer.png" width="100" height="100"> | <img src="./public/assets/DevBadges/DevInnovator.png" width="100" height="100"> |
+| <img src="./public/assets/DevBadges/DevPioneer.png" width="150" height="150"> | <img src="./public/assets/DevBadges/DevEnhancer.png" width="150" height="150"> | <img src="./public/assets/DevBadges/DevInnovator.png" width="150" height="150"> |
 |---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-
+</div>
 ---
 
 ### How to Earn These Badges 🛠️  
