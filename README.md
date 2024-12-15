@@ -28,7 +28,7 @@
   DevDisplay is a global open-source tech community and organization that brings together all your tech needs in one place.<br><br>
 
 <details>
-    <summary>Your all-in-one destination for everything in tech!</summary>
+    <summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Click here to explore your all-in-one destination for everything tech! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></summary>
 <div align="center">     
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="150" height="150" /> <br>
 
@@ -157,7 +157,7 @@
 ---
 
 <p align="center">
-  <strong>🌟 Dev Pioneer</strong><br>
+  <strong><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Dev Pioneer</strong><br>
   Add your profile to the DevDisplay platform.<br>
   <em>(Join the community by submitting a PR with your details.)</em>
 </p>
@@ -173,7 +173,7 @@
 ---
 
 <p align="center">
-  <strong>💡 Dev Innovator</strong><br>
+  <strong><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Light%20Bulb.webp" alt="Light Bulb" width="25" height="25" /> Dev Innovator</strong><br>
   Propose and add innovative, creative features.<br>
   <em>(Lead with creativity by implementing new ideas in DevDisplay.)</em>
 </p>
