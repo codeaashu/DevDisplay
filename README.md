@@ -150,7 +150,7 @@
 |---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 </div>
 
-<h2 align="center">🛠️ How to Earn These Badges 🛠️</h2>
+<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" /> How to Earn These Badges <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" /></h2>
 
 <p align="center">Follow these to earn your DevDisplay Contributor Badges:</p>
 
