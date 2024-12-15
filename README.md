@@ -150,6 +150,36 @@
 |---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 </div>
 
+<h2 align="center">🛠️ How to Earn These Badges 🛠️</h2>
+
+<p align="center">Follow these steps to earn your DevDisplay Contributor Badges:</p>
+
+---
+
+<p align="center">
+  <strong>Step 1: 🌟 Dev Pioneer</strong><br>
+  Add your profile to the DevDisplay platform.<br>
+  <em>(Join the community by submitting a PR with your details.)</em>
+</p>
+
+---
+
+<p align="center">
+  <strong>Step 2: 🔧 Dev Enhancer</strong><br>
+  Improve or refine existing features.<br>
+  <em>(Submit a meaningful Pull Request that enhances the platform.)</em>
+</p>
+
+---
+
+<p align="center">
+  <strong>Step 3: 💡 Dev Innovator</strong><br>
+  Propose and add innovative, creative features.<br>
+  <em>(Lead with creativity by implementing new ideas in DevDisplay.)</em>
+</p>
+
+
+
 <p align="center">
   <h2 align="center">🛠️ How to Earn These Badges 🛠️</h2>
 </p>
