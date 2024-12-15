@@ -146,8 +146,8 @@
 
 ### 🏅 DevDisplay Contributor Badges
 
-| ![Dev Pioneer](./public/assets/DevBadges/DevPioneer.png) **Dev Pioneer** | ![Dev Enhancer](./public/assets/DevBadges/DevEnhancer.png) **Dev Enhancer** | ![Dev Innovator](./public/assets/DevBadges/DevInnovator.png) **Dev Innovator** |
-|------------------------------------------------------------------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| <img src="./public/assets/DevBadges/DevPioneer.png" width="100" height="100"> **Dev Pioneer** | <img src="./public/assets/DevBadges/DevEnhancer.png" width="100" height="100"> **Dev Enhancer** | <img src="./public/assets/DevBadges/DevInnovator.png" width="100" height="100"> **Dev Innovator** |
+|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 
 ---
 
