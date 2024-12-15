@@ -148,11 +148,9 @@
 
 ### 🏅 Contribution Levels and Badges
 
-| Badge           | Description                                                                 | Image Preview                          |
-|-----------------|-----------------------------------------------------------------------------|----------------------------------------|
-| **Dev Pioneer** | 🌟 Label 1 for first-time contributors who join the DevDisplay Community by adding their profile. 🚀 | ![Dev Pioneer](./public/assets/DevBadges/DevPioneer.png)       |
-| **Dev Enhancer**| 🌟 Label 2 for second-time contributors who enhance and refine features of DevDisplay. 🔧          | ![Dev Enhancer](./public/assets/DevBadges/DevEnhancer.png)     |
-| **Dev Innovator**| 🌟 Label 3 for contributors adding new, innovative features to DevDisplay, leading in creativity. 💡 | ![Dev Innovator](./public/assets/DevBadges/DevInnovator.png)   |
+| Badge Previews                                                                                 |
+|-----------------------------------------------------------------------------------------------|
+| ![Dev Pioneer](./public/assets/DevBadges/DevPioneer.png) ![Dev Enhancer](./public/assets/DevBadges/DevEnhancer.png) ![Dev Innovator](./public/assets/DevBadges/DevInnovator.png) |
 
 ---
 
