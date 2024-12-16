@@ -7,7 +7,7 @@
             <td><b>🐛 Issues</b></td>
             <td><b>🔔 Open PRs</b></td>
             <td><b>🔕 Close PRs</b></td>
-            <td><b>🌐 C ontributors</b></td>
+            <td><b>🌐 Contributors</b></td>
         </tr>
      </thead>
      <tbody>
