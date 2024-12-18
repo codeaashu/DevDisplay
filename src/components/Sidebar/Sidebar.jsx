@@ -83,7 +83,7 @@ function Sidebar() {
           Unlock the Power of DevDisplay
         </button>
       </div>
-      <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
+      {/* <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
         <a
           href="https://www.producthunt.com/posts/devdisplay?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-devdisplay"
           target="_blank"
@@ -97,7 +97,7 @@ function Sidebar() {
             height="54"
           />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
