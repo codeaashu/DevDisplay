@@ -8,7 +8,7 @@ const ProjectsPage = () => {
           This is the project Showcase page - Want to Build this page as a contributer
         </h1>
       </header>
-      <h1 className="text-2xl font-bold">Click here to check out the feature details 👇🏻</h1>
+      <h1 className="text-2xl font-bold">Click here for features details 👇🏻</h1>
       <a href="https://github.com/codeaashu/DevDisplay/issues/571#issue-2678911438" target="_blank" rel="noreferrer">
         <button className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
           <span>
