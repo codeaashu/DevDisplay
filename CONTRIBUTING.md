@@ -8,7 +8,7 @@ Starring the repository is a mandatory step for all contributors and the first p
 </div>
 
 <details>
-    <summary align="center">1. Add Your Profile on DevDisplay<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /></summary>
+    <summary align="center">Now Click Here To Add Your Profile on DevDisplay and Start your Contribution<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /></summary>
 
 <h3 align="center">Steps to Add Your Profile<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Down.png" alt="Backhand Index Pointing Down" width="25" height="25" /></h3>
 
