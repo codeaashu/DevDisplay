@@ -109,7 +109,7 @@ If you're new to Git and GitHub, no worries! Here are some useful resources:
 </details>
 <br>
 <details>
-    <summary align="center">Now Click Here To View The Project Structure 📂</summary>
+    <summary align="center"> Click Here To View The Project Structure 📂</summary>
 
 ```bash
 DEVDISPLAY/
@@ -289,7 +289,8 @@ To report an issue, follow these steps:
 3. Provide a clear and concise description of the issue.
 4. Wait until someone looks into your report.
 5. Begin working on the issue only after you have been assigned to it. 🚀
-</hr>
+<hr>
 
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" /> We appreciate your support <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="25" height="25" /> Thank you for contributing <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" /></h1>
+
 <div align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="150" height="150" /></div>
