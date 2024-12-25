@@ -53,10 +53,10 @@ function ProfileSkeleton() {
               {skeletonData.social.GitHub}
             </div>
             <div className="skeleton mt-[0.4rem] flex h-[2rem] w-[2rem] rounded-[0.25rem]">
-              {skeletonData.social.Gmail}
+              {skeletonData.social.Instagram}
             </div>
             <div className="skeleton mt-[0.4rem] flex h-[2rem] w-[2rem] rounded-[0.25rem]">
-              {skeletonData.social.Instagram}
+              {skeletonData.social.Gmail}
             </div>
           </div>
         </div>
