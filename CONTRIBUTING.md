@@ -73,7 +73,12 @@ Starring the repository is a mandatory step for all contributors and the first p
 7. **Add your JSON filename** (your_github_username.json) to the array of filenames in the ProfileList.json file, like this:
 
    ```json
-   ["filename1.json", "filename2.json", "filename3.json", "your_github_username.json"]
+   [
+   "filename1.json",
+   "filename2.json",
+   "filename3.json",
+   "your_github_username.json"
+   ]
    ```
 
 8. **Save** the **`ProfileLists.json`** file.
@@ -87,10 +92,10 @@ Starring the repository is a mandatory step for all contributors and the first p
 </div>
 </details>
 
-</hr>
+<hr>
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Raising%20Hand%20Light%20Skin%20Tone.png" alt="Man Raising Hand Light Skin Tone" width="25" height="25" /> Need Help <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Raising%20Hand%20Light%20Skin%20Tone.png" alt="Man Raising Hand Light Skin Tone" width="25" height="25" /></h1>
 <details>
-    <summary align="center">Now Click Here For Need Help With The Basics? 🤔</summary>
+    <summary align="center"> Click Here For Need Help With The Basics? 🤔</summary>
 
 If you're new to Git and GitHub, no worries! Here are some useful resources:
 
@@ -104,7 +109,7 @@ If you're new to Git and GitHub, no worries! Here are some useful resources:
 </details>
 <br>
 <details>
-    <summary align="center">Now Click Here To View The Project Structure 📂</summary>
+    <summary align="center"> Click Here To View The Project Structure 📂</summary>
 
 ```bash
 DEVDISPLAY/
@@ -136,12 +141,11 @@ DEVDISPLAY/
 ├──
 ├── tailwind.config.js
 ```
-
 <hr>
 </details>
 <br>
 <details>
-    <summary align="center">Now Click Here For First Pull Request ✨</summary>
+    <summary align="center"> Click Here For First Pull Request ✨</summary>
 
 1. **Star this repository**
    Click on the top right corner marked as **Stars** at last.
@@ -192,9 +196,9 @@ git push -u origin <your_branch_name>
 </details>
 <br>
 <details>
-    <summary align="center">Now Click Here For Installing The Node Packages 📩</summary>
+    <summary align="center"> Click Here For Installing The Node Packages 📩</summary>
 
-11. **Install dependencies**
+1. **Install dependencies**
 
 Time to gather our supplies! Navigate to the project folder in your terminal and install the dependencies with these magical incantations:
 
@@ -217,12 +221,11 @@ Before you reveal your wizardry, ensure everything works like a charm. Run the t
 ```bash
 npm test
 ```
-
 <hr>
 </details>
 <br>
 <details>
-    <summary align="center">Now Click Here For Contribute using GitHub Desktop 🖥️</summary>
+    <summary align="center"> Click Here For Contribute using GitHub Desktop 🖥️</summary>
 
 1. **Open GitHub Desktop:**
    Launch GitHub Desktop and log in to your GitHub account if you haven't already.
@@ -261,11 +264,10 @@ npm test
 - Once you're satisfied, click the "Create pull request" button to submit your pull request.
 
 9. **Wait for Review:**
-Your pull request will now be available for review by the project maintainers. They may provide feedback or ask for changes before merging your pull request into the main branch of the project repository.
+   Your pull request will now be available for review by the project maintainers. They may provide feedback or ask for changes before merging your pull request into the main branch of the project repository.
 <hr>
-</details>
-<br> 
-</hr>
+</details> 
+<hr>
 
 # Pull Request Process <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" />
 
@@ -287,7 +289,8 @@ To report an issue, follow these steps:
 3. Provide a clear and concise description of the issue.
 4. Wait until someone looks into your report.
 5. Begin working on the issue only after you have been assigned to it. 🚀
-</hr>
+<hr>
 
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" /> We appreciate your support <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="25" height="25" /> Thank you for contributing <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" /></h1>
+
 <div align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="150" height="150" /></div>
