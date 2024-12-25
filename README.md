@@ -176,8 +176,11 @@
 
 <div slign="center">
 <h1 align="center">DevDisplay Welcomes Your Contribution<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="25" height="25" /></h1>
-
-<h3 align="center">Thank you for your interest in contributing to our open-source project! <br><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /><strong> Check out the [Contribution Details](https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md)</strong></h3>
+ Contributions make the open source community such an amazing place to learn, inspire, and create.
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="75" height="75" />
+ Check out the [Contribution Details](https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md)
+     
+<h5 align="center"> Contributions make the open source community such an amazing place to learn, inspire, and create. <br><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /><strong> Check out the [Contribution Details](https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md)</strong></h3>Thank you for your interest in contributing to our open-source project!
 
 <h1 align="center">Contribution Support <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="25" height="25" /></h1>
 
