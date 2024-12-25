@@ -138,7 +138,7 @@
         <tr border: 2px;>
             <td><b><a href="https://github.com/devdisplay"> GitHub </a></b></td>
             <td><b><a href="https://discord.gg/chyt2UgTv5"> Discord </a></b></td>
-            <td><b><a href="https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4"> WhatsApp </a></b></td>
+            <td><b><a href="https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4"> WA </a></b></td>
             <td><b><a href="https://www.linkedin.com/company/devdisplay/"> Linkedin </a></b></td>
             <td><b><a href="https://x.com/devdisplay"> Twitter </a></b></td>
             <td><b><a href="https://www.instagram.com/devdisplay/"> Insta. </a></b></td>
