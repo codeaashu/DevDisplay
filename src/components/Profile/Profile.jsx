@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
-import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
+import { FaGithub, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { FaLocationDot } from 'react-icons/fa6';
 
 function Profile({ data }) {
   return <Card data={data} />;
@@ -117,18 +117,6 @@ function Card({ data }) {
           {data.social?.GitHub && (
             <a href={data.social.GitHub} target="_blank" rel="noreferrer">
               <FaGithub className="text-2xl text-blue-600 duration-300 hover:scale-125" />
-            </a>
-          )}
-
-          {data.social?.Twitter && (
-            <a href={data.social.Twitter} target="_blank" rel="noreferrer">
-              <FaXTwitter className="text-2xl text-blue-600 duration-300 hover:scale-125" />
-            </a>
-          )}
-
-          {data.social?.LinkedIn && (
-            <a href={data.social.LinkedIn} target="_blank" rel="noreferrer">
-              <FaLinkedin className="text-2xl text-blue-600 duration-300 hover:scale-125" />
             </a>
           )}
 
