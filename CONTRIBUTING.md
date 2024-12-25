@@ -95,7 +95,7 @@ Starring the repository is a mandatory step for all contributors and the first p
 <hr>
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Raising%20Hand%20Light%20Skin%20Tone.png" alt="Man Raising Hand Light Skin Tone" width="25" height="25" /> Need Help <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Raising%20Hand%20Light%20Skin%20Tone.png" alt="Man Raising Hand Light Skin Tone" width="25" height="25" /></h1>
 <details>
-    <summary align="center">Now Click Here For Need Help With The Basics? 🤔</summary>
+    <summary align="center"> Click Here For Need Help With The Basics? 🤔</summary>
 
 If you're new to Git and GitHub, no worries! Here are some useful resources:
 
@@ -145,7 +145,7 @@ DEVDISPLAY/
 </details>
 <br>
 <details>
-    <summary align="center">Now Click Here For First Pull Request ✨</summary>
+    <summary align="center"> Click Here For First Pull Request ✨</summary>
 
 1. **Star this repository**
    Click on the top right corner marked as **Stars** at last.
@@ -196,7 +196,7 @@ git push -u origin <your_branch_name>
 </details>
 <br>
 <details>
-    <summary align="center">Now Click Here For Installing The Node Packages 📩</summary>
+    <summary align="center"> Click Here For Installing The Node Packages 📩</summary>
 
 1. **Install dependencies**
 
@@ -225,7 +225,7 @@ npm test
 </details>
 <br>
 <details>
-    <summary align="center">Now Click Here For Contribute using GitHub Desktop 🖥️</summary>
+    <summary align="center"> Click Here For Contribute using GitHub Desktop 🖥️</summary>
 
 1. **Open GitHub Desktop:**
    Launch GitHub Desktop and log in to your GitHub account if you haven't already.
@@ -266,8 +266,7 @@ npm test
 9. **Wait for Review:**
    Your pull request will now be available for review by the project maintainers. They may provide feedback or ask for changes before merging your pull request into the main branch of the project repository.
 <hr>
-</details>
-<br> 
+</details> 
 <hr>
 
 # Pull Request Process <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" />
