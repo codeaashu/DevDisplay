@@ -279,7 +279,8 @@ When submitting a pull request, please adhere to the following:
 5. Submit your PR using the provided template and hang tight; we'll review it as soon as possible! 🚀
 </hr>
 
-# Issue Report Process <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="25" height="25" />
+<div align="center">
+<h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="25" height="25" /> Issue Report Process <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="25" height="25" /></h1></div>
 
 To report an issue, follow these steps:
 
