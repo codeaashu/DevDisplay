@@ -2,6 +2,29 @@
 
 <div align="center">
 <a href="https://drive.google.com/file/d/17Wh9xxN_SIeEVcejoSN7K7tUhWXPvSxR/view?usp=sharing" target="_blank" rel="noreferrer">View the 8 Benefits of Contributing to DevDisplay</a>
+
+<table align="center">
+     <thead>
+         <tr>
+            <td><img src="./public/assets/SocialLogo/GitHub.png" alt="Discord Logo" width="50"></td>
+            <td><img src="./public/assets/SocialLogo/Discord.png" alt="Discord Logo" width="50"></td>
+            <td><img src="./public/assets/SocialLogo/WhatsApp.png" alt="WhatsApp Logo" width="50"></td>
+            <td><img src="./public/assets/SocialLogo/Linkedin.webp" alt="Linkedin Logo" width="50"></td>
+            <td><img src="./public/assets/SocialLogo/X.png" alt="Twitter Logo" width="50"></td>
+            <td><img src="./public/assets/SocialLogo/Instagram.png" alt="Instagram Logo" width="50"></td>
+        </tr>
+    </thead>
+     <tbody align="center">
+        <tr border: 2px;>
+            <td><b><a href="https://github.com/devdisplay"> GitHub </a></b></td>
+            <td><b><a href="https://discord.gg/chyt2UgTv5"> Discord </a></b></td>
+            <td><b><a href="https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4"> WA </a></b></td>
+            <td><b><a href="https://www.linkedin.com/company/devdisplay/"> Linkedin </a></b></td>
+            <td><b><a href="https://x.com/devdisplay"> Twitter </a></b></td>
+            <td><b><a href="https://www.instagram.com/devdisplay/"> Insta. </a></b></td>
+        </tr>
+     </tbody>
+</table></div>
   
 <h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Let's Start, But First <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Star The DevDisplay Repository! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1>
 Starring the repository is a mandatory step for all contributors and the first priority in contributing to DevDisplay.<br>
@@ -68,28 +91,6 @@ Starring the repository is a mandatory step for all contributors and the first p
 <div align="center">
   <h2>Connect with DevDisplay Organization <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Raising%20Hands.webp" alt="Raising Hands" width="25" height="25" /></h2>
 </div>
-<table align="center">
-     <thead>
-         <tr>
-            <td><img src="./public/assets/SocialLogo/GitHub.png" alt="Discord Logo" width="50"></td>
-            <td><img src="./public/assets/SocialLogo/Discord.png" alt="Discord Logo" width="50"></td>
-            <td><img src="./public/assets/SocialLogo/WhatsApp.png" alt="WhatsApp Logo" width="50"></td>
-            <td><img src="./public/assets/SocialLogo/Linkedin.webp" alt="Linkedin Logo" width="50"></td>
-            <td><img src="./public/assets/SocialLogo/X.png" alt="Twitter Logo" width="50"></td>
-            <td><img src="./public/assets/SocialLogo/Instagram.png" alt="Instagram Logo" width="50"></td>
-        </tr>
-    </thead>
-     <tbody align="center">
-        <tr border: 2px;>
-            <td><b><a href="https://github.com/devdisplay"> GitHub </a></b></td>
-            <td><b><a href="https://discord.gg/chyt2UgTv5"> Discord </a></b></td>
-            <td><b><a href="https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4"> WA </a></b></td>
-            <td><b><a href="https://www.linkedin.com/company/devdisplay/"> Linkedin </a></b></td>
-            <td><b><a href="https://x.com/devdisplay"> Twitter </a></b></td>
-            <td><b><a href="https://www.instagram.com/devdisplay/"> Insta. </a></b></td>
-        </tr>
-     </tbody>
-</table></div><hr>
 
 <details>
     <summary align="center">Now Click Here For Need Help With The Basics? 🤔</summary>
