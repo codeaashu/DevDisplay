@@ -32,4 +32,4 @@ const Opportunities = () => {
   );
 };
 
-export default ;
+export default Opportunities;
