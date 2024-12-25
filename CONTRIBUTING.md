@@ -62,10 +62,9 @@ Starring the repository is a mandatory step for all contributors and the first p
 10. **Wait for review and merge:** Wait for the project maintainers to review and merge your changes.
 
 <h3 align="center">Once your changes are merged <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Your profile will be displayed on the project's website and you will receive a Dev Pioneer Badge via email also a personalized appreciation post will be shared on LinkedIn and Twitter through DevDisplay's official social media handles.</h3><hr>
-
 </div>
 </details>
-
+---
 <div align="center">
   <h2>Connect with DevDisplay Organization <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Raising%20Hands.webp" alt="Raising Hands" width="25" height="25" /></h2>
 </div>
