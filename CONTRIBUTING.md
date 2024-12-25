@@ -64,7 +64,7 @@ Starring the repository is a mandatory step for all contributors and the first p
 <h3 align="center">Once your changes are merged <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Your profile will be displayed on the project's website and you will receive a Dev Pioneer Badge via email also a personalized appreciation post will be shared on LinkedIn and Twitter through DevDisplay's official social media handles.</h3><hr>
 </div>
 </details>
----
+
 <div align="center">
   <h2>Connect with DevDisplay Organization <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Raising%20Hands.webp" alt="Raising Hands" width="25" height="25" /></h2>
 </div>
@@ -91,15 +91,8 @@ Starring the repository is a mandatory step for all contributors and the first p
      </tbody>
 </table></div><hr>
 
-# <h1 align="center">Star our Repository ⭐</h1>
-
-# <p align = "center">[![Discord](https://img.shields.io/badge/Discord-darkblue?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/channels/@warrior_aashuu) </p>
-
-### <div align = "center" style = "display:flex; justify-content:space-evenly; gap:100px;" > [![Stars](https://img.shields.io/github/stars/codeaashu/DevDisplay?style=for-the-badge&logo=github)](https://github.com/codeaashu/DevDisplay/stargazers) [![Forks](https://img.shields.io/github/forks/codeaashu/DevDisplay?style=for-the-badge&logo=github)](https://github.com/codeaashu/DevDisplay/network/members) [![Issues](https://img.shields.io/github/issues/codeaashu/DevDisplay?style=for-the-badge&logo=github)](https://github.com/codeaashu/DevDisplay/issues) [![PRs Open](https://img.shields.io/github/issues-pr/codeaashu/DevDisplay?style=for-the-badge&logo=github)](https://github.com/codeaashu/DevDisplay/pulls) [![PRs Closed](https://img.shields.io/github/issues-pr-closed/codeaashu/DevDisplay?style=for-the-badge&logo=github&color=2cbe4e)](https://github.com/codeaashu/DevDisplay/pulls?q=is%3Apr+is%3Aclosed)</div>
-
-<br>
-
-# Need Help With The Basics? 🤔
+<details>
+    <summary align="center">Now Click Here For Need Help With The Basics? 🤔</summary>
 
 If you're new to Git and GitHub, no worries! Here are some useful resources:
 
@@ -109,9 +102,11 @@ If you're new to Git and GitHub, no worries! Here are some useful resources:
 - [Getting Started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 - [Learn GitHub from Scratch](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources)
 
+<hr>
+</details>
 <br>
-
-# Project Structure 📂
+<details>
+    <summary align="center">Now Click Here To View The Project Structure 📂</summary>
 
 ```bash
 DEVDISPLAY/
@@ -143,7 +138,8 @@ DEVDISPLAY/
 ├──
 ├── tailwind.config.js
 ```
-
+<hr>
+</details>
 <br>
 
 # First Pull Request ✨
