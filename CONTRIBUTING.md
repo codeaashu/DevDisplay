@@ -1,4 +1,4 @@
-# Contributing to DevDisplay 🚀
+<h1 align="center">Welcome Contribution <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="25" height="25" /></h1>
 
 Thank you for your interest in contributing to **DevDisplay**. Whether you're here to fix a bug, suggest a new feature, or add more chaos to the project, your contributions are highly appreciated!
 
