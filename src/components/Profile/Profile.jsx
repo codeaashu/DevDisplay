@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { FaInstagram, FaEnvelope } from 'react-icons/fa6';
 import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
 
 function Profile({ data }) {
