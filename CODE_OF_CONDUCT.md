@@ -1,11 +1,13 @@
 # Code of Conduct for DevDisplay
 
 ## Purpose
+
 DevDisplay is dedicated to providing a welcoming and inclusive environment for everyone, regardless of their level of expertise, background, or identity. This Code of Conduct outlines our expectations for all community participants to foster a positive and collaborative environment.
 
 ---
 
 ## Our Pledge
+
 In the interest of fostering an open and welcoming environment, we as contributors, maintainers, and participants pledge to make participation in DevDisplay a harassment-free experience for everyone.
 
 ---
@@ -15,14 +17,17 @@ In the interest of fostering an open and welcoming environment, we as contributo
 We expect all participants to:
 
 1. **Be Respectful:**
+
    - Treat everyone with respect and courtesy.
    - Approach disagreements constructively and considerately.
 
 2. **Be Inclusive:**
+
    - Ensure everyone feels welcome and valued.
    - Avoid discriminatory, exclusionary, or harmful language and actions.
 
 3. **Be Collaborative:**
+
    - Share knowledge and help others.
    - Focus on improving the platform and the experience for all.
 
@@ -50,28 +55,31 @@ If you experience or witness behavior that violates this Code of Conduct:
 1. **Contact the Admin Team:**
    - Email: [hellow.ashutosh@gmail.com](mailto:team@devdisplay.org)
    - GitHub: [Ashutosh Kumar](https://github.com/codeaashu)
-  
+
 ---
 
-#### **For More Details and Help**  
+#### **For More Details and Help**
+
 - **Join DevDisplay Discord Community**: [Discord Community](https://discord.gg/chyt2UgTv5)
-- **Join DevDisplay WhatsApp Community**: [WhatsApp Community](https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4) 
-   - Connect with other developers and collaborate on exciting projects.
+- **Join DevDisplay WhatsApp Community**: [WhatsApp Community](https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4)
 
+  - Connect with other developers and collaborate on exciting projects.
 
-- **Reach Out to the Team**:  
-   - Company Email: team@devdisplay.org  
-   - Creator's Email: hellow.ashutosh@gmail.com  
+- **Reach Out to the Team**:
+
+  - Company Email: team@devdisplay.org
+  - Creator's Email: hellow.ashutosh@gmail.com
 
 - **Connect on Social Media**:
-   - **GitHub Organization**: https://github.com/devdisplay  
-   - **LinkedIn**: https://www.linkedin.com/company/devdisplay/ 
-   - **Twitter**: https://x.com/devdisplay_
-   - **Instagram**: https://www.instagram.com/devdisplay/
+  - **GitHub Organization**: https://github.com/devdisplay
+  - **LinkedIn**: https://www.linkedin.com/company/devdisplay/
+  - **Twitter**: https://x.com/devdisplay_
+  - **Instagram**: https://www.instagram.com/devdisplay/
 
 ---
 
 2. **Provide Details:**
+
    - Include a description of the incident, relevant links, or screenshots if possible.
 
 3. **Expect a Response:**
@@ -96,4 +104,3 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 ---
 
 Thank you for helping us maintain a respectful and inclusive community at **DevDisplay**.
-
