@@ -1,6 +1,6 @@
 <h1 align="center">Welcome Contribution <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="25" height="25" /></h1>
 
-<h3 align="center">Thank you for your interest in contributing to DevDisplay.<br><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" />Whether you're here to fix a bug, suggest a new feature, or add more chaos to the project, your contributions are highly appreciated!</h3>
+<h3 align="center">Thank you for your interest in contributing to DevDisplay.</h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /><br><h5>Whether you're here to fix a bug, suggest a new feature, or add more chaos to the project, your contributions are highly appreciated!</h5>
 <br>
 
 # Code of Conduct 📃
