@@ -92,7 +92,7 @@ Starring the repository is a mandatory step for all contributors and the first p
 </div>
 </details>
 
-</hr>
+<hr>
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Raising%20Hand%20Light%20Skin%20Tone.png" alt="Man Raising Hand Light Skin Tone" width="25" height="25" /> Need Help <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Raising%20Hand%20Light%20Skin%20Tone.png" alt="Man Raising Hand Light Skin Tone" width="25" height="25" /></h1>
 <details>
     <summary align="center">Now Click Here For Need Help With The Basics? 🤔</summary>
@@ -268,7 +268,7 @@ npm test
 <hr>
 </details>
 <br> 
-</hr>
+<hr>
 
 # Pull Request Process <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" />
 
