@@ -8,17 +8,26 @@ const ProjectsPage = () => {
           This is the Portfolio Ideas page - Want to Build this page as a contributer
         </h1>
       </header>
-      <h1 className="text-2xl font-bold">Features</h1>
-      <h1>
-        Add a features in this page where developers can showcase their portfolio - Develoepr first add their portfolio
-        through the open source contribution and then the portfolio are showcasing here
-      </h1>
-      <hr />
-      <h1 className="text-2xl font-bold">Take help by this 👇🏻</h1>
-      <h1>
-        Project adding inspiration --- https://portfolio-ideas.vercel.app/ --- and thier source code ---
-        https://github.com/Evavic44/portfolio-ideas
-      </h1>
+      <h1 className="text-2xl font-bold">Click here for features details 👇🏻</h1>
+      <a href="https://github.com/codeaashu/DevDisplay/issues/604#issue-2758475020" target="_blank" rel="noreferrer">
+        <button className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+          <span>
+            <b>🌟 Add Portfolio Ideas Features 💌 & Get 8 Benefits 🌟</b>
+          </span>
+        </button>
+      </a>
+      <h2 className="mt-8 text-2xl font-bold">Benefits of Contribution</h2>
+      <a
+        href="https://drive.google.com/file/d/17Wh9xxN_SIeEVcejoSN7K7tUhWXPvSxR/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <button className="mt-4 inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+          <span>
+            <b>📄 View the Benefits of Contributing to DevDisplay</b>
+          </span>
+        </button>
+      </a>
     </div>
   );
 };
