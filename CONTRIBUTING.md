@@ -73,12 +73,7 @@ Starring the repository is a mandatory step for all contributors and the first p
 7. **Add your JSON filename** (your_github_username.json) to the array of filenames in the ProfileList.json file, like this:
 
    ```json
-   [
-   "filename1.json",
-   "filename2.json",
-   "filename3.json",
-   "your_github_username.json"
-   ]
+   ["filename1.json", "filename2.json", "filename3.json", "your_github_username.json"]
    ```
 
 8. **Save** the **`ProfileLists.json`** file.
@@ -139,6 +134,7 @@ DEVDISPLAY/
 ├──
 ├── tailwind.config.js
 ```
+
 <hr>
 </details>
 <br>
@@ -196,7 +192,7 @@ git push -u origin <your_branch_name>
 <details>
     <summary align="center">Now Click Here For Installing The Node Packages 📩</summary>
 
-1. **Install dependencies**
+11. **Install dependencies**
 
 Time to gather our supplies! Navigate to the project folder in your terminal and install the dependencies with these magical incantations:
 
@@ -219,6 +215,7 @@ Before you reveal your wizardry, ensure everything works like a charm. Run the t
 ```bash
 npm test
 ```
+
 <hr>
 </details>
 <br>
@@ -262,7 +259,7 @@ npm test
 - Once you're satisfied, click the "Create pull request" button to submit your pull request.
 
 9. **Wait for Review:**
-   Your pull request will now be available for review by the project maintainers. They may provide feedback or ask for changes before merging your pull request into the main branch of the project repository.
+Your pull request will now be available for review by the project maintainers. They may provide feedback or ask for changes before merging your pull request into the main branch of the project repository.
 <hr>
 </details>
 <br>

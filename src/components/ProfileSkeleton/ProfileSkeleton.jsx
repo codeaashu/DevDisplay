@@ -12,6 +12,8 @@ function ProfileSkeleton() {
       GitHub: '',
       Twitter: '',
       LinkedIn: '',
+      Instagram: '',
+      Email: '',
     },
   };
 
@@ -41,6 +43,12 @@ function ProfileSkeleton() {
         <div className="mt-[1rem]">
           <div className="skeleton mb-[0.4rem] h-[1.2rem] w-full rounded-[0.25rem]">{skeletonData.bio}</div>
           <div className="mt-[0.5rem] flex h-[3rem] gap-[1rem]">
+            <div className="skeleton mt-[0.4rem] flex h-[2rem] w-[2rem] rounded-[0.25rem]">
+              {skeletonData.social.GitHub}
+            </div>
+            <div className="skeleton mt-[0.4rem] flex h-[2rem] w-[2rem] rounded-[0.25rem]">
+              {skeletonData.social.GitHub}
+            </div>
             <div className="skeleton mt-[0.4rem] flex h-[2rem] w-[2rem] rounded-[0.25rem]">
               {skeletonData.social.GitHub}
             </div>

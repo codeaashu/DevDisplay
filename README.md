@@ -201,7 +201,9 @@
      "social": {
        "GitHub": "https://github.com/your-github-username",
        "Twitter": "https://twitter.com/your-twitter-username",
-       "LinkedIn": "https://www.linkedin.com/in/your-linkedin-username"
+       "LinkedIn": "https://www.linkedin.com/in/your-linkedin-username",
+       "Instagram": "https://www.instagram.com/your-insta-username/",
+       "Email": "youremail@gmail.com"
      }
    }
    ```
