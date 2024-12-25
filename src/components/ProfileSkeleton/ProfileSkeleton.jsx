@@ -52,7 +52,7 @@ function ProfileSkeleton() {
               {skeletonData.social.GitHub}
             </div>
             <div className="skeleton mt-[0.4rem] flex h-[2rem] w-[2rem] rounded-[0.25rem]">
-              {skeletonData.social.Gmails}
+              {skeletonData.social.Gmail}
             </div>
           </div>
         </div>
