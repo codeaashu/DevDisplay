@@ -48,17 +48,7 @@ The following behaviors are unacceptable in the DevDisplay community:
 
 ---
 
-## Reporting Violations
-
-If you experience or witness behavior that violates this Code of Conduct:
-
-1. **Contact the Admin Team:**
-   - Email: [hellow.ashutosh@gmail.com](mailto:team@devdisplay.org)
-   - GitHub: [Ashutosh Kumar](https://github.com/codeaashu)
-
----
-
-#### **For More Details and Help**
+## **For More Details and Help**
 
 - **Join DevDisplay Discord Community**: [Discord Community](https://discord.gg/chyt2UgTv5)
 - **Join DevDisplay WhatsApp Community**: [WhatsApp Community](https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4)
@@ -67,7 +57,7 @@ If you experience or witness behavior that violates this Code of Conduct:
 
 - **Reach Out to the Team**:
 
-  - Company Email: team@devdisplay.org
+  - Organization Email: team@devdisplay.org
   - Creator's Email: hellow.ashutosh@gmail.com
 
 - **Connect on Social Media**:
@@ -94,12 +84,6 @@ Participants asked to stop unacceptable behavior are expected to comply immediat
 - Temporary or permanent bans from the platform.
 - Removal of contributions if necessary.
 - Other actions deemed appropriate by the admin team.
-
----
-
-## Acknowledgment
-
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.1.
 
 ---
 
