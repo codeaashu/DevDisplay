@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
 import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
 
 function Profile({ data }) {
@@ -129,6 +129,18 @@ function Card({ data }) {
           {data.social?.LinkedIn && (
             <a href={data.social.LinkedIn} target="_blank" rel="noreferrer">
               <FaLinkedin className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.Instagram && (
+            <a href={data.social.Instagram} target="_blank" rel="noreferrer">
+              <FaInstagram className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.Gmail && (
+            <a href={`mailto:${data.social.Gmail}`} target="_blank" rel="noreferrer">
+              <FaEnvelope className="text-2xl text-blue-600 duration-300 hover:scale-125" />
             </a>
           )}
         </div>
