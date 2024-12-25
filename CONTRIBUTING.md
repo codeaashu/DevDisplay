@@ -91,7 +91,9 @@ Starring the repository is a mandatory step for all contributors and the first p
 <h3 align="center">Once your changes are merged <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Your profile will be displayed on the project's website and you will receive a Dev Pioneer Badge via email also a personalized appreciation post will be shared on LinkedIn and Twitter through DevDisplay's official social media handles.</h3><hr>
 </div>
 </details>
+</hr>
 
+<h1>Need Help</h1>
 <details>
     <summary align="center">Now Click Here For Need Help With The Basics? 🤔</summary>
 
@@ -265,10 +267,9 @@ npm test
    Your pull request will now be available for review by the project maintainers. They may provide feedback or ask for changes before merging your pull request into the main branch of the project repository.
 <hr>
 </details>
-<br>
+<br></hr>
 
-<div align="center">
-<h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Pull Request Process <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1></div>
+# Pull Request Process <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" />
 
 When submitting a pull request, please adhere to the following:
 
@@ -279,8 +280,7 @@ When submitting a pull request, please adhere to the following:
 5. Submit your PR using the provided template and hang tight; we'll review it as soon as possible! 🚀
 </hr>
 
-<div align="center">
-<h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="25" height="25" /> Issue Report Process <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="25" height="25" /></h1></div>
+# Issue Report Process <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="25" height="25" />
 
 To report an issue, follow these steps:
 
