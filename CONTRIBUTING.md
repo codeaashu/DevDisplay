@@ -142,8 +142,8 @@ DEVDISPLAY/
 <hr>
 </details>
 <br>
-
-# First Pull Request ✨
+<details>
+    <summary align="center">Now Click Here For First Pull Request ✨</summary>
 
 1. **Star this repository**
    Click on the top right corner marked as **Stars** at last.
@@ -190,10 +190,11 @@ git push -u origin <your_branch_name>
 9. **Create a Pull Request**
 
 10. **Congratulations! 🎉 you've made your contribution**
-
+<hr>
+</details>
 <br>
-
-# Installing The Node Packages 📩
+<details>
+    <summary align="center">Now Click Here For Installing The Node Packages 📩</summary>
 
 1. **Install dependencies**
 
@@ -218,10 +219,11 @@ Before you reveal your wizardry, ensure everything works like a charm. Run the t
 ```bash
 npm test
 ```
-
+<hr>
+</details>
 <br>
-
-# Alternatively, contribute using GitHub Desktop 🖥️
+<details>
+    <summary align="center">Now Click Here For Contribute using GitHub Desktop 🖥️</summary>
 
 1. **Open GitHub Desktop:**
    Launch GitHub Desktop and log in to your GitHub account if you haven't already.
@@ -261,51 +263,12 @@ npm test
 
 9. **Wait for Review:**
    Your pull request will now be available for review by the project maintainers. They may provide feedback or ask for changes before merging your pull request into the main branch of the project repository.
-
+<hr>
+</details>
 <br>
 
-# For Help And Support 💬
-
-- Admin Github Profile:- [Ashutosh Singh](https://github.com/codeaashu)
-- Contact :- [Email](hellow.ashutosh@gmail.com)
-
-<br>
-
-# Good Coding Practices 🧑‍💻
-
-1. **Follow the Project's Code Style**
-
-   - Maintain consistency with the existing code style (indentation, spacing, comments).
-   - Use meaningful and descriptive names for variables, functions, and classes.
-   - Keep functions short and focused on a single task.
-   - Avoid hardcoding values; instead, use constants or configuration files when possible.
-
-2. **Write Clear and Concise Comments**
-
-   - Use comments to explain why you did something, not just what you did.
-   - Avoid unnecessary comments that state the obvious.
-   - Document complex logic and functions with brief explanations to help others understand your thought -process.
-
-3. **Keep Code DRY (Don't Repeat Yourself)**
-
-   - Avoid duplicating code. Reuse functions, methods, and components whenever possible.
-   - If you find yourself copying and pasting code, consider creating a new function or component.
-
-4. **Write Tests**
-
-   - Write unit tests for your functions and components.
-   - Ensure your tests cover both expected outcomes and edge cases.
-   - Run tests locally before making a pull request to make sure your changes don’t introduce new bugs.
-
-5. **Code Reviews and Feedback**
-
-   - Be open to receiving constructive feedback from other contributors.
-   - Conduct code reviews for others and provide meaningful suggestions to improve the code.
-   - Always refactor your code based on feedback to meet the project's standards.
-
-<br>
-
-# Pull Request Process 🚀
+<div align="center">
+<h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Pull Request Process <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1></div>
 
 When submitting a pull request, please adhere to the following:
 
@@ -314,8 +277,7 @@ When submitting a pull request, please adhere to the following:
 3. Comment your code, especially in complex sections, to aid understanding.
 4. Add relevant screenshots to assist in the review process.
 5. Submit your PR using the provided template and hang tight; we'll review it as soon as possible! 🚀
-
-<br>
+</hr>
 
 # Issue Report Process 📌
 
@@ -327,10 +289,7 @@ To report an issue, follow these steps:
 4. Wait until someone looks into your report.
 5. Begin working on the issue only after you have been assigned to it. 🚀
 
-<br>
+</hr>
 
-# Thank you for contributing 💗
-
-We truly appreciate your time and effort to help improve our project. Feel free to reach out if you have any questions or need guidance. Happy coding! 🚀
-
-##
+<h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" /> We appreciate your support <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="25" height="25" /> Thank you for contributing <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Clapping%20Hands.png" alt="Clapping Hands" width="25" height="25" /></h1>
+<div align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="150" height="150" /></div>
