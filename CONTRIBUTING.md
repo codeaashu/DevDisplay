@@ -35,8 +35,10 @@ Starring the repository is a mandatory step for all contributors and the first p
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="75" height="75" />
 </div>
 
+<h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Juggling%20Light%20Skin%20Tone.png" alt="Man Juggling Light Skin Tone" width="25" height="25" /> Add Your Profile On DevDisplay <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Juggling%20Light%20Skin%20Tone.png" alt="Man Juggling Light Skin Tone" width="25" height="25" /></h1>
+
 <details>
-    <summary align="center">Now Click Here To Add Your Profile on DevDisplay and Start your Contribution</summary>
+    <summary align="center"> Click Here For Add Your Profile on DevDisplay and Start your Contribution</summary>
 
 <h3 align="center">Steps to Add Your Profile<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Down.png" alt="Backhand Index Pointing Down" width="25" height="25" /></h3>
 
@@ -86,8 +88,29 @@ Starring the repository is a mandatory step for all contributors and the first p
 <h3 align="center">Once your changes are merged <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Your profile will be displayed on the project's website and you will receive a Dev Pioneer Badge via email also a personalized appreciation post will be shared on LinkedIn and Twitter through DevDisplay's official social media handles.</h3><hr>
 </div>
 </details>
-
 <hr>
+
+<div align="center"><h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Top Prioritized Features for Contribution - After Profile Setup <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1>
+Below is a list of feature requests that need your focus. Please prioritize these before creating or working on other issues. Pick a feature request from the list above. Visit the linked issue details for a detailed description and requirements. Fork the repository, make your changes, and submit a pull request referencing the issue.
+
+<h4 align="center">Click on any feature below to view its issue details and start contributing.</h4></div>
+<div align="center">
+
+| Feature                     | Page Link                                                             | Issue Details                                                                 |
+|-----------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------|
+| Opportunities Features      | [View Page](https://www.devdisplay.org/opportunities)               | [View Issue](https://github.com/codeaashu/DevDisplay/issues/607#issue-2758514564) |
+| Discussion Features         | [View Page](https://www.devdisplay.org/Discussions)                 | [View Issue](https://github.com/codeaashu/DevDisplay/issues/606#issue-2758477478) |
+| Idea Submission Features    | [View Page](https://www.devdisplay.org/IdeaSubmission)              | [View Issue](https://github.com/codeaashu/DevDisplay/issues/605#issue-2758476487) |
+| Portfolio Ideas Features    | [View Page](https://www.devdisplay.org/PortfolioIdeas)              | [View Issue](https://github.com/codeaashu/DevDisplay/issues/604#issue-2758475020) |
+| Project Showcase Features   | [View Page](https://www.devdisplay.org/ProjectShowcase)             | [View Issue](https://github.com/codeaashu/DevDisplay/issues/603#issue-2758471902) |
+| Portfolio Building Features | [View Page](https://www.devdisplay.org/PortfolioBuilder)            | [View Issue](https://github.com/codeaashu/DevDisplay/issues/602#issue-2758470667) |
+| Resume Building Features    | [View Page](https://www.devdisplay.org/ResumeBuilder)               | [View Issue](https://github.com/codeaashu/DevDisplay/issues/601#issue-2758467731) |
+| Tech Resources Features     | [View Page](https://www.devdisplay.org/Resources)                  | [View Issue](https://github.com/codeaashu/DevDisplay/issues/600#issue-2758465270) |
+
+</div>
+
+---
+
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Raising%20Hand%20Light%20Skin%20Tone.png" alt="Man Raising Hand Light Skin Tone" width="25" height="25" /> Need Help <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Raising%20Hand%20Light%20Skin%20Tone.png" alt="Man Raising Hand Light Skin Tone" width="25" height="25" /></h1>
 <details>
     <summary align="center"> Click Here For Need Help With The Basics? 🤔</summary>
