@@ -178,9 +178,9 @@
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> DevDisplay Welcomes Your Contribution <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /></h1>
 <h4 align="center">Contributions make the open source community such an amazing place to learn, inspire, and create.</h4>
 
-<div align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="75" height="75" /></div>
+<div align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="75" height="75" /></div>
 
-<div align="center"><a href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Check Out The Contribution Details</a></div>
+<div align="center"><a href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Check Out The Contribution Details</a></div><br>
 
 <div align="center"><a href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-" target="_blank" rel="noreferrer">Add Your Profile On DevDisplay</a></div>
 
@@ -236,9 +236,9 @@
 
 <hr>
 
-<h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /> Creator of DevDisplay <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /></h1>
+<h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /> Creator & Founder of DevDisplay <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /></h1>
 
-<h4 align="center"><a href="https://github.com/codeaashu"><div align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="75" height="75" /></div></a><br><a href="https://ashutosh-kumar.vercel.app/"><strong>Ashutosh Singh</strong></a><br><br>
+<h4 align="center"><a href="https://github.com/codeaashu"><div align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="75" height="75" /></div></a><br><a href="https://www.ashutoshkumar.me"><strong>Ashutosh Singh</strong></a><br><br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ashutoshkumaraashu) [![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu)<br>
 <br>A creative Full Stack Web Developer & Designer • Till now build 50+ WEB APP</h4><hr>
