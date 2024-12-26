@@ -60,7 +60,7 @@ function Sidebar() {
       </div>
       <div className="flex flex-wrap items-center justify-center gap-2 pt-5 ">
         <a
-          href="https://github.com/codeaashu/DevDisplay?tab=readme-ov-file#how-to-add-your-profile-"
+          href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
           target="_blank"
           rel="noreferrer"
         >
