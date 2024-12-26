@@ -35,8 +35,10 @@ Starring the repository is a mandatory step for all contributors and the first p
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="75" height="75" />
 </div>
 
+<h1 align="center">><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Office%20Worker%20Light%20Skin%20Tone.png" alt="Man Office Worker Light Skin Tone" width="25" height="25" /> Add Your Profile On DevDisplay <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Office%20Worker%20Light%20Skin%20Tone.png" alt="Man Office Worker Light Skin Tone" width="25" height="25" /></h1>
+
 <details>
-    <summary align="center">Now Click Here To Add Your Profile on DevDisplay and Start your Contribution</summary>
+    <summary align="center"> Click Here For Add Your Profile on DevDisplay and Start your Contribution</summary>
 
 <h3 align="center">Steps to Add Your Profile<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Down.png" alt="Backhand Index Pointing Down" width="25" height="25" /></h3>
 
