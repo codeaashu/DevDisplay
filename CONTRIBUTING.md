@@ -87,11 +87,11 @@ Starring the repository is a mandatory step for all contributors and the first p
 </div>
 </details>
 <hr>
-# Contribution Guidelines
 
-Thank you for considering contributing to **DevDisplay**! We welcome all contributions to make this platform better for everyone. Below is a list of feature requests that need your focus. Please prioritize these before creating or working on other issues.
+<div align="center"><h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Top Prioritized Features for Contribution - After Profile Setup <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1>
+Below is a list of feature requests that need your focus. Please prioritize these before creating or working on other issues.</div>
 
-## Feature Requests
+
 
 Click on any feature below to view its issue details and start contributing:
 
@@ -120,6 +120,7 @@ Click on any feature below to view its issue details and start contributing:
   Page: [https://www.devdisplay.org/Resources](https://www.devdisplay.org/Resources)
 
 ---
+</div>
 
 ## How to Contribute
 
