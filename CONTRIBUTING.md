@@ -89,40 +89,9 @@ Starring the repository is a mandatory step for all contributors and the first p
 <hr>
 
 <div align="center"><h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Top Prioritized Features for Contribution - After Profile Setup <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1>
-Below is a list of feature requests that need your focus. Please prioritize these before creating or working on other issues.</div>
-
-
-
-Click on any feature below to view its issue details and start contributing:
-
-- [Opportunities Features](https://github.com/codeaashu/DevDisplay/issues/607#issue-2758514564)  
-  Page: [https://www.devdisplay.org/opportunities](https://www.devdisplay.org/opportunities)
-
-- [Discussion Features](https://github.com/codeaashu/DevDisplay/issues/606#issue-2758477478)  
-  Page: [https://www.devdisplay.org/Discussions](https://www.devdisplay.org/Discussions)
-
-- [Idea Submission Features](https://github.com/codeaashu/DevDisplay/issues/605#issue-2758476487)  
-  Page: [https://www.devdisplay.org/IdeaSubmission](https://www.devdisplay.org/IdeaSubmission)
-
-- [Portfolio Ideas Features](https://github.com/codeaashu/DevDisplay/issues/604#issue-2758475020)  
-  Page: [https://www.devdisplay.org/PortfolioIdeas](https://www.devdisplay.org/PortfolioIdeas)
-
-- [Project Showcase Features](https://github.com/codeaashu/DevDisplay/issues/603#issue-2758471902)  
-  Page: [https://www.devdisplay.org/ProjectShowcase](https://www.devdisplay.org/ProjectShowcase)
-
-- [Portfolio Building Features](https://github.com/codeaashu/DevDisplay/issues/602#issue-2758470667)  
-  Page: [https://www.devdisplay.org/PortfolioBuilder](https://www.devdisplay.org/PortfolioBuilder)
-
-- [Resume Building Features](https://github.com/codeaashu/DevDisplay/issues/601#issue-2758467731)  
-  Page: [https://www.devdisplay.org/ResumeBuilder](https://www.devdisplay.org/ResumeBuilder)
-
-- [Tech Resources Features](https://github.com/codeaashu/DevDisplay/issues/600#issue-2758465270)  
-  Page: [https://www.devdisplay.org/Resources](https://www.devdisplay.org/Resources)
-
-
-# Contribution Guidelines
-
-Thank you for considering contributing to **DevDisplay**! Below is a list of prioritized features for development. Click on the feature or issue details to start contributing:
+Below is a list of feature requests that need your focus. Please prioritize these before creating or working on other issues.
+Click on any feature below to view its issue details and start contributing:</div>
+<div align="center">
 
 | Feature                     | Page Link                                                             | Issue Details                                                                 |
 |-----------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------|
@@ -135,8 +104,8 @@ Thank you for considering contributing to **DevDisplay**! Below is a list of pri
 | Resume Building Features    | [View Page](https://www.devdisplay.org/ResumeBuilder)               | [View Issue](https://github.com/codeaashu/DevDisplay/issues/601#issue-2758467731) |
 | Tech Resources Features     | [View Page](https://www.devdisplay.org/Resources)                  | [View Issue](https://github.com/codeaashu/DevDisplay/issues/600#issue-2758465270) |
 
----
 </div>
+---
 
 ## How to Contribute
 
