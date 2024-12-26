@@ -89,8 +89,9 @@ Starring the repository is a mandatory step for all contributors and the first p
 <hr>
 
 <div align="center"><h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Top Prioritized Features for Contribution - After Profile Setup <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1>
-Below is a list of feature requests that need your focus. Please prioritize these before creating or working on other issues.
-Click on any feature below to view its issue details and start contributing:</div>
+Below is a list of feature requests that need your focus. Please prioritize these before creating or working on other issues. Pick a feature request from the list above. Visit the linked issue details for a detailed description and requirements. Fork the repository, make your changes, and submit a pull request referencing the issue.
+
+<h4 align="center">Click on any feature below to view its issue details and start contributing.</h4></div>
 <div align="center">
 
 | Feature                     | Page Link                                                             | Issue Details                                                                 |
@@ -105,15 +106,8 @@ Click on any feature below to view its issue details and start contributing:</di
 | Tech Resources Features     | [View Page](https://www.devdisplay.org/Resources)                  | [View Issue](https://github.com/codeaashu/DevDisplay/issues/600#issue-2758465270) |
 
 </div>
+
 ---
-
-## How to Contribute
-
-1. Pick a feature request from the list above.
-2. Visit the linked issue details for a detailed description and requirements.
-3. Fork the repository, make your changes, and submit a pull request referencing the issue.
-
-Your contributions are valuable to us! Let's make **DevDisplay** an even better community together.
 
 <hr>
 
