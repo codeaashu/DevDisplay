@@ -86,8 +86,51 @@ Starring the repository is a mandatory step for all contributors and the first p
 <h3 align="center">Once your changes are merged <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Your profile will be displayed on the project's website and you will receive a Dev Pioneer Badge via email also a personalized appreciation post will be shared on LinkedIn and Twitter through DevDisplay's official social media handles.</h3><hr>
 </div>
 </details>
+<hr>
+# Contribution Guidelines
+
+Thank you for considering contributing to **DevDisplay**! We welcome all contributions to make this platform better for everyone. Below is a list of feature requests that need your focus. Please prioritize these before creating or working on other issues.
+
+## Feature Requests
+
+Click on any feature below to view its issue details and start contributing:
+
+- [Opportunities Features](https://github.com/codeaashu/DevDisplay/issues/607#issue-2758514564)  
+  Page: [https://www.devdisplay.org/opportunities](https://www.devdisplay.org/opportunities)
+
+- [Discussion Features](https://github.com/codeaashu/DevDisplay/issues/606#issue-2758477478)  
+  Page: [https://www.devdisplay.org/Discussions](https://www.devdisplay.org/Discussions)
+
+- [Idea Submission Features](https://github.com/codeaashu/DevDisplay/issues/605#issue-2758476487)  
+  Page: [https://www.devdisplay.org/IdeaSubmission](https://www.devdisplay.org/IdeaSubmission)
+
+- [Portfolio Ideas Features](https://github.com/codeaashu/DevDisplay/issues/604#issue-2758475020)  
+  Page: [https://www.devdisplay.org/PortfolioIdeas](https://www.devdisplay.org/PortfolioIdeas)
+
+- [Project Showcase Features](https://github.com/codeaashu/DevDisplay/issues/603#issue-2758471902)  
+  Page: [https://www.devdisplay.org/ProjectShowcase](https://www.devdisplay.org/ProjectShowcase)
+
+- [Portfolio Building Features](https://github.com/codeaashu/DevDisplay/issues/602#issue-2758470667)  
+  Page: [https://www.devdisplay.org/PortfolioBuilder](https://www.devdisplay.org/PortfolioBuilder)
+
+- [Resume Building Features](https://github.com/codeaashu/DevDisplay/issues/601#issue-2758467731)  
+  Page: [https://www.devdisplay.org/ResumeBuilder](https://www.devdisplay.org/ResumeBuilder)
+
+- [Tech Resources Features](https://github.com/codeaashu/DevDisplay/issues/600#issue-2758465270)  
+  Page: [https://www.devdisplay.org/Resources](https://www.devdisplay.org/Resources)
+
+---
+
+## How to Contribute
+
+1. Pick a feature request from the list above.
+2. Visit the linked issue details for a detailed description and requirements.
+3. Fork the repository, make your changes, and submit a pull request referencing the issue.
+
+Your contributions are valuable to us! Let's make **DevDisplay** an even better community together.
 
 <hr>
+
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Raising%20Hand%20Light%20Skin%20Tone.png" alt="Man Raising Hand Light Skin Tone" width="25" height="25" /> Need Help <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Raising%20Hand%20Light%20Skin%20Tone.png" alt="Man Raising Hand Light Skin Tone" width="25" height="25" /></h1>
 <details>
     <summary align="center"> Click Here For Need Help With The Basics? 🤔</summary>
