@@ -119,6 +119,22 @@ Click on any feature below to view its issue details and start contributing:
 - [Tech Resources Features](https://github.com/codeaashu/DevDisplay/issues/600#issue-2758465270)  
   Page: [https://www.devdisplay.org/Resources](https://www.devdisplay.org/Resources)
 
+
+# Contribution Guidelines
+
+Thank you for considering contributing to **DevDisplay**! Below is a list of prioritized features for development. Click on the feature or issue details to start contributing:
+
+| Feature                     | Page Link                                                             | Issue Details                                                                 |
+|-----------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------|
+| Opportunities Features      | [View Page](https://www.devdisplay.org/opportunities)               | [View Issue](https://github.com/codeaashu/DevDisplay/issues/607#issue-2758514564) |
+| Discussion Features         | [View Page](https://www.devdisplay.org/Discussions)                 | [View Issue](https://github.com/codeaashu/DevDisplay/issues/606#issue-2758477478) |
+| Idea Submission Features    | [View Page](https://www.devdisplay.org/IdeaSubmission)              | [View Issue](https://github.com/codeaashu/DevDisplay/issues/605#issue-2758476487) |
+| Portfolio Ideas Features    | [View Page](https://www.devdisplay.org/PortfolioIdeas)              | [View Issue](https://github.com/codeaashu/DevDisplay/issues/604#issue-2758475020) |
+| Project Showcase Features   | [View Page](https://www.devdisplay.org/ProjectShowcase)             | [View Issue](https://github.com/codeaashu/DevDisplay/issues/603#issue-2758471902) |
+| Portfolio Building Features | [View Page](https://www.devdisplay.org/PortfolioBuilder)            | [View Issue](https://github.com/codeaashu/DevDisplay/issues/602#issue-2758470667) |
+| Resume Building Features    | [View Page](https://www.devdisplay.org/ResumeBuilder)               | [View Issue](https://github.com/codeaashu/DevDisplay/issues/601#issue-2758467731) |
+| Tech Resources Features     | [View Page](https://www.devdisplay.org/Resources)                  | [View Issue](https://github.com/codeaashu/DevDisplay/issues/600#issue-2758465270) |
+
 ---
 </div>
 
