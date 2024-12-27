@@ -1,0 +1,15 @@
+{
+    "name": "Falak Vhora",
+    "location": "Ahemdabad,india",
+    "bio": "Passionate about machine learning and web development. Skilled in Python, Java, HTML, CSS, and JavaScript. Always eager to learn and collaborate on innovative projects.",
+    "avatar": "https://github.com/falak412.png",
+    "portfolio": "https://github.com/falak412",
+    "skills": ["machine learning", "python", "java","HTML","CSS","Javascript"],
+    "social": {
+      "GitHub": "https://github.com/falak412",
+      "Twitter": "https://twitter.com/Falak Vhora",
+      "LinkedIn": "https://www.linkedin.com/in/Falak-Vhora",
+      "Instagram": "https://www.instagram.com/falak_m_v",
+      "Email": "falakvora12@gmail.com"
+    }
+  }
