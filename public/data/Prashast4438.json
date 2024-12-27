@@ -1,0 +1,13 @@
+{
+  "name": "Prashast Nigam",
+  "location": "Bengaluru, India",
+  "bio": "Full-stack developer passionate about blockchain technology. Experienced in React.js, Node.js, and Solidity. Building decentralized solutions with modern web technologies.",
+  "avatar": "https://github.com/Prashast4438.png",
+  "portfolio": "https://github.com/Prashast4438",
+  "skills": ["JavaScript", "React.js", "Node.js", "Solidity", "Hardhat", "Truffle", "Web Development", "Blockchain"],
+  "social": {
+    "GitHub": "https://github.com/Prashast4438",
+    "LinkedIn": "https://linkedin.com/in/Prashast-Nigam",
+    "Email": "nigamprashast@gmail.com"
+  }
+}
