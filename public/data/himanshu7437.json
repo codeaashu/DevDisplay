@@ -1,0 +1,13 @@
+{
+  "name": "Himanshu Sharma",
+  "location": "Haryana",
+  "bio": "Passionate MERN stack developer with expertise in building responsive web applications.",
+  "avatar": "https://github.com/himanshu7437.png",
+  "portfolio": "https://github.com/himanshu7437",
+  "skills": ["HTML", "CSS", "JAVASCRIPT", "TAILWIND CSS", "MERN"],
+  "social": {
+    "GitHub": "https://github.com/himanshu7437",
+    "Twitter": "https://twitter.com/himanshu7437",
+    "LinkedIn": "https://www.linkedin.com/in/himanshu7437"
+  }
+}
