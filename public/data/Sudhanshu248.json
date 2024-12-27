@@ -1,0 +1,15 @@
+{
+  "name": "Sudhanshu Saini",
+  "location": "Jaipur, Rajasthan",
+  "bio": "Front-End Web Developer | 2nd Year Software Engineering Student | Open-Source Contributor at Hacktoberfest'24 & GSSoC'24-Extd.",
+  "avatar": "https://github.com/Sudhanshu248.png",
+  "portfolio": "https://github.com/Sudhanshu248",
+  "skills": ["HTML", "CSS", "Bootstrap", "c", "JavaScript", "Git", "Github", "Postman", "MongoDB", "SQL" ,"MySQL", "NodeJS", "Express", "RestfulAPIs"],
+  "social": {
+    "GitHub": "https://github.com/Sudhanshu248",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/sudhanshusaini24/",
+    "Instagram": "https://www.instagram.com/sudhanshusaini_24",
+    "Email": "sainisudhanshu389@gmail.com"
+  }
+}
