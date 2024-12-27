@@ -3,10 +3,13 @@
   "location": "Delhi",
   "bio": "I'm a front-end developer",
   "avatar": "https://github.com/Sanskriti65.png",
-  "skills": ["HTML", "React.Js", "CSS","Bootstrap","C"],
+  "portfolio": "#",
+  "skills": ["HTML", "React.Js", "CSS", "JavaScript", "Bootstrap", "C", "Github", "Git"],
   "social": {
     "GitHub": "https://github.com/Sanskriti65",
     "Twitter": "https://twitter.com/your-twitter-username",
     "LinkedIn": "https://www.linkedin.com/in/sanskriti-shukla-03ab89292",
+    "Instagram": "#",
+    "Email": "#"
   }
 }

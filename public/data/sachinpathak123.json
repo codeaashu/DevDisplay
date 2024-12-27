@@ -1,26 +1,27 @@
 {
-    "name": "Sachin Pathak",
-    "location": "Noida, India",
-    "bio": "A curious learner, passionate about technology love to build applications and systems. Excited for challenges and love to learn new things.",
-    "avatar": "https://github.com/sachinpathak123.png",
-    "portfolio": "https://github.com/sachinpathak123",
-    "skills": [
-      "C",
-      "Javascript",
-      "Typescript",
-      "React",
-      "MySQL",
-      "MongoDB",
-      "Git",
-      "Tailwind CSS",
-      "Git",
-      "GitHub",
-      "MERN"
-    ],
-    "social": {
-      "GitHub": "https://github.com/sachinpathak123",
-      "Twitter": "https://x.com/path48566",
-      "LinkedIn": "https://www.linkedin.com/in/sachin-pathak-b52b20215/",
-      "Email": "pathaksachin876@gmail.com"
-    }
+  "name": "Sachin Pathak",
+  "location": "Noida, India",
+  "bio": "A curious learner, passionate about technology love to build applications and systems. Excited for challenges and love to learn new things.",
+  "avatar": "https://github.com/sachinpathak123.png",
+  "portfolio": "https://github.com/sachinpathak123",
+  "skills": [
+    "C",
+    "Javascript",
+    "Typescript",
+    "React",
+    "MySQL",
+    "MongoDB",
+    "Git",
+    "Tailwind CSS",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/sachinpathak123",
+    "Twitter": "https://x.com/path48566",
+    "LinkedIn": "https://www.linkedin.com/in/sachin-pathak-b52b20215/",
+    "Instagram": "#",
+    "Email": "pathaksachin876@gmail.com"
   }
+}

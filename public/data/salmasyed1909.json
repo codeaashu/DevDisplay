@@ -1,14 +1,28 @@
 {
   "name": "salma syed",
-  "location": "cumbum,Andhra Pradesh,India",
+  "location": "cumbum, Andhra Pradesh,India",
   "bio": "CSE graduate, Pragathi Cohort 3 mentee, passionate about Python and AI, eager to explore automation and technology advancements.",
   "avatar": "https://github.com/salmasyed1909.png",
   "portfolio": "https://github.com/salmasyed1909",
-  "skills": ["python", "core java", "AI","NLP","selenium","AWS","Git","Jenkins","github","Docker","HTML","CSS"],
+  "skills": [
+    "python",
+    "core java",
+    "AI",
+    "NLP",
+    "selenium",
+    "AWS",
+    "Git",
+    "Jenkins",
+    "github",
+    "Docker",
+    "HTML",
+    "CSS"
+  ],
   "social": {
     "GitHub": "https://github.com/salmasyed1909",
     "Twitter": "https://x.com/Sana71052689087",
     "LinkedIn": "https://www.linkedin.com/in/syed-salma-39322224a/",
+    "Instagram": "#",
     "Email": "syedsalma42267@gmail.com"
   }
 }
