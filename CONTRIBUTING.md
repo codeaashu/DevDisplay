@@ -61,9 +61,9 @@ Starring the repository is a mandatory step for all contributors and the first p
      "social": {
        "GitHub": "https://github.com/your-github-username",
        "Twitter": "https://twitter.com/your-twitter-username",
-       "LinkedIn": "https://www.linkedin.com/in/your-linkedin-username"
+       "LinkedIn": "https://www.linkedin.com/in/your-linkedin-username",
        "Instagram": "https://www.instagram.com/your-instgram-username",
-       "Gmail": "your-email-id"
+       "Email": "your-email-id"
      }
    }
    ```
