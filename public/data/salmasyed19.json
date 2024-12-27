@@ -2,13 +2,26 @@
   "name": "Syed Salma",
   "location": "Cumbum, Andhra Pradesh,India",
   "bio": "Hello! I am Salma, a Computer Science and Engineering graduate from KIYTS, with a keen interest in Artificial Intelligence (AI), Machine Learning (ML), and Python programming. Currently, I am working on enhancing my skills in AI technologies and Python, focusing on developing automation systems, data-driven applications, and AI models. I am always excited to explore new advancements in the field of Deep Learning, Computer Vision, and Natural Language Processing (NLP).",
-  "avatar": "https://github.com/salmasyed19.pn",
-  "portfolio": "Your Portfolio URL or Github URL",
-  "skills": ["python", "core java", "AWS","Jenkins","selenium","Artificial Intelligence","NLP","HTML","CSS","DOCKER","CUCUMBER"],
+  "avatar": "https://github.com/salmasyed19.png",
+  "portfolio": "#",
+  "skills": [
+    "python",
+    "core java",
+    "AWS",
+    "Jenkins",
+    "selenium",
+    "Artificial Intelligence",
+    "NLP",
+    "HTML",
+    "CSS",
+    "DOCKER",
+    "CUCUMBER"
+  ],
   "social": {
     "GitHub": "https://github.com/salmasyed19",
-    "LinkedIn": "https://www.linkedin.com/in/syed-salma-39322224a/"
+    "LinkedIn": "https://www.linkedin.com/in/syed-salma-39322224a/",
     "Twitter": "https://x.com/Sana71052689087",
+    "Instagram": "#",
     "Gmail": "syedsallmma19@gmail.com"
   }
 }

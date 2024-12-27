@@ -1,14 +1,27 @@
 {
   "name": "Gaurav Karakoti",
-  "location": "New Delhi , India",
+  "location": "New Delhi, India",
   "bio": "1st Year B.Tech CSE student at Bharati Vidyapeeth's College of Engineering , Delhi",
   "avatar": "https://github.com/GauravKarakoti.png",
   "portfolio": "https://github.com/GauravKarakoti",
-  "skills": ["Web Scraping", "Figma", "Javascript","CSS","HTML","Postman API","Blockchain","Programming in C","MongoDB","MySQL","Machine Learning","Python"],
+  "skills": [
+    "Web Scraping",
+    "Figma",
+    "Javascript",
+    "CSS",
+    "HTML",
+    "Postman API",
+    "Blockchain",
+    "Programming in C",
+    "MongoDB",
+    "MySQL",
+    "Machine Learning",
+    "Python"
+  ],
   "social": {
     "GitHub": "https://github.com/GauravKarakoti",
     "Twitter": "https://twitter.com/GauravKarakoti",
-    "LinkedIn": "https://www.linkedin.com/in/gaurav-karakoti-248960302"
+    "LinkedIn": "https://www.linkedin.com/in/gaurav-karakoti-248960302",
     "Instagram": "https://www.instagram.com/gaurav._.karakoti",
     "Gmail": "karakotigaurav12@gmail.com"
   }
