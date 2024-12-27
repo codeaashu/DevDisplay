@@ -1,0 +1,17 @@
+{
+    "name": "Arka Basak",
+    "location": "Kolkata",
+    "bio": "I use arch btw....",
+    "avatar": "https://avatars.githubusercontent.com/u/134721562?s=96&v=4",
+    "portfolio": "https://github.com/NOOB-3301",
+    "skills": [
+      "REACT JS", "NODEjS", "MongoDB","REACT NATIVE", "EXPRESS"
+    ],
+    "social": {
+      "GitHub": "https://github.com/NOOB-3301",
+      "Twitter": "https://twitter.com/your-twitter-username",
+      "LinkedIn": "https://www.linkedin.com/in/your-linkedin-username",
+      "Instagram": "https://www.instagram.com/your-instgram-username",
+      "Gmail": "arka11362@gmail.com"
+    }
+  }
