@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Remote Developer Job",
+        "company": "XYZ Corp",
+        "tags": ["Remote", "Full-time"],
+        "applyLink": "#"
+    },
+    {
+        "title": "UI/UX Internship",
+        "company": "ABC Design",
+        "tags": ["Internship", "Paid"],
+        "applyLink": "#"
+    },
+    {
+        "title": "Hackathon: Innovate 2024",
+        "company": "TechFest",
+        "tags": ["Hackathon", "Cash Prizes"],
+        "applyLink": "#"
+    }
+]
