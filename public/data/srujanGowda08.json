@@ -1,10 +1,10 @@
 {
-    "name": "Srujan G S",
-    "location": "Hassan, Karnataka, India",
-    "bio": "I am Passoinate about Innovating Tomorrow's Technology Today.",
-    "avatar": "https://github.com/srujanGowda08.png",
-    "portfolio": "https://github.com/srujanGowda08",
-    "skills": [
+  "name": "Srujan G S",
+  "location": "Hassan, Karnataka, India",
+  "bio": "I am Passoinate about Innovating Tomorrow's Technology Today.",
+  "avatar": "https://github.com/srujanGowda08.png",
+  "portfolio": "https://github.com/srujanGowda08",
+  "skills": [
     "JavaScript",
     "React.js",
     "Node.js",
@@ -20,9 +20,11 @@
     "Git",
     "GitHub"
   ],
-    "social": {
-      "GitHub": "https://github.com/srujanGowda08",
-      "LinkedIn": "https://www.linkedin.com/in/srujan-gs",
-      "Gmail": "srujan0821@gmail.com"
-    }
+  "social": {
+    "GitHub": "https://github.com/srujanGowda08",
+    "LinkedIn": "https://www.linkedin.com/in/srujan-gs",
+    "Twitter": "#",
+    "Instagram": "#",
+    "Email": "srujan0821@gmail.com"
   }
+}
