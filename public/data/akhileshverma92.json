@@ -1,0 +1,27 @@
+{
+  "name": "Akhilesh Verma",
+  "location": "Kanpur , U.P",
+  "bio": "Final Year Student and web dev ✌️",
+  "avatar": "https://github.com/akhileshverma92.png",
+  "portfolio": "https://github.com/akhileshverma92",
+  "skills": [
+    "JS",
+    "React.JS",
+    "Node.Js",
+    "Express.Js",
+    "MongoDB",
+    "Html",
+    "Css",
+    "Tailwind",
+    "Postman",
+    "Vercel",
+    "Firebase"
+  ],
+  "social": {
+    "GitHub": "https://github.com/akhileshverma92",
+    "Twitter": "https://twitter.com/akhileshverma_0",
+    "LinkedIn": "https://www.linkedin.com/in/akhileshx",
+    "Instagram": "#",
+    "Gmail": "akkupatel055@gmail.com"
+  }
+}
