@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/api/opportunities')
+fetch('http://https://opportunities-features.onrender.com/api/opportunities')
     .then(response => response.json())
     .then(data => {
         opportunities = data; // Save data for filtering
@@ -109,7 +109,7 @@ document.getElementById('opportunity-form').addEventListener('submit', (e) => {
     };
 
     // Sending it to the backend server
-    fetch('http://localhost:3000/api/opportunities', {
+    fetch('http://https://opportunities-features.onrender.com/api/opportunities', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -139,7 +139,7 @@ document.getElementById('opportunity-form').addEventListener('submit', (e) => {
     });
     renderOpportunities(opportunities); // Re-render opportunities
 });
-fetch('http://localhost:3000/api/opportunities/pending')
+fetch('http://https://opportunities-features.onrender.com/api/opportunities/pending')
     .then(response => response.json())
     .then(data => {
         const adminContainer = document.getElementById('pending-opportunities');
@@ -168,7 +168,7 @@ fetch('http://localhost:3000/api/opportunities/pending')
 
 // Moderate an opportunity
 function moderateOpportunity(id, status) {
-    fetch(`http://localhost:3000/api/opportunities/${id}`, {
+    fetch(`http://https://opportunities-features.onrender.com/api/opportunities/${id}`, {
         method: 'PATCH',
         headers: {
             'Content-Type': 'application/json'

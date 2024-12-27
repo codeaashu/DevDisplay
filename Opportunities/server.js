@@ -94,5 +94,5 @@ app.patch('/api/opportunities/:id', (req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+    console.log("Server running on https://opportunities-features.onrender.com");
 });
