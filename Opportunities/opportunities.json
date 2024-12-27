@@ -1,20 +1,14 @@
 [
-    {
-        "title": "Remote Developer Job",
-        "company": "XYZ Corp",
-        "tags": ["Remote", "Full-time"],
-        "applyLink": "#"
-    },
-    {
-        "title": "UI/UX Internship",
-        "company": "ABC Design",
-        "tags": ["Internship", "Paid"],
-        "applyLink": "#"
-    },
-    {
-        "title": "Hackathon: Innovate 2024",
-        "company": "TechFest",
-        "tags": ["Hackathon", "Cash Prizes"],
-        "applyLink": "#"
-    }
+  {
+    "id": 1735293289674,
+    "title": "Remote Developer Job",
+    "company": "Full Stackers",
+    "category": "Jobs",
+    "tags": [
+      "Remote",
+      "Paid"
+    ],
+    "applyLink": "http://127.0.0.1:5500/Opportunities/index.html",
+    "status": "approved"
+  }
 ]

@@ -26,7 +26,11 @@
             <button>Sign Up</button>
         </div>
     </header>
-
+    <section id="admin-panel" class="admin-section">
+        <h3>Admin Panel</h3>
+        <div id="pending-opportunities" class="admin-grid"></div>
+        <div id="loading-spinner" style="display:none;">Loading...</div>
+    </section>
     <!-- Hero Section -->
     <section id="home" class="hero-section">
         <div class="hero-content">
@@ -36,6 +40,14 @@
                 <input type="text" id="search-input" placeholder="Search for opportunities...">
                 <button id="search-btn">Search</button>
             </div>
+        </div>
+    </section>
+    <section id="categories" class="categories-section">
+        <h3>Filter by Category</h3>
+        <div class="category-dropdown">
+            <select id="category-select" onchange="filterByCategoryDropdown()">
+                <!-- Options will be dynamically added here -->
+            </select>
         </div>
     </section>
 
@@ -67,6 +79,35 @@
             <button>Submit Opportunity</button>
             <button>Explore Categories</button>
         </div>
+    </section>
+    <section id="submit-opportunity" class="submit-section">
+        <h3>Submit an Opportunity</h3>
+        <form id="opportunity-form">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company" required>
+            
+            <label for="category">Category:</label>
+            <select id="category" name="category" required>
+                <option value="Jobs">Jobs</option>
+                <option value="Internships">Internships</option>
+                <option value="Hackathons">Hackathons</option>
+                <option value="Open Source">Open Source</option>
+                <option value="Tech Events">Tech Events</option>
+            </select>
+            
+            <label for="tags">Tags (comma-separated):</label>
+            <input type="text" id="tags" name="tags">
+            
+            <label for="applyLink">Application Link:</label>
+            <input type="url" id="applyLink" name="applyLink" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <div id="loading-spinner" style="display:none;">Loading...</div>
+        <p id="submission-success" style="display: none; color: green;">Opportunity submitted successfully!</p>
     </section>
 
     <!-- Footer -->

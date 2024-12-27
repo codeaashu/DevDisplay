@@ -162,3 +162,119 @@ footer {
     color: #fff;
     text-decoration: none;
 }
+.categories-section {
+    padding: 2rem;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.category-dropdown {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.category-dropdown select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.category-dropdown select:hover {
+    border-color: #0078D4;
+}
+.category-dropdown select:focus {
+    outline: 2px solid #0078D4;
+    outline-offset: 2px;
+}
+.submit-section {
+    padding: 2rem;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.submit-section h3 {
+    margin-bottom: 1rem;
+}
+
+#opportunity-form {
+    display: grid;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#opportunity-form label {
+    font-weight: bold;
+}
+
+#opportunity-form input, #opportunity-form select {
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#opportunity-form button {
+    padding: 0.5rem 1rem;
+    background: #0078D4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#opportunity-form button:hover {
+    background: #005bb5;
+}
+.admin-section {
+    padding: 2rem;
+    background: #f9f9f9;
+}
+
+.admin-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.admin-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.admin-card h4 {
+    margin-bottom: 0.5rem;
+}
+
+.admin-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.admin-buttons button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-buttons .approve {
+    background: #28a745;
+    color: #fff;
+}
+
+.admin-buttons .reject {
+    background: #dc3545;
+    color: #fff;
+}
