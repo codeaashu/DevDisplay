@@ -1,0 +1,15 @@
+{
+  "name": "Harleen Kaur Bhullar",
+  "location": "Ludhiana",
+  "bio": "Currently a 2nd year CSE student interested in development field,passionate about emerging technologies",
+  "avatar": "https://avatars.githubusercontent.com/u/145742023?v=4&size=64",
+  "portfolio": "https://github.com/HarleenKaurBhullar",
+  "skills": ["web development", "React.js", "Mysql", "C++", "HTML", "CSS", "JavaScript", "github", "Git"],
+  "social": {
+    "GitHub": "https://github.com/HarleenKaurBhullar",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/harleen-bhullar-461801271/",
+    "Instagram": "#",
+    "Email": "harleenbhullar0@gmail.com"
+  }
+}
