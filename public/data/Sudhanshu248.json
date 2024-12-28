@@ -4,7 +4,22 @@
   "bio": "Front-End Web Developer | 2nd Year Software Engineering Student | Open-Source Contributor at Hacktoberfest'24 & GSSoC'24-Extd.",
   "avatar": "https://github.com/Sudhanshu248.png",
   "portfolio": "https://github.com/Sudhanshu248",
-  "skills": ["HTML", "CSS", "Bootstrap", "c", "JavaScript", "Git", "Github", "Postman", "MongoDB", "SQL" ,"MySQL", "NodeJS", "Express", "RestfulAPIs"],
+  "skills": [
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "c",
+    "JavaScript",
+    "Git",
+    "Github",
+    "Postman",
+    "MongoDB",
+    "SQL",
+    "MySQL",
+    "NodeJS",
+    "Express",
+    "RestfulAPIs"
+  ],
   "social": {
     "GitHub": "https://github.com/Sudhanshu248",
     "Twitter": "#",
