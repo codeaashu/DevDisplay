@@ -1,0 +1,14 @@
+{
+  "name": "Smriti Eligar",
+  "location": "Bengaluru",
+  "bio": "I am a 3rd year CSE BTech student at Dayananda Sagar University minoring in CyberSecurity",
+  "avatar": "https://github.com/your-github-username.png",
+  "portfolio": "https://github.com/Smriti-ELigar",
+  "skills": ["Javascript", "React.js", "Tailwind CSS","Bootstrap", "Django", "MySQL", "SQLite3", "Python", "Java", "C","MongoDB", "Linux"],
+  "social": {
+    "GitHub": "https://github.com/Smriti-ELigar",
+    "LinkedIn": "www.linkedin.com/in/smriti-eligar",
+    "Instagram": "https://www.instagram.com/__smr_iti___",
+    "Email": "smritieligar2004@gmail.com"
+  }
+}
