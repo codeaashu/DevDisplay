@@ -1,0 +1,15 @@
+{
+  "name": "Himanshu Kumar",
+  "location": "Jaipur , Rajasthan",
+  "bio": "Front-End Web Developer | 2nd Year Software Engineering Student | Open-Source Contributor at Hacktoberfest'24 & GSSoC'24-Extd.",
+  "avatar": "https://github.com/Himanshu-kumar025.png",
+  "portfolio": "https://github.com/Himanshu-kumar025",
+  "skills": ["HTML", "CSS", "Bootstrap", "c", "JavaScript", "Git", "Github", "Postman", "MongoDB", "SQL" ,"MySQL", "NodeJS", "Express", "RestfulAPIs""],
+  "social": {
+    "GitHub": "https://github.com/Himanshu-kumar025",
+    "Twitter": "/",
+    "LinkedIn": "https://www.linkedin.com/in/himanshu-kumar-425aba292",
+    "Instagram": "/",
+    "Email": "hk1832141@gmail.com"
+  }
+}
