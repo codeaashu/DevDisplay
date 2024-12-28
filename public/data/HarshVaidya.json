@@ -1,0 +1,35 @@
+{
+  "name": "Harsh Vaidya",
+  "location": "Gujarat, India",
+  "bio": "A developer passionate about integrating systems through IoT and Cloud 🌐 and also do crazy shit 👨‍💻 in my free time.",
+  "avatar": "https://pbs.twimg.com/profile_images/1648685423453958144/Xo1C5Phg_400x400.jpg",
+  "portfolio": "https://harshvaidya.tech",
+  "skills": [
+    "Javascript",
+    "Typescript",
+    "Asp.Net Core",
+    "React",
+    "Next.Js",
+    "Unity",
+    "ServiceNow",
+    "MySQL",
+    "MongoDB",
+    "Docker",
+    "Git",
+    "Tailwind CSS",
+    "REST APIs",
+    "GraphQL",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/harsh432004",
+    "Twitter": "https://twitter.com/harsh_vaidya_",
+    "LinkedIn": "https://www.linkedin.com/in/harshvaidya04",
+    "Instagram": "https://www.instagram.com/harsh._.vaidya",
+    "Email": "admin@harshvaidya.tech"
+  }
+}
