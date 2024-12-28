@@ -1,0 +1,13 @@
+{
+  "name": "Rupesh Varshney",
+  "location": "Aligarh, Uttar Pradesh",
+  "bio": "I am a full Stack(MERN) Developer.",
+  "avatar": "https://github.com/rupeshv2121.png",
+  "portfolio": "https://github.com/rupeshv2121",
+  "skills": ["Frontend Tech -> HTML, CSS(Bootstrap5, Tailwind CSS), JS, React", "Backend Tech -> Node.js, Express.js", "Database -> MySQL, MongoDB"],
+  "social": {
+    "GitHub": "https://github.com/rupeshv2121",
+    "LinkedIn": "https://www.linkedin.com/in/rupeshvarshney/",
+    "Email": "rupeshvarshney7@gmail.com"
+  }
+}
