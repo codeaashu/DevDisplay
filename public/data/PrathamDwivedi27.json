@@ -1,0 +1,30 @@
+{
+  "name": "Pratham Dwivedi",
+  "location": "Gorakhpur",
+  "bio": "Third-year student from IIIT Ranchi, MERN stack developer, NextJS developer, love to learn new and exciting technologies.",
+  "avatar": "https://github.com/PrathamDwivedi27.png",
+  "portfolio": "https://github.com/PrathamDwivedi27",
+  "skills": [
+    "MERN Stack Development",
+    "React",
+    "NextJS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "ConvexDB",
+    "JavaScript",
+    "HTML",
+    "GitHub",
+    "Gemini",
+    "Langchain",
+    "RAG",
+    "MySQL"
+  ],
+  "social": {
+    "GitHub": "https://github.com/PrathamDwivedi27",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/prathamdwivedi/",
+    "Instagram": "https://www.instagram.com/prathamd549",
+    "Email": "pratham27dw@gmail.com"
+  }
+}

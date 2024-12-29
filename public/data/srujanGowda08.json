@@ -1,0 +1,30 @@
+{
+  "name": "Srujan G S",
+  "location": "Hassan, Karnataka, India",
+  "bio": "I am Passoinate about Innovating Tomorrow's Technology Today.",
+  "avatar": "https://github.com/srujanGowda08.png",
+  "portfolio": "https://github.com/srujanGowda08",
+  "skills": [
+    "JavaScript",
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "TailwindCSS",
+    "CSS",
+    "HTML",
+    "Java",
+    "Full Stack Web Development",
+    "Docker",
+    "AWS",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/srujanGowda08",
+    "LinkedIn": "https://www.linkedin.com/in/srujan-gs",
+    "Twitter": "#",
+    "Instagram": "#",
+    "Email": "srujan0821@gmail.com"
+  }
+}
