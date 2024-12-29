@@ -11,6 +11,7 @@ import ProjectShowcase from './Page/ProjectShowcase.jsx';
 import ResumeBuilder from './Page/ResumeBuilder.jsx';
 import Resources from './Page/Resources.jsx';
 import Discussions from './Page/Discussions.jsx';
+import NotFoundPage from './Page/NotFoundPage.jsx';
 
 function App() {
   return (
@@ -72,6 +73,8 @@ function App() {
         <Route path="/ResumeBuilder" element={<ResumeBuilder />} />
         <Route path="/Resources" element={<Resources />} />
         <Route path="/Discussions" element={<Discussions />} />
+        {/* Catch-all route for 404 page */}
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   );
