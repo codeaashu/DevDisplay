@@ -1,0 +1,15 @@
+{
+    "name": "Subrata Das",
+    "location": "Kolkata",
+    "bio": "“Programmer by profession, dreamer by design.”",
+    "avatar": "https://avatars.githubusercontent.com/u/158165979?v=4",
+    "portfolio": "https://github.com/subratadasGit",
+    "skills": ["Html", "CSS", "javascript","typescript","solidity","java","python","c++","Bootstrap","React","Nodejs"],
+    "social": {
+      "GitHub": "https://github.com/subratadasGit",
+      "Twitter": "https://x.com/Subrata786420",
+      "LinkedIn": "https://www.linkedin.com/in/subrata-das-1094a8253/",
+      "Instagram": "https://www.instagram.com/akashdas786",
+      "Email": "subratadasgit786@gmail.com"
+    }
+  }
