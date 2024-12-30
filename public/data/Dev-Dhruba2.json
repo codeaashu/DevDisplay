@@ -1,0 +1,27 @@
+{
+  "name": "Dhruba Bhattacharyya",
+  "location": "Kolkata, West Bengal",
+  "bio": "I am a full stack web Devloper, currently working on nextJs. I am a tech enthusiast and love to learn new technologies.",
+  "avatar": "https://avatars.githubusercontent.com/u/182716090?v=4",
+  "portfolio": "https://github.com/Dev-Dhruba2",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Next.js",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Python"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Dev-Dhruba2",
+    "Twitter": "https://x.com/Dhruba1307",
+    "LinkedIn": "https://www.linkedin.com/in/dhruba-bhattacharyya-336928292/",
+    "Instagram": "https://www.instagram.com/devdhruba_/",
+    "Email": "dhrubabhattacharyya13@gmail.com"
+  }
+}
