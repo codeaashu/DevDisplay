@@ -4,7 +4,20 @@
   "bio": "Hi, I'm Pratik! Python Backend Developer",
   "avatar": "https://github.com/Frpratik.png",
   "portfolio": "https://github.com/Frpratik",
-  "skills": ["Python", "Django", "DRF","DjnagoNinja","Flask","FastAPI","DjangoCMS","Wagtail","PyTest","WebScraping","Grafana","Git"],
+  "skills": [
+    "Python",
+    "Django",
+    "DRF",
+    "DjnagoNinja",
+    "Flask",
+    "FastAPI",
+    "DjangoCMS",
+    "Wagtail",
+    "PyTest",
+    "WebScraping",
+    "Grafana",
+    "Git"
+  ],
   "social": {
     "GitHub": "https://github.com/Frpratik",
     "Twitter": "https://twitter.com/Pratik063076222",

@@ -3,10 +3,10 @@ name: 'Greetings'
 on:
   fork:
   push:
-    branches: 
+    branches:
       - main
   issues:
-    types: 
+    types:
       - opened
   pull_request:
     types:

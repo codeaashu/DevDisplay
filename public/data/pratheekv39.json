@@ -4,7 +4,20 @@
   "bio": "A 4th-year engineering student proficient in Android development, front-end design, malware analysis, and dynamic UI creation.",
   "avatar": "https://github.com/pratheekv39.png",
   "portfolio": "https://github.com/pratheekv39",
-  "skills": ["C++", "Kotlin", "Java" , "Python", "SQL", "Kotlin", "GitHub", "Google Cloud Platform" , "Microsoft Azure", "React js", "Firebase", "Tailwind CSS"],
+  "skills": [
+    "C++",
+    "Kotlin",
+    "Java",
+    "Python",
+    "SQL",
+    "Kotlin",
+    "GitHub",
+    "Google Cloud Platform",
+    "Microsoft Azure",
+    "React js",
+    "Firebase",
+    "Tailwind CSS"
+  ],
   "social": {
     "GitHub": "https://github.com/pratheekv39",
     "Twitter": "https://twitter.com/pv1029",

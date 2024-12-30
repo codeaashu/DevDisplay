@@ -4,7 +4,20 @@
   "bio": "Passionate MERN stack developer with expertise in building responsive web applications.",
   "avatar": "https://github.com/sumo47.png",
   "portfolio": "https://sumit007.netlify.app",
-  "skills": ["HTML", "CSS", "JAVASCRIPT", "REACT", "NODE", "EXPRESS JS", "TAILWIND CSS","BOOTSTRAP","MONGODB", "MERN", "FULLSTACK", "GIT"],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT",
+    "REACT",
+    "NODE",
+    "EXPRESS JS",
+    "TAILWIND CSS",
+    "BOOTSTRAP",
+    "MONGODB",
+    "MERN",
+    "FULLSTACK",
+    "GIT"
+  ],
   "social": {
     "GitHub": "https://github.com/sumo47",
     "Twitter": "https://x.com/Honcllor",
