@@ -1,0 +1,15 @@
+{
+  "name": "Rajshri Patil",
+  "location": "Dhule",
+  "bio": "I am Software Engineering enthusiast with decent understanding of it. I love learning and Exploring new technologies.",
+  "avatar": "https://github.com/Rajshri9579.png",
+  "portfolio": "https://github.com/Rajshri9579",
+  "skills": ["HTML", "CSS", "Javascript", "Node.js", "Express.js", "Git", "GitHub", "Frontend"],
+  "social": {
+    "GitHub": "https://github.com/Rajshri9579",
+    "Twitter": "https://x.com/Rajshri0987",
+    "LinkedIn": "https://www.linkedin.com/in/rajshri-patil-270804292",
+    "Instagram": "https://www.instagram.com/rajshri097",
+    "Email": "rajshripatil19022006@gmail.com"
+  }
+}
