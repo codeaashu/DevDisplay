@@ -3,15 +3,22 @@ name: 'Greetings'
 on:
   fork:
   push:
-    branches: [main]
+    branches: 
+      - main
   issues:
-    types: [opened]
+    types: 
+      - opened
+  pull_request:
+    types:
+      - opened
   pull_request_target:
-    types: [opened]
+    types:
+      - opened
 
 jobs:
   welcome:
     runs-on: ubuntu-latest
+
     steps:
       # Checkout repository
       - name: Checkout code
@@ -22,6 +29,16 @@ jobs:
         uses: EddieHubCommunity/gh-action-welcome@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "Welcome, @${{ github.actor }}! Your issue is like a spark that ignites innovation. We're thrilled to dive into it and work together to find a solution."
-          pr-message: "Great job, @${{ github.actor }}! 🎉 Thank you for opening a pull request. Your contribution is valuable and we appreciate your efforts to improve our project."
-          footer: "Soon the maintainers/owner will review it and provide you with feedback/suggestions."
+          issue-message: |
+            Welcome, @${{ github.actor }}! Your issue is like a spark that ignites innovation. We're thrilled to dive into it and work together to find a solution.
+          pr-message: |
+            Great job, @${{ github.actor }}! 🎉 Thank you for opening a pull request. Your contribution is valuable and we appreciate your efforts to improve our project.
+          footer: |
+            Soon the maintainers/owner will review it and provide you with feedback/suggestions.
+
+      # Optional: Adding logging for better error handling and debugging
+      - name: Log event data
+        run: |
+          echo "Actor: ${{ github.actor }}"
+          echo "Event: ${{ github.event_name }}"
+          echo "Event Payload: ${{ toJson(github.event) }}"
