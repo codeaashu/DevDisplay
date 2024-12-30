@@ -1,0 +1,15 @@
+{
+  "name": "Avni Singh",
+  "location": "Ghaziabad, Uttar Pradesh, India",
+  "bio": "I’m a passionate Web Developer and Coder, currently diving into the fascinating realms of AI/ML and Blockchain to craft innovative solutions for the future.",
+  "avatar": "https://avatars.githubusercontent.com/u/150375257?s=400&u=98e5a300981cd81bb1afe6029c3738ae197e389b&v=4",
+  "portfolio": "https://github.com/avnisinngh",
+  "skills": ["Java", "Python", "JavaScript", "Solidity", " Node.js", "React.js", "MongoDB", "JWT Authentication", "Express.js"],
+  "social": {
+    "GitHub": "https://github.com/avnisinngh",
+    "Twitter": "https://x.com/AvniSingh174542",
+    "LinkedIn": "https://www.linkedin.com/in/avni-singh-49a44a289/",
+    "Instagram": "https://www.instagram.com/avnisinngh/",
+    "Email": "avni.dns@gmail.com"
+  }
+}
