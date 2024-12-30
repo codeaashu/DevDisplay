@@ -1,0 +1,27 @@
+{
+  "name": "Nikhil Bhange",
+  "location": Pune,Maharashtra",
+  "bio": "A Fullstack developer with building scalable frontend and backend application.",
+  "avatar": "https://github.com/nikhilbhange96.png",
+  "portfolio": "https://github.com/nikhilbhange96",
+  "skills": [
+    "JAVA",
+    "React js",
+    "MERN Stack",
+    "PYTHON",
+    "HTML",
+    "JAVA SCRIPT",
+    "CSS",
+    "POSTMAN",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/nikhilbhange96",
+    "Twitter": "https://x.com/NikhilBhange96",
+    "LinkedIn": "https://www.linkedin.com/in/nikhil-bhange/",
+    "Instagram": "https://www.instagram.com/nikhil_bhange",
+    "Email": "nikhilbhange9696@gmail.com"
+  }
+}
