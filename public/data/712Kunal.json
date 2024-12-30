@@ -1,0 +1,15 @@
+{
+    "name": "Kunal jadhav",
+    "location": "Pune, Maharashtra",
+    "bio": "Computer engineering student | Full stack development enthusiast</>.. Currently mastering both frontend and backend technologies to create seamless solutions.",
+    "avatar": "https://github.com/712Kunal.png",
+    "portfolio": "https://712kunal.github.io/Portfolio/",
+    "skills": ["Javascript", "React","MongoDB","Git","Tailwind CSS","REST APIs", "Web Development","Frontend","Git","GitHub","MERN"],
+    "social": {
+      "GitHub": "https://github.com/712Kunal",
+      "Twitter": "https://x.com/KunalJadhav712",
+      "LinkedIn": "https://www.linkedin.com/in/kunal-jadhav-9145ab257/",
+      "Instagram": "https://www.instagram.com/kunal_712_",
+      "Email": "jadhavkun0@gmail.com"
+    }
+}
