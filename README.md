@@ -1,3 +1,13 @@
+<h1 align="center">Updates are in Opportunities Folder</h1>
+<h2 align="center">
+  <a href="https://wondrous-biscochitos-cef129.netlify.app/" target="_blank" rel="noreferrer">Frontend is deployed here</a>
+</h2>
+<h2 align="center">
+  <div>
+    <a href="https://opportunities-features.onrender.com" target="_blank" rel="noreferrer">Backend is deployed here</a>
+    <h6 align="center">Navigate to /api/opportunities endpoint</h6>
+  </div>
+</h2>
 <div align="center">
 <table align="center">
      <thead align="center">

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1735293289674,
+    "title": "Remote Developer Job",
+    "company": "Full Stackers",
+    "category": "Jobs",
+    "tags": [
+      "Remote",
+      "Paid"
+    ],
+    "applyLink": "http://127.0.0.1:5500/Opportunities/index.html",
+    "status": "approved"
+  }
+]
