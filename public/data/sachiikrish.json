@@ -1,0 +1,15 @@
+{
+  "name": "Kanishka Tyagi",
+  "location": "Delhi, India",
+  "bio": "Passionate about web development, I specialize in both frontend and backend technologies. Proficient in HTML, CSS, JavaScript, and frameworks like Bootstrap and Tailwind CSS, I focus on creating responsive and visually appealing user interfaces. On the backend, I have experience with PHP, MySQL, and am currently diving into Node.js and Express.js to expand my full-stack development skills.",
+  "avatar": "https://github.com/sachiikrish.png",
+  "portfolio": "https://github.com/sachiikrish",
+  "skills": ["HTML", "CSS", "JavaScript", "React", "PHP", "MySQL", "Node.js", "Bootstrap", "Tailwind CSS", "MUI"],
+  "social": {
+    "GitHub": "https://github.com/sachiikrish",
+    "Twitter": "https://twitter.com/krish188819",
+    "LinkedIn": "www.linkedin.com/in/kanishka-tyagi-a334b128b",
+    "Instagram": "https://www.instagram.com/itsme_krish1864",
+    "Email": "tyagikanishka1864@gmail.com"
+  }
+}
