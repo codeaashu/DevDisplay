@@ -1,0 +1,15 @@
+{
+  "name": "Azfar Alam",
+  "location": "Rajasthan, India",
+  "bio": "A DevOps specialist, open-source enthusiast, and founder of HelpOps-Hub, is passionate about simplifying DevOps, mentoring others, and building impactful communities. Always active, he thrives on innovation and collaboration. 🚀",
+  "avatar": "https://github.com/azfar-2.png",
+  "portfolio": "https://www.azfaralam.xyz",
+  "skills": ["DevOps", "python", "Next.js", "MongoDB", "TailwindCSS", "TypeScript", "Git", "GitHub"],
+  "social": {
+    "GitHub": "https://github.com/mdazfar2",
+    "Twitter": "https://twitter.com/mdazfar_2",
+    "LinkedIn": "https://www.linkedin.com/in/md-azfar-alam/",
+    "Instagram": "https://www.instagram.com/azfarxx_",
+    "Email": "azfaralam.ops@gmail.com"
+  }
+}

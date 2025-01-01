@@ -1,0 +1,30 @@
+{
+  "name": "Vighnesh Brahme",
+  "location": "Pune",
+  "bio": "Computer Engineering Student at SPPU, learning MERN stack development",
+  "avatar": "https://github.com/ThePhoenix08.png",
+  "portfolio": "https://portfolio-v2-gold-psi.vercel.app/",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JS",
+    "TS",
+    "React",
+    "Node",
+    "MongoDB",
+    "Express",
+    "Bootstrap",
+    "SCSS",
+    "Firebase",
+    "Git",
+    "Github",
+    "C++"
+  ],
+  "social": {
+    "GitHub": "https://github.com/ThePhoenix08",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/vighneshbrahme/",
+    "Instagram": "#",
+    "Email": "vighneshbrahme.workonly@gmail.com"
+  }
+}
