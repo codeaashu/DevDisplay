@@ -1,0 +1,15 @@
+{
+  "name": "Nishant Rana",
+  "location": "Yamunanagar, Hrayan, India",
+  "bio": "Developer and OS contributor who loves to network",
+  "avatar": "https://github.com/nishantrana07.png",
+  "portfolio": "Your Portfolio URL or Github URL",
+  "skills": ["Frontend Developer", "Python", "C/C++", "Leadership"],
+  "social": {
+    "GitHub": "https://github.com/nishantrana07",
+    "Twitter": "https://twitter.com/nishantelite",
+    "LinkedIn": "https://www.linkedin.com/in/nishantrana07",
+    "Instagram": "https://www.instagram.com/nishantelite",
+    "Email": "nishantelite007@gmail.com"
+  }
+}
