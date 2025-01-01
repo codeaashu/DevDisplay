@@ -11,7 +11,9 @@ import ProjectShowcase from './Page/ProjectShowcase.jsx';
 import ResumeBuilder from './Page/ResumeBuilder.jsx';
 import Resources from './Page/Resources.jsx';
 import Discussions from './Page/Discussions.jsx';
-
+import Documentation from './Resouces_Pages/Documentation.jsx';
+import ProgrammingLanguages from './Resouces_Pages/ProgrammingLanguages.jsx';
+import TechNotes from './Resouces_Pages/TechNotes.jsx';
 function App() {
   return (
     <BrowserRouter>
@@ -72,6 +74,9 @@ function App() {
         <Route path="/ResumeBuilder" element={<ResumeBuilder />} />
         <Route path="/Resources" element={<Resources />} />
         <Route path="/Discussions" element={<Discussions />} />
+        <Route path="/documentation" element={<Documentation />} />
+        <Route path="/courses" element={<ProgrammingLanguages />} />
+        <Route path="/notes" element={<TechNotes />} />
       </Routes>
     </BrowserRouter>
   );
