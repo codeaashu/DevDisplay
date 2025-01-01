@@ -63,38 +63,33 @@ const CompanyWiseDSA = () => {
     { name: "Honeywell",  tricks: "Work on dynamic programming and greedy algorithms." },
     { name: "LTI",  tricks: "Focus on graphs and binary search." },
     { name: "Tata Elxsi",  tricks: "Practice arrays and string manipulation." },
-    { name: "Mindtree",  tricks: "Master linkedin" },
+    { name: "Mindtree",  tricks: "Master linked lists" },
    
 
     
   ];
 
   return (
-    <div className="bg-gray-100 min-h-screen p-8">
-      <h1 className="text-2xl font-bold text-center mb-8">Company-wise DSA Problems</h1>
-      <table className="table-auto w-full border-collapse border border-gray-300">
-        <thead className="bg-gray-200">
-          <tr>
-            <th className="border border-gray-300 px-4 py-2">Company Name</th>
-            {/* <th className="border border-gray-300 px-4 py-2">DSA Problem Link</th> //can be added if needed  */}
-            <th className="border border-gray-300 px-4 py-2">Tricks for Solving Patterns</th>
-          </tr>
-        </thead>
-        <tbody>
-          {companies.map((company, index) => (
-            <tr key={index} className="hover:bg-gray-100">
-              <td className="border border-gray-300 px-4 py-2">{company.name}</td>
-              <td className="border border-gray-300 px-4 py-2">
-                <a href={company.link} className="text-blue-500 hover:underline">
-                  {company.name} DSA Problems
-                </a>
-              </td>
-              <td className="border border-gray-300 px-4 py-2">{company.tricks}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
+<div className="bg-gray-100 min-h-screen p-8">
+  <h1 className="text-2xl font-bold text-center mb-8">Company-wise DSA Problems Topics </h1>
+  <table className="table-auto w-full border-collapse border border-gray-300">
+    <thead className="bg-gray-200">
+      <tr>
+        <th className="border border-gray-300 px-4 py-2">Company Name</th>
+        <th className="border border-gray-300 px-4 py-2">Tricks for Solving Patterns</th>
+      </tr>
+    </thead>
+    <tbody>
+      {companies.map((company, index) => (
+        <tr key={index} className="hover:bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">{company.name}</td>
+          <td className="border border-gray-300 px-4 py-2">{company.tricks}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
   );
 };
 

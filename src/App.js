@@ -72,7 +72,9 @@ function App() {
         <Route path="/ResumeBuilder" element={<ResumeBuilder />} />
         <Route path="/Resources" element={<Resources />} />
         <Route path="/Discussions" element={<Discussions />} />
-        <Route path="CompanyWiseDSA" element={<CompanyWiseDSA />} />
+
+        
+        <Route path="/resources/DSA-Companywiseimportant" element={<CompanyWiseDSA />} />
 
       </Routes>
     </BrowserRouter>
