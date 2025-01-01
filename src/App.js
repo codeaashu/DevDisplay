@@ -11,7 +11,7 @@ import ProjectShowcase from './Page/ProjectShowcase.jsx';
 import ResumeBuilder from './Page/ResumeBuilder.jsx';
 import Resources from './Page/Resources.jsx';
 import Discussions from './Page/Discussions.jsx';
-
+import CompanyWiseDSA from './Page/DSA-Companywiseimportant.jsx';
 function App() {
   return (
     <BrowserRouter>
@@ -72,6 +72,8 @@ function App() {
         <Route path="/ResumeBuilder" element={<ResumeBuilder />} />
         <Route path="/Resources" element={<Resources />} />
         <Route path="/Discussions" element={<Discussions />} />
+        <Route path="CompanyWiseDSA" element={<CompanyWiseDSA />} />
+
       </Routes>
     </BrowserRouter>
   );
