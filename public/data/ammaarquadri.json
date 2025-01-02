@@ -4,7 +4,19 @@
   "bio": "👨‍💻 Software Engineering Intern | 💡 Skilled in Java, Python, and MySQL | 🚀 Eager to contribute to innovative projects and learn from experienced professionals!",
   "avatar": "https://raw.githubusercontent.com/ammaarquadri/ammaarquadri/main/M.A.Q..png",
   "portfolio": "https://github.com/ammaarquadri",
-  "skills": ["C", "C++", "Python", "Java", "HTML", "CSS", "JavaScript", "MySQL", "Full Stack Development", "Time Management", "Problem Solving"],
+  "skills": [
+    "C",
+    "C++",
+    "Python",
+    "Java",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "MySQL",
+    "Full Stack Development",
+    "Time Management",
+    "Problem Solving"
+  ],
   "social": {
     "GitHub": "https://github.com/ammaarquadri",
     "Twitter": "https://twitter.com/your-twitter-username",
