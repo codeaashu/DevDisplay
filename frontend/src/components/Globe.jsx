@@ -12,7 +12,7 @@ function Globe() {
     };
 
     handleResize();
-  }, [window.innerWidth]);
+  }, [globeSize]);
 
   useEffect(() => {
     let phi = 0;
@@ -46,7 +46,7 @@ function Globe() {
     return () => {
       globe.destroy();
     };
-  }, [window.innerWidth]);
+  }, [globeSize]);
 
   return (
     <div style={{ width: '100%', height: '100%' }} className="mt-10">
