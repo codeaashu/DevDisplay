@@ -1,9 +1,9 @@
 {
   "name": "Nishant Rana",
-  "location": "Yamunanagar, Haryana",
+  "location": "Yamunanagar, Harayana",
   "bio": "3rd Year B.tech student | frontend developer | love to work on frontend projects",
   "avatar": "https://github.com/Nishantrana07.png",
-  "portfolio": "https://github.com/NishantRana07",
+  "portfolio": "https://github.com/nishantrana07",
   "skills": [
     "React",
     "React Native",
@@ -13,17 +13,20 @@
     "JavaScript",
     "HTML",
     "CSS",
-    "Tailwind CSS",
-    "Web Development",
-    "Frontend",
+    "JavaScript",
+    "React",
+    "Python",
+    "C",
+    "C++",
+    "Leadership",
     "Git",
     "GitHub"
   ],
   "social": {
-    "GitHub": "https://github.com/NishantRana07",
+    "GitHub": "https://github.com/nishantrana07",
     "Twitter": "https://twitter.com/nishantelite",
-    "LinkedIn": "https://www.linkedin.com/in/NishantRana07",
-    "Instagram": "https://www.instagram.com/devdisplay",
-    "Email": "#"
+    "LinkedIn": "https://www.linkedin.com/in/nishantrana07",
+    "Instagram": "https://www.instagram.com/nishantelite",
+    "Email": "nishantelite007@gmail.com"
   }
 }
