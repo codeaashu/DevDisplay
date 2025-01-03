@@ -1,0 +1,15 @@
+{
+  "name": "Kashika Gupta",
+  "location": "Indore",
+  "bio": "Your Bio should be 20-30 words not more than that",
+  "avatar": "https://github.com/your-github-username.png",
+  "portfolio": "https://github.com/kashikaga",
+  "skills": ["Java", "Python", "SQL", "Git" , "Github", "Postman API" , "Javascript"],
+  "social": {
+    "GitHub": "https://github.com/kashikaga",
+    "Twitter": "https://twitter.com/KashikaGupta0",
+    "LinkedIn": "https://www.linkedin.com/in/kashikagupta",
+    "Instagram": "https://www.instagram.com/kashika_gupta26",
+    "Email": "gkashika26@gmail.com"
+  }
+}
