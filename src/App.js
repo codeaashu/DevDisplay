@@ -14,7 +14,7 @@ import Discussions from './Page/Discussions.jsx';
 import Documentation from './Resouces_Pages/Documentation.jsx';
 import ProgrammingLanguages from './Resouces_Pages/ProgrammingLanguages.jsx';
 import TechNotes from './Resouces_Pages/TechNotes.jsx';
-import Contribute from './Page/Contribute.jsx';
+import DevSpring from './Page/DevSpring.jsx';
 function App() {
   return (
     <BrowserRouter>
@@ -78,7 +78,7 @@ function App() {
         <Route path="/documentation" element={<Documentation />} />
         <Route path="/courses" element={<ProgrammingLanguages />} />
         <Route path="/notes" element={<TechNotes />} />
-        <Route path="/Contribute" element={<Contribute />} />
+        <Route path="/DevSpring" element={<DevSpring />} />
       </Routes>
     </BrowserRouter>
   );

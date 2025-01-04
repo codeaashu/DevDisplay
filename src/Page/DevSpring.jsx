@@ -77,7 +77,7 @@ const Footer = () => {
   );
 };
 
-const Contribute = () => {
+const DevSpring = () => {
   return (
     <div className="min-h-screen bg-gray-900 text-white">
       <Navbar />
@@ -204,4 +204,4 @@ const Contribute = () => {
   );
 };
 
-export default Contribute;
+export default DevSpring;
