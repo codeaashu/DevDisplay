@@ -26,9 +26,9 @@ const Navbar = () => {
             <Medal className="h-6 w-6" />
             About
           </a>
-          <a href="/Contribute" className="flex items-center gap-2 rounded-full border border-white p-3">
+          <a href="/DevSpring" className="flex items-center gap-2 rounded-full border border-white p-3">
             <HandHelping className="h-6 w-6" />
-            Contribute
+            DevSpring
           </a>
           <a href="/SponsorUs" className="flex items-center gap-2 rounded-full border border-white p-3">
             <Coins className="h-6 w-6" />
@@ -94,7 +94,7 @@ const Navbar = () => {
             About
           </a>
           <a
-            href="/Contribute"
+            href="/DevSpring"
             className={`flex transform items-center gap-2 rounded-full border border-white p-3 transition duration-500 ease-out ${
               isOpen ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'
             } delay-[400ms]`}
