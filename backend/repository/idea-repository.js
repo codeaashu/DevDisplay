@@ -59,6 +59,28 @@ class IdeaRepository {
       throw error;
     }
   }
+
+  async getTopTrendingIdeas() {
+    try {
+      const topIdeas = await this.ideaModel
+        .find({})
+        .sort({ votes: -1 }) // Sort by votes descending
+        .limit(5); // Limit to top 5
+      return topIdeas;
+    } catch (error) {
+      console.error('Error in getTopTrendingIdeas:', error);
+      throw error;
+    }
+  }
+  async getAllIdeas() {
+    try {
+      const allIdeas = await this.ideaModel.find({});
+      return allIdeas;
+    } catch (error) {
+      console.error('Error in getallidea:', error);
+      throw error;
+    }
+  }
 }
 
 export default IdeaRepository;

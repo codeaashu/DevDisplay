@@ -74,6 +74,22 @@ class IdeaService {
     const updatedIdea = await this.ideaRepository.getIdea(ideaId);
     return updatedIdea;
   }
+  async getTopTrendingIdeas() {
+    try {
+      return await this.ideaRepository.getTopTrendingIdeas();
+    } catch (error) {
+      console.error('Error in IdeaService getTopTrendingIdeas:', error);
+      throw error;
+    }
+  }
+  async getAllIdeas() {
+    try {
+      return await this.ideaRepository.getAllIdeas();
+    } catch (error) {
+      console.error('Error in IdeaService getAllIdeas:', error);
+      throw error;
+    }
+  }
 }
 
 export default IdeaService;
