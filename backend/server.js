@@ -5,6 +5,7 @@ import express from 'express';
 
 import connectToDatabase from './database/connectToDatabase.js';
 import CONSTANTS from './constants.js';
+import { publicRouter } from './routes/routes.js';
 
 connectToDatabase();
 const PORT = CONSTANTS.PORT;
@@ -16,6 +17,7 @@ const middlewares = [
   express.urlencoded({ extended: true }),
   cookieParser(),
   compression(),
+  publicRouter,
 ];
 app.use(middlewares);
 
