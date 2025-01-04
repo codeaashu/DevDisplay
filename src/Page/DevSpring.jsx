@@ -1,6 +1,72 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { FaCode, FaUsers, FaUniversity, FaHandshake } from 'react-icons/fa';
+
+const FallingFlowers = () => {
+  const canvasRef = useRef(null);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    const ctx = canvas.getContext('2d');
+    const flowers = [];
+    const flowerImage = new Image();
+    flowerImage.src = 'https://cdn-icons-png.flaticon.com/512/616/616630.png'; // Flower icon URL
+
+    const createFlower = () => {
+      return {
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        size: Math.random() * 20 + 10,
+        speed: Math.random() * 1 + 0.5,
+        angle: Math.random() * 360,
+        rotationSpeed: Math.random() * 0.1,
+      };
+    };
+
+    const initFlowers = () => {
+      for (let i = 0; i < 50; i++) {
+        flowers.push(createFlower());
+      }
+    };
+
+    const drawFlowers = () => {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      flowers.forEach((flower) => {
+        flower.y += flower.speed;
+        flower.angle += flower.rotationSpeed;
+        if (flower.y > canvas.height) {
+          flower.y = -flower.size;
+          flower.x = Math.random() * canvas.width;
+        }
+
+        ctx.save();
+        ctx.translate(flower.x, flower.y);
+        ctx.rotate((flower.angle * Math.PI) / 180);
+        ctx.drawImage(flowerImage, -flower.size / 2, -flower.size / 2, flower.size, flower.size);
+        ctx.restore();
+      });
+
+      requestAnimationFrame(drawFlowers);
+    };
+
+    const handleResize = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize();
+    initFlowers();
+    drawFlowers();
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  return <canvas ref={canvasRef} className="pointer-events-none fixed left-0 top-0 h-full w-full" />;
+};
 
 const Navbar = () => {
   return (
