@@ -78,11 +78,11 @@ const DevSpring = () => {
       <Navbar />
       <div className="bg-[#334155] py-3 text-center text-white">
         <p className="text-sm font-medium">Powered By</p>
+        <h1 className="text-xl font-bold">
+          Dev<span className="text-[#00a6fb]">Display</span>
+        </h1>
         <div className="mx-auto mt-3 flex w-full max-w-xs items-center justify-center gap-2">
-          {/* <img src="./DevDisplay ICON.png" alt="DevDisplay Logo" className="h-10 w-10" /> */}
-          <h1 className="text-xl font-bold">
-            Dev<span className="text-[#00a6fb]">Display</span>
-          </h1>
+          <img src="./DevDisplay ICON.png" alt="DevDisplay Logo" className="h-10 w-10" />
         </div>
       </div>
       <main className="mx-auto max-w-6xl px-4 py-10 text-center">
@@ -148,8 +148,10 @@ const DevSpring = () => {
 
           <img src="./DevSpring.png" alt="DevSpring Logo" className="mt-2 h-[125px] w-[125px]" />
         </div>
-        <h1 className="text-4xl font-bold text-[#00a6fb]">Join the Open Source Impact</h1>
-        <p className="mt-2 text-lg text-gray-300">Be part of a 2-month open-source journey with DevDisplay.</p>
+        <h1 className="text-4xl font-bold text-[#00a6fb]">2 Month Open Source Impact</h1>
+        <p className="mt-2 text-lg text-gray-300">
+          Join the DevSpring & Be a part of 2 month Open Source Impact With DevDisplay.
+        </p>
         <p className="mt-4 flex items-center justify-center rounded-lg bg-gradient-to-r from-yellow-300 via-red-500 to-pink-500 p-4 text-lg text-white shadow-lg">
           <span role="img" aria-label="hurry up" className="mr-2 text-2xl">
             ⏰
@@ -168,7 +170,7 @@ const DevSpring = () => {
               href="https://forms.gle/orSwwE1LSYi739WT6"
               className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
             >
-              Click here to fill the form
+              Click here to join
             </a>
           </div>
           <div className="rounded-lg bg-[#0f766e] p-6 text-white shadow-lg">
@@ -179,13 +181,13 @@ const DevSpring = () => {
               href="https://forms.gle/orSwwE1LSYi739WT6"
               className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
             >
-              Click here to be our partner
+              Click here to join
             </a>
           </div>
           <div className="rounded-lg bg-[#7c3aed] p-6 text-white shadow-lg">
             <FaUniversity className="mx-auto mb-4 text-4xl" />
             <h3 className="text-xl font-bold">Calling All Colleges</h3>
-            <p className="text-sm">University partners</p>
+            <p className="text-sm">Community Partners</p>
             <a
               href="https://forms.gle/orSwwE1LSYi739WT6"
               className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
@@ -201,7 +203,7 @@ const DevSpring = () => {
               href="https://forms.gle/orSwwE1LSYi739WT6"
               className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
             >
-              Click here to contribute
+              Click here to join
             </a>
           </div>
         </div>
