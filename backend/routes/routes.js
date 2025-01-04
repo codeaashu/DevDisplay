@@ -1,17 +1,18 @@
 import { Router } from 'express';
 import { errorResponse, successResponse } from '../helpers/ApiResponse.js';
+import Constants from '../constants.js';
 
 const publicRouter = Router();
 
-publicRouter.get('/health', (_req, res) => {
+publicRouter.get(`${Constants.API_BASE}/health`, (_req, res) => {
   const health = {
-    uptime: process.uptime(),
+    uptime: Math.floor(process.uptime()),
     message: 'OK',
-    timestamp: Date.now(),
+    timestamp: new Date().toISOString(),
   };
 
   try {
-    successResponse(res, { status: 'ok' }, 'Health check successful');
+    successResponse(res, health, 'Health check successful');
   } catch (error) {
     health.message = error;
     errorResponse(res, 503, 'Health check failed', 'INTERNAL_SERVER_ERROR', error);

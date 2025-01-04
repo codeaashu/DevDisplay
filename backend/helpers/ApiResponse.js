@@ -10,8 +10,10 @@ class ApiResponse {
 
     // If the environment is development, include the error details in the response
     // POLICY DECISION ?? Only include error details in response if in development mode
-    this.error = Constants.ENV === 'development' ? error : null;
-    this.errorType = Constants.ENV === 'development' ? errorType : null;
+    if(!this.success) {
+      this.error = Constants.ENV === 'development' ? error : null;
+      this.errorType = Constants.ENV === 'development' ? errorType : null;
+    }
 
     // Log the response details to the console
     // DEVELOPMENT ONLY
@@ -20,9 +22,13 @@ class ApiResponse {
       console.log(`[API RESPONSE] ${this.success ? 'SUCCESS' : 'FAILURE'}`);
       console.log(`[API RESPONSE] STATUS: ${this.status}`);
       console.log(`[API RESPONSE] MESSAGE: ${this.message}`);
-      console.log(`[API RESPONSE] DATA: ${JSON.stringify(this.data)}`);
-      console.log(`[API RESPONSE] ERROR: ${JSON.stringify(this.error)}`);
-      console.log(`[API RESPONSE] ERROR TYPE: ${this.errorType}`);
+      console.log("[API RESPONSE] DATA:-");
+      console.dir(this.data);
+      if(!this.success) {
+        console.log("[API RESPONSE] ERROR:-");
+        console.dir(this.error);
+        console.log(`[API RESPONSE] ERROR TYPE: ${this.errorType}`);
+      }
       console.log(`[API RESPONSE] TIMESTAMP: ${new Date().toISOString()}`);
       console.log("[API RESPONSE END]");
     }
