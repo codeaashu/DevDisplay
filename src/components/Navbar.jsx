@@ -100,7 +100,7 @@ const Navbar = () => {
             } delay-[400ms]`}
           >
             <HandHelping className="h-6 w-6" />
-            Contribute
+            DevSpring
           </a>
           <a
             href="/SponsorUs"
