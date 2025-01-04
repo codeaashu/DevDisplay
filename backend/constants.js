@@ -12,8 +12,9 @@ const Constants = {
   BIO_MAXLEN: 200,
 
   // JWT
-  // REFRESH_TOKEN_MAXAGE: 60 * 60 * 24 * 7, // 1 week
-  // ACCESS_TOKEN_MAXAGE: 60 * 20, // 20 minutes
+  JWT_ALGORITHM: 'ES256',
+  REFRESH_TOKEN_MAXAGE: 60 * 60 * 24 * 7, // 1 week
+  ACCESS_TOKEN_MAXAGE: 60 * 20, // 20 minutes
 };
 
 export default Constants;
