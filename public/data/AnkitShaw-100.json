@@ -1,0 +1,26 @@
+{
+  "name": "Ankit Shaw",
+  "location": "West Bengal, Kolkata",
+  "bio": "A passionate frontend developer from Institute of Engineering and Management Kolkata, i am passionate about the web devlopment and want to activly explore thsi world of open source contribution.",
+  "avatar": "https://github.com/AnkitShaw-100.png",
+  "portfolio": "https://github.com/AnkitShaw-100",
+  "skills": [
+    "MERN Stack",
+    "TypeScript",
+    "Tailwind CSS",
+    "Backend",
+    "Python",
+    "ReactJS",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/AnkitShaw-100",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/ankit-shaw-884b0728a/",
+    "Instagram": "#",
+    "Email": "ankitshaw6933@gmail.com"
+  }
+}

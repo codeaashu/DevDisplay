@@ -1,0 +1,15 @@
+{
+  "name": "Ajay Kumar Teli",
+  "location": "Nagwara, Karnatka, Bengaluru",
+  "bio": "Android Developer ❤️",
+  "avatar": "https://github.com/iAmAjayTeli.png",
+  "portfolio": "https://ajayteli.netlify.app/",
+  "skills": ["Android Developement", "Java", "Kotlin", "XML", "Jetpack Compose", "API Integration", "GitHub", "Git"],
+  "social": {
+    "GitHub": "https://github.com/iAmAjayTeli",
+    "Twitter": "https://twitter.com/iAmAjayTeli",
+    "LinkedIn": "https://www.linkedin.com/in/ajay-kumar-teli/",
+    "Instagram": "https://www.instagram.com/iamajayteli_/",
+    "Email": "ajaykumarteli472@gmail.com"
+  }
+}

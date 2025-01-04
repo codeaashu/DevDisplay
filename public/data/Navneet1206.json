@@ -1,0 +1,28 @@
+{
+  "name": "Navneet Vishwakarma",
+  "location": "Satna, Madhya Pradesh, India",
+  "bio": "I am a B.Tech CSE student and aspiring entrepreneur, is passionate about technology, problem-solving, and building innovative solutions.",
+  "avatar": "https://avatars.githubusercontent.com/u/143477629?s=400&u=63fd963c1c34338480bd287348e155b5813b4a58&v=4",
+  "portfolio": "https://navneet-resume.netlify.app/",
+  "skills": [
+    "C",
+    "CPP",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "SQL",
+    "PL/SQL",
+    "PHP"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Navneet1206",
+    "Twitter": "https://x.com/Navneet1206",
+    "LinkedIn": "https://www.linkedin.com/in/Navneet1206",
+    "Instagram": "https://www.instagram.com/Navneet1206_",
+    "Email": "rajvl132011@gmail.com"
+  }
+}

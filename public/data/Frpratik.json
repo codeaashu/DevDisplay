@@ -1,0 +1,28 @@
+{
+  "name": "Pratik Ghuge",
+  "location": "Mumbai",
+  "bio": "Hi, I'm Pratik! Python Backend Developer",
+  "avatar": "https://github.com/Frpratik.png",
+  "portfolio": "https://github.com/Frpratik",
+  "skills": [
+    "Python",
+    "Django",
+    "DRF",
+    "DjnagoNinja",
+    "Flask",
+    "FastAPI",
+    "DjangoCMS",
+    "Wagtail",
+    "PyTest",
+    "WebScraping",
+    "Grafana",
+    "Git"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Frpratik",
+    "Twitter": "https://twitter.com/Pratik063076222",
+    "LinkedIn": "https://www.linkedin.com/in/pratik-ghuge1926",
+    "Instagram": "https://www.instagram.com/pratik_ghuge1926",
+    "Email": "ghugepratik2619@gmail.com"
+  }
+}
