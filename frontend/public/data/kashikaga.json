@@ -1,10 +1,10 @@
 {
   "name": "Kashika Gupta",
   "location": "Indore",
-  "bio": "Your Bio should be 20-30 words not more than that",
+  "bio": "Developer",
   "avatar": "https://github.com/your-github-username.png",
   "portfolio": "https://github.com/kashikaga",
-  "skills": ["Java", "Python", "SQL", "Git" , "Github", "Postman API" , "Javascript"],
+  "skills": ["Java", "Python", "SQL", "Git", "Github", "Postman API", "Javascript"],
   "social": {
     "GitHub": "https://github.com/kashikaga",
     "Twitter": "https://twitter.com/KashikaGupta0",

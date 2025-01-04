@@ -1,0 +1,15 @@
+{
+  "name": "Rohan Shrivastava",
+  "location": "Durg, Chhattisgarh",
+  "bio": "A tech enthusiast passionate about integrating innovation and wellness, leveraging technology to optimize healthy living, productivity, and lifestyle choices with data-driven insights and creativity.",
+  "avatar": "https://avatars.githubusercontent.com/u/94133270?v=4",
+  "portfolio": "https://rohan-portfolio-rouge.vercel.app/",
+  "skills": ["React", "Node", "JavaScript", "Python", "MongoDB", "Express.js", "TypeScript"],
+  "social": {
+    "GitHub": "https://github.com/RohanShrivastava08",
+    "Twitter": "https://x.com/rohan_sh0808",
+    "LinkedIn": "https://www.linkedin.com/in/rohan-shrivastava-887a15251/",
+    "Instagram": "https://www.instagram.com/devdisplay/",
+    "Email": "rohansh0808@gmail.com"
+  }
+}
