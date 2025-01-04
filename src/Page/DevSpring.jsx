@@ -12,11 +12,6 @@ const Navbar = () => {
             <span className="hidden md:inline">Back</span>
           </button>
         </a>
-        <div className="text-2xl font-bold">
-          <a href="/tech-community">
-            <button className="rounded-2xl bg-[#00a6fb] p-2 text-lg">Tech Community</button>
-          </a>
-        </div>
       </div>
     </nav>
   );
@@ -84,9 +79,9 @@ const DevSpring = () => {
       <div className="bg-[#334155] py-3 text-center text-white">
         <p className="text-sm font-medium">Powered By</p>
         <div className="mx-auto mt-3 flex w-full max-w-xs items-center justify-center gap-2">
-          <img src="./DevDisplay ICON.png" alt="DevDisplay Logo" className="h-10 w-10" />
+          {/* <img src="./DevDisplay ICON.png" alt="DevDisplay Logo" className="h-10 w-10" /> */}
           <h1 className="text-xl font-bold">
-            Dev <span className="text-[#00a6fb]">Display</span>
+            Dev<span className="text-[#00a6fb]">Display</span>
           </h1>
         </div>
       </div>
@@ -169,7 +164,10 @@ const DevSpring = () => {
             <FaCode className="mx-auto mb-4 text-4xl" />
             <h3 className="text-xl font-bold">Calling All Developers</h3>
             <p className="text-sm">Open source contributors</p>
-            <a href="#" className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white">
+            <a
+              href="https://forms.gle/orSwwE1LSYi739WT6"
+              className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
+            >
               Click here to fill the form
             </a>
           </div>
@@ -177,7 +175,10 @@ const DevSpring = () => {
             <FaUsers className="mx-auto mb-4 text-4xl" />
             <h3 className="text-xl font-bold">Calling All Tech Communities</h3>
             <p className="text-sm">Community partners</p>
-            <a href="#" className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white">
+            <a
+              href="https://forms.gle/orSwwE1LSYi739WT6"
+              className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
+            >
               Click here to be our partner
             </a>
           </div>
@@ -185,7 +186,10 @@ const DevSpring = () => {
             <FaUniversity className="mx-auto mb-4 text-4xl" />
             <h3 className="text-xl font-bold">Calling All Colleges</h3>
             <p className="text-sm">University partners</p>
-            <a href="#" className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white">
+            <a
+              href="https://forms.gle/orSwwE1LSYi739WT6"
+              className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
+            >
               Click here to join
             </a>
           </div>
@@ -193,7 +197,10 @@ const DevSpring = () => {
             <FaHandshake className="mx-auto mb-4 text-4xl" />
             <h3 className="text-xl font-bold">Calling All Sponsors</h3>
             <p className="text-sm">Support the initiative</p>
-            <a href="#" className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white">
+            <a
+              href="https://forms.gle/orSwwE1LSYi739WT6"
+              className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
+            >
               Click here to contribute
             </a>
           </div>
