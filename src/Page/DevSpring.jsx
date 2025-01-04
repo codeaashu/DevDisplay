@@ -17,6 +17,12 @@ const Navbar = () => {
   );
 };
 
+// const SectionButton = ({ label }) => (
+//   <button className="w-full rounded-md border border-gray-700 bg-[#475569] px-4 py-2 text-sm font-medium text-white hover:bg-[#64748b] md:w-auto">
+//     {label}
+//   </button>
+// );
+
 const Footer = () => {
   return (
     <footer className="mt-8 w-full bg-[#1e293b] py-6 text-white">
@@ -73,6 +79,7 @@ const DevSpring = () => {
       <div className="bg-[#334155] py-3 text-center text-white">
         <p className="text-sm font-medium">Powered By</p>
         <div className="mx-auto mt-3 flex w-full max-w-xs items-center justify-center gap-2">
+          {/* <img src="./DevDisplay ICON.png" alt="DevDisplay Logo" className="h-10 w-10" /> */}
           <h1 className="text-xl font-bold">
             Dev<span className="text-[#00a6fb]">Display</span>
           </h1>
@@ -103,11 +110,13 @@ const DevSpring = () => {
                 transform: translateX(0);
               }
             }
+
             .animate-char {
               display: inline-block;
               opacity: 0;
               animation: fade-in 0.5s forwards;
             }
+
             .animate-char:nth-child(1) {
               animation-delay: 0s;
             }
