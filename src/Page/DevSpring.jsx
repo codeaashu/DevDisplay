@@ -177,7 +177,7 @@ const DevSpring = () => {
             <h3 className="text-xl font-bold">Calling All Tech Communities</h3>
             <p className="text-sm">Community partners</p>
             <a
-              href="https://forms.gle/orSwwE1LSYi739WT6"
+              href="https://swift-sheet-b33.notion.site/DevDisplay-Community-Partnership-Guidelines-1717d1f1565b8033a86fe37facd28e1d"
               className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
             >
               Click here to join
@@ -188,7 +188,7 @@ const DevSpring = () => {
             <h3 className="text-xl font-bold">Calling All Colleges</h3>
             <p className="text-sm">Community Partners</p>
             <a
-              href="https://forms.gle/orSwwE1LSYi739WT6"
+              href="https://swift-sheet-b33.notion.site/DevDisplay-Community-Partnership-Guidelines-1717d1f1565b8033a86fe37facd28e1d"
               className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
             >
               Click here to join
