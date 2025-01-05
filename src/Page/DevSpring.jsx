@@ -166,7 +166,7 @@ const DevSpring = () => {
             <h3 className="text-xl font-bold">Calling All Developers</h3>
             <p className="text-sm">Open source contributors</p>
             <a
-              href="https://forms.gle/orSwwE1LSYi739WT6"
+              href="https://forms.gle/yNDEHgUQgdNJqo5w5"
               className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
             >
               Click here to join
