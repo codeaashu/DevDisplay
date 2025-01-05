@@ -169,6 +169,8 @@ const DevSpring = () => {
             <p className="text-sm">Open source contributors</p>
             <a
               href="https://forms.gle/yNDEHgUQgdNJqo5w5"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
             >
               Click here to join
@@ -180,6 +182,8 @@ const DevSpring = () => {
             <p className="text-sm">Community partners</p>
             <a
               href="https://swift-sheet-b33.notion.site/DevDisplay-Community-Partnership-Guidelines-1717d1f1565b8033a86fe37facd28e1d"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
             >
               Click here to join
@@ -191,6 +195,8 @@ const DevSpring = () => {
             <p className="text-sm">Community Partners</p>
             <a
               href="https://swift-sheet-b33.notion.site/DevDisplay-Community-Partnership-Guidelines-1717d1f1565b8033a86fe37facd28e1d"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
             >
               Click here to join
@@ -202,6 +208,8 @@ const DevSpring = () => {
             <p className="text-sm">Support the initiative</p>
             <a
               href="https://swift-sheet-b33.notion.site/DevDisplay-Sponsership-Guidelines-1727d1f1565b802da284d39fdf7fd72b"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
             >
               Click here to join
