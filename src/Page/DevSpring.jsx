@@ -199,7 +199,7 @@ const DevSpring = () => {
             <h3 className="text-xl font-bold">Calling All Sponsors</h3>
             <p className="text-sm">Support the initiative</p>
             <a
-              href="https://forms.gle/orSwwE1LSYi739WT6"
+              href="https://swift-sheet-b33.notion.site/DevDisplay-Sponsership-Guidelines-1727d1f1565b802da284d39fdf7fd72b"
               className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
             >
               Click here to join
