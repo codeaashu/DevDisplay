@@ -87,6 +87,7 @@ const DevSpring = () => {
       <main className="mx-auto max-w-6xl px-4 py-10 text-center">
         <div className="flex flex-col items-center">
           <h1 className="flex text-5xl font-bold text-[#31A9BF]">
+            <span className="text-white">{'{'}</span>
             <span className="animate-char text-[#BF3356]">D</span>
             <span className="animate-char text-[#BF3356]">e</span>
             <span className="animate-char text-[#BF3356]">v</span>
@@ -96,6 +97,7 @@ const DevSpring = () => {
             <span className="animate-char">i</span>
             <span className="animate-char">n</span>
             <span className="animate-char">g</span>
+            <span className="text-white">{'}'}</span>
           </h1>
 
           <style jsx>{`
