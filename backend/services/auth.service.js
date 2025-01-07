@@ -1,8 +1,8 @@
 import jwt from 'jsonwebtoken';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 import Constants from '../constants.js';
-import { User } from '../database/models/User.model.js';
+import User from '../database/models/User.model.js';
 import { notFound, unauthorized, internalServerError, badRequest } from '../helpers/ApiError.js';
 
 /* services for auth */
@@ -14,7 +14,7 @@ const omitPasswordHashAndRefreshToken = (user) => {
 };
 
 // check if user exists
-/** async checkIfUserExists(username, email, throwError = false): lean(User) | null */
+/** async checkIfUserExists(username, email, throwError = true): lean(User) | null */
 const checkIfUserExists = async (username, email, throwError = true) => {
   try {
     const user = await User.findOne({ $or: [{ username }, { email }] }).lean();
@@ -31,7 +31,7 @@ const checkIfUserExists = async (username, email, throwError = true) => {
 };
 
 // check if password is correct
-/** async checkIfPasswordIsCorrect(user, passwordToVerify): void */
+/** async checkIfPasswordIsCorrect(user, passwordToVerify, throwError = true): void */
 const checkIfPasswordIsCorrect = async (storedPasswordHash, passwordToVerify, throwError = true) => {
   try {
     const isPasswordCorrect = await bcrypt.compare(passwordToVerify, storedPasswordHash);
@@ -45,27 +45,6 @@ const checkIfPasswordIsCorrect = async (storedPasswordHash, passwordToVerify, th
   } catch (error) {
     throw internalServerError('Failed to check if password is correct');
   }
-}
-
-// validate request (body, cookies, headers, query, params)
-/** async validateRequest(req, needsBody = true, protectedRoute = false, queryOrParams = false, refreshRequest = false): void | true */
-const validateRequest = async (req, needsBody = true, protectedRoute = false, queryOrParams = false, refreshRequest = false) => {
-  if(needsBody && (!req.body || Object.keys(req.body).length === 0)) {
-    throw badRequest('Request body is missing or empty');
-  }
-  if(protectedRoute && (!req.headers || !req.headers.authorization)) {
-    throw unauthorized('Authorization header is missing or empty');
-  }
-  if(refreshRequest && (!req.cookies || !req.cookies.refreshToken)) {
-    throw unauthorized('Refresh token is missing or empty');
-  }
-  if(queryOrParams && (
-    (!req.query || Object.keys(req.query).length === 0) || 
-    (!req.params || Object.keys(req.params).length === 0)
-  )) {
-    throw badRequest('Request query and params both are missing or empty');
-  }
-  return true;
 }
 
 // validate refresh token
@@ -126,11 +105,11 @@ const validateRefreshToken = async (refreshToken) => {
 }
 
 // generate access token
-/** async generateAccessToken(user): string */
-const generateAccessToken = (user) => {
+/** async generateAccessToken(userId): string */
+const generateAccessToken = (userId) => {
   const accessTokenPayload = {
     iss: Constants.ORIGIN_URL,
-    sub: user._id,
+    sub: userId,
     iat: Date.now(),
     purpose: 'access',
   }
@@ -143,11 +122,11 @@ const generateAccessToken = (user) => {
 }
 
 // generate refresh token
-/** async generateRefreshToken(user): string */
-const generateRefreshToken = (user) => {
+/** async generateRefreshToken(userId): string */
+const generateRefreshToken = (userId) => {
   const refreshTokenPayload = {
     iss: Constants.ORIGIN_URL,
-    sub: user._id,
+    sub: userId,
     iat: Date.now(),
     purpose: 'refresh',
   }
@@ -159,11 +138,44 @@ const generateRefreshToken = (user) => {
   );
 }
 
+// hashes the password using bcrypt
+/** hashUserPassword(password) => passwordHash */
+const hashUserPassword = async (password) => {
+  const passwordHash = await bcrypt.hash(password, Constants.SALT_ROUNDS);
+  return passwordHash;
+}
+
+// updates refresh token in user doc
+/** updateRefreshTokenOfUser(userId, newRefreshToken) => lean(updatedUser) | throw(error) */
+const updateRefreshTokenOfUser = async (userId, newRefreshToken) => {
+  try {
+    const user = await User.findById(userId).lean();
+    if (!user) {
+      notFound('User not found');
+      return;
+    }
+    
+    const updatedUser = await User.findByIdAndUpdate(
+      userId,
+      {...user, refreshToken: newRefreshToken},
+    ).lean();
+    if(!updatedUser) {
+      internalServerError('Failed to Update the users credentials in database');
+    }
+
+    return updatedUser;
+  } catch (error) {
+    throw internalServerError('Failed to check if user exists');
+  }
+}
+
 export {
+  omitPasswordHashAndRefreshToken,
   checkIfUserExists,
   checkIfPasswordIsCorrect,
-  validateRequest,
   validateRefreshToken,
   generateAccessToken,
   generateRefreshToken,
+  hashUserPassword,
+  updateRefreshTokenOfUser
 };
