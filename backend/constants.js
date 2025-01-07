@@ -5,10 +5,13 @@ const Constants = {
   JSON_LIMIT: '50mb',
   ENV: process.env.NODE_ENV || 'development',
   API_BASE: '/api/v1',
+  SALT_ROUNDS: 10,
 
   // constraints
   USERNAME_MINLEN: 3,
   USERNAME_MAXLEN: 20,
+  FULLNAME_MAXLEN: 30,
+  FULLNAME_MINLEN: 2,
   BIO_MAXLEN: 200,
 
   // JWT
