@@ -36,10 +36,34 @@ class ApiResponse {
 }
 
 // Helper functions to send API responses
+/** successResponse(res, data, message) => void */
 const successResponse = (res, data, message) => {
   res.status(200).json(new ApiResponse(200, message, data));
 }
+
+/** successResponseWithCookies(res, data, message, cookies) => void */
+const successResponseWithCookies = (res, data, message, cookies) => {
+  const options = { httpOnly: true, secure: true, sameSite: "strict" };
+
+  if(cookies) {
+    if(cookies.accessToken) {
+      res
+      .status(200)
+      .cookie("accessToken", cookies.accessToken, options)
+      .json(new ApiResponse(200, message, data));
+    }
+    if(cookies.refreshToken) {
+      res
+      .status(200)
+      .cookie("refreshToken", cookies.refreshToken, options)
+      .json(new ApiResponse(200, message, data));
+    }
+  }
+}
+
+/** errorResponse(res, status, message, errorType, error) => void */
 const errorResponse = (res, status, message, errorType, error) => {
   res.status(status).json(new ApiResponse(status, message, null, errorType, error));
 }
-export { successResponse, errorResponse };
+
+export { successResponse, errorResponse, successResponseWithCookies };

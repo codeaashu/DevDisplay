@@ -1,4 +1,4 @@
-import { Schema, Model } from 'mongoose';
+import { Schema, model } from 'mongoose';
 import Constants from '../../constants.js';
 
 const UserSchema = new Schema({
@@ -28,7 +28,9 @@ const UserSchema = new Schema({
   fullName: {
     type: String,
     required: [true, "Full name is a required field"],
-    trim: true
+    trim: true,
+    minlength: Constants.FULLNAME_MINLEN,
+    maxlength: Constants.FULLNAME_MAXLEN,
   },
   location: {
     type: String,
@@ -56,4 +58,4 @@ const UserSchema = new Schema({
   timestamps: true,
 });
 
-export default Model('User', UserSchema);
+export default model('User', UserSchema);
