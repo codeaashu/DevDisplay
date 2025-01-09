@@ -1,0 +1,15 @@
+{
+  "name": "Pankaj Kumar",
+  "location": "Patna, Bihar",
+  "bio": "FRONTEND DEVELOPER",
+  "avatar": "https://github.com/Pankajraja01.png",
+  "portfolio": "https://github.com/Pankajraja01",
+  "skills": ["HTML", "CSS", "JS", "GIT", "GITHUB", "PROBLEM SOLVING"],
+  "social": {
+    "GitHub": "https://github.com/Pankajraja01",
+    "Twitter": "https://twitter.com/positive__p",
+    "LinkedIn": "https://www.linkedin.com/in/pankaj-kumar999/",
+    "Instagram": "https://www.instagram.com/pankaj_0610/",
+    "Email": "pankajkumar88O4791062@gmail.com"
+  }
+}
