@@ -60,6 +60,17 @@ div .gt_float_switcher {
   background-color: #141d2f; /* Adjust color as desired */
 }
 
+.background-wrapper1 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-color: #141d2f; /* Adjust color as desired */
+}
+
 .globe-container {
   width: 600px;
   height: 600px;
