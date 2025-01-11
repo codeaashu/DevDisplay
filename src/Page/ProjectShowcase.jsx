@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import useDebounce from '../hooks/useDebouncer';
 import projectsData from '../DB/projects.json';
 import { FaGithub } from 'react-icons/fa';
+
 const ProjectsPage = () => {
   const [allProjects, setAllProjects] = useState([]);
   const [filteredProjects, setFilteredProjects] = useState([]);
@@ -97,11 +98,14 @@ const ProjectsPage = () => {
 };
 
 const ProjectCard = ({ project }) => {
-  const { title, description, tech, github_url, username } = project;
+  const { title, description, tech, github_url, username, maker_image } = project;
 
   return (
     <div className="rounded-lg border border-gray-700 bg-gray-800 p-5 shadow-lg transition-all duration-300 hover:scale-105">
-      <h2 className="mb-2 text-xl font-semibold text-white">{title}</h2>
+      <div className="mb-4 flex items-center">
+        <img src={maker_image} alt={username} className="mr-4 h-10 w-10 rounded-full" />
+        <h2 className="text-xl font-semibold text-white">{title}</h2>
+      </div>
       <p className="mb-4 text-sm text-gray-400">{description}</p>
       <div className="mb-4 flex flex-wrap gap-2">
         {tech.map((item, index) => (
