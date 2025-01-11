@@ -6,7 +6,8 @@
         "github_url": "https://github.com/Virajjai/pay-2",
         "title": "PayFlex",
         "description": "PayFlex: A secure, scalable payment gateway with seamless API integration for real-time transaction processing and analytics.",
-        "tech": ["Turborepo", "typescript", "Prisma"]
+        "tech": ["Turborepo", "typescript", "Prisma"],
+        "maker_image": "https://github.com/Virajjai.png"
       },
       {
         "github_url": "https://github.com/Virajjai/Blogging-Site",
