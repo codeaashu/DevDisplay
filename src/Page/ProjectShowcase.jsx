@@ -5,17 +5,30 @@ const ProjectsPage = () => {
   const [allProjects, setAllProjects] = useState([]);
   const [visibleProjects, setVisibleProjects] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const projectsPerPage = 10;
+  const projectsPerPage = 9;
+
+  // Function to shuffle the projects array
+  const shuffleArray = (array) => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  };
 
   useEffect(() => {
+    // Flatten the projects and shuffle the array
     const flattenedProjects = projectsData.flatMap((user) =>
       user.Projects.map((project) => ({
         ...project,
         username: user.github_username,
       })),
     );
-    setAllProjects(flattenedProjects);
-    setVisibleProjects(flattenedProjects.slice(0, projectsPerPage));
+
+    const shuffledProjects = shuffleArray(flattenedProjects); // Shuffle the projects
+    setAllProjects(shuffledProjects);
+    setVisibleProjects(shuffledProjects.slice(0, projectsPerPage)); // Load initial projects
   }, []);
 
   const loadMoreProjects = () => {
