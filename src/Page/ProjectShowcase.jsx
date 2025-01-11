@@ -1,33 +1,107 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import projectsData from '../DB/projects.json';
 
 const ProjectsPage = () => {
+  const [allProjects, setAllProjects] = useState([]);
+  const [visibleProjects, setVisibleProjects] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const projectsPerPage = 10;
+
+  useEffect(() => {
+    const flattenedProjects = projectsData.flatMap((user) =>
+      user.Projects.map((project) => ({
+        ...project,
+        username: user.github_username,
+      })),
+    );
+    setAllProjects(flattenedProjects);
+    setVisibleProjects(flattenedProjects.slice(0, projectsPerPage));
+  }, []);
+
+  const loadMoreProjects = () => {
+    if (isLoading || visibleProjects.length >= allProjects.length) return;
+    setIsLoading(true);
+
+    setTimeout(() => {
+      const nextProjects = allProjects.slice(visibleProjects.length, visibleProjects.length + projectsPerPage);
+      setVisibleProjects((prev) => [...prev, ...nextProjects]);
+      setIsLoading(false);
+    }, 1000);
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.innerHeight + document.documentElement.scrollTop >= document.documentElement.offsetHeight - 200) {
+        loadMoreProjects();
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [visibleProjects, isLoading]);
+
   return (
-    <div className="min-h-screen bg-gray-100 p-4">
-      <header className="bg-blue-600 p-4 text-white">
-        <h1 className="text-2xl font-bold">
-          This is the project Showcase page - Want to Build this page as a contributer
-        </h1>
+    <div className="background-wrapper min-h-screen bg-gray-900 p-6 text-white">
+      {/* Header */}
+      <header className="mb-6 w-full rounded-md bg-[#00a6fb] py-4 text-center">
+        <h1 className="text-4xl font-bold">Project Showcase</h1>
+        <p className="mt-2 text-sm">Explore amazing projects contributed by developers.</p>
       </header>
-      <h1 className="text-2xl font-bold">Click here for features details 👇🏻</h1>
-      <a href="https://github.com/codeaashu/DevDisplay/issues/603#issue-2758471902" target="_blank" rel="noreferrer">
-        <button className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-          <span>
-            <b>🌟 Add Project Showcase Features 💌 & Get 8 Benefits 🌟</b>
+
+      {/* Project Grid */}
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {visibleProjects.map((project, index) => (
+          <ProjectCard key={index} project={project} />
+        ))}
+
+        {/* Skeleton Loading */}
+        {isLoading && Array.from({ length: projectsPerPage }).map((_, index) => <LoadingSkeleton key={index} />)}
+      </div>
+
+      {!isLoading && visibleProjects.length >= allProjects.length && (
+        <p className="mt-6 text-center text-gray-400">🎉 You've reached the end!</p>
+      )}
+    </div>
+  );
+};
+
+// ProjectCard Component
+const ProjectCard = ({ project }) => {
+  const { title, description, tech, github_url, username } = project;
+
+  return (
+    <div className="rounded-lg border border-gray-700 bg-gray-800 p-5 shadow-lg transition-shadow duration-300 hover:shadow-xl">
+      <h2 className="mb-2 text-xl font-semibold text-white">{title}</h2>
+      <p className="mb-4 text-sm text-gray-400">{description}</p>
+      <div className="mb-4 flex flex-wrap gap-2">
+        {tech.map((item, index) => (
+          <span key={index} className="rounded bg-[#00a6fb33] px-2 py-1 text-xs font-medium text-[#00a6fb]">
+            {item}
           </span>
-        </button>
-      </a>
-      <h2 className="mt-8 text-2xl font-bold">Benefits of Contribution</h2>
-      <a
-        href="https://drive.google.com/file/d/17Wh9xxN_SIeEVcejoSN7K7tUhWXPvSxR/view?usp=sharing"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <button className="mt-4 inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-          <span>
-            <b>📄 View the Benefits of Contributing to DevDisplay</b>
-          </span>
-        </button>
-      </a>
+        ))}
+      </div>
+      <div className="flex items-center justify-between">
+        <a href={github_url} target="_blank" rel="noreferrer" className="text-sm text-[#00a6fb] hover:underline">
+          View on GitHub
+        </a>
+        <p className="text-xs text-gray-400">@{username}</p>
+      </div>
+    </div>
+  );
+};
+
+// LoadingSkeleton Component
+const LoadingSkeleton = () => {
+  return (
+    <div className="animate-pulse rounded-lg border border-gray-700 bg-gray-800 p-5 shadow-lg">
+      <div className="mb-4 h-6 w-3/4 rounded bg-gray-700"></div>
+      <div className="mb-2 h-4 w-full rounded bg-gray-700"></div>
+      <div className="mb-4 h-4 w-5/6 rounded bg-gray-700"></div>
+      <div className="flex flex-wrap gap-2">
+        <div className="h-6 w-16 rounded bg-gray-700"></div>
+        <div className="h-6 w-12 rounded bg-gray-700"></div>
+        <div className="h-6 w-20 rounded bg-gray-700"></div>
+      </div>
     </div>
   );
 };
