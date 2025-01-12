@@ -191,10 +191,10 @@ const DevSpring = () => {
           </div>
           <div className="rounded-lg bg-[#7c3aed] p-6 text-white shadow-lg">
             <FaUniversity className="mx-auto mb-4 text-4xl" />
-            <h3 className="text-xl font-bold">Calling All Colleges</h3>
-            <p className="text-sm">Community Partners</p>
+            <h3 className="text-xl font-bold">Calling All College Students</h3>
+            <p className="text-sm">Community Leader</p>
             <a
-              href="https://swift-sheet-b33.notion.site/DevDisplay-Community-Partnership-Guidelines-1717d1f1565b8033a86fe37facd28e1d"
+              href="https://forms.gle/sSrhxLxdNbLH3h1q6"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 inline-block w-full rounded-md bg-[#00a6fb] py-2 text-white"
