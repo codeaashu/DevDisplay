@@ -14,6 +14,14 @@ import Discussions from './Page/Discussions.jsx';
 import Documentation from './Resouces_Pages/Documentation.jsx';
 import ProgrammingLanguages from './Resouces_Pages/ProgrammingLanguages.jsx';
 import TechNotes from './Resouces_Pages/TechNotes.jsx';
+import DevSpring from './Page/DevSpring.jsx';
+import AITools from './Resouces_Pages/AITools.jsx';
+import OpenSource from './Resouces_Pages/OpenSource.jsx';
+import RoadmapGuide from './Resouces_Pages/RoadmapGuide.jsx';
+import InterviewPrep from './Resouces_Pages/InterviewPrep.jsx';
+import TopGithubRepo from './Resouces_Pages/TopGithubRepo.jsx';
+import ContributionsGuide from './Resouces_Pages/ContributionsGuide.jsx';
+
 function App() {
   return (
     <BrowserRouter>
@@ -77,6 +85,14 @@ function App() {
         <Route path="/documentation" element={<Documentation />} />
         <Route path="/courses" element={<ProgrammingLanguages />} />
         <Route path="/notes" element={<TechNotes />} />
+        <Route path="/DevSpring" element={<DevSpring />} />
+        <Route path="/ai-tools" element={<AITools />} />
+        <Route path="/libraries" element={<OpenSource />} />
+        <Route path="/roadmaps" element={<RoadmapGuide />} />
+        <Route path="/interview-kits" element={<InterviewPrep />} />
+
+        <Route path="/github" element={<TopGithubRepo />} />
+        <Route path="/community" element={<ContributionsGuide />} />
       </Routes>
     </BrowserRouter>
   );
