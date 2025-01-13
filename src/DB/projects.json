@@ -306,18 +306,6 @@
     ]
   },
   {
-    "github_username": "vinaysingh-chaudhary",
-    "Projects": [
-      {
-        "github_url": "https://github.com/vinaysingh-chaudhary/Lightful-Universe-React",
-        "title": "Lightful-universe",
-        "description": "You can see interesting pictures of our galaxy, I've used Nasa's POD API to source the pictures of the Universe, and I've used reactjs and Tailwind to build this project",
-        "tech": ["reactjs", "tailwindcss", "api"],
-        "maker_image": "https://github.com/vinaysingh-chaudhary.png"
-      }
-    ]
-  },
-  {
     "github_username": "mrswastik-robot",
     "Projects": [
       {
@@ -941,14 +929,14 @@
     ]
   },
   {
-    "github_username": "GyanPrakashKumar",
+    "github_username": "krgyaan",
     "Projects": [
       {
-        "github_url": "https://github.com/GyanPrakashKumar/QR-code-component-solution",
+        "github_url": "https://github.com/krgyaan/QR-code-component-solution",
         "title": "QR code component",
         "description": "This is a solution to the QR code component challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. ",
         "tech": ["html", "css"],
-        "maker_image": "https://github.com/GyanPrakashKumar.png"
+        "maker_image": "https://github.com/krgyaan.png"
       }
     ]
   },
@@ -1112,18 +1100,6 @@
         "description": "devFind lets developers easily create profiles to showcase their skills and find collaborators.",
         "tech": ["reactjs", "css"],
         "maker_image": "https://github.com/shyamtawli.png"
-      }
-    ]
-  },
-  {
-    "github_username": "sagar1621",
-    "Projects": [
-      {
-        "github_url": "https://github.com/sagar1621/Golds-Gym",
-        "title": "GoldsGym",
-        "description": "The website provides a platform for users to search for exercises by body part, view exercise details, and watch related exercise videos using YouTube API from RapidAPI.",
-        "tech": ["reactjs", "tailwindcss", "mui", "api"],
-        "maker_image": "https://github.com/sagar1621.png"
       }
     ]
   },
@@ -1644,18 +1620,6 @@
     ]
   },
   {
-    "github_username": "Swapnil-Singh-99",
-    "Projects": [
-      {
-        "github_url": "https://github.com/Swapnil-Singh-99/Rock-Paper-Scissors",
-        "title": "Rock Paper Scissors",
-        "description": "Rock Paper Scissors Game created using html, css, javascript",
-        "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/Swapnil-Singh-99.png"
-      }
-    ]
-  },
-  {
     "github_username": "naveenvaratharaj",
     "Projects": [
       {
@@ -1979,14 +1943,14 @@
     ]
   },
   {
-    "github_username": "pankajktech",
+    "github_username": "thakurdotdev",
     "Projects": [
       {
-        "github_url": "https://github.com/pankajktech/FindYourJob",
+        "github_url": "https://github.com/thakurdotdev/FindYourJob",
         "title": "Find Your Job",
         "description": "Find Your Job is a Job Posting and Searching Website Made Using MERN Stack.",
         "tech": ["reactjs", "nodejs", "expressjs", "mongodb", "tailwindcss"],
-        "maker_image": "https://github.com/pankajktech.png"
+        "maker_image": "https://github.com/thakurdotdev.png"
       }
     ]
   },
@@ -3617,7 +3581,7 @@
       {
         "github_url": "https://github.com/Aryainguz/Euphoria-Check-PERMA-Meter-Express",
         "title": "EuphoriaCheck - A Modern PERMA Meter",
-        "description": "A powerful tool to help you assess and improve your well-being! This web application, built using Express and Node.js, measures your happiness and life satisfaction based on the PERMA model of well-being. With personalized insights, users gain a comprehensive breakdown of their PERMA scores, identifying areas for personal growth and well-being enhancement.Users recieves a personalized note on email that helps them set their targets and improve on specific score so they keep on evolving Key Features: 📊 Happiness Assessment: 📈 Personalized Insights: 🎯 Goal Setting",
+        "description": "A powerful tool to help you assess and improve your well-being!",
         "tech": ["expressjs", "nodejs"],
         "maker_image": "https://github.com/Aryainguz.png"
       },
