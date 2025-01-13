@@ -702,14 +702,14 @@
     ]
   },
   {
-    "github_username": "urz-ahmed",
+    "github_username": "urzahmed",
     "Projects": [
       {
-        "github_url": "https://github.com/urz-ahmed/social-utopia",
+        "github_url": "https://github.com/urzahmed/social-utopia",
         "title": "Social Utopia",
         "description": "Immerse yourself in a captivating digital realm where creativity flourishes, as a responsive Front End Website built with reactjs and firebase invites users to effortlessly contribute, connect, and engage through content sharing, interactive ratings, and insightful discussions.",
         "tech": ["reactjs", "firebase", "tailwindcss"],
-        "maker_image": "https://github.com/urz-ahmed.png"
+        "maker_image": "https://github.com/urzahmed.png"
       }
     ]
   },
@@ -1025,14 +1025,14 @@
     ]
   },
   {
-    "github_username": "Deveesh-Shetty",
+    "github_username": "dev-shetty",
     "Projects": [
       {
-        "github_url": "https://github.com/Deveesh-Shetty/Chromatico",
+        "github_url": "https://github.com/dev-shetty/Chromatico",
         "title": "Chromatico",
         "description": "Chromatico is a color generator application which features generating and saving different palettes and colors.",
         "tech": ["reactjs", "typescript", "tailwindcss"],
-        "maker_image": "https://github.com/Deveesh-Shetty.png"
+        "maker_image": "https://github.com/dev-shetty.png"
       }
     ]
   },
@@ -1152,15 +1152,14 @@
     ]
   },
   {
-    "github_username": "Blaize15",
+    "github_username": "noobyco",
     "Projects": [
       {
-        "gh-username": "Blaize15",
-        "github_url": "https://github.com/Blaize15/Line-followeg-robot",
+        "github_url": "https://github.com/noobyco/noobot",
         "title": "Line Following Robot",
         "description": "A robot which follows a dark colored line with the help of sensors.",
         "tech": ["raspberry pi", "python 3"],
-        "maker_image": "https://github.com/Blaize15.png"
+        "maker_image": "https://github.com/noobyco.png"
       }
     ]
   },
@@ -1592,7 +1591,7 @@
         "title": "Thrift",
         "description": " Thrift is a humanitarian effort dedicated to promoting literacy by offering free old books to learners. Along with them, you can buy OR sell second hand books & your handmade works as well. A unique component of our work is the identification of adjacent NGOs that can place requests for books or other needed items for children, thereby benefiting pupils.",
         "tech": ["reactjs", "firebase"],
-        "maker_image": "https://github.com/hreyaDhiman24.png"
+        "maker_image": "https://github.com/ShreyaDhiman24.png"
       }
     ]
   },
@@ -2095,49 +2094,49 @@
     ]
   },
   {
-    "github_username": "vaibhav-xt",
+    "github_username": "vaibhav-xp",
     "Projects": [
       {
-        "github_url": "https://github.com/vaibhav-xt/Certificate-Generator",
+        "github_url": "https://github.com/vaibhav-xp/Certificate-Generator",
         "title": "Certificate Generator",
         "description": "This is a certificate generator application that take inputs and generate certificate also we cand do download. ",
         "tech": ["html", "css", "javascript", "html2canva"],
-        "maker_image": "https://github.com/vaibhav-xt.png"
+        "maker_image": "https://github.com/vaibhav-xp.png"
       },
       {
-        "github_url": "https://github.com/vaibhav-xt/Portfolio",
+        "github_url": "https://github.com/vaibhav-xp/Portfolio",
         "title": "Portfolio site",
         "description": "A portfolio project showcases an individual's or a professional's work, skills, and accomplishments in a concise and visually appealing manner to demonstrate their expertise and attract potential opportunities.",
         "tech": ["css", "javascript", "html"],
-        "maker_image": "https://github.com/vaibhav-xt.png"
+        "maker_image": "https://github.com/vaibhav-xp.png"
       },
       {
-        "github_url": "https://github.com/vaibhav-xt/Music-Player",
+        "github_url": "https://github.com/vaibhav-xp/Music-Player",
         "title": "Music Player",
         "description": "Music Player",
         "tech": ["css", "javascript", "html"],
-        "maker_image": "https://github.com/vaibhav-xt.png"
+        "maker_image": "https://github.com/vaibhav-xp.png"
       },
       {
-        "github_url": "https://github.com/vaibhav-xt/Vanilla-Javascript-Projects/tree/master/Color%20Flipper",
+        "github_url": "https://github.com/vaibhav-xp/Vanilla-Javascript-Projects/tree/master/Color%20Flipper",
         "title": "Color Flipper",
         "description": "Color Flipper is a vanilla javascript project.",
         "tech": ["css", "javascript", "html"],
-        "maker_image": "https://github.com/vaibhav-xt.png"
+        "maker_image": "https://github.com/vaibhav-xp.png"
       },
       {
-        "github_url": "https://github.com/vaibhav-xt/Vanilla-Javascript-Projects/tree/master/Reviews",
+        "github_url": "https://github.com/vaibhav-xp/Vanilla-Javascript-Projects/tree/master/Reviews",
         "title": "Testimonials Carousal",
         "description": "This is the testimonial carousal made with vanilla javascript. ",
         "tech": ["css", "javascript", "html"],
-        "maker_image": "https://github.com/vaibhav-xt.png"
+        "maker_image": "https://github.com/vaibhav-xp.png"
       },
       {
-        "github_url": "https://github.com/vaibhav-xt/OIBSIP_Pizza-delivery-app",
+        "github_url": "https://github.com/vaibhav-xp/OIBSIP_Pizza-delivery-app",
         "title": "Pizza Delivery Web App",
         "description": "Full Stack Pizza Delivery Application",
         "tech": ["react", "redux", "mongodb", "nodejs", "expressjs"],
-        "maker_image": "https://github.com/vaibhav-xt.png"
+        "maker_image": "https://github.com/vaibhav-xp.png"
       }
     ]
   },
@@ -2339,14 +2338,14 @@
     ]
   },
   {
-    "github_username": "codewithavantika",
+    "github_username": "avantika0001",
     "Projects": [
       {
-        "github_url": "https://github.com/codewithavantika/miniURL",
+        "github_url": "https://github.com/avantika0001/miniURL",
         "title": "miniURL-URL Shortener",
         "description": "Flask web app to shorten long URLs",
         "tech": ["flask", "python"],
-        "maker_image": "https://github.com/codewithavantika.png"
+        "maker_image": "https://github.com/avantika0001.png"
       }
     ]
   },
@@ -3056,14 +3055,14 @@
     ]
   },
   {
-    "github_username": "Pro-18",
+    "github_username": "Pragati-Deshmukh011",
     "Projects": [
       {
-        "github_url": "https://github.com/Pro-18/News_app",
+        "github_url": "https://github.com/Pragati-Deshmukh011/News_app",
         "title": "News App",
         "description": "This is a basic clone of Inshort that makes use of the Api key.",
         "tech": ["python"],
-        "maker_image": "https://github.com/Pro-18.png"
+        "maker_image": "https://github.com/Pragati-Deshmukh011.png"
       }
     ]
   },
@@ -3632,14 +3631,14 @@
     ]
   },
   {
-    "github_username": "soubhik-111",
+    "github_username": "code-soubhik",
     "Projects": [
       {
-        "github_url": "https://github.com/soubhik-111/Kaun_banega_crorepati",
+        "github_url": "https://github.com/code-soubhik/Kaun_banega_crorepati",
         "title": "Kaun Banega Crorepati",
         "description": "Kaun Banega Crorepati Frontend Project is an interactive web app with HTML, CSS, JAVASCRIPT. Features include questions, timers,  scores, and animations for an engaging experience.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/soubhik-111.png"
+        "maker_image": "https://github.com/code-soubhik.png"
       }
     ]
   },
@@ -3804,16 +3803,15 @@
       }
     ]
   },
-
   {
-    "github_username": "btreezy",
+    "github_username": "npxpatel",
     "Projects": [
       {
-        "github_url": "https://github.com/btrezzy/Oder-summary",
+        "github_url": "https://github.com/npxpatel/Oder-summary",
         "title": "Order-Summary",
         "description": "Made an attractive checkout page.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/btreezy.png"
+        "maker_image": "https://github.com/npxpatel.png"
       }
     ]
   },
