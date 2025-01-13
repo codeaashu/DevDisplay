@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import Homepage from './Homepage';
+import Homepage from './Homepage.jsx';
 import Home from './Page/Home.jsx';
 import Opportunities from './Page/Opportunities.jsx';
 import IdeaSubmission from './Page/IdeaSubmission.jsx';
