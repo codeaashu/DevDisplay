@@ -1,5 +1,24 @@
 [
   {
+    "github_username": "codeaashu",
+    "Projects": [
+      {
+        "github_url": "https://github.com/codeaashu/Resume-Builder",
+        "title": "Resume Builder",
+        "description": "A resume builder website is a web-based tool that allows users to create and customize a professional resume to their desired specifications. These websites typically provide templates for creating a resume.",
+        "tech": ["React", "Chakra UI", "tailwindcss", "NPM"],
+        "maker_image": "https://github.com/codeaashu.png"
+      },
+      {
+        "github_url": "https://github.com/codeaashu/Word-Sprint",
+        "title": "Word Sprint",
+        "description": "Word Sprint is an exciting and fast-paced game designed to test and improve your typing speed and accuracy.",
+        "tech": ["HTML", "CSS", "JavaScript"],
+        "maker_image": "https://github.com/codeaashu.png"
+      }
+    ]
+  },
+  {
     "github_username": "Virajjai",
     "Projects": [
       {
