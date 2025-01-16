@@ -86,64 +86,73 @@ const DevSpring = () => {
       </div>
       <main className="mx-auto max-w-6xl px-4 py-10 text-center">
         <div className="flex flex-col items-center">
-          <h1 className="flex text-5xl font-bold text-[#31A9BF]">
+          <h1 className="relative flex text-5xl font-bold text-[#31A9BF]">
             <span className="text-white">{'{'}</span>
-            <span className="animate-glitch text-[#BF3356]">D</span>
-            <span className="animate-glitch text-[#BF3356]">e</span>
-            <span className="animate-glitch text-[#BF3356]">v</span>
-            <span className="animate-glitch">S</span>
-            <span className="animate-glitch">p</span>
-            <span className="animate-glitch">r</span>
-            <span className="animate-glitch">i</span>
-            <span className="animate-glitch">n</span>
-            <span className="animate-glitch">g</span>
+            <span className="animate-big-glitch text-[#BF3356]">D</span>
+            <span className="animate-big-glitch text-[#BF3356]">e</span>
+            <span className="animate-big-glitch text-[#BF3356]">v</span>
+            <span className="animate-big-glitch">S</span>
+            <span className="animate-big-glitch">p</span>
+            <span className="animate-big-glitch">r</span>
+            <span className="animate-big-glitch">i</span>
+            <span className="animate-big-glitch">n</span>
+            <span className="animate-big-glitch">g</span>
             <span className="text-white">{'}'}</span>
           </h1>
 
           <style jsx>{`
-            @keyframes glitch {
+            @keyframes big-glitch {
               0% {
-                transform: translate(0, 0);
+                transform: translate(0, 0) scale(1);
                 opacity: 1;
+                clip-path: inset(0% 0% 0% 0%);
+              }
+              10% {
+                transform: translate(-5px, 5px) scale(1.05);
+                clip-path: inset(10% 10% 80% 5%);
               }
               20% {
-                transform: translate(-2px, 2px);
+                transform: translate(5px, -5px) scale(1.1);
+                clip-path: inset(20% 5% 70% 10%);
+              }
+              30% {
+                transform: translate(-3px, 3px) scale(1.08);
+                clip-path: inset(5% 20% 50% 15%);
               }
               40% {
-                transform: translate(2px, -2px);
-              }
-              60% {
-                transform: translate(-2px, -2px);
-              }
-              80% {
-                transform: translate(2px, 2px);
-              }
-              100% {
-                transform: translate(0, 0);
-                opacity: 1;
-              }
-            }
-
-            @keyframes glitch-color {
-              0%,
-              100% {
-                filter: hue-rotate(0deg);
+                transform: translate(3px, -3px) scale(1.03);
+                clip-path: inset(15% 15% 85% 10%);
               }
               50% {
-                filter: hue-rotate(360deg);
+                transform: translate(0, 0) scale(1);
+                clip-path: inset(0% 0% 0% 0%);
+              }
+              100% {
+                transform: translate(0, 0) scale(1);
               }
             }
 
-            .animate-glitch {
+            @keyframes glitch-flicker {
+              0%,
+              100% {
+                opacity: 1;
+              }
+              50% {
+                opacity: 0.6;
+              }
+            }
+
+            .animate-big-glitch {
               display: inline-block;
               position: relative;
               animation:
-                glitch 0.7s infinite alternate ease-in-out,
-                glitch-color 2s infinite alternate ease-in-out;
+                big-glitch 1.5s infinite ease-in-out alternate,
+                glitch-flicker 1s infinite alternate;
+              color: #31a9bf;
             }
 
-            .animate-glitch:before,
-            .animate-glitch:after {
+            .animate-big-glitch:before,
+            .animate-big-glitch:after {
               content: attr(data-char);
               position: absolute;
               top: 0;
@@ -152,16 +161,16 @@ const DevSpring = () => {
               z-index: -1;
             }
 
-            .animate-glitch:before {
-              animation: glitch 0.7s infinite alternate-reverse ease-in-out;
-              color: #ff006e;
-              clip-path: inset(0 1px 0 0);
+            .animate-big-glitch:before {
+              color: #ff0000;
+              transform: translate(-2px, 2px);
+              animation: big-glitch 1.5s infinite ease-in-out alternate-reverse;
             }
 
-            .animate-glitch:after {
-              animation: glitch 0.7s infinite alternate ease-in-out;
-              color: #00f5d4;
-              clip-path: inset(1px 0 0 1px);
+            .animate-big-glitch:after {
+              color: #00ffcc;
+              transform: translate(2px, -2px);
+              animation: big-glitch 1.5s infinite ease-in-out alternate;
             }
           `}</style>
 
