@@ -1,7 +1,6 @@
 name: 'Greetings'
 
 on:
-  fork:
   push:
     branches:
       - main
@@ -26,7 +25,7 @@ jobs:
 
       # Sending a custom greeting message to issues and PRs
       - name: Welcome new issue or PR
-        uses: actions/first-interaction@v1
+        uses: actions/first-interaction@v1.1.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: |
