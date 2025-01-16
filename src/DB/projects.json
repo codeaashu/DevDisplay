@@ -1,5 +1,24 @@
 [
   {
+    "github_username": "codeaashu",
+    "Projects": [
+      {
+        "github_url": "https://github.com/codeaashu/Resume-Builder",
+        "title": "Resume Builder",
+        "description": "A resume builder website is a web-based tool that allows users to create and customize a professional resume to their desired specifications. These websites typically provide templates for creating a resume.",
+        "tech": ["React", "Chakra UI", "tailwindcss", "NPM"],
+        "maker_image": "https://github.com/codeaashu.png"
+      },
+      {
+        "github_url": "https://github.com/codeaashu/Word-Sprint",
+        "title": "Word Sprint",
+        "description": "Word Sprint is an exciting and fast-paced game designed to test and improve your typing speed and accuracy.",
+        "tech": ["HTML", "CSS", "JavaScript"],
+        "maker_image": "https://github.com/codeaashu.png"
+      }
+    ]
+  },
+  {
     "github_username": "Virajjai",
     "Projects": [
       {
@@ -302,18 +321,6 @@
         "description": "Video Calling Android App ",
         "tech": ["mongodb", "kotlin"],
         "maker_image": "https://github.com/adity2911.png"
-      }
-    ]
-  },
-  {
-    "github_username": "vinaysingh-chaudhary",
-    "Projects": [
-      {
-        "github_url": "https://github.com/vinaysingh-chaudhary/Lightful-Universe-React",
-        "title": "Lightful-universe",
-        "description": "You can see interesting pictures of our galaxy, I've used Nasa's POD API to source the pictures of the Universe, and I've used reactjs and Tailwind to build this project",
-        "tech": ["reactjs", "tailwindcss", "api"],
-        "maker_image": "https://github.com/vinaysingh-chaudhary.png"
       }
     ]
   },
@@ -702,14 +709,14 @@
     ]
   },
   {
-    "github_username": "urz-ahmed",
+    "github_username": "urzahmed",
     "Projects": [
       {
-        "github_url": "https://github.com/urz-ahmed/social-utopia",
+        "github_url": "https://github.com/urzahmed/social-utopia",
         "title": "Social Utopia",
         "description": "Immerse yourself in a captivating digital realm where creativity flourishes, as a responsive Front End Website built with reactjs and firebase invites users to effortlessly contribute, connect, and engage through content sharing, interactive ratings, and insightful discussions.",
         "tech": ["reactjs", "firebase", "tailwindcss"],
-        "maker_image": "https://github.com/urz-ahmed.png"
+        "maker_image": "https://github.com/urzahmed.png"
       }
     ]
   },
@@ -941,14 +948,14 @@
     ]
   },
   {
-    "github_username": "GyanPrakashKumar",
+    "github_username": "krgyaan",
     "Projects": [
       {
-        "github_url": "https://github.com/GyanPrakashKumar/QR-code-component-solution",
+        "github_url": "https://github.com/krgyaan/QR-code-component-solution",
         "title": "QR code component",
         "description": "This is a solution to the QR code component challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. ",
         "tech": ["html", "css"],
-        "maker_image": "https://github.com/GyanPrakashKumar.png"
+        "maker_image": "https://github.com/krgyaan.png"
       }
     ]
   },
@@ -1025,14 +1032,14 @@
     ]
   },
   {
-    "github_username": "Deveesh-Shetty",
+    "github_username": "dev-shetty",
     "Projects": [
       {
-        "github_url": "https://github.com/Deveesh-Shetty/Chromatico",
+        "github_url": "https://github.com/dev-shetty/Chromatico",
         "title": "Chromatico",
         "description": "Chromatico is a color generator application which features generating and saving different palettes and colors.",
         "tech": ["reactjs", "typescript", "tailwindcss"],
-        "maker_image": "https://github.com/Deveesh-Shetty.png"
+        "maker_image": "https://github.com/dev-shetty.png"
       }
     ]
   },
@@ -1116,18 +1123,6 @@
     ]
   },
   {
-    "github_username": "sagar1621",
-    "Projects": [
-      {
-        "github_url": "https://github.com/sagar1621/Golds-Gym",
-        "title": "GoldsGym",
-        "description": "The website provides a platform for users to search for exercises by body part, view exercise details, and watch related exercise videos using YouTube API from RapidAPI.",
-        "tech": ["reactjs", "tailwindcss", "mui", "api"],
-        "maker_image": "https://github.com/sagar1621.png"
-      }
-    ]
-  },
-  {
     "github_username": "parma1111",
     "Projects": [
       {
@@ -1152,15 +1147,14 @@
     ]
   },
   {
-    "github_username": "Blaize15",
+    "github_username": "noobyco",
     "Projects": [
       {
-        "gh-username": "Blaize15",
-        "github_url": "https://github.com/Blaize15/Line-followeg-robot",
+        "github_url": "https://github.com/noobyco/noobot",
         "title": "Line Following Robot",
         "description": "A robot which follows a dark colored line with the help of sensors.",
         "tech": ["raspberry pi", "python 3"],
-        "maker_image": "https://github.com/Blaize15.png"
+        "maker_image": "https://github.com/noobyco.png"
       }
     ]
   },
@@ -1284,14 +1278,14 @@
         "title": "SUMZ",
         "description": "A ChatGPT powered A.I. summarizer, which can summarize any articles just from its URL.",
         "tech": ["reactjs", "tailwindcss", "redux toolkit", "redux"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Atharva-3000.png"
       },
       {
         "github_url": "https://github.com/Atharva-3000/portfolio",
         "title": "Personal Portfolio Website",
         "description": "You can use this template to create your own portfolio easily and showcase your projects.",
         "tech": ["reactjs", "emailjs", "framer-motion"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Atharva-3000.png"
       }
     ]
   },
@@ -1303,14 +1297,14 @@
         "title": "Google Keep Clone 2.0 - Notes App",
         "description": "An updated version of Google Keep Clone with updated UI and UX. It can add, remove and archive notes and is styled using MaterialUI, css and JSX.",
         "tech": ["reactjs", "mui", "javascript", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/abhinav-m22.png"
       },
       {
         "github_url": "https://github.com/abhinav-m22/yt-bookmark-extension",
         "title": "YouTube Bookmark Chrome Extension",
         "description": "The project is a Google Chrome extension for adding Bookmarks of YouTube video timestamps. Users can bookmark a video at particular timestamp and resume watching it later.",
         "tech": ["javascript", "html", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/abhinav-m22.png"
       }
     ]
   },
@@ -1322,14 +1316,14 @@
         "title": "C-Programs",
         "description": "This repository contains some useful C programs, each categorized, which can help the college students.",
         "tech": ["c"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/akkshayTandon.png"
       },
       {
         "github_url": "https://github.com/akkshayTandon/java-Programs",
         "title": "JAVA Programs",
         "description": "This repository contains some useful JAVA programs and projects, each categorized, which can help the college students.",
         "tech": ["java"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/akkshayTandon.png"
       }
     ]
   },
@@ -1341,7 +1335,7 @@
         "title": "Google Clone",
         "description": "This is a Google Clone application built with reactjs JS, featuring a home page, search component, and search results page. It utilizes reactjs JS, Material UI, reactjs Router, and Context API for efficient UI development and state management. The application integrates with the Google Custom Search API for fetching search results. firebase is used for authentication and backend functionalities.",
         "tech": ["reactjs", "mui", "api", "firebase"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/akshaykamath45.png"
       }
     ]
   },
@@ -1353,7 +1347,7 @@
         "title": "GeoTrackerX",
         "description": "The app is a IP tracker with geo location.It allows users to search the web with ease and convenience.The web application displays the location, city,time-zone, postal code, and region of the IP address that user enters.The web application also displays information about the name, domain, ISP, proxy, VPN, and Tor of the IP address.Users can also quickly re-search without having to return to the homepage to perform a new search.",
         "tech": ["javascript", "css", "html", "api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/vaishalidewangan786.png"
       }
     ]
   },
@@ -1365,7 +1359,7 @@
         "title": "ShareWall",
         "description": "ShareWall is a social media app where you can upload and download photos",
         "tech": ["reactjs", "javascript", "tailwindcss", "sanity"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/ayushlohmod.png"
       }
     ]
   },
@@ -1377,7 +1371,7 @@
         "title": "Exchange Rate Converter Extension",
         "description": "This is an Exchange Rate Converter Chrome Extension where anyone can convert their currency",
         "tech": ["javascript", "css", "html", "api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/crocmons.png"
       }
     ]
   },
@@ -1389,21 +1383,21 @@
         "title": "Github-user-info",
         "description": "This website is of finding username on github so that everyone can access their prs, issues,repositories.",
         "tech": ["javascript", "css", "html", "reactjs", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Ks103.png"
       },
       {
         "github_url": "https://github.com/Ks103/PortFolio",
         "title": "Portfolio site",
         "description": "This is my personal portfolio website connect with me. Let's make this contribution journey more far by connecting with each other. #Happy Learning",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Ks103.png"
       },
       {
         "github_url": "https://github.com/Ks103/CommuniCore",
         "title": "Educational Website",
         "description": "This is the educational website, one can practice their skills and there are many resources also available which can help to crack GATE.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Ks103.png"
       }
     ]
   },
@@ -1415,7 +1409,7 @@
         "title": "Responsive Front-end Design",
         "description": "This Project is designed as a part of Coding Club intiative organized by MCA Department of Galgotias College of Enginnering and Technology. This Project involves creating the responsive design for the club. This Project has 3 contributors Narayan Dwivedi(Lead) ,Mayank Shukla and Shivam Rai as a members of a team. ",
         "tech": ["javascript", "css", "html"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/narayan2111.png"
       }
     ]
   },
@@ -1427,7 +1421,7 @@
         "title": "Start Contributing",
         "description": "This project aims to help beginners get started with contributing to open source by providing a substantial amount of useful resources. Everyone is welcome to contribute and be a part of this project.",
         "tech": ["open source"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Sriparno08.png"
       }
     ]
   },
@@ -1439,7 +1433,7 @@
         "title": "Github Finder",
         "description": "Github Finder is a website that helps finding usernames on github where they analyse their daily activites as well as check their statistics. There is also functionality for searching and getting information about Github organizations along with their recent projects.",
         "tech": ["reactjs", "mui", "api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Sanchitbajaj02.png"
       }
     ]
   },
@@ -1451,7 +1445,7 @@
         "title": "E-commerce website",
         "description": "Basimart Makes It Easy To Order From Your Favorite Stores. Shop For Items From Stores Near You, With A Selection Of More Than 500 Retailers And Trusted Local Grocers Across Costa Rica Basimart Will Connect You With A Personal Shopper In Your Area To Shop And Deliver Your Order.",
         "tech": ["reactjs", "mongodb", "firebase", "nodejs", "cloudinary"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/KawishAli6578.png"
       }
     ]
   },
@@ -1463,7 +1457,7 @@
         "title": "YouTube Clone",
         "description": "A fully working clone of YouTube made using reactjs, Material UI and YouTube v3 API. User can search and play the videos in the app directly.",
         "tech": ["reactjs", "mui", "reactjs", "css", "api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/accodes21.png"
       }
     ]
   },
@@ -1475,7 +1469,7 @@
         "title": "Github Profile Finder",
         "description": "You can use this Project to find any GitHub User profile by Just Entering their Username",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Khushbumaheshwarii.png"
       }
     ]
   },
@@ -1487,7 +1481,7 @@
         "title": "GitHub Users API",
         "description": "This project is made by using GitHub Users API and simple html, css, javascript",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Hardikaz.png"
       }
     ]
   },
@@ -1499,7 +1493,7 @@
         "title": "Recipe app",
         "description": "The Recipe application is a web-based platform designed to store and organize recipes for users. It assists users in remembering the cooking methods and step-by-step instructions involved in preparing each recipe.",
         "tech": ["vue", "vuex"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/jibola2588.png"
       }
     ]
   },
@@ -1511,7 +1505,7 @@
         "title": "Summarizer",
         "description": "Summarizer is a web application built with reactjs and redux that utilizes the article-extractor-and-summarizer Rapid API to summarize articles and blog posts.",
         "tech": ["javascript", "reactjs", "node", "api", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/BaibhavTiwari.png"
       }
     ]
   },
@@ -1523,7 +1517,7 @@
         "title": "Diagnose",
         "description": "Skin cancer detection from your skin images.",
         "tech": ["python", "tensorflow", "streamlit", "machine learning"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/coder12git.png"
       }
     ]
   },
@@ -1535,21 +1529,21 @@
         "title": "Face-Recognition-and-Emotion-Detection",
         "description": "A fully working Facila expression recognition model made using Python, OpenCV, Keras and Tensorflow. User can see the facial expression of the person in the app directly.",
         "tech": ["python", "opencv", "keras", "tensorflow"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Deepanshu0703.png"
       },
       {
         "github_url": "https://github.com/Deepanshu0703/google-keeper-clone",
         "title": "Google Keeper Clone",
         "description": "This is a clone of google keeper app. It is a note taking app where you can add, delete and edit notes.",
         "tech": ["reactjs", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Deepanshu0703.png"
       },
       {
         "github_url": "https://github.com/Deepanshu0703/dragAndDrop",
         "title": "Drag and Drop",
         "description": "This is a drag and drop app made using html,css and javascript. You can drag and drop the boxes to change their position.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Deepanshu0703.png"
       }
     ]
   },
@@ -1561,7 +1555,7 @@
         "title": "Huffman-Compressor",
         "description": "HuffmanCompressor is a project that implements the Huffman coding algorithm for data compression, resulting in efficient storage and transmission of information. It provides a streamlined solution for reducing the size of files while preserving their content.",
         "tech": ["html", "css", "javascript", "c++"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/sangdeepganvir.png"
       }
     ]
   },
@@ -1573,14 +1567,14 @@
         "title": "ProjektHouse",
         "description": "ProjektHouse is a Web Application for managing final year team data and associated project files. The application enables teams to create an account, log in, and manage their project details and files.",
         "tech": ["mongodb", "reactjs", "nodejs", "expressjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/anamika7153.png"
       },
       {
         "github_url": "https://github.com/anamika7153/my-portfolio",
         "title": "Portfolio",
         "description": "This is a portfolio website made using reactjs, and javascript. It contains my projects and experience.",
         "tech": ["javascript", "scss", "reactjs", "sanity"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/anamika7153.png"
       }
     ]
   },
@@ -1592,7 +1586,7 @@
         "title": "Thrift",
         "description": " Thrift is a humanitarian effort dedicated to promoting literacy by offering free old books to learners. Along with them, you can buy OR sell second hand books & your handmade works as well. A unique component of our work is the identification of adjacent NGOs that can place requests for books or other needed items for children, thereby benefiting pupils.",
         "tech": ["reactjs", "firebase"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/ShreyaDhiman24.png"
       }
     ]
   },
@@ -1604,7 +1598,7 @@
         "title": "File Zipping Software",
         "description": "Loseless Compression reduces file's size with no loss of quality. This project takes in .txt file as input and produces .huf file which takes less storage space. It also converts .huf file into original .txt file.",
         "tech": ["c++", "sfml"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/neekamhrzn.png"
       }
     ]
   },
@@ -1616,7 +1610,7 @@
         "title": "Cafe Website",
         "description": "Cafe Website was created so that the users can order cakes or other cafe foods from their own respective place",
         "tech": ["html", "css", "php", "mysql"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/iriteshmishra.png"
       }
     ]
   },
@@ -1628,7 +1622,7 @@
         "title": "ChatGPT-Clone",
         "description": "A bot that generates text and images for the given prompts.",
         "tech": ["reactjs", "nodejs", "expressjs", "javascript", "css", "api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/komalioruganti.png"
       }
     ]
   },
@@ -1640,19 +1634,7 @@
         "title": "Travel Agency",
         "description": "Jadoo is the Name, it's a travel agency website that can helps people with their traveling into another country and enable them book any flight of their choice ",
         "tech": ["reactjs", "tailwindcss", "api", "redux", "firebase"],
-        "maker_image": "https://github.com/.png"
-      }
-    ]
-  },
-  {
-    "github_username": "Swapnil-Singh-99",
-    "Projects": [
-      {
-        "github_url": "https://github.com/Swapnil-Singh-99/Rock-Paper-Scissors",
-        "title": "Rock Paper Scissors",
-        "description": "Rock Paper Scissors Game created using html, css, javascript",
-        "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Princessayomide53.png"
       }
     ]
   },
@@ -1664,7 +1646,7 @@
         "title": "Literary Finds - Discover Literary Treasures",
         "description": "A web application used to find various books with many information like Book Name, Author, Wiki Link and so on!",
         "tech": ["html", "css", "javascript", "api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/naveenvaratharaj.png"
       }
     ]
   },
@@ -1676,7 +1658,7 @@
         "title": "Tindog E-Commerece website",
         "description": "Tindog website is a E-Commerce Website for dog lovers.Tinndog website is user freindly and responsive",
         "tech": ["html", "css", "javascript", "bootstrap"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Kumudhaart.png"
       }
     ]
   },
@@ -1688,7 +1670,7 @@
         "title": "CrypTracker",
         "description": "User can search for any cryptocurrency and see details about the same. The user can also follow latest news about the domain.",
         "tech": ["reactjs", "tailwindcss", "tspartciles"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/AgamK18.png"
       }
     ]
   },
@@ -1700,7 +1682,7 @@
         "title": "Cryptospy",
         "description": "Cryptospy is a website that allows users to search for information about various cryptocurrencies in real-time. ",
         "tech": ["reactjs", "scss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/manojsai1.png"
       }
     ]
   },
@@ -1712,14 +1694,14 @@
         "title": "Thrifty Thumbs",
         "description": "Thrifty Thumbs is a price comparison website that helps users to find the best deals on products from various online stores. With Thrifty Thumbs, users can compare prices of a product across different stores like Amazon, Flipkart, Reliance Digital, and Shopclues.",
         "tech": ["reactjs", "tailwindcss", "python", "django"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/iamharshkr.png"
       },
       {
         "github_url": "https://github.com/iamharshkr/apnastock",
         "title": "Apna Stock",
         "description": "You can use our tool for the analysis the stock and also you can predict the price of stock. We use some of the best indicators for the analysis of the stock, Eg: Simple Moving Average, Bollinger Bands, Stochastic Oscillator, Commodity Channel Index And RSI. By analyzing these indicators you can predict the movement of the stock.",
         "tech": ["reactjs", "tailwindcss", "python", "django"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/iamharshkr.png"
       }
     ]
   },
@@ -1731,14 +1713,14 @@
         "title": "Derma",
         "description": "An Artificial Intelligence application for predicting skin diseases.",
         "tech": ["nodejs", "expressjs", "mongodb", "reactjs", "python", "tensorflow"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/suravshrestha.png"
       },
       {
         "github_url": "https://github.com/suravshrestha/visualizeit",
         "title": "VisualizeIT",
         "description": "Interactive visualization tool for pathfinding, backtracking, and recursion algorithms.",
         "tech": ["html", "css", "javascript", "reactjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/suravshrestha.png"
       }
     ]
   },
@@ -1750,14 +1732,14 @@
         "title": "Binary Search Tree Visualizer",
         "description": "This is a web-based application to visualize binary search tree operations. The user can insert a value to the binary search tree, find a value, delete a value, and traverse the tree using different traversal techniques. The application animates the binary search tree operations step by step in real-time to help users understand how the algorithm works.",
         "tech": ["html", "css", "javascript", "d3js"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/roshan798.png"
       },
       {
         "github_url": "https://github.com/roshan798/Sudoku",
         "title": "Sudoku Game",
         "description": "This is a Sudoku game website created using html, css, and javascript.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/roshan798.png"
       }
     ]
   },
@@ -1769,7 +1751,7 @@
         "title": "Shopping Cart JS",
         "description": "The javascript Shopping Cart project is a web application that allows users to browse and purchase products. It provides a seamless and interactive shopping experience by implementing a shopping cart functionality using javascript.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/WajeehaCodes.png"
       }
     ]
   },
@@ -1781,7 +1763,7 @@
         "title": "Gpt-3 X Web Clipper Chrome extension",
         "description": "reactjs Chrome Extension with GPT-3 integration and Webpage text clipping",
         "tech": ["reactjs", "tailwindcss", "api", "typescript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/abhrajitray77.png"
       }
     ]
   },
@@ -1793,7 +1775,7 @@
         "title": "AR Watches",
         "description": "The AR Watches Android app is designed to showcase augmented reality technology by allowing users to virtually try on watches using their smartphone's camera.",
         "tech": ["java", "unity", "vuforia", "c#", "firebase", "xml"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/TusharMinche.png"
       }
     ]
   },
@@ -1805,7 +1787,7 @@
         "title": "Gradient Wizard",
         "description": "GradientWizard is a web application that allows you to generate gradient colors using a simple and intuitive interface.With GradientWizard, you can easily create beautiful gradients by selecting colors manually or generating random gradients. Additionally, you can copy the css code for the generated gradient and use it in your projects.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Shivam-Katare.png"
       }
     ]
   },
@@ -1817,7 +1799,7 @@
         "title": "web-crawler",
         "description": "It is a web-crawler that can traverse websites starting from a given seed URL, following links to discover and crawl additional pages within the defined scope, It will scrape all the front add files like html, php except the backend code files to ensure safety!",
         "tech": ["nodejs", "expressjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/saikiranreddy201.png"
       }
     ]
   },
@@ -1829,14 +1811,14 @@
         "title": "DePay",
         "description": "A web3 based decentralised money lending system to allow users to send,receive,borrow and lend money(on Goerli Testnet)",
         "tech": ["nextjs", "solidity", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Google-ka-Dinosaur.png"
       },
       {
         "github_url": "https://github.com/Google-Ka-Dinosaur/Avax-Gods",
         "title": "Avax Gods",
         "description": "A web3 based decentralised NFT battlecard game(on Avalanche C Testnet)",
         "tech": ["reactjs", "solidity", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Google-ka-Dinosaur.png"
       }
     ]
   },
@@ -1848,7 +1830,7 @@
         "title": "QR Code Generator",
         "description": "An application which is able to generate a QR code of every website. URL of the website is provided as an input and its able to generate corresponding QR code for that website.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Vidip-Ghosh.png"
       }
     ]
   },
@@ -1860,7 +1842,7 @@
         "title": "Personality Analysis",
         "description": "In this project, one can analyze the personality of different persons and can calculate the accuracies of personalities using different algorithms",
         "tech": ["python", "machine learning"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/akshaya-hub.png"
       }
     ]
   },
@@ -1872,14 +1854,14 @@
         "title": "Restaurant Website",
         "description": "A visually appealing and well-designed Website for a Restaurant which has the Menu, Contact Details of the Restaurant and also a Booking Option for customers.",
         "tech": ["reactjs", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/govardhan-26.png"
       },
       {
         "github_url": "https://github.com/govardhan-26/Disneyplus-Hotstar-Clone.git",
         "title": "Disney+ Hotstar Clone",
         "description": "A Web application that replicates the features of the popular streaming platform, Disney+ Hotstar.",
         "tech": ["reactjs", "css", "firebase"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/govardhan-26.png"
       }
     ]
   },
@@ -1891,7 +1873,7 @@
         "title": "Todo List",
         "description": "A Todo List is a digital tool designed to help users manage their tasks and stay organized. With this app, users can easily add tasks to their list, edit and update them, and delete tasks as needed.",
         "tech": ["reactjs", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Rishav1707.png"
       }
     ]
   },
@@ -1903,7 +1885,7 @@
         "title": "Bullseye Game",
         "description": "This project is a little and simple bullseye game written in html5, css3 and javascript.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Hypertext-Workaholics.png"
       }
     ]
   },
@@ -1915,7 +1897,7 @@
         "title": "Coffe and Wifi",
         "description": "This project will help developers to find suitable cafes with proper power supply , that will help them to work efficiently while enjoying the best drinks, and atmosphere that cities and towns can offer.",
         "tech": ["html", "css", "flask-wtf", "flask-bootstrap"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Utkers-h.png"
       }
     ]
   },
@@ -1927,7 +1909,7 @@
         "title": "Discord Clone",
         "description": "This project is a clone of the original website of Discord, which is fully responsive.",
         "tech": ["html", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Monishka8303.png"
       }
     ]
   },
@@ -1939,7 +1921,7 @@
         "title": "Blog Website",
         "description": "A personal blog website created as an EJS challenge using Node JS, Express Js, Mongo DB.",
         "tech": ["nodejs", "expressjs", "mongodb", "html", "css", "ejs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/prasanta10.png"
       }
     ]
   },
@@ -1951,7 +1933,7 @@
         "title": "Save Cinema Frontend Project with Payment Gateway Integration",
         "description": "This project is focused on promoting and supporting the cinema industry. It aims to create a platform that engages cinema lovers and encourages them to contribute to the well-being of those involved in the film-making process. The webpage showcases information about the project and provides a donation form for users to contribute.",
         "tech": ["html", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/SJ-Kumar.png"
       }
     ]
   },
@@ -1963,7 +1945,7 @@
         "title": "Bookstore",
         "description": "My bookstore website can issue different books and has multiple features.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/rajputsingh808.png"
       }
     ]
   },
@@ -1975,19 +1957,19 @@
         "title": "Usability Hub",
         "description": "UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by validating them with real users.",
         "tech": ["html", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/KhushiVaiskyar.png"
       }
     ]
   },
   {
-    "github_username": "pankajktech",
+    "github_username": "thakurdotdev",
     "Projects": [
       {
-        "github_url": "https://github.com/pankajktech/FindYourJob",
+        "github_url": "https://github.com/thakurdotdev/FindYourJob",
         "title": "Find Your Job",
         "description": "Find Your Job is a Job Posting and Searching Website Made Using MERN Stack.",
         "tech": ["reactjs", "nodejs", "expressjs", "mongodb", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/thakurdotdev.png"
       }
     ]
   },
@@ -1999,7 +1981,7 @@
         "title": "Slither",
         "description": "Legendary Nokia Snake Game which would take you back to the good old days.",
         "tech": ["python"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/vk20july.png"
       }
     ]
   },
@@ -2011,7 +1993,7 @@
         "title": "Movie recommender system ",
         "description": "A movie recommender system is a type of algorithmic software that provides personalized recommendations of movies to users based on their viewing history, preferences, and behavior.",
         "tech": ["python", "machine learning"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Abhinavcode13.png"
       }
     ]
   },
@@ -2023,14 +2005,14 @@
         "title": "Noted",
         "description": "Noted is a Chrome extension built using html, css, and javascript to quickly save the current tab or URL with preferable keywords.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/dhruvishavaghani.png"
       },
       {
         "github_url": "https://github.com/dhruvishavaghani/NewsZilla",
         "title": "NewsZilla",
         "description": "NewsZilla is a live news website with all categories of news.",
         "tech": ["html", "css", "reactjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/dhruvishavaghani.png"
       }
     ]
   },
@@ -2042,7 +2024,7 @@
         "title": "event-keycode",
         "description": "This is a simple project using html, css and javascript that displays the keycodes when a key is pressed.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/OMKAR-KALEPU.png"
       }
     ]
   },
@@ -2054,7 +2036,7 @@
         "title": "Razorpay Clone",
         "description": "It is a cloned frontend design of original Razorpay payment gateway.",
         "tech": ["html", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Jranii.png"
       }
     ]
   },
@@ -2066,7 +2048,7 @@
         "title": "Email Client Appilication using python",
         "description": "There are two methods provide different capabilities for sending emails. The first approach allows you to send a single email, while the second approach expands on that by reading email data from a CSV file and sending bulk emails.",
         "tech": ["python"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/BALASARVAN12.png"
       }
     ]
   },
@@ -2078,7 +2060,7 @@
         "title": "Netflix Clone",
         "description": "It is a static frontend clone of official Netflix website",
         "tech": ["html", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/harshal2002.png"
       }
     ]
   },
@@ -2090,54 +2072,54 @@
         "title": "Dalle clone",
         "description": "DALL·E is a neural network model developed by OpenAI. It stands for Distributed and Adversarial Learning of Latent Embeddings, and it is designed to generate images from textual descriptions",
         "tech": ["html", "css", "nodejs", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/kumar11jr.png"
       }
     ]
   },
   {
-    "github_username": "vaibhav-xt",
+    "github_username": "vaibhav-xp",
     "Projects": [
       {
-        "github_url": "https://github.com/vaibhav-xt/Certificate-Generator",
+        "github_url": "https://github.com/vaibhav-xp/Certificate-Generator",
         "title": "Certificate Generator",
         "description": "This is a certificate generator application that take inputs and generate certificate also we cand do download. ",
         "tech": ["html", "css", "javascript", "html2canva"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/vaibhav-xp.png"
       },
       {
-        "github_url": "https://github.com/vaibhav-xt/Portfolio",
+        "github_url": "https://github.com/vaibhav-xp/Portfolio",
         "title": "Portfolio site",
         "description": "A portfolio project showcases an individual's or a professional's work, skills, and accomplishments in a concise and visually appealing manner to demonstrate their expertise and attract potential opportunities.",
         "tech": ["css", "javascript", "html"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/vaibhav-xp.png"
       },
       {
-        "github_url": "https://github.com/vaibhav-xt/Music-Player",
+        "github_url": "https://github.com/vaibhav-xp/Music-Player",
         "title": "Music Player",
         "description": "Music Player",
         "tech": ["css", "javascript", "html"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/vaibhav-xp.png"
       },
       {
-        "github_url": "https://github.com/vaibhav-xt/Vanilla-Javascript-Projects/tree/master/Color%20Flipper",
+        "github_url": "https://github.com/vaibhav-xp/Vanilla-Javascript-Projects/tree/master/Color%20Flipper",
         "title": "Color Flipper",
         "description": "Color Flipper is a vanilla javascript project.",
         "tech": ["css", "javascript", "html"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/vaibhav-xp.png"
       },
       {
-        "github_url": "https://github.com/vaibhav-xt/Vanilla-Javascript-Projects/tree/master/Reviews",
+        "github_url": "https://github.com/vaibhav-xp/Vanilla-Javascript-Projects/tree/master/Reviews",
         "title": "Testimonials Carousal",
         "description": "This is the testimonial carousal made with vanilla javascript. ",
         "tech": ["css", "javascript", "html"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/vaibhav-xp.png"
       },
       {
-        "github_url": "https://github.com/vaibhav-xt/OIBSIP_Pizza-delivery-app",
+        "github_url": "https://github.com/vaibhav-xp/OIBSIP_Pizza-delivery-app",
         "title": "Pizza Delivery Web App",
         "description": "Full Stack Pizza Delivery Application",
         "tech": ["react", "redux", "mongodb", "nodejs", "expressjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/vaibhav-xp.png"
       }
     ]
   },
@@ -2149,7 +2131,7 @@
         "title": "Fitness Center",
         "description": "This is a fitness center website. It is used to provide information and resources to help individuals improve their physical health and wellbeing.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Roshnijeewani3457.png"
       }
     ]
   },
@@ -2161,14 +2143,14 @@
         "title": "TextGo",
         "description": "Using TextGo you can perform multiple operations on your text.",
         "tech": ["reactjs", "html", "css", "bootstrap", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/anirudhsalaria.png"
       },
       {
         "github_url": "https://github.com/anirudhsalaria/Harrypotter",
         "title": "HarryPotter Website",
         "description": "This is the website made for all the Potterheads!!! Here everybody can download their favourite harrypotter books and movies for free.",
         "tech": ["html", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/anirudhsalaria.png"
       }
     ]
   },
@@ -2180,21 +2162,21 @@
         "title": "Unified Travelling and Transport System",
         "description": "The Unified Travelling and Transport System is a project aimed at developing a unified platform for all transportation-related activities. The platform provides features such as route planning, real-time tracking, fare estimation, and payment options for different modes of transport.",
         "tech": ["python"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/HartzFrequency.png"
       },
       {
         "github_url": "https://github.com/HartzFrequency/Movie_Rental_And_Buying_System",
         "title": "Movie Rental and Buying System",
         "description": "This project is a movie rental and buying system implemented in Cpp. The system allows users to browse catalog of movies, rent and buy movies, manage their rentals and purchases, and store user data using file handling.",
         "tech": ["cpp"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/HartzFrequency.png"
       },
       {
         "github_url": "https://github.com/HartzFrequency/Wave",
         "title": "Wave: Discord Bot",
         "description": "Wave is a Discord bot which is made using Python to resolve the problem which is an external software requirement for recording voice chats of DIscord channels, this discord bot aims enabling you to record the conversations and can provide you the recording of chat",
         "tech": ["python", "api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/HartzFrequency.png"
       }
     ]
   },
@@ -2206,14 +2188,14 @@
         "title": "Score Keeper",
         "description": "Built using reactjs, this app provides a user-friendly interface and real-time score updates.  The app dynamically updates the scores in real-time, providing an interactive and engaging experience. The app incorporates a score limit feature and displays the winner when the score limit is reached.  ",
         "tech": ["reactjs", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/shagunZ.png"
       },
       {
         "github_url": "https://github.com/shagunZ/movieapp-react",
         "title": "MovieApp",
         "description": "The MovieApp is built with reactjs, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
         "tech": ["reactjs", "html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/shagunZ.png"
       }
     ]
   },
@@ -2225,7 +2207,7 @@
         "title": "Jobby App",
         "description": "A job portal built using reactjs.JS and with mobile-first responsive design. This project provides various filters for filtering a large set of jobs fetched from an API. This project also uses JWT for authentication.",
         "tech": ["reactjs", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/swethapaleti.png"
       }
     ]
   },
@@ -2237,21 +2219,21 @@
         "title": "Weather App",
         "description": "Weather web app made with reactjs JS and tailwindcss which fetches API from OpenWeatherMap based on the location entered in the search box.",
         "tech": ["reactjs", "javascript", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/coderhersh.png"
       },
       {
         "github_url": "https://github.com/coderhersh/pinax",
         "title": "Pinax",
         "description": "Pinax is a landing page made in Angular and tailwindcss.",
         "tech": ["html", "tailwindcss", "nodejs", "typescript", "angular"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/coderhersh.png"
       },
       {
         "github_url": "https://github.com/coderhersh/Credit-Card-Fraud-Detection",
         "title": "Credit-Card-Fraud-Detection",
         "description": "This is a machine learning project made on Credit Card Fraud Detection. The data is taken from Kaggle. Different classification machine learning algorithms have been applied to get the maximum accuracy.",
         "tech": ["python", "jupyter notebook"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/coderhersh.png"
       }
     ]
   },
@@ -2263,7 +2245,7 @@
         "title": "Encipher | Decipher",
         "description": "A simple encryption/decryption website which allows users to encrypt/decrypt messages using three different cryptographic ciphers along with a key",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/siddarthdayala.png"
       }
     ]
   },
@@ -2275,42 +2257,42 @@
         "title": "Weather App",
         "description": "This is a simple weather application built using Express.js. It allows users to retrieve weather information based on location.",
         "tech": ["html", "css", "javascript", "expressjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Atharvashirsh.png"
       },
       {
         "github_url": "https://github.com/Atharvashirsh/To-Do-List",
         "title": "To Do List App",
         "description": "This repository consists of a To-Do List in which the backend is integrated using Php.",
         "tech": ["html", "css", "mysql", "php"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Atharvashirsh.png"
       },
       {
         "github_url": "https://github.com/Atharvashirsh/Dinosaur-Game",
         "title": "Chrome Dinosaur Game",
         "description": "This is a simple Dinosaur Game made using Pygame module in Python.",
         "tech": ["python"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Atharvashirsh.png"
       },
       {
         "github_url": "https://github.com/Atharvashirsh/User-Database-Management-System",
         "title": "User Database Management",
         "description": "A User Database Management System is a project built with mongodb, Express.js, and nodejs that allows you to manage user data efficiently",
         "tech": ["ejs", "mongodb", "mongoose", "expressjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Atharvashirsh.png"
       },
       {
         "github_url": "https://github.com/Atharvashirsh/flutter-Quiz-App",
         "title": "Quiz App",
         "description": "A simple Quiz App made in flutter",
         "tech": ["flutter", "dart"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Atharvashirsh.png"
       },
       {
         "github_url": "https://github.com/Atharvashirsh/Xylophone-App",
         "title": "Xylophone App",
         "description": "A simple Xylophone App made in flutter that plays tunes",
         "tech": ["flutter", "dart"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Atharvashirsh.png"
       }
     ]
   },
@@ -2322,7 +2304,7 @@
         "title": "MESSI MANIA",
         "description": "A simple fan made web-page of LIONEL MESSI",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Soumyajit2825.png"
       }
     ]
   },
@@ -2334,19 +2316,19 @@
         "title": "Water-Tracker",
         "description": "A web application that counts the daily water intake of an indivisual.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/aparna03dubey.png"
       }
     ]
   },
   {
-    "github_username": "codewithavantika",
+    "github_username": "avantika0001",
     "Projects": [
       {
-        "github_url": "https://github.com/codewithavantika/miniURL",
+        "github_url": "https://github.com/avantika0001/miniURL",
         "title": "miniURL-URL Shortener",
         "description": "Flask web app to shorten long URLs",
         "tech": ["flask", "python"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/avantika0001.png"
       }
     ]
   },
@@ -2358,14 +2340,14 @@
         "title": "TIC-TAC-TOE Game",
         "description": "This is a simple game of Tic-Tac-Toe built with html, css, and javascript.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/AmanSingh6574.png"
       },
       {
         "github_url": "https://github.com/AmanSingh6574/Password-Generator",
         "title": "Password Generator",
         "description": "About Generate the password automatically according to the given conditions such as include uppercase, lowercase letters, no of password required, etc. It also checks for the strength of the password generated and indicates it with geen and red colors",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/AmanSingh6574.png"
       }
     ]
   },
@@ -2377,7 +2359,7 @@
         "title": "Souryax Streaming App",
         "description": "Interface of a movie streaming app and also search for an option for your favourite movies.",
         "tech": ["reactjs", "tailwindcss", "firebase"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/debsouryadatta.png"
       }
     ]
   },
@@ -2389,7 +2371,7 @@
         "title": "shopzy e-commerce",
         "description": "It is the frontend part of an e-commerce website called Shopzy.",
         "tech": ["reactjs", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/kirtiraj22.png"
       }
     ]
   },
@@ -2401,7 +2383,7 @@
         "title": "Weather Website",
         "description": "A weather website that can show realtime weather. Simply search for your city name.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Prashu-01.png"
       }
     ]
   },
@@ -2413,28 +2395,28 @@
         "title": "Weather Website",
         "description": "A weather Website that can show real-time weather. Check weather for your city.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Ajay84sia.png"
       },
       {
         "github_url": "https://github.com/Ajay84sia/Musify.github.io",
         "title": "Music Player",
         "description": "Musify is a music player website. It is the best mp3 player for music lovers!",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Ajay84sia.png"
       },
       {
         "github_url": "https://github.com/Ajay84sia/Sticky-Notes-App",
         "title": "Sticky Notes App",
         "description": "A user-friendly sticky notes app that enables users to create, edit, and delete virtual sticky notes for convenient task management.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Ajay84sia.png"
       },
       {
         "github_url": "https://github.com/Ajay84sia/Buy-Digital",
         "title": "Reliance Digital Clone",
         "description": "Buy Digital is a clone of an e-commerce website Reliance Digital which sells all electronic products at the best possible price.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Ajay84sia.png"
       }
     ]
   },
@@ -2446,7 +2428,7 @@
         "title": "CodeHelper Discord Bot",
         "description": "A Discord Bot for Coders. Now Contests and Hackathons related Information under your command. Executes Code in Discord Itself. Provides Jokes, News, Quotes and fun things. Supported - C, c++, Python, java, javascript, Golang, C# etc.",
         "tech": ["nodejs", "expressjs", "discordjs", "api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/killerraj369.png"
       }
     ]
   },
@@ -2458,7 +2440,7 @@
         "title": "NFT Marketplace",
         "description": "Introducing NFT Marketplace, your go-to destination for exploring the exciting world of Non-Fungible Tokens (NFTs). Our platform offers a seamless browsing experience where users can discover a diverse range of NFT collections and explore the current token prices.",
         "tech": ["reactjs", "javascript", "firebase", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Judge-Paul.png"
       }
     ]
   },
@@ -2470,14 +2452,14 @@
         "title": "Leads Tracker",
         "description": "its a tracker that track our important tabs",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/mohitparmar1.png"
       },
       {
         "github_url": "https://github.com/mohitparmar1/Followers-Animation/tree/master",
         "title": "Followers Animation",
         "description": "its animation that shows followers are increasing",
         "tech": ["html", "javascript", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/mohitparmar1.png"
       }
     ]
   },
@@ -2489,7 +2471,7 @@
         "title": "TEXT UTILS",
         "description": "It is a reactjs based text managing app which provide various function to process upon a text , like text copy , remove extra spaces , convert ot binnary etc.",
         "tech": ["reactjs", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/raghav1482.png"
       }
     ]
   },
@@ -2501,70 +2483,63 @@
         "title": "TalentIn",
         "description": "It is a Recruiting website for the Students and the working professionals.",
         "tech": ["html", "css", "bootstrap", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/SyedImtiyaz-1.png"
       },
       {
         "github_url": "https://github.com/SyedImtiyaz-1/Netflix-Replica",
         "title": "Netflix Replica",
         "description": "It's a Clone of a Famous OTT Platform 'Netflix'.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
-      },
-      {
-        "github_url": "Portfolio",
-        "title": "Portfolio Templet",
-        "description": "It's a portfolio templet with functionality.",
-        "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/SyedImtiyaz-1.png"
       },
       {
         "github_url": "https://github.com/SyedImtiyaz-1/Precious-IT-Services",
         "title": "IT Services Web-App",
         "description": "This website is based on the Projects which is held during the final year of students.",
         "tech": ["html", "css", "javascript", "jquery"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/SyedImtiyaz-1.png"
       },
       {
         "github_url": "https://github.com/SyedImtiyaz-1/java",
         "title": "Java DSA Project",
         "description": "Playlist in java{DSA} for better understanding of Data Structures.",
         "tech": ["java", "dsa"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/SyedImtiyaz-1.png"
       },
       {
         "github_url": "https://github.com/SyedImtiyaz-1/Auto-Telegram",
         "title": "Telegram Bot",
         "description": "This is a .py script to Automate the Telegram using the Bot with the {'/'} commands.",
         "tech": ["python"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/SyedImtiyaz-1.png"
       },
       {
         "github_url": "https://github.com/SyedImtiyaz-1/mini-Projects",
         "title": "javascript Practice Projects",
         "description": "javascript practice projects for the ones who want to learn javascript and this projects are beginner friendly.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/SyedImtiyaz-1.png"
       },
       {
         "github_url": "https://github.com/SyedImtiyaz-1/calculator-",
         "title": "This is a  Beginner Friendly Project for Students.",
         "description": "javascript practice project for the ones who want to learn javascript and this projects are beginner friendly.",
         "tech": ["javascript", "css", "html"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/SyedImtiyaz-1.png"
       },
       {
         "github_url": "https://github.com/SyedImtiyaz-1/ChatGPT-Replica",
         "title": "Chat-GPT Clone",
         "description": "Here is ChatGPT Clone which uses RapidAPI to fetch the data from the openAI ChatGPT.",
         "tech": ["javascript", "css", "html", "api", "bootstrap v5"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/SyedImtiyaz-1.png"
       },
       {
         "github_url": "https://github.com/SyedImtiyaz-1/Auto-Discord",
         "title": "Discord Bot",
         "description": "This is a .py script to Automate the Dicord using the Bot with the {'.'} commands.",
         "tech": ["python"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/SyedImtiyaz-1.png"
       }
     ]
   },
@@ -2576,21 +2551,21 @@
         "title": "Dungeon_Crawler",
         "description": "Quickly and easily access a thrilling dungeon-crawling experience at any time.",
         "tech": ["reactjs", "javascript", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Killer2OP.png"
       },
       {
         "github_url": "https://github.com/Killer2OP/LinkedIn_Clone",
         "title": "LinkedIn_Clone",
         "description": "It is a clone of LinkedIn website.",
         "tech": ["reactjs", "firebase"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Killer2OP.png"
       },
       {
         "github_url": "https://github.com/Killer2OP/Stock-Price-Prediction",
         "title": "Stock-Price-Prediction",
         "description": "Stock price prediction using Machine Learning.",
         "tech": ["python"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Killer2OP.png"
       }
     ]
   },
@@ -2602,14 +2577,14 @@
         "title": "Meme Generator",
         "description": "Seamlessly add personalized top and bottom text to the hottest 100 trending memes, crafting viral-worthy content that will leave everyone in stitches",
         "tech": ["reactjs", "javascript", "css", "html"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/swarajzz.png"
       },
       {
         "github_url": "https://github.com/swarajzz/Advice-generator",
         "title": "Advice Generator",
         "description": "The goal of the application is to provide users with random pieces of advice to help them make better decisions in their personal and professional lives",
         "tech": ["reactjs", "javascript", "css", "html"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/swarajzz.png"
       }
     ]
   },
@@ -2621,21 +2596,21 @@
         "title": "Terminal games in python",
         "description": "This repository contains terminal games in Python.",
         "tech": ["python"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/srujana-16.png"
       },
       {
         "github_url": "https://github.com/srujana-16/Multi-Stack-Games",
         "title": "Multi Stack Games",
         "description": "This repository contains games built using different tech stacks: web development with html, css, and javascript, and terminal games in Python.",
         "tech": ["html", "javascript", "css", "python"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/srujana-16.png"
       },
       {
         "github_url": "https://github.com/srujana-16/Automatic-obstacle-detection-car-with-color-sensor",
         "title": "Automatic Obstacle Detection Car with Colour sensor",
         "description": "In this project, an automatic obstacle detecting car was made. The car uses ultrasonic sensors to detect obstacles and avoid them. A color sensor is used to start and stop the car. An algorithm for the navigation of the car was created and implemented on the Arduino.",
         "tech": ["c++", "arduino ide"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/srujana-16.png"
       }
     ]
   },
@@ -2647,28 +2622,28 @@
         "title": "My-Favorite-SuperHero",
         "description": "Find images of your favorite superhero by typing ⌨️ their name into the search bar.",
         "tech": ["html", "css", "javascript", "api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Prajwal0225.png"
       },
       {
         "github_url": "https://github.com/Prajwal0225/Amazon-Clone",
         "title": "Amazon Clone",
         "description": "Amazon clone with card functionality using strip",
         "tech": ["html", "css", "javascript", "reactjs", "firebase"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Prajwal0225.png"
       },
       {
         "github_url": "https://github.com/Prajwal0225/Tesla-clone",
         "title": "Tesla Clone",
         "description": "Tesla website clone with animation",
         "tech": ["html", "css", "javascript", "reactjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Prajwal0225.png"
       },
       {
         "github_url": "https://github.com/Prajwal0225/Booking_Application",
         "title": "Airbnb Clone",
         "description": "Airbnb clone with add accommodation and booking system",
         "tech": ["html", "css", "javascript", "reactjs", "nodejs", "expressjs", "mongodb"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Prajwal0225.png"
       }
     ]
   },
@@ -2680,14 +2655,14 @@
         "title": "Navbar using Pure reactjs",
         "description": "Basic Navbar using reactjs and no JSX",
         "tech": ["html", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/singodiyashubham87.png"
       },
       {
         "github_url": "https://github.com/singodiyashubham87/ScanVerse",
         "title": "ScanVerse",
         "description": "QR code reader & generator",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/singodiyashubham87.png"
       }
     ]
   },
@@ -2699,14 +2674,14 @@
         "title": "ONEWATCH",
         "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
         "tech": ["html", "tailwindcss", "reactjs", "api", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Hemant2335.png"
       },
       {
         "github_url": "https://github.com/Hemant2335/ONE-BUY",
         "title": "ONEBUY",
         "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
         "tech": ["html", "tailwindcss", "nextjs", "strapi", "stripe", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Hemant2335.png"
       }
     ]
   },
@@ -2718,28 +2693,28 @@
         "title": "Pet Store",
         "description": "pet store is a e-commerce website for adopting pets",
         "tech": ["html", "css", "reactjs", "styled component", "api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/mandliyarajendra11.png"
       },
       {
         "github_url": "https://github.com/mandliyarajendra11/Calculator.git",
         "title": "Calculator",
         "description": "calculator is a basic calculation app for arithmetic operation",
         "tech": ["html", "css", "reactjs", "redux"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/mandliyarajendra11.png"
       },
       {
         "github_url": "https://github.com/mandliyarajendra11/temperature-converter",
         "title": "Temperature-converter app",
         "description": "temperature converter is used to convert temperature kelvin , Fahrenheit,Celsius",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/mandliyarajendra11.png"
       },
       {
         "github_url": "https://github.com/mandliyarajendra11/memory-color-game.git",
         "title": "Memory color game",
         "description": "It tests your memory and concentration skills as you try to follow the pattern of colors and sounds generated by the game.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/mandliyarajendra11.png"
       }
     ]
   },
@@ -2751,21 +2726,21 @@
         "title": "Personal Portfolio Using threejs",
         "description": "This is my personal portfolio website made using ThreeJs and Vite + reactjs",
         "tech": ["expressjs", "mongodb", "nodejs", "reactjs", "threejs", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/kartikjoshi267.png"
       },
       {
         "github_url": "https://github.com/kartikjoshi267/letsnote",
         "title": "LetsNote",
         "description": "This is a note-taking web application that is reactjs Based",
         "tech": ["expressjs", "mongodb", "nodejs", "reactjs", "bootstrap"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/kartikjoshi267.png"
       },
       {
         "github_url": "https://github.com/kartikjoshi267/Netflix-Landing-Page-Clone",
         "title": "Netflix Landing Page Clone",
         "description": "This is a Netflix Landing Page Clone",
         "tech": ["html", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/kartikjoshi267.png"
       }
     ]
   },
@@ -2777,14 +2752,14 @@
         "title": "Random Quote Generator",
         "description": "The Random Quote Generator is a project that generates and displays thought-provoking quotes on demand. With each click, a fresh quote appears.",
         "tech": ["html", "css", "javascript", "api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/devWonderkind.png"
       },
       {
         "github_url": "https://github.com/devWonderkind/Find-Logo",
         "title": "Logo Finder",
         "description": "It's a logo-finding website. Here you can website URL and find the logo and download the logo.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/devWonderkind.png"
       }
     ]
   },
@@ -2796,7 +2771,7 @@
         "title": "Navbar using Pure reactjs",
         "description": "Basic Navbar using reactjs and no JSX",
         "tech": ["html", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/MisterMickey.png"
       }
     ]
   },
@@ -2808,7 +2783,7 @@
         "title": "ONEWATCH",
         "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
         "tech": ["html", "tailwindcss", "reactjs", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Hemant2335.png"
       }
     ]
   },
@@ -2820,7 +2795,7 @@
         "title": "Web_Scrapper-News",
         "description": "Hello! This Project is related to scrapping news from online articles",
         "tech": ["python", "beautiful soup"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/mswat5.png"
       }
     ]
   },
@@ -2832,7 +2807,7 @@
         "title": "Navbar using Pure reactjs",
         "description": "Basic Navbar using reactjs and no JSX",
         "tech": ["html", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/MisterMickey.png"
       }
     ]
   },
@@ -2844,21 +2819,21 @@
         "title": "ONEWATCH",
         "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
         "tech": ["html", "tailwindcss", "reactjs", "api", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Hemant2335.png"
       },
       {
         "github_url": "https://github.com/Hemant2335/ONE-BUY",
         "title": "ONEBUY",
         "description": "This is a replica pf other movies platform where you can get details and related details of the Movies and Tv shows",
         "tech": ["html", "tailwindcss", "nextjs", "strapi", "stripe", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Hemant2335.png"
       },
       {
         "github_url": "https://github.com/Hemant2335/JBI-NEWS-APP",
         "title": "JBI-NEWS-APP",
         "description": "This is simply a news app which keeps you updated with the latest news and not only the latest but the most relevant one ",
         "tech": ["html", "tailwindcss", "reactjs", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Hemant2335.png"
       }
     ]
   },
@@ -2870,21 +2845,21 @@
         "title": "Cryptocurrency",
         "description": "In this you can find the different cryptoverse and their price as well as market cap and it also shows the graph for 24 hours, 3 Months , 30 Months and 1 Year.",
         "tech": ["html", "mui", "reactjs", "css", "api", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/BhartiNagpure.png"
       },
       {
         "github_url": "https://github.com/BhartiNagpure/Qoute-Generator.git",
         "title": "Qoute-Generator",
         "description": "In this project , I use qoutable api to fetch the daily random qoutes with their author name.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/BhartiNagpure.png"
       },
       {
         "github_url": "https://github.com/BhartiNagpure/restaurant-website.git",
         "title": "Restaurant-website",
         "description": "This is the static restaurant website which shows all details about the particular restaurant, which services provided by them, thier reviewer's, contact details etc.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/BhartiNagpure.png"
       }
     ]
   },
@@ -2904,35 +2879,36 @@
           "java mail services",
           "docker",
           "kubernetes"
-        ]
+        ],
+        "maker_image": "https://github.com/Akash-Tandale001.png"
       },
       {
         "github_url": "https://github.com/Akash-Tandale001/CryptoQuest-website",
         "title": "CryptoQuest",
         "description": "Developed a Crypto tracking web application, that provides over 2000+ crypto coin details with a graphical representation of each crypto coin trend history over the last year, month, or day and can view pricing in various currencies.",
         "tech": ["reactjs", "redux toolkit", "mui", "chartjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Akash-Tandale001.png"
       },
       {
         "github_url": "https://github.com/Akash-Tandale001/E-Commerce-Site",
         "title": "Medcare",
         "description": "Analyzed and developed an E-commerce application with 1000+ products in different categories such as Entertainment, Mobile, Laptops,etc. With payment feature integrated through Stripe payment.",
         "tech": ["reactjs", "redux toolkit", "mui", "chartjs", "tailwindcss", "stripe"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Akash-Tandale001.png"
       },
       {
         "github_url": "https://github.com/Akash-Tandale001/TodoList",
         "title": "TodoList",
         "description": "Created simple todo list app",
         "tech": ["reactjs", "bootstrap v5"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Akash-Tandale001.png"
       },
       {
         "github_url": "https://github.com/Akash-Tandale001/NewsHash",
         "title": "NewsHash",
         "description": "NewsHash is simple,fast,userfriendly website to fetch updated news from verious domain such as Entertainment,Spots,Technology etc...",
         "tech": ["reactjs", "bootstrap v5"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Akash-Tandale001.png"
       }
     ]
   },
@@ -2944,28 +2920,28 @@
         "title": "Bingo Game",
         "description": "This game is a multiplayer game. This project is also for those who want to learn javascript as this project is a beginner-friendly.",
         "tech": ["javascript", "css", "html"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Avdhesh-Varshney.png"
       },
       {
         "github_url": "https://github.com/Avdhesh-Varshney/Dots-And-Boxes-Game",
         "title": "Dots and Boxes Game",
         "description": "This game is a multiplayer game. This project is also for those who want to learn javascript as this project is a beginner-friendly.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Avdhesh-Varshney.png"
       },
       {
         "github_url": "https://github.com/Avdhesh-Varshney/Number-To-Words-Convertor",
         "title": "Number To Words Convertor",
         "description": "This project can convert the entered number into international system of numbering instantly.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Avdhesh-Varshney.png"
       },
       {
         "github_url": "https://github.com/Avdhesh-Varshney/TimeWatcher",
         "title": "Time Watcher",
         "description": "This project can tell you about how much time has gone from the entered date and time even in milli-seconds.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Avdhesh-Varshney.png"
       }
     ]
   },
@@ -2977,49 +2953,49 @@
         "title": "Amazon Smart Watch",
         "description": "Amazon Smart Watch Website with features of Heart-Rate and Live Time with different colors available.",
         "tech": ["html", "css", "javascript", "reactjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Harshu467.png"
       },
       {
         "github_url": "https://github.com/Harshu467/Healthy-Me",
         "title": "Healthy-Me",
         "description": "The Future of Fitness is at your place. Get your Body in shape. We do the hard work and you do all heavy lifting. Its Time to own the session",
         "tech": ["html", "css", "javascript", "bootstrap"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Harshu467.png"
       },
       {
         "github_url": "https://github.com/Harshu467/EcoM",
         "title": "E-Com",
         "description": "Ecomerce website where user can view various products.",
         "tech": ["html", "css", "javascript", "bootstrap", "reactjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Harshu467.png"
       },
       {
         "github_url": "https://github.com/Harshu467/GYM",
         "title": "GYM",
         "description": "Responsive Gym Website.",
         "tech": ["html", "css", "javascript", "bootstrap", "reactjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Harshu467.png"
       },
       {
         "github_url": "https://github.com/Harshu467/CryptoCurrency",
         "title": "CryptoCurrency",
         "description": "A CryptoCurrency reactjs web App which gives information of all cryptocurrency coins.",
         "tech": ["html", "css", "javascript", "bootstrap", "reactjs", "api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Harshu467.png"
       },
       {
         "github_url": "https://github.com/Harshu467/NFT",
         "title": "NFT Market",
         "description": "Master React Native by building a modern NFT Marketplace iOS and Android #ReactNative Application ",
         "tech": ["html", "css", "javascript", "reactjs", "api", "reactnative"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Harshu467.png"
       },
       {
         "github_url": "https://github.com/Akash-Tandale001/Water-Quality-Prediction/tree/main",
         "title": "Water Quality Prediction",
         "description": "This project is based on the prediction of water quality using machine learning algorithms.",
         "tech": ["python", "machine learning", "data science"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Harshu467.png"
       }
     ]
   },
@@ -3031,7 +3007,7 @@
         "title": "Pokemon Card",
         "description": "In this web app you can see the stats of different Pokemons like their abilities and their HP etc.",
         "tech": ["reactjs", "javascript", "css", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/vivekrawat21.png"
       }
     ]
   },
@@ -3043,33 +3019,33 @@
         "title": "Caesar Cipher",
         "description": "An encryptor decryptor app based on ancient Caesar and cipher technique",
         "tech": ["javascript", "css", "html"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/whiteknight16.png"
       },
       {
         "github_url": "https://github.com/whiteknight16/Cookie-Clicker/tree/main",
         "title": "Cookie Clicker Bot",
         "description": "A bot that can play the classic cookie clicker game",
         "tech": ["python"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/whiteknight16.png"
       },
       {
         "github_url": "https://github.com/whiteknight16/AudioBook/tree/main",
         "title": "Audio Book",
         "description": "Give a pdf and the bot can read it out for you",
         "tech": ["python"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/whiteknight16.png"
       }
     ]
   },
   {
-    "github_username": "Pro-18",
+    "github_username": "Pragati-Deshmukh011",
     "Projects": [
       {
-        "github_url": "https://github.com/Pro-18/News_app",
+        "github_url": "https://github.com/Pragati-Deshmukh011/News_app",
         "title": "News App",
         "description": "This is a basic clone of Inshort that makes use of the Api key.",
         "tech": ["python"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Pragati-Deshmukh011.png"
       }
     ]
   },
@@ -3081,14 +3057,14 @@
         "title": "Digital Clock(Time Zone)",
         "description": "Digital clock with time zone selection and GUI design.",
         "tech": ["python"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/smty2018.png"
       },
       {
         "github_url": "https://github.com/smty2018/Countdown-Timer",
         "title": "Countdown Timer",
         "description": "Customisable Countdown Timer with real time updates ",
         "tech": ["python"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/smty2018.png"
       }
     ]
   },
@@ -3100,7 +3076,7 @@
         "title": "Entertainment Hub",
         "description": "This is an Entertainment platform made by fetching IMDB API where you can search trending movies,series,shows,etc provided by the genres",
         "tech": ["reactjs", "html", "css", "mui", "api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Krutikajichkar.png"
       }
     ]
   },
@@ -3112,7 +3088,7 @@
         "title": "To-do list",
         "description": "The project is a to-do list that lists your submitted tasks and allows you to delete them once the tasks are completed",
         "tech": ["reactjs", "bootstrap"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/abrehan2.png"
       }
     ]
   },
@@ -3124,7 +3100,7 @@
         "title": "TEXT UTILS",
         "description": "Hllo! it's my reactjs app that works with text",
         "tech": ["reactjs", "html", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/panditshivammishra.png"
       }
     ]
   },
@@ -3136,21 +3112,21 @@
         "title": "NEWSLETTER",
         "description": "Hey ! Here is the newsletter project, you can use it!",
         "tech": ["html", "css", "javascript", "expressjs", "nodejs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/AdityaLahane-2003.png"
       },
       {
         "github_url": "https://github.com/AdityaLahane-2003/Simon-Game",
         "title": "SIMON GAME",
         "description": "The Simon game is the exciting electronic ⚡ game of lights 💡 and sounds 🔊 in which players must repeat random sequences of lights by pressing the colored 🚦pads in the correct order.",
         "tech": ["javascript", "html", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/AdityaLahane-2003.png"
       },
       {
         "github_url": "https://github.com/AdityaLahane-2003/NightCanteen",
         "title": "NIGHT CANTEEN MANAGEMENT",
         "description": "Hello ! Here is a Full Stack Web App.A responsive Web app where one can order food online, having Admin Panel with access to add & delete menu items!",
         "tech": ["html", "css", "javascript", "reactjs", "nodejs", "expressjs", "mongodb"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/AdityaLahane-2003.png"
       }
     ]
   },
@@ -3162,21 +3138,21 @@
         "title": "Weather Report",
         "description": "This project is used to show current weather conditions of the location entered by the user along with map of that location",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/prachisingh1008.png"
       },
       {
         "github_url": "https://github.com/prachisingh1008/Donation-Carnival-payment-gateway-integration-.git",
         "title": "Donation Carnival",
         "description": "In this project user can donate amount as per their capability using razorpay and that amount will be used for the welfare work",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/prachisingh1008.png"
       },
       {
         "github_url": "https://github.com/prachisingh1008/Motivational-code-extension.git",
         "title": "Motivational Quote",
         "description": "It displays a new page with a visually engaging background image of nature and displaying motivational quotes. This helps to create a more pleasant and inspiring environment for users when they open a new tab.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/prachisingh1008.png"
       }
     ]
   },
@@ -3188,7 +3164,7 @@
         "title": "CoinMeter",
         "description": "CoinMeter is a completely responsive and functional real-time Cryptocurrency data fetching app. This app gives you the facility to analyze the top cryptocurrencies across the world and see their real-time market cap and exchanges with the help of a properly designed historical chart for each coin with a clean UI experience. It also has a trending section where the last 24 hours profitable coins are shown.",
         "tech": ["reactjs", "chartjs", "mui", "api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/SurajPratap10.png"
       }
     ]
   },
@@ -3200,7 +3176,7 @@
         "title": "The-Cat-Store",
         "description": "A colorful snd cute website for purchasing and donating cats",
         "tech": ["html", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Illaf.png"
       }
     ]
   },
@@ -3212,14 +3188,14 @@
         "title": "CocktailDB",
         "description": "CocktailDB is a web application that allows users to explore a vast collection of cocktails, along with their prices, ingredients, and details",
         "tech": ["reactjs", "api", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/hritikd3.png"
       },
       {
         "github_url": "https://github.com/hritikd3/job-update-reactNative-app",
         "title": "job-update-reactNative-app",
         "description": "JobPilot is a cross-platform job update app built using reactjs-Native that allows you to Ultra-Fast and Simple Job Search for jobs posted on LinkedIn, Indeed, Glassdoor, ZipRecruiter, BeBee and many others, all in a single API. Check working screenshot below",
         "tech": ["reactnative", "expo", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/hritikd3.png"
       }
     ]
   },
@@ -3231,14 +3207,14 @@
         "title": "Laughhub",
         "description": "Laugh Hub is a hilarious bot with advanced AI voice assistance that offers fun conversations, funny stories, a meme generator, and three to four entertaining games. It's the perfect destination for anyone looking for a good laugh and a break from their daily routine",
         "tech": ["reactjs", "nodejs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Nishitbaria.png"
       },
       {
         "github_url": "https://github.com/TechNodes2-0/Contentify",
         "title": "Contentify",
         "description": "Contentify is a versatile content creation, social media management, and educational resources platform. It provides users with a comprehensive set of tools to excel in content creation, streamline social media management, and access valuable educational resources.",
         "tech": ["reactjs", "nodejs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Nishitbaria.png"
       }
     ]
   },
@@ -3250,7 +3226,7 @@
         "title": "Todo_App",
         "description": "A straightforward Todo_App built with html, css, and javascript. It allows users to create tasks, and delete tasks. The app features a clean and responsive design, ensuring a seamless experience across devices.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/PrernaSingh01.png"
       }
     ]
   },
@@ -3262,7 +3238,7 @@
         "title": "StichHub",
         "description": "We bridge the physical gap between a tailor and the customers through our platform. Providing customers a choice of the tailors and the tailors with an increased reach for customers.",
         "tech": ["mern", "ar", "threejs", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Siddhant-Patil0203.png"
       }
     ]
   },
@@ -3274,21 +3250,21 @@
         "title": "Portfolio Website",
         "description": "My Personal Portfolio made in reactjs and TailwindCss deployed on Vercel",
         "tech": ["reactjs", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/SurajG20.png"
       },
       {
         "github_url": "https://github.com/SurajG20/Cinemato",
         "title": "Movie App",
         "description": "A Movie app made in reactjs using TMDB api deployed on Vercel",
         "tech": ["reactjs", "sass"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/SurajG20.png"
       },
       {
         "github_url": "https://github.com/SurajG20/Weather-App",
         "title": "Weather App",
         "description": "Weather app made in reactjs using OpenWeather Api and GeoDbApi for city suggestions",
         "tech": ["reactjs", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/SurajG20.png"
       }
     ]
   },
@@ -3300,7 +3276,7 @@
         "title": "AI Fusion",
         "description": "AI Fusion is one place for all your AI needs. It serves as your ultimate destination for streamlined access to a curated collection of powerful AI tools and prompts. With direct links to a variety of resources, our website eliminates hassle and empowers you to effortlessly enhance your productivity.",
         "tech": ["nextjs", "tailwindcss", "typescript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/PriyansuMaurya.png"
       }
     ]
   },
@@ -3312,14 +3288,14 @@
         "title": "Expense Tracker",
         "description": "Track you daily transactions in 3 categories namely Savings, Expenses, Investment",
         "tech": ["reactjs", "mongodb"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Bilal1204.png"
       },
       {
         "github_url": "https://github.com/Bilal1204/linker",
         "title": "Linker",
         "description": "This web application is a clone of LinkTree, a popular tool used for creating a personalized page with multiple links to various online profiles, websites, or resources. With this clone, you can create your own version of a LinkTree-like page and share it with others.",
         "tech": ["reactjs", "mongodb"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Bilal1204.png"
       }
     ]
   },
@@ -3331,14 +3307,14 @@
         "title": "Mini-Insta",
         "description": "A social media MERN stack project in which a user can sign in and after then can create their own posts and also likes & comments on other posts.",
         "tech": ["reactjs", "nodejs", "expressjs", "mongodb", "api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/akshaysoni10.png"
       },
       {
         "github_url": "https://github.com/akshaysoni10/Dragon-Dino-Game-",
         "title": "Dragon-Dino Game",
         "description": "A dragon-dino game in which a dino is jump over a dragon and a scoreboard at the top is automatically increases.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/akshaysoni10.png"
       }
     ]
   },
@@ -3350,14 +3326,14 @@
         "title": "CodePen Clone",
         "description": "CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called pens and test them.",
         "tech": ["html", "css", "reactjs", "nodejs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/BhumicaPG.png"
       },
       {
         "github_url": "https://github.com/BhumicaPG/ToDo-List",
         "title": "To-do list",
         "description": "This project is a to-do list, where users can add new items, in different lists, strike-out them to mark as completed.",
         "tech": ["html", "css", "expressjs", "ejs", "nodejs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/BhumicaPG.png"
       }
     ]
   },
@@ -3369,7 +3345,7 @@
         "title": "Blood_And_Plasma_Management_System",
         "description": "blood management system project is an like overall blood management system in our hands, Register,Logins, adding Events and showing Interest  to go and donate the blood seraching the donar near by the searched location showing the total donorslist and total bloodbanks and videos and contact us page and updating user profile within the working database",
         "tech": ["html", "css", "reactjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Kalivarapubindusree.png"
       }
     ]
   },
@@ -3381,7 +3357,7 @@
         "title": "TEMPERATURE CONVERTER",
         "description": "A simple temperature converter website built using HTML, CSS, and JavaScript. The website allows users to convert temperature in Celsius, Fahrenheit, and Kelvin.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/blindaks.png"
       }
     ]
   },
@@ -3393,7 +3369,7 @@
         "title": "Guess-It",
         "description": "A ming-googling guessing game. Computer genarate random number between 1 to 100 and you have to two choices Easy and Hard to guess it in minimum number of attempts",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/parasss19.png"
       }
     ]
   },
@@ -3405,7 +3381,7 @@
         "title": "web music player",
         "description": "online web music player just like spotify",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/anshulsoni4.png"
       }
     ]
   },
@@ -3417,35 +3393,35 @@
         "title": "Discord Clone",
         "description": "A Fully Responsive Discord Landing Page UI Clone with animations ",
         "tech": ["html", "tailwindcss", "javascript", "gsap"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/ratishjain12.png"
       },
       {
         "github_url": "https://github.com/ratishjain12/Blogify-mern-app",
         "title": "Blogify",
         "description": "A Fullstack MERN blogging platform",
         "tech": ["reactjs", "expressjs", "mongodb", "nodejs", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/ratishjain12.png"
       },
       {
         "github_url": "https://github.com/ratishjain12/Budget-Tracker-App",
         "title": "Pocket Planner: A expense and budget tracker",
         "description": "An expense and budget tracker app is a mobile application designed to help users manage their personal finances.",
         "tech": ["flutter", "firebase", "dart"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/ratishjain12.png"
       },
       {
         "github_url": "https://github.com/ratishjain12/Notes-App-Flutter-Nodejs-",
         "title": "Notes App",
         "description": "A note taking app like google keep which helps you note down and store anything.",
         "tech": ["flutter", "dart", "mongodb", "nodejs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/ratishjain12.png"
       },
       {
         "github_url": "https://github.com/ratishjain12/dashboard-nextjs",
         "title": "Dashboard Nextjs",
         "description": "A Responsive Dashboard created using nextjs and tailwindcss",
         "tech": ["reactjs", "nextjs", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/ratishjain12.png"
       }
     ]
   },
@@ -3457,7 +3433,7 @@
         "title": "portfolio-template",
         "description": "this is a protfolio website which can be used to get an idea about animations and design of a portfolio website.",
         "tech": ["html", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/ankit-0369.png"
       }
     ]
   },
@@ -3469,21 +3445,21 @@
         "title": "Cloud Reminder",
         "description": "A reminder app that reminds you about particular task via mail and phone number.",
         "tech": ["javascript", "firebase", "nodemailer", "twilio"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/ighoshsubho.png"
       },
       {
         "github_url": "https://github.com/ighoshsubho/wildfire-saviour-backend",
         "title": "Wildfire Saviour",
         "description": "The ultimate application for detecting wildfire and notifying in time!",
         "tech": ["nextjs", "firebase", "opencv", "aws"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/ighoshsubho.png"
       },
       {
         "github_url": "https://github.com/ighoshsubho/SuperChat",
         "title": "Super Chat",
         "description": "A realtime chat app built using react and firebase!",
         "tech": ["reactjs", "firebase"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/ighoshsubho.png"
       }
     ]
   },
@@ -3495,14 +3471,14 @@
         "title": "Task Trove",
         "description": "A to-do list to maintain and list out our daily tasks",
         "tech": ["python", "django", "sqlite", "html", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Sakhi29.png"
       },
       {
         "github_url": "https://github.com/Sakhi29/Book-Recommendation-system",
         "title": "Book Recommendation System",
         "description": "A book recommendation system using content and collaborative filtering based techniques with good frontend using Flask",
         "tech": ["python", "flask", "jupyternotebook"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Sakhi29.png"
       }
     ]
   },
@@ -3514,14 +3490,14 @@
         "title": "CryptoWatchr",
         "description": "CryptoWatchr is an innovative crypto project that provides users with a comprehensive platform to access and explore various cryptocurrency exchanges from around the world. Leveraging the power of the CoinGecko API users can seamlessly connect to different exchanges access real-time data and make informed decisions about their crypto investments.",
         "tech": ["reactjs", "chakraui"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/karthiknadar1204.png"
       },
       {
         "github_url": "https://github.com/karthiknadar1204/Tripme",
         "title": "TripMe",
         "description": "Tripme is a frontend project for a travel website that aims to provide an immersive and user-friendly experience for travelers seeking inspiration planning and booking their next adventure. The project focuses on creating a visually appealing and intuitive interface that captures the essence of exploration and discovery.",
         "tech": ["reactjs", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/karthiknadar1204.png"
       }
     ]
   },
@@ -3533,7 +3509,7 @@
         "title": "Anime-Recomendation",
         "description": "Building anime recommendation system based only on user viewing history, Genre and other features",
         "tech": ["python", "machine learning"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/AbhishekPSingh07.png"
       }
     ]
   },
@@ -3545,7 +3521,7 @@
         "title": "IOT ESP32",
         "description": "Building Real-time Temperature & Humidity sensor using ESP32 & DHT11",
         "tech": ["c++", "arduino"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/k-deepak04.png"
       }
     ]
   },
@@ -3557,7 +3533,7 @@
         "title": "HyperSpace",
         "description": "Forum-based and community-based social media website",
         "tech": ["reactjs", "nodejs", "javascript", "mongodb", "expressjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/pewpewnor.png"
       }
     ]
   },
@@ -3569,7 +3545,7 @@
         "title": "Groco-Grocery Website",
         "description": "A website to fulfill your daily grocery needs. A static fronted designed to practice my skills and try out the Swiper.",
         "tech": ["html", "css", "javascript", "swiperjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/rishabhchaudhary0210.png"
       }
     ]
   },
@@ -3581,7 +3557,7 @@
         "title": "Fake-News-Detection",
         "description": "Fake News Detection using ML, DL, LSTM, NLP, Stemming, Lemmatization, and Data Visualization for classifying news articles.",
         "tech": ["python", "flask"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Parul1606.png"
       }
     ]
   },
@@ -3593,28 +3569,28 @@
         "title": "Speech-to-text",
         "description": "The Speech-to-Text system is a powerful tool that allows you to convert spoken language into written text.",
         "tech": ["reactjs", "html", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/pavitrachavda97.png"
       },
       {
         "github_url": "https://github.com/pavitrachavda97/background-creator",
         "title": "background-creator",
         "description": "You can create two types of background using this project. 1)Linear Background 2)Radial Background",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/pavitrachavda97.png"
       },
       {
         "github_url": "https://github.com/pavitrachavda97/Whack-A-Mole-React",
         "title": "Whack-a-mole",
         "description": "This is a simple and entertaining game where your task is to hit the moles as they randomly pop up from their holes. The objective is to score as many points as possible",
         "tech": ["reactjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/pavitrachavda97.png"
       },
       {
         "github_url": "https://github.com/pavitrachavda97/Shipment-booking",
         "title": "Shipment-booking",
         "description": "The shipment booking website is a platform that allows users to book shipments for their products or goods.",
         "tech": ["java", "jsp", "mysql"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/pavitrachavda97.png"
       }
     ]
   },
@@ -3624,28 +3600,28 @@
       {
         "github_url": "https://github.com/Aryainguz/Euphoria-Check-PERMA-Meter-Express",
         "title": "EuphoriaCheck - A Modern PERMA Meter",
-        "description": "A powerful tool to help you assess and improve your well-being! This web application, built using Express and Node.js, measures your happiness and life satisfaction based on the PERMA model of well-being. With personalized insights, users gain a comprehensive breakdown of their PERMA scores, identifying areas for personal growth and well-being enhancement.Users recieves a personalized note on email that helps them set their targets and improve on specific score so they keep on evolving Key Features: 📊 Happiness Assessment: 📈 Personalized Insights: 🎯 Goal Setting",
+        "description": "A powerful tool to help you assess and improve your well-being!",
         "tech": ["expressjs", "nodejs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Aryainguz.png"
       },
       {
         "github_url": "https://github.com/Aryainguz/Email-Newsletter-Subscription-Web-App-Using-ExpressJS",
         "title": "Email-Newsletter-Subscription-Web-App-Using-ExpressJS",
         "description": "Email Marketing is an important aspect of promotions of any kind, so here's a email newsletter subscription web app i made using expressjs to get subscribers for my email marketing and newsletters . Using Express JS and Mailchimp's API do use it for your personal project and share you insights with me, Aryan",
         "tech": ["expressjs", "rest api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Aryainguz.png"
       }
     ]
   },
   {
-    "github_username": "soubhik-111",
+    "github_username": "code-soubhik",
     "Projects": [
       {
-        "github_url": "https://github.com/soubhik-111/Kaun_banega_crorepati",
+        "github_url": "https://github.com/code-soubhik/Kaun_banega_crorepati",
         "title": "Kaun Banega Crorepati",
         "description": "Kaun Banega Crorepati Frontend Project is an interactive web app with HTML, CSS, JAVASCRIPT. Features include questions, timers,  scores, and animations for an engaging experience.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/code-soubhik.png"
       }
     ]
   },
@@ -3657,14 +3633,14 @@
         "title": "YouTube Clone",
         "description": "Youtube Clone in C# that includes video player, video uploader and search option just like YouTube.",
         "tech": ["c#", "dotnet"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/iqrasarwar.png"
       },
       {
         "github_url": "https://github.com/iqrasarwar/QuranAppV3",
         "title": "Quran App",
         "description": "A mobile application for quran with translation in urdu and English. You can view Quran surah wise and parah wise.",
         "tech": ["java"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/iqrasarwar.png"
       }
     ]
   },
@@ -3676,7 +3652,7 @@
         "title": "React PWA Starter Template",
         "description": "Opinionated React PWA Starter built with Create-React-App, MUI and Firebase",
         "tech": ["typescript", "reactjs", "firebase", "mui"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/nc1z.png"
       }
     ]
   },
@@ -3688,14 +3664,14 @@
         "title": "Flipkart Data Scraping",
         "description": "A project based on data scraping of flipkart.",
         "tech": ["python"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Sushilverma002.png"
       },
       {
         "github_url": "https://github.com/Sushilverma002/applanding",
         "title": "App Landing Page",
         "description": "An App landing page which shows the features of your app on website.",
         "tech": ["html", "css", "bootstrap", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Sushilverma002.png"
       }
     ]
   },
@@ -3707,7 +3683,7 @@
         "title": "Portfolio Website",
         "description": "A single page portfolio website with a minimalistic design and emphasis on animations.",
         "tech": ["react", "nextjs", "tailwindcss", "framermotion"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/ChiragAgg5k.png"
       }
     ]
   },
@@ -3720,14 +3696,14 @@
         "title": "Personal Portfolio",
         "description": "a portfolio website using React and Tailwind CSS.",
         "tech": ["reactjs", "tailwindcss", "framermotion"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Muhammadrabi.png"
       },
       {
         "github_url": "https://github.com/MuhammadRabi/React-E-Commerce",
         "title": "E-commerce website",
         "description": "simple e-commerce website built with react, zustand and with functional cart CRUD operations",
         "tech": ["reactjs", "zustand", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Muhammadrabi.png"
       }
     ]
   },
@@ -3739,7 +3715,7 @@
         "title": "Developer Portfolio",
         "description": "Software developer portfolio to showcase your work and skills.",
         "tech": ["angular"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/lorenzomiscoli.png"
       }
     ]
   },
@@ -3751,14 +3727,14 @@
         "title": "zoom-api-helper",
         "description": "Zoom API Helper is a Node.js package that provides a helper for simplifies managing meet.",
         "tech": ["typescript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/tedante.png"
       },
       {
         "github_url": "https://github.com/justcodebeast/gsheet-api-helper",
         "title": "gsheet-api-helper",
         "description": "Google Spreadsheet API Helper is a Node.js package that provides a helper for simplifies the process of accessing, retrieving and updating data from Gsheet using the Gsheet API.",
         "tech": ["typescript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/tedante.png"
       }
     ]
   },
@@ -3770,7 +3746,7 @@
         "title": "Personal Portfolio",
         "description": "A person porfolio showcasing my talents and works, also serves a template.",
         "tech": ["html", "css", "scss", "bootstrap", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/surya-mu.png"
       }
     ]
   },
@@ -3782,7 +3758,7 @@
         "title": "Threads-Clone",
         "description": "Threads Clone, a web application where users can create their accounts, post their thoughts, read other users' threads, and interact with them.",
         "tech": ["nextjs", "tailwindcss", "typescript", "mongodb"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Darkrider0007.png"
       }
     ]
   },
@@ -3794,7 +3770,7 @@
         "title": "HumorBlast",
         "description": "Are you ready to burst into laughter? Welcome to HumorBlast, the ultimate destination for an explosion of jokes and endless giggles! ",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/vinay-s36.png"
       }
     ]
   },
@@ -3806,20 +3782,19 @@
         "title": "my_portfolio",
         "description": "A clean, beautiful, responsive portfolio template for Software Developers!",
         "tech": ["html", "javascript", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/mohit-dhote.png"
       }
     ]
   },
-
   {
-    "github_username": "btreezy",
+    "github_username": "npxpatel",
     "Projects": [
       {
-        "github_url": "https://github.com/btrezzy/Oder-summary",
+        "github_url": "https://github.com/npxpatel/Oder-summary",
         "title": "Order-Summary",
         "description": "Made an attractive checkout page.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/npxpatel.png"
       }
     ]
   },
@@ -3831,7 +3806,7 @@
         "title": "crypto-tracker",
         "description": "A website which tracks and provides details about the real time trend in crypto currency.",
         "tech": ["reactjs", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Prakhar-Shankar.png"
       }
     ]
   },
@@ -3843,14 +3818,14 @@
         "title": "Youtube-HomePage-clone",
         "description": "It is the clone of the old Youtube homepage UI made in html and js",
         "tech": ["html", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/kaushal1717.png"
       },
       {
         "github_url": "https://github.com/kaushal1717/todo-List",
         "title": "To-Do App",
         "description": "A simple To-Do app made on Flutter and used Hive as a local storage",
         "tech": ["flutter", "hive", "dart"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/kaushal1717.png"
       }
     ]
   },
@@ -3862,7 +3837,7 @@
         "title": "Quiz App",
         "description": "A quiz app based on front wnd development questions.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/blindaks.png"
       }
     ]
   },
@@ -3874,14 +3849,14 @@
         "title": "Ping Pomg",
         "description": "It is a ping pong multiplayer game made with javascript html and css",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/ayan-joshi.png"
       },
       {
         "github_url": "https://github.com/ayan-joshi/Sorting-Visualizer",
         "title": "Sorting Visualizer",
         "description": "The Sorting Visualizer is a basic web application that allows you to visualize the process of sorting on a set of randomly generated bars.",
         "tech": ["javascript", "html", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/ayan-joshi.png"
       }
     ]
   },
@@ -3893,14 +3868,14 @@
         "title": "Personal Portfolio",
         "description": "My portfolio, showcasing my about, skills, projects etc.",
         "tech": ["flutter", "dart"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/vrundraval24.png"
       },
       {
         "github_url": "https://github.com/vrundraval24/Picme-Unsplash_Clone",
         "title": "Picme - Unsplash Clone",
         "description": "Website showcasing images in masonary grid view.",
         "tech": ["html", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/vrundraval24.png"
       }
     ]
   },
@@ -3912,7 +3887,7 @@
         "title": "Color World",
         "description": "A website to explore different colors, their shades and theme.",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/psykat1116.png"
       }
     ]
   },
@@ -3924,7 +3899,7 @@
         "title": "Toppings",
         "description": "Toppings adds an extra layer of flavor for a more efficient and convenient web.",
         "tech": ["javascript", "typescript", "nodejs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/DarhkVoyd.png"
       }
     ]
   },
@@ -3936,7 +3911,7 @@
         "title": "Book Your Place",
         "description": "This is a full-stack application built using React.js as the frontend, Node.js and Express as the backend, and MongoDB as the database. The application allows users to explore, book, and share their favorite places.",
         "tech": ["javascript", "typescript", "nodejs", "react", "mongodb", "redis"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/AbhishekCS3459.png"
       }
     ]
   },
@@ -3948,14 +3923,14 @@
         "title": "Linkees",
         "description": "A hub for all your social links",
         "tech": ["javascript", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/heysagnik.png"
       },
       {
         "github_url": "https://github.com/heysagnik/screenREC",
         "title": "Screen-REC",
         "description": "An app to record studio-quality videos directly from your browser",
         "tech": ["pug", "scss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/heysagnik.png"
       }
     ]
   },
@@ -3967,21 +3942,21 @@
         "title": "Freeppy",
         "description": "About Freeppy is a Sustainable Fashion E-commerce Platform. Discover curated pre-loved pieces that blend style with eco-conscious choices. Join us in redefining fashion with a conscience.",
         "tech": ["nextJs", "mongodb", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/MohamedBoukthir.png"
       },
       {
         "github_url": "https://github.com/MohamedBoukthir/Wave",
         "title": "Wave",
         "description": "Wave: Next.js 13 app. Explore Next.js, MongoDB, TailwindCSS, Clerk, real-time events, and more.",
         "tech": ["nextjs", "tailwindcss", "typescript", "clerk"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/MohamedBoukthir.png"
       },
       {
         "github_url": "https://github.com/MohamedBoukthir/Doctor-Appointment-Booking-MERN-Stack",
         "title": "MediCare",
         "description": "A feature-rich MERN web app for booking doctor appointments. Uses React, Node.js, MongoDB, and Stripe for payment processing",
         "tech": ["reactjs", "tailwindcss", "javascript", "expressjs", "nodejs", "mongodb"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/MohamedBoukthir.png"
       }
     ]
   },
@@ -4003,7 +3978,7 @@
           "expressjs",
           "javascript"
         ],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/pranshugupta54.png"
       }
     ]
   },
@@ -4015,7 +3990,7 @@
         "title": "Amar Ujala E-Paper",
         "description": "Amar Ujala Hindi E-Newspaper with all available cities developed in React JS. A completely free version of amar ujala hindi epaper",
         "tech": ["reactjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/himanshuchandola.png"
       }
     ]
   },
@@ -4027,35 +4002,35 @@
         "title": "markdown2pdf",
         "description": "An Impressive Markdown to PDF Converter!",
         "tech": ["reactjs"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/sahilatahar.png"
       },
       {
         "github_url": "https://github.com/sahilatahar/Front-End-Challenges",
         "title": "Front-End-Challenges",
         "description": "Collection of front-end challenges using HTML, CSS / SCSS, JavaScript, React with Vite",
         "tech": ["html", "css", "javascript", "reactjs", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/sahilatahar.png"
       },
       {
         "github_url": "https://github.com/sahilatahar/github-profile",
         "title": "github-profile",
         "description": "Explore GitHub Page: Showcasing user data via GitHub API integration, alongside an enhanced user interface for a richer browsing experience",
         "tech": ["html", "css", "javascript", "reactjs", "github-api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/sahilatahar.png"
       },
       {
         "github_url": "https://github.com/sahilatahar/HTML-CSS-JavaScript",
         "title": "HTML-CSS-JavaScript",
         "description": "40 HTML, CSS, JavaScript Projects",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/sahilatahar.png"
       },
       {
         "github_url": "https://github.com/sahilatahar/Real-Notes",
         "title": "Real-Notes",
         "description": "Real-Notes is a react app offering efficient note management. Secure Firebase integration provides user authentication and data storage.",
         "tech": ["reactjs", "firebase", "css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/sahilatahar.png"
       }
     ]
   },
@@ -4068,7 +4043,7 @@
         "title": "Text Utils",
         "description": "Utilize the Text with functionality",
         "tech": ["reactjs", "html"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/gaurabsaha12345.png"
       }
     ]
   },
@@ -4093,98 +4068,99 @@
           "sass",
           "bootstrap",
           "tailwindcss"
-        ]
+        ],
+        "maker_image": "https://github.com/juanPabloDiaz.png"
       },
       {
         "github_url": "https://github.com/juanPabloDiaz/doc",
         "title": "Juan Diaz Documentation Site",
         "description": "My Documentation Site for projects, tech notes, and career advancement",
         "tech": ["jekyll", "sass"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/juanPabloDiaz.png"
       },
       {
         "github_url": "https://github.com/juanPabloDiaz/jpshop",
         "title": "Jp-Shop (E-commerce)",
         "description": "e-Commerce that consumes an API to fetch products. Features include a sign in, product filtering, skeleton screens, and pagination",
         "tech": ["reactjs", "tailwindcss", "rest api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/juanPabloDiaz.png"
       },
       {
         "github_url": "https://github.com/juanPabloDiaz/brothers-landingPage",
         "title": "Landing Page",
         "description": "Landing page from a Figma project. Features include a responsive design and a mobile menu",
         "tech": ["reactjs", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/juanPabloDiaz.png"
       },
       {
         "github_url": "https://github.com/juanPabloDiaz/random-quote-generator",
         "title": "Random Quote Generator",
         "description": "Responsive web application that allows users to generate endless random quotes with the click of a button",
         "tech": ["reactjs", "tailwindcss", "rest api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/juanPabloDiaz.png"
       },
       {
         "github_url": "https://github.com/juanPabloDiaz/markdownPreviewer",
         "title": "Markdown Previewer",
         "description": "Responsive web application that allows users to write and preview markdown syntax in real-time",
         "tech": ["reactjs", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/juanPabloDiaz.png"
       },
       {
         "github_url": "https://github.com/juanPabloDiaz/wikipediaViewer",
         "title": "Wikipedia Viewer",
         "description": "Responsive react project that fetch data from the Wikipedia API",
         "tech": ["reactjs", "tailwindcss", "rest api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/juanPabloDiaz.png"
       },
       {
         "github_url": "https://github.com/JuanPabloDiaz/calculator",
         "title": "Calculator",
         "description": "Simple calculator build with React, Tailwind CSS and Vite.js",
         "tech": ["reactjs", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/juanPabloDiaz.png"
       },
       {
         "github_url": "https://github.com/juanPabloDiaz/devMemes-RapidAPI",
         "title": "Dev Memes",
         "description": "A fun project that consumes an API to fetch memes",
         "tech": ["reactjs", "tailwindcss", "rest api"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/juanPabloDiaz.png"
       },
       {
         "github_url": "https://github.com/JuanPabloDiaz/ticTacToe",
         "title": "Tic Tac Toe Game",
         "description": "Classic game, reborn for the web",
         "tech": ["reactjs", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/juanPabloDiaz.png"
       },
       {
         "github_url": "https://github.com/JuanPabloDiaz/simonGame",
         "title": "Simon Game",
         "description": "Memory matching game. Fully responsive React project.",
         "tech": ["reactjs", "tailwindcss"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/juanPabloDiaz.png"
       },
       {
         "github_url": "https://github.com/juanPabloDiaz/youtube",
         "title": "Youtube Clone",
         "description": "A Youtube clone that consumes the Youtube API to fetch videos. Features include a search bar, video player, and video list",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/juanPabloDiaz.png"
       },
       {
         "github_url": "https://github.com/juanPabloDiaz/pinterest",
         "title": "Pinterest Clone",
         "description": "A Pinterest Clone",
         "tech": ["reactjs", "html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/juanPabloDiaz.png"
       },
       {
         "github_url": "https://github.com/juanPabloDiaz/SelfHosting-PiServer",
         "title": "Self Hosting - Pi Server",
         "description": "Setup a home server using a Raspberry Pi",
         "tech": ["html", "css", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/juanPabloDiaz.png"
       }
     ]
   },
@@ -4196,7 +4172,7 @@
         "title": "Geet - Music Player",
         "description": "Geet is a music player, sleek and intuitive web-based music player designed to bring your favorite tunes to life with ease and style.",
         "tech": ["react", "javascript"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Siddharth-Dagar-25.png"
       }
     ]
   },
@@ -4208,14 +4184,14 @@
         "title": "E-comXboAt",
         "description": "Developed an e-commerce platform with React and Strapi CMS",
         "tech": ["react", "js", "strapi", "sass css"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Adeesh-bode.png"
       },
       {
         "github_url": "https://github.com/Adeesh-bode/Shelf-Space",
         "title": "Shelf-space",
         "description": "Built an online book store management web app",
         "tech": ["react", "tailwindcss", "postmanapi", "expressjs", "nodejs", "mongoosejs", "mongodb"],
-        "maker_image": "https://github.com/.png"
+        "maker_image": "https://github.com/Adeesh-bode.png"
       }
     ]
   }
