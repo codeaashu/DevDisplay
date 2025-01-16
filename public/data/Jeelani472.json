@@ -1,0 +1,19 @@
+{
+  "name": "Mulla Abdul Khader Jeelani",
+  "location": "kurnool,Andhra Pradesh,India",
+  "bio": "Iamanaspiringsoftwareengineer with strongproblem-solving skills in Java. I have a solid foundation in frontend development and a growing understanding of backend technologies.I am eager to hustle and currently focus on creating impactful projects to enhance my skills and experience.",
+  "avatar": "https://github.com/Jeelani472.png",
+  "portfolio": "Your Portfolio URL or Github URL",
+  "skills": ["Problem-Solving","Data Structures & Algorithms","JavaScript","React","CSS","HTML","Node.js","Git","Github","C",
+    "Javascript",
+    "MySQL",
+    "MongoDB",
+    "Tailwind CSS"],
+  "social": {
+    "GitHub": "https://github.com/Jeelani472",
+    "Twitter": "https://twitter.com/your-twitter-username",
+    "LinkedIn": "https://www.linkedin.com/in/mulla-abdul-khader-jeelani-30981a258/",
+    "Instagram": "https://www.instagram.com/your-instgram-username",
+    "Email": "jeelanmohammed529@gmail.com"
+  }
+}
