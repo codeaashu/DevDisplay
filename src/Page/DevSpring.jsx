@@ -215,36 +215,35 @@ const DevSpring = () => {
               Click here to join
             </a>
           </div>
-
-          <div className="mt-4 flex items-center justify-center rounded-lg bg-gradient-to-r from-yellow-300 via-red-500 to-pink-500 p-4 text-lg text-white shadow-lg">
-            <div className="rounded-lg bg-[#1e3a8a] p-6 text-white shadow-lg">
-              <h3 className="text-xl font-bold">Guidelines</h3>
-              <div className="mt-4 flex flex-col gap-4">
-                <a
-                  href="https://swift-sheet-b33.notion.site/Contribution-Guidelines-17c7d1f1565b800a99bbfa19f80e1896?pvs=4"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block w-full rounded-md bg-[#00a6fb] py-2 text-center text-white"
-                >
-                  Contribution Guidelines
-                </a>
-                <a
-                  href="https://swift-sheet-b33.notion.site/DevSpring-Community-Leader-Guide-17c7d1f1565b800dd9e7fc96473437fec?pvs=4"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block w-full rounded-md bg-[#00a6fb] py-2 text-center text-white"
-                >
-                  Community Leader Guide
-                </a>
-                <a
-                  href="https://swift-sheet-b33.notion.site/DevSpring-Community-Partners-Guide-1787d1f1565b8002adb4d2f1f499217b?pvs=4"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block w-full rounded-md bg-[#00a6fb] py-2 text-center text-white"
-                >
-                  Community Partner Guide
-                </a>
-              </div>
+        </div>
+        <div className="mt-4 flex items-center justify-center rounded-lg bg-gradient-to-r from-yellow-300 via-red-500 to-pink-500 p-4 text-lg text-white shadow-lg">
+          <div className="rounded-lg bg-[#1e3a8a] p-6 text-white shadow-lg">
+            <h3 className="text-xl font-bold">Guidelines</h3>
+            <div className="mt-4 flex flex-col gap-4">
+              <a
+                href="https://swift-sheet-b33.notion.site/Contribution-Guidelines-17c7d1f1565b800a99bbfa19f80e1896?pvs=4"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full rounded-md bg-[#00a6fb] py-2 text-center text-white"
+              >
+                Contribution Guidelines
+              </a>
+              <a
+                href="https://swift-sheet-b33.notion.site/DevSpring-Community-Leader-Guide-17c7d1f1565b800dd9e7fc96473437fec?pvs=4"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full rounded-md bg-[#00a6fb] py-2 text-center text-white"
+              >
+                Community Leader Guide
+              </a>
+              <a
+                href="https://swift-sheet-b33.notion.site/DevSpring-Community-Partners-Guide-1787d1f1565b8002adb4d2f1f499217b?pvs=4"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full rounded-md bg-[#00a6fb] py-2 text-center text-white"
+              >
+                Community Partner Guide
+              </a>
             </div>
           </div>
         </div>
