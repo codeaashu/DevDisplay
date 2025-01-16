@@ -80,7 +80,7 @@ function Search({ onSearch }) {
       onSearch({ value: searchSkills, criteria: searchCriteria });
       setPrevSearchValue('');
     }
-  }, [searchSkills, onSearch, searchCriteria]);
+  }, [searchSkills]);
 
   const handleSearchButtonClick = () => {
     handleSearch();
