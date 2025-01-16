@@ -145,6 +145,12 @@ const DevSpring = () => {
             .animate-char:nth-child(9) {
               animation-delay: 0.8s;
             }
+            .animate-char:nth-child(10) {
+              animation-delay: 0.9s;
+            }
+            .animate-char:nth-child(11) {
+              animation-delay: 0.1s;
+            }
           `}</style>
 
           <img src="./DevSpring.png" alt="DevSpring Logo" className="mt-2 h-[125px] w-[125px]" />
