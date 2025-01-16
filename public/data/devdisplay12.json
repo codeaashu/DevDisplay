@@ -1,0 +1,15 @@
+{
+  "name": "DEv Display",
+  "location": "Delhi, India",
+  "bio": "Frontend Developer",
+  "avatar": "https://github.com/devdisplay12.png",
+  "portfolio": "https://github.com/devdisplay12",
+  "skills": ["GIT", "GITHUB", "Python", "JavaScript", "Open Source"],
+  "social": {
+    "GitHub": "https://github.com/devdisplay12",
+    "Twitter": "https://twitter.com/devdisplay12",
+    "LinkedIn": "https://www.linkedin.com/in/devdisplay12",
+    "Instagram": "https://www.instagram.com/devdisplay12",
+    "Email": "devdisplay12@gmail.com"
+  }
+}
