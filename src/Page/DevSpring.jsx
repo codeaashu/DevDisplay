@@ -215,7 +215,8 @@ const DevSpring = () => {
               Click here to join
             </a>
           </div>
-          <div className="mt-10 grid gap-8 md:grid-cols-1 lg:grid-cols-1">
+
+          <div className="mt-4 flex items-center justify-center rounded-lg bg-gradient-to-r from-yellow-300 via-red-500 to-pink-500 p-4 text-lg text-white shadow-lg">
             <div className="rounded-lg bg-[#1e3a8a] p-6 text-white shadow-lg">
               <h3 className="text-xl font-bold">Guidelines</h3>
               <div className="mt-4 flex flex-col gap-4">
