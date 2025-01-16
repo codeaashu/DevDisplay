@@ -86,82 +86,106 @@ const DevSpring = () => {
       </div>
       <main className="mx-auto max-w-6xl px-4 py-10 text-center">
         <div className="flex flex-col items-center">
-          <h1 className="flex text-5xl font-bold text-[#31A9BF]">
-            <span className="text-white">{'{'}</span>
-            <span className="animate-glitch text-[#BF3356]">D</span>
-            <span className="animate-glitch text-[#BF3356]">e</span>
-            <span className="animate-glitch text-[#BF3356]">v</span>
-            <span className="animate-glitch">S</span>
-            <span className="animate-glitch">p</span>
-            <span className="animate-glitch">r</span>
-            <span className="animate-glitch">i</span>
-            <span className="animate-glitch">n</span>
-            <span className="animate-glitch">g</span>
-            <span className="text-white">{'}'}</span>
+          <h1 className="relative flex text-center text-6xl font-extrabold tracking-wide">
+            <span className="neon-glitch text-white">{'{'}</span>
+            <span className="neon-glitch text-[#FF3366]">D</span>
+            <span className="neon-glitch text-[#FF3366]">e</span>
+            <span className="neon-glitch text-[#FF3366]">v</span>
+            <span className="neon-glitch text-[#00FFCC]">S</span>
+            <span className="neon-glitch text-[#00FFCC]">p</span>
+            <span className="neon-glitch text-[#00FFCC]">r</span>
+            <span className="neon-glitch text-[#FFDA00]">i</span>
+            <span className="neon-glitch text-[#FFDA00]">n</span>
+            <span className="neon-glitch text-[#FFDA00]">g</span>
+            <span className="neon-glitch text-white">{'}'}</span>
           </h1>
 
           <style jsx>{`
-            @keyframes glitch {
+            @keyframes neon-pulse {
               0% {
-                transform: translate(0, 0);
-                opacity: 1;
-              }
-              20% {
-                transform: translate(-2px, 2px);
-              }
-              40% {
-                transform: translate(2px, -2px);
-              }
-              60% {
-                transform: translate(-2px, -2px);
-              }
-              80% {
-                transform: translate(2px, 2px);
-              }
-              100% {
-                transform: translate(0, 0);
-                opacity: 1;
-              }
-            }
-
-            @keyframes glitch-color {
-              0%,
-              100% {
-                filter: hue-rotate(0deg);
+                text-shadow:
+                  0 0 5px #ff3366,
+                  0 0 10px #ff3366,
+                  0 0 20px #ff3366,
+                  0 0 40px #ff3366,
+                  0 0 80px #ff3366,
+                  0 0 120px #ff3366;
               }
               50% {
-                filter: hue-rotate(360deg);
+                text-shadow:
+                  0 0 10px #00ffcc,
+                  0 0 20px #00ffcc,
+                  0 0 40px #00ffcc,
+                  0 0 80px #00ffcc,
+                  0 0 120px #00ffcc,
+                  0 0 200px #00ffcc;
+              }
+              100% {
+                text-shadow:
+                  0 0 5px #ffda00,
+                  0 0 10px #ffda00,
+                  0 0 20px #ffda00,
+                  0 0 40px #ffda00,
+                  0 0 80px #ffda00,
+                  0 0 120px #ffda00;
               }
             }
 
-            .animate-glitch {
-              display: inline-block;
-              position: relative;
-              animation:
-                glitch 0.7s infinite alternate ease-in-out,
-                glitch-color 2s infinite alternate ease-in-out;
+            @keyframes glitch-shift {
+              0%,
+              100% {
+                transform: translate(0, 0);
+              }
+              25% {
+                transform: translate(2px, -2px);
+              }
+              50% {
+                transform: translate(-3px, 3px);
+              }
+              75% {
+                transform: translate(1px, -1px);
+              }
             }
 
-            .animate-glitch:before,
-            .animate-glitch:after {
+            @keyframes rotate-3d {
+              0%,
+              100% {
+                transform: rotateX(0deg) rotateY(0deg);
+              }
+              50% {
+                transform: rotateX(15deg) rotateY(15deg);
+              }
+            }
+
+            .neon-glitch {
+              display: inline-block;
+              animation:
+                neon-pulse 2.5s infinite alternate,
+                glitch-shift 3s infinite ease-in-out,
+                rotate-3d 6s infinite ease;
+              color: inherit;
+              position: relative;
+            }
+
+            .neon-glitch::before,
+            .neon-glitch::after {
               content: attr(data-char);
               position: absolute;
               top: 0;
               left: 0;
-              opacity: 0.8;
+              color: #ff3366;
+              opacity: 0.7;
               z-index: -1;
             }
 
-            .animate-glitch:before {
-              animation: glitch 0.7s infinite alternate-reverse ease-in-out;
-              color: #ff006e;
-              clip-path: inset(0 1px 0 0);
+            .neon-glitch::before {
+              transform: translate(3px, -3px);
+              animation: glitch-shift 1.5s infinite ease-in-out reverse;
             }
 
-            .animate-glitch:after {
-              animation: glitch 0.7s infinite alternate ease-in-out;
-              color: #00f5d4;
-              clip-path: inset(1px 0 0 1px);
+            .neon-glitch::after {
+              transform: translate(-3px, 3px);
+              animation: glitch-shift 1.5s infinite ease-in-out;
             }
           `}</style>
 
