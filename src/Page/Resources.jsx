@@ -90,12 +90,6 @@ const ResourceCards = () => {
       tags: ['ai', 'tools', 'directory'],
     },
     {
-      title: 'Affordable Learning',
-      description: 'Access affordable or free resources for quality learning.',
-      link: '/affordable-learning',
-      tags: ['learning', 'free', 'resources'],
-    },
-    {
       title: 'Community Contributions',
       description: 'Explore contributions from the global tech community.',
       link: '/community',
@@ -106,12 +100,6 @@ const ResourceCards = () => {
       description: 'Find and use open-source libraries to accelerate development.',
       link: '/libraries',
       tags: ['opensource', 'libraries', 'frameworks'],
-    },
-    {
-      title: 'Bootcamp Listings',
-      description: 'Discover top tech bootcamps to jumpstart your career.',
-      link: '/bootcamps',
-      tags: ['bootcamps', 'career', 'learning'],
     },
     {
       title: 'Roadmaps and Guides',
