@@ -1,0 +1,15 @@
+{
+    "name": "Akash Babu Kushwah",
+    "location": "Bhopal, India",
+    "bio": "I am a Frontend Developer with 2.3 years of experience in HTML,CSS,Javascript and ReactJS. I am a quick learner and always ready to learn new technologies.",
+    "avatar": "https://github.com/akashk6697.png",
+    "portfolio": "https://github.com/akashk6697",
+    "skills": ["HTML","CSS","Javascript","ReactJS","NodeJS","RestFul API","Git","GitHub","JIRA","VSCODE"],
+    "social": {
+      "GitHub": "https://github.com/akashk6697",
+      "Twitter": "https://x.com/akash_kush63184",
+      "LinkedIn": "https://linkedin.com/in/akash-babu-kushwah",
+      "Instagram": "#",
+      "Email": "akashk6697@gmail.com"
+    }
+  }
