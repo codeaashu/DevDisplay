@@ -4,7 +4,7 @@ import Globe from '../components/Globe';
 
 const Hero = () => {
   return (
-    <section className="hero-section mt-20 flex min-h-screen flex-col items-center justify-center bg-gradient-to-r from-gray-900 via-gray-800 to-black text-white">
+    <section className="hero-section mt-20 flex min-h-screen flex-col items-center justify-center text-white ">
       <div className="flex w-full flex-col items-center justify-center px-8 text-center">
         <p className="text-md mx-auto mb-10 w-fit rounded-full bg-[#ffffff36] p-2 text-center">
           We're Open Source {'>'} Star Now🌟
@@ -24,7 +24,7 @@ const Hero = () => {
 
 const TechFeatures = () => {
   return (
-    <section className="tech-features-section max-w-[80%] bg-gradient-to-r from-gray-900 via-gray-800 to-black px-4 py-16 text-white">
+    <section className="tech-features-section max-w-[80%] px-4 py-16 text-white">
       <div className="mx-auto my-12 max-w-[80%] text-center">
         <h2 className="my-6 text-4xl font-bold text-[#00a6fb]">All Tech Features in One Place</h2>
         <p className="mx-auto my-12 mb-8 max-w-3xl text-xl">
@@ -145,7 +145,7 @@ const supporters = [
 
 const SupportedBy = () => {
   return (
-    <div className="my-10 bg-gradient-to-r from-gray-900 via-gray-800 to-black py-10">
+    <div className="my-10 py-10">
       <h2 className="my-10 text-center text-4xl font-bold text-[#00a6fb]">Supported By</h2>
 
       <div className="relative mx-auto flex max-w-[99vw] space-x-8 overflow-x-hidden">
@@ -176,7 +176,7 @@ const SupportedBy = () => {
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-gradient-to-r from-gray-900 via-gray-800 to-black py-8 text-white">
+    <footer className="w-full bg-gray-800 py-8 text-white">
       <div className="mx-auto max-w-screen-xl px-4">
         <div className="flex flex-col items-center justify-between md:flex-row">
           {/* Left section */}
@@ -228,7 +228,7 @@ const Footer = () => {
 
 const Home = () => {
   return (
-    <div className="background-wrapper min-h-screen bg-gradient-to-r from-gray-900 via-gray-800 to-black text-white">
+    <div className="background-wrapper bg-gray-400">
       <Navbar />
       <Hero />
       <TechFeatures />
