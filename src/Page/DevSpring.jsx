@@ -76,8 +76,10 @@ const DevSpring = () => {
   return (
     <div className="min-h-screen bg-gray-900 text-white">
       <Navbar />
-      <div className="mx-auto mt-3 flex w-full max-w-xs items-center justify-center gap-2">
-        <img src="./PoweredByDevDisplay.png" alt="DevDisplay Logo" className="h-10 w-10" />
+      <div className="bg-[#334155] py-3 text-center text-white">
+        <div className="mx-auto mt-3 flex w-full max-w-xs items-center justify-center gap-2">
+          <img src="./PoweredByDevDisplay.png" alt="DevDisplay Logo" className="custom-logo" />
+        </div>
       </div>
       <main className="mx-auto max-w-6xl px-4 py-10 text-center">
         <div className="flex flex-col items-center">
