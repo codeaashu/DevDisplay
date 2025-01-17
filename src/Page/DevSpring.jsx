@@ -274,12 +274,11 @@ const DevSpring = () => {
         </div>
         <p className="mt-4 flex items-center justify-center rounded-lg bg-gradient-to-r from-yellow-300 via-red-500 to-pink-500 p-4 text-lg text-white shadow-lg">
           <span role="img" aria-label="hurry up" className="mr-2 text-2xl">
-            ⏰
-          </span>
-          <span className="font-semibold">
             🚀 Stand up. Start now. ✨ Together, let's turn every impossible idea into reality. This is our time. This
             is your future. Let's make it unforgettable. Let's make history together. 🌟
-            <span> Your ideas matter. Your code matters. You matter. </span>So, wake up, show up, and own this moment.
+          </span>
+          <span className="font-semibold">
+            Your ideas matter. Your code matters. You matter. So, wake up, show up, and own this moment.
           </span>
         </p>
       </main>
