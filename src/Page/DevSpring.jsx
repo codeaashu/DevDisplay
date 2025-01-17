@@ -78,7 +78,7 @@ const DevSpring = () => {
       <Navbar />
       <div className="bg-[#334155] py-3 text-center text-white">
         <div className="mx-auto mt-3 flex w-full max-w-xs items-center justify-center gap-2">
-          <img src="./DevDisplay ICON.png" alt="DevDisplay Logo" className="h-10 w-10" />
+          <img src="./PoweredByDevDisplay.png" alt="DevDisplay Logo" className="h-10 w-10" />
         </div>
       </div>
       <main className="mx-auto max-w-6xl px-4 py-10 text-center">
