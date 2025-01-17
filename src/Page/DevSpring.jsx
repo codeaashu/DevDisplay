@@ -166,9 +166,12 @@ const DevSpring = () => {
         </div>
         <h1 className="text-4xl font-bold text-[#00a6fb]">2 Month Open Source Impact</h1>
         <p className="mt-2 text-lg text-gray-300">
-          Join the DevSpring & Be a part of 2 month Open Source Impact With DevDisplay. ⚡ {DevSpring} isn't just an
-          event—it's a movement. A global platform where your ideas can take flight, where collaboration can create
-          breakthroughs, and where YOU can prove you're unstoppable.
+          Join the DevSpring & Be a part of 2 month Open Source Impact With DevDisplay.
+        </p>
+        <p className="mt-2 text-lg text-gray-300">⚡DevSpring isn't just an event—it's a movement.</p>
+        <p className="mt-2 text-lg text-gray-300">
+          A global platform where your ideas can take flight, where collaboration can create breakthroughs, and where
+          YOU can prove you're unstoppable.
         </p>
         <p className="mt-4 flex items-center justify-center rounded-lg bg-gradient-to-r from-yellow-300 via-red-500 to-pink-500 p-4 text-lg text-white shadow-lg">
           <span role="img" aria-label="hurry up" className="mr-2 text-2xl">
@@ -274,11 +277,14 @@ const DevSpring = () => {
         </div>
         <p className="mt-4 flex items-center justify-center rounded-lg bg-gradient-to-r from-yellow-300 via-red-500 to-pink-500 p-4 text-lg text-white shadow-lg">
           <span role="img" aria-label="hurry up" className="mr-2 text-2xl">
-            🚀 Stand up. Start now. ✨ Together, let's turn every impossible idea into reality. This is our time. This
-            is your future. Let's make it unforgettable. Let's make history together. 🌟
-          </span>
-          <span className="font-semibold">
-            Your ideas matter. Your code matters. You matter. So, wake up, show up, and own this moment.
+            <p className="mt-2 text-lg text-gray-300"> Let's Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer</p>
+            <p className="mt-2 text-lg text-gray-300">
+              {' '}
+              This is our time. This is your future. Let's make it unforgettable. Let's make history together. 🌟
+            </p>
+            <p className="mt-2 text-lg text-gray-300">
+              ✨ Your ideas matter. Your code matters. You matter. So, wake up, show up, and own this moment.
+            </p>
           </span>
         </p>
       </main>
