@@ -81,7 +81,11 @@ const DevSpring = () => {
           Powered By Dev<span className="text-[#00a6fb]">Display</span>
         </p> */}
         <div className="mx-auto mt-3 flex w-full max-w-xs items-center justify-center gap-2">
-          <img src="./PoweredByDevDisplay" alt="Powered By DevDisplay" className="h-10 w-10" />
+          <img
+            src="/public/assets/DevDisplayLOGO/PoweredByDevDisplay.png"
+            alt="Powered By DevDisplay"
+            className="h-10 w-10"
+          />
         </div>
       </div>
       <main className="mx-auto max-w-6xl px-4 py-10 text-center">
