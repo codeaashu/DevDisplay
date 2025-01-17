@@ -30,7 +30,10 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
           <div className="text-center md:text-left">
             <h4 className="text-xl font-bold text-[#00a6fb]">DevDisplay</h4>
-            <p className="mt-1 text-sm">Empowering tech enthusiasts to connect, learn, and grow together.</p>
+            <p className="mt-1 text-sm">
+              DevDisplay is a global open-source tech community and organization with a mission to unite all your tech
+              needs under one platform.
+            </p>
           </div>
 
           <div className="flex space-x-6">
