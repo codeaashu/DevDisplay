@@ -265,6 +265,14 @@ const DevSpring = () => {
             </div>
           </div>
         </div>
+        <div className="mt-4 flex items-center justify-center">
+          <img
+            src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Snowflake.png"
+            alt="Snowflake"
+            width="25"
+            height="25"
+          />
+        </div>
       </main>
       <Footer />
     </div>
