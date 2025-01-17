@@ -278,7 +278,7 @@ const DevSpring = () => {
             height="100"
           />
         </div>
-        <p className="mt-4 flex items-center justify-center rounded-lg bg-gradient-to-r from-blue-300 via-red-500 to-pink-500 p-4 text-lg text-white shadow-lg">
+        <p className="from-black-300 to-black-500 mt-4 flex items-center justify-center rounded-lg bg-gradient-to-r via-red-500 p-4 text-lg text-white shadow-lg">
           <span role="img" aria-label="hurry up" className="mr-2 text-2xl">
             <p className="mt-2 text-lg text-gray-300"> Let's Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer</p>
             <p className="mt-2 text-lg text-gray-300">
