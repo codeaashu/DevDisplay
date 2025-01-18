@@ -1,0 +1,35 @@
+{
+  "name": "Soumyadip Giri",
+  "location": "Haridwar, India",
+  "bio": "A developer passionate about building systems for the web 🌐 and also develop app.",
+  "avatar": "https://avatars.githubusercontent.com/u/122915461?v=4",
+  "portfolio": "https://soumyadipgiri.carrd.co/",
+  "skills": [
+    "C",
+    "Javascript",
+    "Typescript",
+    "Asp.Net Core",
+    "React",
+    "Next.Js",
+    "Unity",
+    "ServiceNow",
+    "MySQL",
+    "MongoDB",
+    "Docker",
+    "Git",
+    "Tailwind CSS",
+    "REST APIs",
+    "GraphQL",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Soumyadipgithub",
+    "Twitter": "https://x.com/bstsoumyadip123",
+    "LinkedIn": "https://www.linkedin.com/in/soumyadip-giri-k",
+    "Instagram": "#",
+    "Email": "226301209@gkv.ac.in"
+  }
+}
