@@ -2,6 +2,11 @@ import React from 'react';
 import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaUserCircle } from 'react-icons/fa';
 import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
 
+function isValidEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
+
 function Profile({ data }) {
   return <Card data={data} />;
 }
@@ -149,8 +154,8 @@ function Card({ data }) {
             </a>
           )}
 
-          {data.social?.Email && (
-            <a href={data.social.Email} target="_blank" rel="noreferrer">
+          {data.social?.Email && isValidEmail(data.social.Email) && (
+            <a href={`mailto:${data.social.Email}`} target="_blank" rel="noreferrer">
               <FaEnvelope className="text-2xl text-blue-600 duration-300 hover:scale-125" />
             </a>
           )}
