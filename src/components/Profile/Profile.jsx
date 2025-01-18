@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaUserCircle } from 'react-icons/fa';
 import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
 
 function Profile({ data }) {
@@ -8,6 +8,7 @@ function Profile({ data }) {
 
 function Card({ data }) {
   const cardRef = React.useRef();
+  const [showFallback, setShowFallback] = React.useState(false);
 
   const handleWheel = (event) => {
     event.stopPropagation();
@@ -30,9 +31,19 @@ function Card({ data }) {
   return (
     <div className="mb-6 h-auto rounded-lg bg-white p-4 shadow dark:bg-textPrimary">
       <div className="relative flex gap-4">
-        <div className="h-24 w-24 flex-shrink-0">
-          <img src={data.avatar} className="h-full w-full rounded-full" alt="User logo" />
+        <div className="flex h-24 w-24 flex-shrink-0 items-center justify-center rounded-full bg-gray-200">
+          {!showFallback ? (
+            <img
+              src={data.avatar}
+              onError={() => setShowFallback(true)}
+              className="h-full w-full rounded-full"
+              alt="User Avatar"
+            />
+          ) : (
+            <FaUserCircle className="text-6xl text-gray-500" />
+          )}
         </div>
+
         <div className="w-[55%] sm:w-[75%]">
           <h3>
             <a
