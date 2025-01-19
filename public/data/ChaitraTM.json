@@ -1,0 +1,14 @@
+{
+  "name": "Chaitra T M",
+  "location": "Banglore",
+  "bio": "Your Bio should be 20-30 words not more than that",
+  "avatar": "https://github.com/your-github-ChaitraTM.png",
+  "portfolio": "Your Portfolio URL or Github URL",
+  "skills": ["c++", "html", "css","js","problem solving"],
+  "social": {
+    "GitHub": "https://github.com/ChaitraTM",
+    "LinkedIn": "https://www.linkedin.com/in/chaitra-tm",
+    "Instagram": "https://www.instagram.com/_chaitra.gowda",
+    "Email": "gchaitra077@gmail.com"
+  }
+}
