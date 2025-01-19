@@ -1,0 +1,15 @@
+{
+  "name": "Sarthak Aggarwal",
+  "location": "DELHI,INDIA",
+  "bio": "A passionate coding student who started coding to get an offer from big 4",
+  "avatar": "https://github.com/sarthakkahtras.png",
+  "portfolio": "Yhttps://github.com/sarthakkahtras/demo-check.git",
+  "skills": ["HTML", "CSS", "JAVASCRIPT" , "NODE.JS],
+  "social": {
+    "GitHub": "https://github.com/sarthakkahtras",
+    "Twitter": "https://twitter.com/SarthakForSure",
+    "LinkedIn": "https://www.linkedin.com/in/sarthak-aggarwal-887017282",
+    "Instagram": "https://www.instagram.com/sarthak_aggarwal_01",
+    "Email": "asarthak30124@gmail.com"
+  }
+}
