@@ -1,0 +1,15 @@
+{
+  "name": "Abhinav Mamidi",
+  "location": "Hyderabad",
+  "bio": "Aspiring Full Stack Developer with a strong interest in AI/Data Science. Eager to learn and contribute to the field. Seeking mentorship and opportunities to grow.",
+  "avatar": "https://github.com/Imabhinavvv.png",
+  "portfolio": "https://github.com/Imabhinavvv",
+  "skills": ["Git", "GitHub", "Java", "HTML", "R", "JS", "CSS"],
+  "social": {
+    "GitHub": "https://github.com/Imabhinavvv",
+    "Twitter": "https://x.com/imabhinavvv",
+    "LinkedIn": "https://www.linkedin.com/in/abhinav-mamidi-in/",
+    "Instagram": "https://www.instagram.com/abhinavvv.m",
+    "Email": "abhinavmamidi.mail@gmail.com"
+  }
+}

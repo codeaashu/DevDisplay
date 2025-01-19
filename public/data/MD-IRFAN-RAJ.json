@@ -1,0 +1,13 @@
+{
+  "name": "Md Irfan Raj",
+  "location": "India",
+  "bio": "Full Stack developer, Data Science enthusiast and Software Tester",
+  "avatar": "https://github.com/MD-IRFAN-RAJ.png",
+  "portfolio": "https://md-irfan-raj.github.io/PortFolio/",
+  "skills": ["MongoDB", "React", "Node.js", "Express.js", "Tablaeu", "GCP", "Selenium", "..."],
+  "social": {
+    "GitHub": "https://github.com/MD-IRFAN-RAJ",
+    "LinkedIn": "https://www.linkedin.com/in/md-irfan-raj",
+    "Instagram": "https://www.instagram.com/mdirfanraj570"
+  }
+}
