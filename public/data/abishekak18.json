@@ -1,0 +1,15 @@
+{
+  "name": "Abishek",
+  "location": "Tamil Nadu, India",
+  "bio": "Your Bio should be 20-30 words not more than that",
+  "avatar": "https://github.com/abishekak18.png",
+  "portfolio": "https://github.com/abishekak18",
+  "skills": ["C++", "Python", "Javascript", "React", "Node"],
+  "social": {
+    "GitHub": "https://github.com/abishekak18",
+    "Twitter": "https://twitter.com/NatashaWarrior7",
+    "LinkedIn": "https://www.linkedin.com/in/eabishek18/",
+    "Instagram": "https://www.instagram.com/abishek_ak_18",
+    "Email": "abiabishek2004@gmail.com"
+  }
+}
