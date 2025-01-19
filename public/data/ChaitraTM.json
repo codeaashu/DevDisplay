@@ -1,14 +1,14 @@
 {
   "name": "Chaitra T M",
-  "location": "Banglore",
-  "bio": "Your Bio should be 20-30 words not more than that",
-  "avatar": "https://github.com/your-github-ChaitraTM.png",
-  "portfolio": "Your Portfolio URL or Github URL",
-  "skills": ["c++", "html", "css","js","problem solving"],
+  "location": "Karnataka, India",
+  "bio": "A passionate budding developer, open-source contributions.",
+  "avatar": "https://avatars.githubusercontent.com/u/ChaitraTM",
+  "portfolio": "https://github.com/",
+  "skills": ["JavaScript", "html", "css", "Python", "c++"],
   "social": {
     "GitHub": "https://github.com/ChaitraTM",
-    "LinkedIn": "https://www.linkedin.com/in/chaitra-tm",
-    "Instagram": "https://www.instagram.com/_chaitra.gowda",
-    "Email": "gchaitra077@gmail.com"
+    "LinkedIn": "https://www.linkedin.com/in/chaitra-tm=bo96a260/",
+    "Instagram": "https://www.instagram.com/_chaitra.gowda/",
+    "Email": "chaitratm18@gmail.com"
   }
 }
