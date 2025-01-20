@@ -244,16 +244,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ashutoshkumaraashu) [![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu)<br>
 <br>A creative Full Stack Web Developer & Designer • Till now build 50+ WEB APP</h4><hr>
 
-### Contributors
-
-Special thanks to the incredible code contributors who continue to drive this project forward.
-
-<a href="https://github.com/codeaashu/DevDisplay/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=codeaashu/DevDisplay"  alt="DevDisplay-contributors"/>
-</a>
-
-<hr>
-
 <h1 align="center">© LICENSE <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Check%20Box%20With%20Check.webp" alt="Check Box With Check" width="25" height="25" /></h1>
 
 <table align="center">
