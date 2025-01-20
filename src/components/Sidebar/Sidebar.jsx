@@ -26,6 +26,10 @@ function Sidebar() {
     navigate('/Home');
   }
 
+  function handleAboutUs() {
+    navigate('/About');
+  }
+
   return (
     <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%] md:px-2 lg:px-7">
       <div className="mb-2 flex h-12 items-center gap-2.5">
@@ -82,6 +86,14 @@ function Sidebar() {
           className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
         >
           Open Source Contribution{/* Unlock the Power of DevDisplay */}
+        </button>
+      </div>
+      <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
+        <button
+          onClick={handleAboutUs}
+          className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+        >
+          About Us
         </button>
       </div>
       {/* <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">

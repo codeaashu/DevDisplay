@@ -21,6 +21,7 @@ import RoadmapGuide from './Resouces_Pages/RoadmapGuide.jsx';
 import InterviewPrep from './Resouces_Pages/InterviewPrep.jsx';
 import TopGithubRepo from './Resouces_Pages/TopGithubRepo.jsx';
 import ContributionsGuide from './Resouces_Pages/ContributionsGuide.jsx';
+import About from './Page/About.jsx';
 
 function App() {
   return (
@@ -74,6 +75,7 @@ function App() {
       <Routes>
         <Route index element={<Homepage />} />
         <Route path="/Home" element={<Home />} />
+        <Route path="/About" element={<About />} />
         <Route path="/Opportunities" element={<Opportunities />} />
         <Route path="/IdeaSubmission" element={<IdeaSubmission />} />
         <Route path="/PortfolioIdeas" element={<PortfolioIdeas />} />
