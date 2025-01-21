@@ -1,10 +1,10 @@
 {
   "name": "Abishek",
   "location": "Tamil Nadu, India",
-  "bio": "Your Bio should be 20-30 words not more than that",
+  "bio": "Aspiring Developer",
   "avatar": "https://github.com/abishekak18.png",
   "portfolio": "https://github.com/abishekak18",
-  "skills": ["C++", "Python", "Javascript", "React", "Node"],
+  "skills": ["C++", "Python", "Javascript", "React", "Node", "Github", "Git"],
   "social": {
     "GitHub": "https://github.com/abishekak18",
     "Twitter": "https://twitter.com/NatashaWarrior7",

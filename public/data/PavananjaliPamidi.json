@@ -1,10 +1,11 @@
 {
-    "name": "Pamidi.Lakshmi Pavananjali",
-    "location": "Guntur",
-    "bio": "Hi 👋, I'm P. Lakshmi Pavananjali, soon-to-be software engineer 👩‍💻 graduating from Amrita Vishwa Vidyapeetham! While I might've considered myself an average student in exams 📝, my passion for tech has always been strong 💪. It all started back in 8th grade at LFS when I was introduced to HTML 💻, sparking a love for coding that grew with each new language: C in 9th grade, then Java and Python in 10th! 🤩 I enjoy building things (not just fixing printers 😉) and solving problems, plus I love hiking ⛰️ and the occasional beekeeping adventure 🐝 (minus the stings!).",
-    "avatar": "https://github.com/Anjaliavv51.png",
-    "portfolio": "",
-    "skills": ["JavaScript",
+  "name": "Pamidi.Lakshmi Pavananjali",
+  "location": "Guntur",
+  "bio": "Hi 👋, I'm P. Lakshmi Pavananjali, soon-to-be software engineer 👩‍💻 graduating from Amrita Vishwa Vidyapeetham! While I might've considered myself an average student in exams 📝, my passion for tech has always been strong 💪. It all started back in 8th grade at LFS when I was introduced to HTML 💻, sparking a love for coding that grew with each new language: C in 9th grade, then Java and Python in 10th! 🤩 I enjoy building things (not just fixing printers 😉) and solving problems, plus I love hiking ⛰️ and the occasional beekeeping adventure 🐝 (minus the stings!).",
+  "avatar": "https://github.com/Anjaliavv51.png",
+  "portfolio": "",
+  "skills": [
+    "JavaScript",
     "React",
     "HTML",
     "CSS",
@@ -23,12 +24,11 @@
     "GitHub",
     "MERN",
     "Gitkarken"
-],
-    "social": {
-      "GitHub": "https://github.com/Anjaliavv51",
-      "Twitter": "https://x.com/Pavananjal75042",
-      "LinkedIn": "https://www.linkedin.com/in/lakshmi-pavananjali-pamidi-766760296/",
-      "Email": "plpanjali05@gmail.com",
-      "discord":"https://discord.gg/fBek745Gan"
-    }
+  ],
+  "social": {
+    "GitHub": "https://github.com/Anjaliavv51",
+    "Twitter": "https://x.com/Pavananjal75042",
+    "LinkedIn": "https://www.linkedin.com/in/lakshmi-pavananjali-pamidi-766760296/",
+    "Email": "plpanjali05@gmail.com"
   }
+}

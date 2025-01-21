@@ -4,7 +4,17 @@
   "bio": "This is syam sundar a BTech 3rd year student passionate about Data science & Machine Learning",
   "avatar": "https://github.com/syamsundaryadla.png",
   "portfolio": "https://github.com/syamsundaryadla",
-  "skills": ["Data Science", "Machine Learning", "ReactJS","Deep learning"],
+  "skills": [
+    "Data Science",
+    "Machine Learning",
+    "ReactJS",
+    "Deep learning",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Github",
+    "Git"
+  ],
   "social": {
     "GitHub": "https://github.com/syamsundaryadla",
     "Twitter": "https://twitter.com/syamsundar3618",
