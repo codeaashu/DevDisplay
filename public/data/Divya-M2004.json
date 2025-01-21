@@ -1,1 +1,15 @@
-
+{
+  "name": "Divya M",
+  "location": "Mysore",
+  "bio": "currently pursuing mca",
+  "avatar": "https://avatars.githubusercontent.com/u/185251827?v=4&size=64",
+  "portfolio": "https://github.com/Divya-M2004",
+  "skills": ["Python","html","css","javascript","java"],
+  "social": {
+    "GitHub": "https://github.com/Divya-M2004",
+    "Twitter": "https://x.com/Mahadevamma123",
+    "LinkedIn": "www.linkedin.com/in/divya-m-61637b2a3",
+    "Instagram": "https://www.instagram.com/your-instgram-username",
+    "Email": "dd4492553@gmail.com"
+  }
+}
