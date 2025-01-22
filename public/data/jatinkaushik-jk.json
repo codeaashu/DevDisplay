@@ -1,0 +1,33 @@
+{
+  "name": "Jatin Kaushik",
+  "location": "Gurugram, Haryana",
+  "bio": "Passionate CSE student crafting dynamic applications. Enthusiastic about collaboration and creating remarkable projects. Let's connect, code, and innovate! 🚀✨",
+  "avatar": "https://github.com/jatinkaushik-jk.png",
+  "portfolio": "https://github.com/jatinkaushik-jk",
+  "skills": [
+    "TypeScript",
+    "JavaScript",
+    "React.js",
+    "Next.js",
+    "C++",
+    "HTML",
+    "Tailwind CSS",
+    "Bootstrap",
+    "GSAP",
+    "Git",
+    "Docker",
+    "Java",
+    "Mongo DB",
+    "Node.js",
+    "DSA",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/jatinkaushik-jk",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/jatinkaushik-jk",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

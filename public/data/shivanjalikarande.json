@@ -1,0 +1,32 @@
+{
+  "name": "Shivanjali Karande",
+  "location": "Pune, India",
+  "bio": "Full Stack Web Developer | Pre-final year student pursuing B.E in Computer Engineering | GSSoC'24 Open Source Contributor",
+  "avatar": "https://github.com/shivanjalikarande.png",
+  "portfolio": "https://github.com/shivanjalikarande",
+  "skills": [
+    "MERN",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "Tailwind Css",
+    "Node.js",
+    "Express.js",
+    "Databases",
+    "MySQL",
+    "MongoDB",
+    "Data Structures",
+    "Algorithms",
+    "Problem Solving",
+    "Git",
+    "Github"
+  ],
+  "social": {
+    "GitHub": "https://github.com/shivanjalikarande",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/shivanjalikarande",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

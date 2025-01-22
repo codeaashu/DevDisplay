@@ -1,0 +1,15 @@
+{
+  "name": "Venkatesh R Kamath",
+  "location": "Udupi, Karnataka",
+  "bio": "Developer skilled in HTML, CSS, JavaScript, C, and Python, with experience in front-end and back-end development, focusing on creating dynamic and efficient web applications",
+  "avatar": "https://github.com/venkateeshh.png",
+  "portfolio": "https://venkateeshh.vercel.app/",
+  "skills": ["HTML", "CSS", "NextJs", "MERN", "MySQL", "Web Development", "Frontend", "Git", "GitHub", "MERN"],
+  "social": {
+    "GitHub": "https://github.com/venkateeshh",
+    "Twitter": "https://twitter.com/venkateeshh",
+    "LinkedIn": "https://www.linkedin.com/in/venkateeshh",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Shubham Raj",
+  "location": "Patna, Bihar, India",
+  "bio": "I'm Web-Developer, I'm currently working as Freelancer, Open to work as a Software Engineer, I'm currently learning MERN, Funfact: I also do Photo/Video Editing ",
+  "avatar": "https://github.com/shubhcoding01.png",
+  "portfolio": "https://shubhamrajportfolio.vercel.app/",
+  "skills": [
+    "Java",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "C++",
+    "DSA",
+    "MY SQL",
+    "PYTHON",
+    "C",
+    "React",
+    "Cyber Security",
+    "WebFlow",
+    "Canva",
+    "Figma",
+    "NodeJS",
+    "WebDevelopment",
+    "FullStack",
+    "MernStack",
+    "GSAP",
+    "Git",
+    "GitHub",
+    "KALI LINUX"
+  ],
+  "social": {
+    "GitHub": "https://github.com/shubhcoding01",
+    "Twitter": "https://x.com/shubh__coding",
+    "LinkedIn": "https://www.linkedin.com/in/shubhamrajshubh/",
+    "Instagram": "https://www.instagram.com/shubh1.yadav",
+    "Email": "shubh.cout@gmail.com"
+  }
+}

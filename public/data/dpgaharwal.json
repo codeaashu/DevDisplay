@@ -1,0 +1,41 @@
+{
+  "name": "Durga Prasad",
+  "location": "Pune, Maharashtra - 412101",
+  "bio": "Aspiring Computer Science Engineer with expertise in data analysis, machine learning, and software development. ",
+  "avatar": "https://github.com/dpgaharwal.png",
+  "portfolio": "https://github.com/dpgaharwal",
+  "skills": [
+    "Python",
+    "C++",
+    "HTML/CSS",
+    "JavaScript",
+    "SQL",
+    "MySQL",
+    "MongoDB",
+    "PostgreSQL",
+    "Pandas",
+    "NumPy",
+    "PyTorch",
+    "TensorFlow",
+    "Keras",
+    "Scikit-Learn",
+    "Seaborn",
+    "Matplotlib",
+    "Tableau",
+    "PowerBI",
+    "Advanced Excel",
+    "Data Analysis",
+    "Linux",
+    "GitHub",
+    "Docker",
+    "Google Cloud Platform",
+    "Amazon Web Services"
+  ],
+  "social": {
+    "GitHub": "https://github.com/dpgaharwal",
+    "Twitter": "https://twitter.com/ManishG2423",
+    "LinkedIn": "https://www.linkedin.com/in/dpgaharwal",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

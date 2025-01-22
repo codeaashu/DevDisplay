@@ -1,0 +1,35 @@
+{
+  "name": "Aryan Bajpai",
+  "location": "Uttar Pradesh, India",
+  "bio": "Passionate about creating elegant frontend and efficient backend web solutions, with a focus on Python and AI.",
+  "avatar": "https://github.com/codernotme.png",
+  "portfolio": "https://codernotme.me/",
+  "skills": [
+    "Python",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "Node.js",
+    "Django",
+    "AWS",
+    "Vercel",
+    "Cloud Computing",
+    "Convex",
+    "Clerk Auth",
+    "NoSQL",
+    "Git/GitHub",
+    "Open Source",
+    "Postman"
+  ],
+  "social": {
+    "GitHub": "https://github.com/codernotme",
+    "Twitter": "https://x.com/codernotme",
+    "LinkedIn": "https://www.linkedin.com/in/codernotme",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

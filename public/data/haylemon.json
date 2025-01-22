@@ -1,0 +1,15 @@
+{
+  "name": "Hayley Lemon",
+  "location": "Bellingham, WA, USA",
+  "bio": "New student studying software engineering. Excited to see what I can learn!",
+  "avatar": "https://github.com/haylemon.png",
+  "portfolio": "https://github.com/haylemon",
+  "skills": ["JavaScript", "HTML", "CSS", "Git", "GitHUb", "VS Code", "Web Development", "Frontend"],
+  "social": {
+    "GitHub": "https://github.com/haylemon",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/hayley-lemon-9a832a317/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

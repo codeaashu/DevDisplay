@@ -1,0 +1,15 @@
+{
+  "name": "Abhay Gupta",
+  "location": "Uttar Pradesh, India",
+  "bio": "A passionate developer with expertise in full-stack development, open-source contributions, and creating impactful digital solutions.",
+  "avatar": "https://avatars.githubusercontent.com/u/111177764?v=4",
+  "portfolio": "https://github.com/abhaygupta",
+  "skills": ["JavaScript", "React", "Node.js", "Python", "Rust", "Flask"],
+  "social": {
+    "GitHub": "https://github.com/Abhay-hack",
+    "Twitter": "https://twitter.com/abhaygupta94",
+    "LinkedIn": "https://www.linkedin.com/in/abhay-gupta-1257b6248/",
+    "Instagram": "https://www.instagram.com/abhay_.me/",
+    "Email": "ag4081315@gmail.com"
+  }
+}

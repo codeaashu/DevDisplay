@@ -1,0 +1,15 @@
+{
+  "name": "parv nema",
+  "location": "Madhya Pradesh, India",
+  "bio": "Tech Enthusiast 👨‍💻 | Web Developer💻 | DSA📖 ",
+  "avatar": "https://github.com/PARVNEMA.png",
+  "portfolio": "https://github.com/PARVNEMA",
+  "skills": ["React", "NodeJS", "MongoDB", "REST API", "JavaScript", "c++", "Git", "GitHub"],
+  "social": {
+    "GitHub": "https://github.com/PARVNEMA",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/parv-nema-0068b8248",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Tirth Patel",
+  "location": "South Carolina, United States",
+  "bio": "Undergrad student interested in backend development and HPC.",
+  "avatar": "https://avatars.githubusercontent.com/u/83850231?s=400&v=4",
+  "portfolio": "https://github.com/trp02",
+  "skills": [
+    "Java",
+    "C",
+    "C++",
+    "MySQL",
+    "DPDK",
+    "PHP",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "React.js",
+    "Redux",
+    "Python",
+    "HTML",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/trp02",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/tirthrp/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

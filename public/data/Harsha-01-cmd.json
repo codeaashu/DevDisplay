@@ -1,0 +1,38 @@
+{
+  "name": "Harsha Rashmi",
+  "location": "Jamshedpur, Jharkhand, India",
+  "bio": "Full Stack Web Developer skilled in building dynamic and responsive web applications across the MERN (MongoDB, Express.js, React, Node.js) stack, with additional expertise in Next.js and TypeScript. A UI/UX designer with expertise in Figma designing and highly passionate about coding and problem-solving",
+  "avatar": "https://github.com/Harsha-01-cmd.png",
+  "portfolio": "https://github.com/Harsha-01-cmd",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Git & GitHub",
+    "Python",
+    "SQL",
+    "Responsive Design",
+    "SEO Optimization",
+    "Data Structures & Algorithms",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+
+  "social": {
+    "GitHub": "https://github.com/Harsha-01-cmd",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/harsha-rashmi-478a3a289/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Rajveer Singhal",
+  "location": "Nawada, Bihar, India",
+  "bio": "An MCA student specializing in data science, skilled in Python, Java, and web development, with a strong focus on AI and front-end technologies.",
+  "avatar": "https://github.com/rajveersinghal.png",
+  "portfolio": "https://rajveersinghal.github.io/My_Portfolio/",
+  "skills": [
+    "Data Analysis",
+    "Web Development",
+    "AI and Machine Learning",
+    "Programming",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "GSAP",
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Python",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/rajveersinghal",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/rajveer-singhal/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

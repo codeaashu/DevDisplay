@@ -1,0 +1,34 @@
+{
+  "name": "Priya Chaurasiya",
+  "location": "Mumbai, Maharashtra, India",
+  "bio": "I've amassed over 2 years of experience in software development. I'm passionate about translating project visions and objectives into reality, offering tangible results in line with client expectations.",
+  "avatar": "https://avatars.githubusercontent.com/u/125198162?v=4",
+  "portfolio": "https://priyachaurasiya.netlify.app/",
+  "skills": [
+    "JavaScript",
+    "ReactJs",
+    "NextJS",
+    "C",
+    "C++",
+    "Python",
+    "Django",
+    "DSA",
+    "Tailwind CSS",
+    "NodeJs",
+    "SQL",
+    "Git",
+    "Linux",
+    "Effective Communication",
+    "GitHub",
+    "Web Development",
+    "Frontend",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/priyachau12",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/priya-chaurasiya-30320a24b/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

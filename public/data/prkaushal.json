@@ -1,0 +1,35 @@
+{
+  "name": "Prashant Kaushal",
+  "location": "Bihar, India",
+  "bio": "I am a student exploring the world of coding and opensource.",
+  "avatar": "https://github.com/prkaushal.png",
+  "portfolio": "https://github.com/prkaushal",
+  "skills": [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "JavaScript",
+    "Figma",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "React",
+    "Redux",
+    "Tailwind CSS",
+    "Next.js",
+    "Node.js",
+    "Python",
+    "Django",
+    "Flask",
+    "PostgreSQL",
+    "MongoDB"
+  ],
+  "social": {
+    "GitHub": "https://github.com/prkaushal",
+    "Twitter": "https://twitter.com/P_Kaushal9712",
+    "LinkedIn": "https://www.linkedin.com/in/prashant-kaushal/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

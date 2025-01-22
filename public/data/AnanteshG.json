@@ -1,0 +1,35 @@
+{
+  "name": "Anantesh G",
+  "location": "Bangalore, Karnataka, India",
+  "bio": "Pre Final Year Student at RNS Institute of Technology, Full Stack Developer, AI/ML Enthusiast, Open Source Contributor",
+  "avatar": "https://github.com/AnanteshG.png",
+  "portfolio": "https://github.com/AnanteshG",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Postgres",
+    "C++",
+    "Python",
+    "TypeScript",
+    "Firebase",
+    "Tailwind CSS",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/AnanteshG",
+    "Twitter": "https://x.com/AnanteshG",
+    "LinkedIn": "https://www.linkedin.com/in/anantesh-gopal-6635b7264/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

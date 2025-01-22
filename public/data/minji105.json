@@ -1,0 +1,27 @@
+{
+  "name": "minji105",
+  "location": "South Korea",
+  "bio": "I am a junior frontend developer focused on building website with React",
+  "avatar": "https://github.com/minji105.png",
+  "portfolio": "https://github.com/minji105",
+  "skills": [
+    "React",
+    "Next.js",
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Node.js",
+    "MongoDB",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/minji105",
+    "Twitter": "https://twitter.com/qncdqbypdd",
+    "LinkedIn": "#",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

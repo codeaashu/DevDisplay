@@ -1,0 +1,28 @@
+{
+  "name": "Ritu Mehta",
+  "location": "Hamirpur",
+  "bio": "I have deep interests in graphic design and hence dealt with graphic design applications. My tech skills include Front-End development, graphic designing and DSA.",
+  "avatar": "https://github.com/ritumehta302002.png",
+  "portfolio": "https://github.com/ritumehta302002",
+  "skills": [
+    "Problem Solving",
+    "CPP",
+    "Data Structures",
+    "Algorithm Design",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Front-End development",
+    "graphic designing",
+    "Figma",
+    "Photoshop",
+    "UI/UX Design"
+  ],
+  "social": {
+    "GitHub": "https://github.com/ritumehta302002",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/ritu-mehta-b29188261/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

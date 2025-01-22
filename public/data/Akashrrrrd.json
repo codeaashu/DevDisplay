@@ -1,0 +1,34 @@
+{
+  "name": "Akash R",
+  "location": "Chennai",
+  "bio": "Pre-Final Year ECE Student at Chennai Institute of Technology | Aspiring Full Stack MERN Developer | Innovating Scalable Web Solutions with a Passion for Cutting-Edge Technology & Real-World Impact",
+  "avatar": "https://github.com/Akashrrrrd.png",
+  "portfolio": "https://github.com/Akashrrrrd",
+  "skills": [
+    "HTML5",
+    "CSS",
+    "JavaScript",
+    "React",
+    "MonogoDB",
+    "Node.js",
+    "Express",
+    "SQL",
+    "DBMS",
+    "Java",
+    "Firebase",
+    "Web Development",
+    "Frontend",
+    "Backend",
+    "Full Stack",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Akashrrrrd",
+    "Twitter": "https://x.com/Aakashr2004",
+    "LinkedIn": "https://www.linkedin.com/in/akash-rajendran-245b4b259/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

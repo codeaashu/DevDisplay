@@ -1,0 +1,32 @@
+{
+  "name": "Mangalam Kumar",
+  "location": "Lucknow, Uttar Pradesh",
+  "bio": "An aspiring full-stack developer specializing in Nodejs. Passionate about coding and learning new technologies. AI enthusiast.",
+  "avatar": "https://avatars.githubusercontent.com/u/112062354?v=4",
+  "portfolio": "https://abhi0049k.github.io",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT",
+    "PYTHON",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "TYPESCRIPT",
+    "JAVA",
+    "C",
+    "MONGODB",
+    "POSTGRESSQL",
+    "MYSQL",
+    "REDIS",
+    "WEBSOCKET"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Abhi0049k",
+    "Twitter": "https://x.com/MangalamKumar11",
+    "LinkedIn": "https://www.linkedin.com/in/mangalam-kumar/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

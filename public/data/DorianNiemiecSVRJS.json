@@ -1,0 +1,41 @@
+{
+  "name": "Dorian Niemiec",
+  "location": "Poland",
+  "bio": "A ZSOiE student passionate about Information Technology. The creator of SVR.JS — a web server running on Node.JS. An #ActuallyAutistic person.",
+  "avatar": "https://github.com/DorianNiemiecSVRJS.png",
+  "portfolio": "https://dorianniemiec.h4ck.me",
+  "skills": [
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "JavaScript",
+    "React",
+    "Redux",
+    "Next.js",
+    "Node.JS",
+    "Express",
+    "PHP",
+    "MERN",
+    "Git",
+    "GitHub",
+    "Jest",
+    "ESLint",
+    "esbuild",
+    "SWC",
+    "Vite",
+    "MongoDB",
+    "MySQL",
+    "Joomla",
+    "Server administration",
+    "Responsive design",
+    "Problem-solving",
+    "Project management"
+  ],
+  "social": {
+    "GitHub": "https://github.com/DorianNiemiecSVRJS",
+    "Twitter": "https://x.com/JaDorianNiemiec",
+    "LinkedIn": "#",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

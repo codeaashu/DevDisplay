@@ -1,0 +1,38 @@
+{
+  "name": "Monish Raman",
+  "location": "Bangalore, India",
+  "bio": "Passionate tech enthusiast with experience in web development, AI, and software engineering. I build innovative, user-friendly solutions and love exploring new technologies.",
+  "avatar": "https://avatars.githubusercontent.com/u/140420819?s=400&u=97c599fa27eae561da5b0a32497eb7305518f53b&v=4",
+  "portfolio": "https://github.com/MonishRaman",
+  "skills": [
+    "FrontEnd Development",
+    "Python",
+    "C++",
+    "C Programming",
+    "PHP",
+    "React.js",
+    "Node.js",
+    "Django",
+    "Flask",
+    "JavaScript",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "SASS",
+    "Bootstrap",
+    "Tailwind CSS",
+    "Material UI",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/MonishRaman",
+    "Twitter": "https://x.com/Monishr_608",
+    "LinkedIn": "https://www.linkedin.com/in/monishr608",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

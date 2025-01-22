@@ -1,0 +1,28 @@
+{
+  "name": "Divyam Sharma",
+  "location": "India",
+  "bio": "Coder | GameDev | AI enthusiast | Loves to turn creative ideas into interactive digital experiences",
+  "avatar": "https://github.com/Divyamsharma-18.png",
+  "portfolio": "https://github.com/Divyamsharma-18",
+  "skills": [
+    "React.js",
+    "JavaScript",
+    "Python",
+    "GDScript",
+    "Next.js",
+    "Chakra UI",
+    "Tailwind",
+    "FIGMA",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Divyamsharma-18",
+    "Twitter": "https://x.com/Heydivyamsharma",
+    "LinkedIn": "https://www.linkedin.com/in/divyam-sharma-6ba700249/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

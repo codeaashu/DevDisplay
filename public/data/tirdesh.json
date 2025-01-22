@@ -1,0 +1,36 @@
+{
+  "name": "Tirdesh Pettugani",
+  "location": "Boston, MA",
+  "bio": "Full Stack Developer pursuing MS in Information Systems at Northeastern. Passionate about AI, cloud computing, and innovative web applications.",
+  "avatar": "https://github.com/tirdesh.png",
+  "portfolio": "https://nocodenolife.vercel.app/",
+  "skills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Angular",
+    "Next.js",
+    "Flask",
+    "MongoDB",
+    "MySQL",
+    "Docker",
+    "Kubernetes",
+    "Cloud Computing",
+    "Machine Learning",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/tirdesh",
+    "Twitter": "#",
+    "LinkedIn": "https://linkedin.com/in/tirdesh",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

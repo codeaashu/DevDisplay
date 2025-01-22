@@ -1,0 +1,15 @@
+{
+  "name": "Vivek Prakash",
+  "location": "New Delhi, india",
+  "bio": "Machine Learning & Robotics Enthusiast | Data Scientist | Backend Developer",
+  "avatar": "https://github.com/IkkiOcean.png",
+  "portfolio": "https://github.com/IkkiOcean",
+  "skills": ["Python", "ReactJs", "Neural Networks", "Tensorflow", "Flask", "Java", "Git", "GitHub"],
+  "social": {
+    "GitHub": "https://github.com/IkkiOcean",
+    "Twitter": "https://x.com/vivek_praksh",
+    "LinkedIn": "https://www.linkedin.com/in/vivek-prakash-b46830283/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

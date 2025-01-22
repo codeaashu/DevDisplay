@@ -1,0 +1,29 @@
+{
+  "name": "Varun Kasyap",
+  "location": "Hyderabad, INDIA",
+  "bio": "I am a 2025 CS Grad",
+  "avatar": "https://github.com/varunkasyap.png",
+  "portfolio": "https://github.com/varunkasyap",
+  "skills": [
+    "MERN",
+    "REACT",
+    "NodeJS",
+    "MongoDB",
+    "Python",
+    "Django",
+    "C",
+    "C++",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/varunkasyap",
+    "Twitter": "https://x.com/varunkasyapp",
+    "LinkedIn": "https://www.linkedin.com/in/varunkasyap/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

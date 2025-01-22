@@ -1,0 +1,33 @@
+{
+  "name": "Anand R P",
+  "location": "Kerala, India",
+  "bio": "A Passionate Full-Stack Web Developer capable of writing production-ready code using my skills such as Node.js, Express, MongoDB, React, Redux, and JavaScript.",
+  "avatar": "https://github.com/AnandRP2030.png",
+  "portfolio": "https://anandrp2030.github.io/",
+  "skills": [
+    "Mongo DB",
+    "Express JS",
+    "React js",
+    "Node Js",
+    "Redux",
+    "JavaScript",
+    "Postman",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN",
+    "UI/UX Design",
+    "Frontend Frameworks",
+    "Backend Frameworks",
+    "Database Management Systems",
+    "Version Control Systems"
+  ],
+  "social": {
+    "GitHub": "https://github.com/AnandRP2030",
+    "Twitter": "https://twitter.com/webdeveloper86",
+    "LinkedIn": "https://www.linkedin.com/in/anandrp2030/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

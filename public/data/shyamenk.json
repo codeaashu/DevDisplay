@@ -1,0 +1,28 @@
+{
+  "name": "Shyam Kumar",
+  "location": "India",
+  "bio": "Fullstack Engineer | Teaching System Design & Backend Engineering. Writer @ Backend Almanac http://backendalmanac.in Helping you build scalable systems.",
+  "avatar": "https://github.com/shyamenk.png",
+  "portfolio": "https://backendalmanac.in/",
+  "skills": [
+    "TypeScript",
+    "Next.js",
+    "Express.js",
+    "FastAPI",
+    "PostgreSQL",
+    "MongoDB",
+    "AWS",
+    "Docker",
+    "Linux",
+    "Git",
+    "Neovim",
+    "CI/CD"
+  ],
+  "social": {
+    "GitHub": "https://github.com/shyamenk",
+    "Twitter": "https://x.com/shyamenk07",
+    "LinkedIn": "https://www.linkedin.com/in/shyamenk/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

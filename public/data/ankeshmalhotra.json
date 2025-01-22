@@ -1,0 +1,25 @@
+{
+  "name": "Ankesh Malhotra",
+  "location": "Patna",
+  "bio": "AN aspiring Android App Developer",
+  "avatar": "https://github.com/ankeshmalhotra.png",
+  "portfolio": "https://github.com/ankeshmalhotra",
+  "skills": [
+    "java",
+    "MySql",
+    "App Development",
+    "Git",
+    "GitHub",
+    "Android Development",
+    "Jetpack",
+    "MVVM Architecture",
+    "Firebase"
+  ],
+  "social": {
+    "GitHub": "https://github.com/ankeshmalhotra",
+    "Twitter": "https://twitter.com/malhotra_ankesh",
+    "LinkedIn": "https://www.linkedin.com/in/ankesh-malhotra-52a51824a/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

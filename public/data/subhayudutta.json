@@ -1,0 +1,40 @@
+{
+  "name": "Subhayu Dutta",
+  "location": "Durgapur, West Bengal, India",
+  "bio": "I am Btech Computer Science and engineering student. I am a Machine Learning Developer and coder.",
+  "avatar": "https://github.com/subhayudutta.png",
+  "portfolio": "https://subhayudutta.github.io/",
+  "skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "Natural Language Processing",
+    "Internet of Things",
+    "Python",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "SQL",
+    "NoSQL",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "DevOps",
+    "Docker Swarm",
+    "Kubernetes Cluster",
+    "Jenkins",
+    "CircleCI"
+  ],
+  "social": {
+    "GitHub": "https://github.com/subhayudutta",
+    "Twitter": "https://twitter.com/subhayudutta0",
+    "LinkedIn": "https://www.linkedin.com/in/subhayu-dutta-865924240/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

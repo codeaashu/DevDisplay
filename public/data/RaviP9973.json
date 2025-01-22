@@ -1,0 +1,30 @@
+{
+  "name": "Ravi Prakash Pal",
+  "location": "Bhagalpur",
+  "bio": "Learning everyday",
+  "avatar": "https://github.com/RaviP9973.png",
+  "portfolio": "https://github.com/RaviP9973",
+  "skills": [
+    "C++",
+    "c",
+    "HTML",
+    "CSS",
+    "JS",
+    "REACT",
+    "EXPRESS",
+    "MONGO DB",
+    "MONGOOSE",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/RaviP9973",
+    "Twitter": "https://twitter.com/RaviP9973",
+    "LinkedIn": "https://www.linkedin.com/in/ravi-prakash-261517290",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

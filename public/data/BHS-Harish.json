@@ -1,0 +1,41 @@
+{
+  "name": "Balaharisankar L",
+  "location": "Rajapalayam, Tamilnadu",
+  "bio": "Full Stack Development Enthusiast",
+  "avatar": "https://github.com/BHS-Harish.png",
+  "portfolio": "https://balaharisankar.netlify.app",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Core Java",
+    "C/C++",
+    "C#.NET",
+    "Figma",
+    "Git",
+    "GitHub",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "AWS Lambda",
+    "Serverless Framework",
+    "AWS AppSync",
+    "AWS DynamoDB",
+    "AWS S3",
+    "AWS Cognito",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/BHS-Harish",
+    "Twitter": "https://twitter.com/Lovely_harish_",
+    "LinkedIn": "https://www.linkedin.com/in/balaharisankar",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Amiya Singh",
+  "location": "Nagpur, Maharashtra, India",
+  "bio": "I love bringing ideas into life",
+  "avatar": "https://github.com/amiya-cyber.png",
+  "portfolio": "https://github.com/amiya-cyber",
+  "skills": [
+    "Html",
+    "Css",
+    "Javascript",
+    "React",
+    "Mongodb",
+    "Nodejs",
+    "Express",
+    "Bootstrap",
+    "Tailwind",
+    "Web Development",
+    "Frontend",
+    "Backend",
+    "Backend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/amiya-cyber",
+    "Twitter": "https://twitter.com/heyyamiya",
+    "LinkedIn": "https://www.linkedin.com/in/amiya-singh",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

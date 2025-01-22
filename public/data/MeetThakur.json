@@ -1,0 +1,27 @@
+{
+  "name": "Meet Thakur",
+  "location": "Greater Noida, India",
+  "bio": "Turning coffee into code and Ideas into reality.",
+  "avatar": "https://github.com/MeetThakur.png",
+  "portfolio": "voidy.vercel.app",
+  "skills": [
+    "python",
+    "javascript",
+    "react",
+    "nodejs",
+    "postgresql",
+    "C++",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/MeetThakur",
+    "Twitter": "https://twitter.com/MeetThakur",
+    "LinkedIn": "https://www.linkedin.com/in/MeetThakur",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

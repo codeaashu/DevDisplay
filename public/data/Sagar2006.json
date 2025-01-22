@@ -1,0 +1,35 @@
+{
+  "name": "Sagar Kumar",
+  "location": "Delhi, India",
+  "bio": "I'm a motivated B.Tech CSE student with hands-on experience in Python, Game development, ABAP, blockchain technology, and app development.",
+  "avatar": "https://github.com/Sagar2006.png",
+  "portfolio": "https://github.com/Sagar2006",
+  "skills": [
+    "Unity",
+    "Unreal Engine 4",
+    "Python",
+    "MySQL",
+    "PostgreSQL",
+    "Blockchain",
+    "Flutter",
+    "GitHub Codespaces",
+    "ABAP",
+    "C",
+    "C++",
+    "C#",
+    "Java",
+    "JavaScript",
+    "ML",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Sagar2006",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/sagarkumar2006/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

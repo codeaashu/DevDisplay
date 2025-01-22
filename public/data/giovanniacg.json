@@ -1,0 +1,15 @@
+{
+  "name": "Giovanni Giampauli",
+  "location": "Brazil",
+  "bio": "Senior Software Engineer",
+  "avatar": "https://github.com/giovanniacg.png",
+  "portfolio": "https://github.com/giovanniacg",
+  "skills": ["NestJS", "Django", "GO", "AWS", "back-end", "JavaScript", "Git", "GitHub"],
+  "social": {
+    "GitHub": "https://github.com/giovanniacg",
+    "Twitter": "",
+    "LinkedIn": "https://www.linkedin.com/in/giovannigiampauli/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

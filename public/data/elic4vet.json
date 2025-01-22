@@ -1,0 +1,27 @@
+{
+  "name": "Elisabeth Erkekoglou",
+  "location": "Germany",
+  "bio": "Hi, I'm Elisabeth, i am a Junior Frontend Developer. I am passionate about learning and staying updated with the latest trends in the tech industry.",
+  "avatar": "https://github.com/elic4vet.png",
+  "portfolio": "https://eerkekoglou24.netlify.app/",
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Vue.Js",
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/elic4vet",
+    "Twitter": "https://x.com/elisa_codes24",
+    "LinkedIn": "https://www.linkedin.com/in/eerkekoglou/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

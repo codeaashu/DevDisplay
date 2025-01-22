@@ -1,0 +1,30 @@
+{
+  "name": "Arvinder Singh Dhoul",
+  "location": "Jabalpur, Madhya Pradesh",
+  "bio": " I am a skilled developer with expertise in various High-level languages. I specialize in front-end technologies along with back-end development and databases. Experienced in various libraries and network security. With a strong grasp of network protocols and IoT.",
+  "avatar": "https://github.com/arvinder004.png",
+  "portfolio": "https://github.com/arvinder004",
+  "skills": [
+    "React",
+    "Node.js",
+    "Express.js",
+    "Python",
+    "JavaScript",
+    "MongoDB",
+    "MySQL",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN",
+    "Database",
+    "Backend"
+  ],
+  "social": {
+    "GitHub": "https://github.com/arvinder004",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/arvinder004/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

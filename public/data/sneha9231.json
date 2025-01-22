@@ -1,0 +1,39 @@
+{
+  "name": "Sneha Pandey",
+  "location": "Delhi, India",
+  "bio": "Exploring the unexplored side of world",
+  "avatar": "https://github.com/sneha9231.png",
+  "portfolio": "https://github.com/sneha9231",
+  "skills": [
+    "Graphic Designing",
+    "Augmented Reality",
+    "Machine Learning",
+    "Python",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Django",
+    "Flask",
+    "Django REST Framework",
+    "PostgreSQL",
+    "MongoDB",
+    "AWS",
+    "GCP",
+    "Docker",
+    "Kubernetes",
+    "AWS Lambda",
+    "Azure Functions",
+    "Google Cloud Functions",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/sneha9231",
+    "Twitter": "https://twitter.com/snhpndy",
+    "LinkedIn": "https://www.linkedin.com/in/sneha-pandey-240646274",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

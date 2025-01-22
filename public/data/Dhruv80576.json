@@ -1,0 +1,27 @@
+{
+  "name": "Dhruv Agrawal",
+  "location": "Delhi, India",
+  "bio": "Student at NIT TRICHY, Passionate about Development and Blockchain.",
+  "avatar": "https://github.com/dhruv80576.png",
+  "portfolio": "https://dhrportfolio.netlify.app/",
+  "skills": [
+    "Flutter",
+    "React",
+    "NextJs",
+    "NodeJs",
+    "android",
+    "iOS",
+    "Blockchain Development",
+    "Git",
+    "GitHub",
+    "App Development",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/dhruv80576",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/dhruv-agrawal-59ab4817b/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

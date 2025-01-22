@@ -1,0 +1,38 @@
+{
+  "name": "Siddhi Shah",
+  "location": "Mumbai, India",
+  "bio": "I've pursued programming as a hobby for most of my life, I am currently in my third year.",
+  "avatar": "https://github.com/siddhishah109.png",
+  "portfolio": "https://github.com/siddhishah109",
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "Node.js",
+    "Express.js",
+    "React.js",
+    "Angular",
+    "Redux",
+    "MongoDB",
+    "PostgreSQL",
+    "GraphQL",
+    "Apollo Server",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Material-UI",
+    "Semantic UI",
+    "Figma"
+  ],
+  "social": {
+    "GitHub": "https://github.com/siddhishah109",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/siddhi-shah-1148a824b/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

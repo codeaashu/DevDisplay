@@ -1,0 +1,35 @@
+{
+  "name": "Shivam Singh",
+  "location": "Mumbai, India",
+  "bio": "I'am shivam singh, currently a web developer.proficient in frontend technology, Learning backend nowdays and just Exploring new technology.!",
+  "avatar": "https://github.com/shivam550.png",
+  "portfolio": "https://github.com/shivam550",
+  "skills": [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "Bootstrap",
+    "Javascript",
+    "React js",
+    "Mysql",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "PostgreSQL",
+    "WMS",
+    "SCM",
+    "MariaDB",
+    "SQLite",
+    "TypeScript",
+    "Express.js",
+    "TailwindCSS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/shivam550",
+    "Twitter": "https://twitter.com/ThakurShivam516",
+    "LinkedIn": "https://www.linkedin.com/in/shivam-singh-6570b6227/1",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

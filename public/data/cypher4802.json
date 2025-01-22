@@ -1,0 +1,27 @@
+{
+  "name": "Tanmay",
+  "location": "Roorkee, India",
+  "bio": "I am a Passionate Dev Enthusiast",
+  "avatar": "https://github.com/cypher4802.png",
+  "portfolio": "https://github.com/cypher4802",
+  "skills": [
+    "React-JS",
+    "HTML",
+    "CSS",
+    "Java Script",
+    "Mongo DB",
+    "Unity",
+    "React-Native",
+    "App Development",
+    "Database",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/cypher4802",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/tanmay-sharma",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Rishi Raj",
+  "location": "Dehradun, Uttarakhand, India",
+  "bio": "As a Full Stack Developer, I thrive on blending front-end creativity with back-end robustness.",
+  "avatar": "https://github.com/rishuu-12.png",
+  "portfolio": "https://github.com/rishuu-12",
+  "skills": [
+    "JavaScript",
+    "GraphQL",
+    "NodeJS",
+    "ExpressJS",
+    "Firebase",
+    "Tailwind",
+    "ReactJS",
+    "Redux",
+    "Jquery",
+    "mySQL",
+    "Redis",
+    "MangoDB",
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/rishuu-12",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/rishi-raj-474501289/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Rupesh Rovert",
+  "location": "Varansi, Uttar Pradesh",
+  "bio": "I am student of IIIT Bhagalpur Branch CSE",
+  "avatar": "https://github.com/22Rupesh.png",
+  "portfolio": "https://github.com/22Rupesh",
+  "skills": [
+    "HTML",
+    "CSS",
+    "SASS",
+    "Bootstrap",
+    "JAVASCRIPT",
+    "REACT",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN",
+    "Problem Solving"
+  ],
+  "social": {
+    "GitHub": "https://github.com/22Rupesh",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/rupesh-rovert-056ba1298/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

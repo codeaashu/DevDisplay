@@ -1,0 +1,32 @@
+{
+  "name": "Jyotishankar Patra",
+  "location": "Balasore, Odisha, India",
+  "bio": "inspiring Student seeking knowledge | Full stack Developer",
+  "avatar": "https://github.com/jyotishankar04.png",
+  "portfolio": "https://devsuvam.xyz",
+  "skills": [
+    "JavaScript",
+    "ReactJS",
+    "NextJS",
+    "ExpressJS",
+    "NodeJS",
+    "Redux",
+    "Tailwind",
+    "SQL",
+    "PostgreSQL",
+    "MongoDB",
+    "TypeScript",
+    "AWS",
+    "Git",
+    "Docker",
+    "Redis",
+    "Kafka"
+  ],
+  "social": {
+    "GitHub": "https://github.com/jyotishankar04",
+    "Twitter": "https://x.com/JYOTISHANKARP20",
+    "LinkedIn": "https://www.linkedin.com/in/jyotishankar-patra",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

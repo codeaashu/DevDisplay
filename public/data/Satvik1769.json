@@ -1,0 +1,31 @@
+{
+  "name": "Satvik Manchanda",
+  "location": "Gurgaon",
+  "bio": "One piece is Real",
+  "avatar": "https://github.com/Satvik1769.png",
+  "portfolio": "https://github.com/Satvik1769",
+  "skills": [
+    "Web Development",
+    "MERN",
+    "Machine Learning",
+    "C++",
+    "Bootstrap",
+    "Tailwind CSS",
+    "TensorFlow",
+    "Scikit-Learn",
+    "React.js",
+    "NEXT.js",
+    "Git",
+    "Github",
+    "MySQL",
+    "Python",
+    "Problem Solving"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Satvik1769",
+    "Twitter": "https://twitter.com/satvikmanchanda",
+    "LinkedIn": "https://www.linkedin.com/in/satvikmanchanda",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

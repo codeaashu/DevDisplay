@@ -1,0 +1,32 @@
+{
+  "name": "Neeraj Saini",
+  "location": "Bundi, Rajasthan",
+  "bio": "Your Bio should be 20-30 words not more than that",
+  "avatar": "https://github.com/officeneerajsaini.png",
+  "portfolio": "https://officeneerajsaini.vercel.app/",
+  "skills": [
+    "Next.js",
+    "Typescript",
+    "Tailwind CSS",
+    "React.js",
+    "Node.js",
+    "MongoDB",
+    "RestAPIs",
+    "C++",
+    "Python",
+    "Web Development",
+    "Frontend",
+    "Backend",
+    "Database",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/officeneerajsaini",
+    "Twitter": "https://twitter.com/officeneeraj07",
+    "LinkedIn": "https://www.linkedin.com/in/officeneerajsaini",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

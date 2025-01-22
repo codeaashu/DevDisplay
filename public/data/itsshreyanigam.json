@@ -1,0 +1,29 @@
+{
+  "name": "Shreya Nigam",
+  "location": "New Delhi, India",
+  "bio": "Passionate Information Technology student with a focus on web development and AWS",
+  "avatar": "https://github.com/itsshreyanigam.png",
+  "portfolio": "https://github.com/itsshreyanigam",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "Amazon Web Services",
+    "Linux",
+    "MySQL",
+    "Java",
+    "C",
+    "C++",
+    "Python",
+    "Git",
+    "Github"
+  ],
+  "social": {
+    "GitHub": "https://github.com/itsshreyanigam",
+    "Twitter": "https://twitter.com/notshreyaforyou",
+    "LinkedIn": "https://www.linkedin.com/in/shreya-nigam-584898259/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

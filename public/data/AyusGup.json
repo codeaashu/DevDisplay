@@ -1,0 +1,38 @@
+{
+  "name": "Aysuh Gupta",
+  "location": "Delhi, India",
+  "bio": "A Tech Enthusiast.Passionate about developing creative and innovative solutions using a Full Stack set of tools.Seeking to Learn and Collaborate.",
+  "avatar": "https://github.com/AyusGup.png",
+  "portfolio": "https://github.com/AyusGup",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Express.js",
+    "MongoDB",
+    "NodeJS",
+    "C++",
+    "React",
+    "Redux",
+    "Tailwind CSS",
+    "Material-UI",
+    "Next.js",
+    "Python",
+    "Django",
+    "Flask",
+    "SQL",
+    "NoSQL",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/AyusGup",
+    "Twitter": "https://twitter.com/AyushGup712",
+    "LinkedIn": "https://www.linkedin.com/in/ayushguptacoder",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

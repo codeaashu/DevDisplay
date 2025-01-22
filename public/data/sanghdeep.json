@@ -1,0 +1,38 @@
+{
+  "name": "Sanghdeep Ganvir ",
+  "location": "Nagpur, India",
+  "bio": "Aspiring Web Developer and Software Developer",
+  "avatar": "https://github.com/sangdeepganvir.png",
+  "portfolio": "https://portfoliosg.pages.dev/",
+  "skills": [
+    "HTML",
+    "CSS",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MySQL",
+    "Oracle",
+    "SQLserver",
+    "PostgreSQL",
+    "WMS",
+    "SCM",
+    "MariaDB",
+    "SQLite",
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "TailwindCSS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/sangdeepganvir",
+    "Twitter": "https://twitter.com/sangdeepganvir",
+    "LinkedIn": "https://linkedin.com/in/sanghdeep-ganvir-b2016a173",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

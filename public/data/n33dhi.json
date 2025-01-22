@@ -1,0 +1,29 @@
+{
+  "name": "Needhichozhan",
+  "location": "Chennai, Tamil Nadu, India",
+  "bio": "Software Engineer passionate about creating solutions that make a meaningful impact on society",
+  "avatar": "https://github.com/n33dhi.png",
+  "portfolio": "https://bento.me/needhichozhan",
+  "skills": [
+    "MERN Stack",
+    "ReactJS",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "UI/UX Design",
+    "Java",
+    "Python",
+    "Figma",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/n33dhi",
+    "Twitter": "https://x.com/needhichozhan",
+    "LinkedIn": "https://www.linkedin.com/in/needhichozhanm/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Sai Smruti Ranjan Das",
+  "location": "Indore, Madhya Pradesh, India",
+  "bio": "I am Sai Smruti Ranjan Das, a 2nd-year B.Tech Computer Science student and an aspiring Full Stack Developer. I am passionate about learning, building innovative projects, contributing to open-source, and exploring tech communities to grow and collaborate.",
+  "avatar": "https://github.com/saismrutiranjan18.png",
+  "portfolio": "https://github.com/saismrutiranjan18",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Bootstrap",
+    "React",
+    "Frontend Development",
+    "Node.js",
+    "Git",
+    "GitHub",
+    "MongoDB",
+    "MERN",
+    "Tailwind CSS",
+    "Visual Studio",
+    "Java"
+  ],
+  "social": {
+    "GitHub": "https://github.com/saismrutiranjan18",
+    "Twitter": "https://x.com/sai_smruti18",
+    "LinkedIn": "https://www.linkedin.com/in/saismrutiranjan",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

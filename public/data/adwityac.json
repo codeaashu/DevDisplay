@@ -1,0 +1,27 @@
+{
+  "name": "Adwitya Chakraborty",
+  "location": "Faridabad, India",
+  "bio": "Passionate tech enthusiast from India driven by a love for clean, concise code, and always exploring new technologies to expand my skill set.",
+  "avatar": "https://github.com/adwityac.png",
+  "portfolio": "https://adwityac.netlify.app/",
+  "skills": [
+    "Frontend",
+    "Python",
+    "MySQL",
+    "MongoDB",
+    "Postman API",
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Git",
+    "Github",
+    "Web Development"
+  ],
+  "social": {
+    "GitHub": "https://github.com/adwityac",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/adwityac",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

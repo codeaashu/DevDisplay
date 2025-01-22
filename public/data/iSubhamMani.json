@@ -1,0 +1,28 @@
+{
+  "name": "Subham Mani",
+  "location": "Kolkata",
+  "bio": "Full-Stack Developer. Expertise in MERN/NextJS",
+  "avatar": "https://github.com/iSubhamMani.png",
+  "portfolio": "https://manidev.vercel.app",
+  "skills": [
+    "NextJS",
+    "ReactJS",
+    "Typescript",
+    "Javascript",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "PostgreSQL",
+    "Firebase",
+    "Docker",
+    "GitHub",
+    "Git"
+  ],
+  "social": {
+    "GitHub": "https://github.com/iSubhamMani",
+    "Twitter": "https://twitter.com/manisubham09",
+    "LinkedIn": "https://www.linkedin.com/in/subham-mani-048731288",
+    "Instagram": "https://www.instagram.com/subhamxmani",
+    "Email": "manisubham09@gmail.com"
+  }
+}

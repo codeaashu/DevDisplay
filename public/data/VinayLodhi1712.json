@@ -1,0 +1,33 @@
+{
+  "name": "Vinay Anand Lodhi",
+  "location": "Indore, Madhya Pradesh",
+  "bio": "MERN Stack Developer with passionate about some new technologies and Problem Solving",
+  "avatar": "https://github.com/VinayLodhi1712.png",
+  "portfolio": "https://github.com/VinayLodhi1712",
+  "skills": [
+    "ReactJS",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "Database Management",
+    "API Development",
+    "Deployment",
+    "Git",
+    "GitHub",
+    "MERN",
+    "Tailwindcss",
+    "Blockchain",
+    "Java",
+    "Problem Solving",
+    "Arcade Facilitator",
+    "Web Development",
+    "Frontend"
+  ],
+  "social": {
+    "GitHub": "https://github.com/VinayLodhi1712",
+    "Twitter": "https://x.com/VinayLodhi1712?mx=2",
+    "LinkedIn": "https://www.linkedin.com/in/vinay-anand-lodhi-5694b1234/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

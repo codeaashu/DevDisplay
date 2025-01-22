@@ -1,0 +1,33 @@
+{
+  "name": "Avni Sharma",
+  "location": "Jaipur",
+  "bio": "Fullstack Developer",
+  "avatar": "https://github.com/AVNI-THEEXPLORER.png",
+  "portfolio": "https://github.com/AVNI-THEEXPLORER",
+  "skills": [
+    "Reactjs",
+    "Express",
+    "Nodejs",
+    "MongoDB",
+    "Bootstrap",
+    "MySQL",
+    "TailwindCSS",
+    "PostgresSQL",
+    "JavaScript",
+    "C",
+    "CSS",
+    "HTML",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/AVNI-THEEXPLORER",
+    "Twitter": "https://twitter.com/devdisplay_",
+    "LinkedIn": "https://www.linkedin.com/in/avni-sharma-91718631b",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Paramjeet Chaudhary",
+  "location": "Jabalpur, MP",
+  "bio": "Full Stack Developer, utilizing Tailwind CSS, Next.js, and AWS to create robust web solutions with expertise.",
+  "avatar": "https://github.com/devparamjeet.png",
+  "portfolio": "https://github.com/devparamjeet",
+  "skills": [
+    "React JS",
+    "NODE JS",
+    "Express JS",
+    "NEXT Js",
+    "Git",
+    "GITHUB",
+    "npm",
+    "Tailwind CSS",
+    "Mongo DB",
+    "Python",
+    "Web Development",
+    "Frontend"
+  ],
+  "social": {
+    "GitHub": "https://github.com/devparamjeet",
+    "Twitter": "https://x.com/devparamjeet",
+    "LinkedIn": "https://www.linkedin.com/in/paramjeetchaudhary/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Tushar Kumar Shah",
+  "location": "Chandigarh, India",
+  "bio": "B.Tech student specializing in Computer Science, passionate about AI, full-stack development, and innovative tech solutions.",
+  "avatar": "https://github.com/tusharshah21.png",
+  "portfolio": "https://tushar-portfolio-lemon.vercel.app/",
+  "skills": [
+    "React",
+    "NextJS",
+    "JavaScript",
+    "TypeScript",
+    "Tailwind",
+    "HTML",
+    "CSS",
+    "Sass",
+    "Bootstrap",
+    "Material-UI",
+    "Tailwind CSS",
+    "Python",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "Python",
+    "Cloud Computing"
+  ],
+  "social": {
+    "GitHub": "https://github.com/tusharshah21",
+    "Twitter": "https://x.com/Tushars46106674",
+    "LinkedIn": "https://www.linkedin.com/in/tushar21shah/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

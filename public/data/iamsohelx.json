@@ -1,0 +1,15 @@
+{
+  "name": "Sohel Sheikh",
+  "location": "Nagpur, india",
+  "bio": "I am an fullstack developer who loves to code, i have many skills like Reactjs, nextjs, tailwindCss and many more, I lived at nagpur",
+  "avatar": "https://github.com/iamsohelx.png",
+  "portfolio": "https://github.com/iamsohelx",
+  "skills": ["NextJs", "ReactJs", "Tailwind css", "JavaScript", "Web Development", "Frontend", "Git", "GitHub"],
+  "social": {
+    "GitHub": "https://github.com/iamsohelx",
+    "Twitter": "https://twitter.com/iamsohelx",
+    "LinkedIn": "https://www.linkedin.com/in/sohel-sheikh-144507235/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

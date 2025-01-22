@@ -1,0 +1,29 @@
+{
+  "name": "Anubhav Gupta",
+  "location": "Mohali, India",
+  "bio": "I am Anubhav Gupta, a Web Developer with a BE in CSE, currently working as a full-stack web developer.",
+  "avatar": "https://github.com/Anubhav990.png",
+  "portfolio": "https://github.com/Anubhav990",
+  "skills": [
+    "React",
+    "React Native",
+    "JavaScript",
+    "Tailwind",
+    "CSS3",
+    "HTML5",
+    "GitHub",
+    "PHP",
+    "TypeScript",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Anubhav990",
+    "Twitter": "https://x.com/Anubhav990",
+    "LinkedIn": "https://www.linkedin.com/in/anubhav-gupta-2ba294235/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

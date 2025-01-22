@@ -1,0 +1,15 @@
+{
+  "name": "Vinita More",
+  "location": "Mumbai, India",
+  "bio": "An undergraduate aspiring to become a web developer, recently embarking on the journey of exploring open-source projects.",
+  "avatar": "https://github.com/vimore03.png",
+  "portfolio": "https://github.com/vimore03",
+  "skills": ["HTML", "CSS", "JavaScript", "Bootstrap", "React", "Git", "Github", "Frontend", "Web Development"],
+  "social": {
+    "GitHub": "https://github.com/vimore03",
+    "Twitter": "https://twitter.com/VM65389",
+    "LinkedIn": "https://www.linkedin.com/in/vinita-more-6b439a262",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "vinitamore0307@gmail.com"
+  }
+}

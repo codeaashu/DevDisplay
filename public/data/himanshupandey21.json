@@ -1,0 +1,15 @@
+{
+  "name": "Himanshu Pandey",
+  "location": "Jharkhand, India",
+  "bio": "Hi I'm a backend developer, Postman Student Expert, tech enthusiast and i love to do coding ",
+  "avatar": "https://github.com/himanshupandey21.png",
+  "portfolio": "https://github.com/himanshupandey21",
+  "skills": ["SpringBoot", "Java", "HTML", "Angular", "CSS", "Web Development", "Frontend", "Git", "GitHub"],
+  "social": {
+    "GitHub": "https://github.com/himanshupandey21",
+    "Twitter": "https://twitter.com/RishikeshKhunt2",
+    "LinkedIn": "http://www.linkedin.com/in/himanshu-pandey-896173222",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

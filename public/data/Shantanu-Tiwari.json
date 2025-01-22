@@ -1,0 +1,26 @@
+{
+  "name": "Shantanu Tiwari",
+  "location": "Delhi, India",
+  "bio": "Engineering student pursuing Data Science",
+  "avatar": "https://github.com/Shantanu-Tiwari.png",
+  "portfolio": "https://github.com/Shantanu-Tiwari",
+  "skills": [
+    "JavaScript",
+    "C++",
+    "HTML",
+    "CSS",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "DSA",
+    "Problem Solving"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Shantanu-Tiwari",
+    "Twitter": "https://x.com/ShantanuTi43203",
+    "LinkedIn": "https://www.linkedin.com/in/shantanutiwari24/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

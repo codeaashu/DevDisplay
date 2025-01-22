@@ -1,0 +1,35 @@
+{
+  "name": "Yash Sehgal",
+  "location": "Indore, India",
+  "bio": "Software Engineer. Design with code",
+  "avatar": "https://github.com/yashsehgal.png",
+  "portfolio": "https://yashsehgal.com",
+  "skills": [
+    "Javascript",
+    "Typescript",
+    "React",
+    "NextJS",
+    "Astro",
+    "Linux",
+    "APIs",
+    "UIDesign",
+    "Figma",
+    "CSS/SCSS",
+    "TailwindCSS",
+    "AntDesign",
+    "ChakraUI",
+    "RadixUI",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "MERN"
+  ],
+  "social": {
+    "GitHub": "https://github.com/yashsehgal",
+    "Twitter": "https://twitter.com/yashsehgaldev",
+    "LinkedIn": "https://linkedin.com/in/sehgalyash",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

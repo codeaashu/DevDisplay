@@ -1,0 +1,30 @@
+{
+  "name": "Bhavik Bhuva",
+  "location": "Bhuj, Gujarat, India",
+  "bio": "Full stack developer: I make websites work smoothly—both what you see and the magic behind the scenes, coffee in hand!",
+  "avatar": "https://github.com/bhuvabhavik.png",
+  "portfolio": "https://bhavikbhuva.com",
+  "skills": [
+    "Mern Stack",
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Redux",
+    "Mobile App",
+    "SAP ABAP",
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Git",
+    "Github",
+    "Web Development"
+  ],
+  "social": {
+    "GitHub": "https://github.com/bhuvabhavik",
+    "Twitter": "https://x.com/bhavikmbhuva1",
+    "LinkedIn": "https://www.linkedin.com/in/bhavikbhuva",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

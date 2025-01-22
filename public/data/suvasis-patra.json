@@ -1,0 +1,25 @@
+{
+  "name": "Suvasis Patra",
+  "location": "Kolkata",
+  "bio": "Love to build things.",
+  "avatar": "https://github.com/suvasis-patra.png",
+  "portfolio": "https://suvasis-portfolio.vercel.app",
+  "skills": [
+    "Typescript",
+    "javaScript",
+    "ReactJs",
+    "NextJs",
+    "NodeJs",
+    "ExpressJs",
+    "Postgres",
+    "MongoDB",
+    "Tailwind CSS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/suvasis-patra",
+    "Twitter": "https://twitter.com/patra2suvasis",
+    "LinkedIn": "https://www.linkedin.com/in/suvasispatra",
+    "Instagram": "https://www.instagram.com/suvasisp5",
+    "Email": "suvasispatra10@gmail.com"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Manjeet Malhotra",
+  "location": "Noida, Uttar Pradesh",
+  "bio": "A passionate DeveOps Engineer from India I work in WebPanelSalution company IT sector and my Free Time I Solve This Problem of LeedCode",
+  "avatar": "https://github.com/codewithmanjeet1.png",
+  "portfolio": "https://github.com/codewithmanjeet1",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT",
+    "BOOTSTRAP",
+    "ANGULAR 18",
+    "ANGULAR MATERIAL",
+    "NODE JS ",
+    "EXPRESS JS",
+    "MONGODB",
+    "EJS",
+    "Web Development",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/codewithmanjeet1",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/code-with-manjeet-033699225/",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}

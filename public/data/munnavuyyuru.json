@@ -1,0 +1,15 @@
+{
+  "name": "venkata bhargav",
+  "location": "Guntur, Andhra Pradesh",
+  "bio": "Full stack dev",
+  "avatar": "https://github.com/munnavuyyuru.png",
+  "portfolio": "https://github.com/munnavuyyuru",
+  "skills": ["Java", "Python", "HTML", "CSS", "Javascript", "React", "MySQL", "PostMan", "Express", "git", "github"],
+  "social": {
+    "GitHub": "https://github.com/munnavuyyuru",
+    "Twitter": "https://x.com/munna021911",
+    "LinkedIn": "https://www.linkedin.com/in/v-venkata-bhargav-3723b4275",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}
