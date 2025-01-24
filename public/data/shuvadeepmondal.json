@@ -1,0 +1,31 @@
+{
+  "name": "Shuvadeep Mondal",
+  "location": "Burdwan, West Bengal, India",
+  "bio": "A Passionate Frontend Develeloper & Open Source Countributor",
+  "avatar": "https://github.com/shuvadeepmondal.png",
+  "portfolio": "https://github.com/shuvadeepmondal",
+  "skills": [
+    "React",
+    "Tailwind ",
+    "Express.js",
+    "TypeScript",
+    "JavaScript",
+    "Java",
+    "SQL",
+    "Python",
+    "C",
+    "Docker",
+    "Web Development",
+    "Frontend",
+    "UI/UX",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/shuvadeepmondal",
+    "Twitter": "https://twitter.com/ShuvadeepM",
+    "LinkedIn": "https://www.linkedin.com/in/shuvadeep-mondal-b6212b260",
+    "Instagram": "https://www.instagram.com/devdisplay",
+    "Email": "#"
+  }
+}
