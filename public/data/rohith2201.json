@@ -4,12 +4,27 @@
   "bio": "Aspiring ML engineer and Python enthusiast contributing to open source|| Mentor @GSSOC, @SWOC.",
   "avatar": "https://github.com/rohith2201.png",
   "portfolio": "https://github.com/Rohith2201",
-  "skills": ["Python", "Machine Learning", "WordPress", "DevOps", "Full-Stack Development",  "Data Analysis",  "Java", "Docker", "AWS", "Git & GitHub", "Web Development", "Mentoring", "Social Media Management", "Freelancing"],
+  "skills": [
+    "Python",
+    "Machine Learning",
+    "WordPress",
+    "DevOps",
+    "Full-Stack Development",
+    "Data Analysis",
+    "Java",
+    "Docker",
+    "AWS",
+    "Git & GitHub",
+    "Web Development",
+    "Mentoring",
+    "Social Media Management",
+    "Freelancing"
+  ],
   "social": {
     "GitHub": "https://github.com/Rohith2201",
     "Twitter": "https://x.com/julururohith",
     "LinkedIn": "https://www.linkedin.com/in/julururohith2004",
     "Instagram": "https://www.instagram.com/juluru.rohith",
-    "Email": "#"
+    "Email": "rohithjuluru2201@gmail.com"
   }
 }
