@@ -1,0 +1,15 @@
+{
+  "name": "Akash Rai",
+  "location": "India",
+  "bio": "Full-stack developer 🚀 | Founder @NewbieCoders ✨ | Co-Founder @CodeXCrafters 💡 | Passionate about scalable tech and AI-driven solutions.",
+  "avatar": "https://github.com/AKASH722.png",
+  "portfolio": "https://akashrai.co/",
+  "skills": ["Next.js", "MERN", "Spring Boot", "Microservices", "PostgreSQL", "React.js", "FastAPI", "Python", "TypeScript", "Java"],
+  "social": {
+    "GitHub": "https://github.com/AKASH722",
+    "Twitter": "https://twitter.com/dev_akashrai",
+    "LinkedIn": "https://www.linkedin.com/in/akashrai29",
+    "Instagram": "https://www.instagram.com/akashrai567",
+    "Email": "dev.akashrai@gmail.com"
+  }
+}
