@@ -4,12 +4,24 @@
   "bio": "Frontend developer",
   "avatar": "https://github.com/your-github-Coderisa.png",
   "portfolio": "Your Portfolio URL or Github URL",
-  "skills": ["C", "Java", "HTML","CSS","Javasript","Tailwind CSS","Git","Github","SQL","Python","Figma","Problem Solving"],
+  "skills": [
+    "C",
+    "Java",
+    "HTML",
+    "CSS",
+    "Javasript",
+    "Tailwind CSS",
+    "Git",
+    "Github",
+    "SQL",
+    "Python",
+    "Figma",
+    "Problem Solving"
+  ],
   "social": {
-  "GitHub": "https://github.com/Coderisa",
+    "GitHub": "https://github.com/Coderisa",
     "Twitter": "https://twitter.com/your-twitter-username",
     "LinkedIn": "https://www.linkedin.com/in/ina-sharma-744832225/",
     "Email": "inasharma2426@gmail.com"
   }
 }
-
