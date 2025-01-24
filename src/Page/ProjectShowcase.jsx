@@ -68,7 +68,7 @@ const ProjectsPage = () => {
   return (
     <div className="background-wrapper1 min-h-screen bg-gray-900 p-6 text-white">
       <header className="mb-6 w-full rounded-md bg-[#00a6fb] py-4 text-center">
-        <h1 className="text-4xl font-bold">Project Showcase</h1>
+        <h1 className="text-4xl font-bold">Project Display</h1>
         <p className="mt-2 text-sm">Explore amazing projects contributed by developers.</p>
       </header>
 

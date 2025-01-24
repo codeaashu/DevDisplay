@@ -30,7 +30,10 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
           <div className="text-center md:text-left">
             <h4 className="text-xl font-bold text-[#00a6fb]">DevDisplay</h4>
-            <p className="mt-1 text-sm">Empowering tech enthusiasts to connect, learn, and grow together.</p>
+            <p className="mt-1 text-sm">
+              DevDisplay is a global open-source tech community and organization with a mission to unite all your tech
+              needs under one platform.
+            </p>
           </div>
 
           <div className="flex space-x-6">
@@ -77,73 +80,88 @@ const DevSpring = () => {
     <div className="min-h-screen bg-gray-900 text-white">
       <Navbar />
       <div className="bg-[#334155] py-3 text-center text-white">
-        <p className="text-xl font-bold">
-          Powered By Dev<span className="text-[#00a6fb]">Display</span>
-        </p>
         <div className="mx-auto mt-3 flex w-full max-w-xs items-center justify-center gap-2">
-          <img src="./DevDisplay ICON.png" alt="DevDisplay Logo" className="h-10 w-10" />
+          <img src="./PoweredByDevDisplay.png" alt="DevDisplay Logo" className="custom-logo" />
         </div>
       </div>
       <main className="mx-auto max-w-6xl px-4 py-10 text-center">
         <div className="flex flex-col items-center">
           <h1 className="flex text-5xl font-bold text-[#31A9BF]">
             <span className="text-white">{'{'}</span>
-            <span className="animate-char text-[#BF3356]">D</span>
-            <span className="animate-char text-[#BF3356]">e</span>
-            <span className="animate-char text-[#BF3356]">v</span>
-            <span className="animate-char">S</span>
-            <span className="animate-char">p</span>
-            <span className="animate-char">r</span>
-            <span className="animate-char">i</span>
-            <span className="animate-char">n</span>
-            <span className="animate-char">g</span>
+            <span className="animate-glitch text-[#BF3356]">D</span>
+            <span className="animate-glitch text-[#BF3356]">e</span>
+            <span className="animate-glitch text-[#BF3356]">v</span>
+            <span className="animate-glitch">S</span>
+            <span className="animate-glitch">p</span>
+            <span className="animate-glitch">r</span>
+            <span className="animate-glitch">i</span>
+            <span className="animate-glitch">n</span>
+            <span className="animate-glitch">g</span>
             <span className="text-white">{'}'}</span>
           </h1>
 
           <style jsx>{`
-            @keyframes fade-in {
-              from {
-                opacity: 0;
-                transform: translateX(-10px);
-              }
-              to {
+            @keyframes glitch {
+              0% {
+                transform: translate(0, 0);
                 opacity: 1;
-                transform: translateX(0);
+              }
+              20% {
+                transform: translate(-2px, 2px);
+              }
+              40% {
+                transform: translate(2px, -2px);
+              }
+              60% {
+                transform: translate(-2px, -2px);
+              }
+              80% {
+                transform: translate(2px, 2px);
+              }
+              100% {
+                transform: translate(0, 0);
+                opacity: 1;
               }
             }
 
-            .animate-char {
-              display: inline-block;
-              opacity: 0;
-              animation: fade-in 0.5s forwards;
+            @keyframes glitch-color {
+              0%,
+              100% {
+                filter: hue-rotate(0deg);
+              }
+              50% {
+                filter: hue-rotate(360deg);
+              }
             }
 
-            .animate-char:nth-child(1) {
-              animation-delay: 0s;
+            .animate-glitch {
+              display: inline-block;
+              position: relative;
+              animation:
+                glitch 0.7s infinite alternate ease-in-out,
+                glitch-color 2s infinite alternate ease-in-out;
             }
-            .animate-char:nth-child(2) {
-              animation-delay: 0.1s;
+
+            .animate-glitch:before,
+            .animate-glitch:after {
+              content: attr(data-char);
+              position: absolute;
+              top: 0;
+              left: 0;
+              opacity: 0.8;
+              z-index: -1;
             }
-            .animate-char:nth-child(3) {
-              animation-delay: 0.2s;
+
+            .animate-glitch:before {
+              animation: glitch 0.7s infinite alternate-reverse ease-in-out;
+              color: #ff006e;
+              clip-path: inset(0 1px 0 0);
             }
-            .animate-char:nth-child(4) {
-              animation-delay: 0.3s;
-            }
-            .animate-char:nth-child(5) {
-              animation-delay: 0.4s;
-            }
-            .animate-char:nth-child(6) {
-              animation-delay: 0.5s;
-            }
-            .animate-char:nth-child(7) {
-              animation-delay: 0.6s;
-            }
-            .animate-char:nth-child(8) {
-              animation-delay: 0.7s;
-            }
-            .animate-char:nth-child(9) {
-              animation-delay: 0.8s;
+
+            .animate-glitch:after {
+              animation: glitch 0.7s infinite alternate ease-in-out;
+              color: #00f5d4;
+              clip-path: inset(1px 0 0 1px);
             }
           `}</style>
 
@@ -152,6 +170,11 @@ const DevSpring = () => {
         <h1 className="text-4xl font-bold text-[#00a6fb]">2 Month Open Source Impact</h1>
         <p className="mt-2 text-lg text-gray-300">
           Join the DevSpring & Be a part of 2 month Open Source Impact With DevDisplay.
+        </p>
+        <p className="mt-2 text-lg text-gray-300">⚡DevSpring isn't just an event—it's a movement.</p>
+        <p className="mt-2 text-lg text-gray-300">
+          A global platform where your ideas can take flight, where collaboration can create breakthroughs, and where
+          YOU can prove you're unstoppable.
         </p>
         <p className="mt-4 flex items-center justify-center rounded-lg bg-gradient-to-r from-yellow-300 via-red-500 to-pink-500 p-4 text-lg text-white shadow-lg">
           <span role="img" aria-label="hurry up" className="mr-2 text-2xl">
@@ -216,6 +239,57 @@ const DevSpring = () => {
             </a>
           </div>
         </div>
+        <div className="mt-4 flex items-center justify-center rounded-lg bg-gradient-to-r from-yellow-300 via-red-500 to-pink-500 p-4 text-lg text-white shadow-lg">
+          <div className="rounded-lg bg-[#1e3a8a] p-6 text-white shadow-lg">
+            <h3 className="text-xl font-bold">Guidelines</h3>
+            <div className="mt-4 flex flex-col gap-4">
+              <a
+                href="https://swift-sheet-b33.notion.site/Contribution-Guidelines-17c7d1f1565b800a99bbfa19f80e1896?pvs=4"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full rounded-md bg-[#00a6fb] py-2 text-center text-white"
+              >
+                Contribution Guidelines
+              </a>
+              <a
+                href="https://swift-sheet-b33.notion.site/DevSpring-Community-Leader-Guide-17c7d1f1565b800dd9e7fc96473437fec?pvs=4"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full rounded-md bg-[#00a6fb] py-2 text-center text-white"
+              >
+                Community Leader Guide
+              </a>
+              <a
+                href="https://swift-sheet-b33.notion.site/DevSpring-Community-Partners-Guide-1787d1f1565b8002adb4d2f1f499217b?pvs=4"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full rounded-md bg-[#00a6fb] py-2 text-center text-white"
+              >
+                Community Partner Guide
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="mt-4 flex items-center justify-center">
+          <img
+            src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp"
+            alt="Man Technologist"
+            width="100"
+            height="100"
+          />
+        </div>
+        <p className="from-black-300 to-black-500 mt-4 flex items-center justify-center rounded-lg bg-gradient-to-r via-red-500 p-4 text-lg text-white shadow-lg">
+          <span role="img" aria-label="hurry up" className="mr-2 text-2xl">
+            <p className="mt-2 text-lg text-gray-300"> Let's Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer</p>
+            <p className="mt-2 text-lg text-gray-300">
+              {' '}
+              This is our time. This is your future. Let's make it unforgettable. Let's make history together. 🌟
+            </p>
+            <p className="mt-2 text-lg text-gray-300">
+              ✨ Your ideas matter. Your code matters. You matter. So, wake up, show up, and own this moment.
+            </p>
+          </span>
+        </p>
       </main>
       <Footer />
     </div>

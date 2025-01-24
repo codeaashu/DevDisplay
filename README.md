@@ -164,8 +164,8 @@
 <div align="center">
 <h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Confetti%20Ball.webp" alt="Confetti Ball" width="25" height="25" /> DevDisplay Contributor Badges <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Confetti%20Ball.webp" alt="Confetti Ball" width="25" height="25" /></h1>
 
-| <img src="./public/assets/DevBadges/DevPioneer.png"> | <img src="./public/assets/DevBadges/DevEnhancer.png"> | <img src="./public/assets/DevBadges/DevInnovator.png"> |
-| ---------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ |
+| <img src="./public/assets/DevBadges/DevPioneerpng.gif"> | <img src="./public/assets/DevBadges/DevEnhancerpng.gif"> | <img src="./public/assets/DevBadges/DevInnovatorpng.gif"> |
+| -------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ |
 
 </div>
 

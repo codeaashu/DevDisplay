@@ -1,0 +1,15 @@
+{
+  "name": "Anushree Jaiswal",
+  "location": "Bengaluru",
+  "bio": " 2nd year Btech ISE student from GLOBAL ACADEMY OF TECHNOLOGY BENGALURU.Expertise in React js/DSA",
+  "avatar": "https://github.com/anu098jaiswal.png",
+  "portfolio": "https://github.com/anu098jaiswal",
+  "skills": ["React", "Javascript", "DSA", "Java"],
+  "social": {
+    "GitHub": "https://github.com/anu098jaiswal",
+    "Twitter": "https://twitter.com/your-twitter-username",
+    "LinkedIn": "https://www.linkedin.com/in/anushree-jaiswal-134551312/",
+    "Instagram": "https://www.instagram.com/anushreejaiswallll",
+    "Email": "anushree416jaiswal@gmail.com"
+  }
+}

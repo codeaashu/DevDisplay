@@ -1,0 +1,26 @@
+{
+  "name": "Kunal Kumar",
+  "location": "Greater Noida",
+  "bio": "Tech enthusiast, aspiring AI/ML expert, Android & web developer, HackWithIndia leader, problem solver, GitHub contributor, and lifelong learner.",
+  "avatar": "https://github.com/developerkunalonline.png",
+  "portfolio": "https://github.com/developerkunalonline/",
+  "skills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "SQL",
+    "Mongodb",
+    "Android Developement",
+    "PHP",
+    "C",
+    "Web Developer",
+    "problem solving"
+  ],
+  "social": {
+    "GitHub": "https://github.com/developerkunalonline/",
+    "Twitter": "https://x.com/KunalKumar64277/",
+    "LinkedIn": "https://www.linkedin.com/in/kunal2006",
+    "Instagram": "https://www.instagram.com/kunal8790mac",
+    "Email": "geeky8790kk@gmail.com"
+  }
+}

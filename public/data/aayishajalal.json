@@ -1,0 +1,15 @@
+{
+  "name": "Aayisha Noora J",
+  "location": "Chennai, Tamil Nadu, India",
+  "bio": "YAayisha Noora J is a Full Stack Developer and DevOps enthusiast skilled in MERN, UI/UX design, and blockchain integration. Open to exciting job opportunities.",
+  "avatar": "https://github.com/aayishajalal.png",
+  "portfolio": "https://linktr.ee/aayishajalal",
+  "skills": ["ReactJS", "ExpressJS", "NodeJS", "MongoDB", "Prisma", "Docker", "AWS", "UI/UX", "Project Management"],
+  "social": {
+    "GitHub": "https://github.com/aayishajalal",
+    "Twitter": "https://x.com/AayishaNoora",
+    "LinkedIn": "https://www.linkedin.com/in/aayishanooraj",
+    "Instagram": "https://www.instagram.com/aayishanooraj",
+    "Email": "aayishanoora.j@gmail.com"
+  }
+}

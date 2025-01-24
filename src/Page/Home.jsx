@@ -182,7 +182,10 @@ const Footer = () => {
           {/* Left section */}
           <div className="mb-6 text-center md:mb-0 md:text-left">
             <h4 className="text-xl font-bold text-[#00a6fb]">DevDisplay</h4>
-            <p className="mt-2 text-sm">Empowering tech enthusiasts to connect, learn, and grow together.</p>
+            <p className="mt-2 text-sm">
+              DevDisplay is a global open-source tech community and organization with a mission to unite all your tech
+              needs under one platform.
+            </p>
           </div>
 
           {/* Middle section */}
