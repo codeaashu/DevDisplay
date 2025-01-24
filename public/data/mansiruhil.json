@@ -1,0 +1,15 @@
+{
+  "name": "Mansi Ruhil",
+  "location": "Haryana",
+  "bio": "Full Stack Developer",
+  "avatar": "https://github.com/mansiruhil.png",
+  "portfolio": "https://github.com/mansiruhil",
+  "skills": ["github", "git", "python", "javascript", "flutter", "react", "figma"],
+  "social": {
+    "GitHub": "https://github.com/mansiruhil",
+    "Twitter": "https://twitter.com/cantexitvim",
+    "LinkedIn": "https://www.linkedin.com/in/mansi-ruhil-7a00a0228/",
+    "Instagram": "https://www.instagram.com/m.ansi.ruhil",
+    "Email": "mansiruhil99@gmail.com"
+  }
+}
