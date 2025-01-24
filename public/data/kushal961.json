@@ -1,12 +1,13 @@
 {
   "name": "Kushal Katare",
   "location": "Pune",
-  "bio": "I am a dedicated engineering student  passionate about technology and innovation. I am actively engaged in learning about various engineering disciplines
+  "bio": "I am a dedicated engineering student  passionate about technology and innovation. I am actively engaged in learning about various engineering disciplines",
   "portfolio": "https://github.com/kushal961",
-  "skills": ["Web devlopment", "Ui/ux"],
+  "avatar": "https://github.com/kushal961.png",
+  "skills": ["Web devlopment", "Ui/ux", "Git", "GitHub", "Frontend", "Web Design"],
   "social": {
     "GitHub": "https://github.com/kushal961",
-    "Twitter": "https://twitter.com/your-twitter-username",
+    "Twitter": "#",
     "LinkedIn": "https://www.linkedin.com/in/Kushal Katare",
     "Instagram": "https://www.instagram.com/kushal_961",
     "Email": "kushal961k@gmail.com"
