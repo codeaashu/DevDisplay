@@ -4,7 +4,18 @@
   "bio": "Full-stack developer 🚀 | Founder @NewbieCoders ✨ | Co-Founder @CodeXCrafters 💡 | Passionate about scalable tech and AI-driven solutions.",
   "avatar": "https://github.com/AKASH722.png",
   "portfolio": "https://akashrai.co/",
-  "skills": ["Next.js", "MERN", "Spring Boot", "Microservices", "PostgreSQL", "React.js", "FastAPI", "Python", "TypeScript", "Java"],
+  "skills": [
+    "Next.js",
+    "MERN",
+    "Spring Boot",
+    "Microservices",
+    "PostgreSQL",
+    "React.js",
+    "FastAPI",
+    "Python",
+    "TypeScript",
+    "Java"
+  ],
   "social": {
     "GitHub": "https://github.com/AKASH722",
     "Twitter": "https://twitter.com/dev_akashrai",
