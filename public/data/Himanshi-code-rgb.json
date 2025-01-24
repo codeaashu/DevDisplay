@@ -1,15 +1,15 @@
 {
-  "name":"Himanshi Aggarwal",
+  "name": "Himanshi Aggarwal",
   "location": "Delhi",
   "bio": "I am a first year student, i am always keen to learn and explore new skills , interact with people and halping people in whatever way i can",
   "avatar": "https://github.com/Himanshi-code-rgb.png",
   "portfolio": "https://github.com/Himanshi-code-rgb",
-  "skills": ["HTML", "CSS", "Python","MySQL","C language","C++ Language"],
+  "skills": ["HTML", "CSS", "Python", "MySQL", "C language", "C++ Language"],
   "social": {
     "GitHub": "https://github.com/Himanshi-code-rgb",
     "Twitter": "https://twitter.com/HimanshiAg15396",
     "LinkedIn": "https://www.linkedin.com/in/himanshi-aggarwal-5a5553321",
     "Instagram": "https://www.instagram.com/beingghemanshe",
-    "Email": "himanshiagg18@mail.com"
+    "Email": "himanshiaggarwals24@gmail.com"
   }
 }
