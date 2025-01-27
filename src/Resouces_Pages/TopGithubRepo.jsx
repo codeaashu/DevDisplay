@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './commonComponents/Navbar';
-import Footer from './commonComponents/Footer';
+import { Footer } from '../components/Footer/Footer';
 
 const TopGithubRepo = () => {
   const [repos, setRepos] = useState([]);

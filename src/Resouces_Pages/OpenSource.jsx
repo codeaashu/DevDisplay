@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './commonComponents/Navbar';
-import Footer from './commonComponents/Footer';
+import { Footer } from '../components/Footer/Footer';
 
 const openSourceProjects = [
   {
@@ -129,7 +129,7 @@ const OpenSource = () => {
           ))}
         </div>
       </section>
-      <Footer contact="Contact Support for Open Source Projects" />
+      <Footer />
     </div>
   );
 };

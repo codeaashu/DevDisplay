@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './commonComponents/Navbar';
-import Footer from './commonComponents/Footer';
+import { Footer } from '../components/Footer/Footer';
 
 const techNotes = [
   {
@@ -71,7 +71,7 @@ const TechNotes = () => {
           ))}
         </div>
       </section>
-      <Footer contact="Contact Support for Tech Notes" />
+      <Footer />
     </div>
   );
 };

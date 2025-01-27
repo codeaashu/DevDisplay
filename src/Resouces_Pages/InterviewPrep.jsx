@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './commonComponents/Navbar';
-import Footer from './commonComponents/Footer';
+import { Footer } from '../components/Footer/Footer';
 
 const InterviewPrep = () => {
   return (
@@ -128,7 +128,7 @@ const InterviewPrep = () => {
           </ul>
         </div>
       </section>
-      <Footer contact="Contact Support for Interview Preparation" />
+      <Footer />
     </div>
   );
 };

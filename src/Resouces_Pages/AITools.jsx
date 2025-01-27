@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './commonComponents/Navbar';
-import Footer from './commonComponents/Footer';
+import { Footer } from '../components/Footer/Footer';
 
 const aiTools = [
   {
@@ -86,7 +86,7 @@ const AITools = () => {
           ))}
         </div>
       </section>
-      <Footer contact="Contact Support for AI Tools" />
+      <Footer />
     </div>
   );
 };
