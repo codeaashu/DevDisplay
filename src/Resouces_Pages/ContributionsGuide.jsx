@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './commonComponents/Navbar';
-import Footer from './commonComponents/Footer';
+import { Footer } from '../components/Footer/Footer';
 
 const ContributionsGuide = () => {
   return (
@@ -91,7 +91,7 @@ const ContributionsGuide = () => {
           </ul>
         </div>
       </section>
-      <Footer contact="Contact Support for Contributions" />
+      <Footer />
     </div>
   );
 };

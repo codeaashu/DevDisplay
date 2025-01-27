@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './commonComponents/Navbar';
-import Footer from './commonComponents/Footer';
+import { Footer } from '../components/Footer/Footer';
 
 const roadmapData = [
   {
@@ -182,7 +182,7 @@ const RoadmapGuide = () => {
           ))}
         </div>
       </section>
-      <Footer contact="Contact Support for Developer Roadmap" />
+      <Footer />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './commonComponents/Navbar';
-import Footer from './commonComponents/Footer';
+import { Footer } from '../components/Footer/Footer';
 
 const courses = [
   {
@@ -62,7 +62,7 @@ const ProgrammingLanguages = () => {
           ))}
         </div>
       </section>
-      <Footer contact="Contact Support for Courses" />
+      <Footer />
     </div>
   );
 };
