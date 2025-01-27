@@ -8,7 +8,9 @@ const Hero = () => {
     <section className="hero-section mt-20 flex min-h-screen flex-col items-center justify-center text-white ">
       <div className="flex w-full flex-col items-center justify-center px-8 text-center">
         <p className="text-md mx-auto mb-10 w-fit rounded-full bg-[#ffffff36] p-2 text-center">
-          We're Open Source {'>'} Star Now🌟
+          <a href="https://github.com/codeaashu/DevDisplay" target="_blank">
+            We're Open Source {'>'} Star Now🌟
+          </a>
         </p>
         <h1 className="my-4 text-4xl font-bold tracking-widest md:text-4xl">One Place for all your Tech Needs</h1>
         <h2 className="my-4 text-6xl font-bold">
