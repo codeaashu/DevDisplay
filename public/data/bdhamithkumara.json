@@ -1,0 +1,38 @@
+{
+  "name": "Dhamith Kumara",
+  "location": "Sri Lanka",
+  "bio": "Developer 👨‍💻 | NextJS ⚛️ | TailWindCSS ✨ | OSS Contributor 🤝 | Associated Full Stack Developer 🤖",
+  "avatar": "https://github.com/bdhamithkumara.png",
+  "portfolio": "https://github.com/bdhamithkumara",
+  "skills": [
+    "CSS3",
+    "HTML5",
+    "JavaScript",
+    "NextJS",
+    "ReactJS",
+    "TailwindCSS",
+    "supabase",
+    "appwrite",
+    "PHP",
+    "Bootstrap",
+    "NPM",
+    "NodeJS",
+    "Yarn",
+    "MySQL",
+    "MongoDB",
+    "SQLite",
+    "Canva",
+    "Figma",
+    "Adobe XD",
+    "Dart",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/bdhamithkumara",
+    "Twitter": "https://x.com/bdhamithkumara",
+    "LinkedIn": "https://www.linkedin.com/in/bdhamithkumara/",
+    "Instagram": "#",
+    "Email": "bdhamithkumara@gmail.com"
+  }
+}

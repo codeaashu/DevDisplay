@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Globe from '../components/Globe';
+import { Footer } from '../components/Footer/Footer';
 
 const Hero = () => {
   return (
@@ -171,61 +172,6 @@ const SupportedBy = () => {
         </div>
       </div>
     </div>
-  );
-};
-
-const Footer = () => {
-  return (
-    <footer className="w-full bg-gray-800 py-8 text-white">
-      <div className="mx-auto max-w-screen-xl px-4">
-        <div className="flex flex-col items-center justify-between md:flex-row">
-          {/* Left section */}
-          <div className="mb-6 text-center md:mb-0 md:text-left">
-            <h4 className="text-xl font-bold text-[#00a6fb]">DevDisplay</h4>
-            <p className="mt-2 text-sm">
-              DevDisplay is a global open-source tech community and organization with a mission to unite all your tech
-              needs under one platform.
-            </p>
-          </div>
-
-          {/* Middle section */}
-          <div className="mb-6 flex space-x-6 md:mb-0">
-            <a href="/about" className="text-sm hover:text-[#00a6fb]">
-              About Us
-            </a>
-            <a href="/contact" className="text-sm hover:text-[#00a6fb]">
-              Contact
-            </a>
-            <a href="/privacy" className="text-sm hover:text-[#00a6fb]">
-              Privacy Policy
-            </a>
-            <a href="/terms" className="text-sm hover:text-[#00a6fb]">
-              Terms of Service
-            </a>
-          </div>
-
-          {/* Right section */}
-          <div className="flex space-x-4">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-facebook-f text-xl hover:text-[#00a6fb]"></i>
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-twitter text-xl hover:text-[#00a6fb]"></i>
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-linkedin-in text-xl hover:text-[#00a6fb]"></i>
-            </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-github text-xl hover:text-[#00a6fb]"></i>
-            </a>
-          </div>
-        </div>
-
-        <div className="mt-8 border-t border-gray-700 pt-4 text-center">
-          <p className="text-sm">© 2024 DevDisplay. All Rights Reserved.</p>
-        </div>
-      </div>
-    </footer>
   );
 };
 

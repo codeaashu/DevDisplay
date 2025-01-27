@@ -21,7 +21,9 @@ import RoadmapGuide from './Resouces_Pages/RoadmapGuide.jsx';
 import InterviewPrep from './Resouces_Pages/InterviewPrep.jsx';
 import TopGithubRepo from './Resouces_Pages/TopGithubRepo.jsx';
 import ContributionsGuide from './Resouces_Pages/ContributionsGuide.jsx';
+import About from './Page/About.jsx';
 import PageNotFound from './Page/PageNotFound.jsx';
+
 function App() {
   return (
     <BrowserRouter>
@@ -74,6 +76,7 @@ function App() {
       <Routes>
         <Route index element={<Homepage />} />
         <Route path="/Home" element={<Home />} />
+        <Route path="/About" element={<About />} />
         <Route path="/Opportunities" element={<Opportunities />} />
         <Route path="/IdeaSubmission" element={<IdeaSubmission />} />
         <Route path="/PortfolioIdeas" element={<PortfolioIdeas />} />
@@ -90,7 +93,6 @@ function App() {
         <Route path="/libraries" element={<OpenSource />} />
         <Route path="/roadmaps" element={<RoadmapGuide />} />
         <Route path="/interview-kits" element={<InterviewPrep />} />
-
         <Route path="/github" element={<TopGithubRepo />} />
         <Route path="/community" element={<ContributionsGuide />} />
         <Route path="*" element={<PageNotFound />} />

@@ -1,0 +1,27 @@
+{
+  "name": "Shrashti Dwivedi",
+  "location": "Jaipur, Rajasthan, India",
+  "bio": "B.Tech AIML student with expertise in React, Django, and data analytics, passionate about web development and building impactful projects.",
+  "avatar": "https://github.com/shrashti-19.png",
+  "portfolio": "https://github.com/shrashti-19",
+  "skills": [
+    "React",
+    "Django",
+    "SQL",
+    "JavaScript",
+    "Python",
+    "Data Analytics",
+    "HTML",
+    "CSS",
+    "Tableau",
+    "Excel",
+    "Java"
+  ],
+  "social": {
+    "GitHub": "https://github.com/shrashti-19",
+    "Twitter": "https://x.com/ShrashtiDwivedi",
+    "LinkedIn": "https://www.linkedin.com/in/shrashti-dwivedi-663049253/",
+    "Instagram": "https://www.instagram.com/shrasht_i.06/",
+    "Email": "shrashtidwivedi91@gmail.com"
+  }
+}
