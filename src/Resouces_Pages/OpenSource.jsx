@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './commonComponents/Navbar';
-import { Footer } from '../components/Footer/Footer';
 
 const openSourceProjects = [
   {
@@ -129,7 +128,6 @@ const OpenSource = () => {
           ))}
         </div>
       </section>
-      <Footer />
     </div>
   );
 };

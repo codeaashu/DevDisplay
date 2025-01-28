@@ -23,6 +23,7 @@ import TopGithubRepo from './Resouces_Pages/TopGithubRepo.jsx';
 import ContributionsGuide from './Resouces_Pages/ContributionsGuide.jsx';
 import About from './Page/About.jsx';
 import PageNotFound from './Page/PageNotFound.jsx';
+import { Footer } from './components/Footer/Footer.jsx';
 
 function App() {
   return (
@@ -97,6 +98,7 @@ function App() {
         <Route path="/community" element={<ContributionsGuide />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

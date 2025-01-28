@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Globe from '../components/Globe';
-import { Footer } from '../components/Footer/Footer';
 
 const Hero = () => {
   return (
@@ -184,7 +183,6 @@ const Home = () => {
       <Hero />
       <TechFeatures />
       <SupportedBy />
-      <Footer />
     </div>
   );
 };

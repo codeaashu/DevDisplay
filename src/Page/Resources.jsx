@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { ArrowLeft, Search } from 'lucide-react';
-import { Footer } from '../components/Footer/Footer';
 
 const Navbar = () => {
   return (
@@ -175,7 +174,6 @@ const Resources = () => {
       <Navbar />
       <Hero />
       <ResourceCards />
-      <Footer />
     </div>
   );
 };

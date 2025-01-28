@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './commonComponents/Navbar';
-import { Footer } from '../components/Footer/Footer';
 
 const resources = [
   {
@@ -91,7 +90,6 @@ const Documentation = () => {
           ))}
         </div>
       </section>
-      <Footer />
     </div>
   );
 };

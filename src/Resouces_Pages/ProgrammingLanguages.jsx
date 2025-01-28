@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './commonComponents/Navbar';
-import { Footer } from '../components/Footer/Footer';
 
 const courses = [
   {
@@ -62,7 +61,6 @@ const ProgrammingLanguages = () => {
           ))}
         </div>
       </section>
-      <Footer />
     </div>
   );
 };

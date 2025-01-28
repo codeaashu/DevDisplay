@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import useDebounce from '../hooks/useDebouncer';
 import projectsData from '../DB/projects.json';
 import { FaGithub } from 'react-icons/fa';
-import { Footer } from '../components/Footer/Footer';
 
 const ProjectsPage = () => {
   const [allProjects, setAllProjects] = useState([]);
@@ -96,7 +95,6 @@ const ProjectsPage = () => {
           <p className="mt-6 text-center text-gray-400">🎉 You've reached the end!</p>
         )}
       </div>
-      <Footer />
     </div>
   );
 };

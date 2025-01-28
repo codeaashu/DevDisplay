@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Navbar from '../components/Navbar';
-import { Footer } from '../components/Footer/Footer';
 
 export default function About() {
   const navigateToGitHub = () => {
@@ -109,7 +108,6 @@ export default function About() {
           </button>
         </section>
       </div>
-      <Footer />
     </div>
   );
 }

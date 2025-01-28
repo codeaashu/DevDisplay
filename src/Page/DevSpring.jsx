@@ -1,7 +1,6 @@
 import React from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { FaCode, FaUsers, FaUniversity, FaHandshake } from 'react-icons/fa';
-import { Footer } from '../components/Footer/Footer';
 
 const Navbar = () => {
   return (
@@ -240,7 +239,6 @@ const DevSpring = () => {
           </span>
         </p>
       </main>
-      <Footer />
     </div>
   );
 };

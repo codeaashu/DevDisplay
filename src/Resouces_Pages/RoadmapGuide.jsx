@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './commonComponents/Navbar';
-import { Footer } from '../components/Footer/Footer';
 
 const roadmapData = [
   {
@@ -182,7 +181,6 @@ const RoadmapGuide = () => {
           ))}
         </div>
       </section>
-      <Footer />
     </div>
   );
 };

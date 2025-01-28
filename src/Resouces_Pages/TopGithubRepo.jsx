@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './commonComponents/Navbar';
-import { Footer } from '../components/Footer/Footer';
 
 const TopGithubRepo = () => {
   const [repos, setRepos] = useState([]);
@@ -30,7 +29,6 @@ const TopGithubRepo = () => {
           <h1 className="mb-6 text-4xl text-[#00a6fb]">Top GitHub Repositories</h1>
           <p className="text-gray-300">Loading...</p>
         </section>
-        <Footer />
       </div>
     );
   }
@@ -61,7 +59,6 @@ const TopGithubRepo = () => {
           ))}
         </div>
       </section>
-      <Footer />
     </div>
   );
 };

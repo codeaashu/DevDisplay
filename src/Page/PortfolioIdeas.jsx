@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Footer } from '../components/Footer/Footer';
 
 const Navbar = () => {
   return (
@@ -232,7 +231,6 @@ const ProjectsPage = () => {
       <div className="flex-grow">
         <PortfolioIdeas />
       </div>
-      <Footer />
     </div>
   );
 };
