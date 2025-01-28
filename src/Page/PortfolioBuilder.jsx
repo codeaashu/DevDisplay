@@ -9,10 +9,10 @@ const PortfolioBuilderPage = () => {
         </h1>
       </header>
       <h1 className="text-center text-4xl font-bold">Click here for features details 👇🏻</h1>
-      <a href="https://github.com/codeaashu/DevDisplay/issues/605#issue-2758476487" target="_blank" rel="noreferrer">
+      <a href="https://github.com/codeaashu/DevDisplay/issues/602#issue-2758470667" target="_blank" rel="noreferrer">
         <button className="mx-auto mt-4 block inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm text-xl transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
           <span>
-            <b>🌟 Add Idea Submission Features 💌 & Get 8 Benefits 🌟</b>
+            <b>🌟 Add Portfolio Building Features 💌 & Get 8 Benefits 🌟</b>
           </span>
         </button>
       </a>
