@@ -55,63 +55,21 @@ export default function About() {
             Collab ▸ Code ▸ Create ▸ Conquer in the tech ecosystem.
           </motion.h2>
 
-          <div className="mt-6 space-y-4 text-lg text-gray-800">
-            <p>
-              <span className="mr-2 inline-block h-8 w-8 rounded-full bg-gray-200 text-center">🚀</span> One platform to
-              discover extraordinary tech talent.
-            </p>
-            <p>
-              <span className="mr-2 inline-block h-8 w-8 rounded-full bg-gray-200 text-center">🔗</span> One platform to
-              connect with like-minded tech enthusiasts.
-            </p>
-            <p>
-              <span className="mr-2 inline-block h-8 w-8 rounded-full bg-gray-200 text-center">🤝</span> One platform to
-              collaborate on innovative, groundbreaking ideas.
-            </p>
-            <p>
-              <span className="mr-2 inline-block h-8 w-8 rounded-full bg-gray-200 text-center">🔧</span> One platform to
-              build next-gen projects with a community of innovators.
-            </p>
-            <p>
-              <span className="mr-2 inline-block h-8 w-8 rounded-full bg-gray-200 text-center">💡</span> One platform to
-              spark inspiration and unleash creativity.
-            </p>
-            <p>
-              <span className="mr-2 inline-block h-8 w-8 rounded-full bg-gray-200 text-center">📚</span> One platform to
-              access curated tech resources in a single space.
-            </p>
-            <p>
-              <span className="mr-2 inline-block h-8 w-8 rounded-full bg-gray-200 text-center">🌟</span> One platform to
-              explore the latest opportunities in the tech world.
-            </p>
-            <p>
-              <span className="mr-2 inline-block h-8 w-8 rounded-full bg-gray-200 text-center">🎯</span> One platform to
-              bring your ideas to life and turn concepts into reality.
-            </p>
-            <p>
-              <span className="mr-2 inline-block h-8 w-8 rounded-full bg-gray-200 text-center">🌍</span> One platform to
-              showcase your projects to a global audience.
-            </p>
-            <p>
-              <span className="mr-2 inline-block h-8 w-8 rounded-full bg-gray-200 text-center">🎯</span> One platform to
-              highlight your skills and expertise like never before.
-            </p>
-            <p>
-              <span className="mr-2 inline-block h-8 w-8 rounded-full bg-gray-200 text-center">📢</span> One platform to
-              promote your work and gain unparalleled visibility.
-            </p>
-            <p>
-              <span className="mr-2 inline-block h-8 w-8 rounded-full bg-gray-200 text-center">🚀</span> One platform to
-              learn, grow, and thrive alongside a vibrant community.
-            </p>
-            <p>
-              <span className="mr-2 inline-block h-8 w-8 rounded-full bg-gray-200 text-center">💰</span> One platform to
-              earn rewards and monetize your tech skills.
-            </p>
-            <p>
-              <span className="mr-2 inline-block h-8 w-8 rounded-full bg-gray-200 text-center">🎁</span> One platform to
-              enjoy exclusive benefits as a valued tech enthusiast.
-            </p>
+          <div className="mt-6 space-y-4 rounded-lg bg-black p-6 text-lg text-white">
+            <p>One platform to discover extraordinary tech talent.</p>
+            <p>One platform to connect with like-minded tech enthusiasts.</p>
+            <p>One platform to collaborate on innovative, groundbreaking ideas.</p>
+            <p>One platform to build next-gen projects with a community of innovators.</p>
+            <p>One platform to spark inspiration and unleash creativity.</p>
+            <p>One platform to access curated tech resources in a single space.</p>
+            <p>One platform to explore the latest opportunities in the tech world.</p>
+            <p>One platform to bring your ideas to life and turn concepts into reality.</p>
+            <p>One platform to showcase your projects to a global audience.</p>
+            <p>One platform to highlight your skills and expertise like never before.</p>
+            <p>One platform to promote your work and gain unparalleled visibility.</p>
+            <p>One platform to learn, grow, and thrive alongside a vibrant community.</p>
+            <p>One platform to earn rewards and monetize your tech skills.</p>
+            <p>One platform to enjoy exclusive benefits as a valued tech enthusiast.</p>
           </div>
 
           <hr className="mt-12 border-t-2 border-gray-300" />
