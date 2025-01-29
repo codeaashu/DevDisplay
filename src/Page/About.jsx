@@ -55,7 +55,7 @@ export default function About() {
             Collab ▸ Code ▸ Create ▸ Conquer in the tech ecosystem.
           </motion.h2>
 
-          <div className="mt-6 space-y-4 rounded-lg bg-black p-6 text-lg text-white">
+          <div className="bg-gradient-to-r from-[#2e3b4e] via-[#1e2a42] to-[#141d2f] py-16 text-center">
             <p>One platform to discover extraordinary tech talent.</p>
             <p>One platform to connect with like-minded tech enthusiasts.</p>
             <p>One platform to collaborate on innovative, groundbreaking ideas.</p>
