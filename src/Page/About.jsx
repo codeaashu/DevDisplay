@@ -32,11 +32,19 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            <h1 className="text-5xl font-extrabold text-[#00a6fb]">About Us</h1>
-            <p className="mt-4 max-w-2xl text-lg text-gray-200">
-              DevDisplay is a global open-source tech community and organization with a mission to unite all your tech
-              needs under one platform.
-            </p>
+            <div className="mx-auto max-w-4xl">
+              <h1 className="text-6xl font-bold">DevDisplay</h1>
+              <p className="mt-4 text-xl">Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer</p>
+              <p className="mt-6 text-lg">
+                DevDisplay is a global open-source tech community and organization that brings together all your tech
+                needs in one place.
+              </p>
+              <p className="mt-8 text-lg font-semibold">
+                <a href="https://www.devdisplay.org" className="underline">
+                  www.devdisplay.org
+                </a>
+              </p>
+            </div>
           </motion.div>
         </header>
 
