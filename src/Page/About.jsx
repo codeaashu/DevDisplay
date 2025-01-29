@@ -43,7 +43,7 @@ export default function About() {
           </motion.div>
         </header>
 
-        <section className="container mx-auto mt-12 p-5 text-center">
+        <section className="container mx-auto mt-12 p-8 text-center">
           <motion.h2
             className="text-3xl font-bold text-[#00a6fb]"
             initial={{ opacity: 0, y: -20 }}
@@ -55,7 +55,7 @@ export default function About() {
             Collab ▸ Code ▸ Create ▸ Conquer in the tech ecosystem.
           </motion.h2>
 
-          <div className="bg-gradient-to-r from-[#2e3b4e] via-[#1e2a42] to-[#141d2f] py-16 text-center">
+          <div className="mt-6 space-y-4 rounded-lg bg-black p-6 text-lg text-white">
             <p>One platform to discover extraordinary tech talent.</p>
             <p>One platform to connect with like-minded tech enthusiasts.</p>
             <p>One platform to collaborate on innovative, groundbreaking ideas.</p>
@@ -70,6 +70,73 @@ export default function About() {
             <p>One platform to learn, grow, and thrive alongside a vibrant community.</p>
             <p>One platform to earn rewards and monetize your tech skills.</p>
             <p>One platform to enjoy exclusive benefits as a valued tech enthusiast.</p>
+          </div>
+
+          <hr className="mt-12 border-t-2 border-gray-300" />
+        </section>
+
+        <section className="container mx-auto mt-12 p-8 text-center">
+          <motion.h2
+            className="text-3xl font-bold text-[#00a6fb]"
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+          >
+            Proposed Implementation Ideas for GSoC Contributors
+          </motion.h2>
+
+          {/* Content Box */}
+          <div className="mt-6 rounded-lg bg-[#e3f2fd] p-6 text-left text-gray-900 shadow-md">
+            <h3 className="text-2xl font-bold text-gray-800">1. Opportunities Hub Feature</h3>
+            <p className="mt-4 text-lg">
+              Create a Centralized and Interactive feature on DevDisplay Platform for Tech Opportunities. Develop a
+              comprehensive and user-friendly feature for developers, designers, and tech enthusiasts to explore diverse
+              opportunities within the tech industry. This platform will serve as a one-stop hub for discovering:
+            </p>
+
+            <h4 className="mt-4 text-xl font-semibold text-gray-800">
+              Dynamic Opportunity Categories – Effortlessly organize opportunities into clearly defined, interactive
+              categories for easy navigation:
+            </h4>
+
+            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
+              <li>
+                <strong>Hybrid & Onsite Jobs:</strong> Allow users to filter roles by job type, location, experience
+                level, and company, making it easy to find their ideal position.
+              </li>
+              <li>
+                <strong>Remote Jobs:</strong> Showcase work-from-anywhere roles, emphasizing flexible and
+                location-independent opportunities.
+              </li>
+              <li>
+                <strong>Internships:</strong> Include paid and unpaid opportunities for students, fresh graduates, and
+                early-career professionals.
+              </li>
+              <li>
+                <strong>Freelance Work:</strong> Highlight project-specific and contract-based roles ideal for
+                independent contributors.
+              </li>
+              <li>
+                <strong>Hackathons:</strong> Provide detailed information on themes, deadlines, rewards, team
+                requirements, and registration links.
+              </li>
+              <li>
+                <strong>Open-Source Projects:</strong> Promote beginner-friendly and advanced projects seeking
+                contributors, encouraging community collaboration.
+              </li>
+              <li>
+                <strong>Tech Events & DevFests:</strong> Feature a curated list of webinars, conferences, summits, and
+                local or global developer meetups.
+              </li>
+              <li>
+                <strong>Bootcamps & Courses:</strong> Highlight immersive learning programs, both free and paid,
+                tailored for skill-building and career growth.
+              </li>
+              <li>
+                <strong>Certifications & Skill Development:</strong> Showcase courses and training that provide
+                industry-recognized certifications to boost career prospects.
+              </li>
+            </ul>
           </div>
 
           <hr className="mt-12 border-t-2 border-gray-300" />
