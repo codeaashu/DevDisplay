@@ -39,11 +39,6 @@ export default function About() {
                 DevDisplay is a global open-source tech community and organization that brings together all your tech
                 needs in one place.
               </p>
-              <p className="mt-8 text-lg font-semibold">
-                <a href="https://www.devdisplay.org" className="underline">
-                  www.devdisplay.org
-                </a>
-              </p>
             </div>
           </motion.div>
         </header>
@@ -55,12 +50,35 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            Who We Are
+            We're on a mission to unite all your tech needs under one platform and establish DevDisplay as the Tech
+            Enthusiast and Developer's First Platform. DevDisplay serves as the ultimate hub for developers to Connect ▸
+            Collab ▸ Code ▸ Create ▸ Conquer in the tech ecosystem.
           </motion.h2>
-          <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-300">
-            DevDisplay is a platform where developers of all levels collaborate on open-source projects, exchange ideas,
-            and grow together. Our inclusive environment promotes innovation, creativity, and shared learning.
+
+          <div className="mt-6 text-lg text-gray-800">
+            <p>🚀 One platform to discover extraordinary tech talent.</p>
+            <p>🔗 One platform to connect with like-minded tech enthusiasts.</p>
+            <p>🤝 One platform to collaborate on innovative, groundbreaking ideas.</p>
+            <p>🔧 One platform to build next-gen projects with a community of innovators.</p>
+            <p>💡 One platform to spark inspiration and unleash creativity.</p>
+            <p>📚 One platform to access curated tech resources in a single space.</p>
+            <p>🌟 One platform to explore the latest opportunities in the tech world.</p>
+            <p>🎯 One platform to bring your ideas to life and turn concepts into reality.</p>
+            <p>🌍 One platform to showcase your projects to a global audience.</p>
+            <p>🎯 One platform to highlight your skills and expertise like never before.</p>
+            <p>📢 One platform to promote your work and gain unparalleled visibility.</p>
+            <p>🚀 One platform to learn, grow, and thrive alongside a vibrant community.</p>
+            <p>💰 One platform to earn rewards and monetize your tech skills.</p>
+            <p>🎁 One platform to enjoy exclusive benefits as a valued tech enthusiast.</p>
+          </div>
+
+          <p className="mt-8 text-xl font-semibold">
+            <a href="https://www.devdisplay.org" className="underline">
+              www.devdisplay.org
+            </a>
           </p>
+
+          <hr className="mt-12 border-t-2 border-gray-300" />
         </section>
 
         <section className="container mx-auto grid gap-8 p-8 md:grid-cols-2 lg:grid-cols-3">
