@@ -43,7 +43,7 @@ export default function About() {
           </motion.div>
         </header>
 
-        <section className="container mx-auto mt-12 p-8 text-center">
+        <section className="container mx-auto mt-12 p-5 text-center">
           <motion.h2
             className="text-3xl font-bold text-[#00a6fb]"
             initial={{ opacity: 0, y: -20 }}
