@@ -23,6 +23,7 @@ import TopGithubRepo from './Resouces_Pages/TopGithubRepo.jsx';
 import ContributionsGuide from './Resouces_Pages/ContributionsGuide.jsx';
 import About from './Page/About.jsx';
 import PageNotFound from './Page/PageNotFound.jsx';
+import SponsorUs from './Page/Sponsor.jsx';
 
 function App() {
   return (
@@ -95,6 +96,7 @@ function App() {
         <Route path="/interview-kits" element={<InterviewPrep />} />
         <Route path="/github" element={<TopGithubRepo />} />
         <Route path="/community" element={<ContributionsGuide />} />
+        <Route path="/SponsorUs" element={<SponsorUs />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>

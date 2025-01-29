@@ -146,9 +146,9 @@ const supporters = [
   { name: 'Vercel', logo: '/assets/SupportedBy/Vercel.png' },
 ];
 
-const SupportedBy = () => {
+export const SupportedBy = () => {
   return (
-    <div className="my-10 py-10">
+    <div className="py-20">
       <h2 className="my-10 text-center text-4xl font-bold text-[#00a6fb]">Supported By</h2>
 
       <div className="relative mx-auto flex max-w-[99vw] space-x-8 overflow-x-hidden">
