@@ -85,7 +85,7 @@ export default function About() {
             Proposed Implementation Ideas for GSoC Contributors
           </motion.h2>
 
-          {/* Content Box */}
+          {/* Idea List - 1*/}
           <div className="mt-6 rounded-lg bg-[#e3f2fd] p-6 text-left text-gray-900 shadow-md">
             <h3 className="text-2xl font-bold text-gray-800">1. Opportunities Hub Feature</h3>
             <p className="mt-4 text-lg">
