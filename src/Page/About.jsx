@@ -137,9 +137,74 @@ export default function About() {
                 industry-recognized certifications to boost career prospects.
               </li>
             </ul>
-          </div>
+            <hr className="border-black-300 mt-12 border-t-2" />
 
-          <hr className="mt-12 border-t-2 border-gray-300" />
+            {/* Idea List - 2*/}
+            <h3 className="text-2xl font-bold text-gray-800">2. Idea Submission Features</h3>
+            <p className="mt-4 text-lg">
+              Add the Project Idea Submission and Voting System to DevDisplay can make it a hub for innovation and
+              collaboration. This feature allows users to submit ideas, vote on their favorites, and actively
+              participate in bringing top-voted ideas to life through collaborative development. Here's a detailed
+              overview of the feature, enhanced with functionalities to ensure engagement and utility.
+            </p>
+
+            <h4 className="mt-4 text-xl font-semibold text-gray-800">
+              Idea Submission Window - First Week of Every Month:
+            </h4>
+            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
+              <li>Allow users to submit their project ideas within the first week of every month.</li>
+              <li>Display a countdown timer on the homepage indicating the time left to submit ideas.</li>
+              <li>Ideas are displayed publicly for voting immediately after submission.</li>
+            </ul>
+
+            <h4 className="mt-4 text-xl font-semibold text-gray-800">Voting Phase - Throughout the Month:</h4>
+            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
+              <li>Users can like or upvote their favorite ideas to boost their ranking.</li>
+              <li>A "Trending Now" Section highlights the top-voted ideas dynamically.</li>
+            </ul>
+
+            <h4 className="mt-4 text-xl font-semibold text-gray-800">End-of-Month Selection - Final Week:</h4>
+            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
+              <li>At the end of the month, the top 1 most-voted idea is selected for community implementation.</li>
+              <li>Recognize contributors with badges like "Innovator of the Month" for the selected idea.</li>
+            </ul>
+
+            <h4 className="mt-4 text-xl font-semibold text-gray-800">Community Collaboration - Next Month:</h4>
+            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
+              <li>
+                The selected idea is moved to a “Project Development Hub” where the community collaborates to implement
+                it.
+              </li>
+              <li>Users can join specific tasks like design, development, testing, or documentation.</li>
+            </ul>
+            <hr className="mt-12 border-t-2 border-gray-300" />
+
+            {/* Idea List - 3*/}
+            <h3 className="text-2xl font-bold text-gray-800">3. Tech Resources Features</h3>
+            <p className="mt-4 text-lg">
+              Add a feature where all the tech resources are available like a hub of resources. Where users can share
+              and discover useful resources like articles, tutorials, documentation, tools, or libraries related to
+              development. How it works: Users can submit a resource with a title, description, link, and tags (e.g.,
+              "React," "JavaScript," "CSS"). Resources are displayed in a feed with upvoting/downvoting functionality.
+              Users can filter resources by tags or search for specific topics. The most upvoted resources appear at the
+              top of the feed.
+            </p>
+
+            <h4 className="mt-4 text-xl font-semibold text-gray-800">
+              Add a feature on this Page where all the tech resources are available like:
+            </h4>
+            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
+              <li>Tech-Related Notes</li>
+              <li>Programming Language Courses</li>
+              <li>Top GitHub Repositories</li>
+              <li>AI Tools Directory</li>
+              <li>Affordable Learning</li>
+              <li>Open Source Libraries and Frameworks</li>
+              <li>Bootcamp Listings</li>
+              <li>Roadmaps and Guides</li>
+              <li>Interview Preparation Kits, e.t.c..</li>
+            </ul>
+          </div>
         </section>
 
         <section className="container mx-auto grid gap-8 p-8 md:grid-cols-2 lg:grid-cols-3">
