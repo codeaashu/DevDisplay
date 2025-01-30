@@ -515,7 +515,7 @@ export default function About() {
             href="https://swift-sheet-b33.notion.site/DevDisplay-Contribution-Guidelines-18a7d1f1565b80569377e5a610155ccc"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 inline-block rounded bg-[#00a6fb] px-4 py-2 text-white hover:bg-[#008dc9]"
+            className="mt-4 inline-block rounded bg-[#00a6fb] px-4 py-2 text-center text-white hover:bg-[#008dc9]"
           >
             Checkout the contribution guidelines!
           </a>
@@ -530,14 +530,14 @@ export default function About() {
             <div className="flex items-center justify-between">
               <div>
                 <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">DevPioneer Badge</h3>
-                <p className="text-gray-200">How to Earn These Badges? Add your profile to the DevDisplay platform.</p>
+                <p className="text-gray-200">Earn this badges by Add your profile to the DevDisplay platform.</p>
                 <a
                   href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-3 inline-block rounded bg-[#00a6fb] px-2 py-2 text-white hover:bg-[#008dc9]"
                 >
-                  Click here to add your profile
+                  Click here to checkout
                 </a>
               </div>
               <img src="./DevPioneerpng.gif" alt="DevPioneer Badge" className="ml-4 h-40 w-40" />
@@ -551,15 +551,15 @@ export default function About() {
           >
             <div className="flex items-center justify-between">
               <div>
-                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">DevPioneer Enhancer</h3>
-                <p className="text-gray-200">How to Earn These Badges? Add your profile to the DevDisplay platform.</p>
+                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">Dev Enhancer</h3>
+                <p className="text-gray-200">Earn this badges by improve or refine existing features.</p>
                 <a
-                  href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
+                  href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#dev-enhancer-"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-3 inline-block rounded bg-[#00a6fb] px-2 py-2 text-white hover:bg-[#008dc9]"
                 >
-                  Click here to add your profile
+                  Click here to checkout
                 </a>
               </div>
               <img src="./DevEnhancerpng.gif" alt="DevPioneer Badge" className="ml-4 h-40 w-40" />
@@ -573,15 +573,15 @@ export default function About() {
           >
             <div className="flex items-center justify-between">
               <div>
-                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">DevPioneer Innovator</h3>
-                <p className="text-gray-300">How to Earn These Badges? Add your profile to the DevDisplay platform.</p>
+                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">Dev Innovator</h3>
+                <p className="text-gray-300">Earn this badges by add innovative, creative features.</p>
                 <a
-                  href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
+                  href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#dev-innovator-"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-3 inline-block rounded bg-[#00a6fb] px-2 py-2 text-white hover:bg-[#008dc9]"
                 >
-                  Click here to add your profile
+                  Click here to checkout
                 </a>
               </div>
               <img src="./DevInnovatorpng.gif" alt="DevPioneer Badge" className="ml-4 h-40 w-40" />

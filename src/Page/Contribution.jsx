@@ -19,6 +19,17 @@ const Contribution = () => {
           </p>
         </section>
 
+        <section>
+          <a
+            href="https://swift-sheet-b33.notion.site/DevDisplay-Contribution-Guidelines-18a7d1f1565b80569377e5a610155ccc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-block rounded bg-[#00a6fb] px-4 py-2 text-center text-white hover:bg-[#008dc9]"
+          >
+            You can also checkout the contribution guidelines by clicking here!
+          </a>
+        </section>
+
         <section className="mb-8">
           <h2 className="text-2xl font-bold">📌 Prerequisites for Contributors</h2>
           <ul className="mt-4 list-inside list-disc">
