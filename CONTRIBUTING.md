@@ -92,9 +92,8 @@ Starring the repository is a mandatory step for all contributors and the first p
 </div>
 </details>
 <hr>
-### Now the time to become a Dev Pioneer to **Dev Enhancer** and **Dev Innovator.**
-
-### It’s depend on contributor to decide their path:
+<h1 align="center"> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Now the time to become a Dev Pioneer to Dev Enhancer and Dev Innovator <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /></h1>
+It’s depend on contributor to decide their path:<br>
 
 - **Dev Enhancer:** Refine and elevate key features of DevDisplay by enhancing its UI with modern, responsive design, optimizing performance through faster load times and efficient resource management, and fine-tuning functionalities such as project showcases, user interactivity, and search capabilities. Transform DevDisplay into a seamless and engaging platform with intuitive navigation, collaborative tools, and personalized experiences, ensuring an exceptional user experience for all.
 
@@ -120,8 +119,6 @@ Starring the repository is a mandatory step for all contributors and the first p
 4. **Be a Visionary:** Your creativity will not only shape DevDisplay but also position you as a leader in transforming it into a globally recognized platform for technology and innovation.
 
 With every feature added, Dev Innovators play a pivotal role in crafting a future where **DevDisplay becomes the ultimate tech hub**, fulfilling the needs of developers and communities across the globe. You’ll leave a legacy of innovation that advances the open-source community.
-
----
 
 ### **So, Let’s Unlock the Next Level of Open Source & Be a Part of global vision with DevDisplay!**
 <hr
