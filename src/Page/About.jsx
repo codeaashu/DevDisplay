@@ -71,8 +71,6 @@ export default function About() {
             <p>One platform to earn rewards and monetize your tech skills.</p>
             <p>One platform to enjoy exclusive benefits as a valued tech enthusiast.</p>
           </div>
-
-          <hr className="mt-12 border-t-2 border-gray-300" />
         </section>
 
         <section className="container mx-auto mt-12 p-8 text-center">
