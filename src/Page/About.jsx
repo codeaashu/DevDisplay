@@ -55,7 +55,7 @@ export default function About() {
             Collab ▸ Code ▸ Create ▸ Conquer in the tech ecosystem.
           </motion.h2>
 
-          <div className="mt-6 rounded-lg bg-[#e3f2fd] p-6 text-left text-gray-900 shadow-md">
+          <div className="mt-6 rounded-lg bg-[#e3f2fd] p-6 text-center text-gray-900 shadow-md">
             <p>One platform to discover extraordinary tech talent.</p>
             <p>One platform to connect with like-minded tech enthusiasts.</p>
             <p>One platform to collaborate on innovative, groundbreaking ideas.</p>
@@ -93,7 +93,7 @@ export default function About() {
             </p>
 
             <h4 className="mt-4 text-xl font-semibold text-gray-800">
-              Dynamic Opportunity Categories – Effortlessly organize opportunities into clearly defined, interactive
+              Dynamic Opportunity Categories - Effortlessly organize opportunities into clearly defined, interactive
               categories for easy navigation:
             </h4>
 
