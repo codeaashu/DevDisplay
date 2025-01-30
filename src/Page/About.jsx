@@ -518,18 +518,18 @@ export default function About() {
           >
             <div className="flex items-center justify-between">
               <div>
-                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">DevPioneer Badge</h3>
-                <p className="text-gray-300">How to Earn These Badges? Add your profile to the DevDisplay platform.</p>
+                <h3 className="text-1xl mb-4 font-bold text-[#00a6fb]">DevPioneer Badge</h3>
+                <p className="text-gray-200">How to Earn These Badges? Add your profile to the DevDisplay platform.</p>
                 <a
                   href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-block rounded bg-[#00a6fb] px-4 py-2 text-white hover:bg-[#008dc9]"
+                  className="mt-3 inline-block rounded bg-[#00a6fb] px-2 py-2 text-white hover:bg-[#008dc9]"
                 >
                   Click here to add your profile
                 </a>
               </div>
-              <img src="./DevPioneerpng.gif" alt="DevPioneer Badge" className="ml-4 h-40 w-40" />
+              <img src="./DevPioneerpng.gif" alt="DevPioneer Badge" className="h-50 w-50 ml-4" />
             </div>
           </motion.div>
 
@@ -540,18 +540,18 @@ export default function About() {
           >
             <div className="flex items-center justify-between">
               <div>
-                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">DevPioneer Badge</h3>
-                <p className="text-gray-300">How to Earn These Badges? Add your profile to the DevDisplay platform.</p>
+                <h3 className="text-1xl mb-4 font-bold text-[#00a6fb]">DevPioneer Badge</h3>
+                <p className="text-gray-200">How to Earn These Badges? Add your profile to the DevDisplay platform.</p>
                 <a
                   href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-block rounded bg-[#00a6fb] px-4 py-2 text-white hover:bg-[#008dc9]"
+                  className="mt-3 inline-block rounded bg-[#00a6fb] px-2 py-2 text-white hover:bg-[#008dc9]"
                 >
                   Click here to add your profile
                 </a>
               </div>
-              <img src="./DevEnhancerpng.gif" alt="DevPioneer Badge" className="ml-4 h-40 w-40" />
+              <img src="./DevEnhancerpng.gif" alt="DevPioneer Badge" className="h-50 w-50 ml-4" />
             </div>
           </motion.div>
 
@@ -562,18 +562,18 @@ export default function About() {
           >
             <div className="flex items-center justify-between">
               <div>
-                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">DevPioneer Badge</h3>
+                <h3 className="text-1xl mb-4 font-bold text-[#00a6fb]">DevPioneer Badge</h3>
                 <p className="text-gray-300">How to Earn These Badges? Add your profile to the DevDisplay platform.</p>
                 <a
                   href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-block rounded bg-[#00a6fb] px-4 py-2 text-white hover:bg-[#008dc9]"
+                  className="mt-3 inline-block rounded bg-[#00a6fb] px-2 py-2 text-white hover:bg-[#008dc9]"
                 >
                   Click here to add your profile
                 </a>
               </div>
-              <img src="./DevInnovatorpng.gif" alt="DevPioneer Badge" className="ml-4 h-40 w-40" />
+              <img src="./DevInnovatorpng.gif" alt="DevPioneer Badge" className="h-50 w-50 ml-4" />
             </div>
           </motion.div>
         </section>
