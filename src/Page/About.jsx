@@ -529,7 +529,7 @@ export default function About() {
                   Click here to add your profile
                 </a>
               </div>
-              <img src="./DevPioneerpng.gif" alt="DevPioneer Badge" className="h-50 w-50 ml-4" />
+              <img src="./DevPioneerpng.gif" alt="DevPioneer Badge" className="h-45 w-45 ml-4" />
             </div>
           </motion.div>
 
@@ -551,7 +551,7 @@ export default function About() {
                   Click here to add your profile
                 </a>
               </div>
-              <img src="./DevEnhancerpng.gif" alt="DevPioneer Badge" className="h-50 w-50 ml-4" />
+              <img src="./DevEnhancerpng.gif" alt="DevPioneer Badge" className="h-45 w-45 ml-4" />
             </div>
           </motion.div>
 
@@ -573,7 +573,7 @@ export default function About() {
                   Click here to add your profile
                 </a>
               </div>
-              <img src="./DevInnovatorpng.gif" alt="DevPioneer Badge" className="h-50 w-50 ml-4" />
+              <img src="./DevInnovatorpng.gif" alt="DevPioneer Badge" className="h-45 w-45 ml-4" />
             </div>
           </motion.div>
         </section>
