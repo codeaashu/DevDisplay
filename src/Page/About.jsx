@@ -45,7 +45,7 @@ export default function About() {
 
         <section className="container mx-auto mt-12 p-8 text-center">
           <motion.h2
-            className="text-3xl font-bold text-[#00a6fb]"
+            className="text-2xl font-bold text-[#00a6fb]"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
@@ -55,7 +55,7 @@ export default function About() {
             Collab ▸ Code ▸ Create ▸ Conquer in the tech ecosystem.
           </motion.h2>
 
-          <div className="mt-6 space-y-4 rounded-lg bg-black p-6 text-lg text-white">
+          <div className="mt-6 rounded-lg bg-[#e3f2fd] p-6 text-left text-gray-900 shadow-md">
             <p>One platform to discover extraordinary tech talent.</p>
             <p>One platform to connect with like-minded tech enthusiasts.</p>
             <p>One platform to collaborate on innovative, groundbreaking ideas.</p>
