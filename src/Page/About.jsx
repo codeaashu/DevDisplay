@@ -480,6 +480,35 @@ export default function About() {
               </li>
             </ul>
             <hr className="border-t-5 mt-12 border-gray-500" />
+
+            {/* Contribute Beyond the Core Features*/}
+            <h3 className="text-center text-2xl font-bold text-gray-800">Contribute Beyond the Core Features</h3>
+            <p className="mt-4 text-center text-lg">
+              While we have 12 key features that define our platform, we believe innovation is limitless. As a
+              contributor, you're encouraged to think beyond and add new, innovative features that can make a difference
+              in the tech ecosystem. Think outside the box and introduce features that can be revolutionary for tech
+              enthusiasts worldwide. If you spot a gap in the tech world, DevDisplay can be the solution.
+            </p>
+            <h4 className="mt-4 text-center text-xl font-semibold text-gray-800">For Every Tech Enthusiast</h4>
+            <p className="mt-4 list-inside list-disc space-y-2 text-center text-lg">
+              Whatever you need as a techy, DevDisplay has it all. Build your profile, find resources, collaborate, and
+              create without limitations.
+            </p>
+
+            <h4 className="mt-4 text-center text-xl font-semibold text-gray-800">Become Part of the Global Vision</h4>
+            <p className="mt-4 list-inside list-disc space-y-2 text-center text-lg">
+              Your contributions will help us provide everything developers need in one place—no more hopping between
+              multiple websites to find the resources you need. With your input, DevDisplay will grow into the go-to
+              platform for developers worldwide, fostering collaboration, learning, and innovation. One Platform.
+              Endless Opportunities.
+            </p>
+
+            <h4 className="mt-4 text-center text-xl font-semibold text-gray-800">Be a Global Innovator</h4>
+            <p className="mt-4 list-inside list-disc space-y-2 text-center text-lg">
+              As a contributor, you're not just adding features to a platform—you’re becoming part of a global community
+              that’s pushing the boundaries of technology.
+            </p>
+            <hr className="border-t-5 mt-12 border-gray-500" />
           </div>
         </section>
 
