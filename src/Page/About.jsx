@@ -510,6 +510,17 @@ export default function About() {
           </div>
         </section>
 
+        <section>
+          <a
+            href="https://swift-sheet-b33.notion.site/DevDisplay-Contribution-Guidelines-18a7d1f1565b80569377e5a610155ccc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-block rounded bg-[#00a6fb] px-4 py-2 text-white hover:bg-[#008dc9]"
+          >
+            Checkout the contribution guidelines!
+          </a>
+        </section>
+
         <section className="container mx-auto grid gap-8 p-8 md:grid-cols-2 lg:grid-cols-3">
           <motion.div
             className="rounded-lg bg-[#1e2a42] p-8 shadow-lg"
@@ -518,7 +529,7 @@ export default function About() {
           >
             <div className="flex items-center justify-between">
               <div>
-                <h3 className="text-1xl mb-4 font-bold text-[#00a6fb]">DevPioneer Badge</h3>
+                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">DevPioneer Badge</h3>
                 <p className="text-gray-200">How to Earn These Badges? Add your profile to the DevDisplay platform.</p>
                 <a
                   href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
@@ -540,7 +551,7 @@ export default function About() {
           >
             <div className="flex items-center justify-between">
               <div>
-                <h3 className="text-1xl mb-4 font-bold text-[#00a6fb]">DevPioneer Badge</h3>
+                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">DevPioneer Enhancer</h3>
                 <p className="text-gray-200">How to Earn These Badges? Add your profile to the DevDisplay platform.</p>
                 <a
                   href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
@@ -562,7 +573,7 @@ export default function About() {
           >
             <div className="flex items-center justify-between">
               <div>
-                <h3 className="text-1xl mb-4 font-bold text-[#00a6fb]">DevPioneer Badge</h3>
+                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">DevPioneer Innovator</h3>
                 <p className="text-gray-300">How to Earn These Badges? Add your profile to the DevDisplay platform.</p>
                 <a
                   href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
