@@ -19,7 +19,7 @@ const Contribution = () => {
           </p>
         </section>
 
-        <section>
+        <section className="text-center">
           <a
             href="https://swift-sheet-b33.notion.site/DevDisplay-Contribution-Guidelines-18a7d1f1565b80569377e5a610155ccc"
             target="_blank"

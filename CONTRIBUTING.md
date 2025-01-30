@@ -111,6 +111,7 @@ Starring the repository is a mandatory step for all contributors and the first p
 ---
 
 # Dev Innovator: <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" />
+
 - **Step into the spotlight as a creative force by introducing **new and groundbreaking tech features** to DevDisplay. This path isn’t just about coding—it’s about envisioning a future where DevDisplay evolves into a **global tech hub** that fulfills all tech needs for developers, contributors, and innovators alike.**
 
 **Dev Innovator Highlights:**
@@ -123,6 +124,7 @@ Starring the repository is a mandatory step for all contributors and the first p
 With every feature added, Dev Innovators play a pivotal role in crafting a future where **DevDisplay becomes the ultimate tech hub**, fulfilling the needs of developers and communities across the globe. You’ll leave a legacy of innovation that advances the open-source community.
 
 ### **So, Let’s Unlock the Next Level of Open Source & Be a Part of global vision with DevDisplay!**
+
 <hr
 
 <div align="center"><h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Top Prioritized Features for Contribution - After Profile Setup <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1>
