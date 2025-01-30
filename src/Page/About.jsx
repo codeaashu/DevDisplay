@@ -136,8 +136,8 @@ export default function About() {
                 <strong>Certifications & Skill Development:</strong> Showcase courses and training that provide
                 industry-recognized certifications to boost career prospects.
               </li>
+              <hr className="border-black-300 mt-12 border-t-2" />
             </ul>
-            <hr className="border-black-300 mt-12 border-t-2" />
 
             {/* Idea List - 2*/}
             <h3 className="text-2xl font-bold text-gray-800">2. Idea Submission Features</h3>
@@ -176,8 +176,8 @@ export default function About() {
                 it.
               </li>
               <li>Users can join specific tasks like design, development, testing, or documentation.</li>
+              <hr className="border-black-300 mt-12 border-t-2" />+
             </ul>
-            <hr className="mt-12 border-t-2 border-gray-300" />
 
             {/* Idea List - 3*/}
             <h3 className="text-2xl font-bold text-gray-800">3. Tech Resources Features</h3>
@@ -205,8 +205,8 @@ export default function About() {
                 The platform can feature "Project of the Month" badges for standout submissions, encouraging
                 participation.
               </li>
+              <hr className="border-black-300 mt-12 border-t-2" />
             </ul>
-            <hr className="mt-12 border-t-2 border-gray-300" />
 
             {/* Idea List - 4*/}
             <h3 className="text-2xl font-bold text-gray-800">4. Project Showcase Features</h3>
@@ -231,6 +231,7 @@ export default function About() {
               <li>Bootcamp Listings</li>
               <li>Roadmaps and Guides</li>
               <li>Interview Preparation Kits, e.t.c..</li>
+              <hr className="border-black-300 mt-12 border-t-2" />
             </ul>
           </div>
         </section>
