@@ -137,7 +137,7 @@ export default function About() {
                 industry-recognized certifications to boost career prospects.
               </li>
             </ul>
-            <hr className="border-black-300 mt-12 border-t-2" />
+            <hr className="border-t-5 mt-12 border-gray-500" />
 
             {/* Idea List - 2*/}
             <h3 className="text-2xl font-bold text-gray-800">2. Idea Submission Features</h3>
@@ -177,7 +177,7 @@ export default function About() {
               </li>
               <li>Users can join specific tasks like design, development, testing, or documentation.</li>
             </ul>
-            <hr className="mt-12 border-t-2 border-gray-300" />
+            <hr className="border-t-5 mt-12 border-gray-500" />
 
             {/* Idea List - 3*/}
             <h3 className="text-2xl font-bold text-gray-800">3. Tech Resources Features</h3>
@@ -204,7 +204,7 @@ export default function About() {
               <li>Roadmaps and Guides</li>
               <li>Interview Preparation Kits, e.t.c..</li>
             </ul>
-            <hr className="border-t-5 mt-12 border-gray-300" />
+            <hr className="border-t-5 mt-12 border-gray-500" />
 
             {/* Idea List - 4*/}
             <h3 className="text-2xl font-bold text-gray-800">4. Project Showcase Features</h3>
@@ -229,6 +229,254 @@ export default function About() {
               <li>
                 The platform can feature "Project of the Month" badges for standout submissions, encouraging
                 participation.
+              </li>
+            </ul>
+            <hr className="border-t-5 mt-12 border-gray-500" />
+
+            {/* Idea List - 5*/}
+            <h3 className="text-2xl font-bold text-gray-800">5. Portfolio Ideas Features</h3>
+            <p className="mt-4 text-lg">
+              Add a feature that enables developers, designers, and tech enthusiasts to showcase their portfolios
+              through open-source contributions. Contributors can submit live project links, source code repositories,
+              and project details, helping others discover their work and build their own portfolios. This feature will
+              serve as a hub for inspiration and resources, allowing the community to learn from real-world examples,
+              improve their personal branding, nd connect with like-minded individuals.
+            </p>
+            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
+              <li>
+                Portfolio Submissions - Allows developers and designers to contribute their portfolios via open-source
+                submissions.
+              </li>
+              <li>
+                Live Project & Code Integration - Users can showcase their projects with direct links to demos and
+                repositories.
+              </li>
+              <li>Community Inspiration - Helps others learn from well-crafted portfolios and improve their own.</li>
+              <li>
+                Skill Development - Encourages contributors to refine their design, development, and presentation
+                skills.
+              </li>
+              <li>
+                Networking & Collaboration - Creates opportunities for professionals to connect with like-minded
+                individuals.
+              </li>
+              <li>
+                Featured Portfolios Section - Recognizes standout portfolios with a "Portfolio of the Month" badge to
+                encourage participation. Users can upvote or like projects they find impressive, helping boost
+                visibility and credibility.
+              </li>
+            </ul>
+            <hr className="border-t-5 mt-12 border-gray-500" />
+
+            {/* Idea List - 6*/}
+            <h3 className="text-2xl font-bold text-gray-800">6. Portfolio Building Features</h3>
+            <p className="mt-4 text-lg">
+              Add Portfolio Builder features an innovative, no-code tool designed to empower individuals—whether they
+              are developers, designers, tech enthusiasts, or anyone in between—to easily create stunning,
+              fully-responsive portfolio websites. Users can simply input their information, such as skills, projects,
+              experiences, and achievements, and the tool generates a beautiful, professional portfolio website tailored
+              to their needs. No coding skills required. The tool even includes live hosting, ensuring the portfolio is
+              online and accessible to potential employers or collaborators.
+            </p>
+            <h4 className="mt-4 text-xl font-semibold text-gray-800">Purpose of this feature:</h4>
+            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
+              <li>
+                The Portfolio Builder feature exists to provide an easy, intuitive solution for anyone seeking to create
+                a professional, visually appealing portfolio without the need for coding knowledge. By offering a
+                streamlined, no-code solution, this feature empowers users to showcase their personal and professional
+                brand in a polished and modern way, increasing their chances of standing out in the competitive tech
+                industry and beyond.
+              </li>
+            </ul>
+            <hr className="border-t-5 mt-12 border-gray-500" />
+
+            {/* Idea List - 7*/}
+            <h3 className="text-2xl font-bold text-gray-800">7. Resume Building Features</h3>
+            <p className="mt-4 text-lg">
+              Add the ATS-Optimized Resume Builder feature to help users create professional, ATS-friendly resumes
+              effortlessly. With pre-designed templates optimized specifically for Applicant Tracking Systems - ATS,
+              users can quickly fill in their details, generate a polished resume, and download it instantly, ready for
+              recruitment processes. Whether you're a developer, designer, or professional in any industry, this tool
+              ensures your resume is tailored for the modern job market. Also add a feature in this page to check the
+              strength of their existing resumes through a built-in analysis tool.
+            </p>
+            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
+              <li>Dynamic Suggestions: Use AI to suggest skills or keywords based on the user's input.</li>
+              <li>
+                Effortless Resume Creation: Choose from a variety of professionally designed templates optimized for
+                ATS, making sure your resume gets noticed by automated systems and human recruiters alike. Offer
+                templates tailored for different fields. e.g., design, development, data science.
+              </li>
+              <li>
+                ATS Score and Resume Checker: Upload your existing resume and receive an ATS score based on
+                industry-standard keywords, formatting, and structure. The tool will provide detailed suggestions for
+                improvements to help your resume pass ATS screenings and stand out to hiring managers. Provide a tool to
+                score resumes against common ATS standards and suggest improvements.
+              </li>
+            </ul>
+            <hr className="border-t-5 mt-12 border-gray-500" />
+
+            {/* Idea List - 8*/}
+            <h3 className="text-2xl font-bold text-gray-800">8. Community Discussion Features</h3>
+            <p className="mt-4 text-lg">
+              Add the Community Discussion Features on DevDisplay for cultivate a thriving, interactive space where
+              developers, designers, and tech enthusiasts can come together to share knowledge, collaborate, and engage
+              in meaningful conversations. These features foster an open and inclusive environment, enabling users to
+              discuss tech trends, career opportunities, project collaborations, and more. Whether you're brainstorming
+              new ideas, seeking advice, or connecting with like-minded professionals, the Community Discussion features
+              make DevDisplay the ultimate platform for dynamic collaboration.
+            </p>
+            <h4 className="mt-4 text-xl font-semibold text-gray-800">Features to Include:</h4>
+            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
+              <li>Real-Time Chat: Implement channels for discussions.</li>
+              <li>Threaded Conversations: Allow users to create threads for specific topics.</li>
+              <li>Reactions System: Users can react to messages with emojis 👍, ❤️, 🚀.</li>
+              <li>
+                Mentions and Notifications: Enable users to tag others with @username, sending them notifications.
+              </li>
+              <li>Searchable History: Add a search bar to browse past discussions quickly.</li>
+              <li>
+                Moderation Tools: Include moderation capabilities like blocking inappropriate content and banning users.
+              </li>
+            </ul>
+            <hr className="border-t-5 mt-12 border-gray-500" />
+
+            {/* Idea List - 9*/}
+            <h3 className="text-2xl font-bold text-gray-800">9. Tech Quiz Features </h3>
+            <p className="mt-4 text-lg">
+              Add the Tech Quiz Features on DevDisplay for engage and challenge the community with monthly quizzes that
+              test users' knowledge across a wide array of tech topics. Whether you're an expert in a specific field or
+              just getting started, these quizzes provide a fun and competitive way to showcase your skills, learn new
+              concepts, and earn rewards. By incorporating thematic quizzes, real-time leaderboards, and
+              community-generated content, DevDisplay ensures that learning and growth never stop.
+            </p>
+            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
+              <li>
+                Monthly Thematic Quizzes: New quizzes each month focusing on in-demand skills like Python, Web3, DevOps,
+                and more.
+              </li>
+              <li>
+                Real-Time Leaderboards: Track your progress and compare scores globally or within specific communities.
+              </li>
+              <li>
+                Community-Generated Quizzes: Users can create and share their own quizzes, fostering collaboration and
+                knowledge sharing.
+              </li>
+              <li>
+                Interactive Learning: Engaging quizzes with multiple-choice, fill-in-the-blank, and visual aids to
+                enhance learning.
+              </li>
+              <li>
+                Monthly Rewards: Top scorers get recognition and exclusive prizes like tech course discounts or premium
+                content access
+              </li>
+            </ul>
+            <hr className="border-t-5 mt-12 border-gray-500" />
+
+            {/* Idea List - 10*/}
+            <h3 className="text-2xl font-bold text-gray-800">10. AI Career Navigator Features</h3>
+            <p className="mt-4 text-lg">
+              Add the AI Career Navigator on DevDisplay to help students and professionals navigate their career
+              journeys with clarity and confidence. Choosing a career path and learning new skills can be overwhelming,
+              but this feature simplifies the process. By analyzing your current skills and desired role, the AI Career
+              Navigator provides a personalized roadmap, identifies skill gaps, and recommends relevant resources to
+              help you succeed. Whether you're just starting out or looking to level up, the AI Career Navigator ensures
+              you're on the right path with the support you need to achieve your career goals.
+            </p>
+            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
+              <li>
+                AI-Powered Skill Assessment: Analyze the user's current skills and match them to the requirements of
+                their desired role.
+              </li>
+              <li>
+                Personalized Career Roadmaps: Provide step-by-step guides for different career paths, highlighting key
+                skills and certifications needed.
+              </li>
+              <li>
+                Skill Gap Analysis: Identify missing skills and recommend specific actions or resources to bridge those
+                gaps.
+              </li>
+              <li>
+                Resource Recommendations: Suggest tailored learning materials, such as courses, tutorials, and articles,
+                based on the user's career goals.
+              </li>
+              <li>
+                Mentorship Matching: Connect users with experienced professionals for personalized career guidance.
+              </li>
+              <li>
+                Career Path Exploration: Allow users to explore various tech careers, including job roles, salary
+                expectations, and required skills.
+              </li>
+            </ul>
+            <hr className="border-t-5 mt-12 border-gray-500" />
+
+            {/* Idea List - 11*/}
+            <h3 className="text-2xl font-bold text-gray-800">11. Online Compiler Feature</h3>
+            <p className="mt-4 text-lg">
+              Add the Online Compiler feature on DevDisplay allows users to write, compile, and execute code directly
+              within the platform, without needing to set up a local development environment. This feature supports
+              multiple programming languages and provides an easy, convenient way for developers, students, and learners
+              to test and run their code in real-time. Whether you're learning a new language, practicing coding
+              challenges, or testing snippets, the online compiler makes coding more accessible and efficient.
+            </p>
+            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
+              <li>
+                Multi-Language Support: Enable compilation for multiple programming languages like Python, Java, C++,
+                JavaScript, and more.
+              </li>
+              <li>
+                Real-Time Code Execution: Allow users to execute code and view the output instantly, making it easy to
+                test ideas quickly.
+              </li>
+              <li>
+                Syntax Highlighting & Auto-Completion: Provide syntax highlighting and code suggestions to enhance the
+                coding experience and reduce errors.
+              </li>
+              <li>
+                Error Detection & Debugging: Show clear error messages and debugging tools to help users identify and
+                fix issues in their code.
+              </li>
+              <li>
+                Code Sharing: Allow users to share their code snippets or projects with others via links, enabling
+                collaboration and learning.
+              </li>
+              <li>
+                Collaborative Coding: Add features for real-time collaboration, where users can code together in shared
+                sessions.
+              </li>
+            </ul>
+            <hr className="border-t-5 mt-12 border-gray-500" />
+
+            {/* Idea List - 12*/}
+            <h3 className="text-2xl font-bold text-gray-800">12. Journey Showcase Feature</h3>
+            <p className="mt-4 text-lg">
+              Add the Journey Showcase feature on DevDisplay allows users to share their personal success stories,
+              offering detailed insights into how they cracked jobs, internships, or freelancing opportunities. By
+              highlighting their preparation strategies, challenges faced, and interview experiences, this feature
+              provides practical guidance and inspiration for others on similar paths. It helps users connect with
+              real-world success stories, learn from their peers, and gain actionable advice, making it an essential
+              resource for anyone looking to advance in their career.
+            </p>
+            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
+              <li>
+                User-Generated Success Stories: Allow users to submit their own stories, showcasing their preparation,
+                challenges, and key takeaways from job interviews or internships.
+              </li>
+              <li>
+                Step-by-Step Roadmap: Present each journey in a clear, structured format that breaks down the key steps
+                taken, resources used, and challenges overcome.
+              </li>
+              <li>
+                Search & Filter Options: Enable users to search stories based on role, industry, or skill set, helping
+                them find relevant journeys that align with their aspirations.
+              </li>
+              <li>
+                Engagement & Interaction: Allow other users to comment, ask questions, and share their thoughts on each
+                story, fostering community engagement and knowledge-sharing.
+              </li>
+              <li>
+                Journey Ratings & Reviews: Let users rate and review the usefulness of each journey to help others find
+                the most helpful stories.
               </li>
             </ul>
             <hr className="border-t-5 mt-12 border-gray-500" />
