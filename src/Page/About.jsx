@@ -45,7 +45,7 @@ export default function About() {
 
         <section className="container mx-auto mt-12 p-8 text-center">
           <motion.h2
-            className="text-2xl font-bold text-[#00a6fb]"
+            className="text-1xl font-bold text-[#00a6fb]"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
