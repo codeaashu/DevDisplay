@@ -92,10 +92,11 @@ Starring the repository is a mandatory step for all contributors and the first p
 </div>
 </details>
 <hr>
-<h1 align="center"> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Now the time to become a Dev Pioneer to Dev Enhancer and Dev Innovator <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /></h1>
-It’s depend on contributor to decide their path:<br>
+<h1 align="center"> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Now the time to become a Dev Pioneer to Dev Enhancer and Dev Innovator. It’s depend on contributor to decide their path.<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /></h1>
 
-- **Dev Enhancer:** Refine and elevate key features of DevDisplay by enhancing its UI with modern, responsive design, optimizing performance through faster load times and efficient resource management, and fine-tuning functionalities such as project showcases, user interactivity, and search capabilities. Transform DevDisplay into a seamless and engaging platform with intuitive navigation, collaborative tools, and personalized experiences, ensuring an exceptional user experience for all.
+# Dev Enhancer: <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" />
+
+- **Refine and elevate key features of DevDisplay by enhancing its UI with modern, responsive design, optimizing performance through faster load times and efficient resource management, and fine-tuning functionalities such as project showcases, user interactivity, and search capabilities. Transform DevDisplay into a seamless and engaging platform with intuitive navigation, collaborative tools, and personalized experiences, ensuring an exceptional user experience for all.**
 
 **Dev Enhancer Highlights:**
 
@@ -109,7 +110,8 @@ It’s depend on contributor to decide their path:<br>
 
 ---
 
-- **Dev Innovator:** Step into the spotlight as a creative force by introducing **new and groundbreaking tech features** to DevDisplay. This path isn’t just about coding—it’s about envisioning a future where DevDisplay evolves into a **global tech hub** that fulfills all tech needs for developers, contributors, and innovators alike.
+# Dev Innovator: <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" />
+- **Step into the spotlight as a creative force by introducing **new and groundbreaking tech features** to DevDisplay. This path isn’t just about coding—it’s about envisioning a future where DevDisplay evolves into a **global tech hub** that fulfills all tech needs for developers, contributors, and innovators alike.**
 
 **Dev Innovator Highlights:**
 
