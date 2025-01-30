@@ -190,6 +190,34 @@ export default function About() {
               top of the feed.
             </p>
 
+            <h4 className="mt-4 text-xl font-semibold text-gray-800">Purpose of this feature:</h4>
+            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
+              <li>Enable developers to add their projects to the showcase via open-source contributions.</li>
+              <li>Projects submitted by contributors will be listed on the ProjectShowcase page after review.</li>
+              <li>Each showcased project will feature a voting and liking mechanism to drive engagement.</li>
+              <li>Users can upvote or like projects they find impressive, helping boost visibility and credibility.</li>
+              <li>
+                A Trending Projects section will dynamically highlight the most popular and top-voted contributions.
+              </li>
+              <li>The system will dynamically highlight the most popular and trending projects in the community.</li>
+              <li>This feature will foster engagement and increase visibility for standout projects.</li>
+              <li>
+                The platform can feature "Project of the Month" badges for standout submissions, encouraging
+                participation.
+              </li>
+            </ul>
+            <hr className="mt-12 border-t-2 border-gray-300" />
+
+            {/* Idea List - 4*/}
+            <h3 className="text-2xl font-bold text-gray-800">4. Project Showcase Features</h3>
+            <p className="mt-4 text-lg">
+              Add a feature where developers can showcase their projects. Developers first add their projects through
+              open-source contributions, and then the projects are showcased here. Also, add an Interactive Voting and
+              Liking System: Each showcased project will have a voting or liking mechanism. Users can cast votes or like
+              projects they find impressive, helping highlight the most popular and trending projects within the
+              community. This feature will foster engagement and provide visibility to standout projects.
+            </p>
+
             <h4 className="mt-4 text-xl font-semibold text-gray-800">
               Add a feature on this Page where all the tech resources are available like:
             </h4>
