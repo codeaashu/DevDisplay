@@ -92,6 +92,39 @@ Starring the repository is a mandatory step for all contributors and the first p
 </div>
 </details>
 <hr>
+### Now the time to become a Dev Pioneer to **Dev Enhancer** and **Dev Innovator.**
+
+### It’s depend on contributor to decide their path:
+
+- **Dev Enhancer:** Refine and elevate key features of DevDisplay by enhancing its UI with modern, responsive design, optimizing performance through faster load times and efficient resource management, and fine-tuning functionalities such as project showcases, user interactivity, and search capabilities. Transform DevDisplay into a seamless and engaging platform with intuitive navigation, collaborative tools, and personalized experiences, ensuring an exceptional user experience for all.
+
+**Dev Enhancer Highlights:**
+
+1. **Modern, Responsive Design**: Enhance the UI with a sleek, modern look that adapts seamlessly to all devices and screen sizes.
+2. **Optimized Performance**: Improve load times and resource management to deliver a faster and smoother browsing experience.
+3. **Enhanced Functionalities**: Fine-tune project showcase features for better visibility and engagement. Improve user interactivity for a more dynamic and engaging platform. Upgrade search capabilities for more accurate and efficient results.
+4. **Intuitive Navigation**: Redesign the navigation system to make it simpler and more user-friendly.
+5. **Collaborative Tools**: Introduce and enhance tools that facilitate collaboration among users and contributors.
+6. **Personalized Experiences**: Add features to tailor the platform experience based on user preferences and needs.
+7. **Exceptional User Experience**: Focus on creating a seamless, engaging, and satisfying journey for all users.
+
+---
+
+- **Dev Innovator:** Step into the spotlight as a creative force by introducing **new and groundbreaking tech features** to DevDisplay. This path isn’t just about coding—it’s about envisioning a future where DevDisplay evolves into a **global tech hub** that fulfills all tech needs for developers, contributors, and innovators alike.
+
+**Dev Innovator Highlights:**
+
+1. **Create Tech Solutions:** Add features that address challenges faced by developers, such as interactive tools, tech roadmaps, or resource aggregators.
+2. **Enrich the Ecosystem:** Contribute to making DevDisplay a one-stop destination for collaboration, learning, and innovation in the tech community.
+3. **Think Global:** Develop tools that cater to a diverse audience, ensuring DevDisplay serves as a universal platform for tech enthusiasts worldwide.
+4. **Be a Visionary:** Your creativity will not only shape DevDisplay but also position you as a leader in transforming it into a globally recognized platform for technology and innovation.
+
+With every feature added, Dev Innovators play a pivotal role in crafting a future where **DevDisplay becomes the ultimate tech hub**, fulfilling the needs of developers and communities across the globe. You’ll leave a legacy of innovation that advances the open-source community.
+
+---
+
+### **So, Let’s Unlock the Next Level of Open Source & Be a Part of global vision with DevDisplay!**
+<hr
 
 <div align="center"><h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Top Prioritized Features for Contribution - After Profile Setup <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1>
 Below is a list of feature requests that need your focus. Please prioritize these before creating or working on other issues. Pick a feature request from the list above. Visit the linked issue details for a detailed description and requirements. Fork the repository, make your changes, and submit a pull request referencing the issue.
