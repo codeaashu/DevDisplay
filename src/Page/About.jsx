@@ -503,8 +503,8 @@ export default function About() {
 
             <h4 className="mt-4 text-center text-xl font-semibold text-gray-800">Be a Global Innovator</h4>
             <p className="mt-4 list-inside list-disc space-y-2 text-center text-lg">
-              As a contributor, you're not just adding features to a platform—you’re becoming part of a global community
-              that’s pushing the boundaries of technology.
+              As a contributor, you're not just adding features to a platform—you're becoming part of a global community
+              that's pushing the boundaries of technology.
             </p>
             <hr className="border-t-5 mt-12 border-gray-500" />
           </div>
@@ -516,11 +516,25 @@ export default function About() {
             whileHover={{ scale: 1.05 }}
             transition={{ type: 'spring', stiffness: 400, damping: 10 }}
           >
-            <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">Our Mission</h3>
-            <p className="text-gray-300">
-              We aim to connect developers globally, enabling them to collaborate on impactful projects, share
-              knowledge, and solve real-world problems together.
-            </p>
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">DevPioneer Badge</h3>
+                <p className="text-gray-300">How to Earn These Badges? Add your profile to the DevDisplay platform.</p>
+                <a
+                  href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-block rounded bg-[#00a6fb] px-4 py-2 text-white hover:bg-[#008dc9]"
+                >
+                  Click here to add your profile
+                </a>
+              </div>
+              <img
+                src="/public/assets/DevBadges/DevEnhancerpng.gif"
+                alt="DevPioneer Badge"
+                className="ml-4 h-16 w-16"
+              />
+            </div>
           </motion.div>
 
           <motion.div
@@ -528,11 +542,25 @@ export default function About() {
             whileHover={{ scale: 1.05 }}
             transition={{ type: 'spring', stiffness: 400, damping: 10 }}
           >
-            <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">Our Vision</h3>
-            <p className="text-gray-300">
-              We envision a world where developers thrive through collaboration, driving innovation, diversity, and
-              inclusivity in the tech industry.
-            </p>
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">DevPioneer Badge</h3>
+                <p className="text-gray-300">How to Earn These Badges? Add your profile to the DevDisplay platform.</p>
+                <a
+                  href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-block rounded bg-[#00a6fb] px-4 py-2 text-white hover:bg-[#008dc9]"
+                >
+                  Click here to add your profile
+                </a>
+              </div>
+              <img
+                src="/public/assets/DevBadges/DevEnhancerpng.gif"
+                alt="DevPioneer Badge"
+                className="ml-4 h-16 w-16"
+              />
+            </div>
           </motion.div>
 
           <motion.div
@@ -540,14 +568,25 @@ export default function About() {
             whileHover={{ scale: 1.05 }}
             transition={{ type: 'spring', stiffness: 400, damping: 10 }}
           >
-            <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">Core Principles</h3>
-            <ul className="list-inside list-disc space-y-2 text-left text-gray-300">
-              <li>Collaboration Over Competition</li>
-              <li>Open Source Contribution</li>
-              <li>Diversity & Inclusion</li>
-              <li>Innovation & Creativity</li>
-              <li>Knowledge Sharing</li>
-            </ul>
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">DevPioneer Badge</h3>
+                <p className="text-gray-300">How to Earn These Badges? Add your profile to the DevDisplay platform.</p>
+                <a
+                  href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-block rounded bg-[#00a6fb] px-4 py-2 text-white hover:bg-[#008dc9]"
+                >
+                  Click here to add your profile
+                </a>
+              </div>
+              <img
+                src="/public/assets/DevBadges/DevEnhancerpng.gif"
+                alt="DevPioneer Badge"
+                className="ml-4 h-16 w-16"
+              />
+            </div>
           </motion.div>
         </section>
 
