@@ -136,8 +136,8 @@ export default function About() {
                 <strong>Certifications & Skill Development:</strong> Showcase courses and training that provide
                 industry-recognized certifications to boost career prospects.
               </li>
-              <hr className="border-black-300 mt-12 border-t-2" />
             </ul>
+            <hr className="border-black-300 mt-12 border-t-2" />
 
             {/* Idea List - 2*/}
             <h3 className="text-2xl font-bold text-gray-800">2. Idea Submission Features</h3>
@@ -176,8 +176,8 @@ export default function About() {
                 it.
               </li>
               <li>Users can join specific tasks like design, development, testing, or documentation.</li>
-              <hr className="border-black-300 mt-12 border-t-2" />+
             </ul>
+            <hr className="mt-12 border-t-2 border-gray-300" />
 
             {/* Idea List - 3*/}
             <h3 className="text-2xl font-bold text-gray-800">3. Tech Resources Features</h3>
@@ -188,34 +188,6 @@ export default function About() {
               "React," "JavaScript," "CSS"). Resources are displayed in a feed with upvoting/downvoting functionality.
               Users can filter resources by tags or search for specific topics. The most upvoted resources appear at the
               top of the feed.
-            </p>
-
-            <h4 className="mt-4 text-xl font-semibold text-gray-800">Purpose of this feature:</h4>
-            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
-              <li>Enable developers to add their projects to the showcase via open-source contributions.</li>
-              <li>Projects submitted by contributors will be listed on the ProjectShowcase page after review.</li>
-              <li>Each showcased project will feature a voting and liking mechanism to drive engagement.</li>
-              <li>Users can upvote or like projects they find impressive, helping boost visibility and credibility.</li>
-              <li>
-                A Trending Projects section will dynamically highlight the most popular and top-voted contributions.
-              </li>
-              <li>The system will dynamically highlight the most popular and trending projects in the community.</li>
-              <li>This feature will foster engagement and increase visibility for standout projects.</li>
-              <li>
-                The platform can feature "Project of the Month" badges for standout submissions, encouraging
-                participation.
-              </li>
-              <hr className="border-black-300 mt-12 border-t-2" />
-            </ul>
-
-            {/* Idea List - 4*/}
-            <h3 className="text-2xl font-bold text-gray-800">4. Project Showcase Features</h3>
-            <p className="mt-4 text-lg">
-              Add a feature where developers can showcase their projects. Developers first add their projects through
-              open-source contributions, and then the projects are showcased here. Also, add an Interactive Voting and
-              Liking System: Each showcased project will have a voting or liking mechanism. Users can cast votes or like
-              projects they find impressive, helping highlight the most popular and trending projects within the
-              community. This feature will foster engagement and provide visibility to standout projects.
             </p>
 
             <h4 className="mt-4 text-xl font-semibold text-gray-800">
@@ -231,8 +203,35 @@ export default function About() {
               <li>Bootcamp Listings</li>
               <li>Roadmaps and Guides</li>
               <li>Interview Preparation Kits, e.t.c..</li>
-              <hr className="border-black-300 mt-12 border-t-2" />
             </ul>
+            <hr className="border-t-5 mt-12 border-gray-300" />
+
+            {/* Idea List - 4*/}
+            <h3 className="text-2xl font-bold text-gray-800">4. Project Showcase Features</h3>
+            <p className="mt-4 text-lg">
+              Add a feature where developers can showcase their projects. Developers first add their projects through
+              open-source contributions, and then the projects are showcased here. Also, add an Interactive Voting and
+              Liking System: Each showcased project will have a voting or liking mechanism. Users can cast votes or like
+              projects they find impressive, helping highlight the most popular and trending projects within the
+              community. This feature will foster engagement and provide visibility to standout projects.
+            </p>
+            <h4 className="mt-4 text-xl font-semibold text-gray-800">Purpose of this feature:</h4>
+            <ul className="mt-4 list-inside list-disc space-y-2 text-lg">
+              <li>Enable developers to add their projects to the showcase via open-source contributions.</li>
+              <li>Projects submitted by contributors will be listed on the ProjectShowcase page after review.</li>
+              <li>Each showcased project will feature a voting and liking mechanism to drive engagement.</li>
+              <li>Users can upvote or like projects they find impressive, helping boost visibility and credibility.</li>
+              <li>
+                A Trending Projects section will dynamically highlight the most popular and top-voted contributions.
+              </li>
+              <li>The system will dynamically highlight the most popular and trending projects in the community.</li>
+              <li>This feature will foster engagement and increase visibility for standout projects.</li>
+              <li>
+                The platform can feature "Project of the Month" badges for standout submissions, encouraging
+                participation.
+              </li>
+            </ul>
+            <hr className="border-t-5 mt-12 border-gray-500" />
           </div>
         </section>
 
