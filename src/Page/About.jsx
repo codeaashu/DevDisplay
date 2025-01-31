@@ -529,7 +529,7 @@ export default function About() {
           >
             <div className="flex items-center justify-between">
               <div>
-                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">DevPioneer Badge</h3>
+                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">DevPioneer</h3>
                 <p className="text-gray-200">Earn this badges by Add your profile to the DevDisplay platform.</p>
                 <a
                   href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
