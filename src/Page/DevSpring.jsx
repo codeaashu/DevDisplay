@@ -239,10 +239,44 @@ const DevSpring = () => {
             </p>
           </span>
         </p>
+
+        {/* Community Partners Section */}
+        <section className="container mx-auto mt-12 p-8 text-center">
+          <h2 className="mb-8 text-4xl font-bold text-[#00a6fb]">Our Community Partners</h2>
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {communityPartners.map((partner, index) => (
+              <div key={index} className="flex flex-col items-center">
+                <img src={partner.logo} alt={partner.name} className="mb-4 h-24 w-24" />
+                <p className="text-lg text-gray-300">{partner.name}</p>
+              </div>
+            ))}
+          </div>
+        </section>
       </main>
       <Footer />
     </div>
   );
 };
+
+const communityPartners = [
+  { name: 'TechXNinjas', logo: '/public/assets/Patners/TechXNinjas.png' },
+  { name: 'GirlsInTech', logo: '/public/assets/Patners/GirlsinTech.png' },
+  { name: 'Codecap', logo: '/public/assets/Patners/Codecap.png' },
+  { name: 'SoarXJMI', logo: '/public/assets/Patners/SoarXJMI.png' },
+  { name: 'DelhiNCRDAO', logo: '/public/assets/Patners/DelhiNCRDAO.jpg' },
+  { name: 'PostmanPune', logo: '/public/assets/Patners/PostmanPune.png' },
+  { name: 'NewbieCoders', logo: '/public/assets/Patners/NewbieCoders.png' },
+  { name: 'HelpOpsHub', logo: '/public/assets/Patners/HelpOpsHub.png' },
+  { name: 'TechVichaar', logo: '/public/assets/Patners/TechVichaar.jpg' },
+  { name: 'KaleidoNex', logo: '/public/assets/Patners/KaleidoNex.jpg' },
+  { name: 'SecureDev', logo: '/public/assets/Patners/SecureDev.jpg' },
+  { name: 'StudentSays', logo: '/public/assets/Patners/StudentSays.jpg' },
+  { name: 'WebForge', logo: '/public/assets/Patners/WebForge.png' },
+  { name: 'TechSavvy', logo: '/public/assets/Patners/TechSavvy.jpg' },
+  { name: 'ExploitXplorers', logo: '/public/assets/Patners/ExploitXplorers.jpeg' },
+  { name: 'HustlersHive', logo: '/public/assets/Patners/HustlersHive.png' },
+  { name: 'MindSpark', logo: '/public/assets/Patners/MindSpark.jpg' },
+  { name: 'NeXtute', logo: '/public/assets/Patners/NeXtute.jpg' },
+];
 
 export default DevSpring;
