@@ -243,7 +243,7 @@ const DevSpring = () => {
         {/* Community Partners Section */}
         <section className="container mx-auto mt-12 p-8 text-center">
           <h2 className="mb-8 text-4xl font-bold text-[#00a6fb]">Our Community Partners</h2>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-6">
             {communityPartners.map((partner, index) => (
               <div key={index} className="flex flex-col items-center">
                 <img src={partner.logo} alt={partner.name} className="mb-4 h-24 w-24" />
