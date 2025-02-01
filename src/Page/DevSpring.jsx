@@ -189,6 +189,19 @@ const DevSpring = () => {
           </div>
         </div>
 
+        {/* Sponsors Section */}
+        <section className="container mx-auto mt-12 p-8 text-center">
+          <h2 className="mb-8 text-4xl font-bold text-[#00a6fb]">Our Sponsors</h2>
+          <div className="flex flex-wrap justify-center gap-8">
+            {sponsors.map((sponsor, index) => (
+              <div key={index} className="flex flex-col items-center">
+                <img src={sponsor.logo} alt={sponsor.name} className="mb-4 h-24 w-24" />
+                <p className="text-lg text-gray-300">{sponsor.name}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
         {/* Community Partners Section */}
         <section className="container mx-auto mt-12 p-8 text-center">
           <h2 className="mb-8 text-4xl font-bold text-[#00a6fb]">Our Community Partners</h2>
@@ -258,6 +271,15 @@ const DevSpring = () => {
     </div>
   );
 };
+
+const sponsors = [
+  { name: 'JetBrains', logo: '/assets/Sponsors/JetBrains.jpg' },
+  { name: 'Axure', logo: '/assets/Sponsors/Axure.jpg' },
+  { name: 'Appycrown', logo: '/assets/Sponsors/Appycrown.jpg' },
+  { name: 'Solana', logo: '/assets/Sponsors/Solana.jpg' },
+  { name: 'Techgig', logo: '/assets/Sponsors/TechGig.jpg' },
+  { name: 'Krishost', logo: '/assets/Sponsors/Krishost.jpg' },
+];
 
 const communityPartners = [
   { name: 'TechXNinjas', logo: '/assets/Patners/TechXNinjas.png' },
