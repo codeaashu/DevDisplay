@@ -188,6 +188,20 @@ const DevSpring = () => {
             </a>
           </div>
         </div>
+
+        {/* Community Partners Section */}
+        <section className="container mx-auto mt-12 p-8 text-center">
+          <h2 className="mb-8 text-4xl font-bold text-[#00a6fb]">Our Community Partners</h2>
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-6">
+            {communityPartners.map((partner, index) => (
+              <div key={index} className="flex flex-col items-center">
+                <img src={partner.logo} alt={partner.name} className="mb-4 h-24 w-24" />
+                <p className="text-lg text-gray-300">{partner.name}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
         <div className="mt-4 flex items-center justify-center rounded-lg bg-gradient-to-r from-yellow-300 via-red-500 to-pink-500 p-4 text-lg text-white shadow-lg">
           <div className="rounded-lg bg-[#1e3a8a] p-6 text-white shadow-lg">
             <h3 className="text-xl font-bold">Guidelines</h3>
@@ -239,19 +253,6 @@ const DevSpring = () => {
             </p>
           </span>
         </p>
-
-        {/* Community Partners Section */}
-        <section className="container mx-auto mt-12 p-8 text-center">
-          <h2 className="mb-8 text-4xl font-bold text-[#00a6fb]">Our Community Partners</h2>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-6">
-            {communityPartners.map((partner, index) => (
-              <div key={index} className="flex flex-col items-center">
-                <img src={partner.logo} alt={partner.name} className="mb-4 h-24 w-24" />
-                <p className="text-lg text-gray-300">{partner.name}</p>
-              </div>
-            ))}
-          </div>
-        </section>
       </main>
       <Footer />
     </div>
