@@ -188,6 +188,33 @@ const DevSpring = () => {
             </a>
           </div>
         </div>
+
+        {/* Sponsors Section */}
+        <section className="container mx-auto mt-12 p-8 text-center">
+          <h2 className="mb-8 text-4xl font-bold text-[#00a6fb]">Our Sponsors</h2>
+          <div className="flex flex-wrap justify-center gap-8">
+            {sponsors.map((sponsor, index) => (
+              <div key={index} className="flex flex-col items-center">
+                <img src={sponsor.logo} alt={sponsor.name} className="mb-4 h-24 w-24" />
+                <p className="text-lg text-gray-300">{sponsor.name}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Community Partners Section */}
+        <section className="container mx-auto mt-12 p-8 text-center">
+          <h2 className="mb-8 text-4xl font-bold text-[#00a6fb]">Our Community Partners</h2>
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-6">
+            {communityPartners.map((partner, index) => (
+              <div key={index} className="flex flex-col items-center">
+                <img src={partner.logo} alt={partner.name} className="mb-4 h-24 w-24" />
+                <p className="text-lg text-gray-300">{partner.name}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
         <div className="mt-4 flex items-center justify-center rounded-lg bg-gradient-to-r from-yellow-300 via-red-500 to-pink-500 p-4 text-lg text-white shadow-lg">
           <div className="rounded-lg bg-[#1e3a8a] p-6 text-white shadow-lg">
             <h3 className="text-xl font-bold">Guidelines</h3>
@@ -244,5 +271,35 @@ const DevSpring = () => {
     </div>
   );
 };
+
+const sponsors = [
+  { name: 'JetBrains', logo: '/assets/Sponsors/JetBrains.jpg' },
+  { name: 'Axure', logo: '/assets/Sponsors/Axure.jpg' },
+  { name: 'Appycrown', logo: '/assets/Sponsors/Appycrown.jpg' },
+  { name: 'Solana', logo: '/assets/Sponsors/Solana.jpg' },
+  { name: 'Techgig', logo: '/assets/Sponsors/TechGig.jpg' },
+  { name: 'Krishost', logo: '/assets/Sponsors/Krishost.jpg' },
+];
+
+const communityPartners = [
+  { name: 'TechXNinjas', logo: '/assets/Patners/TechXNinjas.png' },
+  { name: 'GirlsInTech', logo: '/assets/Patners/GirlsinTech.png' },
+  { name: 'Codecap', logo: '/assets/Patners/Codecap.png' },
+  { name: 'SoarXJMI', logo: '/assets/Patners/SoarXJMI.png' },
+  { name: 'DelhiNCRDAO', logo: '/assets/Patners/DelhiNCRDAO.jpg' },
+  { name: 'PostmanPune', logo: '/assets/Patners/PostmanPune.png' },
+  { name: 'NewbieCoders', logo: '/assets/Patners/NewbieCoders.png' },
+  { name: 'HelpOpsHub', logo: '/assets/Patners/HelpOpsHub.png' },
+  { name: 'TechVichaar', logo: '/assets/Patners/TechVichaar.jpg' },
+  { name: 'KaleidoNex', logo: '/assets/Patners/KaleidoNex.jpg' },
+  { name: 'SecureDev', logo: '/assets/Patners/SecureDev.jpg' },
+  { name: 'StudentSays', logo: '/assets/Patners/StudentSays.jpg' },
+  { name: 'WebForge', logo: '/assets/Patners/WebForge.png' },
+  { name: 'TechSavvy', logo: '/assets/Patners/TechSavvy.jpg' },
+  { name: 'ExploitXplorers', logo: '/assets/Patners/ExploitXplorers.jpeg' },
+  { name: 'HustlersHive', logo: '/assets/Patners/HustlersHive.png' },
+  { name: 'MindSpark', logo: '/assets/Patners/MindSpark.jpg' },
+  { name: 'NeXtute', logo: '/assets/Patners/NeXtute.jpg' },
+];
 
 export default DevSpring;

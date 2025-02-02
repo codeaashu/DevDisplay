@@ -116,6 +116,28 @@ const TechFeatures = () => {
             <p>Create a professional resume with tips and templates tailored to the tech industry.</p>
           </div>
         </a>
+
+        <a
+          href="/journeys"
+          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="feature-card-inner rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold">Journeys Page</h3>
+            <p>
+              Explore inspiring stories of achievers, their challenges, and the strategies that led them to success.
+
+        <a //iamaloksy
+          href="/IndustryTrends"
+          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="feature-card-inner rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold">Industry Trends & Expert Insights</h3>
+            <p>Share articles and video content regularly to provide industry trends, expert interviews, and in-depth analysis. 
+               This would keep users updated with the latest trends and offer valuable career advice.
+
+            </p>
+          </div>
+        </a>
       </div>
 
       {/* Card for Adding New Features */}
