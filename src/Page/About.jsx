@@ -45,7 +45,7 @@ export default function About() {
 
         <section className="container mx-auto mt-12 p-8 text-center">
           <motion.h2
-            className="text-3xl font-bold text-[#00a6fb]"
+            className="text-1xl font-bold text-[#00a6fb]"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
@@ -55,7 +55,7 @@ export default function About() {
             Collab ▸ Code ▸ Create ▸ Conquer in the tech ecosystem.
           </motion.h2>
 
-          <div className="mt-6 space-y-4 rounded-lg bg-black p-6 text-lg text-white">
+          <div className="mt-6 rounded-lg bg-[#e3f2fd] p-6 text-center text-gray-900 shadow-md">
             <p>One platform to discover extraordinary tech talent.</p>
             <p>One platform to connect with like-minded tech enthusiasts.</p>
             <p>One platform to collaborate on innovative, groundbreaking ideas.</p>
@@ -71,8 +71,6 @@ export default function About() {
             <p>One platform to earn rewards and monetize your tech skills.</p>
             <p>One platform to enjoy exclusive benefits as a valued tech enthusiast.</p>
           </div>
-
-          <hr className="mt-12 border-t-2 border-gray-300" />
         </section>
 
         <section className="container mx-auto mt-12 p-8 text-center">
@@ -95,7 +93,7 @@ export default function About() {
             </p>
 
             <h4 className="mt-4 text-xl font-semibold text-gray-800">
-              Dynamic Opportunity Categories – Effortlessly organize opportunities into clearly defined, interactive
+              Dynamic Opportunity Categories - Effortlessly organize opportunities into clearly defined, interactive
               categories for easy navigation:
             </h4>
 
@@ -480,7 +478,47 @@ export default function About() {
               </li>
             </ul>
             <hr className="border-t-5 mt-12 border-gray-500" />
+
+            {/* Contribute Beyond the Core Features*/}
+            <h3 className="text-center text-2xl font-bold text-gray-800">Contribute Beyond the Core Features</h3>
+            <p className="mt-4 text-center text-lg">
+              While we have 12 key features that define our platform, we believe innovation is limitless. As a
+              contributor, you're encouraged to think beyond and add new, innovative features that can make a difference
+              in the tech ecosystem. Think outside the box and introduce features that can be revolutionary for tech
+              enthusiasts worldwide. If you spot a gap in the tech world, DevDisplay can be the solution.
+            </p>
+            <h4 className="mt-4 text-center text-xl font-semibold text-gray-800">For Every Tech Enthusiast</h4>
+            <p className="mt-4 list-inside list-disc space-y-2 text-center text-lg">
+              Whatever you need as a techy, DevDisplay has it all. Build your profile, find resources, collaborate, and
+              create without limitations.
+            </p>
+
+            <h4 className="mt-4 text-center text-xl font-semibold text-gray-800">Become Part of the Global Vision</h4>
+            <p className="mt-4 list-inside list-disc space-y-2 text-center text-lg">
+              Your contributions will help us provide everything developers need in one place—no more hopping between
+              multiple websites to find the resources you need. With your input, DevDisplay will grow into the go-to
+              platform for developers worldwide, fostering collaboration, learning, and innovation. One Platform.
+              Endless Opportunities.
+            </p>
+
+            <h4 className="mt-4 text-center text-xl font-semibold text-gray-800">Be a Global Innovator</h4>
+            <p className="mt-4 list-inside list-disc space-y-2 text-center text-lg">
+              As a contributor, you're not just adding features to a platform—you're becoming part of a global community
+              that's pushing the boundaries of technology.
+            </p>
+            <hr className="border-t-5 mt-12 border-gray-500" />
           </div>
+        </section>
+
+        <section className="text-center">
+          <a
+            href="https://swift-sheet-b33.notion.site/DevDisplay-Contribution-Guidelines-18a7d1f1565b80569377e5a610155ccc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-block rounded bg-[#00a6fb] px-4 py-2 text-white hover:bg-[#008dc9]"
+          >
+            Checkout the contribution guidelines!
+          </a>
         </section>
 
         <section className="container mx-auto grid gap-8 p-8 md:grid-cols-2 lg:grid-cols-3">
@@ -489,11 +527,21 @@ export default function About() {
             whileHover={{ scale: 1.05 }}
             transition={{ type: 'spring', stiffness: 400, damping: 10 }}
           >
-            <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">Our Mission</h3>
-            <p className="text-gray-300">
-              We aim to connect developers globally, enabling them to collaborate on impactful projects, share
-              knowledge, and solve real-world problems together.
-            </p>
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">DevPioneer</h3>
+                <p className="text-gray-200">Earn this badges by Add your profile to the DevDisplay platform.</p>
+                <a
+                  href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-block rounded bg-[#00a6fb] px-2 py-2 text-white hover:bg-[#008dc9]"
+                >
+                  Click here to checkout
+                </a>
+              </div>
+              <img src="./DevPioneerpng.gif" alt="DevPioneer Badge" className="ml-4 h-40 w-40" />
+            </div>
           </motion.div>
 
           <motion.div
@@ -501,11 +549,21 @@ export default function About() {
             whileHover={{ scale: 1.05 }}
             transition={{ type: 'spring', stiffness: 400, damping: 10 }}
           >
-            <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">Our Vision</h3>
-            <p className="text-gray-300">
-              We envision a world where developers thrive through collaboration, driving innovation, diversity, and
-              inclusivity in the tech industry.
-            </p>
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">Dev Enhancer</h3>
+                <p className="text-gray-200">Earn this badges by improve or refine existing features.</p>
+                <a
+                  href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#dev-enhancer-"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-block rounded bg-[#00a6fb] px-2 py-2 text-white hover:bg-[#008dc9]"
+                >
+                  Click here to checkout
+                </a>
+              </div>
+              <img src="./DevEnhancerpng.gif" alt="DevPioneer Badge" className="ml-4 h-40 w-40" />
+            </div>
           </motion.div>
 
           <motion.div
@@ -513,14 +571,21 @@ export default function About() {
             whileHover={{ scale: 1.05 }}
             transition={{ type: 'spring', stiffness: 400, damping: 10 }}
           >
-            <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">Core Principles</h3>
-            <ul className="list-inside list-disc space-y-2 text-left text-gray-300">
-              <li>Collaboration Over Competition</li>
-              <li>Open Source Contribution</li>
-              <li>Diversity & Inclusion</li>
-              <li>Innovation & Creativity</li>
-              <li>Knowledge Sharing</li>
-            </ul>
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="mb-4 text-2xl font-bold text-[#00a6fb]">Dev Innovator</h3>
+                <p className="text-gray-300">Earn this badges by add innovative, creative features.</p>
+                <a
+                  href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#dev-innovator-"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-block rounded bg-[#00a6fb] px-2 py-2 text-white hover:bg-[#008dc9]"
+                >
+                  Click here to checkout
+                </a>
+              </div>
+              <img src="./DevInnovatorpng.gif" alt="DevPioneer Badge" className="ml-4 h-40 w-40" />
+            </div>
           </motion.div>
         </section>
 
