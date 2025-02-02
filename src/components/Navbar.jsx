@@ -28,6 +28,10 @@ const Navbar = () => {
             <Medal className="h-6 w-6" />
             About
           </a>
+          <a href="/Contribution" className="flex items-center gap-2 rounded-full border border-white p-3">
+            <HandHelping className="h-6 w-6" />
+            Contribution Guide
+          </a>
           <a href="/DevSpring" className="flex items-center gap-2 rounded-full border border-white p-3">
             <HandHelping className="h-6 w-6" />
             DevSpring
@@ -94,6 +98,15 @@ const Navbar = () => {
           >
             <Medal className="h-6 w-6" />
             About
+          </a>
+          <a
+            href="/Contribution"
+            className={`flex transform items-center gap-2 rounded-full border border-white p-3 transition duration-500 ease-out ${
+              isOpen ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'
+            } delay-[300ms]`}
+          >
+            <HandHelping className="h-6 w-6" />
+            Contribution Guide
           </a>
           <a
             href="/DevSpring"

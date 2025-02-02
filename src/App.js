@@ -22,9 +22,11 @@ import InterviewPrep from './Resouces_Pages/InterviewPrep.jsx';
 import TopGithubRepo from './Resouces_Pages/TopGithubRepo.jsx';
 import ContributionsGuide from './Resouces_Pages/ContributionsGuide.jsx';
 import About from './Page/About.jsx';
+import Contribution from './Page/Contribution.jsx';
 import PageNotFound from './Page/PageNotFound.jsx';
 import SponsorUs from './Page/Sponsor.jsx';
-
+import AchieverJourneyPage from './components/AchievementJourney/IndividualJourney.js';
+import JourneyPage from './Page/JourneyPage.jsx';
 function App() {
   return (
     <BrowserRouter>
@@ -97,6 +99,9 @@ function App() {
         <Route path="/github" element={<TopGithubRepo />} />
         <Route path="/community" element={<ContributionsGuide />} />
         <Route path="/SponsorUs" element={<SponsorUs />} />
+        <Route path="/achiever" element={<AchieverJourneyPage />} />
+        <Route path="/journeys" element={<JourneyPage />} />
+        <Route path="/Contribution" element={<Contribution />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
