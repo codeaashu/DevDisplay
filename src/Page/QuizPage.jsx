@@ -1,62 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
-const questionsData = [
-  {
-    question: 'What is React?',
-    options: ['A library for building UI', 'A database', 'A backend framework', 'A CSS preprocessor'],
-    answer: 'A library for building UI',
-  },
-  {
-    question: 'What is JSX?',
-    options: ['A JavaScript syntax extension', 'A database query language', 'A CSS framework', 'A backend API'],
-    answer: 'A JavaScript syntax extension',
-  },
-  {
-    question: 'Which hook is used for side effects in React?',
-    options: ['useState', 'useContext', 'useEffect', 'useRef'],
-    answer: 'useEffect',
-  },
-  {
-    question: 'Which of the following is a state management library for React?',
-    options: ['Bootstrap', 'Redux', 'Express', 'MongoDB'],
-    answer: 'Redux',
-  },
-  {
-    question: 'What does useState return?',
-    options: ['A function', 'An array with two values', 'A single object', 'A number'],
-    answer: 'An array with two values',
-  },
-  {
-    question: 'Which company developed React?',
-    options: ['Google', 'Microsoft', 'Apple', 'Facebook'],
-    answer: 'Facebook',
-  },
-  {
-    question: 'What is the purpose of useRef?',
-    options: [
-      'To manage state',
-      'To fetch data',
-      'To define a function',
-      'To store a mutable value that persists across renders',
-    ],
-    answer: 'To store a mutable value that persists across renders',
-  },
-  {
-    question: 'Which method is used to update the state in a class component?',
-    options: ['updateState', 'setState', 'changeState', 'modifyState'],
-    answer: 'setState',
-  },
-  {
-    question: 'What is the virtual DOM?',
-    options: ['A JavaScript function', 'A lightweight copy of the real DOM', 'A new HTML version', 'A database model'],
-    answer: 'A lightweight copy of the real DOM',
-  },
-  {
-    question: 'What does useContext do?',
-    options: ['Creates a new state variable', 'Fetches data', 'Adds CSS styling', 'Accesses the value of a context'],
-    answer: 'Accesses the value of a context',
-  },
-];
+import questionsData from './questionsData.json'; // Import JSON data
 
 const QuizPage = () => {
   const [questions, setQuestions] = useState([]);
@@ -64,19 +7,15 @@ const QuizPage = () => {
   const [selectedOptions, setSelectedOptions] = useState({});
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [score, setScore] = useState(0);
+  const [difficulty, setDifficulty] = useState('Basic'); // Default difficulty
 
   useEffect(() => {
-    shuffleQuestions();
-  }, []);
+    filterQuestionsByDifficulty();
+  }, [difficulty]);
 
-  const shuffleQuestions = () => {
-    const shuffledQuestions = [...questionsData]
-      .map((q) => ({
-        ...q,
-        options: q.options.sort(() => Math.random() - 0.5),
-      }))
-      .sort(() => 0.5 - Math.random());
-    setQuestions(shuffledQuestions);
+  const filterQuestionsByDifficulty = () => {
+    const filteredQuestions = questionsData.filter(q => q.difficulty === difficulty);
+    setQuestions(filteredQuestions);
     setCurrentQuestion(0);
     setSelectedOptions({});
     setQuizCompleted(false);
@@ -100,12 +39,29 @@ const QuizPage = () => {
     }
   };
 
+  const handleDifficultyChange = (e) => {
+    setDifficulty(e.target.value); // Update difficulty
+  };
+
   return (
     <div className="min-h-screen bg-gray-900 p-6 text-white">
       <header className="mb-6 w-full rounded-md bg-[#00a6fb] py-4 text-center">
         <h1 className="text-4xl font-bold">Quiz</h1>
         <p className="mt-2 text-sm">Test your coding knowledge with this quiz.</p>
       </header>
+
+      <div className="flex justify-center mb-6">
+        <select
+          value={difficulty}
+          onChange={handleDifficultyChange}
+          className="bg-gray-700 text-white p-2 rounded-md"
+        >
+          <option value="Basic">Basic</option>
+          <option value="Intermediate">Intermediate</option>
+          <option value="Advanced">Advanced</option>
+        </select>
+      </div>
+
       {quizCompleted ? (
         <div className="mx-auto max-w-2xl rounded-lg bg-gray-800 p-6 shadow-lg">
           <h2 className="text-center text-2xl font-bold">Quiz Completed!</h2>
@@ -123,8 +79,8 @@ const QuizPage = () => {
                       option === q.answer
                         ? 'bg-green-500 text-white'
                         : selectedOptions[index] === option
-                          ? 'bg-red-500 text-white'
-                          : 'bg-gray-600'
+                        ? 'bg-red-500 text-white'
+                        : 'bg-gray-600'
                     }`}
                   >
                     {option}
@@ -134,7 +90,7 @@ const QuizPage = () => {
             ))}
           </div>
           <button
-            onClick={shuffleQuestions}
+            onClick={filterQuestionsByDifficulty}
             className="mt-6 w-full rounded-lg bg-[#00a6fb] py-2 text-white hover:bg-[#0096e6]"
           >
             Restart Quiz
