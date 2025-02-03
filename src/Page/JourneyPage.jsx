@@ -14,7 +14,6 @@ const JourneyPage = () => {
   const achieversPerPage = 6;
 
   useEffect(() => {
-    // Set data from data.jsx
     setAllAchievers(achievers);
     setFilteredAchievers(achievers);
     setVisibleAchievers(achievers.slice(0, achieversPerPage));
@@ -92,22 +91,14 @@ const JourneyPage = () => {
 };
 
 const AchieverCard = ({ achiever }) => {
-  const {
-    id,
-    name,
-    domain,
-    keyAchievements, // Changed from achievements
-    socialsAndPortfolio, // Changed from resources
-    imageURL, // Changed from image
-  } = achiever;
+  const { id, name, domain, keyAchievements, socialsAndPortfolio, imageURL } = achiever;
   const navigate = useNavigate();
   const handleViewMore = () => {
-    navigate(`/achiever/${id}`);
+    navigate(`/journeys/${id}`);
   };
   return (
     <>
       <div className="relative flex h-full w-96 flex-col rounded-lg border border-gray-700 bg-gray-800 p-5 shadow-lg transition-all duration-300 hover:scale-105">
-        {/* Circular Image on the Right Side */}
         <div className="absolute right-5 top-5">
           <img
             src={imageURL || 'https://via.placeholder.com/150'}
@@ -115,14 +106,8 @@ const AchieverCard = ({ achiever }) => {
             className="h-16 w-16 rounded-full border-2 border-[#00a6fb] object-cover"
           />
         </div>
-
-        {/* Name */}
         <h2 className="text-xl font-semibold text-white">{name}</h2>
-
-        {/* Domain */}
         <p className="mt-2 text-sm text-gray-400">{domain}</p>
-
-        {/* Achievements */}
         <div className="my-4">
           <h3 className="text-lg font-semibold text-white">Achievements</h3>
           <ul className="list-disc pl-5 text-sm text-gray-400">
@@ -132,7 +117,6 @@ const AchieverCard = ({ achiever }) => {
           </ul>
         </div>
 
-        {/* Socials */}
         <div className="mb-4">
           <h3 className="text-lg font-semibold text-white">Socials</h3>
           <div className="flex space-x-4 text-2xl font-bold">
@@ -163,7 +147,6 @@ const AchieverCard = ({ achiever }) => {
           </div>
         </div>
 
-        {/* View More Button */}
         <div className="mt-auto">
           <button
             onClick={handleViewMore}

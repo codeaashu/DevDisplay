@@ -1,0 +1,14 @@
+{
+  "name": "Piyush Gupta",
+  "location": "Amethi, Uttar Pradesh",
+  "bio": "Passionate full-stack web developer dedicated to crafting seamless, user-centric digital experiences. Proficient in frontend and backend technologies, with a drive for innovation and problem-solving.",
+  "avatar": "https://github.com/Piyush-t24.png",
+  "portfolio": "https://www.piyushgupta.me/",
+  "skills": ["C", "C++", "HTML5","CSS3","SASS", "JavaScript", "MySQL", "MongoDB","ReactJS", "NodeJS", "Express.JS", "Bootstrap", "Git & Github", "Postman", "NPM"],
+  "social": {
+    "GitHub": "https://github.com/Piyush-t24",
+    "Twitter": "https://x.com/PiyushGupt30132?t=-A6fACSF51krl6xMRSP58A&s=08",
+    "LinkedIn": "http://www.linkedin.com/in/piyush-gupta-rgipt",
+    "Instagram": "https://www.instagram.com/piyush_t24?igsh=MTNld2V3enRwazU2cA=="
+  }
+}

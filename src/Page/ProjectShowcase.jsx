@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import useDebounce from '../hooks/useDebouncer';
 import projectsData from '../DB/projects.json';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { Footer } from '../components/Footer/Footer';
 
 const ProjectsPage = () => {
@@ -102,7 +102,7 @@ const ProjectsPage = () => {
 };
 
 const ProjectCard = ({ project }) => {
-  const { title, description, tech, github_url, username, maker_image } = project;
+  const { title, description, tech, github_url, username, maker_image, live_url } = project;
 
   return (
     <div className="rounded-lg border border-gray-700 bg-gray-800 p-5 shadow-lg transition-all duration-300 hover:scale-105">
@@ -127,6 +127,16 @@ const ProjectCard = ({ project }) => {
         >
           <FaGithub className="mr-1" /> View on GitHub
         </a>
+        {live_url && (
+          <a
+            href={github_url}
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center text-sm text-[#00a6fb] hover:underline"
+          >
+            <FaExternalLinkAlt className="mr-1" /> View Live Demo
+          </a>
+        )}
         <a
           href={`https://github.com/${username}`}
           target="_blank"
