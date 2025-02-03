@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'; // Import React and hooks
 import { Search, PlusCircle, Trash } from 'lucide-react'; // Import icons from 'lucide-react'
-import { Footer } from "../components/Footer/Footer"; // Import Footer component
+import { Footer } from '../components/Footer/Footer'; // Import Footer component
 import { Dialog } from '@headlessui/react'; // Import Dialog component from Headless UI
 
 // Navbar Component
@@ -28,14 +28,17 @@ const Hero = () => {
   return (
     <section className="hero-section flex min-h-[70vh] p-8 text-white">
       <div className="container mx-auto flex flex-col items-center justify-center text-center">
-        <div className="p-8 border border-[#00a6fb] rounded-tl-[50px] rounded-br-[50px] mb-10 shadow-lg">
-          <p className="text-lg font-semibold text-[#00a6fb] tracking-widest">Discover the Latest Industry Insights 🌐</p>
+        <div className="mb-10 rounded-br-[50px] rounded-tl-[50px] border border-[#00a6fb] p-8 shadow-lg">
+          <p className="text-lg font-semibold tracking-widest text-[#00a6fb]">
+            Discover the Latest Industry Insights 🌐
+          </p>
         </div>
-        <h2 className="text-5xl font-bold mb-8">
+        <h2 className="mb-8 text-5xl font-bold">
           Industry <span className="text-[#00a6fb]">Trends</span>
         </h2>
-        <p className="text-lg max-w-3xl mx-auto leading-relaxed text-gray-300">
-          Discover the latest updates on industry trends through insightful blogs and engaging video content to stay ahead.
+        <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-300">
+          Discover the latest updates on industry trends through insightful blogs and engaging video content to stay
+          ahead.
         </p>
       </div>
     </section>
@@ -45,7 +48,9 @@ const Hero = () => {
 // SearchBar Component
 const SearchBar = ({ searchQuery, setSearchQuery }) => {
   return (
-    <div className="relative mx-auto w-full max-w-4xl"> {/* Adjust max-width here */}
+    <div className="relative mx-auto w-full max-w-4xl">
+      {' '}
+      {/* Adjust max-width here */}
       <div className="relative">
         <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 transform text-gray-400" />
         <input
@@ -70,11 +75,10 @@ const IndustryTrendsSec = () => {
   const [contentType, setContentType] = useState(''); // Track content type (blog/video)
   const [isModalOpen, setIsModalOpen] = useState(false); // Control modal visibility
   const [searchQuery, setSearchQuery] = useState(''); // Control search input state
-  
+
   const [newTitle, setNewTitle] = useState(''); // New blog title
   const [newDescription, setNewDescription] = useState(''); // New blog description
-  const 
-  [newAuthor, setNewAuthor] = useState(''); // New blog author name
+  const [newAuthor, setNewAuthor] = useState(''); // New blog author name
   const [newImage, setNewImage] = useState(null); // New image for blog
 
   useEffect(() => {
@@ -94,15 +98,18 @@ const IndustryTrendsSec = () => {
 
     const imageURL = newImage ? URL.createObjectURL(newImage) : null; // Handle image if provided
     const currentTime = new Date().toLocaleString(); // Automatically set current date and time
-    setTrends([{ 
-      type: contentType,
-      title: newTitle.trim(),
-      description: newDescription.trim(),
-      author: newAuthor.trim(),
-      publishTime: currentTime, // Set publish time to current time
-      content: newContent.trim(),
-      image: imageURL,
-    }, ...trends]); // Prepend new trend to the array
+    setTrends([
+      {
+        type: contentType,
+        title: newTitle.trim(),
+        description: newDescription.trim(),
+        author: newAuthor.trim(),
+        publishTime: currentTime, // Set publish time to current time
+        content: newContent.trim(),
+        image: imageURL,
+      },
+      ...trends,
+    ]); // Prepend new trend to the array
     // Clear form fields after adding content
     setNewContent('');
     setNewTitle('');
@@ -117,34 +124,35 @@ const IndustryTrendsSec = () => {
     setTrends(updatedTrends);
   };
 
-  const filteredTrends = trends.filter((trend) =>
-    trend.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    trend.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    trend.content.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    trend.author.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    trend.publishTime.toLowerCase().includes(searchQuery.toLowerCase())
+  const filteredTrends = trends.filter(
+    (trend) =>
+      trend.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      trend.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      trend.content.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      trend.author.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      trend.publishTime.toLowerCase().includes(searchQuery.toLowerCase()),
   ); // Filter trends based on search query
 
   return (
     <div>
-      <div className="p-6 flex items-center justify-between">
-  <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
-  <div className="flex gap-4">
-    <button
-      onClick={() => openModal('blog')} // Open modal to add a new blog
-      className="flex items-center gap-2 rounded-full bg-blue-600 px-4 py-2 text-white hover:bg-blue-700 margin-left-5"
-    >
-      <PlusCircle className="h-5 w-5" /> Add Blog
-    </button>
-  </div>
-</div>
+      <div className="flex items-center justify-between p-6">
+        <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+        <div className="flex gap-4">
+          <button
+            onClick={() => openModal('blog')} // Open modal to add a new blog
+            className="margin-left-5 flex items-center gap-2 rounded-full bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
+          >
+            <PlusCircle className="h-5 w-5" /> Add Blog
+          </button>
+        </div>
+      </div>
 
       {/* Modal for adding new content */}
       <Dialog open={isModalOpen} onClose={() => setIsModalOpen(false)} className="relative z-50">
         <div className="fixed inset-0 bg-black bg-opacity-50"></div>
         <div className="fixed inset-0 flex items-center justify-center">
-          <div className="rounded-lg bg-gray-800 p-6 text-white shadow-lg max-w-md w-full">
-            <h2 className="text-lg font-bold mb-4">Add Blog</h2>
+          <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white shadow-lg">
+            <h2 className="mb-4 text-lg font-bold">Add Blog</h2>
             {/* Form fields for blog details */}
             <input
               type="text"
@@ -152,31 +160,31 @@ const IndustryTrendsSec = () => {
               onChange={(e) => setNewTitle(e.target.value)} // Handle title input
               placeholder="Enter blog title"
               required
-              className="w-full rounded-md bg-gray-700 p-2 text-white outline-none placeholder-gray-400 mb-4"
+              className="mb-4 w-full rounded-md bg-gray-700 p-2 text-white placeholder-gray-400 outline-none"
             />
             <textarea
               value={newDescription}
               onChange={(e) => setNewDescription(e.target.value)} // Handle description input
               placeholder="Enter blog description"
-              className="w-full rounded-md bg-gray-700 p-2 text-white outline-none placeholder-gray-400 h-28 mb-4"
+              className="mb-4 h-28 w-full rounded-md bg-gray-700 p-2 text-white placeholder-gray-400 outline-none"
             />
             <input
               type="text"
               value={newAuthor}
               onChange={(e) => setNewAuthor(e.target.value)} // Handle author input
               placeholder="Enter author name"
-              className="w-full rounded-md bg-gray-700 p-2 text-white outline-none placeholder-gray-400 mb-4"
+              className="mb-4 w-full rounded-md bg-gray-700 p-2 text-white placeholder-gray-400 outline-none"
             />
             <input
               type="file"
               onChange={(e) => setNewImage(e.target.files[0])} // Handle image upload
-              className="w-full text-gray-400 mb-4"
+              className="mb-4 w-full text-gray-400"
             />
             <textarea
-              value={ newContent}
+              value={newContent}
               onChange={(e) => setNewContent(e.target.value)} // Handle blog content input
               placeholder="Enter blog content..."
-              className="w-full rounded-md bg-gray-700 p-2 text-white outline-none placeholder-gray-400 h-28 mb-4"
+              className="mb-4 h-28 w-full rounded-md bg-gray-700 p-2 text-white placeholder-gray-400 outline-none"
             />
             {/* Buttons for submitting or canceling */}
             <div className="flex justify-end gap-4">
@@ -199,21 +207,25 @@ const IndustryTrendsSec = () => {
 
       {/* Display saved trends */}
       <div className="mt-8 px-6">
-        <h2 className="text-white text-2xl font-bold">Top Trends</h2>
+        <h2 className="text-2xl font-bold text-white">Top Trends</h2>
         <div className="mt-4 space-y-4">
           {filteredTrends.map((trend, index) => (
             <div key={index} className="flex rounded-md bg-gray-800 p-4 text-white">
               {trend.image && (
                 <div className="w-1/4">
-                  <img src={trend.image} alt="Blog image" className="rounded-md w-full h-auto" />
+                  <img src={trend.image} alt="Blog image" className="h-auto w-full rounded-md" />
                 </div>
               )}
-              <div className="w-3/4 ml-4">
+              <div className="ml-4 w-3/4">
                 <h3 className="text-xl font-semibold">{trend.title}</h3>
                 <p>{trend.description}</p>
-                <p className="text-gray-400">By {trend.author} | {trend.publishTime}</p>
+                <p className="text-gray-400">
+                  By {trend.author} | {trend.publishTime}
+                </p>
                 {trend.type === 'blog' && (
-                  <p><strong>Blog:</strong> {trend.content}</p>
+                  <p>
+                    <strong>Blog:</strong> {trend.content}
+                  </p>
                 )}
                 {/* Uncomment to enable delete functionality */}
                 {/* <button
@@ -227,7 +239,8 @@ const IndustryTrendsSec = () => {
           ))}
         </div>
       </div>
-      <br /><br />
+      <br />
+      <br />
     </div>
   );
 };
