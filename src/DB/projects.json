@@ -4194,5 +4194,38 @@
         "maker_image": "https://github.com/Adeesh-bode.png"
       }
     ]
+  },
+  {
+    "github_username": "Yaddalapalli-Charan-Kumar-Naidu",
+    "Projects": [
+      {
+        "github_url": "https://github.com/Yaddalapalli-Charan-Kumar-Naidu/ResumeCraft_frontend.git",
+        "live_url": "https://resume-craft-frontend-three.vercel.app/",
+        "title": "Resume Craft",
+        "description": "Build, edit, and manage professional resumes with customizable templates, real-time previews, and seamless updates",
+        "tech": ["ReactJS", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Material UI"],
+        "maker_image": "https://avatars.githubusercontent.com/u/156291108?v=4"
+      }
+    ]
+  },
+  {
+    "github_username": "revanthkumarJ",
+    "Projects": [
+      {
+        "github_url": "https://github.com/revanthkumarJ/kisan_connect_client",
+        "title": "Kisan Connect",
+        "description": "Kisan Connect bridges farmers and customers, simplifying communication, transactions, and deliveries with user-friendly, tailored interfaces.",
+        "tech": ["React Js", "Material Ui", "Express JS", "MongoDB", "TypeScript"],
+        "maker_image": "https://avatars.githubusercontent.com/u/146642552?s=400&u=d94b12cfbbcb29b782a4e780eb4419b7932beb5f&v=4"
+      },
+      {
+        "github_url": "https://github.com/revanthkumarJ/my-portfolio",
+        "live_url": "https://revanthkumarj.github.io/my-portfolio/",
+        "title": "Portfolio Website",
+        "description": "My Portfolio showcasing my skills, certificates, education and experience",
+        "tech": ["React Js", "Material Ui", "GitHub"],
+        "maker_image": "https://avatars.githubusercontent.com/u/146642552?s=400&u=d94b12cfbbcb29b782a4e780eb4419b7932beb5f&v=4"
+      }
+    ]
   }
 ]
