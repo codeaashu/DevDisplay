@@ -26,6 +26,7 @@ import Contribution from './Page/Contribution.jsx';
 import PageNotFound from './Page/PageNotFound.jsx';
 import SponsorUs from './Page/Sponsor.jsx';
 import AchieverJourneyPage from './components/AchievementJourney/IndividualJourney.js';
+import IndustryTrends from './Page/IndustryTrends.jsx';
 import JourneyPage from './Page/JourneyPage.jsx';
 function App() {
   return (
@@ -101,6 +102,7 @@ function App() {
         <Route path="/SponsorUs" element={<SponsorUs />} />
         <Route path="/journeys/:id" element={<AchieverJourneyPage />} />
         <Route path="/journeys" element={<JourneyPage />} />
+        <Route path="/IndustryTrends" element={<IndustryTrends />} />
         <Route path="/Contribution" element={<Contribution />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
