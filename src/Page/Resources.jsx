@@ -114,6 +114,12 @@ const ResourceCards = () => {
       link: '/interview-kits',
       tags: ['interviews', 'preparation', 'resources'],
     },
+    {
+      title: 'Resource Sharing Hub',
+      description: 'Share and explore valuable resources for developers',
+      link: '/ResourceSharing',
+      tags: ['sharing', 'resources'],
+    },
   ];
 
   const filteredResources = resources.filter((resource) => {
