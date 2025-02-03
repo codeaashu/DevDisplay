@@ -5,7 +5,7 @@ import { Footer } from '../components/Footer/Footer';
 
 const Hero = () => {
   return (
-    <section className="hero-section mt-20 flex min-h-screen flex-col items-center justify-center text-white ">
+    <section className="hero-section mt-20 flex flex-col  items-center justify-center text-white sm:min-h-screen ">
       <div className="flex w-full flex-col items-center justify-center px-8 text-center">
         <p className="text-md mx-auto mb-10 w-fit rounded-full bg-[#ffffff36] p-2 text-center">
           <a href="https://github.com/codeaashu/DevDisplay" target="_blank">
@@ -18,7 +18,7 @@ const Hero = () => {
         </h2>
         <p className="text-md md:text-md mx-auto my-8 max-w-2xl">Global platform that fulfills all your tech needs</p>
       </div>
-      <div className="relative -top-10 left-16 flex h-[400px] w-full max-w-[600px] items-center justify-center md:h-[500px] lg:h-[600px]">
+      <div className="mb-[-80%] xs:mb-[-22%] sm:mb-[-15%] md:mb-[-12%] lg:mb-[-10%] xl:mb-[-16%] 2xl:mb-[-14%]">
         <Globe />
       </div>
     </section>
@@ -27,8 +27,8 @@ const Hero = () => {
 
 const TechFeatures = () => {
   return (
-    <section className="tech-features-section max-w-[80%] px-4 py-16 text-white">
-      <div className="mx-auto my-12 max-w-[80%] text-center">
+    <section className="tech-features-section mt-[60%] max-w-[80%] px-4 py-16 text-white xs:mt-0">
+      <div className="mx-auto my-12 max-w-[80%] text-center ">
         <h2 className="my-6 text-4xl font-bold text-[#00a6fb]">All Tech Features in One Place</h2>
         <p className="mx-auto my-12 mb-8 max-w-3xl text-xl">
           Discover a range of tools, resources, and opportunities to enhance your tech journey and skills.

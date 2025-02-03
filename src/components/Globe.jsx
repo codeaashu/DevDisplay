@@ -3,25 +3,35 @@ import createGlobe from 'cobe';
 
 function Globe() {
   const canvasRef = useRef();
-  const [globeSize, setGlobeSize] = useState(window.innerWidth < 550 ? 300 : 500);
+  const [globeSize, setGlobeSize] = useState(getGlobeSize());
+
+  function getGlobeSize() {
+    if (window.innerWidth >= 1280) return 1000;
+    if (window.innerWidth >= 1024) return 800;
+    if (window.innerWidth >= 768) return 670;
+    if (window.innerWidth >= 640) return 580;
+    if (window.innerWidth >= 475) return 420;
+    return 300;
+  }
 
   useEffect(() => {
-    // Adjust globe size on screen resize
     const handleResize = () => {
-      setGlobeSize(window.innerWidth < 550 ? 300 : 500);
+      setGlobeSize(getGlobeSize());
     };
 
-    handleResize();
-  }, [window.innerWidth]);
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   useEffect(() => {
     let phi = 0;
 
-    // Initialize the globe with the canvas ref
     const globe = createGlobe(canvasRef.current, {
-      devicePixelRatio: 1,
-      width: globeSize, // Double the resolution for better quality
-      height: globeSize, // Double the resolution for better quality
+      width: globeSize,
+      height: globeSize,
       phi: 0,
       theta: 0,
       dark: 1,
@@ -32,34 +42,32 @@ function Globe() {
       markerColor: [0.1, 0.8, 1],
       glowColor: [1, 1, 1],
       markers: [
-        // Example marker locations (longitude, latitude)
         { location: [37.7595, -122.4367], size: 0.03 }, // San Francisco
         { location: [40.7128, -74.006], size: 0.1 }, // New York
       ],
       onRender: (state) => {
-        // Animation frame handler
         state.phi = phi;
-        phi += 0.01; // Rotation speed
+        phi += 0.01;
       },
     });
 
     return () => {
       globe.destroy();
     };
-  }, [window.innerWidth]);
+  }, [globeSize]);
 
   return (
-    <div style={{ width: '100%', height: '100%' }} className="mt-10">
-      <canvas
-        ref={canvasRef}
-        style={{
-          width: globeSize, // Make canvas responsive
-          height: 'auto', // Make canvas responsive
-          maxWidth: '100%',
-          aspectRatio: 1,
-        }}
-        className="overflow-visible"
-      />
+    <div className="mx-auto flex w-full items-center  justify-center overflow-hidden">
+      <div className="w-[300px]overflow-hidden xs:w-[420px] sm:w-[580px] md:w-[670px] lg:w-[800px] xl:w-[1000px]">
+        <canvas
+          ref={canvasRef}
+          style={{
+            width: `${globeSize}px`,
+            height: `${globeSize}px`,
+          }}
+          className="overflow-hidden"
+        />
+      </div>
     </div>
   );
 }
