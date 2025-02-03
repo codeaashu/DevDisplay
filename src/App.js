@@ -99,7 +99,7 @@ function App() {
         <Route path="/github" element={<TopGithubRepo />} />
         <Route path="/community" element={<ContributionsGuide />} />
         <Route path="/SponsorUs" element={<SponsorUs />} />
-        <Route path="/achiever" element={<AchieverJourneyPage />} />
+        <Route path="/journeys/:id" element={<AchieverJourneyPage />} />
         <Route path="/journeys" element={<JourneyPage />} />
         <Route path="/Contribution" element={<Contribution />} />
         <Route path="*" element={<PageNotFound />} />
