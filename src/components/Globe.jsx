@@ -6,11 +6,11 @@ function Globe() {
   const [globeSize, setGlobeSize] = useState(getGlobeSize());
 
   function getGlobeSize() {
-    if (window.innerWidth >= 1280) return 1000;
-    if (window.innerWidth >= 1024) return 800;
-    if (window.innerWidth >= 768) return 670;
-    if (window.innerWidth >= 640) return 580;
-    if (window.innerWidth >= 475) return 420;
+    if (window.innerWidth >= 1280) return 600;
+    if (window.innerWidth >= 1024) return 500;
+    if (window.innerWidth >= 768) return 470;
+    if (window.innerWidth >= 640) return 380;
+    if (window.innerWidth >= 475) return 320;
     return 300;
   }
 
@@ -58,7 +58,7 @@ function Globe() {
 
   return (
     <div className="mx-auto flex w-full items-center  justify-center overflow-hidden">
-      <div className="w-[300px]overflow-hidden xs:w-[420px] sm:w-[580px] md:w-[670px] lg:w-[800px] xl:w-[1000px]">
+      <div className="w-[300px]overflow-hidden xs:w-[320px] sm:w-[380px] md:w-[470px] lg:w-[500px] xl:w-[600px]">
         <canvas
           ref={canvasRef}
           style={{
