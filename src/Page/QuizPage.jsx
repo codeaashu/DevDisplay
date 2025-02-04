@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import questionsData from './questionsData.json'; // Import JSON data
+import questionsData from '../DB/questionsData.json';
 
 const QuizPage = () => {
   const [questions, setQuestions] = useState([]);
@@ -7,21 +7,24 @@ const QuizPage = () => {
   const [selectedOptions, setSelectedOptions] = useState({});
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [score, setScore] = useState(0);
-  const [difficulty, setDifficulty] = useState('Basic'); // Default difficulty
+  const [difficulty, setDifficulty] = useState('Basic');
 
   useEffect(() => {
     filterQuestionsByDifficulty();
   }, [difficulty]);
 
   const filterQuestionsByDifficulty = () => {
-    const filteredQuestions = questionsData.filter(q => q.difficulty === difficulty);
-    setQuestions(filteredQuestions);
+    const filteredQuestions = questionsData.filter((q) => q.difficulty === difficulty);
+    // Shuffle questions and select first 10
+    const shuffledQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 10);
+    setQuestions(shuffledQuestions);
     setCurrentQuestion(0);
     setSelectedOptions({});
     setQuizCompleted(false);
     setScore(0);
   };
 
+  // Keep the rest of the code the same as before
   const handleAnswerSubmit = () => {
     if (selectedOptions[currentQuestion] === questions[currentQuestion].answer) {
       setScore(score + 1);
@@ -40,7 +43,7 @@ const QuizPage = () => {
   };
 
   const handleDifficultyChange = (e) => {
-    setDifficulty(e.target.value); // Update difficulty
+    setDifficulty(e.target.value);
   };
 
   return (
@@ -50,12 +53,8 @@ const QuizPage = () => {
         <p className="mt-2 text-sm">Test your coding knowledge with this quiz.</p>
       </header>
 
-      <div className="flex justify-center mb-6">
-        <select
-          value={difficulty}
-          onChange={handleDifficultyChange}
-          className="bg-gray-700 text-white p-2 rounded-md"
-        >
+      <div className="mb-6 flex justify-center">
+        <select value={difficulty} onChange={handleDifficultyChange} className="rounded-md bg-gray-700 p-2 text-white">
           <option value="Basic">Basic</option>
           <option value="Intermediate">Intermediate</option>
           <option value="Advanced">Advanced</option>
@@ -79,8 +78,8 @@ const QuizPage = () => {
                       option === q.answer
                         ? 'bg-green-500 text-white'
                         : selectedOptions[index] === option
-                        ? 'bg-red-500 text-white'
-                        : 'bg-gray-600'
+                          ? 'bg-red-500 text-white'
+                          : 'bg-gray-600'
                     }`}
                   >
                     {option}
@@ -98,6 +97,9 @@ const QuizPage = () => {
         </div>
       ) : (
         <div className="mx-auto max-w-2xl rounded-lg bg-gray-800 p-6 shadow-lg">
+          <div className="ml-[85%] text-lg md:ml-[85%]">
+            {currentQuestion + 1} / {questions.length}
+          </div>
           <h2 className="text-xl font-semibold">{questions[currentQuestion]?.question}</h2>
           <div className="mt-4 space-y-3">
             {questions[currentQuestion]?.options.map((option, index) => (
@@ -113,17 +115,20 @@ const QuizPage = () => {
             ))}
           </div>
           <div className="mt-6 flex justify-between">
-            <button
-              onClick={handlePrevious}
-              disabled={currentQuestion === 0}
-              className="rounded-lg bg-gray-600 px-4 py-2 text-white hover:bg-gray-500 disabled:bg-gray-700"
-            >
-              Previous
-            </button>
+            {currentQuestion > 0 && (
+              <button
+                onClick={handlePrevious}
+                disabled={currentQuestion === 0}
+                className="rounded-lg bg-gray-600 px-4 py-2 text-white hover:bg-gray-500 disabled:bg-gray-700"
+              >
+                Previous
+              </button>
+            )}
+
             <button
               onClick={handleAnswerSubmit}
               disabled={!selectedOptions[currentQuestion]}
-              className="rounded-lg bg-[#00a6fb] px-6 py-2 text-white hover:bg-[#0096e6] disabled:bg-gray-600"
+              className="ml-auto rounded-lg bg-[#00a6fb] px-6 py-2 text-white hover:bg-[#0096e6] disabled:bg-gray-600"
             >
               {currentQuestion + 1 === questions.length ? 'Finish Quiz' : 'Next Question'}
             </button>

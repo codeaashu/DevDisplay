@@ -1,0 +1,966 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Transfer Markup Language",
+      "HyperText Markup Language",
+      "High-level Text Markup Language",
+      "Hyperlink and Text Markup Language"
+    ],
+    "answer": "HyperText Markup Language",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "options": ["<link>", "<a>", "<href>", "<nav>"],
+    "answer": "<a>",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "What is the correct way to create an ordered list in HTML?",
+    "options": [
+      "<ul><li>Item</li></ul>",
+      "<list><item>Item</item></list>",
+      "<dl><dt>Item</dt></dl>",
+      "<ol><li>Item</li></ol>"
+    ],
+    "answer": "<ol><li>Item</li></ol>",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which CSS property is used to change text color?",
+    "options": ["font-color", "text-color", "color", "background-color"],
+    "answer": "color",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which unit is relative to the font-size of the root element in CSS?",
+    "options": ["px", "em", "rem", "%"],
+    "answer": "rem",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which JavaScript keyword is used to declare a variable that cannot be reassigned?",
+    "options": ["var", "let", "const", "static"],
+    "answer": "const",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which function is used to convert a JSON string into a JavaScript object?",
+    "options": ["JSON.parse()", "JSON.stringify()", "JSON.toObject()", "JSON.decode"],
+    "answer": "JSON.parse()",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which hook is used for side effects in React?",
+    "options": ["useState", "useContext", "useEffect", "useRef"],
+    "answer": "useEffect",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which of the following is a state management library for React?",
+    "options": ["Bootstrap", "Redux", "Express", "MongoDB"],
+    "answer": "Redux",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "What is Redux used for?",
+    "options": [
+      "To manage state across components",
+      "To style components",
+      "To write server-side logic",
+      "To handle side effects"
+    ],
+    "answer": "To manage state across components",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is the default display property of a <div> element?",
+    "options": ["inline", "inline-block", "block", "flex"],
+    "answer": "block",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which HTML element is used to define important text?",
+    "options": ["<b>", "<i>", "<strong>", "<em>"],
+    "answer": "<strong>",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which CSS property controls the text size?",
+    "options": ["font-style", "text-size", "font-size", "text-style"],
+    "answer": "font-size",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "What is the correct syntax for referring to an external script called 'script.js'?",
+    "options": [
+      "<script href='script.js'>",
+      "<script name='script.js'>",
+      "<script src='script.js'>",
+      "<script file='script.js'>"
+    ],
+    "answer": "<script src='script.js'>",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which JavaScript method is used to write into an alert box?",
+    "options": ["alert()", "msg()", "prompt()", "write()"],
+    "answer": "alert()",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "How do you create a function in JavaScript?",
+    "options": ["function:myFunction()", "function = myFunction()", "function myFunction()", "def myFunction()"],
+    "answer": "function myFunction()",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which event occurs when the user clicks on an HTML element?",
+    "options": ["onmouseover", "onchange", "onclick", "onmouseclick"],
+    "answer": "onclick",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which keyword is used to define an asynchronous function in JavaScript?",
+    "options": ["async", "await", "setTimeout", "promise"],
+    "answer": "async",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which lifecycle method is invoked after a component is rendered in React?",
+    "options": ["componentDidMount", "componentWillMount", "componentWillUpdate", "shouldComponentUpdate"],
+    "answer": "componentDidMount",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which HTTP method is used to update a resource on a server?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "answer": "PUT",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "What does the z-index property control in CSS?",
+    "options": ["Font size", "Element stacking order", "Box model behavior", "Animation speed"],
+    "answer": "Element stacking order",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which CSS property makes an element take up the full width of its container?",
+    "options": ["display: inline", "width: 100%", "height: 100%", "position: absolute"],
+    "answer": "width: 100%",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which HTML tag is used to create a paragraph?",
+    "options": ["<para>", "<p>", "<paragraph>", "<pg>"],
+    "answer": "<p>",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "What is the correct HTML element for the largest heading?",
+    "options": ["<h6>", "<heading>", "<h1>", "<head>"],
+    "answer": "<h1>",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which attribute is used to provide alternative text for images?",
+    "options": ["src", "href", "alt", "title"],
+    "answer": "alt",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "How do you create a numbered list in HTML?",
+    "options": ["<dl>", "<ul>", "<ol>", "<list>"],
+    "answer": "<ol>",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which CSS property changes the font of an element?",
+    "options": ["font-family", "text-style", "font-style", "font-type"],
+    "answer": "font-family",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "How do you select an element with id 'header' in CSS?",
+    "options": [".header", "#header", "*header", "header"],
+    "answer": "#header",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which HTML tag is used to create a line break?",
+    "options": ["<br>", "<lb>", "<break>", "<newline>"],
+    "answer": "<br>",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "What does CSS stand for?",
+    "options": ["Computer Style Sheets", "Creative Style System", "Cascading Style Sheets", "Colorful Style Syntax"],
+    "answer": "Cascading Style Sheets",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which HTML element is used for input fields?",
+    "options": ["<input>", "<textfield>", "<form>", "<data>"],
+    "answer": "<input>",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which property is used to change the background color in CSS?",
+    "options": ["bgcolor", "color", "background-color", "base-color"],
+    "answer": "background-color",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "How do you write 'Hello World' in an alert box using JavaScript?",
+    "options": ["msg('Hello World')", "alertBox('Hello World')", "alert('Hello World')", "message('Hello World')"],
+    "answer": "alert('Hello World')",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which HTML tag contains the visible page content?",
+    "options": ["<head>", "<meta>", "<body>", "<main>"],
+    "answer": "<body>",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which symbol is used for single-line comments in JavaScript?",
+    "options": ["//", "/*", "#", "--"],
+    "answer": "//",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "What is the default display value for a <span> element?",
+    "options": ["block", "flex", "inline", "inline-block"],
+    "answer": "inline",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which HTML attribute specifies where to open a linked document?",
+    "options": ["src", "href", "target", "link"],
+    "answer": "target",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which CSS property controls text spacing?",
+    "options": ["letter-spacing", "text-space", "word-gap", "font-spacing"],
+    "answer": "letter-spacing",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "How do you create a function in JavaScript?",
+    "options": ["function = myFunction()", "def myFunction()", "function myFunction()", "create function myFunction()"],
+    "answer": "function myFunction()",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which HTML element is used for a dropdown list?",
+    "options": ["<input>", "<list>", "<select>", "<dropdown>"],
+    "answer": "<select>",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which CSS property adds space between elements?",
+    "options": ["padding", "margin", "spacing", "gap"],
+    "answer": "margin",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "How do you include an external CSS file?",
+    "options": [
+      "<style src='style.css'>",
+      "<link rel='stylesheet' href='style.css'>",
+      "<css>style.css</css>",
+      "<import>style.css</import>"
+    ],
+    "answer": "<link rel='stylesheet' href='style.css'>",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "What is the correct way to write a JavaScript array?",
+    "options": [
+      "const colors = ['red', 'green', 'blue']",
+      "const colors = ('red', 'green', 'blue')",
+      "const colors = 'red', 'green', 'blue'",
+      "const colors = {red, green, blue}"
+    ],
+    "answer": "const colors = ['red', 'green', 'blue']",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which HTML element is used for a checkbox?",
+    "options": ["<input type='check'>", "<checkbox>", "<input type='checkbox'>", "<check>"],
+    "answer": "<input type='checkbox'>",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which CSS property makes text bold?",
+    "options": ["font-weight", "text-bold", "bold", "font-style"],
+    "answer": "font-weight",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "How do you declare a JavaScript variable?",
+    "options": ["variable name;", "v name;", "let name;", "var name;"],
+    "answer": "let name;",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which HTML tag defines a table row?",
+    "options": ["<td>", "<tr>", "<th>", "<table-row>"],
+    "answer": "<tr>",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which CSS property adds space inside elements?",
+    "options": ["margin", "spacing", "padding", "inset"],
+    "answer": "padding",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "How do you write an IF statement in JavaScript?",
+    "options": ["if (condition) then", "if condition", "if (condition)", "when (condition)"],
+    "answer": "if (condition)",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which HTML element is used for a clickable button?",
+    "options": ["<button>", "<click>", "<input type='button'>", "<a>"],
+    "answer": "<button>",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which CSS property changes text to uppercase?",
+    "options": ["text-case", "text-transform", "font-case", "uppercase"],
+    "answer": "text-transform",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "How do you select all <p> elements in CSS?",
+    "options": ["p", ".p", "#p", "*p"],
+    "answer": "p",
+    "difficulty": "Basic"
+  },
+  {
+    "question": "Which method is used to merge two arrays in JavaScript?",
+    "options": ["concat()", "merge()", "combine()", "append()"],
+    "answer": "concat()",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "In React, which hook is used to perform side effects in functional components?",
+    "options": ["useState", "useEffect", "useContext", "useReducer"],
+    "answer": "useEffect",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which MongoDB query is used to select all documents where the age field is greater than 25?",
+    "options": [
+      "db.users.find({age: {$gt: 25}})",
+      "db.users.select({age: >25})",
+      "db.users.where(age > 25)",
+      "db.users.get({age: >25})"
+    ],
+    "answer": "db.users.find({age: {$gt: 25}})",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "What HTTP status code represents 'Not Found'?",
+    "options": ["200", "301", "404", "500"],
+    "answer": "404",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which of the following is NOT a valid Flexbox property?",
+    "options": ["justify-content", "align-items", "flex-wrap", "grid-template-rows"],
+    "answer": "grid-template-rows",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "What command is used to initialize a new Git repository?",
+    "options": ["git init", "git start", "git new", "git create"],
+    "answer": "git init",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which database is best suited for handling relational data?",
+    "options": ["MongoDB", "Redis", "PostgreSQL", "Elasticsearch"],
+    "answer": "PostgreSQL",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "What does the `bind()` method do in JavaScript?",
+    "options": [
+      "Creates a new function with `this` set to the provided value",
+      "Immediately calls the function",
+      "Returns the original function unchanged",
+      "Binds a function to an event"
+    ],
+    "answer": "Creates a new function with `this` set to the provided value",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "What does `npm install` do?",
+    "options": [
+      "Installs all dependencies listed in package.json",
+      "Updates all dependencies",
+      "Removes node_modules",
+      "Runs the application"
+    ],
+    "answer": "Installs all dependencies listed in package.json",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which lifecycle method is called after a React component is rendered for the first time?",
+    "options": ["componentDidMount", "componentWillUnmount", "componentDidUpdate", "shouldComponentUpdate"],
+    "answer": "componentDidMount",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which of the following statements is used to handle exceptions in JavaScript?",
+    "options": ["try...catch", "if...else", "for...loop", "switch...case"],
+    "answer": "try...catch",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "What does `const` do in JavaScript?",
+    "options": [
+      "Declares a block-scoped, read-only variable",
+      "Creates a global variable",
+      "Allows reassignment of the variable",
+      "Declares a function"
+    ],
+    "answer": "Declares a block-scoped, read-only variable",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which CSS property is used to make text bold?",
+    "options": ["font-weight", "text-bold", "bold", "weight"],
+    "answer": "font-weight",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "How do you comment a single line in JavaScript?",
+    "options": ["// Comment", "/* Comment */", "<!-- Comment -->", "' Comment"],
+    "answer": "// Comment",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which JavaScript method converts a JSON string into a JavaScript object?",
+    "options": ["JSON.parse()", "JSON.stringify()", "JSON.object()", "JSON.convert()"],
+    "answer": "JSON.parse()",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which is NOT a JavaScript data type?",
+    "options": ["String", "Boolean", "Integer", "Symbol"],
+    "answer": "Integer",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which of the following is a correct way to declare a function in JavaScript?",
+    "options": ["function myFunc() {}", "def myFunc():", "create function myFunc()", "declare myFunc()"],
+    "answer": "function myFunc() {}",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which SQL command is used to remove all records from a table?",
+    "options": ["DELETE", "REMOVE", "TRUNCATE", "DROP"],
+    "answer": "TRUNCATE",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which method is used to create a new object in JavaScript?",
+    "options": ["Object.create()", "new Object()", "Both A and B", "None"],
+    "answer": "Both A and B",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "How do you stop an interval timer in JavaScript?",
+    "options": ["clearInterval()", "stopTimer()", "clearTimeout()", "pauseTimer()"],
+    "answer": "clearInterval()",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which command is used to check the status of your Git repository?",
+    "options": ["git status", "git check", "git log", "git track"],
+    "answer": "git status",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which operator is used for strict equality in JavaScript?",
+    "options": ["==", "===", "!=", "!=="],
+    "answer": "===",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "How do you create an arrow function in JavaScript?",
+    "options": ["()=>{}", "function() {}", "->{}", "<=>{}"],
+    "answer": "()=>{}",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which of the following is a key feature of MongoDB?",
+    "options": ["Relational database", "Schema-less", "Supports SQL", "Table-based structure"],
+    "answer": "Schema-less",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which tool is used to manage dependencies in a Node.js project?",
+    "options": ["npm", "npx", "pip", "composer"],
+    "answer": "npm",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "What is the purpose of the `key` prop in React lists?",
+    "options": ["Helps identify unique elements", "Sets a unique ID", "Improves styling", "Defines state"],
+    "answer": "Helps identify unique elements",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which command is used to switch branches in Git?",
+    "options": ["git switch", "git checkout", "git branch", "git change"],
+    "answer": "git checkout",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which of the following is NOT a JavaScript framework?",
+    "options": ["React", "Vue", "Django", "Angular"],
+    "answer": "Django",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "Which method is used to convert a string to lowercase in JavaScript?",
+    "options": ["toLowerCase()", "toLower()", "convertLower()", "lowerCase()"],
+    "answer": "toLowerCase()",
+    "difficulty": "Intermediate"
+  },
+  {
+    "question": "What is the purpose of React's `useMemo` hook?",
+    "options": [
+      "To memoize the result of an expensive computation",
+      "To handle side effects in a component",
+      "To store state in a component",
+      "To manage component lifecycle"
+    ],
+    "answer": "To memoize the result of an expensive computation",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "Which of the following correctly implements optimistic UI updates in React?",
+    "options": [
+      "Update UI first, then send the request",
+      "Send the request first, then update UI on success",
+      "Use setTimeout to delay UI updates",
+      "Only update UI after response is received"
+    ],
+    "answer": "Update UI first, then send the request",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "In Node.js, which module is used to create a child process?",
+    "options": ["child_process", "fs", "os", "worker_threads"],
+    "answer": "child_process",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is the time complexity of a well-implemented QuickSort algorithm in the average case?",
+    "options": ["O(n log n)", "O(n^2)", "O(n)", "O(log n)"],
+    "answer": "O(n log n)",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What does `git rebase` do?",
+    "options": [
+      "Moves commits from one branch onto another",
+      "Creates a new branch",
+      "Deletes commit history",
+      "Forces a merge of two branches"
+    ],
+    "answer": "Moves commits from one branch onto another",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What does the `INDEX` command do in PostgreSQL?",
+    "options": [
+      "Speeds up queries by creating a search index",
+      "Deletes duplicate rows",
+      "Joins two tables",
+      "Optimizes memory usage"
+    ],
+    "answer": "Speeds up queries by creating a search index",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is the purpose of the `aggregate` function in MongoDB?",
+    "options": [
+      "Performs advanced data processing and transformations",
+      "Deletes multiple documents at once",
+      "Performs transactions",
+      "Backs up collections"
+    ],
+    "answer": "Performs advanced data processing and transformations",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "Which of the following is an example of a Higher-Order Component (HOC) in React?",
+    "options": [
+      "A component that renders another component",
+      "A function that takes a component and returns a new component",
+      "A component that stores state",
+      "A component that directly modifies the DOM"
+    ],
+    "answer": "A function that takes a component and returns a new component",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "Which of the following improves performance in React applications?",
+    "options": [
+      "Using React.memo for functional components",
+      "Keeping all state in a single component",
+      "Using inline functions inside JSX",
+      "Re-rendering the entire component tree frequently"
+    ],
+    "answer": "Using React.memo for functional components",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is the primary purpose of Redux middleware like Thunk or Saga?",
+    "options": [
+      "To handle asynchronous operations in Redux",
+      "To store component state",
+      "To modify the Redux store structure",
+      "To create private routes"
+    ],
+    "answer": "To handle asynchronous operations in Redux",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is an index in PostgreSQL, and why is it used?",
+    "options": [
+      "A data structure that speeds up data retrieval",
+      "A command that clears the database cache",
+      "A way to create foreign keys",
+      "A method to create database backups"
+    ],
+    "answer": "A data structure that speeds up data retrieval",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is the purpose of `useRef` in React?",
+    "options": [
+      "To persist values across renders without re-rendering",
+      "To create a global state",
+      "To perform API calls",
+      "To trigger re-renders"
+    ],
+    "answer": "To persist values across renders without re-rendering",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "Which algorithm is used for conflict resolution in Git when merging branches?",
+    "options": ["Three-way merge", "Depth-first search", "Breadth-first search", "SHA-256"],
+    "answer": "Three-way merge",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is an example of an ACID property in databases?",
+    "options": [
+      "Atomicity: Transactions are all-or-nothing",
+      "Cascading: Queries automatically delete related rows",
+      "Integrity: Data is stored in JSON format",
+      "Distributed: Data is replicated across nodes"
+    ],
+    "answer": "Atomicity: Transactions are all-or-nothing",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is the purpose of the `helmet` middleware in Node.js?",
+    "options": [
+      "Enhances security by setting HTTP headers",
+      "Handles file uploads",
+      "Creates logs for HTTP requests",
+      "Implements WebSockets"
+    ],
+    "answer": "Enhances security by setting HTTP headers",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "Which of the following can cause a memory leak in JavaScript?",
+    "options": [
+      "Uncleared intervals and timeouts",
+      "Using strict mode",
+      "Declaring variables with `const`",
+      "Using arrow functions"
+    ],
+    "answer": "Uncleared intervals and timeouts",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is the purpose of `pg-promise` in PostgreSQL?",
+    "options": [
+      "To handle database queries in Node.js using promises",
+      "To encrypt PostgreSQL databases",
+      "To automatically backup the database",
+      "To enable server-side caching"
+    ],
+    "answer": "To handle database queries in Node.js using promises",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "Which method is used to perform a deep copy of an object in JavaScript?",
+    "options": ["JSON.parse(JSON.stringify(obj))", "Object.assign({}, obj)", "obj.copy()", "obj.clone()"],
+    "answer": "JSON.parse(JSON.stringify(obj))",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "Which of the following is NOT a feature of PostgreSQL?",
+    "options": ["NoSQL support", "ACID compliance", "Horizontal partitioning", "Native GraphQL support"],
+    "answer": "Native GraphQL support",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is the primary purpose of `db.indexes()` in MongoDB?",
+    "options": [
+      "Lists all indexes in a collection",
+      "Deletes all indexes",
+      "Creates a new collection",
+      "Merges two collections"
+    ],
+    "answer": "Lists all indexes in a collection",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is the primary advantage of using React’s Context API over traditional prop drilling?",
+    "options": [
+      "It allows state management globally across the component tree without prop passing",
+      "It ensures components are always re-rendered",
+      "It supports more than one type of state in the same component",
+      "It reduces the need for hooks in components"
+    ],
+    "answer": "It allows state management globally across the component tree without prop passing",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "How does JavaScript's event delegation work?",
+    "options": [
+      "Attaches an event listener to a parent element, which triggers for any child element",
+      "Attaches event listeners to all child elements individually",
+      "Creates a new event listener every time an event occurs",
+      "Binds an event to a specific child element and ignores others"
+    ],
+    "answer": "Attaches an event listener to a parent element, which triggers for any child element",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "Which feature of ES6 enables you to define methods within an object literal?",
+    "options": ["Method shorthand syntax", "Arrow function", "Class syntax", "Template literals"],
+    "answer": "Method shorthand syntax",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is a promise chain in JavaScript?",
+    "options": [
+      "A sequence of `.then()` methods that are executed in order",
+      "A method that resolves multiple promises in parallel",
+      "A technique used to handle synchronous operations",
+      "A pattern for calling multiple asynchronous functions simultaneously"
+    ],
+    "answer": "A sequence of `.then()` methods that are executed in order",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "Which of the following SQL queries will create a primary key constraint on the 'id' column of a table?",
+    "options": [
+      "ALTER TABLE table_name ADD PRIMARY KEY(id)",
+      "CREATE PRIMARY KEY(id) ON table_name",
+      "ALTER TABLE table_name ADD CONSTRAINT PRIMARY KEY(id)",
+      "PRIMARY KEY table_name(id)"
+    ],
+    "answer": "ALTER TABLE table_name ADD PRIMARY KEY(id)",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is the purpose of `useEffect` hook in React?",
+    "options": [
+      "To trigger side effects in functional components",
+      "To store state in functional components",
+      "To define lifecycle methods in functional components",
+      "To optimize performance by memoizing values"
+    ],
+    "answer": "To trigger side effects in functional components",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "In Node.js, which method would you use to read a file asynchronously?",
+    "options": ["fs.readFileSync()", "fs.readFile()", "fs.open()", "fs.read()"],
+    "answer": "fs.readFile()",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What does a 'noSQL' database offer that a relational database doesn't?",
+    "options": [
+      "Flexible schema for unstructured data",
+      "Support for multi-table joins",
+      "ACID transactions",
+      "Support for foreign key constraints"
+    ],
+    "answer": "Flexible schema for unstructured data",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "Which algorithm is best for clustering data with varying densities?",
+    "options": ["DBSCAN", "K-Means", "Hierarchical clustering", "Gaussian mixture model"],
+    "answer": "DBSCAN",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "How can you implement server-side rendering (SSR) with React?",
+    "options": [
+      "By using ReactDOMServer for rendering HTML on the server",
+      "By directly rendering React components in the browser",
+      "By using React Router for dynamic page changes",
+      "By enabling hot-reloading in React components"
+    ],
+    "answer": "By using ReactDOMServer for rendering HTML on the server",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is the difference between a shallow copy and a deep copy in JavaScript?",
+    "options": [
+      "A shallow copy copies references, while a deep copy copies all nested objects",
+      "A deep copy copies references, while a shallow copy copies all nested objects",
+      "There is no difference",
+      "Shallow copy works only for arrays"
+    ],
+    "answer": "A shallow copy copies references, while a deep copy copies all nested objects",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What does the `super` keyword do in JavaScript?",
+    "options": [
+      "Calls a parent class constructor or method",
+      "Creates a new instance of the parent class",
+      "Defines the parent class",
+      "Accesses a method of the parent class directly"
+    ],
+    "answer": "Calls a parent class constructor or method",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "In PostgreSQL, what is the role of a `foreign key` constraint?",
+    "options": [
+      "To maintain referential integrity between two tables",
+      "To index the primary key for faster access",
+      "To define the default value of a column",
+      "To perform full-text search on a column"
+    ],
+    "answer": "To maintain referential integrity between two tables",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is the purpose of `React.memo`?",
+    "options": [
+      "To prevent unnecessary re-renders of a component",
+      "To handle side effects in components",
+      "To create new hooks in functional components",
+      "To modify component state"
+    ],
+    "answer": "To prevent unnecessary re-renders of a component",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is a ‘closure’ in JavaScript?",
+    "options": [
+      "A function that retains access to its lexical scope, even when the function is executed outside that scope",
+      "A block of code that stops the execution of a function",
+      "A pattern to handle events asynchronously",
+      "A type of object that represents a function"
+    ],
+    "answer": "A function that retains access to its lexical scope, even when the function is executed outside that scope",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "How does `git cherry-pick` work?",
+    "options": [
+      "It applies the changes from a single commit from another branch",
+      "It merges the entire branch with the current branch",
+      "It deletes a specific commit",
+      "It renames a commit from another branch"
+    ],
+    "answer": "It applies the changes from a single commit from another branch",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "Which of the following is the best method for handling large-scale data in MongoDB?",
+    "options": ["Sharding", "Partitioning", "Using `select` statements", "Optimizing queries using indexes"],
+    "answer": "Sharding",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is the purpose of `debounce` in JavaScript?",
+    "options": [
+      "To delay the execution of a function until after a specified time has passed",
+      "To trigger a function after every event occurrence",
+      "To throttle the execution of a function",
+      "To immediately execute a function after the first event"
+    ],
+    "answer": "To delay the execution of a function until after a specified time has passed",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is an N+1 query problem in databases?",
+    "options": [
+      "When a system executes multiple queries for each row of the result set",
+      "When a query retrieves more data than required",
+      "When a database query is nested multiple times",
+      "When a query times out due to long processing"
+    ],
+    "answer": "When a system executes multiple queries for each row of the result set",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "How do you enable live reloading in a React application?",
+    "options": [
+      "By using the `webpack-dev-server` with `hot` module replacement",
+      "By modifying the `package.json` file",
+      "By manually refreshing the page after each code change",
+      "By using the `React refresh` plugin"
+    ],
+    "answer": "By using the `webpack-dev-server` with `hot` module replacement",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What does `git reset --hard` do?",
+    "options": [
+      "Resets the working directory and index to match the specified commit, discarding changes",
+      "Resets the commit history to a specific commit",
+      "Resets the last commit",
+      "Reverts changes made to a single file"
+    ],
+    "answer": "Resets the working directory and index to match the specified commit, discarding changes",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is a `web worker` in JavaScript?",
+    "options": [
+      "A background thread that allows scripts to run without blocking the main thread",
+      "A method for creating event listeners",
+      "A service worker that handles caching in the background",
+      "A library for handling asynchronous functions"
+    ],
+    "answer": "A background thread that allows scripts to run without blocking the main thread",
+    "difficulty": "Advanced"
+  },
+  {
+    "question": "What is a `hash table` and how is it used in algorithms?",
+    "options": [
+      "A data structure that maps keys to values for fast lookups",
+      "A way to store sorted data in memory",
+      "A method to track visited nodes in graph traversal",
+      "A function that finds the longest substring"
+    ],
+    "answer": "A data structure that maps keys to values for fast lookups",
+    "difficulty": "Advanced"
+  }
+]
