@@ -53,7 +53,7 @@ Starring the repository is a mandatory step for all contributors and the first p
    ```json
    {
      "name": "Your Name",
-     "location": "Your Location",
+     "location": "Your Country",
      "bio": "Your Bio should be 20-30 words not more than that",
      "avatar": "https://github.com/your-github-username.png",
      "portfolio": "Your Portfolio URL or Github URL",
