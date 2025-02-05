@@ -143,9 +143,8 @@ const TechFeatures = () => {
         </a>
       </div>
 
-      {/* Card for Adding New Features */}
       <a
-        href="/https://github.com/codeaashu/DevDisplay"
+        href="https://github.com/codeaashu/DevDisplay"
         className="feature-card mt-6 block rounded-lg bg-gray-800 p-6 text-center shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
       >
         <div className="feature-card-inner rounded-lg p-[2px]">
@@ -158,6 +157,7 @@ const TechFeatures = () => {
           </p>
         </div>
       </a>
+
       <a
         href="/allContributors"
         className="feature-card mt-6 block rounded-lg bg-gray-800 p-6 text-center shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
