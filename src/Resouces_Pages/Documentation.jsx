@@ -59,6 +59,34 @@ const resources = [
     description: 'Fast, unopinionated, minimalist web framework for Node.js.',
     link: 'https://expressjs.com/en/starter/installing.html',
   },
+  {
+    id: 9,
+    name: 'Next.js',
+    logo: 'https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/nextdotjs.svg',
+    description: 'The React Framework for Production.',
+    link: 'https://nextjs.org/docs',
+  },
+  {
+    id: 10,
+    name: 'Redux',
+    logo: 'https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/redux.svg',
+    description: 'A Predictable State Container for JS Apps.',
+    link: 'https://redux.js.org/introduction/getting-started',
+  },
+  {
+    id: 11,
+    name: 'Jest',
+    logo: 'https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/jest.svg',
+    description: 'Delightful JavaScript Testing.',
+    link: 'https://jestjs.io/docs/getting-started',
+  },
+  {
+    id: 12,
+    name:'Material-UI',
+    logo: 'https://cdn.jsdelivr.net/npm/simple-icons/icons/materialui.svg',
+    description: 'React components for faster and easier web development.',
+    link: 'https://mui.com/getting-started/installation/',
+  }
 ];
 
 const Documentation = () => {
