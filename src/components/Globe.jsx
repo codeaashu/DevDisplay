@@ -53,29 +53,29 @@ function Globe() {
         { location: [13.0827, 80.2707], size: 0.05 }, // Tamil Nadu
         { location: [22.5726, 88.3639], size: 0.05 }, // West Bengal
         { location: [12.9716, 77.5946], size: 0.05 }, // Karnataka
-        { location: [17.385, 78.4867], size: 0.05 }, // Telangana
-        { location: [23.2599, 77.4126], size: 0.05 }, // Madhya Pradesh
-        { location: [26.9124, 75.7873], size: 0.05 }, // Rajasthan
-        { location: [21.1702, 72.8311], size: 0.05 }, // Gujarat
-        { location: [11.0168, 76.9558], size: 0.05 }, // Kerala
-        { location: [15.2993, 74.124], size: 0.05 }, // Goa
-        { location: [25.3176, 82.9739], size: 0.05 }, // Uttar Pradesh
-        { location: [27.0238, 74.2179], size: 0.05 }, // Haryana
-        { location: [30.7333, 76.7794], size: 0.05 }, // Punjab
-        { location: [31.1048, 77.1734], size: 0.05 }, // Himachal Pradesh
-        { location: [34.0837, 74.7973], size: 0.05 }, // Jammu and Kashmir
+        { location: [17.385, 78.4867], size: 0.03 }, // Telangana
+        { location: [23.2599, 77.4126], size: 0.02 }, // Madhya Pradesh
+        { location: [26.9124, 75.7873], size: 0.02 }, // Rajasthan
+        { location: [21.1702, 72.8311], size: 0.02 }, // Gujarat
+        { location: [11.0168, 76.9558], size: 0.02 }, // Kerala
+        { location: [15.2993, 74.124], size: 0.02 }, // Goa
+        { location: [25.3176, 82.9739], size: 0.04 }, // Uttar Pradesh
+        { location: [27.0238, 74.2179], size: 0.03 }, // Haryana
+        { location: [30.7333, 76.7794], size: 0.02 }, // Punjab
+        { location: [31.1048, 77.1734], size: 0.03 }, // Himachal Pradesh
+        { location: [34.0837, 74.7973], size: 0.01 }, // Jammu and Kashmir
         { location: [15.9129, 79.74], size: 0.05 }, // Andhra Pradesh
-        { location: [22.9734, 78.6569], size: 0.05 }, // Chhattisgarh
-        { location: [23.6102, 85.2799], size: 0.05 }, // Jharkhand
-        { location: [20.9517, 85.0985], size: 0.05 }, // Odisha
+        { location: [22.9734, 78.6569], size: 0.03 }, // Chhattisgarh
+        { location: [23.6102, 85.2799], size: 0.02 }, // Jharkhand
+        { location: [20.9517, 85.0985], size: 0.02 }, // Odisha
         { location: [25.0961, 85.3131], size: 0.05 }, // Bihar
         { location: [24.6637, 93.9063], size: 0.05 }, // Manipur
         { location: [27.533, 88.5122], size: 0.05 }, // Sikkim
         { location: [26.2006, 92.9376], size: 0.05 }, // Assam
-        { location: [23.1645, 92.9376], size: 0.05 }, // Tripura
-        { location: [25.467, 91.3662], size: 0.05 }, // Meghalaya
-        { location: [27.0238, 93.6053], size: 0.05 }, // Arunachal Pradesh
-        { location: [25.5705, 91.8801], size: 0.05 }, // Mizoram
+        { location: [23.1645, 92.9376], size: 0.01 }, // Tripura
+        { location: [25.467, 91.3662], size: 0.01 }, // Meghalaya
+        { location: [27.0238, 93.6053], size: 0.01 }, // Arunachal Pradesh
+        { location: [25.5705, 91.8801], size: 0.01 }, // Mizoram
         { location: [24.517, 93.953], size: 0.05 }, // Nagaland
         { location: [11.9416, 79.8083], size: 0.05 }, // Puducherry
         { location: [10.8505, 76.2711], size: 0.05 }, // Lakshadweep
