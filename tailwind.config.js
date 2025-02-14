@@ -65,6 +65,12 @@ module.exports = {
         '2xl': '1536px',
       },
     },
+    screens: {
+      sm: '640px',
+      md: '925px', // Custom md breakpoint set to 925px
+      lg: '1100px', // Custom lg breakpoint set to 1100px
+      xl: '1280px',
+    },
   },
   plugins: [],
 };
