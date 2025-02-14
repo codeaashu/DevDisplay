@@ -7,8 +7,16 @@ import { useNavigate } from 'react-router-dom';
 function Sidebar() {
   const navigate = useNavigate();
   const [theme, setTheme] = useState(() => {
-    const storedTheme = JSON.parse(localStorage.getItem('theme'));
-    return storedTheme || (document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+    const storedTheme = localStorage.getItem('theme');
+
+    // Check if storedTheme is valid
+    if (storedTheme) {
+      // If it's a string, return it directly (no need to parse)
+      return storedTheme; // This will return "dark" or "light" directly
+    }
+
+    // Fallback to the current class on the document element
+    return document.documentElement.classList.contains('dark') ? 'dark' : 'light';
   });
 
   useEffect(() => {
