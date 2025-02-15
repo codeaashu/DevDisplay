@@ -143,9 +143,8 @@ const TechFeatures = () => {
         </a>
       </div>
 
-      {/* Card for Adding New Features */}
       <a
-        href="/https://github.com/codeaashu/DevDisplay"
+        href="https://github.com/codeaashu/DevDisplay"
         className="feature-card mt-6 block rounded-lg bg-gray-800 p-6 text-center shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
       >
         <div className="feature-card-inner rounded-lg p-[2px]">
@@ -156,6 +155,18 @@ const TechFeatures = () => {
             Suggest new features you'd love to see and help shape the tech community. Explore inspiring stories of
             achievers, their challenges, and the strategies that led them to success.
           </p>
+        </div>
+      </a>
+
+      <a
+        href="/allContributors"
+        className="feature-card mt-6 block rounded-lg bg-gray-800 p-6 text-center shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+      >
+        <div className="feature-card-inner rounded-lg p-[2px]">
+          <h3 className="mb-4 text-2xl font-semibold">
+            Have a look at the <span className="text-blue-400">Contributors</span>!
+          </h3>
+          <p>Explore the contributors who work hard to develop this project and check out the top contributors.</p>
         </div>
       </a>
     </section>
