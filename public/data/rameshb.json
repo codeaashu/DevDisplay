@@ -1,32 +1,30 @@
 {
-    "name": "Ramesh Banala",
-    "location": "Kurnool,Andhra Pradesh",
-    "bio": "B.Tech student in Computer Science and Engineering with a strong grasp of full-stack web development. Proficient in Python, Java, and C++, blending backend logic with dynamic front-end designs to create seamless digital experiences. Passionate about building innovative solutions and constantly exploring new technologies to push the boundaries of development.",
-    "avatar": "https://avatars.githubusercontent.com/u/164130554?v=4",
-    "portfolio": "#",
-    "skills": [
-      
-      "Web Development",
-      
-      "Programming",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Python",
-      "Frontend",
-      "Git",
-      "GitHub"
-    ],
-    "social": {
-      "GitHub": "https://github.com/rameshbanala",
-      "Twitter": "#",
-      "LinkedIn": "https://www.linkedin.com/in/rameshbanala/",
-      "Instagram": "#",
-      "Email": "rameshbanalab@gmail.com"
-    }
+  "name": "Ramesh Banala",
+  "location": "Kurnool,Andhra Pradesh",
+  "bio": "B.Tech student in Computer Science and Engineering with a strong grasp of full-stack web development. Proficient in Python, Java, and C++, blending backend logic with dynamic front-end designs to create seamless digital experiences. Passionate about building innovative solutions and constantly exploring new technologies to push the boundaries of development.",
+  "avatar": "https://avatars.githubusercontent.com/u/164130554?v=4",
+  "portfolio": "#",
+  "skills": [
+    "Web Development",
+
+    "Programming",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Python",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/rameshbanala",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/rameshbanala/",
+    "Instagram": "#",
+    "Email": "rameshbanalab@gmail.com"
   }
-  
+}
