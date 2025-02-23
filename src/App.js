@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import AiCareer from './Page/AiCareer.jsx';
 import Homepage from './Homepage';
 import Home from './Page/Home.jsx';
 import Opportunities from './Page/Opportunities.jsx';
@@ -105,7 +104,6 @@ function App() {
         <Route path="/journeys" element={<JourneyPage />} />
         <Route path="/IndustryTrends" element={<IndustryTrends />} />
         <Route path="/Contribution" element={<Contribution />} />
-        <Route path="/AiCareer" element={<AiCareer />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>

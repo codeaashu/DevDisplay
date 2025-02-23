@@ -1,0 +1,14 @@
+{
+  "name": "Rakshith G",
+  "location": "Bangalore",
+  "bio": " AI Developer ",
+  "avatar": "https://github.com/Rakshithg6.png",
+  "portfolio": "https://github.com/Rakshithg6",
+  "skills": ["Machine Learning", "Deep Learning", "Generative AI","Large Language Models","GAN","Django","FastAPI","Python","Open Source Contributor","Computer Vision"],
+  "social": {
+    "GitHub": "https://github.com/Rakshithg6",
+    "Twitter": "https://twitter.com/rakshithg_",
+    "LinkedIn": "https://www.linkedin.com/in/rakshith-g-44306a22a",
+    "Email": "rakshithg.6113@gmail.com"
+  }
+}
