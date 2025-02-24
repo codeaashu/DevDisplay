@@ -13,7 +13,8 @@ const Hero = () => {
           <a
             href="https://github.com/codeaashu/DevDisplay"
             target="_blank"
-            className="relative z-10 text-white transition-all duration-300 group-hover:text-blue-300"
+            rel="noreferrer"
+            className="custom-font relative z-10 text-white transition-all duration-300 group-hover:text-blue-300"
           >
             We're Open Source 🌟 Star Now
           </a>
@@ -22,8 +23,8 @@ const Hero = () => {
         <style>
           {`
   @font-face {
-            font-family: 'CustomFont';
-            src: url('./assets/font/MEPHISTO.TTF') format('truetype');
+            font-family: "MerriweatherSans-SemiBold";
+            src: url('./assets/font/MerriweatherSans/MerriweatherSans-SemiBold.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
           }
@@ -80,18 +81,17 @@ const Hero = () => {
   }
 
   .custom-font {
-    font-family: 'CustomFont', sans-serif;
+    font-family: "MerriweatherSans-SemiBold", serif;
   }
   `}
         </style>
         <img src={LOGO} alt="Dev Display" className="my-4 h-auto w-[600PX] text-5xl font-bold" />
-        <h1 className="custom-font custom-font my-4 text-4xl tracking-widest md:text-4xl">
+        <h1 className="custom-font my-4 text-4xl tracking-widest md:text-4xl">
           One Platform for Global Developers to Fulfill All The Tech Needs
         </h1>
-        <p className="text-md md:text-md mx-auto my-4 max-w-4xl">
+        <p className="custom-font text-md md:text-md mx-auto my-4 max-w-4xl text-[#00a6fb]">
           {' '}
-          {/* Changed my-4 to my-2 */}
-          Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer
+          CONNECT ▸ COLLAB ▸ CODE ▸ CREATE ▸ CONQUER
         </p>
       </div>
       <div className="mb-[-80%] mt-2 xs:mb-[-22%] sm:mb-[-15%] md:mb-[-12%] lg:mb-[-10%] xl:mb-[-16%] 2xl:mb-[-14%]">
@@ -108,9 +108,9 @@ const TechFeatures = () => {
   return (
     <section className="tech-features-section mt-[60%] max-w-[80%] px-4 py-16 text-white xs:mt-0">
       <div className="mx-auto my-12 max-w-[80%] text-center ">
-        <h2 className="my-6 text-4xl font-bold text-[#00a6fb]">All Tech Features in One Place</h2>
-        <p className="mx-auto my-12 mb-8 max-w-3xl text-xl">
-          Discover a range of tools, resources, and opportunities to enhance your tech journey and skills.
+        <h2 className="custom-font my-6 text-4xl font-bold text-[#00a6fb]">Discover The Range of Features</h2>
+        <p className="custom-font mx-auto my-12 mb-8 max-w-3xl text-xl">
+          Whatever you need as a techy, DevDisplay has it all.
         </p>
       </div>
 
@@ -118,133 +118,221 @@ const TechFeatures = () => {
       <div className="grid grid-cols-1 gap-6 text-center md:grid-cols-2 lg:grid-cols-4">
         <a
           href="/opportunities"
-          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
-          <div className="feature-card-inner rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold">Opportunities</h3>
+          <span className="absolute inset-0"></span>
+          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Opportunities</h3>
             <p>Explore various career and learning opportunities in the tech industry.</p>
+            <button
+              onClick={() => (window.location.href = '/opportunities')}
+              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
+            >
+              Explore Now
+            </button>
           </div>
         </a>
 
         <a
           href="/Resources"
-          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
-          <div className="feature-card-inner rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold">Resources</h3>
+          <span className="absolute inset-0"></span>
+          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Resources</h3>
             <p>Access a wide range of learning resources, tools, and libraries to boost your skills.</p>
+            <button
+              onClick={() => (window.location.href = '/Resources')}
+              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
+            >
+              Explore Now
+            </button>
           </div>
         </a>
 
         <a
           href="/ProjectShowcase"
-          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
-          <div className="feature-card-inner rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold">Project Showcase</h3>
+          <span className="absolute inset-0"></span>
+          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Project Showcase</h3>
             <p>Showcase your projects, get feedback, and inspire others to collaborate.</p>
+            <button
+              onClick={() => (window.location.href = '/ProjectShowcase')}
+              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
+            >
+              Explore Now
+            </button>
           </div>
         </a>
 
         <a
           href="/Discussions"
-          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
-          <div className="feature-card-inner rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold">Tech Discussion</h3>
+          <span className="absolute inset-0"></span>
+          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Tech Discussion</h3>
             <p>Engage in tech discussions, share ideas, and stay updated on the latest trends.</p>
+            <button
+              onClick={() => (window.location.href = '/Discussions')}
+              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
+            >
+              Explore Now
+            </button>
           </div>
         </a>
 
         <a
           href="/IdeaSubmission"
-          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
-          <div className="feature-card-inner rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold">Ideas Submission</h3>
+          <span className="absolute inset-0"></span>
+          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Ideas Submission</h3>
             <p>Submit your innovative ideas, get feedback, and explore collaborations.</p>
+            <button
+              onClick={() => (window.location.href = '/IdeaSubmission')}
+              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
+            >
+              Explore Now
+            </button>
           </div>
         </a>
 
         <a
           href="/PortfolioIdeas"
-          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
-          <div className="feature-card-inner rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold">Portfolio Ideas</h3>
+          <span className="absolute inset-0"></span>
+          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Portfolio Ideas</h3>
             <p>Get inspired with creative ideas to enhance your portfolio and make an impact.</p>
+            <button
+              onClick={() => (window.location.href = '/PortfolioIdeas')}
+              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
+            >
+              Explore Now
+            </button>
           </div>
         </a>
 
         <a
           href="/PortfolioBuilder"
-          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
-          <div className="feature-card-inner rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold">Portfolio Building</h3>
+          <span className="absolute inset-0"></span>
+          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Portfolio Building</h3>
             <p>Learn the best practices to build a standout portfolio that impresses recruiters.</p>
+            <button
+              onClick={() => (window.location.href = '/PortfolioBuilder')}
+              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
+            >
+              Explore Now
+            </button>
           </div>
         </a>
 
         <a
           href="/ResumeBuilder"
-          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
-          <div className="feature-card-inner rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold">Resume Building</h3>
+          <span className="absolute inset-0"></span>
+          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Resume Building</h3>
             <p>Create a professional resume with tips and templates tailored to the tech industry.</p>
+            <button
+              onClick={() => (window.location.href = '/ResumeBuilder')}
+              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
+            >
+              Explore Now
+            </button>
+          </div>
+        </a>
+
+        <a
+          href="/ResumeBuilder"
+          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <span className="absolute inset-0"></span>
+          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">AI Tools Hub</h3>
+            <p>The ultimate hub for powerful and innovative AI tools, all in one place.</p>
+            <button
+              onClick={() => (window.location.href = '/ResumeBuilder')}
+              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
+            >
+              Explore Now
+            </button>
           </div>
         </a>
 
         <a
           href="/journeys"
-          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
-          <div className="feature-card-inner rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold">Journeys Page</h3>
+          <span className="absolute inset-0"></span>
+          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Journeys Page</h3>
             <p>
               Explore inspiring stories of achievers, their challenges, and the strategies that led them to success.
             </p>
+            <button
+              onClick={() => (window.location.href = '/journeys')}
+              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
+            >
+              Explore Now
+            </button>
           </div>
         </a>
 
         <a
           href="/IndustryTrends"
-          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
-          <div className="feature-card-inner rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold">Industry Trends & Expert Insights</h3>
+          <span className="absolute inset-0"></span>
+          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Industry Trends</h3>
             <p>
               Share regular articles and videos on industry trends, expert insights, and career advice to keep engaged
-              {/* Share articles and video content regularly to provide industry trends, expert interviews, and in-depth
-              analysis. This would keep users updated with the latest trends and offer valuable career advice. */}
             </p>
+            <button
+              onClick={() => (window.location.href = '/IndustryTrends')}
+              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
+            >
+              Explore Now
+            </button>
           </div>
         </a>
 
         <a
           href="/AiCareer"
-          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
-          <div className="feature-card-inner rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold">AI Career Navigator</h3>
-            <p>
-              Get AI-powered career recommendations tailored to your skills, interests, and goals.
-              {/* Get personalized career recommendations based on your skills, interests, and job preferences. The AI
-              Career Navigator will analyze your skills and recommend a career path that aligns with your goals. */}
-            </p>
+          <span className="absolute inset-0"></span>
+          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">AI Career Guide</h3>
+            <p>Get AI-powered career recommendations tailored to your skills, interests, and goals.</p>
+            <button
+              onClick={() => (window.location.href = '/AiCareer')}
+              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
+            >
+              Explore Now
+            </button>
           </div>
         </a>
       </div>
 
-      {/* Card for Adding New Features */}
+      {/*Adding New Features */}
       <a
         href="/https://github.com/codeaashu/DevDisplay"
         className="feature-card mt-6 block rounded-lg bg-gray-800 p-6 text-center shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
       >
-        <div className="feature-card-inner rounded-lg p-[2px]">
+        <div className="custom-font feature-card-inner rounded-lg p-[2px]">
           <h3 className="mb-4 text-2xl font-semibold">
-            Want to <span className="text-blue-400">Add New Features</span> ?
+            <span className="text-blue-400">Suggest a new feature idea!</span>
           </h3>
           <p>
             Suggest new features you'd love to see and help shape the tech community. Explore inspiring stories of
@@ -271,7 +359,7 @@ const supporters = [
 export const SupportedBy = () => {
   return (
     <div className="py-20">
-      <h2 className="my-10 text-center text-4xl font-bold text-[#00a6fb]">Supported By</h2>
+      <h2 className="custom-font my-10 text-center text-4xl font-bold text-[#00a6fb]">Supported By</h2>
 
       <div className="relative mx-auto flex max-w-[99vw] space-x-8 overflow-x-hidden">
         {/* First Marquee */}
