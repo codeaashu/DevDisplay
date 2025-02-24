@@ -99,7 +99,7 @@ const Hero = () => {
         {/* Changed mt-4 to mt-2 */}
         <Globe />
       </div>
-      <div className="mb-40"></div>
+      <div className="mb-20"></div>
     </section>
   );
 };
