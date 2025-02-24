@@ -143,6 +143,19 @@ const TechFeatures = () => {
         </a>
       </div>
 
+      <a 
+        href="/AiCareer"
+          className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="feature-card-inner rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold">AI Career Navigator</h3>
+            <p>
+              Get personalized career recommendations based on your skills, interests, and job preferences. The AI
+              Career Navigator will analyze your skills and recommend a career path that aligns with your goals.
+            </p>
+          </div>
+        </a>
+
       {/* Card for Adding New Features */}
       <a
         href="/https://github.com/codeaashu/DevDisplay"
