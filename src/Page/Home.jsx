@@ -21,6 +21,13 @@ const Hero = () => {
 
         <style>
           {`
+  @font-face {
+            font-family: 'CustomFont';
+            src: url('./assets/font/MEPHISTO.TTF') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+          }
+            
   @keyframes border-glow {
     0% {
       transform: rotate(0deg) translateX(-100%);
@@ -71,10 +78,14 @@ const Hero = () => {
   .group:hover {
     animation: border-pulse 1.5s infinite;
   }
+
+  .custom-font {
+    font-family: 'CustomFont', sans-serif;
+  }
   `}
         </style>
         <img src={LOGO} alt="Dev Display" className="my-4 h-auto w-[600PX] text-5xl font-bold" />
-        <h1 className="my-4 text-4xl tracking-widest md:text-4xl">
+        <h1 className="custom-font my-4 text-4xl tracking-widest md:text-4xl">
           One Platform for Developers Worldwide to Fulfill All Tech Needs
         </h1>
         <p className="text-md md:text-md mx-auto my-8 max-w-2xl">Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer</p>
