@@ -141,9 +141,8 @@ const TechFeatures = () => {
             </p>
           </div>
         </a>
-      </div>
 
-      <a 
+        <a 
         href="/AiCareer"
           className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
@@ -155,6 +154,9 @@ const TechFeatures = () => {
             </p>
           </div>
         </a>
+      </div>
+
+      
 
       {/* Card for Adding New Features */}
       <a
