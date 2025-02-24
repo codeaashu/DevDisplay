@@ -6,12 +6,12 @@ function Globe() {
   const [globeSize, setGlobeSize] = useState(getGlobeSize());
 
   function getGlobeSize() {
-    if (window.innerWidth >= 1280) return 600;
-    if (window.innerWidth >= 1024) return 500;
-    if (window.innerWidth >= 768) return 470;
-    if (window.innerWidth >= 640) return 380;
-    if (window.innerWidth >= 475) return 320;
-    return 300;
+    if (window.innerWidth >= 1280) return 550; // Reduced from 600
+    if (window.innerWidth >= 1024) return 450; // Reduced from 500
+    if (window.innerWidth >= 768) return 420; // Reduced from 470
+    if (window.innerWidth >= 640) return 350; // Reduced from 380
+    if (window.innerWidth >= 475) return 300; // Reduced from 320
+    return 280; // Reduced from 300
   }
 
   useEffect(() => {
