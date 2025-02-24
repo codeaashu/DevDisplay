@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Globe from '../components/Globe';
 import { Footer } from '../components/Footer/Footer';
-import LOGO from './Tagline.png';
+import LOGO from './WordMark.png';
 
 const Hero = () => {
   return (
@@ -88,11 +88,18 @@ const Hero = () => {
         <h1 className="custom-font custom-font my-4 text-4xl tracking-widest md:text-4xl">
           One Platform for Global Developers to Fulfill All The Tech Needs
         </h1>
-        <p className="text-md md:text-md mx-auto my-8 max-w-2xl">Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer</p>
+        <p className="text-md md:text-md mx-auto my-4 max-w-4xl">
+          {' '}
+          {/* Changed my-4 to my-2 */}
+          Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer
+        </p>
       </div>
-      <div className="mb-[-80%] xs:mb-[-22%] sm:mb-[-15%] md:mb-[-12%] lg:mb-[-10%] xl:mb-[-16%] 2xl:mb-[-14%]">
+      <div className="mb-[-80%] mt-2 xs:mb-[-22%] sm:mb-[-15%] md:mb-[-12%] lg:mb-[-10%] xl:mb-[-16%] 2xl:mb-[-14%]">
+        {' '}
+        {/* Changed mt-4 to mt-2 */}
         <Globe />
       </div>
+      <div className="mb-40"></div>
     </section>
   );
 };
