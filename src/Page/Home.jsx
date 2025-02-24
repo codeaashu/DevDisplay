@@ -136,27 +136,27 @@ const TechFeatures = () => {
           <div className="feature-card-inner rounded-lg p-[2px]">
             <h3 className="mb-4 text-2xl font-semibold">Industry Trends & Expert Insights</h3>
             <p>
-              Share articles and video content regularly to provide industry trends, expert interviews, and in-depth
-              analysis. This would keep users updated with the latest trends and offer valuable career advice.
+              Share regular articles and videos on industry trends, expert insights, and career advice to keep engaged
+              {/* Share articles and video content regularly to provide industry trends, expert interviews, and in-depth
+              analysis. This would keep users updated with the latest trends and offer valuable career advice. */}
             </p>
           </div>
         </a>
 
-        <a 
-        href="/AiCareer"
+        <a
+          href="/AiCareer"
           className="feature-card block rounded-lg bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
           <div className="feature-card-inner rounded-lg p-[2px]">
             <h3 className="mb-4 text-2xl font-semibold">AI Career Navigator</h3>
             <p>
-              Get personalized career recommendations based on your skills, interests, and job preferences. The AI
-              Career Navigator will analyze your skills and recommend a career path that aligns with your goals.
+              Get AI-powered career recommendations tailored to your skills, interests, and goals.
+              {/* Get personalized career recommendations based on your skills, interests, and job preferences. The AI
+              Career Navigator will analyze your skills and recommend a career path that aligns with your goals. */}
             </p>
           </div>
         </a>
       </div>
-
-      
 
       {/* Card for Adding New Features */}
       <a
