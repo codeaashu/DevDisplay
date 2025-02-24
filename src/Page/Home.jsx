@@ -2,21 +2,82 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Globe from '../components/Globe';
 import { Footer } from '../components/Footer/Footer';
+import LOGO from './Tagline.png';
 
 const Hero = () => {
   return (
     <section className="hero-section mt-20 flex flex-col  items-center justify-center text-white sm:min-h-screen ">
       <div className="flex w-full flex-col items-center justify-center px-8 text-center">
-        <p className="text-md mx-auto mb-10 w-fit rounded-full bg-[#ffffff36] p-2 text-center">
-          <a href="https://github.com/codeaashu/DevDisplay" target="_blank">
-            We're Open Source {'>'} Star Now🌟
+        <p className="text-md bg-[rgba(255, 255, 255, 0.14)] group relative mx-auto mb-10 w-fit overflow-hidden rounded-full border border-white p-2 text-center">
+          <span className="animate-border-glow absolute inset-0"></span>
+          <a
+            href="https://github.com/codeaashu/DevDisplay"
+            target="_blank"
+            className="relative z-10 text-white transition-all duration-300 group-hover:text-blue-300"
+          >
+            We're Open Source 🌟 Star Now
           </a>
         </p>
-        <h1 className="my-4 text-4xl font-bold tracking-widest md:text-4xl">One Place for all your Tech Needs</h1>
-        <h2 className="my-4 text-6xl font-bold">
-          Dev <span className="text-[#00a6fb]">Display</span>
-        </h2>
-        <p className="text-md md:text-md mx-auto my-8 max-w-2xl">Global platform that fulfills all your tech needs</p>
+
+        <style>
+          {`
+  @keyframes border-glow {
+    0% {
+      transform: rotate(0deg) translateX(-100%);
+      opacity: 0.4;
+    }
+    50% {
+      transform: rotate(180deg) translateX(100%);
+      opacity: 0.3;
+    }
+    100% {
+      transform: rotate(360deg) translateX(-100%);
+      opacity: 0.4;
+    }
+  }
+
+  @keyframes border-pulse {
+    0% {
+      border-color: rgba(0, 172, 255, 0.5);
+      box-shadow: 0 0 10px rgba(0, 172, 255, 0.3);
+    }
+    50% {
+      border-color: rgba(0, 172, 255, 0.8);
+      box-shadow: 0 0 20px rgba(0, 172, 255, 0.6);
+    }
+    100% {
+      border-color: rgba(0, 172, 255, 0.5);
+      box-shadow: 0 0 10px rgba(0, 172, 255, 0.3);
+    }
+  }
+
+  .animate-border-glow {
+    position: absolute;
+    width: 250%;
+    height: 250%;
+    background: linear-gradient(90deg, rgba(0, 172, 255, 0.6), rgba(1, 114, 142, 0.9), rgba(0, 172, 255, 0.6));
+    top: -75%;
+    left: -75%;
+    opacity: 0.5;
+    filter: blur(10px);
+    animation: border-glow 4s infinite linear;
+  }
+
+  .group:hover .animate-border-glow {
+    opacity: 0.8;
+    filter: blur(15px);
+  }
+
+  .group:hover {
+    animation: border-pulse 1.5s infinite;
+  }
+  `}
+        </style>
+        <img src={LOGO} alt="Dev Display" className="my-4 h-auto w-[600PX] text-5xl font-bold" />
+        <h1 className="my-4 text-4xl tracking-widest md:text-4xl">
+          One Platform for Developers Worldwide to Fulfill All Tech Needs
+        </h1>
+        <p className="text-md md:text-md mx-auto my-8 max-w-2xl">Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer</p>
       </div>
       <div className="mb-[-80%] xs:mb-[-22%] sm:mb-[-15%] md:mb-[-12%] lg:mb-[-10%] xl:mb-[-16%] 2xl:mb-[-14%]">
         <Globe />
