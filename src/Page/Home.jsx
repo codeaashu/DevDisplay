@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Globe from '../components/Globe';
 import { Footer } from '../components/Footer/Footer';
 import LOGO from './WordMark.png';
+import PoweredByDevDisplay from './PoweredByDevDisplay.png';
 
 const Hero = () => {
   return (
@@ -253,7 +254,7 @@ const TechFeatures = () => {
         </a>
 
         <a
-          href="/ResumeBuilder"
+          href="/AIToolsHub"
           className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
         >
           <span className="absolute inset-0"></span>
@@ -261,7 +262,7 @@ const TechFeatures = () => {
             <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">AI Tools Hub</h3>
             <p>The ultimate hub for powerful and innovative AI tools, all in one place.</p>
             <button
-              onClick={() => (window.location.href = '/ResumeBuilder')}
+              onClick={() => (window.location.href = '/AIToolsHub')}
               className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
             >
               Explore Now
@@ -320,6 +321,86 @@ const TechFeatures = () => {
               className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
             >
               Explore Now
+            </button>
+          </div>
+        </a>
+      </div>
+
+      {/*Powered By DevDisplay */}
+      <div className="my-8 flex justify-center">
+        <img src={PoweredByDevDisplay} alt="Dev Display" className="h-auto w-[600px] text-5xl font-bold" />
+      </div>
+
+      {/* Tech Projects Powered by DevDisplay */}
+      <div className="my-8 grid grid-cols-1 gap-6 text-center md:grid-cols-2 lg:grid-cols-4">
+        <a
+          href="https://github-legacy.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="custom-font project-card-inner relative z-10 rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">GitHub Legacy</h3>
+            <p>Transform your GitHub journey into a professional resume in seconds</p>
+            <button
+              onClick={() => window.open('https://github-legacy.vercel.app/', '_blank')}
+              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
+            >
+              Visit Now
+            </button>
+          </div>
+        </a>
+
+        <a
+          href="https://github.com/codeaashu/CopyButton"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="custom-font project-card-inner relative z-10 rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">DevDisplay Library</h3>
+            <p>Coming Soon - OpenSource ui component library!</p>
+            <button
+              onClick={() => window.open('#', '_blank')}
+              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
+            >
+              Visit Now
+            </button>
+          </div>
+        </a>
+
+        <a
+          href="https://randomproject1.example.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="custom-font project-card-inner relative z-10 rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Online Compiler</h3>
+            <p>Coming Soon - Online Compiler where you can run your code online!</p>
+            <button
+              onClick={() => window.open('https://randomproject1.example.com', '_blank')}
+              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
+            >
+              Visit Now
+            </button>
+          </div>
+        </a>
+
+        <a
+          href="https://randomproject2.example.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+        >
+          <div className="custom-font project-card-inner relative z-10 rounded-lg p-[2px]">
+            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Tech Quiz</h3>
+            <p>Coming Soon - Test your tech knowledge on DevDisplay!</p>
+            <button
+              onClick={() => window.open('#', '_blank')}
+              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
+            >
+              Visit Now
             </button>
           </div>
         </a>
