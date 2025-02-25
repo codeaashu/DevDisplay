@@ -352,7 +352,7 @@ const TechFeatures = () => {
         </a>
 
         <a
-          href="https://github.com/codeaashu/CopyButton"
+          href="/Library"
           target="_blank"
           rel="noopener noreferrer"
           className="project-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
@@ -370,7 +370,7 @@ const TechFeatures = () => {
         </a>
 
         <a
-          href="https://randomproject1.example.com"
+          href="/OnlineCompiler"
           target="_blank"
           rel="noopener noreferrer"
           className="project-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
@@ -379,7 +379,7 @@ const TechFeatures = () => {
             <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Online Compiler</h3>
             <p>Coming Soon - Online Compiler where you can run your code online!</p>
             <button
-              onClick={() => window.open('https://randomproject1.example.com', '_blank')}
+              onClick={() => window.open('#', '_blank')}
               className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
             >
               Visit Now
@@ -388,7 +388,7 @@ const TechFeatures = () => {
         </a>
 
         <a
-          href="https://randomproject2.example.com"
+          href="/TechQuiz"
           target="_blank"
           rel="noopener noreferrer"
           className="project-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
