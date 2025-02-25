@@ -104,6 +104,28 @@ const openSourceProjects = [
       'The Odin Project offers a free full-stack web development curriculum that includes projects and challenges to master web development.',
     url: 'https://github.com/TheOdinProject',
   },
+  {
+    title: 'novu',
+    description:
+      'Open-Source Notification Platform. Embeddable Notification Center, E-mail, Push and Slack Integrations.',
+    url: 'https://github.com/novuhq/novu',
+  },
+  {
+    title: 'Excalidraw',
+    description:
+      'Excalidraw is a virtual collaborative whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them.',
+    url: 'https://github.com/excalidraw/excalidraw',
+  },
+  {
+    title:'Appwrite',
+    description: 'Appwrite is an open-source backend-as-a-service platform that simplifies cloud services for mobile and web developers.',
+    url: 'https://github.com/appwrite/appwrite',
+  },
+  {
+    title: 'Meshery',
+    description: 'Meshery is an open-source project that helps manage and operate service meshes, which are used for controlling communications in microservices.',
+    url: 'https://github.com/meshery/meshery',
+  }
 ];
 
 const OpenSource = () => {
