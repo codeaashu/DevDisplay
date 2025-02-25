@@ -335,8 +335,10 @@ const TechFeatures = () => {
             <span className="text-blue-400">Suggest a new feature idea!</span>
           </h3>
           <p>
-            Suggest new features you'd love to see and help shape the tech community. Explore inspiring stories of
-            achievers, their challenges, and the strategies that led them to success.
+            Suggest new features you'd love to see on DevDisplay. We believe innovation is limitless. As a contributor,
+            you're encouraged to think beyond and add new, innovative features that can make a difference in the tech
+            ecosystem. Think outside the box and introduce features that can be revolutionary for tech enthusiasts
+            worldwide. If you spot a gap in the tech world, DevDisplay can be the solution.
           </p>
         </div>
       </a>
