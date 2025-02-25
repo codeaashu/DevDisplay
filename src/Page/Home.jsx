@@ -81,7 +81,7 @@ const Hero = () => {
   }
 
   .custom-font {
-    font-family: "MerriweatherSans-SemiBold", serif;
+    font-family: "MerriweatherSans-SemiBold", sans-serif;
   }
   `}
         </style>
