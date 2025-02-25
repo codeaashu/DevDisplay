@@ -24,7 +24,7 @@ const Hero = () => {
           {`
   @font-face {
             font-family: "MerriweatherSans-SemiBold";
-            src: url('./fonts/MerriweatherSans-SemiBold.ttf') format('truetype');
+            src: url('/fonts/MerriweatherSans-SemiBold.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
           }
