@@ -84,11 +84,30 @@ function Sidebar() {
       <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
         <button
           onClick={handleHome}
-          className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
+          className="animate-zoom inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
         >
-          Unlock the Power of DevDisplay{/* Open Source Contribution */}
+          Unlock the Power of DevDisplay
         </button>
       </div>
+      <style jsx>{`
+        @keyframes zoom {
+          0%,
+          100% {
+            transform: scale(1);
+          }
+          50% {
+            transform: scale(1.1);
+          }
+        }
+
+        .animate-zoom {
+          animation: zoom 2s infinite;
+        }
+
+        .animate-zoom:hover {
+          animation-play-state: paused;
+        }
+      `}</style>
       {/* <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
         <button
           onClick={handleAboutUs}
