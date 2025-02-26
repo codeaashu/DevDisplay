@@ -29,7 +29,7 @@
   border-radius: 5px;
 }
 
-div .gt_float_switcher {
+/* div .gt_float_switcher {
   font-size: 14px;
   border-radius: 10px;
 }
@@ -37,7 +37,7 @@ div .gt_float_switcher {
 .language-dropdown .gtranslate_wrapper {
   max-height: 200px;
   overflow-y: auto;
-}
+} */
 
 /* .hero-section {
   background: radial-gradient(circle, rgba(0, 0, 0) 1px, transparent 1px),

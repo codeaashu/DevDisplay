@@ -1,5 +1,5 @@
 // import React, { useState, useEffect } from 'react';
-import { FaLinkedin } from 'react-icons/fa';
+// import { FaLinkedin } from 'react-icons/fa';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
@@ -60,8 +60,11 @@ function Sidebar() {
           </button>
         </div> */}
       </div>
-      <div className="text-center text-secondaryColor dark:text-white">Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer</div>
-      <div className="flex flex-wrap items-center justify-center gap-2 pt-5 ">
+      <div className="text-center text-xs text-secondaryColor  dark:text-white">CONNECT COLLAB CODE CREATE CONQUER</div>
+      <div className="text-center text-secondaryColor dark:text-white">
+        A global open source community platform that brings together all your tech needs in one place.
+      </div>
+      {/* <div className="flex flex-wrap items-center justify-center gap-2 pt-5 ">
         <a
           href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
           target="_blank"
@@ -77,7 +80,7 @@ function Sidebar() {
             <FaLinkedin className="text-1xl text-black-600 ml-2 duration-300 hover:scale-125" />
           </button>
         </a>
-      </div>
+      </div> */}
       <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
         <button
           onClick={handleHome}

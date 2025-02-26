@@ -110,6 +110,17 @@ function Search({ onSearch }) {
 
   return (
     <div className="relative pb-6">
+      <div className="mb-4 text-center text-xs text-secondaryColor dark:text-white">
+        <a
+          href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="inline-block cursor-pointer rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
+            Add your profile
+          </button>
+        </a>
+      </div>
       <div className="relative flex items-center justify-end space-x-4 ">
         <select
           className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"

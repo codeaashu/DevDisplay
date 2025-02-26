@@ -8,7 +8,7 @@ import NoResultFound from './components/NoResultFound/NoResultFound';
 import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import filenames from './ProfilesList.json';
-import GTranslateLoader from './components/GTranslateLoader';
+// import GTranslateLoader from './components/GTranslateLoader';
 
 function App() {
   const profilesRef = useRef();
@@ -159,7 +159,7 @@ function App() {
           />
         )}
       </div>
-      <GTranslateLoader />
+      {/* <GTranslateLoader /> */}
     </div>
   ) : (
     <ErrorPage />
