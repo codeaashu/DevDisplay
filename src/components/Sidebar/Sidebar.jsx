@@ -46,7 +46,7 @@ function Sidebar() {
             <p className="text-textSecondary">Display</p>
           </div>
         </a>
-        <div className="ml-auto">
+        {/* <div className="ml-auto">
           <button
             type="button"
             className="h-10 w-10 cursor-pointer rounded-lg border-2 border-borderSecondary bg-white transition-all hover:border-textSecondary hover:text-textSecondary dark:border-borderColor dark:bg-textPrimary dark:text-white dark:hover:border-textSecondary dark:hover:text-textSecondary"
@@ -58,7 +58,7 @@ function Sidebar() {
               <FontAwesomeIcon icon={faMoon} fontSize="1rem" />
             )}
           </button>
-        </div>
+        </div> */}
       </div>
       <div className="text-secondaryColor dark:text-white">
         A global open source community platform that brings together all your tech needs in one place.
@@ -85,17 +85,17 @@ function Sidebar() {
           onClick={handleHome}
           className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
         >
-          Open Source Contribution{/* Unlock the Power of DevDisplay */}
+          Unlock the Power of DevDisplay{/* Open Source Contribution */}
         </button>
       </div>
-      <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
+      {/* <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
         <button
           onClick={handleAboutUs}
           className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
         >
           About Us
         </button>
-      </div>
+      </div> */}
       {/* <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
         <a
           href="https://www.producthunt.com/posts/devdisplay?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-devdisplay"
