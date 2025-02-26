@@ -60,9 +60,7 @@ function Sidebar() {
           </button>
         </div> */}
       </div>
-      <div className="text-center text-secondaryColor dark:text-white">
-        A global open source community platform that brings together all your tech needs in one place.
-      </div>
+      <div className="text-center text-secondaryColor dark:text-white">Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer</div>
       <div className="flex flex-wrap items-center justify-center gap-2 pt-5 ">
         <a
           href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
