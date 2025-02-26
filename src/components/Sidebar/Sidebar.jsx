@@ -1,43 +1,43 @@
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
 import { FaLinkedin } from 'react-icons/fa';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
 
 function Sidebar() {
   const navigate = useNavigate();
-  const [theme, setTheme] = useState(() => {
-    const storedTheme = JSON.parse(localStorage.getItem('theme'));
-    return storedTheme || (document.documentElement.classList.contains('dark') ? 'dark' : 'light');
-  });
+  // const [theme, setTheme] = useState(() => {
+  //   const storedTheme = JSON.parse(localStorage.getItem('theme'));
+  //   return storedTheme || (document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+  // });
 
-  useEffect(() => {
-    const htmlElement = document.documentElement;
-    htmlElement.classList.toggle('dark', theme === 'dark');
-    htmlElement.classList.toggle('light', theme === 'light');
-    localStorage.setItem('theme', JSON.stringify(theme));
-  }, [theme]);
+  // useEffect(() => {
+  //   const htmlElement = document.documentElement;
+  //   htmlElement.classList.toggle('dark', theme === 'dark');
+  //   htmlElement.classList.toggle('light', theme === 'light');
+  //   localStorage.setItem('theme', JSON.stringify(theme));
+  // }, [theme]);
 
-  function toggleTheme() {
-    setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
-  }
+  // function toggleTheme() {
+  //   setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
+  // }
 
   function handleHome() {
     navigate('/Home');
   }
 
-  function handleAboutUs() {
-    navigate('/About');
-  }
+  // function handleAboutUs() {
+  //   navigate('/About');
+  // }
 
   return (
     <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono md:h-[90vh] md:w-[23%] md:px-2 lg:px-7 dark:border-borderColor">
       <div className="mb-2 flex h-12 items-center gap-2.5">
-        <div className="text-secondaryColor dark:text-white">
+        <img src="./WordMark.png" alt="DevDisplay Logo" className="h-60 w-auto md:h-64 lg:h-72" />
+        {/* <div className="text-secondaryColor dark:text-white">
           <FontAwesomeIcon icon={faCode} size="2xl" />
-          {/* <img src="./WordMark.png" alt="DevDisplay Logo" className="h-50 w-50" /> */}
-        </div>
-        <a href="https://www.devdisplay.org/">
+        </div> */}
+        {/* <a href="https://www.devdisplay.org/">
           <div
             className="flex  text-[2rem] font-bold
            md:text-[1.05rem] lg:text-[1.25rem] min-[1200px]:text-[1.75rem]  "
@@ -45,7 +45,7 @@ function Sidebar() {
             <p className="text-secondaryColor dark:text-white">Dev</p>
             <p className="text-textSecondary">Display</p>
           </div>
-        </a>
+        </a> */}
         {/* <div className="ml-auto">
           <button
             type="button"
