@@ -32,8 +32,8 @@ function Sidebar() {
 
   return (
     <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono md:h-[90vh] md:w-[23%] md:px-2 lg:px-7 dark:border-borderColor">
-      <div className="mb-2 flex h-12 items-center gap-2.5">
-        <img src="./WordMark.png" alt="DevDisplay Logo" className="h-60 w-auto md:h-64 lg:h-72" />
+      <div className="mb-2 flex h-12 items-center justify-center gap-2.5">
+        <img src="./WordMark.png" alt="DevDisplay Logo" className="h-64 w-auto md:h-72 lg:h-80" />
         {/* <div className="text-secondaryColor dark:text-white">
           <FontAwesomeIcon icon={faCode} size="2xl" />
         </div> */}
@@ -60,7 +60,7 @@ function Sidebar() {
           </button>
         </div> */}
       </div>
-      <div className="text-secondaryColor dark:text-white">
+      <div className="text-center text-secondaryColor dark:text-white">
         A global open source community platform that brings together all your tech needs in one place.
       </div>
       <div className="flex flex-wrap items-center justify-center gap-2 pt-5 ">
