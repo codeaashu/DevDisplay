@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faXmark, faMicrophone } from '@fortawesome/free-solid-svg-icons';
 import SearchSkillsContainer from './SearchSkillsContainer';
 import VoiceSearch from './VoiceSearch';
+import { FaCheckCircle } from 'react-icons/fa';
 
 function Search({ onSearch }) {
   const [searchValue, setSearchValue] = useState('');
@@ -130,12 +131,7 @@ function Search({ onSearch }) {
               <div className="username">Dev Pioneer</div>
               <div className="lable-message">
                 Add Your Profile
-                <span className="number-message">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
-                    <circle cx="12" cy="12" r="10" fill="rgb(24, 186, 255)" />
-                    <path fill="#fff" d="M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z" />
-                  </svg>
-                </span>
+                <FaCheckCircle className="ml-2 rounded-full border-[1px] border-blue-500 p-0.5 text-xl text-blue-500" />
               </div>
               <div className="user-id">@devpioneer</div>
             </div>

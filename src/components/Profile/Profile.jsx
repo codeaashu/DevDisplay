@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaUserCircle } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaUserCircle, FaCheckCircle } from 'react-icons/fa';
 import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
 
 function isValidEmail(email) {
@@ -59,16 +59,7 @@ function Card({ data }) {
             >
               {data.name}
               {data.verified && (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  width="16"
-                  height="16"
-                  style={{ marginLeft: '8px' }}
-                >
-                  <circle cx="12" cy="12" r="10" fill="rgb(24, 186, 255)" />
-                  <path fill="#fff" d="M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z" />
-                </svg>
+                <FaCheckCircle className="ml-2 rounded-full border-[1px] border-blue-500 p-0.5 text-xl text-blue-500" />
               )}
             </a>
           </h3>
@@ -135,7 +126,7 @@ function Card({ data }) {
           }`}
         >
           <a href={data.portfolio} className="text-textSecondary" target="_blank" rel="noreferrer">
-            View Profile &#8594;
+            Connect &#8594;
           </a>
         </div>
       </div>
