@@ -52,12 +52,24 @@ function Card({ data }) {
         <div className="w-[55%] sm:w-[75%]">
           <h3>
             <a
-              className="text-lg font-bold hover:text-textSecondary dark:text-white"
+              className="flex items-center text-lg font-bold hover:text-textSecondary dark:text-white"
               href={data.portfolio}
               target="_blank"
               rel="noreferrer"
             >
               {data.name}
+              {data.verified && (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  height="16"
+                  style={{ marginLeft: '8px' }}
+                >
+                  <circle cx="12" cy="12" r="10" fill="rgb(24, 186, 255)" />
+                  <path fill="#fff" d="M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z" />
+                </svg>
+              )}
             </a>
           </h3>
           <p className="flex items-center gap-x-1 text-sm dark:text-white">

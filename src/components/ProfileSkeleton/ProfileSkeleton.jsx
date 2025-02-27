@@ -15,6 +15,7 @@ function ProfileSkeleton() {
       Instagram: '',
       Email: '',
     },
+    verified: false,
   };
 
   return (
@@ -23,7 +24,21 @@ function ProfileSkeleton() {
         <div className="flex gap-[1rem]">
           <div className="skeleton h-[6.1rem] w-[6.1rem] flex-shrink-0 rounded"></div>
           <div className="w-[80%] overflow-hidden">
-            <h3 className="skeleton mb-[0.5rem] h-[1.6rem] w-full rounded-[0.25rem]">{skeletonData.name}</h3>
+            <h3 className="skeleton mb-[0.5rem] h-[1.6rem] w-full rounded-[0.25rem]">
+              {skeletonData.name}
+              {skeletonData.verified && (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  height="16"
+                  style={{ marginLeft: '8px' }}
+                >
+                  <circle cx="12" cy="12" r="10" fill="rgb(24, 186, 255)" />
+                  <path fill="#fff" d="M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z" />
+                </svg>
+              )}
+            </h3>
             <p className="skeleton mb-[0.4rem] h-[1.2rem] w-full rounded-[0.25rem]">{skeletonData.location}</p>
             <div className="flex gap-[1rem] overflow-hidden">
               {skeletonData.skills &&
@@ -64,4 +79,5 @@ function ProfileSkeleton() {
     </div>
   );
 }
+
 export default ProfileSkeleton;
