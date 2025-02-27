@@ -20,7 +20,7 @@ function ProfileSkeleton() {
 
   return (
     <div>
-      <div className="mb-[1.5rem] h-auto rounded-[10px] pb-[0rem] pl-[1rem] pr-[1rem] pt-[1rem] shadow-lg ">
+      <div className="mb-[1.5rem] h-auto rounded-[10px] pb-[0rem] pl-[1rem] pr-[1rem] pt-[1rem] shadow-lg">
         <div className="flex gap-[1rem]">
           <div className="skeleton h-[6.1rem] w-[6.1rem] flex-shrink-0 rounded"></div>
           <div className="w-[80%] overflow-hidden">

@@ -1,9 +1,11 @@
 import React from 'react';
+import styled from 'styled-components';
 import Navbar from '../components/Navbar';
 import Globe from '../components/Globe';
 import { Footer } from '../components/Footer/Footer';
 import LOGO from './WordMark.png';
 import PoweredByDevDisplay from './PoweredByDevDisplay.png';
+import Card from '../components/Card';
 
 const Hero = () => {
   return (
@@ -105,6 +107,139 @@ const Hero = () => {
   );
 };
 
+const StyledButton = styled.button`
+  cursor: pointer;
+  font-size: 1rem; /* Smaller font size */
+  border-radius: 12px; /* Smaller border radius */
+  border: none;
+  padding: 1px; /* Smaller padding */
+  background: radial-gradient(circle 80px at 80% -10%, #ffffff, #181b1b);
+  position: relative;
+  transition:
+    background 0.3s,
+    transform 0.3s;
+  animation: zoom 3s ease-in-out infinite;
+  margin-top: 16px; /* Add margin to increase space */
+
+  &:hover {
+    transform: scale(0.98);
+    animation-play-state: paused;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 65%;
+    height: 60%;
+    border-radius: 120px;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 20px #ffffff38;
+    z-index: -1;
+    transition: box-shadow 0.3s;
+  }
+
+  &:hover::after {
+    box-shadow: 0 0 10px #ffffff18;
+  }
+
+  .blob1 {
+    position: absolute;
+    width: 50px; /* Smaller blob size */
+    height: 100%;
+    border-radius: 16px;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(circle 60px at 0% 100%, #3fe9ff, #0000ff80, transparent);
+    box-shadow: -10px 10px 30px #0051ff2d;
+    transition:
+      background 0.3s,
+      box-shadow 0.3s;
+  }
+
+  &:hover .blob1 {
+    box-shadow: -5px 5px 20px #000;
+  }
+
+  .inner {
+    padding: 10px 20px; /* Smaller inner padding */
+    border-radius: 12px;
+    color: #fff;
+    z-index: 3;
+    position: relative;
+    background: radial-gradient(circle 80px at 80% -50%, #777777, #0f1111);
+    transition: background 0.3s;
+  }
+
+  &:hover .inner {
+    background: radial-gradient(circle 80px at 80% -50%, #333333, #0f0f0f);
+  }
+
+  .inner::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    background: radial-gradient(circle 60px at 0% 100%, #00e1ff1a, #0000ff11, transparent);
+    position: absolute;
+    transition: opacity 0.3s;
+  }
+
+  &:hover .inner::before {
+    opacity: 0;
+  }
+
+  @keyframes zoom {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+`;
+
+const StyledDot = styled.div`
+  .dot {
+    width: 5px;
+    aspect-ratio: 1;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ffffff;
+    border-radius: 100px;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    animation: moveDot 6s linear infinite;
+  }
+
+  @keyframes moveDot {
+    0% {
+      top: 0;
+      right: 0;
+    }
+    25% {
+      top: 0;
+      right: calc(100% - 5px);
+    }
+    50% {
+      top: calc(100% - 5px);
+      right: calc(100% - 5px);
+    }
+    75% {
+      top: calc(100% - 5px);
+      right: 0;
+    }
+    100% {
+      top: 0;
+      right: 0;
+    }
+  }
+`;
+
 const TechFeatures = () => {
   return (
     <section className="tech-features-section mt-[60%] max-w-[80%] px-4 py-16 text-white xs:mt-0">
@@ -117,213 +252,250 @@ const TechFeatures = () => {
 
       {/* Grid Layout for Features */}
       <div className="grid grid-cols-1 gap-6 text-center md:grid-cols-2 lg:grid-cols-4">
-        <a
-          href="/opportunities"
-          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-        >
-          <span className="absolute inset-0"></span>
-          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Opportunities</h3>
-            <p>Explore various career and learning opportunities in the tech industry.</p>
-            <button
-              onClick={() => (window.location.href = '/opportunities')}
-              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
-            >
-              Explore Now
-            </button>
-          </div>
-        </a>
+        <StyledDot>
+          <a
+            href="/opportunities"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Opportunities</h3>
+                <p>Explore various career and learning opportunities in the tech industry.</p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/opportunities')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
 
-        <a
-          href="/Resources"
-          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-        >
-          <span className="absolute inset-0"></span>
-          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Resources</h3>
-            <p>Access a wide range of learning resources, tools, and libraries to boost your skills.</p>
-            <button
-              onClick={() => (window.location.href = '/Resources')}
-              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
-            >
-              Explore Now
-            </button>
-          </div>
-        </a>
+        <StyledDot>
+          <a
+            href="/Resources"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Resources</h3>
+                <p>Access a wide range of learning resources, tools, and libraries to boost your skills.</p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/Resources')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
 
-        <a
-          href="/ProjectShowcase"
-          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-        >
-          <span className="absolute inset-0"></span>
-          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Project Showcase</h3>
-            <p>Showcase your projects, get feedback, and inspire others to collaborate.</p>
-            <button
-              onClick={() => (window.location.href = '/ProjectShowcase')}
-              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
-            >
-              Explore Now
-            </button>
-          </div>
-        </a>
+        <StyledDot>
+          <a
+            href="/ProjectShowcase"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Project Showcase</h3>
+                <p>Showcase your projects, get feedback, and inspire others to collaborate.</p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/ProjectShowcase')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
 
-        <a
-          href="/Discussions"
-          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-        >
-          <span className="absolute inset-0"></span>
-          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Tech Discussion</h3>
-            <p>Engage in tech discussions, share ideas, and stay updated on the latest trends.</p>
-            <button
-              onClick={() => (window.location.href = '/Discussions')}
-              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
-            >
-              Explore Now
-            </button>
-          </div>
-        </a>
+        <StyledDot>
+          <a
+            href="/Discussions"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Tech Discussion</h3>
+                <p>Engage in tech discussions, share ideas, and stay updated on the latest trends.</p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/Discussions')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
 
-        <a
-          href="/IdeaSubmission"
-          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-        >
-          <span className="absolute inset-0"></span>
-          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Ideas Submission</h3>
-            <p>Submit your innovative ideas, get feedback, and explore collaborations.</p>
-            <button
-              onClick={() => (window.location.href = '/IdeaSubmission')}
-              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
-            >
-              Explore Now
-            </button>
-          </div>
-        </a>
+        <StyledDot>
+          <a
+            href="/IdeaSubmission"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Ideas Submission</h3>
+                <p>Submit your innovative ideas, get feedback, and explore collaborations.</p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/IdeaSubmission')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
 
-        <a
-          href="/PortfolioIdeas"
-          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-        >
-          <span className="absolute inset-0"></span>
-          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Portfolio Ideas</h3>
-            <p>Get inspired with creative ideas to enhance your portfolio and make an impact.</p>
-            <button
-              onClick={() => (window.location.href = '/PortfolioIdeas')}
-              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
-            >
-              Explore Now
-            </button>
-          </div>
-        </a>
+        <StyledDot>
+          <a
+            href="/PortfolioIdeas"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Portfolio Ideas</h3>
+                <p>Get inspired with creative ideas to enhance your portfolio and make an impact.</p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/PortfolioIdeas')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
 
-        <a
-          href="/PortfolioBuilder"
-          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-        >
-          <span className="absolute inset-0"></span>
-          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Portfolio Building</h3>
-            <p>Learn the best practices to build a standout portfolio that impresses recruiters.</p>
-            <button
-              onClick={() => (window.location.href = '/PortfolioBuilder')}
-              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
-            >
-              Explore Now
-            </button>
-          </div>
-        </a>
+        <StyledDot>
+          <a
+            href="/PortfolioBuilder"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Portfolio Building</h3>
+                <p>Learn the best practices to build a standout portfolio that impresses recruiters.</p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/PortfolioBuilder')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
 
-        <a
-          href="/ResumeBuilder"
-          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-        >
-          <span className="absolute inset-0"></span>
-          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Resume Building</h3>
-            <p>Create a professional resume with tips and templates tailored to the tech industry.</p>
-            <button
-              onClick={() => (window.location.href = '/ResumeBuilder')}
-              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
-            >
-              Explore Now
-            </button>
-          </div>
-        </a>
+        <StyledDot>
+          <a
+            href="/ResumeBuilder"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Resume Building</h3>
+                <p>Create a professional resume with tips and templates tailored to the tech industry.</p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/ResumeBuilder')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
 
-        <a
-          href="/AIToolsHub"
-          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-        >
-          <span className="absolute inset-0"></span>
-          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">AI Tools Hub</h3>
-            <p>The ultimate hub for powerful and innovative AI tools, all in one place.</p>
-            <button
-              onClick={() => (window.location.href = '/AIToolsHub')}
-              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
-            >
-              Explore Now
-            </button>
-          </div>
-        </a>
+        <StyledDot>
+          <a
+            href="/AIToolsHub"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">AI Tools Hub</h3>
+                <p>The ultimate hub for powerful and innovative AI tools, all in one place.</p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/AIToolsHub')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
 
-        <a
-          href="/journeys"
-          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-        >
-          <span className="absolute inset-0"></span>
-          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Journeys Page</h3>
-            <p>
-              Explore inspiring stories of achievers, their challenges, and the strategies that led them to success.
-            </p>
-            <button
-              onClick={() => (window.location.href = '/journeys')}
-              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
-            >
-              Explore Now
-            </button>
-          </div>
-        </a>
+        <StyledDot>
+          <a
+            href="/journeys"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Journeys Page</h3>
+                <p>
+                  Explore inspiring stories of achievers, their challenges, and the strategies that led them to success.
+                </p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/journeys')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
 
-        <a
-          href="/IndustryTrends"
-          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-        >
-          <span className="absolute inset-0"></span>
-          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Industry Trends</h3>
-            <p>
-              Share regular articles and videos on industry trends, expert insights, and career advice to keep engaged
-            </p>
-            <button
-              onClick={() => (window.location.href = '/IndustryTrends')}
-              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
-            >
-              Explore Now
-            </button>
-          </div>
-        </a>
+        <StyledDot>
+          <a
+            href="/IndustryTrends"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Industry Trends</h3>
+                <p>
+                  Share regular articles and videos on industry trends, expert insights, and career advice to keep
+                  engaged.
+                </p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/IndustryTrends')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
 
-        <a
-          href="/AiCareer"
-          className="feature-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-        >
-          <span className="absolute inset-0"></span>
-          <div className="custom-font feature-card-inner relative z-10 rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">AI Career Guide</h3>
-            <p>Get AI-powered career recommendations tailored to your skills, interests, and goals.</p>
-            <button
-              onClick={() => (window.location.href = '/AiCareer')}
-              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
-            >
-              Explore Now
-            </button>
-          </div>
-        </a>
+        <StyledDot>
+          <a
+            href="/AiCareer"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">AI Career Guide</h3>
+                <p>Get AI-powered career recommendations tailored to your skills, interests, and goals.</p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/AiCareer')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
       </div>
 
       {/*Powered By DevDisplay */}
@@ -333,99 +505,152 @@ const TechFeatures = () => {
 
       {/* Tech Projects Powered by DevDisplay */}
       <div className="my-8 grid grid-cols-1 gap-6 text-center md:grid-cols-2 lg:grid-cols-4">
-        <a
-          href="https://github-legacy.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="project-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-        >
-          <div className="custom-font project-card-inner relative z-10 rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">GitHub Legacy</h3>
-            <p>Transform your GitHub journey into a professional resume in seconds</p>
-            <button
-              onClick={() => window.open('https://github-legacy.vercel.app/', '_blank')}
-              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
-            >
-              Visit Now
-            </button>
-          </div>
-        </a>
+        <StyledDot>
+          <a
+            href="https://github-legacy.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">GitHub Legacy</h3>
+                <p>Transform your GitHub journey into a professional resume in seconds</p>
+              </div>
+              <StyledButton
+                onClick={() => {
+                  window.location.href = 'https://github-legacy.vercel.app';
+                  window.open('_blank');
+                }}
+              >
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
 
-        <a
-          href="/Library"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="project-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-        >
-          <div className="custom-font project-card-inner relative z-10 rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">DevDisplay Library</h3>
-            <p>Coming Soon - OpenSource ui component library!</p>
-            <button
-              onClick={() => window.open('#', '_blank')}
-              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
-            >
-              Visit Now
-            </button>
-          </div>
-        </a>
+        <StyledDot>
+          <a
+            href="/Library"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">DevDisplay Library</h3>
+                <p>Coming Soon - OpenSource ui component library!</p>
+              </div>
+              <StyledButton onClick={() => window.open('#', '_blank')}>
+                <div className="blob1" />
+                <div className="inner">Visit Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
 
-        <a
-          href="/OnlineCompiler"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="project-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-        >
-          <div className="custom-font project-card-inner relative z-10 rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Online Compiler</h3>
-            <p>Coming Soon - Online Compiler where you can run your code online!</p>
-            <button
-              onClick={() => window.open('#', '_blank')}
-              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
-            >
-              Visit Now
-            </button>
-          </div>
-        </a>
+        <StyledDot>
+          <a
+            href="/OnlineCompiler"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Online Compiler</h3>
+                <p>Coming Soon - Online Compiler where you can run your code online!</p>
+              </div>
+              <StyledButton onClick={() => window.open('#', '_blank')}>
+                <div className="blob1" />
+                <div className="inner">Visit Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
 
-        <a
-          href="/TechQuiz"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="project-card group relative block rounded-lg border border-white bg-gray-800 p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-        >
-          <div className="custom-font project-card-inner relative z-10 rounded-lg p-[2px]">
-            <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Tech Quiz</h3>
-            <p>Coming Soon - Test your tech knowledge on DevDisplay!</p>
-            <button
-              onClick={() => window.open('#', '_blank')}
-              className="mt-4 rounded border border-white px-4 py-2 text-white transition duration-300 hover:bg-white hover:text-gray-800"
-            >
-              Visit Now
-            </button>
-          </div>
-        </a>
+        <StyledDot>
+          <a
+            href="/TechQuiz"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Tech Quiz</h3>
+                <p>Coming Soon - Test your tech knowledge on DevDisplay!</p>
+              </div>
+              <StyledButton onClick={() => window.open('#', '_blank')}>
+                <div className="blob1" />
+                <div className="inner">Visit Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
       </div>
 
       {/*Adding New Features */}
-      <a
-        href="/https://github.com/codeaashu/DevDisplay"
-        className="feature-card mt-6 block rounded-lg bg-gray-800 p-6 text-center shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-      >
-        <div className="custom-font feature-card-inner rounded-lg p-[2px]">
-          <h3 className="mb-4 text-2xl font-semibold">
-            <span className="text-blue-400">Suggest a new feature idea!</span>
-          </h3>
-          <p>
-            Suggest new features you'd love to see on DevDisplay. We believe innovation is limitless. As a contributor,
-            you're encouraged to think beyond and add new, innovative features that can make a difference in the tech
-            ecosystem. Think outside the box and introduce features that can be revolutionary for tech enthusiasts
-            worldwide. If you spot a gap in the tech world, DevDisplay can be the solution.
-          </p>
-        </div>
-      </a>
+      <StyledDot>
+        <a
+          href="https://github.com/codeaashu/DevDisplay"
+          className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+        >
+          <span className="absolute inset-0"></span>
+          <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+            <div>
+              <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Suggest a new feature idea!</h3>
+              <p>
+                Suggest new features you'd love to see on DevDisplay. We believe innovation is limitless. As a
+                contributor, you're encouraged to think beyond and add new, innovative features that can make a
+                difference in the tech ecosystem. Think outside the box and introduce features that can be revolutionary
+                for tech enthusiasts worldwide. If you spot a gap in the tech world, DevDisplay can be the solution.
+              </p>
+            </div>
+            <StyledButton onClick={() => window.open('#', '_blank')}>
+              <div className="blob1" />
+              <div className="inner">Visit Now</div>
+            </StyledButton>
+          </div>
+          <div className="dot" />
+        </a>
+      </StyledDot>
     </section>
   );
 };
+
+// <StyledDot>
+// <a
+//   href="/https://github.com/codeaashu/DevDisplay"
+//   className="project-card mt-6 block rounded-lg bg-gray-800 p-6 text-center shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
+// >
+//   <div className="custom-font project-card-inner rounded-lg p-[2px]">
+//     <h3 className="mb-4 text-2xl font-semibold">
+//       <span className="text-blue-400">Suggest a new feature idea!</span>
+//     </h3>
+//     <p>
+//       Suggest new features you'd love to see on DevDisplay. We believe innovation is limitless. As a contributor,
+//       you're encouraged to think beyond and add new, innovative features that can make a difference in the tech
+//       ecosystem. Think outside the box and introduce features that can be revolutionary for tech enthusiasts
+//       worldwide. If you spot a gap in the tech world, DevDisplay can be the solution.
+//     </p>
+//     <StyledButton onClick={() => window.open('#', '_blank')}>
+//           <div className="blob1" />
+//           <div className="inner">Visit Now</div>
+//         </StyledButton>
+//       </div>
+//       <div className="dot" />
+//     </a>
+//   </StyledDot>
 
 const supporters = [
   { name: 'Digital Ocean', logo: '/assets/SupportedBy/DigitalOcean.png' },
@@ -476,6 +701,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <TechFeatures />
+      {/* <Card />  */}
       <SupportedBy />
       <Footer />
     </div>
