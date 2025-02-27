@@ -131,7 +131,7 @@ function Search({ onSearch }) {
               <div className="username">Dev Pioneer</div>
               <div className="lable-message">
                 Add Your Profile
-                <FaCheckCircle className="ml-2 rounded-full border-[1px] border-blue-500 p-0.5 text-xl text-blue-500" />
+                <FaCheckCircle className="ml-2 rounded-full border-[1px] border-[#0ea5e9] p-0.5 text-xl text-[#0ea5e9]" />
               </div>
               <div className="user-id">@devpioneer</div>
             </div>
