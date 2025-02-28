@@ -1,4 +1,33 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const ProfileSkeletonWrapper = styled.div`
+  @font-face {
+    font-family: 'MerriweatherSans-Light';
+    src: url('/fonts/MerriweatherSans-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  font-family: 'MerriweatherSans-Light', sans-serif;
+
+  .skeleton {
+    background-color: #e0e0e0;
+    animation: pulse 1.5s infinite ease-in-out;
+  }
+
+  @keyframes pulse {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+`;
 
 function ProfileSkeleton() {
   const skeletonData = {
@@ -19,7 +48,7 @@ function ProfileSkeleton() {
   };
 
   return (
-    <div>
+    <ProfileSkeletonWrapper>
       <div className="mb-[1.5rem] h-auto rounded-[10px] pb-[0rem] pl-[1rem] pr-[1rem] pt-[1rem] shadow-lg">
         <div className="flex gap-[1rem]">
           <div className="skeleton h-[6.1rem] w-[6.1rem] flex-shrink-0 rounded"></div>
@@ -76,7 +105,7 @@ function ProfileSkeleton() {
           </div>
         </div>
       </div>
-    </div>
+    </ProfileSkeletonWrapper>
   );
 }
 

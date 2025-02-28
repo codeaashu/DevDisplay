@@ -198,6 +198,15 @@ function Search({ onSearch }) {
 }
 
 const StyledWrapper = styled.div`
+  @font-face {
+    font-family: 'MerriweatherSans-Light';
+    src: url('/fonts/MerriweatherSans-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  font-family: 'MerriweatherSans-Light', sans-serif;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -218,7 +227,7 @@ const StyledWrapper = styled.div`
     justify-content: center;
     align-items: center;
     font:
-      400 var(--font-size) Helvetica Neue,
+      400 var(--font-size) 'MerriweatherSans-Light',
       sans-serif;
     box-shadow:
       0 0 2.17382px rgba(0, 0, 0, 0.049),

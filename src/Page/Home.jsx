@@ -5,7 +5,6 @@ import Globe from '../components/Globe';
 import { Footer } from '../components/Footer/Footer';
 import LOGO from './WordMark.png';
 import PoweredByDevDisplay from './PoweredByDevDisplay.png';
-import Card from '../components/Card';
 
 const Hero = () => {
   return (
@@ -598,32 +597,38 @@ const TechFeatures = () => {
           </a>
         </StyledDot>
       </div>
-
       {/*Adding New Features */}
-      <StyledDot>
-        <a
-          href="https://github.com/codeaashu/DevDisplay"
-          className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
-        >
-          <span className="absolute inset-0"></span>
-          <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
-            <div>
-              <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Suggest a new feature idea!</h3>
-              <p>
-                Suggest new features you'd love to see on DevDisplay. We believe innovation is limitless. As a
-                contributor, you're encouraged to think beyond and add new, innovative features that can make a
-                difference in the tech ecosystem. Think outside the box and introduce features that can be revolutionary
-                for tech enthusiasts worldwide. If you spot a gap in the tech world, DevDisplay can be the solution.
+    </section>
+  );
+};
+
+const CardSection = () => {
+  return (
+    <section className="card-section flex items-center justify-center py-0">
+      <StyledWrapper>
+        <div className="main">
+          <div className="card">
+            <div className="card-content">
+              <div className="h3">
+                We believe<span> innovation </span>is limitless...✦
+              </div>
+              <p className="p">
+                Suggest new features you'd love to see on DevDisplay. As a contributor, you're encouraged to think
+                beyond and add new, innovative features that can make a difference in the tech ecosystem. Think outside
+                the box and introduce features that can be revolutionary for tech enthusiasts worldwide. If you spot a
+                gap in the tech world, DevDisplay can be the solution.
               </p>
+              <StyledButton onClick={() => window.open('#', '_blank')}>
+                <div className="blob1" />
+                <div className="inner">Suggest a new feature idea!</div>
+              </StyledButton>
+              <StyledDotSlow>
+                <div className="dot" />
+              </StyledDotSlow>
             </div>
-            <StyledButton onClick={() => window.open('#', '_blank')}>
-              <div className="blob1" />
-              <div className="inner">Visit Now</div>
-            </StyledButton>
           </div>
-          <div className="dot" />
-        </a>
-      </StyledDot>
+        </div>
+      </StyledWrapper>
     </section>
   );
 };
@@ -651,6 +656,191 @@ const TechFeatures = () => {
 //       <div className="dot" />
 //     </a>
 //   </StyledDot>
+
+const StyledWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0rem 0; /* Reduced padding */
+
+  .h3 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 2rem; /* Increase font size */
+    text-decoration: none; /* Remove underline from "We believe" */
+    text-transform: none; /* Remove uppercase transformation */
+  }
+
+  .h3 span {
+    font-weight: 800;
+    background: linear-gradient(125deg, #b663ff, #13c1ef);
+    text-transform: lowercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .card {
+    width: 100%; /* Increase the width to 100% */
+    max-width: 1200px; /* Increase the maximum width */
+    position: relative;
+    background-color: rgb(16 16 16);
+    border: 1px solid rgb(255 255 255 / 5%);
+    border-radius: 1.5rem;
+    padding: 1rem; /* Increase padding */
+  }
+
+  .card:after {
+    content: '';
+    height: 70px;
+    width: 1px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(transparent, mediumslateblue, transparent);
+    box-shadow: 0 0 30px mediumslateblue;
+    opacity: 0;
+    animation: moveBorder 12s linear infinite;
+  }
+
+  @keyframes moveBorder {
+    0% {
+      top: 0;
+      left: 0;
+      height: 70px;
+      width: 1px;
+      opacity: 1;
+    }
+    25% {
+      top: 0;
+      left: calc(100% - 1px);
+      height: 70px;
+      width: 1px;
+      opacity: 1;
+    }
+    50% {
+      top: calc(100% - 70px);
+      left: calc(100% - 1px);
+      height: 70px;
+      width: 1px;
+      opacity: 1;
+    }
+    75% {
+      top: calc(100% - 70px);
+      left: 0;
+      height: 70px;
+      width: 1px;
+      opacity: 1;
+    }
+    100% {
+      top: 0;
+      left: 0;
+      height: 70px;
+      width: 1px;
+      opacity: 1;
+    }
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-position: 50% 50%;
+    background-size: 1.1rem 1.1rem;
+    padding: 4rem; /* Increase padding */
+    border-radius: 1.25rem;
+    overflow: hidden;
+  }
+
+  .card-content .h1,
+  .h3,
+  .p {
+    text-align: center;
+  }
+
+  .card-content .h1 {
+    color: rgb(250 249 246);
+    font-size: 3.6rem; /* Increase font size */
+  }
+
+  .card-content .h3 {
+    color: #fff;
+    font-size: 2rem; /* Increase font size */
+  }
+
+  .card-content .p {
+    color: rgb(255 255 255 / 75%);
+    line-height: 1.5rem; /* Increase line height */
+    font-size: 1.2rem; /* Increase font size */
+    margin: 1rem 0; /* Add margin to increase space above and below */
+  }
+
+  @media (max-width: 700px) {
+    .card {
+      width: calc(100% - 2rem);
+      margin: 0rem 1rem;
+      padding: 1.5rem; /* Adjust padding */
+      border-radius: 1rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .card-content {
+      padding: 3rem;
+    }
+
+    .card-content .h1 {
+      font-size: 2.8rem; /* Adjust font size */
+    }
+  }
+`;
+
+const StyledDotSlow = styled.div`
+  .dot {
+    width: 5px;
+    aspect-ratio: 1;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ffffff;
+    border-radius: 100px;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    animation: moveDotSlow 12s linear infinite; /* Slower animation */
+  }
+
+  @keyframes moveDotSlow {
+    0% {
+      top: 0;
+      right: 0;
+    }
+    25% {
+      top: 0;
+      right: calc(100% - 5px);
+    }
+    50% {
+      top: calc(100% - 5px);
+      right: calc(100% - 5px);
+    }
+    75% {
+      top: calc(100% - 5px);
+      right: 0;
+    }
+    100% {
+      top: 0;
+      right: 0;
+    }
+  }
+`;
 
 const supporters = [
   { name: 'Digital Ocean', logo: '/assets/SupportedBy/DigitalOcean.png' },
@@ -701,7 +891,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <TechFeatures />
-      {/* <Card />  */}
+      <CardSection />
       <SupportedBy />
       <Footer />
     </div>
