@@ -8,7 +8,7 @@ import NoResultFound from './components/NoResultFound/NoResultFound';
 import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import filenames from './ProfilesList.json';
-import GTranslateLoader from './components/GTranslateLoader';
+// import GTranslateLoader from './components/GTranslateLoader';
 
 function App() {
   const profilesRef = useRef();
@@ -145,7 +145,7 @@ function App() {
   };
 
   return currentUrl === '/' ? (
-    <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
+    <div className="App flex flex-col bg-primaryColor md:flex-row dark:bg-secondaryColor">
       <Sidebar />
       <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7" ref={profilesRef}>
         <Search onSearch={handleSearch} />
@@ -159,7 +159,7 @@ function App() {
           />
         )}
       </div>
-      <GTranslateLoader />
+      {/* <GTranslateLoader /> */}
     </div>
   ) : (
     <ErrorPage />

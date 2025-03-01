@@ -2,32 +2,49 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Homepage from './Homepage';
+// Introducing DevDisplay
 import Home from './Page/Home.jsx';
-import Opportunities from './Page/Opportunities.jsx';
+// NavBar Pages
+import About from './Page/About.jsx';
+import Contribution from './Page/Contribution.jsx';
+import SponsorUs from './Page/Sponsor.jsx';
+import DevSpring from './Page/DevSpring.jsx';
+// Features Pages
 import IdeaSubmission from './Page/IdeaSubmission.jsx';
 import PortfolioIdeas from './Page/PortfolioIdeas.jsx';
 import PortfolioBuilder from './Page/PortfolioBuilder.jsx';
 import ProjectShowcase from './Page/ProjectShowcase.jsx';
 import ResumeBuilder from './Page/ResumeBuilder.jsx';
-import Resources from './Page/Resources.jsx';
 import Discussions from './Page/Discussions.jsx';
-import Documentation from './Resouces_Pages/Documentation.jsx';
-import ProgrammingLanguages from './Resouces_Pages/ProgrammingLanguages.jsx';
-import TechNotes from './Resouces_Pages/TechNotes.jsx';
-import DevSpring from './Page/DevSpring.jsx';
-import AITools from './Resouces_Pages/AITools.jsx';
-import OpenSource from './Resouces_Pages/OpenSource.jsx';
-import RoadmapGuide from './Resouces_Pages/RoadmapGuide.jsx';
-import InterviewPrep from './Resouces_Pages/InterviewPrep.jsx';
-import TopGithubRepo from './Resouces_Pages/TopGithubRepo.jsx';
-import ContributionsGuide from './Resouces_Pages/ContributionsGuide.jsx';
-import About from './Page/About.jsx';
-import Contribution from './Page/Contribution.jsx';
-import PageNotFound from './Page/PageNotFound.jsx';
-import SponsorUs from './Page/Sponsor.jsx';
-import AchieverJourneyPage from './components/AchievementJourney/IndividualJourney.js';
 import IndustryTrends from './Page/IndustryTrends.jsx';
 import JourneyPage from './Page/JourneyPage.jsx';
+import AiCareer from './Page/AiCareer.jsx';
+import AIToolsHub from './Page/AIToolsHub.jsx';
+import AchieverJourneyPage from './components/AchievementJourney/IndividualJourney.js';
+// Features - Opportunities Hub Pages
+import Opportunities from './Page/Opportunities.jsx';
+import HybridOnsiteJobs from './Page/OpportunitiesHub/HybridOnsiteJobs.jsx';
+import RemoteJobs from './Page/OpportunitiesHub/RemoteJobs.jsx';
+import Internships from './Page/OpportunitiesHub/Internships.jsx';
+import FreelanceWork from './Page/OpportunitiesHub/FreelanceWork.jsx';
+import Hackathons from './Page/OpportunitiesHub/Hackathons.jsx';
+import TechFestEvents from './Page/OpportunitiesHub/TechFestEvents.jsx';
+import Bootcamps from './Page/OpportunitiesHub/Bootcamps.jsx';
+import Certifications from './Page/OpportunitiesHub/Certifications.jsx';
+import OpenSourceProgram from './Page/OpportunitiesHub/OpenSourceProgram.jsx';
+// Features - Resources Hub Pages
+import Resources from './Page/Resources.jsx';
+import Documentation from './Page/ResoucesHub/Documentation.jsx';
+import ProgrammingLanguages from './Page/ResoucesHub/ProgrammingLanguages.jsx';
+import TechNotes from './Page/ResoucesHub/TechNotes.jsx';
+import AITools from './Page/ResoucesHub/AITools.jsx';
+import OpenSource from './Page/ResoucesHub/OpenSource.jsx';
+import RoadmapGuide from './Page/ResoucesHub/RoadmapGuide.jsx';
+import InterviewPrep from './Page/ResoucesHub/InterviewPrep.jsx';
+import TopGithubRepo from './Page/ResoucesHub/TopGithubRepo.jsx';
+import ContributionsGuide from './Page/ResoucesHub/ContributionsGuide.jsx';
+
+import PageNotFound from './Page/PageNotFound.jsx';
 function App() {
   return (
     <BrowserRouter>
@@ -79,31 +96,48 @@ function App() {
 
       <Routes>
         <Route index element={<Homepage />} />
+        {/* Introducing DevDisplay */}
         <Route path="/Home" element={<Home />} />
+        {/* NavBar Pages */}
         <Route path="/About" element={<About />} />
-        <Route path="/Opportunities" element={<Opportunities />} />
+        <Route path="/Contribution" element={<Contribution />} />
+        <Route path="/SponsorUs" element={<SponsorUs />} />
+        <Route path="/DevSpring" element={<DevSpring />} />
+        {/* Features Pages */}
+        <Route path="/ProjectShowcase" element={<ProjectShowcase />} />
+        <Route path="/Discussions" element={<Discussions />} />
         <Route path="/IdeaSubmission" element={<IdeaSubmission />} />
         <Route path="/PortfolioIdeas" element={<PortfolioIdeas />} />
         <Route path="/PortfolioBuilder" element={<PortfolioBuilder />} />
-        <Route path="/ProjectShowcase" element={<ProjectShowcase />} />
         <Route path="/ResumeBuilder" element={<ResumeBuilder />} />
+        <Route path="/journeys/:id" element={<AchieverJourneyPage />} />
+        <Route path="/journeys" element={<JourneyPage />} />
+        <Route path="/IndustryTrends" element={<IndustryTrends />} />
+        <Route path="/AiCareer" element={<AiCareer />} />
+        <Route path="/AIToolsHub" element={<AIToolsHub />} />
+        {/* Features - Opportunities Hub Pages */}
+        <Route path="/Opportunities" element={<Opportunities />} />
+        <Route path="/HybridOnsiteJobs" element={<HybridOnsiteJobs />} />
+        <Route path="/RemoteJobs" element={<RemoteJobs />} />
+        <Route path="/Internships" element={<Internships />} />
+        <Route path="/FreelanceWork" element={<FreelanceWork />} />
+        <Route path="/Hackathons" element={<Hackathons />} />
+        <Route path="/TechFestEvents" element={<TechFestEvents />} />
+        <Route path="/Bootcamps" element={<Bootcamps />} />
+        <Route path="/Certifications" element={<Certifications />} />
+        <Route path="/OpenSourceProgram" element={<OpenSourceProgram />} />
+        {/* Features - Resources Hub Pages */}
         <Route path="/Resources" element={<Resources />} />
-        <Route path="/Discussions" element={<Discussions />} />
         <Route path="/documentation" element={<Documentation />} />
         <Route path="/courses" element={<ProgrammingLanguages />} />
         <Route path="/notes" element={<TechNotes />} />
-        <Route path="/DevSpring" element={<DevSpring />} />
         <Route path="/ai-tools" element={<AITools />} />
         <Route path="/libraries" element={<OpenSource />} />
         <Route path="/roadmaps" element={<RoadmapGuide />} />
         <Route path="/interview-kits" element={<InterviewPrep />} />
         <Route path="/github" element={<TopGithubRepo />} />
         <Route path="/community" element={<ContributionsGuide />} />
-        <Route path="/SponsorUs" element={<SponsorUs />} />
-        <Route path="/journeys/:id" element={<AchieverJourneyPage />} />
-        <Route path="/journeys" element={<JourneyPage />} />
-        <Route path="/IndustryTrends" element={<IndustryTrends />} />
-        <Route path="/Contribution" element={<Contribution />} />
+
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
