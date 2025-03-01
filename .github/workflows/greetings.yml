@@ -17,6 +17,48 @@ jobs:
       - uses: EddieHubCommunity/gh-action-community/src/welcome@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "Welcome, @${{ github.actor }}! Your issue is like a spark that ignites innovation. We're thrilled to dive into it and work together to find a solution."
-          pr-message: 'Great job, @${{ github.actor }}! 🎉 Thank you for opening a pull request. Your contribution is valuable and we appreciate your efforts to improve our project.'
-          footer: 'Soon the maintainers/owner will review it and provide you with feedback/suggestions.'
+          issue-message: |
+            🚀 Welcome, @${{ github.actor }}!
+
+            Your issue isn't just a submission—it's the spark that ignites creativity and pushes boundaries! ⚡🚀
+            At DevDisplay, we believe every idea has the power to create waves in the tech world. Your contribution is helping shape a platform built by developers, for developers.
+
+            Get ready to make an impact — Stay engaged—this is just the beginning of something amazing! 🔥
+          pr-message: |
+            🎉 Incredible work, @${{ github.actor }}! 🚀
+
+            Your first pull request isn't just a small step—it's a giant leap in your developer journey. At DevDisplay, we don't just welcome contributors—we celebrate them! 🎊
+
+            💡 This isn't just about adding your profile. It's about making an impact, showcasing your skills, and standing out in the developer ecosystem. If you put your 💯 into creating something exceptional, you could even join our Core Team and lead as a Community Leader in your area, college, or university.
+
+            Think of DevDisplay as your own project, not just another open-source contribution. We're not just a platform—we're a global movement redefining the tech space. Our vision is to be the go-to platform for developers and tech enthusiasts worldwide.
+
+            🚀 Innovation has no limits!
+            We encourage you to think beyond the ordinary. Got a revolutionary idea? Spot a gap in the tech world? DevDisplay can be the solution! We want contributors like you to dream big, build bold, and bring game-changing features to life.
+
+            🌍 DevDisplay is more than an open-source project. It's a global tech hub, a thriving community, and a platform where you can connect, collaborate, code, create, and conquer.
+
+            🔥 Keep pushing boundaries—we're just getting started!
+          footer: |
+            💡 **Your contribution is now in review!** Soon, our maintainers will check your PR and provide feedback/suggestions. Stay tuned and keep engaging with the community! 🚀  
+
+            📢 **Have ideas to improve DevDisplay?** Let us know! We're always looking for **innovative minds** to shape the future of tech.  
+
+            💬 **Join the conversation. Grow with the community. You belong here.** 🙌  
+
+            ---
+
+            ### **📢 Join Our Global Developer Communities & Connect with Innovators:**  
+            - **🚀 Join DevDisplay Discord Community**: [Discord Community](https://discord.gg/chyt2UgTv5)  
+            - **📱 Join DevDisplay WhatsApp Community**: [WhatsApp Community](https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4)  
+
+            📩 **Need Help? Reach Out to the Team:**  
+            - 📧 **Organization Email**: team@devdisplay.org  
+
+            💻 **Follow DevDisplay on Social Media & Stay Updated:**  
+            - **GitHub Organization**: [DevDisplay GitHub](https://github.com/devdisplay)  
+            - **LinkedIn**: [DevDisplay LinkedIn](https://www.linkedin.com/company/devdisplay/)  
+            - **Twitter (X)**: [DevDisplay Twitter](https://x.com/devdisplay_)  
+            - **Instagram**: [DevDisplay Instagram](https://www.instagram.com/devdisplay/)  
+
+            🔥 **Welcome to DevDisplay—A space where developers and all the tech enthusiasts can connect, collaborate, code, create, and conquer in the tech ecosystem.**
