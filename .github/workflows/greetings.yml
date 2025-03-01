@@ -47,6 +47,8 @@ jobs:
             ## **💡 Your issue is now in review!**
             - **Our maintainers will soon review your issue, provide feedback/suggestions, and assign it to you—then you can start working on it! 🚀 Stay tuned, stay engaged, and get ready to bring your ideas to life! 💡**
 
+            ---
+
           pr-message: |
             🎉 Incredible work, @${{ github.actor }}! 🚀
 
@@ -71,28 +73,27 @@ jobs:
             ## **💡 Your issue is now in review!**
             - **Our maintainers will soon review your PR and provide feedback/suggestions. 🚀 Stay tuned, stay engaged, and get ready to bring your ideas to life! 💡**
 
+            ---
+
           footer: |
+            📢 **Have ideas to improve DevDisplay?** Let us know! We're always looking for **innovative minds** to shape the future of tech.  
+
+            💬 **Join the conversation. Grow with the community. You belong here.** 🙌
+            - **🚀 Join DevDisplay GitHub DevDisplay Discussions**: [DevDisplay Discussions](https://github.com/codeaashu/DevDisplay/discussions)    
 
             ---
-             
-             📢 **Have ideas to improve DevDisplay?** Let us know! We're always looking for **innovative minds** to shape the future of tech.  
 
-             💬 **Join the conversation. Grow with the community. You belong here.** 🙌
-             - **🚀 Join DevDisplay GitHub DevDisplay Discussions**: [DevDisplay Discussions](https://github.com/codeaashu/DevDisplay/discussions)    
+            ### **📢 Join Our Global Developer Communities & Connect with Innovators:**  
+            - **🚀 Join DevDisplay Discord Community**: [Discord Community](https://discord.gg/chyt2UgTv5)  
+            - **📱 Join DevDisplay WhatsApp Community**: [WhatsApp Community](https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4)  
 
-             ---
+            📩 **Need Help? Reach Out to the Team:**  
+            - 📧 **Organization Email**: team@devdisplay.org  
 
-             ### **📢 Join Our Global Developer Communities & Connect with Innovators:**  
-             - **🚀 Join DevDisplay Discord Community**: [Discord Community](https://discord.gg/chyt2UgTv5)  
-             - **📱 Join DevDisplay WhatsApp Community**: [WhatsApp Community](https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4)  
+            💻 **Follow DevDisplay on Social Media & Stay Updated:**  
+            - **GitHub Organization**: [DevDisplay GitHub](https://github.com/devdisplay)  
+            - **LinkedIn**: [DevDisplay LinkedIn](https://www.linkedin.com/company/devdisplay/)  
+            - **Twitter (X)**: [DevDisplay Twitter](https://x.com/devdisplay_)  
+            - **Instagram**: [DevDisplay Instagram](https://www.instagram.com/devdisplay/)  
 
-             📩 **Need Help? Reach Out to the Team:**  
-             - 📧 **Organization Email**: team@devdisplay.org  
-
-             💻 **Follow DevDisplay on Social Media & Stay Updated:**  
-             - **GitHub Organization**: [DevDisplay GitHub](https://github.com/devdisplay)  
-             - **LinkedIn**: [DevDisplay LinkedIn](https://www.linkedin.com/company/devdisplay/)  
-             - **Twitter (X)**: [DevDisplay Twitter](https://x.com/devdisplay_)  
-             - **Instagram**: [DevDisplay Instagram](https://www.instagram.com/devdisplay/)  
-
-             🔥 **🌟 Thank You for Being Here!**
+            🔥 **🌟 Thank You for Being Here!**
