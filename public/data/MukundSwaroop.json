@@ -1,0 +1,15 @@
+{
+  "name": "Mukund Swaroop",
+  "location": "Noida",
+  "bio": "Developer",
+  "avatar": "https://github.com/MukundSwaroop.png",
+  "portfolio": "www.linkedin.com/in/mukund-swaroop",
+  "skills": ["Python", "C", "C++", "GitHub", "Git", "Open Source"],
+  "social": {
+    "GitHub": "https://github.com/MukundSwaroop",
+    "Twitter": "https://twitter.com/MukundSwaroop",
+    "LinkedIn": "https://www.linkedin.com/in/mukund-swaroop",
+    "Instagram": "https://www.instagram.com/mukund_swaroop",
+    "Email": "micha.062301@gmail.com"
+  }
+}

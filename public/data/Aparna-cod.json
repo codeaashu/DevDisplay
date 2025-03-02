@@ -1,0 +1,15 @@
+{
+  "name": "Aparna",
+  "location": "Delhi, India",
+  "bio": "Fullstack Developer",
+  "avatar": "https://github.com/Aparna-cod.png",
+  "portfolio": "https://github.com/Aparna-cod",
+  "skills": ["Javascript", "React.js", "Java", "GITHUB"],
+  "social": {
+    "GitHub": "https://github.com/Aparna-cod",
+    "Twitter": "https://twitter.com/AparnaAgg73",
+    "LinkedIn": "https://www.linkedin.com/in/aparnaaggarwal73",
+    "Instagram": "https://www.instagram.com/Aparna_06052",
+    "Email": "aggarwalaparna73@gmail.com"
+  }
+}

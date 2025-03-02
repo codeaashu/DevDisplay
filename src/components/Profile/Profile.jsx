@@ -1,6 +1,11 @@
 import React from 'react';
-import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaUserCircle, FaCheckCircle } from 'react-icons/fa';
 import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
+
+function isValidEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
 
 function Profile({ data }) {
   return <Card data={data} />;
@@ -8,6 +13,7 @@ function Profile({ data }) {
 
 function Card({ data }) {
   const cardRef = React.useRef();
+  const [showFallback, setShowFallback] = React.useState(false);
 
   const handleWheel = (event) => {
     event.stopPropagation();
@@ -30,18 +36,31 @@ function Card({ data }) {
   return (
     <div className="mb-6 h-auto rounded-lg bg-white p-4 shadow dark:bg-textPrimary">
       <div className="relative flex gap-4">
-        <div className="h-24 w-24 flex-shrink-0">
-          <img src={data.avatar} className="h-full w-full rounded-full" alt="User logo" />
+        <div className="flex h-24 w-24 flex-shrink-0 items-center justify-center rounded-full bg-gray-200">
+          {!showFallback ? (
+            <img
+              src={data.avatar}
+              onError={() => setShowFallback(true)}
+              className="h-full w-full rounded-full"
+              alt="User Avatar"
+            />
+          ) : (
+            <FaUserCircle className="text-6xl text-gray-500" />
+          )}
         </div>
+
         <div className="w-[55%] sm:w-[75%]">
           <h3>
             <a
-              className="text-lg font-bold hover:text-textSecondary dark:text-white"
+              className="flex items-center text-lg font-bold hover:text-textSecondary dark:text-white"
               href={data.portfolio}
               target="_blank"
               rel="noreferrer"
             >
               {data.name}
+              {data.verified && (
+                <FaCheckCircle className="ml-2 rounded-full border-[1px] border-[#0ea5e9] p-0.5 text-xl text-[#0ea5e9]" />
+              )}
             </a>
           </h3>
           <p className="flex items-center gap-x-1 text-sm dark:text-white">
@@ -107,7 +126,7 @@ function Card({ data }) {
           }`}
         >
           <a href={data.portfolio} className="text-textSecondary" target="_blank" rel="noreferrer">
-            View Profile &#8594;
+            Connect &#8594;
           </a>
         </div>
       </div>
@@ -138,8 +157,8 @@ function Card({ data }) {
             </a>
           )}
 
-          {data.social?.Email && (
-            <a href={data.social.Email} target="_blank" rel="noreferrer">
+          {data.social?.Email && isValidEmail(data.social.Email) && (
+            <a href={`mailto:${data.social.Email}`} target="_blank" rel="noreferrer">
               <FaEnvelope className="text-2xl text-blue-600 duration-300 hover:scale-125" />
             </a>
           )}

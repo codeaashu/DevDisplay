@@ -1,0 +1,15 @@
+{
+  "name": "Pahima R Uchil",
+  "location": "Mangalore",
+  "bio": "I'm a passionate tech enthusiast, constantly exploring new horizons in technology and sharing my journey of learning and growth!",
+  "avatar": "https://github.com/pahimauchil.png",
+  "portfolio": "https://github.com/pahimauchil",
+  "skills": ["C", "C++", "HTML", "CSS", "Javascript", "Python", "django", "Git", "Github", "Web Development"],
+  "social": {
+    "GitHub": "https://github.com/pahimauchil",
+    "Twitter": "https://x.com/Pahimauchil",
+    "LinkedIn": "https://www.linkedin.com/in/pahima-r-uchil-898ab2278",
+    "Instagram": "#",
+    "Email": "uchilpahi@gmail.com"
+  }
+}

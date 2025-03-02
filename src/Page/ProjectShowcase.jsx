@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import useDebounce from '../hooks/useDebouncer';
 import projectsData from '../DB/projects.json';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { Footer } from '../components/Footer/Footer';
 
 const ProjectsPage = () => {
   const [allProjects, setAllProjects] = useState([]);
@@ -66,39 +67,42 @@ const ProjectsPage = () => {
   }, [visibleProjects, isLoading, filteredProjects]);
 
   return (
-    <div className="background-wrapper1 min-h-screen bg-gray-900 p-6 text-white">
-      <header className="mb-6 w-full rounded-md bg-[#00a6fb] py-4 text-center">
-        <h1 className="text-4xl font-bold">Project Display</h1>
-        <p className="mt-2 text-sm">Explore amazing projects contributed by developers.</p>
-      </header>
+    <div>
+      <div className="background-wrapper1 min-h-screen bg-gray-900 p-6 text-white">
+        <header className="mb-6 w-full rounded-md bg-[#00a6fb] py-4 text-center">
+          <h1 className="text-4xl font-bold">Project Display</h1>
+          <p className="mt-2 text-sm">Explore amazing projects contributed by developers.</p>
+        </header>
 
-      <div className="mb-6">
-        <input
-          type="text"
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder="Search projects..."
-          className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-white transition focus:outline-none focus:ring focus:ring-[#00a6fb]"
-        />
+        <div className="mb-6">
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder="Search projects..."
+            className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-white transition focus:outline-none focus:ring focus:ring-[#00a6fb]"
+          />
+        </div>
+
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {visibleProjects.map((project, index) => (
+            <ProjectCard key={index} project={project} />
+          ))}
+
+          {isLoading && Array.from({ length: projectsPerPage }).map((_, index) => <LoadingSkeleton key={index} />)}
+        </div>
+
+        {!isLoading && visibleProjects.length >= filteredProjects.length && (
+          <p className="mt-6 text-center text-gray-400">🎉 You've reached the end!</p>
+        )}
       </div>
-
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {visibleProjects.map((project, index) => (
-          <ProjectCard key={index} project={project} />
-        ))}
-
-        {isLoading && Array.from({ length: projectsPerPage }).map((_, index) => <LoadingSkeleton key={index} />)}
-      </div>
-
-      {!isLoading && visibleProjects.length >= filteredProjects.length && (
-        <p className="mt-6 text-center text-gray-400">🎉 You've reached the end!</p>
-      )}
+      <Footer />
     </div>
   );
 };
 
 const ProjectCard = ({ project }) => {
-  const { title, description, tech, github_url, username, maker_image } = project;
+  const { title, description, tech, github_url, username, maker_image, live_url } = project;
 
   return (
     <div className="rounded-lg border border-gray-700 bg-gray-800 p-5 shadow-lg transition-all duration-300 hover:scale-105">
@@ -123,6 +127,16 @@ const ProjectCard = ({ project }) => {
         >
           <FaGithub className="mr-1" /> View on GitHub
         </a>
+        {live_url && (
+          <a
+            href={github_url}
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center text-sm text-[#00a6fb] hover:underline"
+          >
+            <FaExternalLinkAlt className="mr-1" /> View Live Demo
+          </a>
+        )}
         <a
           href={`https://github.com/${username}`}
           target="_blank"

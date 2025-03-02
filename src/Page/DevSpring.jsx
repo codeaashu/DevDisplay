@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { FaCode, FaUsers, FaUniversity, FaHandshake } from 'react-icons/fa';
+import { Footer } from '../components/Footer/Footer';
 
 const Navbar = () => {
   return (
@@ -22,58 +23,6 @@ const Navbar = () => {
 //     {label}
 //   </button>
 // );
-
-const Footer = () => {
-  return (
-    <footer className="mt-8 w-full bg-[#1e293b] py-6 text-white">
-      <div className="mx-auto max-w-screen-xl px-4">
-        <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-          <div className="text-center md:text-left">
-            <h4 className="text-xl font-bold text-[#00a6fb]">DevDisplay</h4>
-            <p className="mt-1 text-sm">
-              DevDisplay is a global open-source tech community and organization with a mission to unite all your tech
-              needs under one platform.
-            </p>
-          </div>
-
-          <div className="flex space-x-6">
-            <a href="/about" className="text-sm hover:text-[#00a6fb]">
-              About Us
-            </a>
-            <a href="/contact" className="text-sm hover:text-[#00a6fb]">
-              Contact
-            </a>
-            <a href="/privacy" className="text-sm hover:text-[#00a6fb]">
-              Privacy Policy
-            </a>
-            <a href="/terms" className="text-sm hover:text-[#00a6fb]">
-              Terms of Service
-            </a>
-          </div>
-
-          <div className="flex space-x-4">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-facebook-f text-lg hover:text-[#00a6fb]"></i>
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-twitter text-lg hover:text-[#00a6fb]"></i>
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-linkedin-in text-lg hover:text-[#00a6fb]"></i>
-            </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-github text-lg hover:text-[#00a6fb]"></i>
-            </a>
-          </div>
-        </div>
-
-        <div className="mt-6 border-t border-gray-700 pt-4 text-center">
-          <p className="text-sm">© 2024 DevDisplay. All Rights Reserved.</p>
-        </div>
-      </div>
-    </footer>
-  );
-};
 
 const DevSpring = () => {
   return (
@@ -239,6 +188,33 @@ const DevSpring = () => {
             </a>
           </div>
         </div>
+
+        {/* Sponsors Section */}
+        <section className="container mx-auto mt-12 p-8 text-center">
+          <h2 className="mb-8 text-4xl font-bold text-[#00a6fb]">Our Sponsors</h2>
+          <div className="flex flex-wrap justify-center gap-8">
+            {sponsors.map((sponsor, index) => (
+              <div key={index} className="flex flex-col items-center">
+                <img src={sponsor.logo} alt={sponsor.name} className="mb-4 h-24 w-24" />
+                <p className="text-lg text-gray-300">{sponsor.name}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Community Partners Section */}
+        <section className="container mx-auto mt-12 p-8 text-center">
+          <h2 className="mb-8 text-4xl font-bold text-[#00a6fb]">Our Community Partners</h2>
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-5">
+            {communityPartners.map((partner, index) => (
+              <div key={index} className="flex flex-col items-center">
+                <img src={partner.logo} alt={partner.name} className="mb-4 h-24 w-24" />
+                <p className="text-lg text-gray-300">{partner.name}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
         <div className="mt-4 flex items-center justify-center rounded-lg bg-gradient-to-r from-yellow-300 via-red-500 to-pink-500 p-4 text-lg text-white shadow-lg">
           <div className="rounded-lg bg-[#1e3a8a] p-6 text-white shadow-lg">
             <h3 className="text-xl font-bold">Guidelines</h3>
@@ -295,5 +271,37 @@ const DevSpring = () => {
     </div>
   );
 };
+
+const sponsors = [
+  { name: 'JetBrains', logo: '/assets/Sponsors/JetBrains.jpg' },
+  { name: 'Axure', logo: '/assets/Sponsors/Axure.jpg' },
+  { name: 'Appycrown', logo: '/assets/Sponsors/Appycrown.jpg' },
+  { name: 'Solana', logo: '/assets/Sponsors/Solana.jpg' },
+  { name: 'Techgig', logo: '/assets/Sponsors/TechGig.jpg' },
+  { name: 'Krishost', logo: '/assets/Sponsors/Krishost.jpg' },
+];
+
+const communityPartners = [
+  { name: 'TechXNinjas', logo: '/assets/Patners/TechXNinjas.png' },
+  { name: 'GirlsInTech', logo: '/assets/Patners/GirlsinTech.png' },
+  { name: 'Codecap', logo: '/assets/Patners/Codecap.png' },
+  { name: 'SoarXJMI', logo: '/assets/Patners/SoarXJMI.png' },
+  { name: 'DelhiNCRDAO', logo: '/assets/Patners/DelhiNCRDAO.jpg' },
+  { name: 'PostmanPune', logo: '/assets/Patners/PostmanPune.png' },
+  { name: 'NewbieCoders', logo: '/assets/Patners/NewbieCoders.png' },
+  { name: 'HelpOpsHub', logo: '/assets/Patners/HelpOpsHub.png' },
+  { name: 'TechVichaar', logo: '/assets/Patners/TechVichaar.jpg' },
+  { name: 'KaleidoNex', logo: '/assets/Patners/KaleidoNex.jpg' },
+  { name: 'SecureDev', logo: '/assets/Patners/SecureDev.jpg' },
+  { name: 'StudentSays', logo: '/assets/Patners/StudentSays.jpg' },
+  { name: 'WebForge', logo: '/assets/Patners/WebForge.png' },
+  { name: 'TechSavvy', logo: '/assets/Patners/TechSavvy.jpg' },
+  { name: 'ExploitXplorers', logo: '/assets/Patners/ExploitXplorers.jpeg' },
+  { name: 'HustlersHive', logo: '/assets/Patners/HustlersHive.png' },
+  { name: 'MindSpark', logo: '/assets/Patners/MindSpark.jpg' },
+  { name: 'NeXtute', logo: '/assets/Patners/NeXtute.jpg' },
+  { name: 'TechstartCircuit', logo: '/assets/Patners/TechstartCircuit.jpg' },
+  { name: 'DevSource', logo: '/assets/Patners/DevSource.png' },
+];
 
 export default DevSpring;
