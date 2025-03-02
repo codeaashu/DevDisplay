@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowLeft, Search } from 'lucide-react';
 import { Footer } from '../components/Footer/Footer';
+import styled from 'styled-components'; // Import styled-components
 
 const Navbar = () => {
   return (
@@ -143,32 +144,226 @@ const OpportunitiesCards = () => {
           <p className="text-xl text-gray-400">No Opportunitiess found matching your search.</p>
         </div>
       ) : (
-        <div className="grid  grid-cols-1 gap-4 px-3 sm:gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 px-3 sm:gap-4 md:grid-cols-2 lg:grid-cols-3">
           {filteredOpportunities.map((Opportunities, index) => (
-            <a
-              key={index}
-              href={Opportunities.link}
-              className="Opportunities-card flex h-full flex-col rounded-lg bg-gray-800 p-3 shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700 sm:p-4"
-            >
-              <h3 className="mb-2 text-base font-semibold sm:text-lg">{Opportunities.title}</h3>
-              <p className="flex-grow text-xs text-gray-300 sm:text-sm">{Opportunities.description}</p>
-              <div className="mt-2 flex flex-wrap justify-center gap-1">
-                {Opportunities.tags.slice(0, 2).map((tag, tagIndex) => (
-                  <span
-                    key={tagIndex}
-                    className="rounded-full bg-gray-700 px-1.5 py-0.5 text-[10px] text-gray-300 sm:px-2 sm:py-1 sm:text-xs"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </a>
+            <StyledDot key={index}>
+              <a
+                href={Opportunities.link}
+                className="Opportunities-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 text-center shadow-lg transition duration-300 hover:scale-105 hover:transform"
+              >
+                <span className="absolute inset-0"></span>
+                <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+                  <div>
+                    <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">{Opportunities.title}</h3>
+                    <p className="flex-grow text-xs text-gray-300 sm:text-sm">{Opportunities.description}</p>
+                    <div className="mb-4 mt-2 flex flex-wrap justify-center gap-1">
+                      {Opportunities.tags.map((tag, tagIndex) => (
+                        <span
+                          key={tagIndex}
+                          className="rounded-full border border-[#00a6fb] bg-gray-900 px-1.5 py-0.5 text-[10px] text-gray-300 sm:px-2 sm:py-1 sm:text-xs"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  <StyledButton onClick={() => (window.location.href = '/opportunities')}>
+                    <div className="blob1" />
+                    <div className="inner">Explore Now</div>
+                  </StyledButton>
+                </div>
+                <div className="dot" />
+              </a>
+            </StyledDot>
           ))}
         </div>
       )}
+      <style>
+        {`
+          @font-face {
+            font-family: "MerriweatherSans-SemiBold";
+            src: url('/fonts/MerriweatherSans-SemiBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+          }
+
+          @keyframes border-pulse {
+            0% {
+              border-color: rgba(0, 172, 255, 0.5);
+              box-shadow: 0 0 10px rgba(0, 172, 255, 0.3);
+            }
+            50% {
+              border-color: rgba(0, 172, 255, 0.8);
+              box-shadow: 0 0 20px rgba(0, 172, 255, 0.6);
+            }
+            100% {
+              border-color: rgba(0, 172, 255, 0.5);
+              box-shadow: 0 0 10px rgba(0, 172, 255, 0.3);
+            }
+          }
+
+          .animate-border-glow {
+            position: absolute;
+            width: 250%;
+            height: 250%;
+            background: linear-gradient(90deg, rgba(0, 172, 255, 0.6), rgba(1, 114, 142, 0.9), rgba(0, 172, 255, 0.6));
+            top: -75%;
+            left: -75%;
+            opacity: 0.5;
+            filter: blur(10px);
+            animation: border-glow 4s infinite linear;
+          }
+
+          .group:hover .animate-border-glow {
+            opacity: 0.8;
+            filter: blur(15px);
+          }
+
+          .group:hover {
+            animation: border-pulse 1.5s infinite;
+          }
+
+          .custom-font {
+            font-family: "MerriweatherSans-SemiBold", sans-serif;
+          }
+        `}
+      </style>
     </section>
   );
 };
+
+const StyledButton = styled.button`
+  cursor: pointer;
+  font-size: 1rem; /* Smaller font size */
+  border-radius: 12px; /* Smaller border radius */
+  border: none;
+  padding: 1px; /* Smaller padding */
+  background: radial-gradient(circle 80px at 80% -10%, #ffffff, #181b1b);
+  position: relative;
+  transition:
+    background 0.3s,
+    transform 0.3s;
+  animation: zoom 3s ease-in-out infinite;
+  margin-top: 16px; /* Add margin to increase space */
+
+  &:hover {
+    transform: scale(0.98);
+    animation-play-state: paused;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 65%;
+    height: 60%;
+    border-radius: 120px;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 20px #ffffff38;
+    z-index: -1;
+    transition: box-shadow 0.3s;
+  }
+
+  &:hover::after {
+    box-shadow: 0 0 10px #ffffff18;
+  }
+
+  .blob1 {
+    position: absolute;
+    width: 50px; /* Smaller blob size */
+    height: 100%;
+    border-radius: 16px;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(circle 60px at 0% 100%, #3fe9ff, #0000ff80, transparent);
+    box-shadow: -10px 10px 30px #0051ff2d;
+    transition:
+      background 0.3s,
+      box-shadow 0.3s;
+  }
+
+  &:hover .blob1 {
+    box-shadow: -5px 5px 20px #000;
+  }
+
+  .inner {
+    padding: 10px 20px; /* Smaller inner padding */
+    border-radius: 12px;
+    color: #fff;
+    z-index: 3;
+    position: relative;
+    background: radial-gradient(circle 80px at 80% -50%, #777777, #0f1111);
+    transition: background 0.3s;
+  }
+
+  &:hover .inner {
+    background: radial-gradient(circle 80px at 80% -50%, #333333, #0f0f0f);
+  }
+
+  .inner::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    background: radial-gradient(circle 60px at 0% 100%, #00e1ff1a, #0000ff11, transparent);
+    position: absolute;
+    transition: opacity 0.3s;
+  }
+
+  &:hover .inner::before {
+    opacity: 0;
+  }
+
+  @keyframes zoom {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+`;
+
+const StyledDot = styled.div`
+  .dot {
+    width: 5px;
+    aspect-ratio: 1;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ffffff;
+    border-radius: 100px;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    animation: moveDot 6s linear infinite;
+  }
+
+  @keyframes moveDot {
+    0% {
+      top: 0;
+      right: 0;
+    }
+    25% {
+      top: 0;
+      right: calc(100% - 5px);
+    }
+    50% {
+      top: calc(100% - 5px);
+      right: calc(100% - 5px);
+    }
+    75% {
+      top: calc(100% - 5px);
+      right: 0;
+    }
+    100% {
+      top: 0;
+      right: 0;
+    }
+  }
+`;
 
 const Opportunities = () => {
   return (
