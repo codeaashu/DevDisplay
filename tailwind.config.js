@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         spaceMono: ['"Space Mono"', 'monospace', 'sans-serif'],
         poppoins: ['Poppins'],
+        merriweatherSansLight: ['"MerriweatherSans-Light"', 'sans-serif'],
       },
       animation: {
         ['loop-scroll']: 'loop-scroll 50s linear infinite',
