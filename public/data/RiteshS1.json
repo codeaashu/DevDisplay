@@ -1,0 +1,14 @@
+{
+    "name": "Ritesh Sharma",
+    "location": "India",
+    "bio": "~ Weaving dreams with lines of code...",
+    "avatar": "https://github.com/RiteshS1.png",
+    "portfolio": "https://github.com/RiteshS1",
+    "skills": ["C++","Python", "JavaScript", "ReactJS", "Typescript", "NextJS", "TailwindCSS", "NodeJS", "ExpressJS", "MongoDB","Prisms","Firebase"],
+    "social": {
+      "GitHub": "https://github.com/RiteshS1",
+      "Twitter": "https://x.com/delphic_RS",
+      "LinkedIn": "https://www.linkedin.com/in/ritesh-sharma-8477a424a/",
+      "Email": "riteshs29122002@gmail.com"
+    }
+  }
