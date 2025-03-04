@@ -17,29 +17,6 @@ function Sidebar() {
       <div className="text-center text-secondaryColor dark:text-white">
         The First Global Platform for Developers to Fulfill All Their Tech Needs.
       </div>
-      {/* <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
-        <button
-          onClick={handleAboutUs}
-          className="inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white"
-        >
-          About Us
-        </button>
-      </div> */}
-      {/* <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
-        <a
-          href="https://www.producthunt.com/posts/devdisplay?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-devdisplay"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=594879&theme=dark"
-            alt="DevDisplay - Global open source tech platform | Product Hunt"
-            style={{ width: '250px', height: '54px' }}
-            width="250"
-            height="54"
-          />
-        </a>
-      </div> */}
       <StyledWrapper className="flex flex-row flex-wrap items-center justify-center gap-2 pt-6">
         <button className="button" onClick={handleHome}>
           <div className="blob1" />
@@ -64,6 +41,10 @@ const StyledWrapper = styled.div`
       background 0.3s,
       transform 0.3s;
     animation: zoom 3s ease-in-out infinite;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px; /* Ensure enough width */
   }
 
   .button:hover {
@@ -114,6 +95,7 @@ const StyledWrapper = styled.div`
     position: relative;
     background: radial-gradient(circle 80px at 80% -50%, #777777, #0f1111);
     transition: background 0.3s;
+    white-space: nowrap; /* Prevents text from wrapping */
   }
 
   .button:hover .inner {
