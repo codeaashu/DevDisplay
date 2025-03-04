@@ -8,7 +8,7 @@ import PoweredByDevDisplay from './PoweredByDevDisplay.png';
 
 const Hero = () => {
   return (
-    <section className="hero-section mt-20 flex flex-col  items-center justify-center text-white sm:min-h-screen ">
+    <section className="hero-section mt-20 flex flex-col items-center justify-center text-white sm:min-h-screen">
       <div className="flex w-full flex-col items-center justify-center px-8 text-center">
         <p className="text-md bg-[rgba(255, 255, 255, 0.14)] group relative mx-auto mb-10 w-fit overflow-hidden rounded-full border border-white p-2 text-center">
           <span className="animate-border-glow absolute inset-0"></span>
@@ -79,10 +79,6 @@ const Hero = () => {
 
   .group:hover {
     animation: border-pulse 1.5s infinite;
-  }
-
-  .custom-font {
-    font-family: "MerriweatherSans-Light", sans-serif;
   }
   `}
         </style>
@@ -631,30 +627,6 @@ const CardSection = () => {
     </section>
   );
 };
-
-// <StyledDot>
-// <a
-//   href="/https://github.com/codeaashu/DevDisplay"
-//   className="project-card mt-6 block rounded-lg bg-gray-800 p-6 text-center shadow-lg transition duration-300 hover:scale-105 hover:transform hover:bg-gray-700"
-// >
-//   <div className="custom-font project-card-inner rounded-lg p-[2px]">
-//     <h3 className="mb-4 text-2xl font-semibold">
-//       <span className="text-blue-400">Suggest a new feature idea!</span>
-//     </h3>
-//     <p>
-//       Suggest new features you'd love to see on DevDisplay. We believe innovation is limitless. As a contributor,
-//       you're encouraged to think beyond and add new, innovative features that can make a difference in the tech
-//       ecosystem. Think outside the box and introduce features that can be revolutionary for tech enthusiasts
-//       worldwide. If you spot a gap in the tech world, DevDisplay can be the solution.
-//     </p>
-//     <StyledButton onClick={() => window.open('#', '_blank')}>
-//           <div className="blob1" />
-//           <div className="inner">Visit Now</div>
-//         </StyledButton>
-//       </div>
-//       <div className="dot" />
-//     </a>
-//   </StyledDot>
 
 const StyledWrapper = styled.div`
   display: flex;
