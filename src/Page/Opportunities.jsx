@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ArrowLeft, Search } from 'lucide-react';
 import { Footer } from '../components/Footer/Footer';
 import styled from 'styled-components'; // Import styled-components
+import Marquee from 'react-fast-marquee'; // Import Marquee
 
 const Navbar = () => {
   return (
@@ -53,6 +54,78 @@ const Hero = () => {
           Curated tools, guides, and learning materials to boost your tech journey.
         </p>
       </div>
+    </section>
+  );
+};
+
+const Tags = () => {
+  const tags = [
+    'Hybrid Jobs',
+    'Onsite Jobs',
+    'Remote Jobs',
+    'Internships',
+    'Freelancing',
+    'Offline Hackathons',
+    'Online Hackathons',
+    'Competitions',
+    'Tech Events',
+    'Tech Fest',
+    'Bootcamps',
+    'Certifications',
+    'Skill Development',
+    'OpenSource Program',
+    'Coding Challenges',
+    'Mentorship Programs',
+    'Workshops',
+    'Networking Events',
+    'Scholarships',
+    'Startup Incubators',
+  ];
+
+  return (
+    <section id="tags" className="w-full pt-12 sm:py-16">
+      <h2 className="text-md text-primary mb-8 text-center font-bold lg:text-xl">Opportunities in one frame</h2>
+
+      {/* Right to Left Scrolling */}
+      <Marquee gradient={false} speed={40} pauseOnHover={true} loop={0} className="w-full">
+        <div className="flex w-full flex-nowrap items-center">
+          {[...tags, ...tags, ...tags].map((text, index) => (
+            <span key={index} className="tag-item mr-6">
+              {text}
+            </span>
+          ))}
+        </div>
+      </Marquee>
+
+      <div className="my-4"></div>
+
+      {/* Left to Right Scrolling */}
+      <Marquee gradient={false} speed={40} pauseOnHover={true} loop={0} direction="right" className="w-full">
+        <div className="flex w-full flex-nowrap items-center">
+          {[...tags, ...tags, ...tags].map((text, index) => (
+            <span key={index} className="tag-item mr-6">
+              {text}
+            </span>
+          ))}
+        </div>
+      </Marquee>
+
+      <style jsx>{`
+        .tag-item {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          white-space: nowrap;
+          padding: 0.5rem 1.5rem;
+          border-radius: 9999px;
+          border: 1px solid #00a6fb;
+          background-color: rgba(1, 11, 31, 0.58);
+          color: #e2e8f0;
+          font-size: 0.875rem;
+          text-align: center;
+          min-width: max-content;
+        }
+      `}</style>
     </section>
   );
 };
@@ -370,6 +443,7 @@ const Opportunities = () => {
     <div className="background-wrapper min-h-screen bg-gray-900">
       <Navbar />
       <Hero />
+      <Tags />
       <OpportunitiesCards />
       <Footer />
     </div>
