@@ -2,14 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ProfileSkeletonWrapper = styled.div`
-  @font-face {
-    font-family: 'MerriweatherSans-Light';
-    src: url('/fonts/MerriweatherSans-Light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
 
-  font-family: 'MerriweatherSans-Light', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
 
   .skeleton {
     background-color: rgb(13, 25, 53);
