@@ -37,7 +37,7 @@ body {
   font-family: 'MerriweatherSans-Light', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--primary-color);
+  background-color: var(--textPrimary);
   color: var(--text-color);
 }
 
