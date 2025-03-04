@@ -167,8 +167,8 @@ const StyledWrapper = styled.div`
   .button::after {
     content: '';
     position: absolute;
-    width: 55%;
-    height: 50%;
+    width: 65%;
+    height: 60%;
     border-radius: 120px;
     top: 0;
     right: 0;
@@ -200,7 +200,7 @@ const StyledWrapper = styled.div`
   }
 
   .inner {
-    padding: 8px 18px;
+    padding: 14px 25px;
     border-radius: 14px;
     color: #fff;
     z-index: 3;
@@ -236,6 +236,17 @@ const StyledWrapper = styled.div`
     }
     50% {
       transform: scale(1.05);
+    }
+  }
+
+  @media (min-width: 768px) {
+    .button {
+      font-size: 1rem; /* Adjust font size for larger screens */
+      padding: 1px; /* Adjust padding for larger screens */
+    }
+
+    .inner {
+      padding: 10px 20px; /* Adjust inner padding for larger screens */
     }
   }
 `;
