@@ -24,12 +24,11 @@ const Hero = () => {
 
         <style>
           {`
-  @font-face {
-            font-family: "MerriweatherSans-Light";
-            src: url('/fonts/MerriweatherSans-Light.ttf') format('truetype');
-            font-weight: normal;
-            font-style: normal;
-          }
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+  .custom-font {
+    font-family: 'Merriweather Sans', sans-serif;
+  }
             
   @keyframes border-glow {
     0% {
