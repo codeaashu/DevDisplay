@@ -33,7 +33,7 @@ function Sidebar() {
   // }
 
   return (
-    <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono md:h-[90vh] md:w-[23%] md:px-2 lg:px-7 dark:border-borderColor">
+    <div className="my-7 w-full border-r-2 border-borderSecondary px-7 font-spaceMono dark:border-borderColor md:h-[90vh] md:w-[23%] md:px-2 lg:px-7">
       <div className="mb-2 flex h-12 items-center justify-center gap-2.5">
         <img src="./WordMark.png" alt="DevDisplay Logo" className="h-64 w-auto md:h-72 lg:h-80" />
         {/* <div className="text-secondaryColor dark:text-white">
