@@ -167,8 +167,8 @@ const StyledWrapper = styled.div`
   .button::after {
     content: '';
     position: absolute;
-    width: 65%;
-    height: 60%;
+    width: 55%;
+    height: 50%;
     border-radius: 120px;
     top: 0;
     right: 0;
@@ -200,7 +200,7 @@ const StyledWrapper = styled.div`
   }
 
   .inner {
-    padding: 10px 20px;
+    padding: 8px 18px;
     border-radius: 14px;
     color: #fff;
     z-index: 3;
