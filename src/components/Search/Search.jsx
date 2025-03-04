@@ -61,18 +61,16 @@ function Search({ onSearch }) {
   const handleSearchOnEnter = (event) => {
     if (event.keyCode === 13) {
       //if searchCriteia is skill then it will add that skill to searchSkills
-      if (searchCriteria === 'skill') {
-        let searchvalue = normalizeString(searchValue);
-        searchvalue = searchvalue.trim();
-        if (searchvalue.length > 0) {
-          var set = new Set(searchSkills);
-          set.add(searchvalue);
-          setSearchSkills((prev) => [...set]);
-        }
-        setSearchValue('');
-      } else {
-        handleSearch();
+      let searchvalue = normalizeString(searchValue);
+      searchvalue = searchvalue.trim();
+      if (searchvalue.length > 0) {
+        var set = new Set(searchSkills);
+        set.add(searchvalue);
+        setSearchSkills((prev) => [...set]);
       }
+      setSearchValue('');
+    } else {
+      handleSearch();
     }
   };
 
@@ -198,14 +196,9 @@ function Search({ onSearch }) {
 }
 
 const StyledWrapper = styled.div`
-  @font-face {
-    font-family: 'MerriweatherSans-Light';
-    src: url('/fonts/MerriweatherSans-Light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
 
-  font-family: 'MerriweatherSans-Light', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
 
   display: flex;
   justify-content: center;
@@ -227,7 +220,7 @@ const StyledWrapper = styled.div`
     justify-content: center;
     align-items: center;
     font:
-      400 var(--font-size) 'MerriweatherSans-Light',
+      400 var(--font-size) 'Merriweather Sans',
       sans-serif;
     box-shadow:
       0 0 2.17382px rgba(0, 0, 0, 0.049),
