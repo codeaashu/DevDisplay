@@ -207,6 +207,7 @@ const StyledWrapper = styled.div`
     position: relative;
     background: radial-gradient(circle 80px at 80% -50%, #777777, #0f1111);
     transition: background 0.3s;
+    white-space: nowrap;
   }
 
   .button:hover .inner {
