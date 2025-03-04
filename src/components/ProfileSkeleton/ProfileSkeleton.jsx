@@ -12,7 +12,7 @@ const ProfileSkeletonWrapper = styled.div`
   font-family: 'MerriweatherSans-Light', sans-serif;
 
   .skeleton {
-    background-color: #e0e0e0;
+    background-color: rgb(13, 25, 53);
     animation: pulse 1.5s infinite ease-in-out;
   }
 
