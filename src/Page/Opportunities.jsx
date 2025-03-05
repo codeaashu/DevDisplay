@@ -30,9 +30,9 @@ const SearchBar = ({ onSearch }) => {
         <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 transform text-gray-400" />
         <input
           type="text"
-          placeholder="Search Opportunitiess..."
+          placeholder="Search Opportunities..."
           onChange={(e) => onSearch(e.target.value)}
-          className="w-full rounded-full bg-gray-700 py-3 pl-12 pr-4 text-white placeholder-gray-400 outline-none ring-2 ring-transparent transition-all focus:ring-[#00a6fb]"
+          className="w-full rounded-full border border-[#00a6fb] bg-[rgba(15,27,53,0.9)] py-3 pl-12 pr-4 text-white placeholder-gray-400 outline-none ring-2 ring-transparent transition-all focus:ring-[#00a6fb]"
         />
       </div>
     </div>
@@ -44,9 +44,9 @@ const Hero = () => {
     <section className="hero-section flex min-h-[70vh] flex-col items-center justify-center text-white">
       <div className="flex w-full flex-col items-center justify-center px-8 text-center">
         <p className="text-md mx-auto mb-6 w-fit rounded-full bg-[#ffffff36] p-2 text-center">
-          Explore Our {'>'} Opportunitiess 📚
+          Explore Our {'>'} Opportunities 📚
         </p>
-        <h1 className="mb-2 text-4xl font-bold tracking-widest md:text-4xl">All Opportunitiess in One Place</h1>
+        <h1 className="mb-2 text-4xl font-bold tracking-widest md:text-4xl">All Opportunities in One Place</h1>
         <h2 className="mb-4 text-6xl font-bold">
           Opportunities <span className="text-[#00a6fb]">Hub</span>
         </h2>
@@ -87,7 +87,7 @@ const Tags = () => {
       <h2 className="text-md text-primary mb-8 text-center font-bold lg:text-xl">Opportunities in one frame</h2>
 
       {/* Right to Left Scrolling */}
-      <Marquee gradient={false} speed={40} pauseOnHover={true} loop={0} className="w-full">
+      <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} className="w-full">
         <div className="flex w-full flex-nowrap items-center">
           {[...tags, ...tags, ...tags].map((text, index) => (
             <span key={index} className="tag-item mr-6">
@@ -100,7 +100,7 @@ const Tags = () => {
       <div className="my-4"></div>
 
       {/* Left to Right Scrolling */}
-      <Marquee gradient={false} speed={40} pauseOnHover={true} loop={0} direction="right" className="w-full">
+      <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} direction="right" className="w-full">
         <div className="flex w-full flex-nowrap items-center">
           {[...tags, ...tags, ...tags].map((text, index) => (
             <span key={index} className="tag-item mr-6">
@@ -150,7 +150,7 @@ const OpportunitiesCards = () => {
       title: 'Internships',
       description: 'Comprehensive notes to simplify your learning process.',
       link: '/Internships',
-      tags: ['notes', 'learning', 'Opportunitiess'],
+      tags: ['notes', 'learning', 'Opportunities'],
     },
     {
       title: 'Freelance Work',
@@ -184,9 +184,9 @@ const OpportunitiesCards = () => {
     },
     {
       title: 'OpenSource Program',
-      description: 'Opportunitiess and kits to ace your tech interviews.',
+      description: 'Opportunities and kits to ace your tech interviews.',
       link: '/OpenSourceProgram',
-      tags: ['interviews', 'preparation', 'Opportunitiess'],
+      tags: ['interviews', 'preparation', 'Opportunities'],
     },
   ];
 
@@ -203,7 +203,7 @@ const OpportunitiesCards = () => {
   return (
     <section className="Opportunities-section mx-auto w-full px-4 py-8 text-white lg:max-w-[80%]">
       <div className="mx-auto mb-8 text-center">
-        <h2 className="mb-4 text-4xl font-bold text-[#00a6fb]">Top Tech Opportunitiess</h2>
+        <h2 className="mb-4 text-4xl font-bold text-[#00a6fb]">Top Tech Opportunities</h2>
         <p className="mx-auto mb-8 max-w-3xl px-4 text-xl">
           Everything you need to grow, learn, and build in the tech industry.
         </p>
@@ -214,7 +214,7 @@ const OpportunitiesCards = () => {
 
       {filteredOpportunities.length === 0 ? (
         <div className="py-8 text-center">
-          <p className="text-xl text-gray-400">No Opportunitiess found matching your search.</p>
+          <p className="text-xl text-gray-400">No Opportunities found matching your search.</p>
         </div>
       ) : (
         <div className="grid grid-cols-1 gap-6 px-3 sm:gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -253,6 +253,8 @@ const OpportunitiesCards = () => {
       )}
       <style>
         {`
+          @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
           @font-face {
             font-family: "MerriweatherSans-SemiBold";
             src: url('/fonts/MerriweatherSans-SemiBold.ttf') format('truetype');
@@ -298,6 +300,10 @@ const OpportunitiesCards = () => {
 
           .custom-font {
             font-family: "MerriweatherSans-SemiBold", sans-serif;
+          }
+
+          .Opportunities-section {
+            font-family: 'Merriweather Sans', sans-serif;
           }
         `}
       </style>
