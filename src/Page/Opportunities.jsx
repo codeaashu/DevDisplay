@@ -387,7 +387,7 @@ const OpportunitiesCards = () => {
                 className="Opportunities-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 text-center shadow-lg transition duration-300 hover:scale-105 hover:transform"
               >
                 <span className="absolute inset-0"></span>
-                <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+                <div className="project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
                   <div>
                     <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">{Opportunities.title}</h3>
                     <p className="flex-grow text-xs text-gray-300 sm:text-sm">{Opportunities.description}</p>
