@@ -263,7 +263,7 @@ const Tags = () => {
     { name: 'Wipro', logo: '/assets/Company/Wipro.png' },
     { name: 'TCS', logo: '/assets/Company/TCS.png' },
     { name: 'Zomato', logo: '/assets/Company/Zomato.png' },
-    { name: 'J.P.Morgan', logo: '/assets/Company/JPMorgan.png' },
+    { name: 'J P Morgan', logo: '/assets/Company/JPMorgan.png' },
   ];
 
   return (
@@ -914,6 +914,7 @@ const JobAlerts = () => {
             />
           </div>
         </div>
+
         <StyledButton onClick={handleFindJobs}>
           <div className="blob1" />
           <div className="inner">🔍 Find Jobs Now</div>
