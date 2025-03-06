@@ -218,42 +218,32 @@ const Hero = () => {
 };
 
 const Tags = () => {
-  const tags = [
-    'Hybrid Jobs',
-    'Onsite Jobs',
-    'Remote Jobs',
-    'Internships',
-    'Freelancing',
-    'Offline Hackathons',
-    'Online Hackathons',
-    'Competitions',
-    'Tech Events',
-    'Tech Fest',
-    'Bootcamps',
-    'Certifications',
-    'Skill Development',
-    'OpenSource Program',
-    'Coding Challenges',
-    'Mentorship Programs',
-    'Workshops',
-    'Networking Events',
-    'Scholarships',
-    'Startup Incubators',
+  const companies = [
+    { name: 'Google', logo: '/assets/Company/Google.png' },
+    { name: 'Microsoft', logo: '/assets/Company/Microsoft.png' },
+    { name: 'Amazon', logo: '/assets/Company/Amazon.png' },
+    { name: 'Meta', logo: '/assets/Company/Meta.png' },
+    { name: 'Apple', logo: '/assets/Company/Apple.png' },
+    { name: 'Netflix', logo: '/assets/Company/Netflix.png' },
+    { name: 'Uber', logo: '/assets/Company/Uber.png' },
+    { name: 'Airbnb', logo: '/assets/Company/Airbnb.png' },
+    { name: 'Twitter X', logo: '/assets/Company/X.png' },
+    { name: 'LinkedIn', logo: '/assets/Company/Linkedin.webp' },
   ];
 
   return (
     <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
       <h1 className="text-md text-primary mb-8 text-center font-bold text-[#00a6fb] lg:text-2xl">
-        Unlock All Tech Opportunities in One Place
+        Companies Offering Hybrid and Onsite Jobs
       </h1>
-      {/* <h2 className="text-md text-primary mb-8 text-center text-[#00a6fb] font-bold lg:text-2xl">One Platform, Endless Tech Opportunities</h2> */}
 
       {/* Right to Left Scrolling */}
       <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} className="w-full">
         <div className="flex w-full flex-nowrap items-center">
-          {[...tags, ...tags, ...tags].map((text, index) => (
+          {[...companies, ...companies, ...companies].map((company, index) => (
             <span key={index} className="tag-item mr-6">
-              {text}
+              <img src={company.logo} alt={company.name} className="mr-2 h-6 w-6" />
+              {company.name}
             </span>
           ))}
         </div>
@@ -264,9 +254,10 @@ const Tags = () => {
       {/* Left to Right Scrolling */}
       <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} direction="right" className="w-full">
         <div className="flex w-full flex-nowrap items-center">
-          {[...tags, ...tags, ...tags].map((text, index) => (
+          {[...companies, ...companies, ...companies].map((company, index) => (
             <span key={index} className="tag-item mr-6">
-              {text}
+              <img src={company.logo} alt={company.name} className="mr-2 h-6 w-6" />
+              {company.name}
             </span>
           ))}
         </div>
@@ -286,6 +277,9 @@ const Tags = () => {
           font-size: 0.915rem;
           text-align: center;
           min-width: max-content;
+        }
+        .tag-item img {
+          display: inline-block;
         }
       `}</style>
     </section>
