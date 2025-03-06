@@ -55,7 +55,7 @@ const Hero = () => {
           <div className="modgp relative inline-block w-full py-3">
             <div className="relative">
               <div className="bg-primary enabled:hover:bg-primary-dark enabled:active:bg-primary-dark enabled:focus:bg-primary-dark px-18 relative inline-flex w-full items-center justify-center rounded-lg py-5 text-6xl font-bold text-white transition-all focus:outline-none enabled:hover:shadow-md disabled:opacity-50">
-                <div className="flex w-full items-center justify-center">Opportunities Hub</div>
+                <div className="flex w-full items-center justify-center">Hybrid & Onsite Jobs</div>
               </div>
             </div>
             <div className="pointer-events-none absolute inset-0">
@@ -227,8 +227,43 @@ const Tags = () => {
     { name: 'Netflix', logo: '/assets/Company/Netflix.png' },
     { name: 'Uber', logo: '/assets/Company/Uber.png' },
     { name: 'Airbnb', logo: '/assets/Company/Airbnb.png' },
-    { name: 'Twitter X', logo: '/assets/Company/X.png' },
-    { name: 'LinkedIn', logo: '/assets/Company/Linkedin.webp' },
+    { name: 'Twitter', logo: '/assets/Company/X.png' },
+    { name: 'Accenture', logo: '/assets/Company/Accenture.png' },
+    { name: 'Adobe', logo: '/assets/Company/Adobe.png' },
+    { name: 'Apple', logo: '/assets/Company/Apple.png' },
+    { name: 'Capgemini', logo: '/assets/Company/Capgemini.png' },
+    { name: 'Cisco', logo: '/assets/Company/Cisco.png' },
+    { name: 'Cloudflare', logo: '/assets/Company/Cloudflare.webp' },
+    { name: 'Cognizant', logo: '/assets/Company/Cognizant.png' },
+    { name: 'DELL', logo: '/assets/Company/Dell.png' },
+    { name: 'Deloitte', logo: '/assets/Company/Deloitte.jpg' },
+    { name: 'DXC.png', logo: '/assets/Company/DXC.png' },
+    { name: 'Flipkart', logo: '/assets/Company/Flipkart.png' },
+    { name: 'HCLTech', logo: '/assets/Company/HCLTech.png' },
+    { name: 'GitHub', logo: '/assets/Company/GitHub.png' },
+    { name: 'HP', logo: '/assets/Company/HP.png' },
+    { name: 'Huawei', logo: '/assets/Company/Huawei.png' },
+    { name: 'IBM', logo: '/assets/Company/IBM.png' },
+    { name: 'Infosys', logo: '/assets/Company/Infosys.png' },
+    { name: 'Intel', logo: '/assets/Company/Intel.png' },
+    { name: 'ISRO', logo: '/assets/Company/ISRO.png' },
+    { name: 'Lenovo', logo: '/assets/Company/Lenovo.png' },
+    { name: 'Nivida', logo: '/assets/Company/Nivida.png' },
+    { name: 'Oracle', logo: '/assets/Company/Oracle.png' },
+    { name: 'Paypal', logo: '/assets/Company/Paypal.png' },
+    { name: 'Paytm', logo: '/assets/Company/Paytm.png' },
+    { name: 'Razorpay', logo: '/assets/Company/Razorpay.png' },
+    { name: 'Phonepay', logo: '/assets/Company/Phonepay.png' },
+    { name: 'Swiggy', logo: '/assets/Company/Swiggy.png' },
+    { name: 'Stripe', logo: '/assets/Company/Stripe.png' },
+    { name: 'SAP.png', logo: '/assets/Company/SAP.png' },
+    { name: 'Samsung', logo: '/assets/Company/Samsung.png' },
+    { name: 'Salesforce', logo: '/assets/Company/Salesforce.png' },
+    { name: 'PepsiCO', logo: '/assets/Company/Pepsi.png' },
+    { name: 'Wipro', logo: '/assets/Company/Wipro.png' },
+    { name: 'TCS', logo: '/assets/Company/TCS.png' },
+    { name: 'Zomato', logo: '/assets/Company/Zomato.png' },
+    { name: 'J.P.Morgan', logo: '/assets/Company/JPMorgan.png' },
   ];
 
   return (
