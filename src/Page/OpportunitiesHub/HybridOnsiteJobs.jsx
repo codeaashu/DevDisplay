@@ -256,7 +256,7 @@ const Tags = () => {
     { name: 'Phonepay', logo: '/assets/Company/Phonepay.png' },
     { name: 'Swiggy', logo: '/assets/Company/Swiggy.png' },
     { name: 'Stripe', logo: '/assets/Company/Stripe.png' },
-    { name: 'SAP.png', logo: '/assets/Company/SAP.png' },
+    { name: 'SAP', logo: '/assets/Company/SAP.png' },
     { name: 'Samsung', logo: '/assets/Company/Samsung.png' },
     { name: 'Salesforce', logo: '/assets/Company/Salesforce.png' },
     { name: 'PepsiCO', logo: '/assets/Company/Pepsi.png' },
