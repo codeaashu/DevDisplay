@@ -237,7 +237,7 @@ const Tags = () => {
     { name: 'Cognizant', logo: '/assets/Company/Cognizant.png' },
     { name: 'DELL', logo: '/assets/Company/Dell.png' },
     { name: 'Deloitte', logo: '/assets/Company/Deloitte.jpg' },
-    { name: 'DXC.png', logo: '/assets/Company/DXC.png' },
+    { name: 'DXC', logo: '/assets/Company/DXC.png' },
     { name: 'Flipkart', logo: '/assets/Company/Flipkart.png' },
     { name: 'HCLTech', logo: '/assets/Company/HCLTech.png' },
     { name: 'GitHub', logo: '/assets/Company/GitHub.png' },
