@@ -315,6 +315,8 @@ const Tags = () => {
         }
         .tag-item img {
           display: inline-block;
+          // height: 40px; /* Adjust the height as needed */
+          // width: auto; /* Maintain aspect ratio */
         }
       `}</style>
     </section>
