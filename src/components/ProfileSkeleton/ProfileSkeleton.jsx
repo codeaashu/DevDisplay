@@ -2,17 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ProfileSkeletonWrapper = styled.div`
-  @font-face {
-    font-family: 'MerriweatherSans-Light';
-    src: url('/fonts/MerriweatherSans-Light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
 
-  font-family: 'MerriweatherSans-Light', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
 
   .skeleton {
-    background-color: #e0e0e0;
+    background-color: rgb(13, 25, 53);
     animation: pulse 1.5s infinite ease-in-out;
   }
 
@@ -49,7 +44,7 @@ function ProfileSkeleton() {
 
   return (
     <ProfileSkeletonWrapper>
-      <div className="mb-[1.5rem] h-auto rounded-[10px] pb-[0rem] pl-[1rem] pr-[1rem] pt-[1rem] shadow-lg">
+      <div className="font-MerriweatherSans-Light mb-[1.5rem] h-auto rounded-[10px] pb-[0rem] pl-[1rem] pr-[1rem] pt-[1rem] shadow-lg">
         <div className="flex gap-[1rem]">
           <div className="skeleton h-[6.1rem] w-[6.1rem] flex-shrink-0 rounded"></div>
           <div className="w-[80%] overflow-hidden">

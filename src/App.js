@@ -46,6 +46,10 @@ import ContributionsGuide from './Page/ResoucesHub/ContributionsGuide.jsx';
 
 import PageNotFound from './Page/PageNotFound.jsx';
 function App() {
+  React.useEffect(() => {
+    document.documentElement.classList.add('dark');
+  }, []);
+
   return (
     <BrowserRouter>
       <Helmet>
