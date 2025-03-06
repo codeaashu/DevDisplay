@@ -914,7 +914,7 @@ const JobAlerts = () => {
             />
           </div>
         </div>
-
+        <div className="mb-4"></div>
         <StyledButton onClick={handleFindJobs}>
           <div className="blob1" />
           <div className="inner">🔍 Find Jobs Now</div>
