@@ -3,6 +3,7 @@ import { ArrowLeft, Search } from 'lucide-react';
 import { Footer } from '../../components/Footer/Footer';
 import styled from 'styled-components'; // Import styled-components
 import Marquee from 'react-fast-marquee'; // Import Marquee
+import HybridOnsiteCard from './HybridOnsiteCard';
 
 const Navbar = () => {
   return (
@@ -944,6 +945,7 @@ const HybridOnsiteJobs = () => {
       <Navbar />
       <Hero />
       <Tags />
+      <HybridOnsiteCard />
       <OpportunitiesCards />
       <JobAlerts />
       <Footer />
