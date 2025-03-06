@@ -1,0 +1,28 @@
+{
+  "name": "serp_service",
+  "version": "1.0.0",
+  "description": "an API to collect and store the trends data from SERP_API to MongoDB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Advait Thakar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.0",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
+    "node-cron": "^3.0.3",
+    "prom-client": "^15.1.3",
+    "winston": "^3.17.0",
+    "winston-loki": "^6.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
