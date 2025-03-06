@@ -1,12 +1,12 @@
 import React from 'react';
 
-const shareContent = () => {
+const shareContent = (url) => {
   if (navigator.share) {
     navigator
       .share({
         title: 'Check out this job opportunity!',
         text: 'I found this amazing job opportunity for a Senior Product Designer at TechCorp Inc.',
-        url: window.location.href,
+        url: url,
       })
       .then(() => console.log('Successful share'))
       .catch((error) => console.log('Error sharing', error));
@@ -16,6 +16,7 @@ const shareContent = () => {
 };
 
 const Card1 = () => {
+  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs/Card1';
   return (
     <div className="group relative w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
@@ -144,7 +145,7 @@ const Card1 = () => {
               </div>
             </button>
             <button
-              onClick={shareContent}
+              onClick={() => shareContent(cardUrl)}
               className="flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-3 font-semibold text-white transition-colors hover:bg-slate-800"
             >
               <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -165,6 +166,7 @@ const Card1 = () => {
 };
 
 const Card2 = () => {
+  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs/Card2';
   return (
     <div className="group relative w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
@@ -293,7 +295,7 @@ const Card2 = () => {
               </div>
             </button>
             <button
-              onClick={shareContent}
+              onClick={() => shareContent(cardUrl)}
               className="flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-3 font-semibold text-white transition-colors hover:bg-slate-800"
             >
               <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -314,6 +316,7 @@ const Card2 = () => {
 };
 
 const Card3 = () => {
+  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs/Card3';
   return (
     <div className="group relative w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
@@ -442,7 +445,7 @@ const Card3 = () => {
               </div>
             </button>
             <button
-              onClick={shareContent}
+              onClick={() => shareContent(cardUrl)}
               className="flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-3 font-semibold text-white transition-colors hover:bg-slate-800"
             >
               <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
