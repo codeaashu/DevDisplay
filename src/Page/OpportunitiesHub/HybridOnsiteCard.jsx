@@ -16,7 +16,7 @@ const shareContent = (url) => {
 };
 
 const Card1 = () => {
-  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs/Card1';
+  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card1';
   return (
     <div id="Card1" className="group relative w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
@@ -166,7 +166,7 @@ const Card1 = () => {
 };
 
 const Card2 = () => {
-  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs/Card2';
+  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card2';
   return (
     <div id="Card2" className="group relative w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
@@ -316,7 +316,7 @@ const Card2 = () => {
 };
 
 const Card3 = () => {
-  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs/Card3';
+  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card3';
   return (
     <div id="Card3" className="group relative w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
@@ -466,7 +466,7 @@ const Card3 = () => {
 };
 
 const Card4 = () => {
-  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs/Card4';
+  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card4';
   return (
     <div id="Card4" className="group relative w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
@@ -616,7 +616,7 @@ const Card4 = () => {
 };
 
 const Card5 = () => {
-  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs/Card5';
+  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card5';
   return (
     <div id="Card5" className="group relative w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
@@ -766,7 +766,7 @@ const Card5 = () => {
 };
 
 const Card6 = () => {
-  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs/Card6';
+  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card6';
   return (
     <div id="Card6" className="group relative w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">

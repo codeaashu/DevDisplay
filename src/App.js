@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Homepage from './Homepage';
 // Introducing DevDisplay
@@ -45,6 +45,7 @@ import TopGithubRepo from './Page/ResoucesHub/TopGithubRepo.jsx';
 import ContributionsGuide from './Page/ResoucesHub/ContributionsGuide.jsx';
 
 import PageNotFound from './Page/PageNotFound.jsx';
+
 function App() {
   React.useEffect(() => {
     document.documentElement.classList.add('dark');

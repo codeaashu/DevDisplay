@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import { ArrowLeft, Search } from 'lucide-react';
 import { Footer } from '../../components/Footer/Footer';
 import styled from 'styled-components'; // Import styled-components
@@ -940,6 +941,17 @@ const JobAlerts = () => {
 };
 
 const HybridOnsiteJobs = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
+
   return (
     <div className="background-wrapper min-h-screen bg-gray-900">
       <Navbar />
