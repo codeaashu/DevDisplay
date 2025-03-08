@@ -39,6 +39,36 @@ const courses = [
     description: 'Learn the basics of the Rust programming language with practical examples.',
     url: 'https://www.udemy.com/course/rust-programming-for-beginners/',
   },
+  {
+    title: 'SQL for Data Science',
+    provider: 'Coursera',
+    description: 'Master SQL, the standard language for relational database management systems.',
+    url: 'https://www.coursera.org/learn/sql-for-data-science',
+  },
+  {
+    title: 'Machine Learning',
+    provider: 'Coursera',
+    description: 'Learn machine learning concepts and algorithms from Stanford University professors.',
+    url: 'https://www.coursera.org/learn/machine-learning',
+  },
+  {
+    title: 'Web Development Bootcamp',
+    provider: 'Udemy',
+    description: 'Comprehensive course on web development covering HTML, CSS, JavaScript, and more.',
+    url: 'https://www.udemy.com/course/the-web-developer-bootcamp/',
+  },
+  {
+    title: 'Data Structures and Algorithms',
+    provider: 'edX',
+    description: 'Learn the fundamentals of data structures and algorithms to solve complex problems.',
+    url: 'https://www.edx.org/course/data-structures-and-algorithms',
+  },
+  {
+    title: 'React - The Complete Guide 2025 (incl. Next.js, Redux)',
+    provider: 'Udemy',
+    description: 'Master React and its ecosystem with this comprehensive course covering Next.js and Redux.',
+    url: 'https://www.udemy.com/course/react-the-complete-guide-incl-redux/',
+  }
 ];
 
 const ProgrammingLanguages = () => {

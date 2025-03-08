@@ -125,6 +125,21 @@ const openSourceProjects = [
     title: 'Meshery',
     description: 'Meshery is an open-source project that helps manage and operate service meshes, which are used for controlling communications in microservices.',
     url: 'https://github.com/meshery/meshery',
+  },
+  {
+    title: 'Daytona',
+    description: 'The Open Source Development Environment Manager for Developers.',
+    url: 'https://github.com/daytonaio/daytona',
+  },
+  {
+    title: 'CopilotKit',
+    description: 'CopilotKit is an open-source project that provides a collection of tools and utilities for developers.',
+    url: 'https://github.com/CopilotKit/CopilotKit',
+  },
+  {
+    title: 'ToolJet',
+    description: 'ToolJet is an open-source low-code platform that helps you build internal tools quickly without writing code.',
+    url: 'https://github.com/ToolJet/ToolJet',
   }
 ];
 

@@ -55,6 +55,24 @@ const aiTools = [
     ],
     url: 'https://runwayml.com/',
   },
+  {
+    title : 'DeepAI',
+    description : 'DeepAI offers a range of AI tools and APIs for image recognition, text analysis, and more.',
+    features : ['Image recognition', 'Text analysis', 'Face recognition', 'AI-generated art'],
+    url : 'https://deepai.org/'
+  },
+  {
+    title: 'GitHub Copilot',
+    description: 'GitHub Copilot is an AI-powered code completion tool that helps developers write code faster and more efficiently.',
+    features: ['Code completion', 'Contextual suggestions', 'Support for multiple languages'],
+    url: 'https://github.com/features/copilot'
+  },
+  {
+    title : 'Microsoft Azure Cognitive Services',
+    description : 'Microsoft Azure Cognitive Services offers a wide range of AI services for vision, speech, language, and decision-making.',
+    features : ['Computer vision', 'Speech recognition', 'Language understanding', 'Decision-making APIs'],
+    url : 'https://azure.microsoft.com/en-us/services/cognitive-services/'
+  }
 ];
 
 const AITools = () => {
