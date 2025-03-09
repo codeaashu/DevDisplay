@@ -18,7 +18,7 @@ const shareContent = (url) => {
 const Card1 = () => {
   const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card1';
   return (
-    <div id="Card1" className="group relative mx-auto w-full max-w-sm">
+    <div id="Card1" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
         <div className="absolute -left-16 -top-16 h-32 w-32 rounded-full bg-gradient-to-br from-emerald-500/20 to-teal-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
         <div className="absolute -bottom-16 -right-16 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/20 to-indigo-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
@@ -168,7 +168,7 @@ const Card1 = () => {
 const Card2 = () => {
   const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card2';
   return (
-    <div id="Card1" className="group relative mx-auto w-full max-w-sm">
+    <div id="Card1" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
         <div className="absolute -left-16 -top-16 h-32 w-32 rounded-full bg-gradient-to-br from-emerald-500/20 to-teal-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
         <div className="absolute -bottom-16 -right-16 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/20 to-indigo-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
@@ -318,7 +318,7 @@ const Card2 = () => {
 const Card3 = () => {
   const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card3';
   return (
-    <div id="Card1" className="group relative mx-auto w-full max-w-sm">
+    <div id="Card1" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
         <div className="absolute -left-16 -top-16 h-32 w-32 rounded-full bg-gradient-to-br from-emerald-500/20 to-teal-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
         <div className="absolute -bottom-16 -right-16 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/20 to-indigo-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
@@ -468,7 +468,7 @@ const Card3 = () => {
 const Card4 = () => {
   const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card4';
   return (
-    <div id="Card1" className="group relative mx-auto w-full max-w-sm">
+    <div id="Card1" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
         <div className="absolute -left-16 -top-16 h-32 w-32 rounded-full bg-gradient-to-br from-emerald-500/20 to-teal-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
         <div className="absolute -bottom-16 -right-16 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/20 to-indigo-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
@@ -618,7 +618,7 @@ const Card4 = () => {
 const Card5 = () => {
   const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card5';
   return (
-    <div id="Card1" className="group relative mx-auto w-full max-w-sm">
+    <div id="Card1" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
         <div className="absolute -left-16 -top-16 h-32 w-32 rounded-full bg-gradient-to-br from-emerald-500/20 to-teal-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
         <div className="absolute -bottom-16 -right-16 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/20 to-indigo-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
@@ -768,7 +768,7 @@ const Card5 = () => {
 const Card6 = () => {
   const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card6';
   return (
-    <div id="Card1" className="group relative mx-auto w-full max-w-sm">
+    <div id="Card1" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
         <div className="absolute -left-16 -top-16 h-32 w-32 rounded-full bg-gradient-to-br from-emerald-500/20 to-teal-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
         <div className="absolute -bottom-16 -right-16 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/20 to-indigo-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
