@@ -957,9 +957,9 @@ const HybridOnsiteJobs = () => {
       <Navbar />
       <Hero />
       <Tags />
+      <JobAlerts />
       <HybridOnsiteCard />
       <OpportunitiesCards />
-      <JobAlerts />
       <Footer />
     </div>
   );
