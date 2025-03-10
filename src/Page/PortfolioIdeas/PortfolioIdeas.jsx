@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Footer } from '../../components/Footer/Footer';
+import portfoliosData from './portfolio.json'; // Import the JSON file
 
 const Navbar = () => {
   return (
@@ -60,6 +61,10 @@ const PortfolioIdeas = () => {
     techStack: '',
   });
 
+  useEffect(() => {
+    setPortfolios(portfoliosData); // Load portfolios from JSON file
+  }, []);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setPortfolios([...portfolios, newPortfolio]);
@@ -72,6 +77,7 @@ const PortfolioIdeas = () => {
     });
     setIsModalOpen(false);
   };
+
   const filteredPortfolios = portfolios.filter((portfolio) =>
     portfolio.author.toLowerCase().includes(searchTerm.toLowerCase()),
   );
