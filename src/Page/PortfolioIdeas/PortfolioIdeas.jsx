@@ -60,32 +60,18 @@ const PortfolioIdeas = () => {
     techStack: '',
   });
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    const response = await fetch('/api/create-pr', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(newPortfolio),
+    setPortfolios([...portfolios, newPortfolio]);
+    setNewPortfolio({
+      author: '',
+      screenshot: '',
+      liveUrl: '',
+      repo: '',
+      techStack: '',
     });
-
-    if (response.ok) {
-      alert('Pull request created successfully!');
-      setPortfolios([...portfolios, newPortfolio]);
-      setNewPortfolio({
-        author: '',
-        screenshot: '',
-        liveUrl: '',
-        repo: '',
-        techStack: '',
-      });
-      setIsModalOpen(false);
-    } else {
-      alert('Failed to create pull request.');
-    }
+    setIsModalOpen(false);
   };
-
   const filteredPortfolios = portfolios.filter((portfolio) =>
     portfolio.author.toLowerCase().includes(searchTerm.toLowerCase()),
   );
