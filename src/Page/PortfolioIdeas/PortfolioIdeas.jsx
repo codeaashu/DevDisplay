@@ -118,7 +118,7 @@ const PortfolioIdeas = () => {
                 />
               </div>
               <div>
-                <label className="mb-1 block text-sm font-medium">Screenshot UR]L</label>
+                <label className="mb-1 block text-sm font-medium">Screenshot URL</label>
                 <input
                   type="url"
                   value={newPortfolio.screenshot}
