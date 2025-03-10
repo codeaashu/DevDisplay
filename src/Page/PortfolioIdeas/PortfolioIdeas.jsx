@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Footer } from '../components/Footer/Footer';
+import { Footer } from '../../components/Footer/Footer';
 
 const Navbar = () => {
   return (
@@ -60,17 +60,30 @@ const PortfolioIdeas = () => {
     techStack: '',
   });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setPortfolios([...portfolios, newPortfolio]);
-    setNewPortfolio({
-      author: '',
-      screenshot: '',
-      liveUrl: '',
-      repo: '',
-      techStack: '',
+    const response = await fetch('/api/create-pr', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(newPortfolio),
     });
-    setIsModalOpen(false);
+
+    if (response.ok) {
+      alert('Pull request created successfully!');
+      setPortfolios([...portfolios, newPortfolio]);
+      setNewPortfolio({
+        author: '',
+        screenshot: '',
+        liveUrl: '',
+        repo: '',
+        techStack: '',
+      });
+      setIsModalOpen(false);
+    } else {
+      alert('Failed to create pull request.');
+    }
   };
 
   const filteredPortfolios = portfolios.filter((portfolio) =>

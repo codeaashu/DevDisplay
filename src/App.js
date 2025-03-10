@@ -11,7 +11,7 @@ import SponsorUs from './Page/Sponsor.jsx';
 import DevSpring from './Page/DevSpring.jsx';
 // Features Pages
 import IdeaSubmission from './Page/IdeaSubmission.jsx';
-import PortfolioIdeas from './Page/PortfolioIdeas.jsx';
+import PortfolioIdeas from './Page/PortfolioIdeas/PortfolioIdeas.jsx';
 import PortfolioBuilder from './Page/PortfolioBuilder.jsx';
 import ProjectShowcase from './Page/ProjectShowcase.jsx';
 import ResumeBuilder from './Page/ResumeBuilder.jsx';
