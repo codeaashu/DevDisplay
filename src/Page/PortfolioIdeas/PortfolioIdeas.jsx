@@ -301,10 +301,46 @@ const shuffleArray = (array) => {
   return shuffled;
 };
 
+const VoteButton = styled.button`
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: ${(props) => (props.voted ? '#00a6fb' : 'rgb(13, 25, 53)')};
+  color: ${(props) => (props.voted ? 'white' : '#00a6fb')};
+  border: 2px solid #00a6fb;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+
+  &:hover {
+    background-color: rgb(13, 25, 53);
+    color: white;
+    border: 2px solid #00a6fb;
+  }
+
+  .icon {
+    font-size: 16px;
+  }
+
+  .count {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+`;
+
 const PortfolioIdeas = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [portfolios, setPortfolios] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+  const [votes, setVotes] = useState({});
   const [newPortfolio, setNewPortfolio] = useState({
     author: '',
     screenshot: '',
@@ -316,7 +352,17 @@ const PortfolioIdeas = () => {
   useEffect(() => {
     const shuffledPortfolios = shuffleArray(portfoliosData); // Shuffle portfolios
     setPortfolios(shuffledPortfolios); // Load shuffled portfolios from JSON file
+
+    // Load votes from local storage
+    const storedVotes = JSON.parse(localStorage.getItem('portfolioVotes')) || {};
+    setVotes(storedVotes);
   }, []);
+
+  const handleVote = (index) => {
+    const newVotes = { ...votes, [index]: (votes[index] || 0) + 1 };
+    setVotes(newVotes);
+    localStorage.setItem('portfolioVotes', JSON.stringify(newVotes));
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -645,6 +691,10 @@ const PortfolioIdeas = () => {
                 alt={`${portfolio.author}'s portfolio`}
                 className="h-full w-full rounded-lg object-cover"
               />
+              <VoteButton voted={votes[index] > 0} onClick={() => handleVote(index)}>
+                <div className="icon">▲</div>
+                <div className="count">{votes[index] || 0}</div>
+              </VoteButton>
             </div>
             <h3 className="mb-2 flex items-center justify-between text-lg font-semibold text-white">
               {portfolio.author}
