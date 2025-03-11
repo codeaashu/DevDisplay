@@ -2384,7 +2384,7 @@
     "screenshot": "https://github.com/user-attachments/assets/ab2ffdbe-bf3b-459f-97f5-621754bc8699",
     "liveUrl": "https://thughari.github.io",
     "repo": "https://github.com/thughari/thughari.github.io",
-    "techStack": "HTML, CSS, JS, Google sheets integrated responses with mail notification(app script)"
+    "techStack": "HTML, CSS, JS, (app script)"
   },
   {
     "author": "Sawad",
@@ -2398,7 +2398,7 @@
     "screenshot": "https://github.com/user-attachments/assets/174443cc-d0fe-4d0c-85d8-7e1a11e1d861",
     "liveUrl": "https://carlosdubon.dev",
     "repo": "None",
-    "techStack": "Next.js 14 (App Router), TailwindCSS, TypeScript, Framer Motion, Velite"
+    "techStack": "Next.js 14, TailwindCSS, TypeScript, Framer Motion, Velite"
   },
   {
     "author": "Umesh Nagare",
