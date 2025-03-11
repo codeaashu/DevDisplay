@@ -240,6 +240,67 @@ const SearchBar = ({ onSearch }) => {
   );
 };
 
+const StyledPortfolioCard = styled.div`
+  position: relative;
+  border: 1px solid rgb(182, 228, 250);
+  background: linear-gradient(to right, rgba(15, 27, 53, 0.44), rgba(0, 43, 62, 0.43));
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 172, 255, 0.6);
+  }
+
+  .dot {
+    width: 5px;
+    aspect-ratio: 1;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ffffff;
+    border-radius: 100px;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    animation: moveDot 6s linear infinite;
+  }
+
+  @keyframes moveDot {
+    0% {
+      top: 0;
+      right: 0;
+    }
+    25% {
+      top: 0;
+      right: calc(100% - 5px);
+    }
+    50% {
+      top: calc(100% - 5px);
+      right: calc(100% - 5px);
+    }
+    75% {
+      top: calc(100% - 5px);
+      right: 0;
+    }
+    100% {
+      top: 0;
+      right: 0;
+    }
+  }
+`;
+
+const shuffleArray = (array) => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
+
 const PortfolioIdeas = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [portfolios, setPortfolios] = useState([]);
@@ -253,7 +314,8 @@ const PortfolioIdeas = () => {
   });
 
   useEffect(() => {
-    setPortfolios(portfoliosData); // Load portfolios from JSON file
+    const shuffledPortfolios = shuffleArray(portfoliosData); // Shuffle portfolios
+    setPortfolios(shuffledPortfolios); // Load shuffled portfolios from JSON file
   }, []);
 
   const handleSubmit = (e) => {
@@ -495,51 +557,128 @@ const PortfolioIdeas = () => {
       {isModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
           <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white">
-            {/* ... (Modal content remains the same) */}
+            <div className="mb-4 flex items-center justify-between">
+              <h2 className="text-xl font-semibold">Add New Portfolio</h2>
+              <button onClick={() => setIsModalOpen(false)} className="text-gray-400 hover:text-white">
+                ×
+              </button>
+            </div>
+
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <div>
+                <label className="mb-1 block text-sm font-medium">Author</label>
+                <input
+                  type="text"
+                  value={newPortfolio.author}
+                  onChange={(e) => setNewPortfolio({ ...newPortfolio, author: e.target.value })}
+                  className="w-full rounded-lg bg-gray-700 px-3 py-2 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00a6fb]"
+                  required
+                />
+              </div>
+              <div>
+                <label className="mb-1 block text-sm font-medium">Screenshot URL</label>
+                <input
+                  type="url"
+                  value={newPortfolio.screenshot}
+                  onChange={(e) => setNewPortfolio({ ...newPortfolio, screenshot: e.target.value })}
+                  className="w-full rounded-lg bg-gray-700 px-3 py-2 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00a6fb]"
+                  required
+                />
+              </div>
+              <div>
+                <label className="mb-1 block text-sm font-medium">Live URL</label>
+                <input
+                  type="url"
+                  value={newPortfolio.liveUrl}
+                  onChange={(e) => setNewPortfolio({ ...newPortfolio, liveUrl: e.target.value })}
+                  className="w-full rounded-lg bg-gray-700 px-3 py-2 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00a6fb]"
+                  required
+                />
+              </div>
+              <div>
+                <label className="mb-1 block text-sm font-medium">Repository URL</label>
+                <input
+                  type="url"
+                  value={newPortfolio.repo}
+                  onChange={(e) => setNewPortfolio({ ...newPortfolio, repo: e.target.value })}
+                  className="w-full rounded-lg bg-gray-700 px-3 py-2 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00a6fb]"
+                  required
+                />
+              </div>
+              <div>
+                <label className="mb-1 block text-sm font-medium">Tech Stack</label>
+                <input
+                  type="text"
+                  value={newPortfolio.techStack}
+                  onChange={(e) => setNewPortfolio({ ...newPortfolio, techStack: e.target.value })}
+                  className="w-full rounded-lg bg-gray-700 px-3 py-2 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00a6fb]"
+                  required
+                  placeholder="e.g., React, Node.js, MongoDB"
+                />
+              </div>
+              <div className="mt-6 flex gap-2">
+                <button
+                  type="submit"
+                  className="w-full rounded-lg bg-[#00a6fb] px-4 py-2 text-white transition-colors hover:bg-[#0089d2]"
+                >
+                  Submit
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setIsModalOpen(false)}
+                  className="w-full rounded-lg bg-gray-700 px-4 py-2 text-white transition-colors hover:bg-gray-600"
+                >
+                  Cancel
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       )}
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
         {filteredPortfolios.map((portfolio, index) => (
-          <div key={index} className="rounded-lg bg-gray-800 p-4 shadow-md">
+          <StyledPortfolioCard key={index} className="rounded-lg p-4 shadow-md">
             <div className="relative mb-4 h-48">
               <img
                 src={portfolio.screenshot}
                 alt={`${portfolio.author}'s portfolio`}
                 className="h-full w-full rounded-lg object-cover"
               />
-              <div className="absolute inset-0 flex items-center justify-center bg-black opacity-0 transition-opacity duration-300 hover:opacity-80">
-                <a
-                  href={portfolio.liveUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mr-2 rounded-lg bg-[#00a6fb] px-4 py-2 text-white"
-                >
-                  View Live
-                </a>
+            </div>
+            <h3 className="mb-2 flex items-center justify-between text-lg font-semibold text-white">
+              {portfolio.author}
+              <div className="ml-4 flex">
                 <a
                   href={portfolio.repo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-lg bg-[#00a6fb] px-4 py-2 text-white"
+                  className="bg-gray-1000 mr-2 flex items-center rounded-full rounded-lg border border-white px-4 py-2 text-[#00a6fb]"
                 >
-                  View Code
+                  <i className="fas fa-code"></i>
+                </a>
+                <a
+                  href={portfolio.liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gray-1000 flex items-center rounded-full rounded-lg border border-white px-4 py-2 text-[#00a6fb]"
+                >
+                  <i className="fas fa-globe"></i>
                 </a>
               </div>
-            </div>
-            <h3 className="mb-2 text-lg font-semibold">{portfolio.author}</h3>
+            </h3>
             <div className="flex flex-wrap gap-2">
               {portfolio.techStack.split(',').map((tag, tagIndex) => (
                 <span
                   key={tagIndex}
-                  className="inline-flex items-center rounded-full border border-[#00a6fb] bg-gray-900 px-3 py-1 text-xs text-gray-300"
+                  className="bg-gray-1000 inline-flex items-center rounded-full border border-[#00a6fb] px-3 py-1 text-xs text-gray-300"
                 >
                   {tag.trim()}
                 </span>
               ))}
             </div>
-          </div>
+            {/* <div className="dot" /> */}
+          </StyledPortfolioCard>
         ))}
       </div>
     </div>
