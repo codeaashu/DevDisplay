@@ -24,7 +24,7 @@
 
   <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /> DevDisplay - Paradise for developers <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /></h1>
 <a href="https://www.devdisplay.org/"><img src="./public/DevDisplay ICON.png" width="100px" /></a>
-<h3 align="center"> Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer </h3>
+<h3 align="center"> Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer</h3>
 <br><br>
   The First Global Platform for Developers to Fulfill All Their Tech Needs.<br><br>
 
