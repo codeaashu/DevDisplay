@@ -54,34 +54,25 @@ function App() {
   return (
     <BrowserRouter>
       <Helmet>
-        <title>DevDisplay - Global Tech Hub</title>
-        <meta
-          name="description"
-          content="DevDisplay brings together all your tech needs in one place. Showcase your skills, connect globally, collaborate, build and promote."
-        />
+        <title>DevDisplay - Paradise for developers</title>
+        <meta name="description" content="The First Global Platform for Developers to Fulfill All Their Tech Needs." />
         <meta
           name="keywords"
-          content="DevDisplay, open source, community, tech skills, collaboration, tech platform, developers, devdisplay, devdisplay org, developers, opensource, developer community, tech community, Dev Display, dev display"
+          content="DevDisplay, open source, community, tech skills, Paradise for developers, collaboration, tech platform, developers, devdisplay, Connect, Collab, Code, Create, Conquer, devdisplay org, developers, opensource, developer community, tech community, Dev Display, dev display"
         />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta property="og:title" content="DevDisplay - Global Tech Hub" />
-        <meta
-          property="og:description"
-          content="Join DevDisplay to Showcase your skills, connect globally, collaborate, build and promote."
-        />
+        <meta property="og:title" content="DevDisplay - Paradise for developers" />
+        <meta property="og:description" content="Connect, Collab, Code, Create, Conquer" />
         <meta property="og:image" content="https://www.devdisplay.org/og-image.jpg" />
         <meta property="og:url" content="https://www.devdisplay.org" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="DevDisplay" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="DevDisplay - Global Tech Hub" />
-        <meta
-          name="twitter:description"
-          content="Showcase your skills, connect globally, collaborate, build and promote."
-        />
+        <meta name="twitter:title" content="DevDisplay - Paradise for developers" />
+        <meta name="twitter:description" content="Connect, Collab, Code, Create, Conquer" />
         <meta name="twitter:image" content="https://www.devdisplay.org/twitter-image.jpg" />
         <meta name="twitter:site" content="@devdisplay_" />
 
