@@ -20,7 +20,7 @@
            <td><img alt="Contributors" src="https://img.shields.io/github/contributors/codeaashu/DevDisplay?style=flat&color=black&logo=github"/></td>
         </tr>
     </tbody>
-</table><hr>
+</table><br>
 
   <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /> Paradise For Developers <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /></h1>
 <a href="https://www.devdisplay.org/"><img src="./public/DDColorLOGO.png" width="500px" /></a><br>
