@@ -24,8 +24,8 @@
 
   <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /> Paradise for developers <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /></h1>
 <a href="https://www.devdisplay.org/"><img src="./public/DDColorLOGO.png" width="500px" /></a><br>
-The First Global Platform for Developers to Fulfill All Their Tech Needs.<br>
-  <h3 align="center"> Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer </h3><br><br>
+  <h3 align="center"> Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer </h3>
+The First Global Platform for Developers to Fulfill All Their Tech Needs.<br><br>
 
 <details>
     <summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Click here to explore your all-in-one destination for everything tech! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></summary>
