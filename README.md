@@ -7,7 +7,7 @@
             <td><b><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="25" height="25" /></b></td>
             <td><b>🔔</b></td>
             <td><b>🔕</b></td>
-            <td><b>🗿</b></td>
+            <td><b><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Smiling%20Face%20With%20Sunglasses.webp" alt="Smiling Face With Sunglasses" width="25" height="25" /></b></td>
         </tr>
      </thead>
      <tbody>
