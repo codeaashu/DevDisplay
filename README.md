@@ -2,8 +2,8 @@
 <table align="center">
      <thead align="center">
         <tr border: 2px;>
-            <td><b>🌟 Stars</b></td>
-            <td><b>💌 Forks</b></td>
+            <td><b><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Stars</b></td>
+            <td><b><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Love%20Letter.png" alt="Love Letter" width="25" height="25" /> Forks</b></td>
             <td><b>🐛 Issues</b></td>
             <td><b>🔔 Open PRs</b></td>
             <td><b>🔕 Close PRs</b></td>
