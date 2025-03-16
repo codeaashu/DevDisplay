@@ -22,9 +22,14 @@
     </tbody>
 </table><br> -->
 
-  <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cyclone.png" alt="Cyclone" width="25" height="25" /> Paradise For Developers <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cyclone.png" alt="Cyclone" width="25" height="25" /></h1>
+  <!-- <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cyclone.png" alt="Cyclone" width="25" height="25" /> Paradise For Developers <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cyclone.png" alt="Cyclone" width="25" height="25" /></h1> -->
+
+<a href="https://www.devdisplay.org/"><img src="./public/assets/DevDisplayLOGO/NameTagline.png" width="500px" /></a><br>
 <a href="https://www.devdisplay.org/"><img src="./public/DDColorLOGO.png" width="500px" /></a><br>
-  <h3 align="center"> Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer </h3>
+<a href="https://www.devdisplay.org/"><img src="./public/assets/DevDisplayLOGO/Slogan.png" width="500px" /></a><br>
+
+  <!-- <h3 align="center"> Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer </h3> -->
+
 The First Global Platform for Developers to Fulfill All Their Tech Needs.<br><br>
 
 <details>
