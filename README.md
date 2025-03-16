@@ -29,6 +29,7 @@
 
      <!-- <a href="https://www.devdisplay.org/"><img src="./public/assets/DevDisplayLOGO/Slogan.png" width="500px" /></a><br> -->
 
+
 The First Global Platform for Developers to Fulfill All Their Tech Needs.<br>
 
 <h2 align="center"> Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer </h2> <br><br>
