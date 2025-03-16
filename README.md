@@ -27,8 +27,6 @@
 <a href="https://www.devdisplay.org/"><img src="./public/assets/DevDisplayLOGO/NameTagline.png" width="300px" /></a><br>
 <a href="https://www.devdisplay.org/"><img src="./public/DDColorLOGO.png" width="500px" /></a><br>
 
-     <!-- <a href="https://www.devdisplay.org/"><img src="./public/assets/DevDisplayLOGO/Slogan.png" width="500px" /></a><br> -->
-
 
 The First Global Platform for Developers to Fulfill All Their Tech Needs.<br>
 
