@@ -1,4 +1,4 @@
-ha      h    <div align="center">
+<div align="center">
 <!-- <table align="center">
      <thead align="center">
         <tr border: 2px;>
