@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 import { ArrowLeft, Search } from 'lucide-react';
-import { Footer } from '../components/Footer/Footer';
-import styled from 'styled-components'; // Import styled-components
-import Marquee from 'react-fast-marquee'; // Import Marquee
+import styled from 'styled-components';
+import Marquee from 'react-fast-marquee';
 
 const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 w-full bg-gray-800 text-white shadow-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
-        <a href="/home">
+        <a href="/opportunities">
           <button className="flex items-center gap-2 rounded-full border border-white p-2 hover:bg-gray-700">
             <ArrowLeft className="h-5 w-5" />
             <span className="hidden md:inline">Back</span>
@@ -43,14 +42,7 @@ const Hero = () => {
   return (
     <section className="hero-section mb-0 flex min-h-[10vh] flex-col items-center justify-center text-white">
       <div className="flex w-full flex-col items-center justify-center px-8 text-center">
-        {/* <h2 className="mb-4 text-6xl font-bold">
-          Opportunities <span className="text-[#00a6fb]">Hub</span>
-        </h2> */}
-        {/* <p className="text-md md:text-md mx-auto max-w-2xl">
-         One Platform, Endless Tech Opportunities
-        </p> */}
         <div className="my-6"></div>
-        {/* <h1 className="mb-2 text-6xl font-bold tracking-widest md:text-4xl"><span className="text-[#00a6fb]">Unlock All Tech Opportunities in One Place</span></h1> */}
         <StyledWrapper>
           <div className="modgp relative inline-block w-full py-3">
             <div className="relative">
@@ -219,32 +211,32 @@ const Hero = () => {
 
 const Tags = () => {
   const tags = [
-    'Hybrid Jobs',
-    'Onsite Jobs',
-    'Remote Jobs',
-    'Internships',
-    'Freelancing',
-    'Offline Hackathons',
     'Online Hackathons',
-    'Competitions',
-    'Tech Events',
-    'Tech Fest',
-    'Bootcamps',
-    'Certifications',
-    'Skill Development',
-    'OpenSource Program',
-    'Coding Challenges',
-    'Mentorship Programs',
-    'Workshops',
-    'Networking Events',
-    'Scholarships',
-    'Startup Incubators',
+    'Offline Hackathons',
+    'College Hackathons',
+    'International Hackathons',
+    'Beginner Friendly Hackathons',
+    'Themed Hackathons',
+    '24-Hour Hackathons',
+    '48-Hour Hackathons',
+    'Startup Hackathons',
+    'AI/ML Hackathons',
+    'Web Development Hackathons',
+    'Game Dev Hackathons',
+    'Women-Only Hackathons',
+    'Student Competitions',
+    'Coding Competitions',
+    'Global Coding Challenges',
+    'Team-Based Competitions',
+    'Solo Coding Challenges',
+    'Competitive Programming Contests',
+    'Hackathon Leaderboards',
   ];
 
   return (
     <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
       <h1 className="text-md text-primary mb-8 text-center font-bold text-[#00a6fb] lg:text-2xl">
-        Unlock All Tech Opportunities in One Place
+        Discover & Join Hackathons from All Around the World
       </h1>
       {/* <h2 className="text-md text-primary mb-8 text-center text-[#00a6fb] font-bold lg:text-2xl">One Platform, Endless Tech Opportunities</h2> */}
 
@@ -804,7 +796,6 @@ const Hackathons = () => {
       <Hero />
       <Tags />
       <OpportunitiesCards />
-      <Footer />
     </div>
   );
 };
