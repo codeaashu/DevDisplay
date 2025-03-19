@@ -3,13 +3,14 @@ import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFlag, faMapMarkerAlt, faCalendarAlt, faShareAlt } from '@fortawesome/free-solid-svg-icons';
 
-const shareContent = (url) => {
+const shareContent = (url, imageUrl) => {
   if (navigator.share) {
     navigator
       .share({
         title: 'Check out this hackathon!',
         text: 'I found this amazing hackathon opportunity.',
         url: url,
+        files: [new File([imageUrl], 'poster.jpg', { type: 'image/jpeg' })],
       })
       .then(() => console.log('Successful share'))
       .catch((error) => console.log('Error sharing', error));
@@ -233,7 +234,7 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
 
       <div className="mt-2 flex justify-center gap-2 p-2">
         <button
-          onClick={() => shareContent(window.location.href.split('#')[0] + shareLink)}
+          onClick={() => shareContent(window.location.href.split('#')[0] + shareLink, poster)}
           className="flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-2 font-semibold text-white transition-colors hover:bg-slate-800"
         >
           <FontAwesomeIcon icon={faShareAlt} />
