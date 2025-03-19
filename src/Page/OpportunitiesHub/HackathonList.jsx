@@ -138,8 +138,8 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
     <StyledHackathonCard>
       {/* <div className="dot"></div> */}
       <div className="flex items-center justify-between p-2">
-        <span className="text-sm font-semibold text-[#00a6fb]">
-          <FontAwesomeIcon icon={faFlag} className="mr-1" /> {organizer}
+        <span className="text-sm font-semibold text-white">
+          <FontAwesomeIcon icon={faFlag} className="mr-1 text-[#00a6fb]" /> {organizer}
         </span>
         <a
           href={applyLink}
@@ -163,14 +163,14 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
         />
       </div>
 
-      <h2 className="mt-2 p-2 text-center text-lg font-bold text-white">{title}</h2>
+      <h2 className="mt-1 p-1 text-center text-lg font-bold text-white">{title}</h2>
 
       <div className="flex justify-between p-2 text-sm text-[#00a6fb]">
         <span>
-          <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-1" /> {location}
+          <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-1 text-white" /> {location}
         </span>
         <span>
-          <FontAwesomeIcon icon={faCalendarAlt} className="mr-1" /> {date}
+          <FontAwesomeIcon icon={faCalendarAlt} className="mr-1 text-white" /> {date}
         </span>
       </div>
 
