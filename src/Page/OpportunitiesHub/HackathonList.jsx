@@ -35,7 +35,7 @@ const hackathons = [
     location: 'Greater Noida, India',
     date: 'Apr 3 - 4',
     domains: ['Open Innovation', 'No Restrictions'],
-    applyLink: '#',
+    applyLink: 'https://code-nakshatra.devfolio.co/?ref=37575e18b3',
     poster: '/assets/Hackathons/Code Nakshatra.webp',
     shareLink: '#Code-Nakshatra',
   },
