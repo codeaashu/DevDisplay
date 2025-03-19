@@ -80,24 +80,24 @@ const hackathons = [
     shareLink: '#hack-heist',
   },
   {
-    organizer: 'HackClub',
+    organizer: 'Hacknexus 2025',
     title: 'Technovate 2025',
     location: 'Delhi, India',
     date: '30 May',
     domains: ['Gaming', 'Mobile'],
     applyLink: '#',
     poster: '/assets/FeaturedIn/ieeeIGDTUW.jpg',
-    shareLink: '#technovate-2025',
+    shareLink: '#Hacknexus-2025',
   },
   {
     organizer: 'Oracle',
-    title: 'Hack Heist',
+    title: 'Hack nest',
     location: 'Canava',
     date: '10 May',
     domains: ['AI/ML', 'Web'],
     applyLink: '#',
     poster: '/assets/FeaturedIn/ieeeIGDTUW.jpg',
-    shareLink: '#hack-heist',
+    shareLink: '#hack-nest',
   },
   // ... Add others similarly
 ];
