@@ -8,9 +8,8 @@ const shareContent = (url, imageUrl) => {
     navigator
       .share({
         title: 'Check out this hackathon!',
-        text: 'I found this amazing hackathon opportunity.',
+        text: `I found this amazing hackathon opportunity. Check out the poster here: ${imageUrl}`,
         url: url,
-        files: [new File([imageUrl], 'poster.jpg', { type: 'image/jpeg' })],
       })
       .then(() => console.log('Successful share'))
       .catch((error) => console.log('Error sharing', error));
