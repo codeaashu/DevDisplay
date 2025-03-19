@@ -38,7 +38,7 @@ const hackathons = [
     date: '12 April',
     domains: ['Blockchain', 'Web', 'Mobile'],
     applyLink: '#',
-    poster: '/assets/FeaturedIn/ieeeIGDTUW.jpg', // 👈 image path (stored in public/images)
+    poster: '/assets/FeaturedIn/ieeeIGDTUW.jpg',
   },
   {
     organizer: 'HackClub',
@@ -137,7 +137,7 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
   return (
     <StyledHackathonCard>
       {/* <div className="dot"></div> */}
-      <div className="flex items-center justify-between p-4">
+      <div className="flex items-center justify-between p-2">
         <span className="text-sm font-semibold text-[#00a6fb]">
           <FontAwesomeIcon icon={faFlag} className="mr-1" /> {organizer}
         </span>
@@ -163,14 +163,14 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
         />
       </div>
 
-      <h2 className="mt-2 p-4 text-center text-lg font-bold text-white">{title}</h2>
+      <h2 className="mt-2 p-2 text-center text-lg font-bold text-white">{title}</h2>
 
-      <div className="flex justify-between p-4 text-sm text-gray-600">
+      <div className="flex justify-between p-2 text-sm text-[#00a6fb]">
         <span>
-          <FontAwesomeIcon icon={faMapMarkerAlt} /> {location}
+          <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-1" /> {location}
         </span>
         <span>
-          <FontAwesomeIcon icon={faCalendarAlt} /> {date}
+          <FontAwesomeIcon icon={faCalendarAlt} className="mr-1" /> {date}
         </span>
       </div>
 
@@ -183,7 +183,7 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
                 </div>
             </div> */}
 
-      <div className="mt-2 flex flex-wrap gap-2 p-4">
+      <div className="mt-2 flex flex-wrap gap-2 p-2">
         {domains.map((domain, idx) => (
           <span
             key={idx}
