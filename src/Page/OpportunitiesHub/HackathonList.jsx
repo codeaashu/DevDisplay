@@ -1,7 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFlag, faMapMarkerAlt, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
+import { faFlag, faMapMarkerAlt, faCalendarAlt, faShareAlt } from '@fortawesome/free-solid-svg-icons';
+
+const shareContent = (url) => {
+  if (navigator.share) {
+    navigator
+      .share({
+        title: 'Check out this hackathon!',
+        text: 'I found this amazing hackathon opportunity.',
+        url: url,
+      })
+      .then(() => console.log('Successful share'))
+      .catch((error) => console.log('Error sharing', error));
+  } else {
+    alert('Web Share API is not supported in your browser.');
+  }
+};
 
 const hackathons = [
   {
@@ -12,6 +27,7 @@ const hackathons = [
     domains: ['Blockchain', 'Web', 'Mobile'],
     applyLink: '#',
     poster: '/assets/FeaturedIn/ieeeIGDTUW.jpg',
+    shareLink: '#code-with-google',
   },
   {
     organizer: 'HackClub',
@@ -21,6 +37,7 @@ const hackathons = [
     domains: ['Gaming', 'Mobile'],
     applyLink: '#',
     poster: '/assets/FeaturedIn/ieeeIGDTUW.jpg',
+    shareLink: '#technovate-2025',
   },
   {
     organizer: 'Oracle',
@@ -30,6 +47,7 @@ const hackathons = [
     domains: ['AI/ML', 'Web'],
     applyLink: '#',
     poster: '/assets/FeaturedIn/ieeeIGDTUW.jpg',
+    shareLink: '#hack-heist',
   },
   {
     organizer: 'Google',
@@ -39,6 +57,7 @@ const hackathons = [
     domains: ['Blockchain', 'Web', 'Mobile'],
     applyLink: '#',
     poster: '/assets/FeaturedIn/ieeeIGDTUW.jpg',
+    shareLink: '#code-with-google',
   },
   {
     organizer: 'HackClub',
@@ -48,6 +67,7 @@ const hackathons = [
     domains: ['Gaming', 'Mobile'],
     applyLink: '#',
     poster: '/assets/FeaturedIn/ieeeIGDTUW.jpg',
+    shareLink: '#technovate-2025',
   },
   {
     organizer: 'Oracle',
@@ -57,6 +77,7 @@ const hackathons = [
     domains: ['AI/ML', 'Web'],
     applyLink: '#',
     poster: '/assets/FeaturedIn/ieeeIGDTUW.jpg',
+    shareLink: '#hack-heist',
   },
   {
     organizer: 'HackClub',
@@ -66,6 +87,7 @@ const hackathons = [
     domains: ['Gaming', 'Mobile'],
     applyLink: '#',
     poster: '/assets/FeaturedIn/ieeeIGDTUW.jpg',
+    shareLink: '#technovate-2025',
   },
   {
     organizer: 'Oracle',
@@ -75,6 +97,7 @@ const hackathons = [
     domains: ['AI/ML', 'Web'],
     applyLink: '#',
     poster: '/assets/FeaturedIn/ieeeIGDTUW.jpg',
+    shareLink: '#hack-heist',
   },
   // ... Add others similarly
 ];
@@ -155,9 +178,9 @@ const StyledHackathonCard = styled.div`
   }
 `;
 
-const HackathonCardComponent = ({ organizer, title, location, date, domains, applyLink, poster }) => {
+const HackathonCardComponent = ({ organizer, title, location, date, domains, applyLink, poster, shareLink }) => {
   return (
-    <StyledHackathonCard>
+    <StyledHackathonCard id={shareLink.substring(1)}>
       {/* <div className="dot"></div> */}
       <div className="flex items-center justify-between p-2">
         <span className="text-sm font-semibold text-white">
@@ -197,15 +220,6 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
         </span>
       </div>
 
-      {/* <div className="text-sm text-gray-600 p-4">
-                <div className="mb-2">
-                    <FontAwesomeIcon icon={faMapMarkerAlt} /> {location}
-                </div>
-                <div>
-                    <FontAwesomeIcon icon={faCalendarAlt} /> {date}
-                </div>
-            </div> */}
-
       <div className="mt-2 flex flex-wrap justify-center gap-2 p-2">
         {domains.map((domain, idx) => (
           <span
@@ -215,6 +229,16 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
             {domain}
           </span>
         ))}
+      </div>
+
+      <div className="mt-2 flex justify-center gap-2 p-2">
+        <button
+          onClick={() => shareContent(window.location.href.split('#')[0] + shareLink)}
+          className="flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-2 font-semibold text-white transition-colors hover:bg-slate-800"
+        >
+          <FontAwesomeIcon icon={faShareAlt} />
+          Share
+        </button>
       </div>
     </StyledHackathonCard>
   );
@@ -235,6 +259,7 @@ const HackathonListContainer = styled.div`
     justify-content: center;
   }
 `;
+
 const HackathonList = () => {
   return (
     <HackathonListContainer>
