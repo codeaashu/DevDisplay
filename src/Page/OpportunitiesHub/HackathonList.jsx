@@ -1,4 +1,7 @@
 import React from 'react';
+import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFlag, faMapMarkerAlt, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 
 const hackathons = [
   {
@@ -76,20 +79,68 @@ const hackathons = [
   // ... Add others similarly
 ];
 
-const HackathonCardComponent = ({
-  organizer,
-  title,
-  location,
-  date,
-  domains,
-  applyLink,
-  poster, // 👈 Destructure the `poster` prop
-}) => {
+const StyledHackathonCard = styled.div`
+  position: relative;
+  border: 1px solid rgb(182, 228, 250);
+  background: linear-gradient(to right, rgba(15, 27, 53, 0.44), rgba(0, 43, 62, 0.43));
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+  width: 100%;
+  max-width: 300px;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 172, 255, 0.6);
+  }
+
+  .dot {
+    width: 5px;
+    aspect-ratio: 1;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ffffff;
+    border-radius: 100px;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    animation: moveDot 6s linear infinite;
+  }
+
+  @keyframes moveDot {
+    0% {
+      top: 0;
+      right: 0;
+    }
+    25% {
+      top: 0;
+      right: calc(100% - 5px);
+    }
+    50% {
+      top: calc(100% - 5px);
+      right: calc(100% - 5px);
+    }
+    75% {
+      top: calc(100% - 5px);
+      right: 0;
+    }
+    100% {
+      top: 0;
+      right: 0;
+    }
+  }
+`;
+
+const HackathonCardComponent = ({ organizer, title, location, date, domains, applyLink, poster }) => {
   return (
-    <div className="flex w-72 flex-col justify-between gap-2 rounded-xl border bg-white p-4 shadow-md">
-      {/* Top Row */}
-      <div className="flex items-center justify-between">
-        <span className="text-sm font-semibold text-red-600">🚩 {organizer}</span>
+    <StyledHackathonCard>
+      {/* <div className="dot"></div> */}
+      <div className="flex items-center justify-between p-4">
+        <span className="text-sm font-semibold text-[#00a6fb]">
+          <FontAwesomeIcon icon={faFlag} className="mr-1" /> {organizer}
+        </span>
         <a
           href={applyLink}
           target="_blank"
@@ -100,37 +151,49 @@ const HackathonCardComponent = ({
         </a>
       </div>
 
-      {/* Poster Image */}
-      <div className="h-32 w-full overflow-hidden rounded-lg">
+      <div className="h-40 w-full overflow-hidden rounded-xl p-2 shadow-md">
         <img
           src={poster}
           alt={`${title} Poster`}
-          className="h-full w-full object-cover"
+          className="h-full w-full rounded-lg object-cover"
           onError={(e) => {
             e.target.onerror = null;
-            e.target.src = '/images/default.png'; // fallback image
+            e.target.src = '/images/default.png';
           }}
         />
       </div>
 
-      {/* Title */}
-      <h2 className="mt-2 text-lg font-bold">{title}</h2>
+      <h2 className="mt-2 p-4 text-center text-lg font-bold text-white">{title}</h2>
 
-      {/* Location + Date */}
-      <div className="flex justify-between text-sm text-gray-600">
-        <span>📍 {location}</span>
-        <span>📅 {date}</span>
+      <div className="flex justify-between p-4 text-sm text-gray-600">
+        <span>
+          <FontAwesomeIcon icon={faMapMarkerAlt} /> {location}
+        </span>
+        <span>
+          <FontAwesomeIcon icon={faCalendarAlt} /> {date}
+        </span>
       </div>
 
-      {/* Domains/Tags */}
-      <div className="mt-2 flex flex-wrap gap-2">
+      {/* <div className="text-sm text-gray-600 p-4">
+                <div className="mb-2">
+                    <FontAwesomeIcon icon={faMapMarkerAlt} /> {location}
+                </div>
+                <div>
+                    <FontAwesomeIcon icon={faCalendarAlt} /> {date}
+                </div>
+            </div> */}
+
+      <div className="mt-2 flex flex-wrap gap-2 p-4">
         {domains.map((domain, idx) => (
-          <span key={idx} className="rounded-full border border-gray-300 bg-gray-100 px-2 py-1 text-xs">
-            • {domain}
+          <span
+            key={idx}
+            className="bg-gray-1000  rounded-full border border-[#00a6fb]  px-2 py-1 text-xs text-gray-300"
+          >
+            {domain}
           </span>
         ))}
       </div>
-    </div>
+    </StyledHackathonCard>
   );
 };
 
