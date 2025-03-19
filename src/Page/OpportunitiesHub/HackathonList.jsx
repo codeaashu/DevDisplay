@@ -11,7 +11,7 @@ const hackathons = [
     date: '12 April',
     domains: ['Blockchain', 'Web', 'Mobile'],
     applyLink: '#',
-    poster: '/assets/FeaturedIn/ieeeIGDTUW.jpg', // 👈 image path (stored in public/images)
+    poster: '/assets/FeaturedIn/ieeeIGDTUW.jpg',
   },
   {
     organizer: 'HackClub',
@@ -134,13 +134,13 @@ const StyledHackathonCard = styled.div`
   }
 
   .status-user {
-    width: 6px;
-    height: 6px;
+    width: 8px;
+    height: 8px;
     margin-right: 4px;
     border-radius: 50%;
     outline: solid 2px var(--bg-color, #fff);
     background-color: var(--online-status, #00a6fb);
-    transition: var(--btn-transition, 0.3s);
+    transition: var(--btn-transition, 0.5s);
     animation: active-status 2s ease-in-out infinite;
   }
 
@@ -150,7 +150,7 @@ const StyledHackathonCard = styled.div`
       opacity: 1;
     }
     50% {
-      opacity: 0.5;
+      opacity: 0.2;
     }
   }
 `;
@@ -158,7 +158,7 @@ const StyledHackathonCard = styled.div`
 const HackathonCardComponent = ({ organizer, title, location, date, domains, applyLink, poster }) => {
   return (
     <StyledHackathonCard>
-      <div className="dot"></div>
+      {/* <div className="dot"></div> */}
       <div className="flex items-center justify-between p-2">
         <span className="text-sm font-semibold text-white">
           <FontAwesomeIcon icon={faFlag} className="mr-1 text-[#00a6fb]" /> {organizer}
@@ -174,7 +174,7 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
         </a>
       </div>
 
-      <div className="h-40 w-full overflow-hidden rounded-xl p-2 shadow-md">
+      <div className="h-60 w-full overflow-hidden rounded-xl p-2 shadow-md">
         <img
           src={poster}
           alt={`${title} Poster`}
@@ -206,7 +206,7 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
                 </div>
             </div> */}
 
-      <div className="mt-2 flex flex-wrap gap-2 p-2">
+      <div className="mt-2 flex flex-wrap justify-center gap-2 p-2">
         {domains.map((domain, idx) => (
           <span
             key={idx}
