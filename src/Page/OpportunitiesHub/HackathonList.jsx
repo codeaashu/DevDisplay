@@ -89,7 +89,8 @@ const StyledHackathonCard = styled.div`
     transform 0.3s,
     box-shadow 0.3s;
   width: 100%;
-  max-width: 300px;
+  max-width: 350px; /* Increased width */
+  margin: 0.5rem; /* Decreased gap */
 
   &:hover {
     transform: scale(1.05);
@@ -131,12 +132,33 @@ const StyledHackathonCard = styled.div`
       right: 0;
     }
   }
+
+  .status-user {
+    width: 6px;
+    height: 6px;
+    margin-right: 4px;
+    border-radius: 50%;
+    outline: solid 2px var(--bg-color, #fff);
+    background-color: var(--online-status, #00a6fb);
+    transition: var(--btn-transition, 0.3s);
+    animation: active-status 2s ease-in-out infinite;
+  }
+
+  @keyframes active-status {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
 `;
 
 const HackathonCardComponent = ({ organizer, title, location, date, domains, applyLink, poster }) => {
   return (
     <StyledHackathonCard>
-      {/* <div className="dot"></div> */}
+      <div className="dot"></div>
       <div className="flex items-center justify-between p-2">
         <span className="text-sm font-semibold text-white">
           <FontAwesomeIcon icon={faFlag} className="mr-1 text-[#00a6fb]" /> {organizer}
@@ -145,8 +167,9 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
           href={applyLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-full bg-gray-200 px-2 py-1 text-xs hover:bg-gray-300"
+          className="bg-gray-1000 hover:bg-gray-1000 relative flex items-center rounded-full border border-[#00a6fb] px-2 py-1 text-xs text-gray-300"
         >
+          <div className="status-user" style={{ marginRight: '8px' }} />
           Apply Now
         </a>
       </div>
@@ -187,7 +210,7 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
         {domains.map((domain, idx) => (
           <span
             key={idx}
-            className="bg-gray-1000  rounded-full border border-[#00a6fb]  px-2 py-1 text-xs text-gray-300"
+            className="bg-gray-1000 rounded-full border border-[#00a6fb]  px-2 py-1 text-xs text-gray-300"
           >
             {domain}
           </span>
@@ -197,13 +220,28 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
   );
 };
 
+const HackathonListContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem; /* Decreased gap */
+  padding: 1rem;
+
+  @media (min-width: 768px) {
+    justify-content: space-around;
+  }
+
+  @media (min-width: 1024px) {
+    justify-content: center;
+  }
+`;
 const HackathonList = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-6">
+    <HackathonListContainer>
       {hackathons.map((hackathon, idx) => (
         <HackathonCardComponent key={idx} {...hackathon} />
       ))}
-    </div>
+    </HackathonListContainer>
   );
 };
 
