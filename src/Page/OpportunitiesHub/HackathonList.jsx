@@ -20,24 +20,24 @@ const shareContent = (url) => {
 
 const hackathons = [
   {
-    organizer: 'Google',
-    title: 'Code With Google',
+    organizer: 'NAMESPACE Community',
+    title: 'HACKHAZARDS 25',
     location: 'Online',
-    date: '12 April',
-    domains: ['Blockchain', 'Web', 'Mobile'],
-    applyLink: '#',
-    poster: '/assets/FeaturedIn/ieeeIGDTUW.jpg',
-    shareLink: '#code-with-google',
+    date: 'Apr 11 - 20',
+    domains: ['Open Innovation', 'No Restrictions'],
+    applyLink: 'https://hackhazards25.devfolio.co/?ref=37575e18b3',
+    poster: '/assets/Hackathons/HACKHAZARDS 25.webp',
+    shareLink: '#HACKHAZARDS-25',
   },
   {
-    organizer: 'HackClub',
-    title: 'Technovate 2025',
-    location: 'Delhi, India',
-    date: '30 May',
-    domains: ['Gaming', 'Mobile'],
+    organizer: 'Code Rangers X Geek Room',
+    title: 'Code Nakshatra',
+    location: 'Greater Noida, India',
+    date: 'Apr 3 - 4',
+    domains: ['Open Innovation', 'No Restrictions'],
     applyLink: '#',
-    poster: '/assets/FeaturedIn/ieeeIGDTUW.jpg',
-    shareLink: '#technovate-2025',
+    poster: '/assets/Hackathons/Code Nakshatra.webp',
+    shareLink: '#Code-Nakshatra',
   },
   {
     organizer: 'Oracle',
@@ -197,7 +197,7 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
         </a>
       </div>
 
-      <div className="h-60 w-full overflow-hidden rounded-xl p-2 shadow-md">
+      <div className="h-50 w-full overflow-hidden rounded-xl p-2 shadow-md">
         <img
           src={poster}
           alt={`${title} Poster`}
