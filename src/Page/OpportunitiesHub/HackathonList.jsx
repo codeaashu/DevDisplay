@@ -18,6 +18,8 @@ const shareContent = (url) => {
   }
 };
 
+// List of Global hackathons
+
 const hackathons = [
   {
     organizer: 'NAMESPACE Community',
