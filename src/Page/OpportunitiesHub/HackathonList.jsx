@@ -229,6 +229,16 @@ const hackathons = [
     poster: '/assets/Hackathons/NMIT HACKS 2025.jpg',
     shareLink: '#nmit-hacks-2025',
   },
+  {
+    organizer: 'Hack With Gujarat',
+    title: 'Hack With Gujarat',
+    location: 'Online',
+    date: 'May 26 - 29',
+    domains: ['Open Innovation', 'No Restrictions'],
+    applyLink: 'https://hack-with-gujarat.devfolio.co/?ref=37575e18b3',
+    poster: '/assets/Hackathons/Hack With Gujarat.jpg',
+    shareLink: '#hack-with-gujarat',
+  },
   // ... Add others similarly
 ];
 
