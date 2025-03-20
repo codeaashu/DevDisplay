@@ -131,6 +131,16 @@ const hackathons = [
     shareLink: '#hacknovate-6-0',
   },
   {
+    organizer: 'IIIT Jabalpur',
+    title: 'HackByte 3.0',
+    location: 'Jabalpur, India',
+    date: 'Apr 4 - 6',
+    domains: ['Open Innovation', 'No Restrictions'],
+    applyLink: 'https://hackbyte3.devfolio.co/',
+    poster: '/assets/Hackathons/HackByte 3.0.jpg',
+    shareLink: '#hackbyte-3-0',
+  },
+  {
     organizer: 'GDGoC - NIT Jalandhar',
     title: 'HackMOL 6.0',
     location: 'Jalandhar, India',
@@ -199,6 +209,16 @@ const hackathons = [
     applyLink: 'https://dorahacks.io/hackathon/cardano-blockchain-hackathon2025/',
     poster: '/assets/Hackathons/Cardano Blockchain Hackathon 2025.png',
     shareLink: '#cardano-blockchain-hackathon-2025',
+  },
+  {
+    organizer: 'NITTE MIT',
+    title: 'NMIT HACKS 2025',
+    location: 'Bengaluru, India',
+    date: 'May 16 - 18',
+    domains: ['AI/ML', 'Blockchain', 'IOT', 'Game Development', 'Open Innovation'],
+    applyLink: 'https://nmithacks25.devfolio.co/',
+    poster: '/assets/Hackathons/NMIT HACKS 2025.jpg',
+    shareLink: '#nmit-hacks-2025',
   },
   // ... Add others similarly
 ];
