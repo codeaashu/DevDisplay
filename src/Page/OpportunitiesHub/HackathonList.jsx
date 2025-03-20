@@ -141,6 +141,16 @@ const hackathons = [
     shareLink: '#hackbyte-3-0',
   },
   {
+    organizer: 'Bennett University',
+    title: 'Hackaccino',
+    location: 'Bennett University, Greater Noida',
+    date: 'Apr 5 - 6',
+    domains: ['AI/ML', 'Cloud Computing', 'AR/VR', 'Web3/Blockchain', 'Open Innovation'],
+    applyLink: 'https://www.hackquest.io/hackathons/Hackaccino',
+    poster: '/assets/Hackathons/Hackaccino.jpg',
+    shareLink: '#hackaccino',
+  },
+  {
     organizer: 'GDGoC - NIT Jalandhar',
     title: 'HackMOL 6.0',
     location: 'Jalandhar, India',
