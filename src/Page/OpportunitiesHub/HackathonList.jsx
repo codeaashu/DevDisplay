@@ -190,14 +190,23 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
           href={applyLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gray-1000 hover:bg-gray-1000 relative flex items-center rounded-full border border-[#00a6fb] px-2 py-1 text-xs text-gray-300"
+          className="bg-gray-1000 hover:bg-gray-1000 text-semibold relative flex items-center rounded-full border border-[#00a6fb] px-2 py-1 text-gray-300"
         >
           <div className="status-user" style={{ marginRight: '8px' }} />
           Apply Now
         </a>
       </div>
 
-      <div className="h-50 w-full overflow-hidden rounded-xl p-2 shadow-md">
+      <div className="h-50 relative w-full overflow-hidden rounded-xl p-2 shadow-md">
+        <div className="absolute bottom-3 right-3 z-10">
+          <button
+            onClick={() => shareContent(window.location.href.split('#')[0] + shareLink)}
+            className="bg-gray-1000 hover:bg-slate-1000 flex items-center justify-center gap-2 rounded-xl border border-[#00a6fb] bg-opacity-50 px-2 py-1 text-xs text-white backdrop-blur-md transition-colors"
+          >
+            <FontAwesomeIcon icon={faShareAlt} />
+            Share
+          </button>
+        </div>
         <img
           src={poster}
           alt={`${title} Poster`}
@@ -230,16 +239,6 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
           </span>
         ))}
       </div>
-
-      <div className="mt-2 flex justify-center gap-2 p-2">
-        <button
-          onClick={() => shareContent(window.location.href.split('#')[0] + shareLink)}
-          className="flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-2 font-semibold text-white transition-colors hover:bg-slate-800"
-        >
-          <FontAwesomeIcon icon={faShareAlt} />
-          Share
-        </button>
-      </div>
     </StyledHackathonCard>
   );
 };
@@ -259,6 +258,19 @@ const HackathonListContainer = styled.div`
     justify-content: center;
   }
 `;
+
+<style>
+  {`
+          @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+          @font-face {
+            font-family: "MerriweatherSans-SemiBold";
+            src: url('/fonts/MerriweatherSans-SemiBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+          }
+                    `}
+</style>;
 
 const HackathonList = () => {
   return (
