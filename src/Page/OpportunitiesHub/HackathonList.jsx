@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFlag, faMapMarkerAlt, faCalendarAlt, faShareAlt } from '@fortawesome/free-solid-svg-icons';
@@ -245,6 +245,19 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
   );
 };
 
+<style>
+  {`
+          @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+          @font-face {
+            font-family: "MerriweatherSans-SemiBold";
+            src: url('/fonts/MerriweatherSans-SemiBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+          }
+                    `}
+</style>;
+
 const HackathonListContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -261,26 +274,99 @@ const HackathonListContainer = styled.div`
   }
 `;
 
-<style>
-  {`
-          @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+const FilterContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
 
-          @font-face {
-            font-family: "MerriweatherSans-SemiBold";
-            src: url('/fonts/MerriweatherSans-SemiBold.ttf') format('truetype');
-            font-weight: normal;
-            font-style: normal;
-          }
-                    `}
-</style>;
+  input,
+  select {
+    padding: 0.75rem 1rem; /* Adjusted padding */
+    border: 1px solid #00a6fb;
+    border-radius: 9999px; /* fully rounded */
+    background: rgba(15, 27, 53, 0.9);
+    color: #ffffff;
+    font-size: 1rem;
+    min-width: 220px;
+    transition: all 0.3s ease-in-out;
+
+    &::placeholder {
+      color: #a0aec0;
+    }
+
+    &:hover {
+      background: rgba(25, 37, 67, 0.95);
+      border-color: #14c8ff;
+      transform: scale(1.02);
+    }
+
+    &:focus {
+      outline: none;
+      border-color: #14c8ff;
+      box-shadow: 0 0 0 2px rgba(20, 200, 255, 0.4);
+    }
+  }
+`;
 
 const HackathonList = () => {
+  const [locationFilter, setLocationFilter] = useState('');
+  const [monthFilter, setMonthFilter] = useState('');
+  const [domainFilter, setDomainFilter] = useState('');
+
+  const filteredHackathons = hackathons.filter((hackathon) => {
+    const matchesLocation = locationFilter
+      ? hackathon.location.toLowerCase().includes(locationFilter.toLowerCase())
+      : true;
+    const matchesMonth = monthFilter
+      ? new Date(hackathon.date.split(' - ')[0]).getMonth() + 1 === parseInt(monthFilter)
+      : true;
+    const matchesDomain = domainFilter
+      ? hackathon.domains.some((domain) => domain.toLowerCase().includes(domainFilter.toLowerCase()))
+      : true;
+    return matchesLocation && matchesMonth && matchesDomain;
+  });
+
   return (
-    <HackathonListContainer>
-      {hackathons.map((hackathon, idx) => (
-        <HackathonCardComponent key={idx} {...hackathon} />
-      ))}
-    </HackathonListContainer>
+    <>
+      <FilterContainer>
+        <input
+          type="text"
+          placeholder="Search by location"
+          value={locationFilter}
+          onChange={(e) => setLocationFilter(e.target.value)}
+        />
+        <select value={monthFilter} onChange={(e) => setMonthFilter(e.target.value)}>
+          <option value="">Select month</option>
+          <option value="1">January</option>
+          <option value="2">February</option>
+          <option value="3">March</option>
+          <option value="4">April</option>
+          <option value="5">May</option>
+          <option value="6">June</option>
+          <option value="7">July</option>
+          <option value="8">August</option>
+          <option value="9">September</option>
+          <option value="10">October</option>
+          <option value="11">November</option>
+          <option value="12">December</option>
+        </select>
+        <input
+          type="text"
+          placeholder="Search by domain"
+          value={domainFilter}
+          onChange={(e) => setDomainFilter(e.target.value)}
+        />
+      </FilterContainer>
+      <HackathonListContainer>
+        {filteredHackathons.map((hackathon, idx) => (
+          <HackathonCardComponent key={idx} {...hackathon} />
+        ))}
+      </HackathonListContainer>
+    </>
   );
 };
 
