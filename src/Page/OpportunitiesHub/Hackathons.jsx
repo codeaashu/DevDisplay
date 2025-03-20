@@ -203,7 +203,6 @@ const Tags = () => {
     'Beginner Friendly Hackathons',
     'Themed Hackathons',
     '24-Hour Hackathons',
-    '48-Hour Hackathons',
     'Startup Hackathons',
     'AI/ML Hackathons',
     'Web Development Hackathons',
@@ -211,11 +210,17 @@ const Tags = () => {
     'Women-Only Hackathons',
     'Student Competitions',
     'Coding Competitions',
+    '36-Hour Hackathons',
     'Global Coding Challenges',
     'Team-Based Competitions',
     'Solo Coding Challenges',
+    '48-Hour Hackathons',
     'Competitive Programming Contests',
-    'Hackathon Leaderboards',
+    'Blockchain Hackathons',
+    'Cybersecurity Hackathons',
+    'Web3 Hackathons',
+    'IOT Hackathons',
+    '72-Hour Hackathons',
   ];
 
   return (
