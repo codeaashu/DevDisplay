@@ -22,16 +22,6 @@ const shareContent = (url) => {
 
 const hackathons = [
   {
-    organizer: 'Sui Foundation',
-    title: 'Sui Overflow 2025',
-    location: 'Online',
-    date: 'Feb 12 - May 11',
-    domains: ['Web3', 'Blockchain'],
-    applyLink: 'https://overflowportal.sui.io/',
-    poster: '/assets/Hackathons/Sui Overflow 2025.jpg',
-    shareLink: '#sui-overflow-2025',
-  },
-  {
     organizer: 'Hack4Bihar',
     title: 'Hack4Bihar - Lucknow Hacking Tour',
     location: 'Lucknow, UP, India',
@@ -218,6 +208,16 @@ const hackathons = [
     applyLink: 'https://dorahacks.io/hackathon/cardano-blockchain-hackathon2025/',
     poster: '/assets/Hackathons/Cardano Blockchain Hackathon 2025.png',
     shareLink: '#cardano-blockchain-hackathon-2025',
+  },
+  {
+    organizer: 'Sui Foundation',
+    title: 'Sui Overflow 2025',
+    location: 'Online',
+    date: 'May 11',
+    domains: ['Web3', 'Blockchain'],
+    applyLink: 'https://overflowportal.sui.io/',
+    poster: '/assets/Hackathons/Sui Overflow 2025.jpg',
+    shareLink: '#sui-overflow-2025',
   },
   {
     organizer: 'NITTE MIT',
