@@ -204,7 +204,7 @@ const hackathons = [
     organizer: 'Blockchain Pioneer Club',
     title: 'Cardano Blockchain Hackathon 2025',
     location: 'Hanoi, Hà Nội, Vietnam',
-    date: 'May 06',
+    date: 'May 6',
     domains: ['web3', 'Blockchain', 'aiken', 'plutus', 'vietnam', 'Cardano'],
     applyLink: 'https://dorahacks.io/hackathon/cardano-blockchain-hackathon2025/',
     poster: '/assets/Hackathons/Cardano Blockchain Hackathon 2025.png',
