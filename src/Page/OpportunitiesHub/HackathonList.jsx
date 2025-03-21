@@ -97,7 +97,7 @@ const hackathons = [
     domains: ['Open Innovation', 'No Restrictions'],
     applyLink: 'https://code-nakshatra.devfolio.co/?ref=37575e18b3',
     poster: '/assets/Hackathons/Code Nakshatra.jpg',
-    shareLink: '#Code-Nakshatra',
+    shareLink: '#code-nakshatra',
   },
   {
     organizer: 'Chandigarh University',
