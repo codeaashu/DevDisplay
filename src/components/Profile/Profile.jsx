@@ -1,4 +1,3 @@
-// filepath: c:\Users\Ashutosh\OneDrive\Documents\GitHub\DevDisplay\src\components\Profile\Profile.jsx
 import React from 'react';
 import {
   FaEnvelope,
@@ -154,20 +153,8 @@ function Card({ data }) {
           </div>
         </div>
         <div className="flex items-center justify-end md:absolute md:right-0 md:top-0">
-          <a
-            href={data.portfolio}
-            className={`flex w-28 items-center gap-2 ${
-              data.portfolio
-                ? 'text-textSecondary hover:underline'
-                : 'cursor-not-allowed text-textSecondary brightness-50'
-            }`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Connect &#8594;
-          </a>
           <FaShareAlt
-            className="ml-4 cursor-pointer text-xl text-blue-600 duration-300 hover:scale-125"
+            className="mr-4 cursor-pointer text-xl text-blue-600 duration-300 hover:scale-125"
             onClick={(e) => {
               const profileFileName = data.fileName.replace('.json', '');
               const shareUrl = `https://www.devdisplay.org/profile/${profileFileName}`;
@@ -188,6 +175,19 @@ function Card({ data }) {
               }
             }}
           />
+          <a
+            href={data.portfolio}
+            className={`flex w-28 items-center gap-2 ${
+              data.portfolio
+                ? 'text-textSecondary hover:underline'
+                : 'cursor-not-allowed text-textSecondary brightness-50'
+            }`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Connect
+            {/* Connect &#8594; */}
+          </a>
         </div>
       </div>
       <div className="mt-4">
