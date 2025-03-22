@@ -60,16 +60,24 @@ body {
   .App {
     width: 100%;
     overflow-x: hidden;
+    padding-left: 12px; /* Add horizontal padding */
+    padding-right: 12px;
   }
+
   .App > div {
     width: 100%;
     margin-left: 0;
     padding-left: 0;
     padding-right: 0;
   }
+
   .App .w-full {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .profile-card {
+    margin: 12px 0; /* Optional: vertical spacing between cards */
   }
 }
