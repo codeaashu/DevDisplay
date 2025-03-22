@@ -37,7 +37,9 @@ function App() {
     const combineData = async () => {
       setLoadingProfiles(true);
       try {
-        const promises = filenames.map((file) => fetchData(`/data/${file}`));
+        const promises = filenames.map((file, index) =>
+          fetchData(`/data/${file}`).then((data) => ({ ...data, id: index + 1 })),
+        );
         const combinedData = await Promise.all(promises);
         const flattenedData = combinedData.flat();
         setCombinedData(flattenedData);

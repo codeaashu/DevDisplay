@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+// filepath: c:\Users\Ashutosh\OneDrive\Documents\GitHub\DevDisplay\src\App.js
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Homepage from './Homepage';
@@ -45,10 +46,7 @@ import TopGithubRepo from './Page/ResoucesHub/TopGithubRepo.jsx';
 import ContributionsGuide from './Page/ResoucesHub/ContributionsGuide.jsx';
 
 import PageNotFound from './Page/PageNotFound.jsx';
-
-// New imports
-import Profile from './components/Profile/Profile';
-import ProfilesList from './ProfilesList.json'; // Import the profiles list
+import ProfilePage from './components/Profile/ProfilePage';
 
 function App() {
   React.useEffect(() => {
@@ -137,47 +135,11 @@ function App() {
         <Route path="/interview-kits" element={<InterviewPrep />} />
         <Route path="/github" element={<TopGithubRepo />} />
         <Route path="/community" element={<ContributionsGuide />} />
-
-        {/* New Route for Profile Page */}
-        <Route path="/profile/:githubUsername" element={<ProfilePage />} />
-
+        <Route path="/profile/:id" element={<ProfilePage />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
   );
-}
-
-// Implement the function to fetch profile data by GitHub username
-async function getProfileDataByGithubUsername(githubUsername) {
-  // Find the profile JSON file that matches the GitHub username
-  const profileFile = ProfilesList.find((file) => file.includes(githubUsername));
-  if (!profileFile) {
-    return null; // Handle the case where the profile is not found
-  }
-
-  // Fetch the profile data from the JSON file
-  const response = await fetch(`/data/${profileFile}`);
-  const profileData = await response.json();
-  return profileData;
-}
-
-function ProfilePage({ match }) {
-  const { githubUsername } = match.params;
-  const [profileData, setProfileData] = useState(null);
-
-  useEffect(() => {
-    async function fetchData() {
-      const data = await getProfileDataByGithubUsername(githubUsername);
-      setProfileData(data);
-    }
-    fetchData();
-  }, [githubUsername]);
-
-  if (!profileData) {
-    return <div>Loading...</div>;
-  }
-
-  return <Profile data={profileData} />;
 }
 
 export default App;

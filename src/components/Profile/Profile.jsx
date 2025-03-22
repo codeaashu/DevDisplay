@@ -1,3 +1,4 @@
+// filepath: c:\Users\Ashutosh\OneDrive\Documents\GitHub\DevDisplay\src\components\Profile\Profile.jsx
 import React from 'react';
 import {
   FaEnvelope,
@@ -156,15 +157,14 @@ function Card({ data }) {
           <FaShareAlt
             className="cursor-pointer text-xl text-blue-600 duration-300 hover:scale-125"
             onClick={(e) => {
-              const githubUsername = data.social.GitHub.split('/').pop();
-              const shareUrl = `https://www.devdisplay.org/#${githubUsername}`;
+              const shareUrl = `https://www.devdisplay.org/profile/${data.id}`;
               console.log('Share URL:', shareUrl); // Log the share URL
 
               if (navigator.share) {
                 navigator
                   .share({
                     title: 'Check out this profile!',
-                    text: 'Explore this amazing developer profile.',
+                    text: 'Check out my DevDisplay profile!',
                     url: shareUrl,
                   })
                   .then(() => console.log('Successful share'))
