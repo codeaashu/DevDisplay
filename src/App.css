@@ -85,3 +85,21 @@ body {
   height: 600px;
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  .App {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .App > div {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .App .w-full {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
