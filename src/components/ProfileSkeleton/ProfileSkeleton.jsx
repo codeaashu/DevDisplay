@@ -1,42 +1,5 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import {
-  FaGithub,
-  FaTwitter,
-  FaLinkedin,
-  FaInstagram,
-  FaEnvelope,
-  FaDiscord,
-  FaStackOverflow,
-  FaYoutube,
-  FaDev,
-  FaBehance,
-  FaDribbble,
-  FaFigma,
-  FaCoffee,
-  FaProductHunt,
-  FaMedium,
-  FaReddit,
-} from 'react-icons/fa';
-import { SiLeetcode, SiCodeforces, SiHashnode, SiReplit } from 'react-icons/si';
-
-const UnstopIcon = () => (
-  <svg width="24" height="24" viewBox="0 0 225 225" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="112.5" cy="112.5" r="112.5" fill="transparent" />
-    <text
-      x="50%"
-      y="50%"
-      textAnchor="middle"
-      fill="transparent"
-      fontSize="140"
-      fontFamily="Arial, sans-serif"
-      fontWeight="bold"
-      dy=".35em"
-    >
-      un
-    </text>
-  </svg>
-);
 
 const pulse = keyframes`
   0% {
@@ -88,6 +51,37 @@ const ProfileSkeletonWrapper = styled.div`
     background-color: rgb(13, 25, 53);
     border-radius: 0.25rem;
     animation: ${pulse} 1.5s infinite ease-in-out;
+  }
+
+  @media (max-width: 768px) {
+    .skeleton-skill {
+      width: 3rem;
+      height: 1.5rem;
+      font-size: 0.8rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .skeleton-skill {
+      width: 2.5rem;
+      height: 1.2rem;
+      font-size: 0.7rem;
+      margin-right: 0.25rem;
+    }
+    .skeleton-icon {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+  @media (max-width: 480px) {
+    .skeleton-skill {
+      width: 2rem;
+      height: 1rem;
+      font-size: 0.6rem;
+    }
+    .skeleton-line {
+      height: 0.8rem;
+    }
   }
 `;
 
@@ -152,9 +146,9 @@ function ProfileSkeleton() {
   return (
     <ProfileSkeletonWrapper>
       <div className="font-MerriweatherSans-Light mb-[1.5rem] h-auto rounded-[10px] pb-[0rem] pl-[1rem] pr-[1rem] pt-[1rem] shadow-lg">
-        <div className="flex gap-[1rem]">
+        <div className="flex flex-wrap gap-[1rem]">
           <div className="skeleton skeleton-circle h-[6.1rem] w-[6.1rem] flex-shrink-0"></div>
-          <div className="w-[80%] overflow-hidden">
+          <div className="w-[80%] flex-grow overflow-hidden">
             <h3 className="skeleton skeleton-line w-full">
               {skeletonData.name}
               {skeletonData.verified && (
@@ -171,7 +165,7 @@ function ProfileSkeleton() {
               )}
             </h3>
             <p className="skeleton skeleton-line w-full">{skeletonData.location}</p>
-            <div className="flex gap-[1rem] overflow-hidden">
+            <div className="flex flex-wrap gap-[1rem] overflow-hidden">
               {skeletonData.skills &&
                 skeletonData.skills.map((skill, index) => (
                   <div className="skeleton skeleton-skill" key={index}>
@@ -180,13 +174,13 @@ function ProfileSkeleton() {
                 ))}
             </div>
           </div>
-          <div className="w-[10%] justify-end overflow-hidden">
-            <div className="skeleton skeleton-line h-[6rem] w-[4rem]"></div>
+          <div className="w-full justify-end overflow-hidden sm:w-[10%]">
+            <div className="skeleton skeleton-line h-[6rem] w-full sm:w-[4rem]"></div>
           </div>
         </div>
         <div className="mt-[1rem]">
           <div className="skeleton skeleton-line w-full">{skeletonData.bio}</div>
-          <div className="mt-[0.5rem] flex h-[3rem] flex-wrap gap-[1rem]">
+          <div className="mt-[0.5rem] flex h-auto flex-wrap gap-[1rem]">
             {Object.keys(skeletonData.social).map((platform, index) => socialIcons[platform])}
           </div>
         </div>
