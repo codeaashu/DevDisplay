@@ -135,7 +135,7 @@ function App() {
         <Route path="/interview-kits" element={<InterviewPrep />} />
         <Route path="/github" element={<TopGithubRepo />} />
         <Route path="/community" element={<ContributionsGuide />} />
-        <Route path="/profile/:id" element={<ProfilePage />} />
+        <Route path="/profile/:name" element={<ProfilePage />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>

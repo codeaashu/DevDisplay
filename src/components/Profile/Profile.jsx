@@ -157,7 +157,8 @@ function Card({ data }) {
           <FaShareAlt
             className="cursor-pointer text-xl text-blue-600 duration-300 hover:scale-125"
             onClick={(e) => {
-              const shareUrl = `https://www.devdisplay.org/profile/${data.id}`;
+              const profileName = data.name.toLowerCase().replace(/\s+/g, '-');
+              const shareUrl = `https://www.devdisplay.org/profile/${profileName}`;
               console.log('Share URL:', shareUrl); // Log the share URL
 
               if (navigator.share) {

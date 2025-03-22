@@ -5,14 +5,19 @@ import Profile from './Profile';
 import profilesList from '../../ProfilesList.json';
 
 const ProfilePage = () => {
-  const { id } = useParams();
+  const { name } = useParams();
   const [profileData, setProfileData] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchProfileData = async () => {
       try {
-        const profileFile = profilesList[parseInt(id) - 1];
+        const profileFile = profilesList.find((file) => file.replace('.json', '') === name);
+        if (!profileFile) {
+          setProfileData(null);
+          setLoading(false);
+          return;
+        }
         const response = await fetch(`/data/${profileFile}`);
         const data = await response.json();
         setProfileData(data);
@@ -24,7 +29,7 @@ const ProfilePage = () => {
     };
 
     fetchProfileData();
-  }, [id]);
+  }, [name]);
 
   if (loading) {
     return <div>Loading...</div>;
