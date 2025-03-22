@@ -153,9 +153,9 @@ function Card({ data }) {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-end md:absolute md:right-2 md:top-2">
+        <div className="flex items-center justify-end md:absolute md:right-0 md:top-0">
           <FaShareAlt
-            className="cursor-pointer text-xl text-blue-600 duration-300 hover:scale-125"
+            className="mr-4 cursor-pointer text-xl text-blue-600 duration-300 hover:scale-125"
             onClick={(e) => {
               const profileFileName = data.fileName.replace('.json', '');
               const shareUrl = `https://www.devdisplay.org/profile/${profileFileName}`;
@@ -186,7 +186,8 @@ function Card({ data }) {
             target="_blank"
             rel="noreferrer"
           >
-            Connect &#8594;
+            Connect
+            {/* Connect &#8594; */}
           </a>
         </div>
       </div>
