@@ -58,20 +58,35 @@ body {
 
 @media (max-width: 768px) {
   .App {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    overflow-x: visible !important;
+    width: 100vw; /* Ensure exact viewport width */
+    max-width: 100vw;
+    overflow-x: hidden;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 
-  .App > div,
-  .App .w-full {
+  .App > div {
+    width: 100% !important;
+    margin-left: 0 !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+  }
+
+  .App .w-full {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
   .profile-card {
-    margin: 0 !important;
+    margin: 12px 0;
+  }
+
+  /* Ensure no borders or margins causing the thin line */
+  .App,
+  .App > div,
+  .App .w-full {
+    border: none;
+    margin: 0;
   }
 }
