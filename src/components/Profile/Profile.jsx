@@ -17,6 +17,7 @@ import {
   FaMedium,
   FaDiscord,
   FaReddit,
+  FaShareAlt,
 } from 'react-icons/fa';
 import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
 import { SiLeetcode, SiCodeforces, SiHashnode, SiReplit, SiHackerrank } from 'react-icons/si';
@@ -110,16 +111,14 @@ function Card({ data }) {
               ref={cardRef}
             >
               {data.skills &&
-                data.skills.map((skill, index) => {
-                  return (
-                    <div
-                      className=" inline h-auto  cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
-                      key={index}
-                    >
-                      {skill}
-                    </div>
-                  );
-                })}
+                data.skills.map((skill, index) => (
+                  <div
+                    className=" inline h-auto  cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
+                    key={index}
+                  >
+                    {skill}
+                  </div>
+                ))}
             </div>
             <div
               className=" skills-container group-hover:paused mr-2 mt-4 flex h-auto  animate-loop-scroll gap-4 whitespace-nowrap"
@@ -127,16 +126,14 @@ function Card({ data }) {
               ref={cardRef}
             >
               {data.skills &&
-                data.skills.map((skill, index) => {
-                  return (
-                    <div
-                      className=" inline h-auto  cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
-                      key={index}
-                    >
-                      {skill}
-                    </div>
-                  );
-                })}
+                data.skills.map((skill, index) => (
+                  <div
+                    className=" inline h-auto  cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
+                    key={index}
+                  >
+                    {skill}
+                  </div>
+                ))}
             </div>
             <div
               className=" skills-container group-hover:paused mt-4 flex h-auto animate-loop-scroll  gap-4 whitespace-nowrap"
@@ -144,25 +141,49 @@ function Card({ data }) {
               ref={cardRef}
             >
               {data.skills &&
-                data.skills.map((skill, index) => {
-                  return (
-                    <div
-                      className=" inline h-auto  cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
-                      key={index}
-                    >
-                      {skill}
-                    </div>
-                  );
-                })}
+                data.skills.map((skill, index) => (
+                  <div
+                    className=" inline h-auto  cursor-default whitespace-nowrap rounded-md bg-secondaryColor px-2 py-1 text-[9px] text-white sm:text-sm md:h-[30px]"
+                    key={index}
+                  >
+                    {skill}
+                  </div>
+                ))}
             </div>
           </div>
         </div>
-        <div
-          className={` md:absolute md:right-2 md:top-2 ${
-            data.portfolio ? 'ml-auto w-28 hover:underline' : 'ml-auto w-28 cursor-not-allowed brightness-50'
-          }`}
-        >
-          <a href={data.portfolio} className="text-textSecondary" target="_blank" rel="noreferrer">
+        <div className="flex items-center justify-end md:absolute md:right-2 md:top-2">
+          <FaShareAlt
+            className="cursor-pointer text-xl text-blue-600 duration-300 hover:scale-125"
+            onClick={(e) => {
+              const shareUrl = `https://www.devdisplay.org/#${data.social.GitHub.split('/').pop()}`;
+              console.log('Share URL:', shareUrl); // Log the share URL
+
+              if (navigator.share) {
+                navigator
+                  .share({
+                    title: 'Check out this profile!',
+                    text: 'Explore this amazing developer profile.',
+                    url: shareUrl,
+                  })
+                  .then(() => console.log('Successful share'))
+                  .catch((error) => console.log('Error sharing', error));
+              } else {
+                navigator.clipboard.writeText(shareUrl);
+                alert(`URL copied to clipboard: ${shareUrl}`);
+              }
+            }}
+          />
+          <a
+            href={data.portfolio}
+            className={`flex w-28 items-center gap-2 ${
+              data.portfolio
+                ? 'text-textSecondary hover:underline'
+                : 'cursor-not-allowed text-textSecondary brightness-50'
+            }`}
+            target="_blank"
+            rel="noreferrer"
+          >
             Connect &#8594;
           </a>
         </div>
