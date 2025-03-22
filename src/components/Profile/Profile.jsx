@@ -1,6 +1,43 @@
 import React from 'react';
-import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaUserCircle, FaCheckCircle } from 'react-icons/fa';
+import {
+  FaEnvelope,
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+  FaUserCircle,
+  FaCheckCircle,
+  FaStackOverflow,
+  FaYoutube,
+  FaDev,
+  FaBehance,
+  FaDribbble,
+  FaFigma,
+  FaCoffee,
+  FaProductHunt,
+  FaMedium,
+  FaDiscord,
+  FaReddit,
+} from 'react-icons/fa';
 import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
+import { SiLeetcode, SiCodeforces, SiHashnode, SiReplit } from 'react-icons/si';
+
+const UnstopIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 225 225" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="112.5" cy="112.5" r="112.5" fill="#15457B" />
+    <text
+      x="50%"
+      y="50%"
+      textAnchor="middle"
+      fill="#FFFFFF"
+      fontSize="140"
+      fontFamily="Arial, sans-serif"
+      fontWeight="bold"
+      dy=".35em"
+    >
+      un
+    </text>
+  </svg>
+);
 
 function isValidEmail(email) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -154,6 +191,102 @@ function Card({ data }) {
           {data.social?.Instagram && (
             <a href={data.social.Instagram} target="_blank" rel="noreferrer">
               <FaInstagram className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.Discord && (
+            <a href={data.social.Discord} target="_blank" rel="noreferrer">
+              <FaDiscord className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.LeetCode && (
+            <a href={data.social.LeetCode} target="_blank" rel="noreferrer">
+              <SiLeetcode className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.Codeforces && (
+            <a href={data.social.Codeforces} target="_blank" rel="noreferrer">
+              <SiCodeforces className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.StackOverflow && (
+            <a href={data.social.StackOverflow} target="_blank" rel="noreferrer">
+              <FaStackOverflow className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.YouTube && (
+            <a href={data.social.YouTube} target="_blank" rel="noreferrer">
+              <FaYoutube className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.DevTo && (
+            <a href={data.social.DevTo} target="_blank" rel="noreferrer">
+              <FaDev className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.Hashnode && (
+            <a href={data.social.Hashnode} target="_blank" rel="noreferrer">
+              <SiHashnode className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.Behance && (
+            <a href={data.social.Behance} target="_blank" rel="noreferrer">
+              <FaBehance className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.Dribbble && (
+            <a href={data.social.Dribbble} target="_blank" rel="noreferrer">
+              <FaDribbble className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.Figma && (
+            <a href={data.social.Figma} target="_blank" rel="noreferrer">
+              <FaFigma className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.Replit && (
+            <a href={data.social.Replit} target="_blank" rel="noreferrer">
+              <SiReplit className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.BuyMeACoffee && (
+            <a href={data.social.BuyMeACoffee} target="_blank" rel="noreferrer">
+              <FaCoffee className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.ProductHunt && (
+            <a href={data.social.ProductHunt} target="_blank" rel="noreferrer">
+              <FaProductHunt className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.Medium && (
+            <a href={data.social.Medium} target="_blank" rel="noreferrer">
+              <FaMedium className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.Reddit && (
+            <a href={data.social.Reddit} target="_blank" rel="noreferrer">
+              <FaReddit className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.Unstop && (
+            <a href={data.social.Unstop} target="_blank" rel="noreferrer">
+              <UnstopIcon className="text-2xl text-blue-600 duration-300 hover:scale-125" />
             </a>
           )}
 

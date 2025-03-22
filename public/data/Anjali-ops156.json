@@ -1,10 +1,22 @@
 {
   "name": "Anjali Kumari",
-  "location": "Vill Hussainpura,Near Green City,Ludhiana,Punjab",
+  "location": "Vill Hussainpura, Near Green City, Ludhiana, Punjab",
   "bio": "Engineering Student | Full Stack Web Development Enthusiast | Tech Explorer I began my journey in full-stack web development during my first year of studies and will continue my journey with software development in the future, focusing on creating robust applications. ",
   "avatar": "https://github.com/Anjali-ops156.png",
   "portfolio": "https://github.com/Anjali-ops156.png",
-  "skills": ["GITHHUB", "C", "C++","Python","HTML","CSS","Corel Draw","Javascript","Node.js","React.js","MongoDB"],
+  "skills": [
+    "GITHHUB",
+    "C",
+    "C++",
+    "Python",
+    "HTML",
+    "CSS",
+    "Corel Draw",
+    "Javascript",
+    "Node.js",
+    "React.js",
+    "MongoDB"
+  ],
   "social": {
     "GitHub": "https://github.com/Anjali-ops156",
     "Discord": "https://discordapp.com/users/anjalikumari_",
