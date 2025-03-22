@@ -72,7 +72,11 @@ const ProfileSkeletonWrapper = styled.div`
       width: 1.5rem;
       height: 1.5rem;
     }
+    .skeleton-line {
+      height: 0.8rem;
+    }
   }
+
   @media (max-width: 480px) {
     .skeleton-skill {
       width: 2rem;
@@ -80,7 +84,15 @@ const ProfileSkeletonWrapper = styled.div`
       font-size: 0.6rem;
     }
     .skeleton-line {
-      height: 0.8rem;
+      height: 0.6rem;
+    }
+    .skeleton-circle {
+      height: 4rem;
+      width: 4rem;
+    }
+    .skeleton-icon {
+      width: 1.2rem;
+      height: 1.2rem;
     }
   }
 `;
