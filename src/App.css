@@ -5,74 +5,12 @@ body {
   font-family: 'Merriweather Sans', sans-serif;
 }
 
-.App {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--primaryColor);
-}
-
-@media (min-width: 768px) {
-  .App {
-    flex-direction: row;
-  }
-}
+/* existing styles */
 
 @media (max-width: 768px) {
   .App > div {
     margin-left: 0px;
   }
-}
-
-@media (max-width: 767px) {
-  .App {
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-  }
-
-  .w-full {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-}
-
-.w-full {
-  width: 100%;
-  padding-left: 1.25rem;
-  padding-right: 1rem;
-}
-
-.md\:h-screen {
-  height: 100vh;
-}
-
-.md\:w-\[77\%\] {
-  width: 77%;
-}
-
-.md\:overflow-y-scroll {
-  overflow-y: scroll;
-}
-
-.md\:py-7 {
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
-}
-
-.flex {
-  display: flex;
-}
-
-.flex-col {
-  flex-direction: column;
-}
-
-.bg-primaryColor {
-  background-color: var(--primaryColor);
-}
-
-.dark\:bg-secondaryColor {
-  background-color: var(--secondaryColor);
 }
 
 ::-webkit-scrollbar {
