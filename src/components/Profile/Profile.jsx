@@ -19,7 +19,7 @@ import {
   FaReddit,
 } from 'react-icons/fa';
 import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
-import { SiLeetcode, SiCodeforces, SiHashnode, SiReplit } from 'react-icons/si';
+import { SiLeetcode, SiCodeforces, SiHashnode, SiReplit, SiHackerrank } from 'react-icons/si';
 
 const UnstopIcon = () => (
   <svg width="24" height="24" viewBox="0 0 225 225" xmlns="http://www.w3.org/2000/svg">
@@ -287,6 +287,12 @@ function Card({ data }) {
           {data.social?.Unstop && (
             <a href={data.social.Unstop} target="_blank" rel="noreferrer">
               <UnstopIcon className="text-2xl text-blue-600 duration-300 hover:scale-125" />
+            </a>
+          )}
+
+          {data.social?.HackerRank && (
+            <a href={data.social.HackerRank} target="_blank" rel="noreferrer">
+              <SiHackerrank className="text-2xl text-blue-600 duration-300 hover:scale-125" />
             </a>
           )}
 
