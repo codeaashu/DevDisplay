@@ -1,3 +1,4 @@
+// filepath: c:\Users\Ashutosh\OneDrive\Documents\GitHub\DevDisplay\src\components\Profile\Profile.jsx
 import React from 'react';
 import {
   FaEnvelope,
@@ -152,7 +153,7 @@ function Card({ data }) {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-end md:absolute md:right-0 md:top-0">
+        <div className="flex items-center justify-end md:absolute md:right-2 md:top-0">
           <FaShareAlt
             className="mr-4 cursor-pointer text-xl text-blue-600 duration-300 hover:scale-125"
             onClick={(e) => {
