@@ -70,23 +70,17 @@ body {
     margin-left: 0 !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
+    border: none; /* Ensure no border is present */
   }
 
   .App .w-full {
     width: 100% !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
+    border: none; /* Ensure no border is present */
   }
 
   .profile-card {
     margin: 12px 0;
-  }
-
-  /* Ensure no borders or margins causing the thin line */
-  .App,
-  .App > div,
-  .App .w-full {
-    border: none;
-    margin: 0;
   }
 }
