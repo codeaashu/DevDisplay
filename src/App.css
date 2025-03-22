@@ -57,58 +57,21 @@ body {
 } */
 
 @media (max-width: 768px) {
-  * {
-    box-sizing: border-box;
-  }
-
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    background-color: #000; /* Or match your main background */
-  }
-
   .App {
-    width: 100vw;
-    max-width: 100%;
-    overflow-x: hidden;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    overflow-x: visible !important;
   }
 
   .App > div,
   .App .w-full {
-    width: 100% !important;
-    margin-left: 0 !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
   .profile-card {
-    margin: 12px 0;
-  }
-
-  img,
-  svg,
-  canvas,
-  video,
-  iframe {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  /* Specific fix: force no scroll or overflow from sticky/fixed/absolute elements */
-  header,
-  nav,
-  .navbar,
-  .top-bar,
-  .banner {
-    max-width: 100%;
-    overflow-x: hidden;
-    border: none;
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
   }
 }
