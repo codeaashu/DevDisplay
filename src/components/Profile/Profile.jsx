@@ -1,4 +1,3 @@
-// filepath: c:\Users\Ashutosh\OneDrive\Documents\GitHub\DevDisplay\src\components\Profile\Profile.jsx
 import React from 'react';
 import {
   FaEnvelope,

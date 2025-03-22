@@ -1,4 +1,3 @@
-// filepath: c:\Users\Ashutosh\OneDrive\Documents\GitHub\DevDisplay\src\components\Profile\ProfilePage.jsx
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Profile from './Profile';
@@ -32,14 +31,20 @@ const ProfilePage = () => {
   }, [name]);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div className="flex min-h-screen items-center justify-center bg-[#0e1a34] text-white">Loading...</div>;
   }
 
   if (!profileData) {
-    return <div>Profile not found</div>;
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-[#0e1a34] text-white">Profile not found</div>
+    );
   }
 
-  return <Profile data={profileData} />;
+  return (
+    <div className="min-h-screen bg-[#0e1a34] text-white">
+      <Profile data={profileData} />
+    </div>
+  );
 };
 
 export default ProfilePage;
