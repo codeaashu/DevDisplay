@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowLeft } from 'lucide-react';
 import styled from 'styled-components';
 import Marquee from 'react-fast-marquee';
-import HackathonList from './EventsList.jsx';
+import EventsList from './EventsList.jsx';
 
 const Navbar = () => {
   return (
@@ -472,7 +472,7 @@ const TechFestEvents = () => {
       <Hero />
       <Tags />
       <div className="my-4"></div>
-      <HackathonList />
+      <EventsList />
     </div>
   );
 };
