@@ -18,9 +18,9 @@ const shareContent = (url) => {
   }
 };
 
-// List of Global hackathons
+// List of Global Tech Events & Fest
 
-const hackathons = [
+const techevents = [
   {
     organizer: 'Hack4Bihar',
     title: 'Hack4Bihar - Lucknow Hacking Tour',
