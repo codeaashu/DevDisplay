@@ -455,9 +455,9 @@ const HackathonList = () => {
   const [monthFilter, setMonthFilter] = useState('');
   const [domainFilter, setDomainFilter] = useState('');
 
-  const filteredHackathons = hackathons.filter((hackathon) => {
+  const filteredHackathons = techevents.filter((techevents) => {
     const matchesLocation = locationFilter
-      ? hackathon.location.toLowerCase().includes(locationFilter.toLowerCase())
+      ? techevents.location.toLowerCase().includes(locationFilter.toLowerCase())
       : true;
     const matchesMonth = monthFilter
       ? new Date(hackathon.date.split(' - ')[0]).getMonth() + 1 === parseInt(monthFilter)
