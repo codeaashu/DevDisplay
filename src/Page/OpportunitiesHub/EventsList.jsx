@@ -460,10 +460,10 @@ const HackathonList = () => {
       ? techevents.location.toLowerCase().includes(locationFilter.toLowerCase())
       : true;
     const matchesMonth = monthFilter
-      ? new Date(hackathon.date.split(' - ')[0]).getMonth() + 1 === parseInt(monthFilter)
+      ? new Date(techevents.date.split(' - ')[0]).getMonth() + 1 === parseInt(monthFilter)
       : true;
     const matchesDomain = domainFilter
-      ? hackathon.domains.some((domain) => domain.toLowerCase().includes(domainFilter.toLowerCase()))
+      ? techevents.domains.some((domain) => domain.toLowerCase().includes(domainFilter.toLowerCase()))
       : true;
     return matchesLocation && matchesMonth && matchesDomain;
   });
@@ -500,8 +500,8 @@ const HackathonList = () => {
         />
       </FilterContainer>
       <HackathonListContainer>
-        {filteredHackathons.map((hackathon, idx) => (
-          <HackathonCardComponent key={idx} {...hackathon} />
+        {filteredHackathons.map((techevents, idx) => (
+          <HackathonCardComponent key={idx} {...techevents} />
         ))}
       </HackathonListContainer>
     </>
