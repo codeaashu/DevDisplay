@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 w-full bg-gray-800 text-white shadow-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
-        <a href="/Hackathon">
+        <a href="/opportunities">
           <button className="flex items-center gap-2 rounded-full border border-white p-2 hover:bg-gray-700">
             <ArrowLeft className="h-5 w-5" />
             <span className="hidden md:inline">Back</span>
@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="modgp relative inline-block w-full py-3">
             <div className="relative">
               <div className="bg-primary enabled:hover:bg-primary-dark enabled:active:bg-primary-dark enabled:focus:bg-primary-dark px-18 relative inline-flex w-full items-center justify-center rounded-lg py-5 text-6xl font-bold text-white transition-all focus:outline-none enabled:hover:shadow-md disabled:opacity-50">
-                <div className="flex w-full items-center justify-center">Tech-Fest Events</div>
+                <div className="flex w-full items-center justify-center">Tech Events & Fest</div>
               </div>
             </div>
             <div className="pointer-events-none absolute inset-0">
