@@ -160,6 +160,16 @@ const hackathons = [
     shareLink: '#hack-on-hills-6-0',
   },
   {
+    organizer: 'GLA University',
+    title: 'Intrusion X 2025',
+    location: 'GLA University, Mathura',
+    date: 'Apr 11 - 12',
+    domains: ['Cyber Security'],
+    applyLink: 'https://unstop.com/hackathons/24-hour-cybersecurity-hackathon-gla-university-1437657',
+    poster: '/assets/Hackathons/Intrusion X.jpg',
+    shareLink: '#intrusion-x',
+  },
+  {
     organizer: 'NAMESPACE Community',
     title: 'HACKHAZARDS 25',
     location: 'Online',
