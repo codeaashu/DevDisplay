@@ -834,7 +834,7 @@ export const SupportedBy = () => {
         {/* First Marquee */}
         <div className="animate-marquee flex space-x-8">
           {supporters.map((sponsor, index) => (
-            <div key={index} className="flex h-[100px] w-[200px] flex-shrink-0 items-center justify-center">
+            <div key={index} className="flex h-[80px] w-[160px] flex-shrink-0 items-center justify-center">
               <img src={sponsor.logo} alt={sponsor.name} className="h-full w-auto object-contain" />
             </div>
           ))}
@@ -845,7 +845,7 @@ export const SupportedBy = () => {
           {supporters.map((sponsor, index) => (
             <div
               key={index + supporters.length}
-              className="flex h-[100px] w-[200px] flex-shrink-0 items-center justify-center"
+              className="flex h-[80px] w-[160px] flex-shrink-0 items-center justify-center"
             >
               <img src={sponsor.logo} alt={sponsor.name} className="h-full w-auto object-contain" />
             </div>
