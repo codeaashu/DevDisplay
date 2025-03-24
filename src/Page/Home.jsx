@@ -74,21 +74,21 @@ const Hero = () => {
   position: absolute;
   width: 250%;
   height: 250%;
-  background: linear-gradient(90deg, rgba(0, 172, 255, 0.6), rgba(1, 114, 142, 0.9), rgba(0, 172, 255, 0.6));
+  background: linear-gradient(90deg, rgba(75, 0, 196, 0.78), rgba(39, 0, 103, 0.9), rgba(98, 0, 255, 0.81));
   top: -75%;
   left: -75%;
   opacity: 0.5;
-  filter: blur(30px);
+  filter: blur(60px);
   animation: border-glow 4s infinite linear;
+}
+
+.group {
+  animation: border-pulse 1.5s infinite;
 }
 
 .group:hover .animate-border-glow {
   opacity: 0.8;
-  filter: blur(15px);
-}
-
-.group:hover {
-  animation: border-pulse 1.5s infinite;
+  filter: blur(70px);
 }
   `}
         </style>
