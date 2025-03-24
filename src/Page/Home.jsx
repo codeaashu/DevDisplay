@@ -20,16 +20,18 @@ const Hero = () => {
             rel="noreferrer"
             className="custom-font relative z-10 text-white transition-all duration-300 group-hover:text-blue-300"
           >
-            <FontAwesomeIcon icon={faGithub} style={{ marginRight: '8px' }} aria-hidden="true" />
-            Star on GitHub
-            <img
-              src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png"
-              alt="Glowing Star"
-              width="25"
-              height="25"
-              className="mx-1 inline-block align-middle"
-            />
-            231
+            <div style={{ padding: '0 12px' }}>
+              <FontAwesomeIcon icon={faGithub} style={{ marginRight: '10px' }} aria-hidden="true" />
+              Star on GitHub
+              <img
+                src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png"
+                alt="Glowing Star"
+                width="25"
+                height="25"
+                className="mx-1 inline-block align-middle"
+              />
+              231
+            </div>
           </a>
         </p>
         <style>
