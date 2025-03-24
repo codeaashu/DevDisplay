@@ -40,56 +40,56 @@ const Hero = () => {
     font-family: 'Merriweather Sans', sans-serif;
   }
             
-  @keyframes border-glow {
-    0% {
-      transform: rotate(0deg) translateX(-100%);
-      opacity: 0.4;
-    }
-    50% {
-      transform: rotate(180deg) translateX(100%);
-      opacity: 0.3;
-    }
-    100% {
-      transform: rotate(360deg) translateX(-100%);
-      opacity: 0.4;
-    }
+@keyframes border-glow {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0.4;
   }
+  50% {
+    transform: translateX(100%);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0.4;
+  }
+}
 
-  @keyframes border-pulse {
-    0% {
-      border-color: rgba(0, 172, 255, 0.5);
-      box-shadow: 0 0 10px rgba(0, 172, 255, 0.3);
-    }
-    50% {
-      border-color: rgba(0, 172, 255, 0.8);
-      box-shadow: 0 0 20px rgba(0, 172, 255, 0.6);
-    }
-    100% {
-      border-color: rgba(0, 172, 255, 0.5);
-      box-shadow: 0 0 10px rgba(0, 172, 255, 0.3);
-    }
+@keyframes border-pulse {
+  0% {
+    border-color: rgba(0, 172, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 172, 255, 0.3);
   }
+  50% {
+    border-color: rgba(0, 172, 255, 0.8);
+    box-shadow: 0 0 20px rgba(0, 172, 255, 0.6);
+  }
+  100% {
+    border-color: rgba(0, 172, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 172, 255, 0.3);
+  }
+}
 
-  .animate-border-glow {
-    position: absolute;
-    width: 250%;
-    height: 250%;
-    background: linear-gradient(90deg, rgba(0, 172, 255, 0.6), rgba(1, 114, 142, 0.9), rgba(0, 172, 255, 0.6));
-    top: -75%;
-    left: -75%;
-    opacity: 0.5;
-    filter: blur(10px);
-    animation: border-glow 4s infinite linear;
-  }
+.animate-border-glow {
+  position: absolute;
+  width: 250%;
+  height: 250%;
+  background: linear-gradient(90deg, rgba(0, 172, 255, 0.6), rgba(1, 114, 142, 0.9), rgba(0, 172, 255, 0.6));
+  top: -75%;
+  left: -75%;
+  opacity: 0.5;
+  filter: blur(30px);
+  animation: border-glow 4s infinite linear;
+}
 
-  .group:hover .animate-border-glow {
-    opacity: 0.8;
-    filter: blur(15px);
-  }
+.group:hover .animate-border-glow {
+  opacity: 0.8;
+  filter: blur(15px);
+}
 
-  .group:hover {
-    animation: border-pulse 1.5s infinite;
-  }
+.group:hover {
+  animation: border-pulse 1.5s infinite;
+}
   `}
         </style>
         <img src={LOGO} alt="Dev Display" className="my-4 h-auto w-[600PX] text-5xl font-bold" />
