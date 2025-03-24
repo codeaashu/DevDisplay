@@ -100,7 +100,7 @@ const Hero = () => {
         </h3>
         <p className="custom-font mx-auto my-4 max-w-4xl text-xl text-[#00a6fb] md:text-2xl">
           {' '}
-          CONNECT ▸ COLLAB ▸ CODE ▸ CREATE ▸ CONQUER
+          CONNECT - COLLAB - CODE - CREATE - CONQUER
         </p>
       </div>
       <div className="mb-[-80%] mt-2 xs:mb-[-22%] sm:mb-[-15%] md:mb-[-12%] lg:mb-[-10%] xl:mb-[-16%] 2xl:mb-[-14%]">

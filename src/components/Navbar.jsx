@@ -70,7 +70,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="flex flex-col space-y-4 bg-gray-800 px-4 pb-4 md:hidden">
           {/* Profile Icon at the Top */}
-          <a
+          {/* <a
             href="/Profile"
             className={`flex transform items-center gap-2 rounded-full border border-white p-3 transition duration-500 ease-in-out ${
               isOpen ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'
@@ -78,7 +78,7 @@ const Navbar = () => {
           >
             <User className="h-8 w-8 rounded-full border-2 border-white p-1" />
             <span>Profile</span>
-          </a>
+          </a> */}
 
           {/* Menu Items with Transition */}
           <a
