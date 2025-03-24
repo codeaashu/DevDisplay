@@ -238,8 +238,10 @@ const TechFeatures = () => {
   return (
     <section className="tech-features-section mt-[60%] max-w-[80%] px-4 py-16 text-white xs:mt-0">
       <div className="mx-auto my-12 max-w-[80%] text-center ">
-        <h2 className="custom-font my-4 text-4xl font-bold text-[#00a6fb]">Whatever you need as a developer!</h2>
-        <p className="custom-font mx-auto my-8 mb-8 max-w-3xl text-xl">DevDisplay has it all.</p>
+        <h2 className="custom-font my-4 text-4xl font-bold text-[#00a6fb]">Dive into DevDisplay</h2>
+        <p className="custom-font mx-auto my-8 mb-8 max-w-3xl text-xl">
+          Whatever you need as a developer, DevDisplay has it all.
+        </p>
         {/* <h2 className="custom-font my-6 text-4xl font-bold text-[#00a6fb]">Discover The Range of Features</h2>
         <p className="custom-font mx-auto my-12 mb-8 max-w-3xl text-xl">
           Whatever you need as a techy, DevDisplay has it all.
