@@ -28,7 +28,7 @@ const Hero = () => {
                 alt="Glowing Star"
                 width="25"
                 height="25"
-                className="mx-1 inline-block align-middle"
+                className="mx-2 inline-block align-middle"
               />
               231
             </div>
