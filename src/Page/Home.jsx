@@ -83,9 +83,9 @@ const Hero = () => {
   `}
         </style>
         <img src={LOGO} alt="Dev Display" className="my-4 h-auto w-[600PX] text-5xl font-bold" />
-        <h1 className="custom-font my-4 text-4xl tracking-widest md:text-2xl">
+        <h3 className="custom-font my-4 text-2xl tracking-widest md:text-xl">
           One Platform for Global Developers to Fulfill All The Tech Needs!
-        </h1>
+        </h3>
         <p className="custom-font mx-auto my-4 max-w-4xl text-xl text-[#00a6fb] md:text-2xl">
           {' '}
           CONNECT ▸ COLLAB ▸ CODE ▸ CREATE ▸ CONQUER
@@ -236,7 +236,7 @@ const StyledDot = styled.div`
 
 const TechFeatures = () => {
   return (
-    <section className="tech-features-section mt-[60%] max-w-[80%] px-4 py-16 text-white xs:mt-0">
+    <section className="tech-features-section mt-[60%] max-w-[90%] px-4 py-16 text-white xs:mt-0">
       <div className="mx-auto my-12 max-w-[80%] text-center ">
         <h2 className="custom-font my-4 text-4xl font-bold text-[#00a6fb]">Dive into DevDisplay</h2>
         <p className="custom-font mx-auto my-8 mb-8 max-w-3xl text-xl">
