@@ -5,6 +5,8 @@ import Globe from '../components/Globe';
 import { Footer } from '../components/Footer/Footer';
 import LOGO from './WordMark.png';
 import PoweredByDevDisplay from './PoweredByDevDisplay.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Hero = () => {
   return (
@@ -18,10 +20,18 @@ const Hero = () => {
             rel="noreferrer"
             className="custom-font relative z-10 text-white transition-all duration-300 group-hover:text-blue-300"
           >
-            We're Open Source 🌟 Star Now
+            <FontAwesomeIcon icon={faGithub} style={{ marginRight: '8px' }} aria-hidden="true" />
+            Star on GitHub
+            <img
+              src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png"
+              alt="Glowing Star"
+              width="25"
+              height="25"
+              className="mx-1 inline-block align-middle"
+            />
+            231
           </a>
         </p>
-
         <style>
           {`
   @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
