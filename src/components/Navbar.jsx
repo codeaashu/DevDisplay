@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full bg-gray-800 text-white shadow-md">
+    <nav className="w-full bg-gray-900 text-white shadow-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
         {/* Logo */}
         <div className="text-2xl font-bold">
@@ -42,9 +42,9 @@ const Navbar = () => {
           </a>
 
           {/* Profile Icon */}
-          <a href="/Profile" className="flex items-center gap-2">
+          {/* <a href="/Profile" className="flex items-center gap-2">
             <User className="h-10 w-10 rounded-full border-2 border-white p-1" />
-          </a>
+          </a> */}
         </div>
 
         {/* Mobile Menu Toggle */}
