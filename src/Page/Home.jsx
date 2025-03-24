@@ -86,7 +86,7 @@ const Hero = () => {
         <h1 className="custom-font my-4 text-4xl tracking-widest md:text-4xl">
           One Platform for Global Developers to Fulfill All The Tech Needs
         </h1>
-        <p className="custom-font text-md md:text-md mx-auto my-4 max-w-4xl text-[#00a6fb]">
+        <p className="custom-font mx-auto my-4 max-w-4xl text-xl text-[#00a6fb] md:text-2xl">
           {' '}
           CONNECT ▸ COLLAB ▸ CODE ▸ CREATE ▸ CONQUER
         </p>
