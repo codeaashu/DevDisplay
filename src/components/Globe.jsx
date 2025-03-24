@@ -94,6 +94,143 @@ function Globe() {
           { location: [29.7604, -95.3698], size: 0.05 }, // Houston
           { location: [33.4484, -112.074], size: 0.05 }, // Phoenix
           { location: [39.7392, -104.9903], size: 0.05 }, // Denver
+          { location: [9.082, 8.6753], size: 0.05 }, // Nigeria
+          { location: [6.5244, 3.3792], size: 0.05 }, // Lagos, Nigeria
+          { location: [-1.2921, 36.8219], size: 0.05 }, // Nairobi, Kenya
+          { location: [-26.2041, 28.0473], size: 0.05 }, // Johannesburg, South Africa
+          { location: [-33.9249, 18.4241], size: 0.05 }, // Cape Town, South Africa
+          { location: [-1.9579, 30.1127], size: 0.05 }, // Kigali, Rwanda
+          { location: [5.6037, -0.187], size: 0.05 }, // Accra, Ghana
+          { location: [30.0444, 31.2357], size: 0.05 }, // Cairo, Egypt
+          { location: [36.8219, -1.2921], size: 0.05 }, // Nairobi, Kenya
+          { location: [15.5007, 32.5599], size: 0.05 }, // Khartoum, Sudan
+          { location: [14.7167, -17.4677], size: 0.05 }, // Dakar, Senegal
+          { location: [4.0511, 9.7679], size: 0.05 }, // Douala, Cameroon
+          { location: [6.5244, 3.3792], size: 0.05 }, // Lagos, Nigeria
+          { location: [5.556, -0.1969], size: 0.05 }, // Accra, Ghana
+          { location: [9.0578, 7.4951], size: 0.05 }, // Abuja, Nigeria
+          { location: [12.6392, -8.0029], size: 0.05 }, // Bamako, Mali
+          { location: [14.6937, -17.4441], size: 0.05 }, // Dakar, Senegal
+          { location: [3.848, 11.5021], size: 0.05 }, // Yaoundé, Cameroon
+          { location: [4.8156, 7.0498], size: 0.05 }, // Port Harcourt, Nigeria
+          { location: [6.5244, 3.3792], size: 0.05 }, // Lagos, Nigeria
+          { location: [5.6037, -0.187], size: 0.05 }, // Accra, Ghana
+          { location: [9.0578, 7.4951], size: 0.05 }, // Abuja, Nigeria
+          { location: [12.6392, -8.0029], size: 0.05 }, // Bamako, Mali
+          { location: [14.6937, -17.4441], size: 0.05 }, // Dakar, Senegal
+          { location: [3.848, 11.5021], size: 0.05 }, // Yaoundé, Cameroon
+          { location: [4.8156, 7.0498], size: 0.05 }, // Port Harcourt, Nigeria
+          { location: [6.5244, 3.3792], size: 0.05 }, // Lagos, Nigeria
+          { location: [5.6037, -0.187], size: 0.05 }, // Accra, Ghana
+          { location: [9.0578, 7.4951], size: 0.05 }, // Abuja, Nigeria
+          { location: [12.6392, -8.0029], size: 0.05 }, // Bamako, Mali
+          { location: [14.6937, -17.4441], size: 0.05 }, // Dakar, Senegal
+          { location: [3.848, 11.5021], size: 0.05 }, // Yaoundé, Cameroon
+          { location: [4.8156, 7.0498], size: 0.05 }, // Port Harcourt, Nigeria
+          { location: [6.5244, 3.3792], size: 0.05 }, // Lagos, Nigeria
+          { location: [5.6037, -0.187], size: 0.05 }, // Accra, Ghana
+          { location: [9.0578, 7.4951], size: 0.05 }, // Abuja, Nigeria
+          { location: [12.6392, -8.0029], size: 0.05 }, // Bamako, Mali
+          { location: [14.6937, -17.4441], size: 0.05 }, // Dakar, Senegal
+          { location: [3.848, 11.5021], size: 0.05 }, // Yaoundé, Cameroon
+          { location: [4.8156, 7.0498], size: 0.05 }, // Port Harcourt, Nigeria
+          { location: [6.5244, 3.3792], size: 0.05 }, // Lagos, Nigeria
+          { location: [5.6037, -0.187], size: 0.05 }, // Accra, Ghana
+          { location: [9.0578, 7.4951], size: 0.05 }, // Abuja, Nigeria
+          { location: [12.6392, -8.0029], size: 0.05 }, // Bamako, Mali
+          { location: [14.6937, -17.4441], size: 0.05 }, // Dakar, Senegal
+          { location: [3.848, 11.5021], size: 0.05 }, // Yaoundé, Cameroon
+          { location: [4.8156, 7.0498], size: 0.05 }, // Port Harcourt, Nigeria
+          { location: [55.7558, 37.6173], size: 0.05 }, // Moscow, Russia
+          { location: [59.9343, 30.3351], size: 0.05 }, // Saint Petersburg, Russia
+          { location: [56.8389, 60.6057], size: 0.05 }, // Yekaterinburg, Russia
+          { location: [55.0415, 82.9346], size: 0.05 }, // Novosibirsk, Russia
+          { location: [48.7071, 44.5169], size: 0.05 }, // Volgograd, Russia
+          { location: [43.5855, 39.7231], size: 0.05 }, // Sochi, Russia
+          { location: [55.7558, 37.6173], size: 0.05 }, // Moscow, Russia
+          { location: [59.9343, 30.3351], size: 0.05 }, // Saint Petersburg, Russia
+          { location: [56.8389, 60.6057], size: 0.05 }, // Yekaterinburg, Russia
+          { location: [55.0415, 82.9346], size: 0.05 }, // Novosibirsk, Russia
+          { location: [48.7071, 44.5169], size: 0.05 }, // Volgograd, Russia
+          { location: [43.5855, 39.7231], size: 0.05 }, // Sochi, Russia
+          { location: [55.7558, 37.6173], size: 0.05 }, // Moscow, Russia
+          { location: [59.9343, 30.3351], size: 0.05 }, // Saint Petersburg, Russia
+          { location: [56.8389, 60.6057], size: 0.05 }, // Yekaterinburg, Russia
+          { location: [55.0415, 82.9346], size: 0.05 }, // Novosibirsk, Russia
+          { location: [48.7071, 44.5169], size: 0.05 }, // Volgograd, Russia
+          { location: [43.5855, 39.7231], size: 0.05 }, // Sochi, Russia
+          { location: [55.7558, 37.6173], size: 0.05 }, // Moscow, Russia
+          { location: [59.9343, 30.3351], size: 0.05 }, // Saint Petersburg, Russia
+          { location: [56.8389, 60.6057], size: 0.05 }, // Yekaterinburg, Russia
+          { location: [55.0415, 82.9346], size: 0.05 }, // Novosibirsk, Russia
+          { location: [48.7071, 44.5169], size: 0.05 }, // Volgograd, Russia
+          { location: [43.5855, 39.7231], size: 0.05 }, // Sochi, Russia
+          { location: [55.7558, 37.6173], size: 0.05 }, // Moscow, Russia
+          { location: [59.9343, 30.3351], size: 0.05 }, // Saint Petersburg, Russia
+          { location: [56.8389, 60.6057], size: 0.05 }, // Yekaterinburg, Russia
+          { location: [55.0415, 82.9346], size: 0.05 }, // Novosibirsk, Russia
+          { location: [48.7071, 44.5169], size: 0.05 }, // Volgograd, Russia
+          { location: [43.5855, 39.7231], size: 0.05 }, // Sochi, Russia
+          { location: [55.7558, 37.6173], size: 0.05 }, // Moscow, Russia
+          { location: [59.9343, 30.3351], size: 0.05 }, // Saint Petersburg, Russia
+          { location: [56.8389, 60.6057], size: 0.05 }, // Yekaterinburg, Russia
+          { location: [55.0415, 82.9346], size: 0.05 }, // Novosibirsk, Russia
+          { location: [48.7071, 44.5169], size: 0.05 }, // Volgograd, Russia
+          { location: [43.5855, 39.7231], size: 0.05 }, // Sochi, Russia
+          { location: [55.7558, 37.6173], size: 0.05 }, // Moscow, Russia
+          { location: [59.9343, 30.3351], size: 0.05 }, // Saint Petersburg, Russia
+          { location: [56.8389, 60.6057], size: 0.05 }, // Yekaterinburg, Russia
+          { location: [55.0415, 82.9346], size: 0.05 }, // Novosibirsk, Russia
+          { location: [48.7071, 44.5169], size: 0.05 }, // Volgograd, Russia
+          { location: [43.5855, 39.7231], size: 0.05 }, // Sochi, Russia
+          { location: [55.7558, 37.6173], size: 0.05 }, // Moscow, Russia
+          { location: [59.9343, 30.3351], size: 0.05 }, // Saint Petersburg, Russia
+          { location: [56.8389, 60.6057], size: 0.05 }, // Yekaterinburg, Russia
+          { location: [55.0415, 82.9346], size: 0.05 }, // Novosibirsk, Russia
+          { location: [48.7071, 44.5169], size: 0.05 }, // Volgograd, Russia
+          { location: [43.5855, 39.7231], size: 0.05 }, // Sochi, Russia
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
+          { location: [39.9042, 116.4074], size: 0.05 }, // Beijing, China
+          { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai, China
         ],
         onRender: (state) => {
           state.phi = phi;
