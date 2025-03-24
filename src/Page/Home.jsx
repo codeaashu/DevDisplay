@@ -84,7 +84,7 @@ const Hero = () => {
         </style>
         <img src={LOGO} alt="Dev Display" className="my-4 h-auto w-[600PX] text-5xl font-bold" />
         <h1 className="custom-font my-4 text-4xl tracking-widest md:text-2xl">
-          One Platform for Global Developers to Fulfill All The Tech Needs
+          One Platform for Global Developers to Fulfill All The Tech Needs!
         </h1>
         <p className="custom-font mx-auto my-4 max-w-4xl text-xl text-[#00a6fb] md:text-2xl">
           {' '}
