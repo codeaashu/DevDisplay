@@ -34,7 +34,10 @@ export const Badges = () => {
       {/* Cards Section with Larger GIFs */}
       <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
         {serviceList.map(({ imageUrl, title, description }) => (
-          <div key={title} className="flex items-center justify-between rounded-lg bg-[#0D1B2A] p-6 shadow-lg">
+          <div
+            key={title}
+            className="to-[rgba(0, 43, 62, 0.6)] group relative block flex h-full items-center justify-between rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 p-6 shadow-lg shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
             <div className="flex flex-col gap-2">
               <h3 className="text-lg text-blue-400">{title}</h3>
               <p className="text-sm text-gray-300">{description}</p>
