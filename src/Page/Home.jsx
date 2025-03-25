@@ -636,7 +636,7 @@ const CardSection = () => {
                 helps us improve and make DevDisplay even better. Here, your ideas matter, your feedback matters, your
                 code matters—you matter.
               </p>
-              <div className="flex gap-4">
+              <div className="flex gap-12">
                 <StyledButton onClick={() => window.open('#', '_blank')}>
                   <div className="blob1" />
                   <div className="inner">✨ Suggest new idea!</div>
