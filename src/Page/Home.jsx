@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Globe from '../components/Globe';
 import { Footer } from '../components/Footer/Footer';
 import LOGO from './WordMark.png';
-import PoweredByDevDisplay from './PoweredByDevDisplay.png';
+// import PoweredByDevDisplay from './PoweredByDevDisplay.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import Marquee from 'react-fast-marquee';
@@ -327,7 +327,7 @@ const TechFeatures = () => {
           </a>
         </StyledDot>
 
-        <StyledDot>
+        {/* <StyledDot>
           <a
             href="/Discussions"
             className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
@@ -345,9 +345,9 @@ const TechFeatures = () => {
             </div>
             <div className="dot" />
           </a>
-        </StyledDot>
+        </StyledDot> */}
 
-        <StyledDot>
+        {/* <StyledDot>
           <a
             href="/IdeaSubmission"
             className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
@@ -365,7 +365,7 @@ const TechFeatures = () => {
             </div>
             <div className="dot" />
           </a>
-        </StyledDot>
+        </StyledDot> */}
 
         <StyledDot>
           <a
@@ -387,7 +387,7 @@ const TechFeatures = () => {
           </a>
         </StyledDot>
 
-        <StyledDot>
+        {/* <StyledDot>
           <a
             href="/PortfolioBuilder"
             className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
@@ -405,7 +405,7 @@ const TechFeatures = () => {
             </div>
             <div className="dot" />
           </a>
-        </StyledDot>
+        </StyledDot> */}
 
         <StyledDot>
           <a
@@ -447,7 +447,7 @@ const TechFeatures = () => {
           </a>
         </StyledDot>
 
-        <StyledDot>
+        {/* <StyledDot>
           <a
             href="/journeys"
             className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
@@ -467,7 +467,7 @@ const TechFeatures = () => {
             </div>
             <div className="dot" />
           </a>
-        </StyledDot>
+        </StyledDot> */}
 
         <StyledDot>
           <a
@@ -512,14 +512,14 @@ const TechFeatures = () => {
           </a>
         </StyledDot>
       </div>
-      <div style={{ margin: '100px 0' }}></div>
+      {/* <div style={{ margin: '100px 0' }}></div> */}
       {/*Powered By DevDisplay */}
-      <div className="my-8 flex justify-center">
+      {/* <div className="my-8 flex justify-center">
         <img src={PoweredByDevDisplay} alt="Dev Display" className="h-auto w-[600px] text-5xl font-bold" />
-      </div>
+      </div> */}
 
       {/* Tech Projects Powered by DevDisplay */}
-      <div className="my-8 grid grid-cols-1 gap-6 text-center md:grid-cols-2 lg:grid-cols-4">
+      {/* <div className="my-8 grid grid-cols-1 gap-6 text-center md:grid-cols-2 lg:grid-cols-4">
         <StyledDot>
           <a
             href="https://github-legacy.vercel.app/"
@@ -612,8 +612,83 @@ const TechFeatures = () => {
             <div className="dot" />
           </a>
         </StyledDot>
-      </div>
+      </div> */}
       {/*Adding New Features */}
+    </section>
+  );
+};
+
+const Tags = () => {
+  const tags = [
+    'Hybrid Jobs',
+    'Onsite Jobs',
+    'Remote Jobs',
+    'Internships',
+    'Freelancing',
+    'Offline Hackathons',
+    'Online Hackathons',
+    'Competitions',
+    'Tech Events',
+    'Tech Fest',
+    'Bootcamps',
+    'Certifications',
+    'Skill Development',
+    'OpenSource Program',
+    'Coding Challenges',
+    'Mentorship Programs',
+    'Workshops',
+    'Networking Events',
+    'Scholarships',
+    'Startup Incubators',
+  ];
+
+  return (
+    <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
+      <h1 className="text-md text-primary mb-8 text-center font-bold text-[#00a6fb] lg:text-2xl">
+        Unlock All Tech Opportunities in One Place
+      </h1>
+      {/* <h2 className="text-md text-primary mb-8 text-center text-[#00a6fb] font-bold lg:text-2xl">One Platform, Endless Tech Opportunities</h2> */}
+
+      {/* Right to Left Scrolling */}
+      <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} className="w-full">
+        <div className="flex w-full flex-nowrap items-center">
+          {[...tags, ...tags, ...tags].map((text, index) => (
+            <span key={index} className="tag-item mr-6">
+              {text}
+            </span>
+          ))}
+        </div>
+      </Marquee>
+
+      <div className="my-4"></div>
+
+      {/* Left to Right Scrolling */}
+      <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} direction="right" className="w-full">
+        <div className="flex w-full flex-nowrap items-center">
+          {[...tags, ...tags, ...tags].map((text, index) => (
+            <span key={index} className="tag-item mr-6">
+              {text}
+            </span>
+          ))}
+        </div>
+      </Marquee>
+
+      <style jsx>{`
+        .tag-item {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          white-space: nowrap;
+          padding: 0.5rem 1.5rem;
+          border-radius: 9999px;
+          border: 1px solid #00a6fb;
+          background-color: rgba(1, 11, 31, 0.58);
+          color: #e2e8f0;
+          font-size: 0.915rem;
+          text-align: center;
+          min-width: max-content;
+        }
+      `}</style>
     </section>
   );
 };
@@ -888,7 +963,9 @@ const Home = () => {
       <Navbar />
       <Hero />
       <TechFeatures />
-      <div style={{ margin: '40px 0' }}></div>
+      <div style={{ margin: '30px 0' }}></div>
+      <Tags />
+      <div style={{ margin: '30px 0' }}></div>
       <CardSection />
       <div style={{ margin: '30px 0' }}></div>
       <Badges />
