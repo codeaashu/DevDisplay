@@ -628,16 +628,24 @@ const CardSection = () => {
               <div className="h3">
                 We believe<span> innovation </span>is limitless...✦
               </div>
-              <p className="p">
-                Suggest new features you'd love to see on DevDisplay. As a techy, As a developer, you're encouraged to
-                think beyond and add new, innovative features that can make a difference in the tech ecosystem. Think
-                outside the box and introduce features that can be revolutionary for tech enthusiasts worldwide. If you
-                spot a gap in the tech world, DevDisplay can be the solution.
+              <p className="p" style={{ fontSize: '1rem', lineHeight: '1.5rem' }}>
+                Suggest new features you'd love to see on DevDisplay! As a tech enthusiast and developer, you're
+                encouraged to think beyond—think outside the box. Suggest and add new, innovative features that could
+                revolutionize the tech world and make a difference in the tech ecosystem. If you spot a gap in the tech
+                industry, DevDisplay can be the solution. You can also give us brutal and honest feedback—Roast Us! It
+                helps us improve and make DevDisplay even better. Here, your ideas matter, your feedback matters, your
+                code matters—you matter.
               </p>
-              <StyledButton onClick={() => window.open('#', '_blank')}>
-                <div className="blob1" />
-                <div className="inner">Suggest a new feature idea!</div>
-              </StyledButton>
+              <div className="flex gap-4">
+                <StyledButton onClick={() => window.open('#', '_blank')}>
+                  <div className="blob1" />
+                  <div className="inner">✨ Suggest new idea!</div>
+                </StyledButton>
+                <StyledButton onClick={() => window.open('#', '_blank')}>
+                  <div className="blob1" />
+                  <div className="inner">💀 Roast DevDisplay!</div>
+                </StyledButton>
+              </div>
               <StyledDotSlow>
                 <div className="dot" />
               </StyledDotSlow>
