@@ -7,6 +7,8 @@ import LOGO from './WordMark.png';
 import PoweredByDevDisplay from './PoweredByDevDisplay.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import Marquee from 'react-fast-marquee';
+// Removed duplicate import to avoid redeclaration of SupportersComponent
 
 const Hero = () => {
   return (
@@ -830,46 +832,43 @@ const StyledDotSlow = styled.div`
   }
 `;
 
-const supporters = [
-  { name: 'Digital Ocean', logo: '/assets/SupportedBy/DigitalOcean.png' },
-  { name: 'Git Book', logo: '/assets/SupportedBy/GitBookLight_1.png' },
-  { name: 'Melt CD', logo: '/assets/SupportedBy/meltcd.png' },
-  { name: 'Microsoft for Startups', logo: '/assets/SupportedBy/MicrosoftForStartups.png' },
-  { name: 'MSME', logo: '/assets/SupportedBy/MSME.png' },
-  { name: 'Notion', logo: '/assets/SupportedBy/Notion.png' },
-  { name: 'Peerlist', logo: '/assets/SupportedBy/Peerlist.png' },
-  { name: 'Product Hunt', logo: '/assets/SupportedBy/ProductHunt.png' },
-  { name: 'Vercel', logo: '/assets/SupportedBy/Vercel.png' },
+const supporterLogos = [
+  '/assets/SupportedBy/DigitalOcean.png',
+  '/assets/SupportedBy/meltcd.png',
+  '/assets/SupportedBy/MicrosoftForStartups.png',
+  '/assets/SupportedBy/MSME.png',
+  '/assets/SupportedBy/Notion.png',
+  '/assets/SupportedBy/Peerlist.png',
+  '/assets/SupportedBy/ProductHunt.png',
+  '/assets/SupportedBy/Vercel.png',
+  '/assets/SupportedBy/GitBook.png',
+  '/assets/SupportedBy/GoogleForStartups.png',
 ];
 
-export const SupportedBy = () => {
+// Ensure this is the only declaration of SupportersComponent
+export const SupportersComponent = () => {
   return (
-    <div className="py-20">
+    <section id="supporters" className="container pt-12 sm:py-16">
       <h2 className="custom-font my-10 text-center text-4xl font-bold text-[#00a6fb]">Supported By</h2>
 
-      <div className="relative mx-auto flex max-w-[99vw] space-x-8 overflow-x-hidden">
-        {/* First Marquee */}
-        <div className="animate-marquee flex space-x-8">
-          {supporters.map((sponsor, index) => (
-            <div key={index} className="flex h-[80px] w-[160px] flex-shrink-0 items-center justify-center">
-              <img src={sponsor.logo} alt={sponsor.name} className="h-full w-auto object-contain" />
-            </div>
-          ))}
-        </div>
+      {/* Right to Left Scrolling */}
+      <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0}>
+        {supporterLogos.map((logoUrl, index) => (
+          <div key={index} className="flex items-center gap-16 px-8">
+            <img src={logoUrl} alt={`Supporters ${index + 1}`} className="w-21 h-20" />
+          </div>
+        ))}
+      </Marquee>
 
-        {/* Second Marquee */}
-        <div className="animate-marquee2 absolute top-0 flex space-x-8">
-          {supporters.map((sponsor, index) => (
-            <div
-              key={index + supporters.length}
-              className="flex h-[80px] w-[160px] flex-shrink-0 items-center justify-center"
-            >
-              <img src={sponsor.logo} alt={sponsor.name} className="h-full w-auto object-contain" />
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
+      {/* Left to Right Scrolling */}
+      <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} direction="right">
+        {supporterLogos.map((logoUrl, index) => (
+          <div key={index} className="flex items-center gap-16 px-8">
+            <img src={logoUrl} alt={`Supporters ${index + 1}`} className="w-21 h-20" />
+          </div>
+        ))}
+      </Marquee>
+    </section>
   );
 };
 
@@ -880,7 +879,7 @@ const Home = () => {
       <Hero />
       <TechFeatures />
       <CardSection />
-      <SupportedBy />
+      <SupportersComponent />
       <Footer />
     </div>
   );
