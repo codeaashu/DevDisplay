@@ -512,7 +512,7 @@ const TechFeatures = () => {
           </a>
         </StyledDot>
       </div>
-
+      <div style={{ margin: '100px 0' }}></div>
       {/*Powered By DevDisplay */}
       <div className="my-8 flex justify-center">
         <img src={PoweredByDevDisplay} alt="Dev Display" className="h-auto w-[600px] text-5xl font-bold" />
@@ -880,6 +880,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <TechFeatures />
+      <div style={{ margin: '40px 0' }}></div>
       <CardSection />
       <div style={{ margin: '20px 0' }}></div>
       <Badges />
