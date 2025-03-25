@@ -629,10 +629,10 @@ const CardSection = () => {
                 We believe<span> innovation </span>is limitless...✦
               </div>
               <p className="p">
-                Suggest new features you'd love to see on DevDisplay. As a contributor, you're encouraged to think
-                beyond and add new, innovative features that can make a difference in the tech ecosystem. Think outside
-                the box and introduce features that can be revolutionary for tech enthusiasts worldwide. If you spot a
-                gap in the tech world, DevDisplay can be the solution.
+                Suggest new features you'd love to see on DevDisplay. As a techy, As a developer, you're encouraged to
+                think beyond and add new, innovative features that can make a difference in the tech ecosystem. Think
+                outside the box and introduce features that can be revolutionary for tech enthusiasts worldwide. If you
+                spot a gap in the tech world, DevDisplay can be the solution.
               </p>
               <StyledButton onClick={() => window.open('#', '_blank')}>
                 <div className="blob1" />
