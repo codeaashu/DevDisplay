@@ -620,37 +620,27 @@ const TechFeatures = () => {
 
 const Tags = () => {
   const tags = [
-    'Hybrid Jobs',
-    'Onsite Jobs',
-    'Remote Jobs',
-    'Internships',
-    'Freelancing',
-    'Offline Hackathons',
-    'Online Hackathons',
-    'Competitions',
-    'Tech Events',
-    'Tech Fest',
-    'Bootcamps',
-    'Certifications',
-    'Skill Development',
-    'OpenSource Program',
-    'Coding Challenges',
-    'Mentorship Programs',
-    'Workshops',
-    'Networking Events',
-    'Scholarships',
-    'Startup Incubators',
+    'Portfolio Builder',
+    'Idea Submission',
+    'Journey Showcase',
+    'DesignDisplay',
+    'Dev Discussions',
+    'DevDisplay UI Library',
+    'DevDisplay Compiler',
+    'DevDisplay Competitions',
+    'DevDisplay IT Services',
+    'DevDisplay Legacy',
+    'DevDisplay Ecommerce',
   ];
 
   return (
     <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
-      <h1 className="text-md text-primary mb-8 text-center font-bold text-[#00a6fb] lg:text-2xl">
-        Unlock All Tech Opportunities in One Place
-      </h1>
-      {/* <h2 className="text-md text-primary mb-8 text-center text-[#00a6fb] font-bold lg:text-2xl">One Platform, Endless Tech Opportunities</h2> */}
+      <h2 className="custom-font my-10 text-center text-2xl font-bold text-[#00a6fb]">
+        Features Coming Soon on DevDisplay!
+      </h2>
 
       {/* Right to Left Scrolling */}
-      <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} className="w-full">
+      <Marquee gradient={false} speed={30} pauseOnHover={true} loop={0} className="w-full">
         <div className="flex w-full flex-nowrap items-center">
           {[...tags, ...tags, ...tags].map((text, index) => (
             <span key={index} className="tag-item mr-6">
@@ -663,7 +653,7 @@ const Tags = () => {
       <div className="my-4"></div>
 
       {/* Left to Right Scrolling */}
-      <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} direction="right" className="w-full">
+      <Marquee gradient={false} speed={30} pauseOnHover={true} loop={0} direction="right" className="w-full">
         <div className="flex w-full flex-nowrap items-center">
           {[...tags, ...tags, ...tags].map((text, index) => (
             <span key={index} className="tag-item mr-6">
