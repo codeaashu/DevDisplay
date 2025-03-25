@@ -8,6 +8,7 @@ import PoweredByDevDisplay from './PoweredByDevDisplay.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import Marquee from 'react-fast-marquee';
+import { Badges } from './Badges';
 // Removed duplicate import to avoid redeclaration of SupportersComponent
 
 const Hero = () => {
@@ -879,6 +880,7 @@ const Home = () => {
       <Hero />
       <TechFeatures />
       <CardSection />
+      <Badges />
       <SupportersComponent />
       <Footer />
     </div>
