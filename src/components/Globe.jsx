@@ -39,9 +39,12 @@ function Globe() {
         diffuse: 1.2,
         mapSamples: 16000,
         mapBrightness: 6,
-        baseColor: [0.3, 0.3, 0.3],
+        baseColor: [0, 0.1686, 0.2431],
         markerColor: [0.1, 0.8, 1],
-        glowColor: [1, 1, 1],
+        glowColor: [0, 166 / 255, 251 / 255],
+        edgeColor: [0, 166 / 255, 251 / 255], // Keep the blue glow
+        glowIntensity: 5.0, // Adjust glow visibility
+
         markers: [
           { location: [37.7595, -122.4367], size: 0.03 }, // San Francisco
           { location: [40.7128, -74.006], size: 0.1 }, // New York
@@ -143,8 +146,8 @@ function Globe() {
           { location: [4.8156, 7.0498], size: 0.05 }, // Port Harcourt, Nigeria
         ],
         onRender: (state) => {
+          phi += 0.005;
           state.phi = phi;
-          phi += 0.01;
         },
       });
 
