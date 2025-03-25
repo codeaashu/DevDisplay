@@ -954,7 +954,7 @@ const Home = () => {
       <Hero />
       <TechFeatures />
       <Tags />
-      <div style={{ margin: '30px 0' }}></div>
+      <div style={{ margin: '40px 0' }}></div>
       <CardSection />
       <div style={{ margin: '30px 0' }}></div>
       <Badges />
