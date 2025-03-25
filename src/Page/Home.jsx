@@ -674,7 +674,7 @@ const Tags = () => {
           border: 1px solid #00a6fb;
           background-color: rgba(1, 11, 31, 0.58);
           color: #e2e8f0;
-          font-size: 0.915rem;
+          font-size: 1rem;
           text-align: center;
           min-width: max-content;
         }
@@ -953,7 +953,6 @@ const Home = () => {
       <Navbar />
       <Hero />
       <TechFeatures />
-      <div style={{ margin: '30px 0' }}></div>
       <Tags />
       <div style={{ margin: '30px 0' }}></div>
       <CardSection />
