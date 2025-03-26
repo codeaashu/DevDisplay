@@ -678,6 +678,7 @@ const Tags = () => {
     'DevDisplay Competitions',
     'DevDisplay IT Services',
     'DevDisplay Legacy',
+    'DevDisplay Marketplace',
     'DevDisplay Ecommerce',
   ];
 
