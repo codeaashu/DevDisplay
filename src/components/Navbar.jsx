@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Home, User, Medal, HandHelping, Coins } from 'lucide-react';
+import { Home, Medal, HandHelping, Coins } from 'lucide-react';
+// import { Home, User, Medal, HandHelping, Coins } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

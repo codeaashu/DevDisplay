@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import Navbar from '../components/Navbar';
 import Globe from '../components/Globe';
@@ -11,6 +11,41 @@ import Marquee from 'react-fast-marquee';
 import { Badges } from './Badges';
 // Removed duplicate import to avoid redeclaration of SupportersComponent
 
+const CountdownTimer = () => {
+  const [timeLeft, setTimeLeft] = useState('');
+
+  useEffect(() => {
+    const targetDate = new Date('April 17, 2025 10:00:00').getTime();
+
+    const interval = setInterval(() => {
+      const now = new Date().getTime();
+      const difference = targetDate - now;
+
+      if (difference <= 0) {
+        clearInterval(interval);
+        setTimeLeft('v2.0 is here!');
+      } else {
+        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+        setTimeLeft(`${days}d ${hours}h ${minutes}m ${seconds}s`);
+      }
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div className="my-4 text-center">
+      <h2 className="custom-font text-1xl inline-block font-bold text-[#00a6fb]">v2.0 Dropping Soon -</h2>{' '}
+      <p className="custom-font text-1xl inline-block text-gray-300">{timeLeft}</p>
+    </div>
+  );
+};
+
+// Add the CountdownTimer component before the image
 const Hero = () => {
   return (
     <section className="hero-section mt-20 flex flex-col items-center justify-center text-white sm:min-h-screen">
@@ -97,6 +132,8 @@ const Hero = () => {
 }
   `}
         </style>
+
+        <CountdownTimer />
         <img src={LOGO} alt="Dev Display" className="my-4 h-auto w-[600PX] text-5xl font-bold" />
         <h3 className="custom-font my-4 text-2xl tracking-widest text-gray-400 md:text-xl">
           One Platform for Global Developers to Fulfill All The Tech Needs!
