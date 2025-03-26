@@ -143,7 +143,7 @@ const Hero = () => {
   `}
         </style>
         <img src={LOGO} alt="Dev Display" className="my-4 h-auto w-[600PX] text-5xl font-bold" />
-        <h3 className="custom-font my-4 text-2xl tracking-widest text-gray-400 md:text-xl">
+        <h3 className="custom-font my-4 text-2xl tracking-widest text-gray-300 md:text-xl">
           One Platform for Global Developers to Fulfill All The Tech Needs!
         </h3>
         <p className="custom-font mx-auto my-4 max-w-4xl text-xl text-[#00a6fb] md:text-2xl">
@@ -157,7 +157,6 @@ const Hero = () => {
         <div className="flex items-center justify-center">
           <CountdownTimer />
         </div>
-        <Globe />
         <Globe />
       </div>
       <div className="mb-20"></div>
