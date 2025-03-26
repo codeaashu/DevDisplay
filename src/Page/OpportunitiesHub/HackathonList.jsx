@@ -130,6 +130,16 @@ const hackathons = [
     shareLink: '#hackbyte-3-0',
   },
   {
+    organizer: 'GDG VIT Chennai',
+    title: 'DevsHouse 25',
+    location: 'Chennai, India',
+    date: 'Apr 4 - 6',
+    domains: ['Open Innovation', 'No Restrictions'],
+    applyLink: 'https://devshouse25.devfolio.co/',
+    poster: '/assets/Hackathons/DevsHouse 25.jpg',
+    shareLink: '#devshouse-25',
+  },
+  {
     organizer: 'Bennett University',
     title: 'Hackaccino',
     location: 'Bennett University, Greater Noida',
@@ -138,6 +148,16 @@ const hackathons = [
     applyLink: 'https://www.hackquest.io/hackathons/Hackaccino',
     poster: '/assets/Hackathons/Hackaccino.jpg',
     shareLink: '#hackaccino',
+  },
+  {
+    organizer: 'LUKSO',
+    title: 'Hack The Grid',
+    location: 'Online',
+    date: 'Apr 7',
+    domains: ['Web3', 'Blockchain'],
+    applyLink: 'hhttps://hack-the-grid-level.devfolio.co/',
+    poster: '/assets/Hackathons/Hack The Grid.jpg',
+    shareLink: '#hack-the-grid',
   },
   {
     organizer: 'GDGoC - NIT Jalandhar',
@@ -178,6 +198,16 @@ const hackathons = [
     applyLink: 'https://hackhazards25.devfolio.co/?ref=37575e18b3',
     poster: '/assets/Hackathons/HACKHAZARDS 25.jpg',
     shareLink: '#HACKHAZARDS-25',
+  },
+  {
+    organizer: 'KJSSE',
+    title: 'GajShield KJSSE Hack 8',
+    location: 'Mumbai, India',
+    date: 'Apr 12 - 13',
+    domains: ['Open Innovation', 'No Restrictions'],
+    applyLink: 'https://hack.kjsse.com',
+    poster: '/assets/Hackathons/GajShield KJSSE Hack 8.jpg',
+    shareLink: '#gajshield-kjsse-hack-8',
   },
   {
     organizer: 'BIT Sindri',
@@ -248,6 +278,16 @@ const hackathons = [
     applyLink: 'https://hack-with-gujarat.devfolio.co/?ref=37575e18b3',
     poster: '/assets/Hackathons/Hack With Gujarat.jpg',
     shareLink: '#hack-with-gujarat',
+  },
+  {
+    organizer: 'LISK',
+    title: 'Lisk Builders Challenge',
+    location: 'Online',
+    date: 'May 31',
+    domains: ['Blockchain', 'Web3'],
+    applyLink: 'https://lisk-builders-challenge-1.devfolio.co/',
+    poster: '/assets/Hackathons/Lisk Builders Challenge.jpg',
+    shareLink: '#lisk-builders-challenge',
   },
   // ... Add others similarly
 ];
