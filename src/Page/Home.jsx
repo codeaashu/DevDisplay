@@ -40,7 +40,7 @@ const CountdownTimer = () => {
   return (
     <div className="my-4 text-center">
       <div className="flex items-center gap-2">
-        <h2 className="custom-font text-1xl flex items-center gap-1 font-bold text-[#00a6fb]">
+        <h2 className="custom-font text-1xl flex items-center gap-1 font-bold text-gray-400">
           v2.0 Dropping Soon
           <img
             src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png"
@@ -49,7 +49,7 @@ const CountdownTimer = () => {
             height="25"
           />
         </h2>
-        <p className="custom-font text-1xl text-[#00a6fb]">{timeLeft}</p>
+        <p className="custom-font text-1xl text-gray-400">{timeLeft}</p>
       </div>
     </div>
   );
@@ -142,8 +142,6 @@ const Hero = () => {
 }
   `}
         </style>
-
-        <CountdownTimer />
         <img src={LOGO} alt="Dev Display" className="my-4 h-auto w-[600PX] text-5xl font-bold" />
         <h3 className="custom-font my-4 text-2xl tracking-widest text-gray-400 md:text-xl">
           One Platform for Global Developers to Fulfill All The Tech Needs!
@@ -156,6 +154,10 @@ const Hero = () => {
       <div className="mb-[-80%] mt-2 xs:mb-[-22%] sm:mb-[-15%] md:mb-[-12%] lg:mb-[-10%] xl:mb-[-16%] 2xl:mb-[-14%]">
         {' '}
         {/* Changed mt-4 to mt-2 */}
+        <div className="flex items-center justify-center">
+          <CountdownTimer />
+        </div>
+        <Globe />
         <Globe />
       </div>
       <div className="mb-20"></div>
