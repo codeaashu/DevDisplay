@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import Marquee from 'react-fast-marquee';
 import { Badges } from './Badges';
+
 // Removed duplicate import to avoid redeclaration of SupportersComponent
 
 const CountdownTimer = () => {
