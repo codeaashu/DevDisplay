@@ -39,8 +39,18 @@ const CountdownTimer = () => {
 
   return (
     <div className="my-4 text-center">
-      <h2 className="custom-font text-1xl inline-block font-bold text-[#00a6fb]">v2.0 Dropping Soon 🗲</h2>{' '}
-      <p className="custom-font text-1xl inline-block text-gray-300">{timeLeft}</p>
+      <div className="flex items-center gap-2">
+        <h2 className="custom-font text-1xl flex items-center gap-1 font-bold text-[#00a6fb]">
+          v2.0 Dropping Soon
+          <img
+            src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png"
+            alt="High Voltage"
+            width="25"
+            height="25"
+          />
+        </h2>
+        <p className="custom-font text-1xl text-[#00a6fb]">{timeLeft}</p>
+      </div>
     </div>
   );
 };
