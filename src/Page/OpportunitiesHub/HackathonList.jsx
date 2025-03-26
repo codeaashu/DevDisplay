@@ -190,6 +190,16 @@ const hackathons = [
     shareLink: '#intrusion-x',
   },
   {
+    organizer: 'OSPC x CSED',
+    title: 'Spectrum 25',
+    location: 'Chennai, India',
+    date: 'Apr 11 - 12',
+    domains: ['Blockchain', 'AgriTech', 'MedTech', 'EdTech', 'IOT', 'Open Innovation'],
+    applyLink: 'https://spectrum25.devfolio.co/',
+    poster: '/assets/Hackathons/Spectrum 25.jpg',
+    shareLink: '#spectrum-25',
+  },
+  {
     organizer: 'NAMESPACE Community',
     title: 'HACKHAZARDS 25',
     location: 'Online',
