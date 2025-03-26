@@ -39,7 +39,7 @@ const CountdownTimer = () => {
 
   return (
     <div className="my-4 text-center">
-      <h2 className="custom-font text-1xl inline-block font-bold text-[#00a6fb]">v2.0 Dropping Soon -</h2>{' '}
+      <h2 className="custom-font text-1xl inline-block font-bold text-[#00a6fb]">v2.0 Dropping Soon 🗲</h2>{' '}
       <p className="custom-font text-1xl inline-block text-gray-300">{timeLeft}</p>
     </div>
   );

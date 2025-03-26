@@ -95,7 +95,7 @@
     </td>
     <td align="center">
       <a href="https://www.gitbook.com/">
-        <img src="./public/assets/SupportedBy/GitBookLight_1.png" alt="GitBook Logo" width="140">
+        <img src="./public/assets/SupportedBy/GitBook.png" alt="GitBook Logo" width="140">
       </a>
     </td>
     <td align="center">
