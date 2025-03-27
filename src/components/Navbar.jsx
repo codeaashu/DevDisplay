@@ -138,43 +138,76 @@ const Nub = ({ selected }) => {
   );
 };
 
-const Products = () => (
+const Developers = () => (
   <div>
     <div className="flex gap-4">
       <div>
-        <h3 className="mb-2 text-sm font-medium">Startup</h3>
+        <h3 className="mb-2 text-sm font-medium">Opportunities</h3>
         <a href="#" className="mb-1 block text-sm text-neutral-400">
-          Bookkeeping
+          Jobs
         </a>
         <a href="#" className="block text-sm text-neutral-400">
-          Invoicing
+          Internships
+        </a>
+        <a href="#" className="block text-sm text-neutral-400">
+          Freelancing
+        </a>
+        <a href="#" className="block text-sm text-neutral-400">
+          Hackathons
+        </a>
+        <a href="#" className="block text-sm text-neutral-400">
+          Tech Events
+        </a>
+        <a href="#" className="block text-sm text-neutral-400">
+          Bootcamps
+        </a>
+        <a href="#" className="block text-sm text-neutral-400">
+          Certifications
+        </a>
+        <a href="#" className="block text-sm text-neutral-400">
+          OpenSource
         </a>
       </div>
       <div>
-        <h3 className="mb-2 text-sm font-medium">Scaleup</h3>
-        <a href="#" className="mb-1 block text-sm text-neutral-400">
-          Live Coaching
+        <h3 className="mb-2 text-sm font-medium">Resources</h3>
+        <a href="#" className="block text-sm text-neutral-400">
+          Notes
         </a>
         <a href="#" className="mb-1 block text-sm text-neutral-400">
-          Reviews
+          Courses
         </a>
         <a href="#" className="block text-sm text-neutral-400">
-          Tax/VAT
+          AI Tools
+        </a>
+        <a href="#" className="block text-sm text-neutral-400">
+          Libraries
+        </a>
+        <a href="#" className="block text-sm text-neutral-400">
+          Roadmaps
+        </a>
+        <a href="#" className="block text-sm text-neutral-400">
+          Preparation
+        </a>
+        <a href="#" className="block text-sm text-neutral-400">
+          Best Colleges
+        </a>
+        <a href="#" className="mb-1 block text-sm text-neutral-400">
+          Documentation
         </a>
       </div>
       <div>
-        <h3 className="mb-2 text-sm font-medium">Enterprise</h3>
+        <h3 className="mb-2 text-sm font-medium">Lorem</h3>
         <a href="#" className="mb-1 block text-sm text-neutral-400">
-          White glove
+          Lorem
         </a>
         <a href="#" className="mb-1 block text-sm text-neutral-400">
-          SOX Compliance
+          Lorem
         </a>
         <a href="#" className="block text-sm text-neutral-400">
-          Staffing
+          Lorem
         </a>
         <a href="#" className="block text-sm text-neutral-400">
-          More
+          Lorem
         </a>
       </div>
     </div>
@@ -230,8 +263,8 @@ const Blog = () => (
 
 const TABS = [
   {
-    title: 'Products',
-    Component: Products,
+    title: 'Developers',
+    Component: Developers,
   },
   {
     title: 'Pricing',
