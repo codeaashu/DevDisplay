@@ -142,6 +142,33 @@ const Developers = () => (
   <div>
     <div className="flex gap-4">
       <div>
+        <h3 className="mb-2 text-sm font-medium">Resources</h3>
+        <a href="#" className="block text-sm text-neutral-400">
+          Notes
+        </a>
+        <a href="#" className="mb-1 block text-sm text-neutral-400">
+          Courses
+        </a>
+        <a href="#" className="block text-sm text-neutral-400">
+          AI Tools
+        </a>
+        <a href="#" className="block text-sm text-neutral-400">
+          Libraries
+        </a>
+        <a href="#" className="block text-sm text-neutral-400">
+          Roadmaps
+        </a>
+        <a href="#" className="block text-sm text-neutral-400">
+          Preparation
+        </a>
+        <a href="#" className="block text-sm text-neutral-400">
+          Best Colleges
+        </a>
+        <a href="#" className="mb-1 block text-sm text-neutral-400">
+          Documentation
+        </a>
+      </div>
+      <div>
         <h3 className="mb-2 text-sm font-medium">Opportunities</h3>
         <a href="https://www.devdisplay.org/Jobs" className="mb-1 block text-sm text-neutral-400">
           Jobs
@@ -169,33 +196,6 @@ const Developers = () => (
         </a>
         <a href="https://www.devdisplay.org/OpenSource" className="block text-sm text-neutral-400">
           OpenSource
-        </a>
-      </div>
-      <div>
-        <h3 className="mb-2 text-sm font-medium">Resources</h3>
-        <a href="#" className="block text-sm text-neutral-400">
-          Notes
-        </a>
-        <a href="#" className="mb-1 block text-sm text-neutral-400">
-          Courses
-        </a>
-        <a href="#" className="block text-sm text-neutral-400">
-          AI Tools
-        </a>
-        <a href="#" className="block text-sm text-neutral-400">
-          Libraries
-        </a>
-        <a href="#" className="block text-sm text-neutral-400">
-          Roadmaps
-        </a>
-        <a href="#" className="block text-sm text-neutral-400">
-          Preparation
-        </a>
-        <a href="#" className="block text-sm text-neutral-400">
-          Best Colleges
-        </a>
-        <a href="#" className="mb-1 block text-sm text-neutral-400">
-          Documentation
         </a>
       </div>
       <div>
