@@ -32,19 +32,17 @@ import Competitions from './Page/OpportunitiesHub/Competitions.jsx';
 import Events from './Page/OpportunitiesHub/Events.jsx';
 import Bootcamps from './Page/OpportunitiesHub/Bootcamps.jsx';
 import Certifications from './Page/OpportunitiesHub/Certifications.jsx';
-import OpenSourceProgram from './Page/OpportunitiesHub/OpenSourceProgram.jsx';
+import OpenSource from './Page/OpportunitiesHub/OpenSource.jsx';
 // Features - Resources Hub Pages
 import Resources from './Page/Resources.jsx';
 import Documentation from './Page/ResoucesHub/Documentation.jsx';
 import ProgrammingLanguages from './Page/ResoucesHub/ProgrammingLanguages.jsx';
 import TechNotes from './Page/ResoucesHub/TechNotes.jsx';
 import AITools from './Page/ResoucesHub/AITools.jsx';
-import OpenSource from './Page/ResoucesHub/OpenSource.jsx';
 import RoadmapGuide from './Page/ResoucesHub/RoadmapGuide.jsx';
 import InterviewPrep from './Page/ResoucesHub/InterviewPrep.jsx';
 import TopGithubRepo from './Page/ResoucesHub/TopGithubRepo.jsx';
 import ContributionsGuide from './Page/ResoucesHub/ContributionsGuide.jsx';
-
 import PageNotFound from './Page/PageNotFound.jsx';
 import ProfilePage from './components/Profile/ProfilePage';
 
@@ -123,14 +121,13 @@ function App() {
         <Route path="/Events" element={<Events />} />
         <Route path="/Bootcamps" element={<Bootcamps />} />
         <Route path="/Certifications" element={<Certifications />} />
-        <Route path="/OpenSourceProgram" element={<OpenSourceProgram />} />
+        <Route path="/OpenSource" element={<OpenSource />} />
         {/* Features - Resources Hub Pages */}
         <Route path="/Resources" element={<Resources />} />
         <Route path="/documentation" element={<Documentation />} />
         <Route path="/courses" element={<ProgrammingLanguages />} />
         <Route path="/notes" element={<TechNotes />} />
         <Route path="/ai-tools" element={<AITools />} />
-        <Route path="/libraries" element={<OpenSource />} />
         <Route path="/roadmaps" element={<RoadmapGuide />} />
         <Route path="/interview-kits" element={<InterviewPrep />} />
         <Route path="/github" element={<TopGithubRepo />} />
