@@ -196,18 +196,21 @@ const Developers = () => (
         </a>
       </div>
       <div>
-        <h3 className="mb-2 text-sm font-medium">Lorem</h3>
+        <h3 className="mb-2 text-sm font-medium">Evolution</h3>
         <a href="#" className="mb-1 block text-sm text-neutral-400">
-          Lorem
+          Project Hub
         </a>
         <a href="#" className="mb-1 block text-sm text-neutral-400">
-          Lorem
+          Portfolio Hub
         </a>
         <a href="#" className="block text-sm text-neutral-400">
-          Lorem
+          Tech Trends
         </a>
         <a href="#" className="block text-sm text-neutral-400">
-          Lorem
+          AI Career Guide
+        </a>
+        <a href="#" className="block text-sm text-neutral-400">
+          Resume Building
         </a>
       </div>
     </div>
