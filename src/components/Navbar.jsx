@@ -155,8 +155,8 @@ const Developers = () => (
         <a href="https://www.devdisplay.org/Hackathons" className="block text-sm text-neutral-400">
           Hackathons
         </a>
-        <a href="https://www.devdisplay.org/Hackathons" className="block text-sm text-neutral-400">
-          Hackathons
+        <a href="https://www.devdisplay.org/Competitions" className="block text-sm text-neutral-400">
+          Competitions
         </a>
         <a href="https://www.devdisplay.org/Events" className="block text-sm text-neutral-400">
           Tech Events
