@@ -143,28 +143,31 @@ const Developers = () => (
     <div className="flex gap-4">
       <div>
         <h3 className="mb-2 text-sm font-medium">Opportunities</h3>
-        <a href="#" className="mb-1 block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/Jobs" className="mb-1 block text-sm text-neutral-400">
           Jobs
         </a>
-        <a href="#" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/Internships" className="block text-sm text-neutral-400">
           Internships
         </a>
-        <a href="#" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/Freelancing" className="block text-sm text-neutral-400">
           Freelancing
         </a>
-        <a href="#" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/Hackathons" className="block text-sm text-neutral-400">
           Hackathons
         </a>
-        <a href="#" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/Hackathons" className="block text-sm text-neutral-400">
+          Hackathons
+        </a>
+        <a href="https://www.devdisplay.org/Events" className="block text-sm text-neutral-400">
           Tech Events
         </a>
-        <a href="#" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/Bootcamps" className="block text-sm text-neutral-400">
           Bootcamps
         </a>
-        <a href="#" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/Certifications" className="block text-sm text-neutral-400">
           Certifications
         </a>
-        <a href="#" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/OpenSource Program" className="block text-sm text-neutral-400">
           OpenSource
         </a>
       </div>

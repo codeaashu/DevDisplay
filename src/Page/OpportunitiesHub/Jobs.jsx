@@ -1,14 +1,16 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import { ArrowLeft, Search } from 'lucide-react';
 import { Footer } from '../../components/Footer/Footer';
 import styled from 'styled-components'; // Import styled-components
 import Marquee from 'react-fast-marquee'; // Import Marquee
+import HybridOnsiteCard from './JobsCard';
 
 const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 w-full bg-gray-800 text-white shadow-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
-        <a href="/home">
+        <a href="/opportunities">
           <button className="flex items-center gap-2 rounded-full border border-white p-2 hover:bg-gray-700">
             <ArrowLeft className="h-5 w-5" />
             <span className="hidden md:inline">Back</span>
@@ -55,7 +57,7 @@ const Hero = () => {
           <div className="modgp relative inline-block w-full py-3">
             <div className="relative">
               <div className="bg-primary enabled:hover:bg-primary-dark enabled:active:bg-primary-dark enabled:focus:bg-primary-dark px-18 relative inline-flex w-full items-center justify-center rounded-lg py-5 text-6xl font-bold text-white transition-all focus:outline-none enabled:hover:shadow-md disabled:opacity-50">
-                <div className="flex w-full items-center justify-center">Remote Jobs</div>
+                <div className="flex w-full items-center justify-center">Hybrid & Onsite Jobs</div>
               </div>
             </div>
             <div className="pointer-events-none absolute inset-0">
@@ -237,7 +239,7 @@ const Tags = () => {
     { name: 'Cognizant', logo: '/assets/Company/Cognizant.png' },
     { name: 'DELL', logo: '/assets/Company/Dell.png' },
     { name: 'Deloitte', logo: '/assets/Company/Deloitte.jpg' },
-    { name: 'DXC.png', logo: '/assets/Company/DXC.png' },
+    { name: 'DXC', logo: '/assets/Company/DXC.png' },
     { name: 'Flipkart', logo: '/assets/Company/Flipkart.png' },
     { name: 'HCLTech', logo: '/assets/Company/HCLTech.png' },
     { name: 'GitHub', logo: '/assets/Company/GitHub.png' },
@@ -256,14 +258,14 @@ const Tags = () => {
     { name: 'Phonepay', logo: '/assets/Company/Phonepay.png' },
     { name: 'Swiggy', logo: '/assets/Company/Swiggy.png' },
     { name: 'Stripe', logo: '/assets/Company/Stripe.png' },
-    { name: 'SAP.png', logo: '/assets/Company/SAP.png' },
+    { name: 'SAP', logo: '/assets/Company/SAP.png' },
     { name: 'Samsung', logo: '/assets/Company/Samsung.png' },
     { name: 'Salesforce', logo: '/assets/Company/Salesforce.png' },
     { name: 'PepsiCO', logo: '/assets/Company/Pepsi.png' },
     { name: 'Wipro', logo: '/assets/Company/Wipro.png' },
     { name: 'TCS', logo: '/assets/Company/TCS.png' },
     { name: 'Zomato', logo: '/assets/Company/Zomato.png' },
-    { name: 'J.P.Morgan', logo: '/assets/Company/JPMorgan.png' },
+    { name: 'J P Morgan', logo: '/assets/Company/JPMorgan.png' },
   ];
 
   return (
@@ -315,6 +317,8 @@ const Tags = () => {
         }
         .tag-item img {
           display: inline-block;
+          // height: 40px; /* Adjust the height as needed */
+          // width: auto; /* Maintain aspect ratio */
         }
       `}</style>
     </section>
@@ -912,6 +916,7 @@ const JobAlerts = () => {
             />
           </div>
         </div>
+        <div className="mb-4"></div>
         <StyledButton onClick={handleFindJobs}>
           <div className="blob1" />
           <div className="inner">🔍 Find Jobs Now</div>
@@ -935,17 +940,29 @@ const JobAlerts = () => {
   );
 };
 
-const RemoteJobs = () => {
+const HybridOnsiteJobs = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
+
   return (
     <div className="background-wrapper min-h-screen bg-gray-900">
       <Navbar />
       <Hero />
       <Tags />
-      <OpportunitiesCards />
       <JobAlerts />
+      <HybridOnsiteCard />
+      <OpportunitiesCards />
       <Footer />
     </div>
   );
 };
 
-export default RemoteJobs;
+export default HybridOnsiteJobs;

@@ -24,12 +24,12 @@ import AIToolsHub from './Page/AIToolsHub.jsx';
 import AchieverJourneyPage from './components/AchievementJourney/IndividualJourney.js';
 // Features - Opportunities Hub Pages
 import Opportunities from './Page/Opportunities.jsx';
-import HybridOnsiteJobs from './Page/OpportunitiesHub/HybridOnsiteJobs.jsx';
-import RemoteJobs from './Page/OpportunitiesHub/RemoteJobs.jsx';
+import Jobs from './Page/OpportunitiesHub/Jobs.jsx';
 import Internships from './Page/OpportunitiesHub/Internships.jsx';
-import FreelanceWork from './Page/OpportunitiesHub/FreelanceWork.jsx';
+import Freelancing from './Page/OpportunitiesHub/Freelancing.jsx';
 import Hackathons from './Page/OpportunitiesHub/Hackathons.jsx';
-import TechFestEvents from './Page/OpportunitiesHub/TechFestEvents.jsx';
+import Competitions from './Page/OpportunitiesHub/Competitions.jsx';
+import Events from './Page/OpportunitiesHub/Events.jsx';
 import Bootcamps from './Page/OpportunitiesHub/Bootcamps.jsx';
 import Certifications from './Page/OpportunitiesHub/Certifications.jsx';
 import OpenSourceProgram from './Page/OpportunitiesHub/OpenSourceProgram.jsx';
@@ -115,12 +115,12 @@ function App() {
         <Route path="/AIToolsHub" element={<AIToolsHub />} />
         {/* Features - Opportunities Hub Pages */}
         <Route path="/Opportunities" element={<Opportunities />} />
-        <Route path="/HybridOnsiteJobs" element={<HybridOnsiteJobs />} />
-        <Route path="/RemoteJobs" element={<RemoteJobs />} />
+        <Route path="/Jobs" element={<Jobs />} />
         <Route path="/Internships" element={<Internships />} />
-        <Route path="/FreelanceWork" element={<FreelanceWork />} />
+        <Route path="/Freelancing" element={<Freelancing />} />
         <Route path="/Hackathons" element={<Hackathons />} />
-        <Route path="/TechFestEvents" element={<TechFestEvents />} />
+        <Route path="/Competitions" element={<Competitions />} />
+        <Route path="/Events" element={<Events />} />
         <Route path="/Bootcamps" element={<Bootcamps />} />
         <Route path="/Certifications" element={<Certifications />} />
         <Route path="/OpenSourceProgram" element={<OpenSourceProgram />} />
