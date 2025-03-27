@@ -1,5 +1,5 @@
-        <div align="center">
-<!-- <table align="center"> ,
+<div align="center">
+<!-- <table align="center">
      <thead align="center">
         <tr border: 2px;>
             <td><b>🌟 Stars</b></td>
