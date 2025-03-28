@@ -212,16 +212,16 @@ const Developers = () => (
         <a href="https://www.devdisplay.org/ProjectShowcase" className="mb-1 block text-sm text-neutral-400">
           Project Hub
         </a>
-        <a href="#" className="mb-1 block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/PortfolioIdeas" className="mb-1 block text-sm text-neutral-400">
           Portfolio Hub
         </a>
-        <a href="#" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/IndustryTrends" className="block text-sm text-neutral-400">
           Tech Trends
         </a>
-        <a href="#" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/AiCareer" className="block text-sm text-neutral-400">
           AI Career Guide
         </a>
-        <a href="#" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/ResumeBuilder" className="block text-sm text-neutral-400">
           Resume Building
         </a>
       </div>
