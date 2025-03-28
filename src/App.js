@@ -32,7 +32,7 @@ import Competitions from './Page/OpportunitiesHub/Competitions.jsx';
 import Events from './Page/OpportunitiesHub/Events.jsx';
 import Bootcamps from './Page/OpportunitiesHub/Bootcamps.jsx';
 import Certifications from './Page/OpportunitiesHub/Certifications.jsx';
-import OpenSource from './Page/OpportunitiesHub/OpenSource.jsx';
+import OpenSourceProgram from './Page/OpportunitiesHub/OpenSourceProgram.jsx';
 // Features - Resources Hub Pages
 import Resources from './Page/Resources.jsx';
 import Documentation from './Page/ResoucesHub/Documentation.jsx';
@@ -45,7 +45,7 @@ import Preparation from './Page/ResoucesHub/Preparation.jsx';
 import UsefulRepo from './Page/ResoucesHub/UsefulRepo.jsx';
 import ResearchPaper from './Page/ResoucesHub/ResearchPaper.jsx';
 import APIs from './Page/ResoucesHub/APIs.jsx';
-import CodingPlatforms from './Page/ResoucesHub/CodingPlatforms.jsx';
+import BestColleges from './Page/ResoucesHub/BestColleges.jsx';
 import DevShare from './Page/ResoucesHub/DevShare.jsx';
 
 import PageNotFound from './Page/PageNotFound.jsx';
@@ -126,7 +126,7 @@ function App() {
         <Route path="/Events" element={<Events />} />
         <Route path="/Bootcamps" element={<Bootcamps />} />
         <Route path="/Certifications" element={<Certifications />} />
-        <Route path="/OpenSource" element={<OpenSource />} />
+        <Route path="/OpenSourceProgram" element={<OpenSourceProgram />} />
         {/* Features - Resources Hub Pages */}
         <Route path="/Resources" element={<Resources />} />
         <Route path="/Documentation" element={<Documentation />} />
@@ -139,7 +139,7 @@ function App() {
         <Route path="/UsefulRepo" element={<UsefulRepo />} />
         <Route path="/ResearchPaper" element={<ResearchPaper />} />
         <Route path="/APIs" element={<APIs />} />
-        <Route path="/CodingPlatforms" element={<CodingPlatforms />} />
+        <Route path="/BestColleges" element={<BestColleges />} />
         <Route path="/DevShare" element={<DevShare />} />
 
         <Route path="/profile/:name" element={<ProfilePage />} />

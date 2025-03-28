@@ -386,10 +386,10 @@ const ResourcesCards = () => {
       tags: ['APIs', 'Tools', 'Development', 'Projects', 'Free APIs', 'Paid APIs'],
     },
     {
-      title: 'Coding Platforms',
-      description: 'Practice coding and participate in coding challenges on these platforms.',
-      link: '/CodingPlatforms',
-      tags: ['Coding Platforms', 'Coding', 'Challenges', 'Competitive Programming'],
+      title: 'Best Colleges',
+      description: 'Explore the best colleges and universities for tech education.',
+      link: '/BestColleges',
+      tags: ['Colleges', 'Universities', 'Education', 'Tech'],
     },
     {
       title: 'Developer Shared Resources',

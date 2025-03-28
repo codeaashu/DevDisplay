@@ -149,23 +149,32 @@ const Developers = () => (
         <a href="https://www.devdisplay.org/courses" className="mb-1 block text-sm text-neutral-400">
           Courses
         </a>
-        <a href="#" className="block text-sm text-neutral-400">
-          AI Tools
+        <a href="https://www.devdisplay.org/DevTools" className="block text-sm text-neutral-400">
+          Dev Tools
         </a>
-        <a href="#" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/Libraries" className="block text-sm text-neutral-400">
           Libraries
         </a>
-        <a href="#" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/Roadmaps" className="block text-sm text-neutral-400">
           Roadmaps
         </a>
-        <a href="https://www.devdisplay.org/interview-kits" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/Preparation" className="block text-sm text-neutral-400">
           Preparation
         </a>
-        <a href="#" className="block text-sm text-neutral-400">
-          Best Colleges
+        <a href="https://www.devdisplay.org/APIs" className="block text-sm text-neutral-400">
+          Useful APIs
         </a>
-        <a href="#" className="mb-1 block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/UsefulRepo" className="block text-sm text-neutral-400">
+          Valuable Repo
+        </a>
+        <a href="https://www.devdisplay.org/ResearchPaper" className="block text-sm text-neutral-400">
+          Research Paper
+        </a>
+        <a href="https://www.devdisplay.org/Documentation" className="mb-1 block text-sm text-neutral-400">
           Documentation
+        </a>
+        <a href="https://www.devdisplay.org/BestColleges" className="block text-sm text-neutral-400">
+          Best Colleges
         </a>
       </div>
       <div>
@@ -194,13 +203,13 @@ const Developers = () => (
         <a href="https://www.devdisplay.org/Certifications" className="block text-sm text-neutral-400">
           Certifications
         </a>
-        <a href="https://www.devdisplay.org/OpenSource" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/OpenSourceProgram" className="block text-sm text-neutral-400">
           OpenSource
         </a>
       </div>
       <div>
         <h3 className="mb-2 text-sm font-medium">Evolution</h3>
-        <a href="#" className="mb-1 block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/ProjectShowcase" className="mb-1 block text-sm text-neutral-400">
           Project Hub
         </a>
         <a href="#" className="mb-1 block text-sm text-neutral-400">
