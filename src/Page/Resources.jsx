@@ -371,7 +371,7 @@ const ResourcesCards = () => {
       title: 'Preparation',
       description: 'Resources and kits to ace your tech interviews and exams.',
       link: '/Preparation',
-      tags: ['interviews', 'preparation', 'resources', 'Exam preparation'],
+      tags: ['Interviews', 'Preparation', 'Resources', 'Exam Preparation'],
     },
   ];
 
