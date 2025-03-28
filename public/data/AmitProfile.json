@@ -1,0 +1,18 @@
+{
+  "name": "Amit Kumar",
+  "location": "India",
+  "bio": "Machine Learning Engineer | Founder of TechieHelp | Passionate about AI, Web Development, and Coding.",
+  "avatar": "https://github.com/amitkumardemo.png",
+  "portfolio": "https://amitjiportfolio.netlify.app/",
+  "skills": ["Python", "Java", "Machine Learning", "AI", "Web Development", "React", "Flask", "JavaScript"],
+  "social": {
+    "GitHub": "https://github.com/amitkumardemo",
+    "Twitter": "https://x.com/AmitKum5579044",
+    "LinkedIn": "https://www.linkedin.com/in/amit-kumar-686196225/",
+    "Email": "amitk25783@gmail.com",
+    "Discord": "https://discord.com/Amit kumar/amitkumar0846",
+    "LeetCode": "https://leetcode.com/u/Amitkumar90/",
+    "YouTube": "https://www.youtube.com/@TechieHelp",
+    "Unstop": "https://unstop.com/u/amitkum6013"
+  }
+}

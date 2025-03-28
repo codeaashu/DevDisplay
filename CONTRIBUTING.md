@@ -63,7 +63,24 @@ Starring the repository is a mandatory step for all contributors and the first p
        "Twitter": "https://twitter.com/your-twitter-username",
        "LinkedIn": "https://www.linkedin.com/in/your-linkedin-username",
        "Instagram": "https://www.instagram.com/your-instgram-username",
-       "Email": "your-email-id"
+       "Email": "your-email-id",
+       "Discord": "https://discord.com/users/your-discord-id",
+       "LeetCode": "https://leetcode.com/your-leetcode-username",
+       "Codeforces": "https://codeforces.com/profile/your-codeforces-username",
+       "HackerRank": "https://www.hackerrank.com/your-hackerrank-username",
+       "StackOverflow": "https://stackoverflow.com/users/your-stackoverflow-id",
+       "YouTube": "https://www.youtube.com/c/your-youtube-channel",
+       "DevTo": "https://dev.to/your-dev-profile",
+       "Hashnode": "https://hashnode.com/@your-hashnode-username",
+       "Behance": "https://www.behance.net/your-behance-profile",
+       "Dribbble": "https://dribbble.com/your-dribbble-profile",
+       "Figma": "https://www.figma.com/@your-figma-profile",
+       "Replit": "https://replit.com/@your-replit-username",
+       "BuyMeACoffee": "https://www.buymeacoffee.com/your-coffee-profile",
+       "ProductHunt": "https://www.producthunt.com/@your-producthunt-profile",
+       "Medium": "https://medium.com/@your-medium-profile",
+       "Reddit": "https://www.reddit.com/user/your-reddit-username",
+       "Unstop": "https://unstop.com/@your-unstop-username"
      }
    }
    ```

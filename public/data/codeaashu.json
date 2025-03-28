@@ -1,7 +1,7 @@
 {
   "name": "Ashutosh Singh",
   "location": "Bharat",
-  "bio": "Building 🌐 DevDisplay • A creative Full Stack Web Developer & A reliable designer you can rely on for all your design needs • Till now build 50+ WEB APP • Trailblazer",
+  "bio": "Building 🌐 DevDisplay • A creative Full Stack Web App Developer & UI Designer • Till now build 50+ WEB APP • Open Source & JavaScript Enthusiasm",
   "avatar": "https://github.com/codeaashu.png",
   "portfolio": "https://ashutosh-kumar.vercel.app",
   "skills": [
@@ -52,5 +52,6 @@
     "LinkedIn": "https://www.linkedin.com/in/ashutoshkumaraashu/",
     "Instagram": "https://www.instagram.com/warrior_aashuu/",
     "Email": "hellow.ashutosh@gmail.com"
-  }
+  },
+  "verified": true
 }

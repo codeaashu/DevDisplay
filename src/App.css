@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+html,
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* existing styles */
+
 @media (max-width: 768px) {
   .App > div {
     margin-left: 0px;
@@ -9,7 +18,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(43, 58, 88);
+  background: rgb(41, 54, 81);
   border: 2px solid transparent;
   border-radius: 8px;
   background-clip: content-box;
@@ -29,7 +38,7 @@
   border-radius: 5px;
 }
 
-div .gt_float_switcher {
+/* div .gt_float_switcher {
   font-size: 14px;
   border-radius: 10px;
 }
@@ -37,7 +46,7 @@ div .gt_float_switcher {
 .language-dropdown .gtranslate_wrapper {
   max-height: 200px;
   overflow-y: auto;
-}
+} */
 
 /* .hero-section {
   background: radial-gradient(circle, rgba(0, 0, 0) 1px, transparent 1px),
@@ -55,9 +64,9 @@ div .gt_float_switcher {
   align-items: center;
   justify-content: center;
   background-size: 40px 40px;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-  background-color: #141d2f; /* Adjust color as desired */
+  background-image: linear-gradient(to right, rgba(0, 62, 81, 0.251) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 62, 81, 0.251) 1px, transparent 1px);
+  background-color: #091224; /* Adjust color as desired */
 }
 
 .background-wrapper1 {
@@ -66,13 +75,42 @@ div .gt_float_switcher {
   flex-direction: column;
   align-items: center;
   background-size: 40px 40px;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-  background-color: #141d2f; /* Adjust color as desired */
+  background-image: linear-gradient(to right, rgba(0, 62, 81, 0.251) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 62, 81, 0.251) 1px, transparent 1px);
+  background-color: #091224; /* Adjust color as desired */
 }
 
 .globe-container {
   width: 600px;
   height: 600px;
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .App {
+    width: 100vw; /* Ensure exact viewport width */
+    max-width: 100vw;
+    overflow-x: hidden;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .App > div {
+    width: 100% !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border: none; /* Ensure no border is present */
+  }
+
+  .App .w-full {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border: none; /* Ensure no border is present */
+  }
+
+  .profile-card {
+    margin: 12px 0;
+  }
 }

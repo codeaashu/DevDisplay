@@ -1,0 +1,37 @@
+{
+  "name": "Rehan Hussain Pinjari",
+  "location": "Kurnool",
+  "bio": "Innovative Full Stack Developer passionate about crafting engaging Websites & Apps. With a strong focus on user-centric designs, scalable development, and effective collaboration, I strive to create impactful digital experiences. I combine creativity, technical expertise, and reliability to deliver exceptional results in every project",
+  "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQH_uNwUeED39g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1689048861941?e=1744243200&v=beta&t=DRDXzRPdJSp7hkSrGxYaJYVntsrNmHpOKEj0mnZhUGg",
+  "portfolio": "https://github.com/rehan-rh",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "MongoDB",
+    "Express.js",
+    "React",
+    "Node.js",
+    "Redux",
+    "Web Development",
+    "Frontend",
+    "Backend",
+    "Git",
+    "GitHub",
+    "MERN",
+    "SQL",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Java",
+    "Python",
+    "EJS",
+    "Postman"
+  ],
+  "social": {
+    "GitHub": "https://github.com/rehan-rh",
+    "Twitter": "#",
+    "LinkedIn": "https://www.linkedin.com/in/pinjari-rehan-hussain-191517280/",
+    "Instagram": "#",
+    "Email": "rehanhussain0842@gmail.com"
+  }
+}

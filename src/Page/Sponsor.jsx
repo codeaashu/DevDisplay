@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import { SupportedBy } from './Home';
-
+import { SupportersComponent } from './Home';
 const SponsorUs = () => {
   return (
     <div className="bg-gray-900 text-white">
@@ -91,7 +90,7 @@ const SponsorUs = () => {
           We appreciate your support and look forward to collaborating with you!
         </p>
       </div>
-      <SupportedBy />
+      <SupportersComponent />
     </div>
   );
 };

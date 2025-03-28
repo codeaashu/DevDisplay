@@ -575,15 +575,16 @@ html.light {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'MerriweatherSans-Light', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--primary-color);
+  background-color: var(--textPrimary);
   color: var(--text-color);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'MerriweatherSans-SemiBold', 'MerriweatherSans-Light',
+    monospace;
 }
 
 @media (max-width: 480px) {

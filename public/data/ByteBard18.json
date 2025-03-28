@@ -1,0 +1,14 @@
+{
+  "name": "Advait Thakar",
+  "location": "Ahmedabad",
+  "bio": "A motivated techie with focus on DSA and backend development. Passionate about problem solving, collaboration and continuosly enhancing technical skills in Software Engineering.",
+  "avatar": "https://github.com/ByteBard18.png",
+  "portfolio": "https://github.com/ByteBard18",
+  "skills": ["Javascript", "Node.js", "Express.js", "PostgreSQL", "MongoDB", "Prisma", "DBMS", "DSA"],
+  "social": {
+    "GitHub": "https://github.com/ByteBard18",
+    "Twitter": "https://x.com/AdvaitThakar",
+    "LinkedIn": "https://www.linkedin.com/in/advaitthakar",
+    "Email": "thakaradvait1804@gmail.com"
+  }
+}
