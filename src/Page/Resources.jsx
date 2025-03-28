@@ -392,12 +392,6 @@ const ResourcesCards = () => {
       tags: ['Coding Platforms', 'Coding', 'Challenges', 'Competitive Programming'],
     },
     {
-      title: '',
-      description: '',
-      link: '/',
-      tags: [],
-    },
-    {
       title: 'Resource Sharing Hub',
       description: 'Share and explore valuable resources for developers',
       link: '/ResourceSharing',
