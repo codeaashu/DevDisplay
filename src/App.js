@@ -36,13 +36,13 @@ import OpenSource from './Page/OpportunitiesHub/OpenSource.jsx';
 // Features - Resources Hub Pages
 import Resources from './Page/Resources.jsx';
 import Documentation from './Page/ResoucesHub/Documentation.jsx';
-import ProgrammingLanguages from './Page/ResoucesHub/ProgrammingLanguages.jsx';
-import TechNotes from './Page/ResoucesHub/TechNotes.jsx';
+import Courses from './Page/ResoucesHub/Courses.jsx';
+import Notes from './Page/ResoucesHub/Notes.jsx';
 import AITools from './Page/ResoucesHub/AITools.jsx';
-import RoadmapGuide from './Page/ResoucesHub/RoadmapGuide.jsx';
-import InterviewPrep from './Page/ResoucesHub/InterviewPrep.jsx';
-import TopGithubRepo from './Page/ResoucesHub/TopGithubRepo.jsx';
-import ContributionsGuide from './Page/ResoucesHub/ContributionsGuide.jsx';
+import Roadmaps from './Page/ResoucesHub/Roadmaps.jsx';
+import Libraries from './Page/ResoucesHub/Libraries.jsx';
+import Preparation from './Page/ResoucesHub/Preparation.jsx';
+import UsefulRepo from './Page/ResoucesHub/UsefulRepo.jsx';
 import PageNotFound from './Page/PageNotFound.jsx';
 import ProfilePage from './components/Profile/ProfilePage';
 
@@ -124,14 +124,14 @@ function App() {
         <Route path="/OpenSource" element={<OpenSource />} />
         {/* Features - Resources Hub Pages */}
         <Route path="/Resources" element={<Resources />} />
-        <Route path="/documentation" element={<Documentation />} />
-        <Route path="/courses" element={<ProgrammingLanguages />} />
-        <Route path="/notes" element={<TechNotes />} />
-        <Route path="/ai-tools" element={<AITools />} />
-        <Route path="/roadmaps" element={<RoadmapGuide />} />
-        <Route path="/interview-kits" element={<InterviewPrep />} />
-        <Route path="/github" element={<TopGithubRepo />} />
-        <Route path="/community" element={<ContributionsGuide />} />
+        <Route path="/Documentation" element={<Documentation />} />
+        <Route path="/Courses" element={<Courses />} />
+        <Route path="/Notes" element={<Notes />} />
+        <Route path="/AITools" element={<AITools />} />
+        <Route path="/Roadmaps" element={<Roadmaps />} />
+        <Route path="/Libraries" element={<Libraries />} />
+        <Route path="/Preparation" element={<Preparation />} />
+        <Route path="/UsefulRepo" element={<UsefulRepo />} />
         <Route path="/profile/:name" element={<ProfilePage />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>

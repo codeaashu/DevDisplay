@@ -143,10 +143,10 @@ const Developers = () => (
     <div className="flex gap-4">
       <div>
         <h3 className="mb-2 text-sm font-medium">Resources</h3>
-        <a href="#" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/notes" className="block text-sm text-neutral-400">
           Notes
         </a>
-        <a href="#" className="mb-1 block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/courses" className="mb-1 block text-sm text-neutral-400">
           Courses
         </a>
         <a href="#" className="block text-sm text-neutral-400">
@@ -158,7 +158,7 @@ const Developers = () => (
         <a href="#" className="block text-sm text-neutral-400">
           Roadmaps
         </a>
-        <a href="#" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/interview-kits" className="block text-sm text-neutral-400">
           Preparation
         </a>
         <a href="#" className="block text-sm text-neutral-400">
