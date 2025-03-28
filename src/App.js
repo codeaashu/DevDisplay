@@ -46,11 +46,10 @@ import UsefulRepo from './Page/ResoucesHub/UsefulRepo.jsx';
 import ResearchPaper from './Page/ResoucesHub/ResearchPaper.jsx';
 import APIs from './Page/ResoucesHub/APIs.jsx';
 import CodingPlatforms from './Page/ResoucesHub/CodingPlatforms.jsx';
-import ResourceSharingHub from './Page/ResourceSharingHub.jsx';
+import DevShare from './Page/ResoucesHub/DevShare.jsx';
 
 import PageNotFound from './Page/PageNotFound.jsx';
 import ProfilePage from './components/Profile/ProfilePage';
-
 
 function App() {
   React.useEffect(() => {
@@ -141,7 +140,7 @@ function App() {
         <Route path="/ResearchPaper" element={<ResearchPaper />} />
         <Route path="/APIs" element={<APIs />} />
         <Route path="/CodingPlatforms" element={<CodingPlatforms />} />
-        <Route path="/ResourceSharing" element={<ResourceSharingHub />} />
+        <Route path="/DevShare" element={<DevShare />} />
 
         <Route path="/profile/:name" element={<ProfilePage />} />
         <Route path="*" element={<PageNotFound />} />

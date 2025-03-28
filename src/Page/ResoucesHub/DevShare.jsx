@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import useDebounce from '../hooks/useDebouncer';
+import useDebounce from '../../hooks/useDebouncer';
 import { FaThumbsUp, FaThumbsDown, FaLink, FaPlus } from 'react-icons/fa';
 
 const ResourceSharingHub = () => {
