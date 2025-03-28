@@ -391,12 +391,6 @@ const ResourcesCards = () => {
       link: '/CodingPlatforms',
       tags: ['Coding Platforms', 'Coding', 'Challenges', 'Competitive Programming'],
     },
-    {
-      title: '',
-      description: '',
-      link: '/',
-      tags: [],
-    },
   ];
 
   const filteredResources = resources.filter((resources) => {
