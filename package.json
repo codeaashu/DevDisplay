@@ -16,7 +16,7 @@
     "devdisplay": "file:",
     "flag": "^5.0.1",
     "framer-motion": "^11.18.2",
-    "lucide-react": "^0.460.0",
+    "lucide-react": "^0.485.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.5",
