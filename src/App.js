@@ -38,11 +38,15 @@ import Resources from './Page/Resources.jsx';
 import Documentation from './Page/ResoucesHub/Documentation.jsx';
 import Courses from './Page/ResoucesHub/Courses.jsx';
 import Notes from './Page/ResoucesHub/Notes.jsx';
-import AITools from './Page/ResoucesHub/AITools.jsx';
+import DevTools from './Page/ResoucesHub/DevTools.jsx';
 import Roadmaps from './Page/ResoucesHub/Roadmaps.jsx';
 import Libraries from './Page/ResoucesHub/Libraries.jsx';
 import Preparation from './Page/ResoucesHub/Preparation.jsx';
 import UsefulRepo from './Page/ResoucesHub/UsefulRepo.jsx';
+import ResearchPaper from './Page/ResoucesHub/ResearchPaper.jsx';
+import APIs from './Page/ResoucesHub/APIs.jsx';
+import CodingPlatforms from './Page/ResoucesHub/CodingPlatforms.jsx';
+
 import PageNotFound from './Page/PageNotFound.jsx';
 import ProfilePage from './components/Profile/ProfilePage';
 
@@ -127,11 +131,15 @@ function App() {
         <Route path="/Documentation" element={<Documentation />} />
         <Route path="/Courses" element={<Courses />} />
         <Route path="/Notes" element={<Notes />} />
-        <Route path="/AITools" element={<AITools />} />
+        <Route path="/DevTools" element={<DevTools />} />
         <Route path="/Roadmaps" element={<Roadmaps />} />
         <Route path="/Libraries" element={<Libraries />} />
         <Route path="/Preparation" element={<Preparation />} />
         <Route path="/UsefulRepo" element={<UsefulRepo />} />
+        <Route path="/ResearchPaper" element={<ResearchPaper />} />
+        <Route path="/APIs" element={<APIs />} />
+        <Route path="/CodingPlatforms" element={<CodingPlatforms />} />
+
         <Route path="/profile/:name" element={<ProfilePage />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>

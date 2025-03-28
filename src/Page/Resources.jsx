@@ -344,10 +344,10 @@ const ResourcesCards = () => {
       tags: ['Docs', 'Documentation', 'Guides'],
     },
     {
-      title: 'AI Tools Directory',
-      description: 'Explore powerful AI tools for various use cases.',
-      link: '/AITools',
-      tags: ['AI', 'Tools', 'Directory', 'AI tools Hub', 'Developer Tools'],
+      title: 'Dev Tools Directory',
+      description: 'Explore powerful Developer tools for various use cases.',
+      link: '/DevTools',
+      tags: ['AI Tools', 'Productive Tools', 'Developer Tools'],
     },
     {
       title: 'Valuable Repositories',
@@ -372,6 +372,30 @@ const ResourcesCards = () => {
       description: 'Resources and kits to ace your tech interviews and exams.',
       link: '/Preparation',
       tags: ['Interviews', 'Preparation', 'Resources', 'Exam Preparation'],
+    },
+    {
+      title: 'Research Paper',
+      description: 'Read and explore research papers on various tech topics.',
+      link: '/ResearchPaper',
+      tags: ['Research Papers', 'Papers', 'Research', 'Tech'],
+    },
+    {
+      title: 'Useful APIs',
+      description: 'Explore and use useful APIs for your projects and applications.',
+      link: '/APIs',
+      tags: ['APIs', 'Tools', 'Development', 'Projects', 'Free APIs', 'Paid APIs'],
+    },
+    {
+      title: 'Coding Platforms',
+      description: 'Practice coding and participate in coding challenges on these platforms.',
+      link: '/CodingPlatforms',
+      tags: ['Coding Platforms', 'Coding', 'Challenges', 'Competitive Programming'],
+    },
+    {
+      title: '',
+      description: '',
+      link: '/',
+      tags: [],
     },
   ];
 
