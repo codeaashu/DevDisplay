@@ -1,17 +1,28 @@
 {
-    "name": "Advait Thakar",
-    "location": "Ahmedabad, Gujarat, India",
-    "bio": "A motivated techie, with a focus on Data Structures, Algorithms, and Backend Development. Passionate about problem-solving and collaboration.",
-    "avatar": "https://github.com/Thakar-Advait.png",
-    "portfolio": "https://github.com/Thakar-Advait",
-    "skills": ["Javascript", "Node.js", "Express.js", "SQL", "Redis", "PostgreSQL", "MongoDB", "Web Development", "Backend", "Git"],
-    "social": {
-      "GitHub": "https://github.com/Thakar-Advait",
-      "Twitter": "https://x.com/AdvaitThakar",
-      "LinkedIn": "https://www.linkedin.com/in/advaitthakar/",
-      "Email": "advaitthakar18@gmail.com",
-      "LeetCode": "https://leetcode.com/u/adirocks185/",
-      "Medium": "https://medium.com/@thakaradvait1804",
-      "Unstop": "https://unstop.com/u/advaitha1966"
-    }
+  "name": "Advait Thakar",
+  "location": "Ahmedabad, Gujarat, India",
+  "bio": "A motivated techie, with a focus on Data Structures, Algorithms, and Backend Development. Passionate about problem-solving and collaboration.",
+  "avatar": "https://github.com/Thakar-Advait.png",
+  "portfolio": "https://github.com/Thakar-Advait",
+  "skills": [
+    "Javascript",
+    "Node.js",
+    "Express.js",
+    "SQL",
+    "Redis",
+    "PostgreSQL",
+    "MongoDB",
+    "Web Development",
+    "Backend",
+    "Git"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Thakar-Advait",
+    "Twitter": "https://x.com/AdvaitThakar",
+    "LinkedIn": "https://www.linkedin.com/in/advaitthakar/",
+    "Email": "advaitthakar18@gmail.com",
+    "LeetCode": "https://leetcode.com/u/adirocks185/",
+    "Medium": "https://medium.com/@thakaradvait1804",
+    "Unstop": "https://unstop.com/u/advaitha1966"
   }
+}
