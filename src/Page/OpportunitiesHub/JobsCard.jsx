@@ -15,7 +15,7 @@ const shareContent = (url) => {
   }
 };
 
-const Card1 = () => {
+const Adove = () => {
   const cardUrl = 'https://www.devdisplay.org/Jobs#Card1';
   return (
     <div id="Card1" className="group relative mx-auto w-full max-w-[30rem]">
@@ -168,7 +168,7 @@ const Card1 = () => {
   );
 };
 
-const Card2 = () => {
+const HP = () => {
   const cardUrl = 'https://www.devdisplay.org/Jobs#Card2';
   return (
     <div id="Card1" className="group relative mx-auto w-full max-w-[30rem]">
@@ -937,8 +937,8 @@ const JobsCard = () => {
   return (
     <>
       <div className="grid grid-cols-1 gap-6 px-3 sm:gap-4 md:grid-cols-2 lg:grid-cols-3">
-        <Card1 />
-        <Card2 />
+        <Adove />
+        <HP />
         <Card3 />
         <Card4 />
         <Card5 />
