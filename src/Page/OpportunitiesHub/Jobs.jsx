@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { ArrowLeft, Search } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { Footer } from '../../components/Footer/Footer';
 import styled from 'styled-components'; // Import styled-components
 import Marquee from 'react-fast-marquee'; // Import Marquee
@@ -25,21 +25,6 @@ const Navbar = () => {
   );
 };
 
-const SearchBar = ({ onSearch }) => {
-  return (
-    <div className="relative mx-auto max-w-2xl">
-      <div className="relative">
-        <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 transform text-gray-400" />
-        <input
-          type="text"
-          placeholder="Search Opportunities..."
-          onChange={(e) => onSearch(e.target.value)}
-          className="w-full rounded-full border border-[#00a6fb] bg-[rgba(15,27,53,0.9)] py-3 pl-12 pr-4 text-white placeholder-gray-400 outline-none ring-2 ring-transparent transition-all focus:ring-[#00a6fb]"
-        />
-      </div>
-    </div>
-  );
-};
 
 const Hero = () => {
   return (
@@ -325,186 +310,6 @@ const Tags = () => {
   );
 };
 
-const OpportunitiesCards = () => {
-  const [searchTerm, setSearchTerm] = useState('');
-
-  const Opportunities = [
-    {
-      title: 'Hybrid & Onsite Jobs',
-      description: 'Official Hybrid & Onsite Jobs for popular libraries and frameworks.',
-      link: '/HybridOnsiteJobs',
-      tags: ['docs', 'reference', 'api', 'guides'],
-    },
-    {
-      title: 'Remote Jobs',
-      description: 'Courses for learning popular programming languages.',
-      link: '/RemoteJobs',
-      tags: ['courses', 'programming', 'education'],
-    },
-    {
-      title: 'Internships',
-      description: 'Comprehensive notes to simplify your learning process.',
-      link: '/Internships',
-      tags: ['notes', 'learning', 'Opportunities'],
-    },
-    {
-      title: 'Freelance Work',
-      description: 'Discover trending and valuable GitHub repositories.',
-      link: '/FreelanceWork',
-      tags: ['github', 'opensource', 'projects'],
-    },
-    {
-      title: 'Hackathons & Competitions',
-      description: 'Explore powerful AI tools for various use cases.',
-      link: '/Hackathons',
-      tags: ['ai', 'tools', 'directory'],
-    },
-    {
-      title: 'Tech Events & Tech Fest',
-      description: 'Explore contributions from the global tech community.',
-      link: '/TechFestEvents',
-      tags: ['community', 'contributions', 'projects'],
-    },
-    {
-      title: 'Bootcamps',
-      description: 'Find and use open-source libraries to accelerate development.',
-      link: '/Bootcamps',
-      tags: ['opensource', 'libraries', 'frameworks'],
-    },
-    {
-      title: 'Certifications & Skill Development',
-      description: 'Structured roadmaps and guides for developers.',
-      link: '/Certifications',
-      tags: ['roadmaps', 'guides', 'developers'],
-    },
-    {
-      title: 'OpenSource Program',
-      description: 'Opportunities and kits to ace your tech interviews.',
-      link: '/OpenSourceProgram',
-      tags: ['interviews', 'preparation', 'Opportunities'],
-    },
-  ];
-
-  const filteredOpportunities = Opportunities.filter((Opportunities) => {
-    const searchContent =
-      `${Opportunities.title} ${Opportunities.description} ${Opportunities.tags.join(' ')}`.toLowerCase();
-    return searchContent.includes(searchTerm.toLowerCase());
-  });
-
-  const handleSearch = (value) => {
-    setSearchTerm(value);
-  };
-
-  return (
-    <section className="Opportunities-section mx-auto w-full px-4 py-8 text-white lg:max-w-[80%]">
-      <div className="mx-auto mb-8 text-center">
-        {/* <h2 className="mb-4 text-4xl font-bold text-[#00a6fb]">Top Tech Opportunities</h2>
-        <p className="mx-auto mb-8 max-w-3xl px-4 text-xl">
-          Everything you need to grow, learn, and build in the tech industry.
-        </p> */}
-        <div className="mx-4">
-          <SearchBar onSearch={handleSearch} />
-        </div>
-      </div>
-
-      {filteredOpportunities.length === 0 ? (
-        <div className="py-8 text-center">
-          <p className="text-xl text-gray-400">No Opportunities found matching your search.</p>
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 gap-6 px-3 sm:gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {filteredOpportunities.map((Opportunities, index) => (
-            <StyledDot key={index}>
-              <a
-                href={Opportunities.link}
-                className="Opportunities-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 text-center shadow-lg transition duration-300 hover:scale-105 hover:transform"
-              >
-                <span className="absolute inset-0"></span>
-                <div className="project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
-                  <div>
-                    <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">{Opportunities.title}</h3>
-                    <p className="flex-grow text-xs text-gray-300 sm:text-sm">{Opportunities.description}</p>
-                    <div className="mb-4 mt-2 flex flex-wrap justify-center gap-1">
-                      {Opportunities.tags.map((tag, tagIndex) => (
-                        <span
-                          key={tagIndex}
-                          className="rounded-full border border-[#00a6fb] bg-gray-900 px-1.5 py-0.5 text-[10px] text-gray-300 sm:px-2 sm:py-1 sm:text-xs"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                  <StyledButton onClick={() => (window.location.href = '/opportunities')}>
-                    <div className="blob1" />
-                    <div className="inner">Explore Now</div>
-                  </StyledButton>
-                </div>
-                <div className="dot" />
-              </a>
-            </StyledDot>
-          ))}
-        </div>
-      )}
-      <style>
-        {`
-          @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
-
-          @font-face {
-            font-family: "MerriweatherSans-SemiBold";
-            src: url('/fonts/MerriweatherSans-SemiBold.ttf') format('truetype');
-            font-weight: normal;
-            font-style: normal;
-          }
-
-          @keyframes border-pulse {
-            0% {
-              border-color: rgba(0, 172, 255, 0.5);
-              box-shadow: 0 0 10px rgba(0, 172, 255, 0.3);
-            }
-            50% {
-              border-color: rgba(0, 172, 255, 0.8);
-              box-shadow: 0 0 20px rgba(0, 172, 255, 0.6);
-            }
-            100% {
-              border-color: rgba(0, 172, 255, 0.5);
-              box-shadow: 0 0 10px rgba(0, 172, 255, 0.3);
-            }
-          }
-
-          .animate-border-glow {
-            position: absolute;
-            width: 250%;
-            height: 250%;
-            background: linear-gradient(90deg, rgba(0, 172, 255, 0.6), rgba(1, 114, 142, 0.9), rgba(0, 172, 255, 0.6));
-            top: -75%;
-            left: -75%;
-            opacity: 0.5;
-            filter: blur(10px);
-            animation: border-glow 4s infinite linear;
-          }
-
-          .group:hover .animate-border-glow {
-            opacity: 0.8;
-            filter: blur(15px);
-          }
-
-          .group:hover {
-            animation: border-pulse 1.5s infinite;
-          }
-
-          .custom-font {
-            font-family: "MerriweatherSans-SemiBold", sans-serif;
-          }
-
-          .Opportunities-section {
-            font-family: 'Merriweather Sans', sans-serif;
-          }
-        `}
-      </style>
-    </section>
-  );
-};
 
 const StyledButton = styled.button`
   cursor: pointer;
@@ -959,7 +764,7 @@ const HybridOnsiteJobs = () => {
       <Tags />
       <JobAlerts />
       <HybridOnsiteCard />
-      <OpportunitiesCards />
+      <div className="my-8"></div> {/* Adds vertical spacing */}
       <Footer />
     </div>
   );
