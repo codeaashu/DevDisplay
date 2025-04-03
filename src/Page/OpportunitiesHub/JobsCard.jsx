@@ -16,7 +16,7 @@ const shareContent = (url) => {
 };
 
 const Card1 = () => {
-  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card1';
+  const cardUrl = 'https://www.devdisplay.org/Jobs#Card1';
   return (
     <div id="Card1" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
@@ -27,14 +27,12 @@ const Card1 = () => {
             <div className="flex gap-4">
               <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
-                <svg className="h-10 w-10 text-emerald-500" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z" />
-                </svg>
+                <img src="/assets/Company/Adobe.png" alt="Custom Icon" className="h-10 w-10" />
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-white">Senior Product Designer</h3>
+                <h3 className="text-lg font-semibold text-white">Software Development Engineer</h3>
                 <div className="mt-1 flex items-center gap-2">
-                  <span className="text-sm text-slate-400">TechCorp Inc.</span>
+                  <span className="text-sm text-slate-400">Adobe</span>
                   <span className="inline-block h-1 w-1 rounded-full bg-slate-400" />
                   <div className="flex items-center gap-1">
                     <svg className="h-4 w-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
@@ -129,7 +127,12 @@ const Card1 = () => {
             </div>
           </div>
           <div className="mt-8 flex gap-3">
-            <button className="group/btn relative flex-1 overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 p-px font-semibold text-white">
+            <a
+              href="https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR154908EXTERNALENUS"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group/btn relative flex-1 overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 p-px font-semibold text-white"
+            >
               <div className="relative rounded-xl bg-slate-950 px-4 py-3 transition-all duration-300 group-hover/btn:bg-opacity-0">
                 <span className="relative flex items-center justify-center gap-2">
                   Apply Now
@@ -143,7 +146,7 @@ const Card1 = () => {
                   </svg>
                 </span>
               </div>
-            </button>
+            </a>
             <button
               onClick={() => shareContent(cardUrl)}
               className="flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-3 font-semibold text-white transition-colors hover:bg-slate-800"
@@ -166,7 +169,7 @@ const Card1 = () => {
 };
 
 const Card2 = () => {
-  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card2';
+  const cardUrl = 'https://www.devdisplay.org/Jobs#Card2';
   return (
     <div id="Card1" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
@@ -177,9 +180,7 @@ const Card2 = () => {
             <div className="flex gap-4">
               <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
-                <svg className="h-10 w-10 text-emerald-500" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z" />
-                </svg>
+                <img src="/assets/Company/HP.png" alt="Custom Icon" className="h-10 w-10" />
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-white">Senior Product Designer</h3>
@@ -279,7 +280,12 @@ const Card2 = () => {
             </div>
           </div>
           <div className="mt-8 flex gap-3">
-            <button className="group/btn relative flex-1 overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 p-px font-semibold text-white">
+          <a
+              href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bangalore-Karnataka-India/Business-Operations-Associate_3148817-1/apply?src=HPCompanyWebsite"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group/btn relative flex-1 overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 p-px font-semibold text-white"
+            >
               <div className="relative rounded-xl bg-slate-950 px-4 py-3 transition-all duration-300 group-hover/btn:bg-opacity-0">
                 <span className="relative flex items-center justify-center gap-2">
                   Apply Now
@@ -293,7 +299,7 @@ const Card2 = () => {
                   </svg>
                 </span>
               </div>
-            </button>
+            </a>
             <button
               onClick={() => shareContent(cardUrl)}
               className="flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-3 font-semibold text-white transition-colors hover:bg-slate-800"
@@ -316,7 +322,7 @@ const Card2 = () => {
 };
 
 const Card3 = () => {
-  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card3';
+  const cardUrl = 'https://www.devdisplay.org/Jobs#Card3';
   return (
     <div id="Card1" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
@@ -327,9 +333,7 @@ const Card3 = () => {
             <div className="flex gap-4">
               <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
-                <svg className="h-10 w-10 text-emerald-500" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z" />
-                </svg>
+                <img src="/assets/Company/Adobe.png" alt="Custom Icon" className="h-10 w-10" />
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-white">Senior Product Designer</h3>
@@ -429,7 +433,12 @@ const Card3 = () => {
             </div>
           </div>
           <div className="mt-8 flex gap-3">
-            <button className="group/btn relative flex-1 overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 p-px font-semibold text-white">
+          <a
+              href="https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR154908EXTERNALENUS"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group/btn relative flex-1 overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 p-px font-semibold text-white"
+            >
               <div className="relative rounded-xl bg-slate-950 px-4 py-3 transition-all duration-300 group-hover/btn:bg-opacity-0">
                 <span className="relative flex items-center justify-center gap-2">
                   Apply Now
@@ -443,7 +452,7 @@ const Card3 = () => {
                   </svg>
                 </span>
               </div>
-            </button>
+            </a>
             <button
               onClick={() => shareContent(cardUrl)}
               className="flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-3 font-semibold text-white transition-colors hover:bg-slate-800"
@@ -466,7 +475,7 @@ const Card3 = () => {
 };
 
 const Card4 = () => {
-  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card4';
+  const cardUrl = 'https://www.devdisplay.org/Jobs#Card4';
   return (
     <div id="Card1" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
@@ -477,9 +486,7 @@ const Card4 = () => {
             <div className="flex gap-4">
               <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
-                <svg className="h-10 w-10 text-emerald-500" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z" />
-                </svg>
+                <img src="/assets/Company/Adobe.png" alt="Custom Icon" className="h-10 w-10" />
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-white">Senior Product Designer</h3>
@@ -579,7 +586,12 @@ const Card4 = () => {
             </div>
           </div>
           <div className="mt-8 flex gap-3">
-            <button className="group/btn relative flex-1 overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 p-px font-semibold text-white">
+          <a
+              href="https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR154908EXTERNALENUS"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group/btn relative flex-1 overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 p-px font-semibold text-white"
+            >
               <div className="relative rounded-xl bg-slate-950 px-4 py-3 transition-all duration-300 group-hover/btn:bg-opacity-0">
                 <span className="relative flex items-center justify-center gap-2">
                   Apply Now
@@ -593,7 +605,7 @@ const Card4 = () => {
                   </svg>
                 </span>
               </div>
-            </button>
+            </a>
             <button
               onClick={() => shareContent(cardUrl)}
               className="flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-3 font-semibold text-white transition-colors hover:bg-slate-800"
@@ -616,7 +628,7 @@ const Card4 = () => {
 };
 
 const Card5 = () => {
-  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card5';
+  const cardUrl = 'https://www.devdisplay.org/Jobs#Card5';
   return (
     <div id="Card1" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
@@ -627,9 +639,7 @@ const Card5 = () => {
             <div className="flex gap-4">
               <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
-                <svg className="h-10 w-10 text-emerald-500" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z" />
-                </svg>
+                <img src="/assets/Company/Adobe.png" alt="Custom Icon" className="h-10 w-10" />
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-white">Senior Product Designer</h3>
@@ -729,7 +739,12 @@ const Card5 = () => {
             </div>
           </div>
           <div className="mt-8 flex gap-3">
-            <button className="group/btn relative flex-1 overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 p-px font-semibold text-white">
+          <a
+              href="https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR154908EXTERNALENUS"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group/btn relative flex-1 overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 p-px font-semibold text-white"
+            >
               <div className="relative rounded-xl bg-slate-950 px-4 py-3 transition-all duration-300 group-hover/btn:bg-opacity-0">
                 <span className="relative flex items-center justify-center gap-2">
                   Apply Now
@@ -743,7 +758,7 @@ const Card5 = () => {
                   </svg>
                 </span>
               </div>
-            </button>
+            </a>
             <button
               onClick={() => shareContent(cardUrl)}
               className="flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-3 font-semibold text-white transition-colors hover:bg-slate-800"
@@ -766,7 +781,7 @@ const Card5 = () => {
 };
 
 const Card6 = () => {
-  const cardUrl = 'https://www.devdisplay.org/HybridOnsiteJobs#Card6';
+  const cardUrl = 'https://www.devdisplay.org/Jobs#Card6';
   return (
     <div id="Card1" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
@@ -777,9 +792,7 @@ const Card6 = () => {
             <div className="flex gap-4">
               <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
-                <svg className="h-10 w-10 text-emerald-500" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z" />
-                </svg>
+                <img src="/assets/Company/Adobe.png" alt="Custom Icon" className="h-10 w-10" />
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-white">Senior Product Designer</h3>
@@ -879,7 +892,12 @@ const Card6 = () => {
             </div>
           </div>
           <div className="mt-8 flex gap-3">
-            <button className="group/btn relative flex-1 overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 p-px font-semibold text-white">
+          <a
+              href="https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR154908EXTERNALENUS"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group/btn relative flex-1 overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 p-px font-semibold text-white"
+            >
               <div className="relative rounded-xl bg-slate-950 px-4 py-3 transition-all duration-300 group-hover/btn:bg-opacity-0">
                 <span className="relative flex items-center justify-center gap-2">
                   Apply Now
@@ -893,7 +911,7 @@ const Card6 = () => {
                   </svg>
                 </span>
               </div>
-            </button>
+            </a>
             <button
               onClick={() => shareContent(cardUrl)}
               className="flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-3 font-semibold text-white transition-colors hover:bg-slate-800"
@@ -915,7 +933,7 @@ const Card6 = () => {
   );
 };
 
-const HybridOnsiteCard = () => {
+const JobsCard = () => {
   return (
     <>
       <div className="grid grid-cols-1 gap-6 px-3 sm:gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -930,4 +948,4 @@ const HybridOnsiteCard = () => {
   );
 };
 
-export default HybridOnsiteCard;
+export default JobsCard;
