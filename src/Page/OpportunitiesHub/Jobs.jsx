@@ -4,7 +4,7 @@ import { ArrowLeft } from 'lucide-react';
 import { Footer } from '../../components/Footer/Footer';
 import styled from 'styled-components';
 import Marquee from 'react-fast-marquee';
-import JobsCard from './JobsCard';
+import JobsList from './JobsList';
 
 const Navbar = () => {
   return (
@@ -725,7 +725,7 @@ const Jobs = () => {
       <Hero />
       <Tags />
       <JobAlerts />
-      <JobsCard />
+      <JobsList />
       <div className="my-8"></div> {/* Adds vertical spacing */}
       <Footer />
     </div>

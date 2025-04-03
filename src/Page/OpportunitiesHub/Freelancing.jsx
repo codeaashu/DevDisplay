@@ -4,7 +4,7 @@ import { ArrowLeft } from 'lucide-react';
 import { Footer } from '../../components/Footer/Footer';
 import styled from 'styled-components';
 import Marquee from 'react-fast-marquee';
-import JobsCard from './JobsCard';
+import Freelance from './FreelanceList';
 
 const Navbar = () => {
   return (
@@ -707,7 +707,7 @@ const JobAlerts = () => {
   );
 };
 
-const Jobs = () => {
+const Freelancing = () => {
   const location = useLocation();
 
   useEffect(() => {
@@ -725,11 +725,11 @@ const Jobs = () => {
       <Hero />
       <Tags />
       <JobAlerts />
-      <JobsCard />
+      <Freelance />
       <div className="my-8"></div> {/* Adds vertical spacing */}
       <Footer />
     </div>
   );
 };
 
-export default Jobs;
+export default Freelancing;

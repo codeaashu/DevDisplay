@@ -4,7 +4,7 @@ import { ArrowLeft } from 'lucide-react';
 import { Footer } from '../../components/Footer/Footer';
 import styled from 'styled-components';
 import Marquee from 'react-fast-marquee';
-import InternshipCard from './InternshipCard';
+import Internship from './InternshipList';
 
 const Navbar = () => {
   return (
@@ -737,7 +737,7 @@ const Internships = () => {
       <Hero />
       <Tags />
       <InternshipAlerts />
-      <InternshipCard />
+      <Internship />
       <div className="my-8"></div> {/* Adds vertical spacing */}
       <Footer />
     </div>

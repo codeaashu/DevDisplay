@@ -44,7 +44,7 @@ const Adove = () => {
               </div>
             </div>
             <button className="group/save flex h-10 w-10 items-center justify-center rounded-xl bg-slate-900 transition-colors hover:bg-slate-800">
-              <svg
+            <svg
                 className="h-5 w-5 text-slate-400 transition-colors group-hover/save:text-emerald-500"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -286,7 +286,7 @@ const HP = () => {
             </div>
           </div>
           <div className="mt-8 flex gap-3">
-            <a
+          <a
               href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bangalore-Karnataka-India/Business-Operations-Associate_3148817-1/apply?src=HPCompanyWebsite"
               target="_blank"
               rel="noopener noreferrer"
@@ -442,7 +442,7 @@ const Card3 = () => {
             </div>
           </div>
           <div className="mt-8 flex gap-3">
-            <a
+          <a
               href="https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR154908EXTERNALENUS"
               target="_blank"
               rel="noopener noreferrer"
@@ -598,7 +598,7 @@ const Card4 = () => {
             </div>
           </div>
           <div className="mt-8 flex gap-3">
-            <a
+          <a
               href="https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR154908EXTERNALENUS"
               target="_blank"
               rel="noopener noreferrer"
@@ -754,7 +754,7 @@ const Card5 = () => {
             </div>
           </div>
           <div className="mt-8 flex gap-3">
-            <a
+          <a
               href="https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR154908EXTERNALENUS"
               target="_blank"
               rel="noopener noreferrer"
@@ -910,7 +910,7 @@ const Card6 = () => {
             </div>
           </div>
           <div className="mt-8 flex gap-3">
-            <a
+          <a
               href="https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR154908EXTERNALENUS"
               target="_blank"
               rel="noopener noreferrer"
@@ -951,7 +951,7 @@ const Card6 = () => {
   );
 };
 
-const JobsCard = () => {
+const InternshipList = () => {
   return (
     <>
       <div className="grid grid-cols-1 gap-6 px-3 sm:gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -966,4 +966,4 @@ const JobsCard = () => {
   );
 };
 
-export default JobsCard;
+export default InternshipList;
