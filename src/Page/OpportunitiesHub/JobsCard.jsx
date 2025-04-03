@@ -16,7 +16,7 @@ const shareContent = (url) => {
 };
 
 const Adove = () => {
-  const cardUrl = 'https://www.devdisplay.org/Jobs#Card1';
+  const cardUrl = 'https://www.devdisplay.org/Jobs#Adove';
   return (
     <div id="Card1" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
@@ -169,7 +169,7 @@ const Adove = () => {
 };
 
 const HP = () => {
-  const cardUrl = 'https://www.devdisplay.org/Jobs#Card2';
+  const cardUrl = 'https://www.devdisplay.org/Jobs#HP';
   return (
     <div id="Card1" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
