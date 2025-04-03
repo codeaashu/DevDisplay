@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { ArrowLeft, Search } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { Footer } from '../../components/Footer/Footer';
-import styled from 'styled-components'; // Import styled-components
-import Marquee from 'react-fast-marquee'; // Import Marquee
-import JobsCard from './JobsCard';
+import styled from 'styled-components';
+import Marquee from 'react-fast-marquee';
+import InternshipCard from './InternshipCard';
 
 const Navbar = () => {
   return (
@@ -25,21 +25,6 @@ const Navbar = () => {
   );
 };
 
-const SearchBar = ({ onSearch }) => {
-  return (
-    <div className="relative mx-auto max-w-2xl">
-      <div className="relative">
-        <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 transform text-gray-400" />
-        <input
-          type="text"
-          placeholder="Search Opportunities..."
-          onChange={(e) => onSearch(e.target.value)}
-          className="w-full rounded-full border border-[#00a6fb] bg-[rgba(15,27,53,0.9)] py-3 pl-12 pr-4 text-white placeholder-gray-400 outline-none ring-2 ring-transparent transition-all focus:ring-[#00a6fb]"
-        />
-      </div>
-    </div>
-  );
-};
 
 const Hero = () => {
   return (
@@ -57,7 +42,7 @@ const Hero = () => {
           <div className="modgp relative inline-block w-full py-3">
             <div className="relative">
               <div className="bg-primary enabled:hover:bg-primary-dark enabled:active:bg-primary-dark enabled:focus:bg-primary-dark px-18 relative inline-flex w-full items-center justify-center rounded-lg py-5 text-6xl font-bold text-white transition-all focus:outline-none enabled:hover:shadow-md disabled:opacity-50">
-                <div className="flex w-full items-center justify-center">Hybrid & Onsite Jobs</div>
+                <div className="flex w-full items-center justify-center">Internships</div>
               </div>
             </div>
             <div className="pointer-events-none absolute inset-0">
@@ -271,7 +256,7 @@ const Tags = () => {
   return (
     <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
       <h1 className="text-md text-primary mb-8 text-center font-bold text-[#00a6fb] lg:text-2xl">
-        Companies Offering Hybrid and Onsite Jobs
+        Companies Offering Remote, Hybrid & Onsite Internships!
       </h1>
 
       {/* Right to Left Scrolling */}
@@ -325,186 +310,6 @@ const Tags = () => {
   );
 };
 
-const OpportunitiesCards = () => {
-  const [searchTerm, setSearchTerm] = useState('');
-
-  const Opportunities = [
-    {
-      title: 'Hybrid & Onsite Jobs',
-      description: 'Official Hybrid & Onsite Jobs for popular libraries and frameworks.',
-      link: '/HybridOnsiteJobs',
-      tags: ['docs', 'reference', 'api', 'guides'],
-    },
-    {
-      title: 'Remote Jobs',
-      description: 'Courses for learning popular programming languages.',
-      link: '/RemoteJobs',
-      tags: ['courses', 'programming', 'education'],
-    },
-    {
-      title: 'Internships',
-      description: 'Comprehensive notes to simplify your learning process.',
-      link: '/Internships',
-      tags: ['notes', 'learning', 'Opportunities'],
-    },
-    {
-      title: 'Freelance Work',
-      description: 'Discover trending and valuable GitHub repositories.',
-      link: '/FreelanceWork',
-      tags: ['github', 'opensource', 'projects'],
-    },
-    {
-      title: 'Hackathons & Competitions',
-      description: 'Explore powerful AI tools for various use cases.',
-      link: '/Hackathons',
-      tags: ['ai', 'tools', 'directory'],
-    },
-    {
-      title: 'Tech Events & Tech Fest',
-      description: 'Explore contributions from the global tech community.',
-      link: '/TechFestEvents',
-      tags: ['community', 'contributions', 'projects'],
-    },
-    {
-      title: 'Bootcamps',
-      description: 'Find and use open-source libraries to accelerate development.',
-      link: '/Bootcamps',
-      tags: ['opensource', 'libraries', 'frameworks'],
-    },
-    {
-      title: 'Certifications & Skill Development',
-      description: 'Structured roadmaps and guides for developers.',
-      link: '/Certifications',
-      tags: ['roadmaps', 'guides', 'developers'],
-    },
-    {
-      title: 'OpenSource Program',
-      description: 'Opportunities and kits to ace your tech interviews.',
-      link: '/OpenSourceProgram',
-      tags: ['interviews', 'preparation', 'Opportunities'],
-    },
-  ];
-
-  const filteredOpportunities = Opportunities.filter((Opportunities) => {
-    const searchContent =
-      `${Opportunities.title} ${Opportunities.description} ${Opportunities.tags.join(' ')}`.toLowerCase();
-    return searchContent.includes(searchTerm.toLowerCase());
-  });
-
-  const handleSearch = (value) => {
-    setSearchTerm(value);
-  };
-
-  return (
-    <section className="Opportunities-section mx-auto w-full px-4 py-8 text-white lg:max-w-[80%]">
-      <div className="mx-auto mb-8 text-center">
-        {/* <h2 className="mb-4 text-4xl font-bold text-[#00a6fb]">Top Tech Opportunities</h2>
-        <p className="mx-auto mb-8 max-w-3xl px-4 text-xl">
-          Everything you need to grow, learn, and build in the tech industry.
-        </p> */}
-        <div className="mx-4">
-          <SearchBar onSearch={handleSearch} />
-        </div>
-      </div>
-
-      {filteredOpportunities.length === 0 ? (
-        <div className="py-8 text-center">
-          <p className="text-xl text-gray-400">No Opportunities found matching your search.</p>
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 gap-6 px-3 sm:gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {filteredOpportunities.map((Opportunities, index) => (
-            <StyledDot key={index}>
-              <a
-                href={Opportunities.link}
-                className="Opportunities-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 text-center shadow-lg transition duration-300 hover:scale-105 hover:transform"
-              >
-                <span className="absolute inset-0"></span>
-                <div className="project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
-                  <div>
-                    <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">{Opportunities.title}</h3>
-                    <p className="flex-grow text-xs text-gray-300 sm:text-sm">{Opportunities.description}</p>
-                    <div className="mb-4 mt-2 flex flex-wrap justify-center gap-1">
-                      {Opportunities.tags.map((tag, tagIndex) => (
-                        <span
-                          key={tagIndex}
-                          className="rounded-full border border-[#00a6fb] bg-gray-900 px-1.5 py-0.5 text-[10px] text-gray-300 sm:px-2 sm:py-1 sm:text-xs"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                  <StyledButton onClick={() => (window.location.href = '/opportunities')}>
-                    <div className="blob1" />
-                    <div className="inner">Explore Now</div>
-                  </StyledButton>
-                </div>
-                <div className="dot" />
-              </a>
-            </StyledDot>
-          ))}
-        </div>
-      )}
-      <style>
-        {`
-          @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
-
-          @font-face {
-            font-family: "MerriweatherSans-SemiBold";
-            src: url('/fonts/MerriweatherSans-SemiBold.ttf') format('truetype');
-            font-weight: normal;
-            font-style: normal;
-          }
-
-          @keyframes border-pulse {
-            0% {
-              border-color: rgba(0, 172, 255, 0.5);
-              box-shadow: 0 0 10px rgba(0, 172, 255, 0.3);
-            }
-            50% {
-              border-color: rgba(0, 172, 255, 0.8);
-              box-shadow: 0 0 20px rgba(0, 172, 255, 0.6);
-            }
-            100% {
-              border-color: rgba(0, 172, 255, 0.5);
-              box-shadow: 0 0 10px rgba(0, 172, 255, 0.3);
-            }
-          }
-
-          .animate-border-glow {
-            position: absolute;
-            width: 250%;
-            height: 250%;
-            background: linear-gradient(90deg, rgba(0, 172, 255, 0.6), rgba(1, 114, 142, 0.9), rgba(0, 172, 255, 0.6));
-            top: -75%;
-            left: -75%;
-            opacity: 0.5;
-            filter: blur(10px);
-            animation: border-glow 4s infinite linear;
-          }
-
-          .group:hover .animate-border-glow {
-            opacity: 0.8;
-            filter: blur(15px);
-          }
-
-          .group:hover {
-            animation: border-pulse 1.5s infinite;
-          }
-
-          .custom-font {
-            font-family: "MerriweatherSans-SemiBold", sans-serif;
-          }
-
-          .Opportunities-section {
-            font-family: 'Merriweather Sans', sans-serif;
-          }
-        `}
-      </style>
-    </section>
-  );
-};
 
 const StyledButton = styled.button`
   cursor: pointer;
@@ -601,43 +406,6 @@ const StyledButton = styled.button`
   }
 `;
 
-const StyledDot = styled.div`
-  .dot {
-    width: 5px;
-    aspect-ratio: 1;
-    position: absolute;
-    background-color: #fff;
-    box-shadow: 0 0 10px #ffffff;
-    border-radius: 100px;
-    z-index: 2;
-    right: 0;
-    top: 0;
-    animation: moveDot 6s linear infinite;
-  }
-
-  @keyframes moveDot {
-    0% {
-      top: 0;
-      right: 0;
-    }
-    25% {
-      top: 0;
-      right: calc(100% - 5px);
-    }
-    50% {
-      top: calc(100% - 5px);
-      right: calc(100% - 5px);
-    }
-    75% {
-      top: calc(100% - 5px);
-      right: 0;
-    }
-    100% {
-      top: 0;
-      right: 0;
-    }
-  }
-`;
 
 const StyledWrapper = styled.div`
   .relative {
@@ -830,86 +598,97 @@ const StyledWrapper = styled.div`
   }
 `;
 
-const JobAlerts = () => {
-  const [jobTitle, setJobTitle] = useState('');
+const InternshipAlerts = () => {
+  const [internshipTitle, setInternshipTitle] = useState('');
   const [location, setLocation] = useState('');
-  const [jobLinks, setJobLinks] = useState([]);
+  const [internshipLinks, setInternshipLinks] = useState([]);
 
-  const handleFindJobs = () => {
-    if (jobTitle && location) {
-      const formattedTitle = jobTitle.replace(/\s+/g, '+');
+  const handleFindInternships = () => {
+    if (internshipTitle && location) {
+      const formattedTitle = internshipTitle.replace(/\s+/g, '+');
       const formattedLocation = location.replace(/\s+/g, '+');
-
-      const jobPlatforms = [
+  
+      const internshipPlatforms = [
         {
-          name: 'LinkedIn Jobs',
-          url: `https://www.linkedin.com/jobs/search?keywords=${formattedTitle}&location=${formattedLocation}`,
-        },
-        { name: 'Indeed Jobs', url: `https://www.indeed.com/jobs?q=${formattedTitle}&l=${formattedLocation}` },
-        {
-          name: 'Glassdoor Jobs',
-          url: `https://www.glassdoor.com/Job/jobs.htm?sc.keyword=${formattedTitle}&locT=C&locId=${formattedLocation}`,
+          name: 'LinkedIn Internships',
+          url: `https://www.linkedin.com/jobs/search?keywords=${formattedTitle}&location=${formattedLocation}&f_TPR=r2592000&f_JT=I`, // Ensures filtering for internships
         },
         {
-          name: 'Monster Jobs',
-          url: `https://www.monster.com/jobs/search?q=${formattedTitle}&where=${formattedLocation}`,
+          name: 'Internshala',
+          url: `https://internshala.com/internships?q=${formattedTitle}&location=${formattedLocation}`, // Correct for internships
         },
         {
-          name: 'ZipRecruiter',
-          url: `https://www.ziprecruiter.com/jobs-search?search=${formattedTitle}&location=${formattedLocation}`,
+          name: 'AngelList Internships',
+          url: `https://angel.co/jobs?q=${formattedTitle}&internship=true`, // Filters for internships
         },
         {
-          name: 'CareerBuilder',
-          url: `https://www.careerbuilder.com/jobs?keywords=${formattedTitle}&location=${formattedLocation}`,
-        },
-        { name: 'We Work Remotely', url: `https://weworkremotely.com/remote-jobs/search?term=${formattedTitle}` },
-        { name: 'Remote OK', url: `https://remoteok.io/remote-${formattedTitle}-jobs` },
-        { name: 'FlexJobs', url: `https://www.flexjobs.com/search?search=${formattedTitle}` },
-        { name: 'Remotive', url: `https://remotive.io/remote-jobs/search?query=${formattedTitle}` },
-        { name: 'AngelList', url: `https://angel.co/jobs?q=${formattedTitle}` },
-        { name: 'Outsourcely', url: `https://www.outsourcely.com/remote-jobs/search?q=${formattedTitle}` },
-        {
-          name: 'Naukri.com',
-          url: `https://www.naukri.com/${formattedTitle.replace('+', '-')}-jobs-in-${formattedLocation.replace('+', '-')}`,
+          name: 'Glassdoor Internships',
+          url: `https://www.glassdoor.com/Job/jobs.htm?sc.keyword=${formattedTitle}&locT=C&locId=${formattedLocation}&jobType=internship`, // Filters for internships
         },
         {
-          name: 'Shine',
-          url: `https://www.shine.com/job-search/${formattedTitle.replace('+', '-')}-jobs-in-${formattedLocation.replace('+', '-')}`,
+          name: 'Indeed Internships',
+          url: `https://www.indeed.com/jobs?q=${formattedTitle}&l=${formattedLocation}&jt=internship`, // Filters for internships
         },
-        { name: 'Foundit', url: `https://www.foundit.in/search?q=${formattedTitle}&where=${formattedLocation}` },
-        { name: 'Internshala', url: `https://internshala.com/jobs?q=${formattedTitle}` },
-        { name: 'HackerRank Jobs', url: `https://www.hackerrank.com/jobs?q=${formattedTitle}` },
-        { name: 'Turing', url: `https://www.turing.com/jobs?q=${formattedTitle}` },
-        { name: 'Hired', url: `https://hired.com/jobs/search?title=${formattedTitle}&location=${formattedLocation}` },
-        { name: 'Arc.dev', url: `https://arc.dev/jobs?q=${formattedTitle}` },
+        {
+          name: 'Naukri.com Internships',
+          url: `https://www.naukri.com/${formattedTitle.replace('+', '-')}-internship-jobs-in-${formattedLocation.replace('+', '-')}`, // Correct for internships
+        },
+        {
+          name: 'Foundit Internships',
+          url: `https://www.foundit.in/search?q=${formattedTitle}&where=${formattedLocation}&jobType=internship`, // Filters for internships
+        },
+        {
+          name: 'HackerRank Internships',
+          url: `https://www.hackerrank.com/jobs?q=${formattedTitle}&type=internship`, // Filters for internships
+        },
+        {
+          name: 'Turing Internships',
+          url: `https://www.turing.com/jobs?q=${formattedTitle}&type=internship`, // Filters for internships
+        },
+        {
+          name: 'We Work Remotely Internships',
+          url: `https://weworkremotely.com/remote-jobs/search?term=${formattedTitle}&type=internship`, // Filters for internships
+        },
+        {
+          name: 'Remote OK Internships',
+          url: `https://remoteok.io/remote-${formattedTitle}-internships`, // Correct for internships
+        },
+        {
+          name: 'FlexJobs Internships',
+          url: `https://www.flexjobs.com/search?search=${formattedTitle}&job_type=internship`, // Filters for internships
+        },
+        {
+          name: 'Remotive Internships',
+          url: `https://remotive.io/remote-jobs/search?query=${formattedTitle}&type=internship`, // Filters for internships
+        },
       ];
-
-      setJobLinks(jobPlatforms);
+  
+      setInternshipLinks(internshipPlatforms);
     } else {
-      alert('Please enter both job title and location to get job alerts.');
+      alert('Please enter both internship title and location to get internship alerts.');
     }
   };
 
   return (
-    <section className="job-alerts-section my-8 flex flex-col items-center justify-center text-white">
-      <h2 className="mb-8 text-3xl font-bold text-[#00a6fb]">Smart Job Finder</h2>
+    <section className="internship-alerts-section my-8 flex flex-col items-center justify-center text-white">
+      <h2 className="mb-8 text-3xl font-bold text-[#00a6fb]">Smart Internship Finder</h2>
       <div className="flex flex-col items-center">
         <div className="flex w-full flex-wrap gap-12">
           <div className="flex flex-1 flex-col">
-            <label className="mb-2 text-lg font-semibold text-white">🎯 Your Job Title</label>
+            <label className="mb-2 text-lg font-semibold text-white">🎯 Your Internship Title</label>
             <input
               type="text"
-              placeholder="e.g., Frontend Developer"
-              value={jobTitle}
-              onChange={(e) => setJobTitle(e.target.value)}
+              placeholder="e.g., Software Engineering Intern"
+              value={internshipTitle}
+              onChange={(e) => setInternshipTitle(e.target.value)}
               className="rounded-full border border-[#00a6fb] bg-[rgba(15,27,53,0.9)] py-3 pl-4 pr-12 text-white placeholder-gray-400 outline-none ring-2 ring-transparent transition-all focus:ring-[#00a6fb]"
             />
           </div>
           <div className="flex flex-1 flex-col">
-            <label className="mb-2 text-lg font-semibold text-white">📍 Your Job Location</label>
+            <label className="mb-2 text-lg font-semibold text-white">📍 Your Internship Location</label>
             <input
               type="text"
-              placeholder="e.g., Remote, Delhi, Patna"
+              placeholder="e.g., Remote, Bangalore, Mumbai"
               value={location}
               onChange={(e) => setLocation(e.target.value)}
               className="rounded-full border border-[#00a6fb] bg-[rgba(15,27,53,0.9)] py-3 pl-4 pr-12 text-white placeholder-gray-400 outline-none ring-2 ring-transparent transition-all focus:ring-[#00a6fb]"
@@ -917,13 +696,13 @@ const JobAlerts = () => {
           </div>
         </div>
         <div className="mb-4"></div>
-        <StyledButton onClick={handleFindJobs}>
+        <StyledButton onClick={handleFindInternships}>
           <div className="blob1" />
-          <div className="inner">🔍 Find Jobs Now</div>
+          <div className="inner">🔍 Find Internships Now</div>
         </StyledButton>
       </div>
       <div className="align-center mt-4 flex flex-wrap justify-center gap-4">
-        {jobLinks.map((link, index) => (
+        {internshipLinks.map((link, index) => (
           <a
             key={index}
             href={link.url}
@@ -957,9 +736,9 @@ const Internships = () => {
       <Navbar />
       <Hero />
       <Tags />
-      <JobAlerts />
-      <JobsCard />
-      <OpportunitiesCards />
+      <InternshipAlerts />
+      <InternshipCard />
+      <div className="my-8"></div> {/* Adds vertical spacing */}
       <Footer />
     </div>
   );

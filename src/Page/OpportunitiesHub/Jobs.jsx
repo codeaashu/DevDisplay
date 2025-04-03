@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { Footer } from '../../components/Footer/Footer';
-import styled from 'styled-components'; // Import styled-components
-import Marquee from 'react-fast-marquee'; // Import Marquee
-import HybridOnsiteCard from './JobsCard';
+import styled from 'styled-components';
+import Marquee from 'react-fast-marquee';
+import JobsCard from './JobsCard';
 
 const Navbar = () => {
   return (
@@ -42,7 +42,7 @@ const Hero = () => {
           <div className="modgp relative inline-block w-full py-3">
             <div className="relative">
               <div className="bg-primary enabled:hover:bg-primary-dark enabled:active:bg-primary-dark enabled:focus:bg-primary-dark px-18 relative inline-flex w-full items-center justify-center rounded-lg py-5 text-6xl font-bold text-white transition-all focus:outline-none enabled:hover:shadow-md disabled:opacity-50">
-                <div className="flex w-full items-center justify-center">Hybrid & Onsite Jobs</div>
+                <div className="flex w-full items-center justify-center">Explore Jobs</div>
               </div>
             </div>
             <div className="pointer-events-none absolute inset-0">
@@ -256,7 +256,7 @@ const Tags = () => {
   return (
     <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
       <h1 className="text-md text-primary mb-8 text-center font-bold text-[#00a6fb] lg:text-2xl">
-        Companies Offering Hybrid and Onsite Jobs
+        Companies Offering Remote, Hybrid, or Onsite Jobs!
       </h1>
 
       {/* Right to Left Scrolling */}
@@ -402,44 +402,6 @@ const StyledButton = styled.button`
     }
     50% {
       transform: scale(1.05);
-    }
-  }
-`;
-
-const StyledDot = styled.div`
-  .dot {
-    width: 5px;
-    aspect-ratio: 1;
-    position: absolute;
-    background-color: #fff;
-    box-shadow: 0 0 10px #ffffff;
-    border-radius: 100px;
-    z-index: 2;
-    right: 0;
-    top: 0;
-    animation: moveDot 6s linear infinite;
-  }
-
-  @keyframes moveDot {
-    0% {
-      top: 0;
-      right: 0;
-    }
-    25% {
-      top: 0;
-      right: calc(100% - 5px);
-    }
-    50% {
-      top: calc(100% - 5px);
-      right: calc(100% - 5px);
-    }
-    75% {
-      top: calc(100% - 5px);
-      right: 0;
-    }
-    100% {
-      top: 0;
-      right: 0;
     }
   }
 `;
@@ -745,7 +707,7 @@ const JobAlerts = () => {
   );
 };
 
-const HybridOnsiteJobs = () => {
+const Jobs = () => {
   const location = useLocation();
 
   useEffect(() => {
@@ -763,11 +725,11 @@ const HybridOnsiteJobs = () => {
       <Hero />
       <Tags />
       <JobAlerts />
-      <HybridOnsiteCard />
+      <JobsCard />
       <div className="my-8"></div> {/* Adds vertical spacing */}
       <Footer />
     </div>
   );
 };
 
-export default HybridOnsiteJobs;
+export default Jobs;
