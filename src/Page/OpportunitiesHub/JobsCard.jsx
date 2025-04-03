@@ -183,9 +183,9 @@ const HP = () => {
                 <img src="/assets/Company/HP.png" alt="Custom Icon" className="h-10 w-10" />
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-white">Senior Product Designer</h3>
+                <h3 className="text-lg font-semibold text-white">Business Operations Associate</h3>
                 <div className="mt-1 flex items-center gap-2">
-                  <span className="text-sm text-slate-400">TechCorp Inc.</span>
+                  <span className="text-sm text-slate-400">HP</span>
                   <span className="inline-block h-1 w-1 rounded-full bg-slate-400" />
                   <div className="flex items-center gap-1">
                     <svg className="h-4 w-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
