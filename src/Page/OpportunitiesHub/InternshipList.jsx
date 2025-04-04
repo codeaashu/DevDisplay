@@ -15,10 +15,10 @@ const shareContent = (url) => {
   }
 };
 
-const Adove = () => {
-  const cardUrl = 'https://www.devdisplay.org/Jobs#Adove';
+const VijethaSoftwares = () => {
+  const cardUrl = 'https://www.devdisplay.org/Internship#VijethaSoftwares';
   return (
-    <div id="Adove" className="group relative mx-auto w-full max-w-[30rem]">
+    <div id="VijethaSoftwares" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
         <div className="absolute -left-16 -top-16 h-32 w-32 rounded-full bg-gradient-to-br from-emerald-500/20 to-teal-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
         <div className="absolute -bottom-16 -right-16 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/20 to-indigo-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
@@ -26,20 +26,20 @@ const Adove = () => {
           <div className="flex items-start justify-between">
             <div className="flex gap-4">
               <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
-                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
-                <img src="/assets/Company/Adobe.png" alt="Custom Icon" className="h-10 w-10" />
+                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br  to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
+                <img src="/assets/Company/Vijetha Softwares Pvt.Ltd.jpg" alt="Custom Icon" className="h-10 w-10" />
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-white">Software Development Engineer</h3>
+                <h3 className="text-lg font-semibold text-white">Front End Developer Internship</h3>
                 <div className="mt-1 flex items-center gap-2">
-                  <span className="text-sm text-slate-400">Adobe</span>
+                  <span className="text-sm text-slate-400">Vijetha Softwares Pvt.Ltd</span>
                   <span className="inline-block h-1 w-1 rounded-full bg-slate-400" />
-                  <div className="flex items-center gap-1">
+                  {/* <div className="flex items-center gap-1">
                     <svg className="h-4 w-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                     <span className="text-sm text-slate-400">4.9</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -72,9 +72,9 @@ const Adove = () => {
                   d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"
                 />
               </svg>
-              $120k - $150k
+             Ends on 20 April
             </span>
-            <span className="inline-flex items-center gap-1 rounded-lg bg-blue-500/10 px-3 py-1 text-sm text-blue-500">
+            {/* <span className="inline-flex items-center gap-1 rounded-lg bg-blue-500/10 px-3 py-1 text-sm text-blue-500">
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
                   strokeLinecap="round"
@@ -84,7 +84,7 @@ const Adove = () => {
                 />
               </svg>
               Remote
-            </span>
+            </span> */}
             <span className="inline-flex items-center gap-1 rounded-lg bg-indigo-500/10 px-3 py-1 text-sm text-indigo-500">
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
@@ -105,7 +105,7 @@ const Adove = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-                5+ years of experience in product design and team leadership
+              Proficiency in HTML, CSS, JavaScript, React.js and TailwindCSS.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -115,7 +115,7 @@ const Adove = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-                Strong portfolio demonstrating end-to-end product design
+              Excellent communication and collaboration skills.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -125,13 +125,13 @@ const Adove = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-                Expertise in Figma, Adobe Creative Suite, and prototyping tools
+              Experience with responsive design principles.
               </p>
             </div>
           </div>
           <div className="mt-8 flex gap-3">
             <a
-              href="https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR154908EXTERNALENUS"
+              href="https://unstop.com/internships/front-end-developer-internship-vijetha-softwares-pvtltd-1442249?lb=fAzXUaUr&utm_medium=Share&utm_source=shortUrl"
               target="_blank"
               rel="noopener noreferrer"
               className="group/btn relative flex-1 overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 p-px font-semibold text-white"
@@ -171,10 +171,10 @@ const Adove = () => {
   );
 };
 
-const HP = () => {
-  const cardUrl = 'https://www.devdisplay.org/Jobs#HP';
+const Webfuture = () => {
+  const cardUrl = 'https://www.devdisplay.org/Internship#Webfuture';
   return (
-    <div id="HP" className="group relative mx-auto w-full max-w-[30rem]">
+    <div id="Webfuture" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
         <div className="absolute -left-16 -top-16 h-32 w-32 rounded-full bg-gradient-to-br from-emerald-500/20 to-teal-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
         <div className="absolute -bottom-16 -right-16 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/20 to-indigo-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
@@ -182,20 +182,20 @@ const HP = () => {
           <div className="flex items-start justify-between">
             <div className="flex gap-4">
               <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
-                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
-                <img src="/assets/Company/HP.png" alt="Custom Icon" className="h-10 w-10" />
+                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br  to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
+                <img src="/assets/Company/Webfuture.jpg" alt="Custom Icon" className="h-10 w-10" />
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-white">Business Operations Associate</h3>
+                <h3 className="text-lg font-semibold text-white">Front End Development Internship</h3>
                 <div className="mt-1 flex items-center gap-2">
-                  <span className="text-sm text-slate-400">HP</span>
+                  <span className="text-sm text-slate-400">Webfuture</span>
                   <span className="inline-block h-1 w-1 rounded-full bg-slate-400" />
-                  <div className="flex items-center gap-1">
+                  {/* <div className="flex items-center gap-1">
                     <svg className="h-4 w-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                     <span className="text-sm text-slate-400">4.9</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -228,9 +228,9 @@ const HP = () => {
                   d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"
                 />
               </svg>
-              $120k - $150k
+              Ends on 23 April
             </span>
-            <span className="inline-flex items-center gap-1 rounded-lg bg-blue-500/10 px-3 py-1 text-sm text-blue-500">
+            {/* <span className="inline-flex items-center gap-1 rounded-lg bg-blue-500/10 px-3 py-1 text-sm text-blue-500">
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
                   strokeLinecap="round"
@@ -240,7 +240,7 @@ const HP = () => {
                 />
               </svg>
               Remote
-            </span>
+            </span> */}
             <span className="inline-flex items-center gap-1 rounded-lg bg-indigo-500/10 px-3 py-1 text-sm text-indigo-500">
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
@@ -261,7 +261,7 @@ const HP = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-                5+ years of experience in product design and team leadership
+              Proficiency in HTML, CSS, and JavaScript.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -271,7 +271,7 @@ const HP = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-                Strong portfolio demonstrating end-to-end product design
+              Experience with front-end frameworks such as React, Angular, or Vue.js - preferred.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -281,13 +281,13 @@ const HP = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-                Expertise in Figma, Adobe Creative Suite, and prototyping tools
+              Job Offer upon successful completion of the internship.
               </p>
             </div>
           </div>
           <div className="mt-8 flex gap-3">
           <a
-              href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bangalore-Karnataka-India/Business-Operations-Associate_3148817-1/apply?src=HPCompanyWebsite"
+              href="https://unstop.com/internships/front-end-development-internship-webfuturein-1449077?lb=fAzXUaUr&utm_medium=Share&utm_source=shortUrl"
               target="_blank"
               rel="noopener noreferrer"
               className="group/btn relative flex-1 overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 p-px font-semibold text-white"
@@ -955,8 +955,8 @@ const InternshipList = () => {
   return (
     <>
       <div className="grid grid-cols-1 gap-6 px-3 sm:gap-4 md:grid-cols-2 lg:grid-cols-3">
-        <Adove />
-        <HP />
+        <VijethaSoftwares />
+        <Webfuture />
         <Card3 />
         <Card4 />
         <Card5 />
