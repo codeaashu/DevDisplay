@@ -15,6 +15,7 @@ const shareContent = (url) => {
   }
 };
 
+
 const Adove = () => {
   const cardUrl = 'https://www.devdisplay.org/Jobs#Adove';
   return (
@@ -26,7 +27,7 @@ const Adove = () => {
           <div className="flex items-start justify-between">
             <div className="flex gap-4">
               <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
-                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
+                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
                 <img src="/assets/Company/Adobe.png" alt="Custom Icon" className="h-10 w-10" />
               </div>
               <div>
@@ -34,12 +35,12 @@ const Adove = () => {
                 <div className="mt-1 flex items-center gap-2">
                   <span className="text-sm text-slate-400">Adobe</span>
                   <span className="inline-block h-1 w-1 rounded-full bg-slate-400" />
-                  <div className="flex items-center gap-1">
+                  {/* <div className="flex items-center gap-1">
                     <svg className="h-4 w-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                     <span className="text-sm text-slate-400">4.9</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -63,7 +64,7 @@ const Adove = () => {
             </button>
           </div>
           <div className="mt-6 flex flex-wrap gap-2">
-            <span className="inline-flex items-center gap-1 rounded-lg bg-emerald-500/10 px-3 py-1 text-sm text-emerald-500">
+            {/* <span className="inline-flex items-center gap-1 rounded-lg bg-emerald-500/10 px-3 py-1 text-sm text-emerald-500">
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
                   strokeLinecap="round"
@@ -73,7 +74,7 @@ const Adove = () => {
                 />
               </svg>
               $120k - $150k
-            </span>
+            </span> */}
             <span className="inline-flex items-center gap-1 rounded-lg bg-blue-500/10 px-3 py-1 text-sm text-blue-500">
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
@@ -83,7 +84,7 @@ const Adove = () => {
                   d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
                 />
               </svg>
-              Remote
+              Bangalore, Karnataka, India
             </span>
             <span className="inline-flex items-center gap-1 rounded-lg bg-indigo-500/10 px-3 py-1 text-sm text-indigo-500">
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -105,7 +106,7 @@ const Adove = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-                5+ years of experience in product design and team leadership
+              The candidate should be well versed in advanced c++ (c++17).
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -115,7 +116,7 @@ const Adove = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-                Strong portfolio demonstrating end-to-end product design
+              Good to have knowledge in template meta programming.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -125,7 +126,7 @@ const Adove = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-                Expertise in Figma, Adobe Creative Suite, and prototyping tools
+              Testing infrastructure development.
               </p>
             </div>
           </div>
@@ -182,7 +183,7 @@ const HP = () => {
           <div className="flex items-start justify-between">
             <div className="flex gap-4">
               <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
-                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
+                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
                 <img src="/assets/Company/HP.png" alt="Custom Icon" className="h-10 w-10" />
               </div>
               <div>
@@ -794,6 +795,7 @@ const Card5 = () => {
     </div>
   );
 };
+
 
 const Card6 = () => {
   const cardUrl = 'https://www.devdisplay.org/Jobs#Card6';

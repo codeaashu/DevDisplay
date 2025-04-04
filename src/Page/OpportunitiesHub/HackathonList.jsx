@@ -240,6 +240,16 @@ const hackathons = [
     shareLink: '#hackatron-2k25',
   },
   {
+    organizer: 'BIT Sindri',
+    title: 'HACKATRON 2K25',
+    location: 'Sindri, Dhanbad, Jharkhand',
+    date: 'Apr 13 - 14',
+    domains: ['Open Innovation', 'No Restrictions'],
+    applyLink: 'https://hackatron-k.devfolio.co/',
+    poster: '/assets/Hackathons/HACKATRON 2K25.jpg',
+    shareLink: '#hackatron-2k25',
+  },
+  {
     organizer: 'ACE',
     title: 'HackVSIT6.0',
     location: 'New Delhi, India',

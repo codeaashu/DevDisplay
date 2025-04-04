@@ -42,7 +42,7 @@ const Hero = () => {
           <div className="modgp relative inline-block w-full py-3">
             <div className="relative">
               <div className="bg-primary enabled:hover:bg-primary-dark enabled:active:bg-primary-dark enabled:focus:bg-primary-dark px-18 relative inline-flex w-full items-center justify-center rounded-lg py-5 text-6xl font-bold text-white transition-all focus:outline-none enabled:hover:shadow-md disabled:opacity-50">
-                <div className="flex w-full items-center justify-center">Explore Jobs</div>
+                <div className="flex w-full items-center justify-center">Freelance Display</div>
               </div>
             </div>
             <div className="pointer-events-none absolute inset-0">
@@ -205,67 +205,74 @@ const Hero = () => {
 };
 
 const Tags = () => {
-  const companies = [
-    { name: 'Google', logo: '/assets/Company/Google.png' },
-    { name: 'Microsoft', logo: '/assets/Company/Microsoft.png' },
-    { name: 'Amazon', logo: '/assets/Company/Amazon.png' },
-    { name: 'Meta', logo: '/assets/Company/Meta.png' },
-    { name: 'Apple', logo: '/assets/Company/Apple.png' },
-    { name: 'Netflix', logo: '/assets/Company/Netflix.png' },
-    { name: 'Uber', logo: '/assets/Company/Uber.png' },
-    { name: 'Airbnb', logo: '/assets/Company/Airbnb.png' },
-    { name: 'Twitter', logo: '/assets/Company/X.png' },
-    { name: 'Accenture', logo: '/assets/Company/Accenture.png' },
-    { name: 'Adobe', logo: '/assets/Company/Adobe.png' },
-    { name: 'Apple', logo: '/assets/Company/Apple.png' },
-    { name: 'Capgemini', logo: '/assets/Company/Capgemini.png' },
-    { name: 'Cisco', logo: '/assets/Company/Cisco.png' },
-    { name: 'Cloudflare', logo: '/assets/Company/Cloudflare.webp' },
-    { name: 'Cognizant', logo: '/assets/Company/Cognizant.png' },
-    { name: 'DELL', logo: '/assets/Company/Dell.png' },
-    { name: 'Deloitte', logo: '/assets/Company/Deloitte.jpg' },
-    { name: 'DXC', logo: '/assets/Company/DXC.png' },
-    { name: 'Flipkart', logo: '/assets/Company/Flipkart.png' },
-    { name: 'HCLTech', logo: '/assets/Company/HCLTech.png' },
-    { name: 'GitHub', logo: '/assets/Company/GitHub.png' },
-    { name: 'HP', logo: '/assets/Company/HP.png' },
-    { name: 'Huawei', logo: '/assets/Company/Huawei.png' },
-    { name: 'IBM', logo: '/assets/Company/IBM.png' },
-    { name: 'Infosys', logo: '/assets/Company/Infosys.png' },
-    { name: 'Intel', logo: '/assets/Company/Intel.png' },
-    { name: 'ISRO', logo: '/assets/Company/ISRO.png' },
-    { name: 'Lenovo', logo: '/assets/Company/Lenovo.png' },
-    { name: 'Nivida', logo: '/assets/Company/Nivida.png' },
-    { name: 'Oracle', logo: '/assets/Company/Oracle.png' },
-    { name: 'Paypal', logo: '/assets/Company/Paypal.png' },
-    { name: 'Paytm', logo: '/assets/Company/Paytm.png' },
-    { name: 'Razorpay', logo: '/assets/Company/Razorpay.png' },
-    { name: 'Phonepay', logo: '/assets/Company/Phonepay.png' },
-    { name: 'Swiggy', logo: '/assets/Company/Swiggy.png' },
-    { name: 'Stripe', logo: '/assets/Company/Stripe.png' },
-    { name: 'SAP', logo: '/assets/Company/SAP.png' },
-    { name: 'Samsung', logo: '/assets/Company/Samsung.png' },
-    { name: 'Salesforce', logo: '/assets/Company/Salesforce.png' },
-    { name: 'PepsiCO', logo: '/assets/Company/Pepsi.png' },
-    { name: 'Wipro', logo: '/assets/Company/Wipro.png' },
-    { name: 'TCS', logo: '/assets/Company/TCS.png' },
-    { name: 'Zomato', logo: '/assets/Company/Zomato.png' },
-    { name: 'J P Morgan', logo: '/assets/Company/JPMorgan.png' },
+  const tags = [
+    'Web Development',
+    'Graphic Design',
+    'Content Writing',
+    'Digital Marketing',
+    'SEO Specialist',
+    'Social Media Management',
+    'Mobile App Development',
+    'UI/UX Design',
+    'Data Entry',
+    'Virtual Assistance',
+    'Translation Services',
+    'Video Editing',
+    'Photography',
+    'Voice Over',
+    'Game Development',
+    'E-commerce Management',
+    'Accounting & Bookkeeping',
+    'Legal Consulting',
+    'IT Support',
+    'Project Management',
+    'Cloud Computing',
+    'Cybersecurity',
+    'Blockchain Development',
+    'AI/ML Development',
+    'DevOps Engineering',
+    'Technical Writing',
+    'Product Management',
+    'AR/VR Development',
+    '3D Modeling',
+    'Animation Design',
+    'Podcast Editing',
+    'Email Marketing',
+    'Sales Funnel Design',
+    'Data Science',
+    'Big Data Analysis',
+    'Embedded Systems Development',
+    'Robotics Programming',
+    'Technical Support',
+    'Software Testing',
+    'Game Art Design',
+    'Brand Strategy',
+    'Presentation Design',
+    'Infographic Design',
+    'Motion Graphics',
+    'Prototyping',
+    'User Research',
+    'Front-End Development',
+    'Back-End Development',
+    'Full-Stack Development',
+    'API Integration',
+    'No-Code Development',
+    'Startup Consulting',
   ];
 
   return (
     <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
-      <h1 className="text-md text-primary mb-8 text-center font-bold text-[#00a6fb] lg:text-2xl">
-        Companies Offering Remote, Hybrid, or Onsite Jobs!
-      </h1>
+      <h4 className="text-md text-primary mb-8 text-center font-lg text-[#00a6fb] lg:text-2xl">
+      Explore premium global freelancing opportunities that match your expertise!
+      </h4>
+      {/* <h2 className="text-md text-primary mb-8 text-center text-[#00a6fb] font-bold lg:text-2xl">One Platform, Endless Tech Opportunities</h2> */}
 
       {/* Right to Left Scrolling */}
       <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} className="w-full">
         <div className="flex w-full flex-nowrap items-center">
-          {[...companies, ...companies, ...companies].map((company, index) => (
+          {[...tags, ...tags, ...tags].map((text, index) => (
             <span key={index} className="tag-item mr-6">
-              <img src={company.logo} alt={company.name} className="mr-2 h-6 w-6" />
-              {company.name}
+              {text}
             </span>
           ))}
         </div>
@@ -276,10 +283,9 @@ const Tags = () => {
       {/* Left to Right Scrolling */}
       <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} direction="right" className="w-full">
         <div className="flex w-full flex-nowrap items-center">
-          {[...companies, ...companies, ...companies].map((company, index) => (
+          {[...tags, ...tags, ...tags].map((text, index) => (
             <span key={index} className="tag-item mr-6">
-              <img src={company.logo} alt={company.name} className="mr-2 h-6 w-6" />
-              {company.name}
+              {text}
             </span>
           ))}
         </div>
@@ -300,16 +306,10 @@ const Tags = () => {
           text-align: center;
           min-width: max-content;
         }
-        .tag-item img {
-          display: inline-block;
-          // height: 40px; /* Adjust the height as needed */
-          // width: auto; /* Maintain aspect ratio */
-        }
       `}</style>
     </section>
   );
 };
-
 
 const StyledButton = styled.button`
   cursor: pointer;
@@ -597,96 +597,94 @@ const StyledWrapper = styled.div`
   }
 `;
 
-const JobAlerts = () => {
+const FreelancingFinder = () => {
   const [jobTitle, setJobTitle] = useState('');
-  const [location, setLocation] = useState('');
   const [jobLinks, setJobLinks] = useState([]);
 
-  const handleFindJobs = () => {
-    if (jobTitle && location) {
+  const handleFreelancingFinder = () => {
+    if (jobTitle) {
       const formattedTitle = jobTitle.replace(/\s+/g, '+');
-      const formattedLocation = location.replace(/\s+/g, '+');
-
-      const jobPlatforms = [
+  
+      const freelancePlatforms = [
         {
-          name: 'LinkedIn Jobs',
-          url: `https://www.linkedin.com/jobs/search?keywords=${formattedTitle}&location=${formattedLocation}`,
-        },
-        { name: 'Indeed Jobs', url: `https://www.indeed.com/jobs?q=${formattedTitle}&l=${formattedLocation}` },
-        {
-          name: 'Glassdoor Jobs',
-          url: `https://www.glassdoor.com/Job/jobs.htm?sc.keyword=${formattedTitle}&locT=C&locId=${formattedLocation}`,
+          name: 'Upwork',
+          url: `https://www.upwork.com/nx/jobs/search/?q=${formattedTitle}`,
         },
         {
-          name: 'Monster Jobs',
-          url: `https://www.monster.com/jobs/search?q=${formattedTitle}&where=${formattedLocation}`,
+          name: 'Fiverr',
+          url: `https://www.fiverr.com/search/gigs?query=${formattedTitle}`,
         },
         {
-          name: 'ZipRecruiter',
-          url: `https://www.ziprecruiter.com/jobs-search?search=${formattedTitle}&location=${formattedLocation}`,
+          name: 'Freelancer',
+          url: `https://www.freelancer.com/jobs/${formattedTitle.replace('+', '-')}`,
         },
         {
-          name: 'CareerBuilder',
-          url: `https://www.careerbuilder.com/jobs?keywords=${formattedTitle}&location=${formattedLocation}`,
-        },
-        { name: 'We Work Remotely', url: `https://weworkremotely.com/remote-jobs/search?term=${formattedTitle}` },
-        { name: 'Remote OK', url: `https://remoteok.io/remote-${formattedTitle}-jobs` },
-        { name: 'FlexJobs', url: `https://www.flexjobs.com/search?search=${formattedTitle}` },
-        { name: 'Remotive', url: `https://remotive.io/remote-jobs/search?query=${formattedTitle}` },
-        { name: 'AngelList', url: `https://angel.co/jobs?q=${formattedTitle}` },
-        { name: 'Outsourcely', url: `https://www.outsourcely.com/remote-jobs/search?q=${formattedTitle}` },
-        {
-          name: 'Naukri.com',
-          url: `https://www.naukri.com/${formattedTitle.replace('+', '-')}-jobs-in-${formattedLocation.replace('+', '-')}`,
+          name: 'Toptal',
+          url: `https://www.toptal.com/freelance-jobs?search=${formattedTitle}`,
         },
         {
-          name: 'Shine',
-          url: `https://www.shine.com/job-search/${formattedTitle.replace('+', '-')}-jobs-in-${formattedLocation.replace('+', '-')}`,
+          name: 'PeoplePerHour',
+          url: `https://www.peopleperhour.com/freelance-${formattedTitle.replace('+', '-')}-jobs`,
         },
-        { name: 'Foundit', url: `https://www.foundit.in/search?q=${formattedTitle}&where=${formattedLocation}` },
-        { name: 'Internshala', url: `https://internshala.com/jobs?q=${formattedTitle}` },
-        { name: 'HackerRank Jobs', url: `https://www.hackerrank.com/jobs?q=${formattedTitle}` },
-        { name: 'Turing', url: `https://www.turing.com/jobs?q=${formattedTitle}` },
-        { name: 'Hired', url: `https://hired.com/jobs/search?title=${formattedTitle}&location=${formattedLocation}` },
-        { name: 'Arc.dev', url: `https://arc.dev/jobs?q=${formattedTitle}` },
+        {
+          name: 'Guru',
+          url: `https://www.guru.com/d/jobs/q/${formattedTitle}/`,
+        },
+        {
+          name: 'SimplyHired',
+          url: `https://www.simplyhired.com/search?q=${formattedTitle}`,
+        },
+        {
+          name: 'We Work Remotely',
+          url: `https://weworkremotely.com/remote-jobs/search?term=${formattedTitle}`,
+        },
+        {
+          name: 'Remote OK',
+          url: `https://remoteok.io/remote-${formattedTitle}-jobs`,
+        },
+        {
+          name: 'Hubstaff Talent',
+          url: `https://talent.hubstaff.com/search?q=${formattedTitle}`,
+        },
+        {
+          name: 'Outsourcely',
+          url: `https://www.outsourcely.com/remote-jobs/search?q=${formattedTitle}`,
+        },
+        {
+          name: 'Workana',
+          url: `https://www.workana.com/jobs?query=${formattedTitle}`,
+        },
+        {
+          name: 'Kolabtree',
+          url: `https://www.kolabtree.com/find-an-expert?q=${formattedTitle}`,
+        },
       ];
-
-      setJobLinks(jobPlatforms);
+  
+      setJobLinks(freelancePlatforms);
     } else {
-      alert('Please enter both job title and location to get job alerts.');
+      alert('Please enter a job title to find freelance opportunities.');
     }
   };
 
   return (
     <section className="job-alerts-section my-8 flex flex-col items-center justify-center text-white">
-      <h2 className="mb-8 text-3xl font-bold text-[#00a6fb]">Smart Job Finder</h2>
+      <h2 className="mb-8 text-3xl font-bold text-[#00a6fb]">Smart Freelance Finder</h2>
       <div className="flex flex-col items-center">
         <div className="flex w-full flex-wrap gap-12">
           <div className="flex flex-1 flex-col">
-            <label className="mb-2 text-lg font-semibold text-white">🎯 Your Job Title</label>
             <input
               type="text"
-              placeholder="e.g., Frontend Developer"
+              placeholder="Enter Your Skill"
               value={jobTitle}
               onChange={(e) => setJobTitle(e.target.value)}
               className="rounded-full border border-[#00a6fb] bg-[rgba(15,27,53,0.9)] py-3 pl-4 pr-12 text-white placeholder-gray-400 outline-none ring-2 ring-transparent transition-all focus:ring-[#00a6fb]"
             />
           </div>
-          <div className="flex flex-1 flex-col">
-            <label className="mb-2 text-lg font-semibold text-white">📍 Your Job Location</label>
-            <input
-              type="text"
-              placeholder="e.g., Remote, Delhi, Patna"
-              value={location}
-              onChange={(e) => setLocation(e.target.value)}
-              className="rounded-full border border-[#00a6fb] bg-[rgba(15,27,53,0.9)] py-3 pl-4 pr-12 text-white placeholder-gray-400 outline-none ring-2 ring-transparent transition-all focus:ring-[#00a6fb]"
-            />
-          </div>
         </div>
         <div className="mb-4"></div>
-        <StyledButton onClick={handleFindJobs}>
+        <StyledButton onClick={handleFreelancingFinder}>
           <div className="blob1" />
-          <div className="inner">🔍 Find Jobs Now</div>
+          <div className="inner">🔍 Find Freelance Work</div>
         </StyledButton>
       </div>
       <div className="align-center mt-4 flex flex-wrap justify-center gap-4">
@@ -724,7 +722,7 @@ const Freelancing = () => {
       <Navbar />
       <Hero />
       <Tags />
-      <JobAlerts />
+      <FreelancingFinder />
       <Freelance />
       <div className="my-8"></div> {/* Adds vertical spacing */}
       <Footer />
