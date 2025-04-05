@@ -541,16 +541,17 @@ const StyledOSProgramCard = styled.div`
   overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
   width: 100%;
-  max-width: 850px;
-  margin: 0.5rem auto;
+  max-width: 1000px;
+  margin: 1rem auto 0.5rem;
+  padding: 1rem;
 
   &:hover {
-    transform: scale(1.03);
-    box-shadow: 0 0 20px rgba(0, 172, 255, 0.6);
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(0, 172, 255, 0.7);
   }
 
   .poster {
-    width: 300px;
+    width: 350px;
     height: 100%;
     flex-shrink: 0;
     background-color: transparent;
@@ -562,128 +563,149 @@ const StyledOSProgramCard = styled.div`
 
     img {
       max-width: 100%;
-      max-height: 200px;
+      max-height: 250px;
       object-fit: contain;
       display: block;
+      border: 1px solid white;
+      border-radius: 8px;
     }
+  }
 
-    .apply-button-wrapper {
-      margin-top: 0.5rem;
+  .apply-button-wrapper {
+    margin-top: 0.5rem;
 
-      a {
-        display: flex;
-        align-items: center;
-        background-color: transparent;
-        border: 1px solid #00a6fb;
-        border-radius: 9999px;
-        padding: 0.5rem 1rem;
-        color: #00a6fb;
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 0.875rem;
-        transition: background-color 0.3s;
+    a {
+      display: flex;
+      align-items: center;
+      background-color: transparent;
+      border: 1px solid #00a6fb;
+      border-radius: 9999px;
+      padding: 0.5rem 1rem;
+      color: #00a6fb;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.875rem;
+      transition: background-color 0.3s;
 
-        &:hover {
-          background-color: rgba(0, 166, 251, 0.2);
-        }
-
-        .status-user {
-          width: 8px;
-          height: 8px;
-          margin-right: 8px;
-          border-radius: 50%;
-          outline: solid 2px #fff;
-          background-color: #00a6fb;
-          animation: active-status 2s ease-in-out infinite;
-        }
+      &:hover {
+        background-color: rgba(0, 166, 251, 0.2);
       }
 
-      @keyframes active-status {
-        0%, 100% {
-          opacity: 1;
-        }
-        50% {
-          opacity: 0.2;
-        }
+      .status-user {
+        width: 8px;
+        height: 8px;
+        margin-right: 8px;
+        border-radius: 50%;
+        outline: solid 2px #fff;
+        background-color: #00a6fb;
+        animation: active-status 2s ease-in-out infinite;
+      }
+    }
+
+    @keyframes active-status {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.2;
       }
     }
   }
 
   .content {
     flex: 1;
-    padding: 1rem;
+    padding: 1.5rem;
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Header, Details, Footer */
+    gap: 1rem;
+  }
+
+  .header {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 
-    .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+    .organizer {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: white;
+    }
+  }
 
-      .organizer {
-        font-size: 1rem;
-        font-weight: bold;
-        color: white;
-      }
+  .details {
+    display: grid;
+    grid-template-rows: auto auto 1fr; /* Title, Description, Info */
+    gap: 0.8rem;
+
+    h2 {
+      color: white;
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
     }
 
-    .details {
-      margin-top: 1rem;
-
-      h2 {
-        font-size: 1.25rem;
-        font-weight: bold;
-        color: white;
-        margin-bottom: 0.5rem;
-      }
-
-      p {
-        font-size: 0.875rem;
-        color: white;
-        margin-bottom: 1rem;
-      }
-
-      .info {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-        font-size: 0.875rem;
-        color: #00a6fb;
-
-        span, a {
-          display: flex;
-          align-items: center;
-
-          svg {
-            margin-right: 0.5rem;
-            color: white;
-          }
-        }
-      }
+    p {
+      color: white;
+      font-size: 0.9rem;
+      line-height: 1.4;
+      margin-bottom: 1rem; /* Added margin-bottom here */
     }
 
-    .footer {
-      margin-top: 1rem;
-      display: flex;
-      justify-content: flex-start;
+    .info {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.8rem;
+      font-size: 0.9rem;
+      color: #00a6fb;
 
-      .share-button {
+      span, a {
         display: flex;
         align-items: center;
-        gap: 0.5rem;
-        background-color: rgba(0, 166, 251, 0.2);
-        border: 1px solid #00a6fb;
-        border-radius: 0.5rem;
-        padding: 0.5rem 1rem;
-        color: white;
-        cursor: pointer;
-        transition: background-color 0.3s;
 
-        &:hover {
-          background-color: rgba(0, 166, 251, 0.4);
+        svg {
+          margin-right: 0.5rem;
+          color: white;
         }
       }
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: flex-start;
+
+    .share-button {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: rgba(0, 166, 251, 0.2);
+      border: 1px solid #00a6fb;
+      border-radius: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: rgba(0, 166, 251, 0.4);
+      }
+    }
+  }
+
+    /* Responsive styles */
+  @media (min-width: 768px) {
+    flex-direction: row; /* Side-by-side layout for tablets and above */
+    .poster {
+      width: 350px; /* Fixed width for larger screens */
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .details h2 {
+      font-size: 1.5rem; /* Larger title for desktops */
+    }
+
+    .details p {
+      font-size: 1rem; /* Larger description for desktops */
     }
   }
 `;
@@ -771,7 +793,7 @@ const OSProgramList = [
   {
     organizer: 'Google',
     title: 'Google Summer of Code 2025',
-    description: 'Work with open-source orgs under Google and get paid for contributing.',
+    description: 'Work with open-source orgs under Google and get paid for contributing. Work with open-source orgs under Google and get paid for contributing',
     timeline: 'Apply before April 8, 2025',
     Duration: 'June - September 2025',
     type: 'Student-friendly',
