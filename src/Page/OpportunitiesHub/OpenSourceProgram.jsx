@@ -5,7 +5,7 @@ import { Footer } from '../../components/Footer/Footer';
 import styled from 'styled-components';
 import Marquee from 'react-fast-marquee';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFlag, faShareAlt, faCalendarAlt, faMapMarkerAlt, faGlobe, faBookOpen } from '@fortawesome/free-solid-svg-icons';
+import { faFlag, faShareAlt, faCalendarAlt, faClock, faBookOpen } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   return (
@@ -277,8 +277,8 @@ const Tags = () => {
 
   return (
     <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
-      <h4 className="text-md text-primary mb-8 text-center font-lg text-[#00a6fb] lg:text-2xl">
-      Explore premium global freelancing opportunities that match your expertise!
+      <h4 className="text-md text-primary font-lg mb-8 text-center text-[#00a6fb] lg:text-2xl">
+        Explore premium global freelancing opportunities that match your expertise!
       </h4>
       {/* <h2 className="text-md text-primary mb-8 text-center text-[#00a6fb] font-bold lg:text-2xl">One Platform, Endless Tech Opportunities</h2> */}
 
@@ -325,7 +325,6 @@ const Tags = () => {
     </section>
   );
 };
-
 
 const StyledWrapper = styled.div`
   .relative {
@@ -535,24 +534,27 @@ const StyledWrapper = styled.div`
 
 const StyledOSProgramCard = styled.div`
   display: flex;
+  flex-direction: column; /* Default to column for smaller screens */
   border: 1px solid rgb(182, 228, 250);
   background: linear-gradient(to right, rgba(15, 27, 53, 0.44), rgba(0, 43, 62, 0.43));
   border-radius: 0.5rem;
   overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
-  width: 100%;
-  max-width: 1000px;
-  margin: 1rem auto 0.5rem;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+  width: 90%; /* Adjust width for better responsiveness */
+  max-width: 800px;
+  margin: 1rem auto;
   padding: 1rem;
 
   &:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 25px rgba(0, 172, 255, 0.7);
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(0, 172, 255, 0.6);
   }
 
   .poster {
-    width: 350px;
-    height: 100%;
+    width: 100%; /* Full width for smaller screens */
+    height: auto;
     flex-shrink: 0;
     background-color: transparent;
     display: flex;
@@ -562,9 +564,9 @@ const StyledOSProgramCard = styled.div`
     padding: 0.5rem;
 
     img {
-      max-width: 100%;
-      max-height: 250px;
-      object-fit: contain;
+      width: 100%; /* Ensure the image scales properly */
+      max-height: 200px;
+      object-fit: cover;
       display: block;
       border: 1px solid white;
       border-radius: 8px;
@@ -573,10 +575,12 @@ const StyledOSProgramCard = styled.div`
 
   .apply-button-wrapper {
     margin-top: 0.5rem;
+    text-align: center; /* Center-align the button */
 
     a {
-      display: flex;
+      display: inline-flex;
       align-items: center;
+      justify-content: center;
       background-color: transparent;
       border: 1px solid #00a6fb;
       border-radius: 9999px;
@@ -600,23 +604,24 @@ const StyledOSProgramCard = styled.div`
         background-color: #00a6fb;
         animation: active-status 2s ease-in-out infinite;
       }
-    }
 
-    @keyframes active-status {
-      0%, 100% {
-        opacity: 1;
-      }
-      50% {
-        opacity: 0.2;
+      @keyframes active-status {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.2;
+        }
       }
     }
   }
 
   .content {
     flex: 1;
-    padding: 1.5rem;
-    display: grid;
-    grid-template-rows: auto 1fr auto; /* Header, Details, Footer */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
   }
 
@@ -626,20 +631,38 @@ const StyledOSProgramCard = styled.div`
     align-items: center;
 
     .organizer {
-      font-size: 1.1rem;
+      font-size: 1rem;
       font-weight: bold;
       color: white;
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: rgba(0, 166, 251, 0.2);
+      border: 1px solid #00a6fb;
+      border-radius: 0.5rem;
+      padding: 0.4rem 0.8rem;
+      color: white;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: rgba(0, 166, 251, 0.4);
+      }
     }
   }
 
   .details {
-    display: grid;
-    grid-template-rows: auto auto 1fr; /* Title, Description, Info */
+    display: flex;
+    flex-direction: column;
     gap: 0.8rem;
 
     h2 {
       color: white;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       margin-bottom: 0.5rem;
     }
 
@@ -647,17 +670,17 @@ const StyledOSProgramCard = styled.div`
       color: white;
       font-size: 0.9rem;
       line-height: 1.4;
-      margin-bottom: 1rem; /* Added margin-bottom here */
     }
 
     .info {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 0.8rem;
+      grid-template-columns: 1fr; /* Single column for smaller screens */
+      gap: 0.5rem;
       font-size: 0.9rem;
       color: #00a6fb;
 
-      span, a {
+      span,
+      a {
         display: flex;
         align-items: center;
 
@@ -669,33 +692,15 @@ const StyledOSProgramCard = styled.div`
     }
   }
 
-  .footer {
-    display: flex;
-    justify-content: flex-start;
-
-    .share-button {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      background-color: rgba(0, 166, 251, 0.2);
-      border: 1px solid #00a6fb;
-      border-radius: 0.5rem;
-      padding: 0.6rem 1.2rem;
-      color: white;
-      cursor: pointer;
-      transition: background-color 0.3s;
-
-      &:hover {
-        background-color: rgba(0, 166, 251, 0.4);
-      }
-    }
-  }
-
-    /* Responsive styles */
+  /* Responsive styles */
   @media (min-width: 768px) {
     flex-direction: row; /* Side-by-side layout for tablets and above */
     .poster {
-      width: 350px; /* Fixed width for larger screens */
+      width: 300px; /* Fixed width for larger screens */
+    }
+
+    .details .info {
+      grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
     }
   }
 
@@ -707,6 +712,10 @@ const StyledOSProgramCard = styled.div`
     .details p {
       font-size: 1rem; /* Larger description for desktops */
     }
+
+    .details .info {
+      grid-template-columns: repeat(3, 1fr); /* Three columns for larger screens */
+    }
   }
 `;
 
@@ -716,7 +725,6 @@ const OSProgramCardComponent = ({
   description,
   timeline,
   Duration,
-  type,
   guidelines,
   applyLink,
   poster,
@@ -730,7 +738,7 @@ const OSProgramCardComponent = ({
       });
     } else {
       navigator.clipboard.writeText(url);
-      alert("Link copied to clipboard!");
+      alert('Link copied to clipboard!');
     }
   };
 
@@ -742,7 +750,7 @@ const OSProgramCardComponent = ({
           alt={`${title} Poster`}
           onError={(e) => {
             e.target.onerror = null;
-            e.target.src = "/images/default.png";
+            e.target.src = '/images/default.png';
           }}
         />
         <div className="apply-button-wrapper">
@@ -750,6 +758,16 @@ const OSProgramCardComponent = ({
             <div className="status-user" />
             Apply Now
           </a>
+          <div className="mt-2 flex flex-col items-start gap-1 rounded-lg border border-[#00a6fb] bg-gray-900 bg-opacity-50 px-14 py-3 text-sm text-xs text-white text-white shadow-lg backdrop-blur-md transition-all hover:bg-gray-800">
+            <div className="flex items-center">
+              <FontAwesomeIcon icon={faCalendarAlt} className="mr-2 text-[#00a6fb]" />
+              <span className="font-medium">{timeline}</span>
+            </div>
+            <div className="flex items-center">
+              <FontAwesomeIcon icon={faClock} className="mr-2 text-[#00a6fb]" />
+              <span className="font-medium">{Duration}</span>
+            </div>
+          </div>
         </div>
       </div>
       <div className="content">
@@ -758,51 +776,102 @@ const OSProgramCardComponent = ({
             <FontAwesomeIcon icon={faFlag} className="mr-1 text-[#00a6fb]" /> {organizer}
           </span>
           <button
-            onClick={() => shareContent(window.location.href.split("#")[0] + shareLink)}
+            onClick={() => shareContent(window.location.href.split('#')[0] + shareLink)}
             className="bg-gray-1000 hover:bg-slate-1000 flex items-center justify-center gap-2 rounded-xl border border-[#00a6fb] bg-opacity-50 px-2 py-1 text-xs text-white backdrop-blur-md transition-colors"
           >
             <FontAwesomeIcon icon={faShareAlt} />
             Share
           </button>
         </div>
-        <div className="details">
-          <h2>{title}</h2>
-          <p>{description}</p>
-          <div className="info">
-            <span>
-              <FontAwesomeIcon icon={faCalendarAlt} /> {timeline}
-            </span>
-            <span>
-              <FontAwesomeIcon icon={faGlobe} /> {Duration}
-            </span>
-            <span>
-              <FontAwesomeIcon icon={faMapMarkerAlt} /> {type}
-            </span>
-            <a href={guidelines} target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faBookOpen} /> Guidelines
-            </a>
-          </div>
-        </div>
+        <div className="details flex flex-col items-center gap-4">
+  <h2 className="text-lg font-bold text-white">{title}</h2>
+  <p className="text-sm text-gray-300 text-center">{description}</p>
+  <div className="info mt-2 flex flex-col items-center gap-1 rounded-lg border border-[#00a6fb] bg-gray-900 bg-opacity-50 px-14 py-3 text-sm text-white shadow-lg backdrop-blur-md transition-all hover:bg-gray-800">
+    <a href={guidelines} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+      <FontAwesomeIcon icon={faBookOpen} className="text-[#00a6fb]" />
+      <span className="font-medium">Guidelines</span>
+    </a>
+  </div>
+</div>
       </div>
     </StyledOSProgramCard>
   );
 };
 
-// Example Usage (replace with your data)
+
 const OSProgramList = [
-  {
-    organizer: 'Google',
-    title: 'Google Summer of Code 2025',
-    description: 'Work with open-source orgs under Google and get paid for contributing. Work with open-source orgs under Google and get paid for contributing',
-    timeline: 'Apply before April 8, 2025',
-    Duration: 'June - September 2025',
-    type: 'Student-friendly',
-    guidelines: 'https://summerofcode.withgoogle.com/how-it-works/',
-    applyLink: 'https://summerofcode.withgoogle.com/',
-    poster: '/assets/Hackathons/HackCrux.png',
-    shareLink: '#gsoc',
-  },
-  // ... Add others similarly
+    {
+      organizer: 'Google',
+      title: 'Google Summer of Code 2025',
+      description: 'GSoC is a global, online program focused on bringing new contributors into open-source software development. Participants work with open-source organizations on a 12+ week programming project with mentorship and stipends provided by Google.',
+      timeline: 'Contributor applications open: March 18 – April 2, 2025',
+      Duration: 'May – September 2025',
+      type: 'Student-friendly, Open Source',
+      guidelines: 'https://summerofcode.withgoogle.com/how-it-works/',
+      applyLink: 'https://summerofcode.withgoogle.com/',
+      poster: '/assets/opensourceProgram/GSOC.png',
+      shareLink: '#gsoc2025',
+    },
+    {
+      organizer: 'MLH',
+      title: 'MLH Fellowship Spring 2025',
+      description: 'Collaborate with peers in a remote team to contribute to real open-source software projects under mentorship. Get paid while gaining practical development experience.',
+      timeline: 'Applications expected to open in December 2024',
+      Duration: 'March – June 2025',
+      type: 'Student-friendly, Open Source',
+      guidelines: 'https://fellowship.mlh.io/',
+      applyLink: 'https://fellowship.mlh.io/',
+      poster: '/assets/opensourceProgram/MLH.jpg',
+      shareLink: '#mlh-fellowship',
+    },
+    {
+      organizer: 'GirlScript Foundation',
+      title: 'GirlScript Summer of Code 2025',
+      description: 'An open-source program where you can contribute to various projects and get mentorship, swags, and certifications. It’s beginner-friendly and inclusive.',
+      timeline: 'Applications expected in February 2025',
+      Duration: 'May – August 2025',
+      type: 'Beginner-friendly, Open Source',
+      guidelines: 'https://gssoc.girlscript.tech/',
+      applyLink: 'https://gssoc.girlscript.tech/',
+      poster: '/assets/opensourceProgram/GSSOC.jpg',
+      shareLink: '#gssoc2025',
+    },
+    {
+      organizer: 'Outreachy',
+      title: 'Outreachy May 2025 Cohort',
+      description: 'Paid internships in open-source and open science for underrepresented groups. Work remotely with mentors on impactful projects.',
+      timeline: 'Application opens: January 2025',
+      Duration: 'May – August 2025',
+      type: 'Inclusive, Open Source, Paid',
+      guidelines: 'https://www.outreachy.org/',
+      applyLink: 'https://www.outreachy.org/apply/',
+      poster: '/assets/opensourceProgram/Outreachy.jpg',
+      shareLink: '#outreachy',
+    },
+    {
+      organizer: 'Kharagpur Open Source Society',
+      title: 'KOSS Winter of Code 2024-25',
+      description: 'Winter-long open-source program for students to learn and contribute to FOSS projects with mentorship and rewards.',
+      timeline: 'Applications open: November 2024',
+      Duration: 'December 2024 – February 2025',
+      type: 'Student-friendly, Open Source',
+      guidelines: 'https://kossiitkgp.org/woc',
+      applyLink: 'https://kossiitkgp.org/woc',
+      poster: '/assets/opensourceProgram/KOSS.jpg',
+      shareLink: '#woc2024',
+    },
+    {
+      organizer: 'DigitalOcean',
+      title: 'Hacktoberfest 2025',
+      description: 'Annual event in October that encourages contributions to open source via GitHub. Complete PRs and earn swag or plant a tree!',
+      timeline: 'October 1 – October 31, 2025',
+      Duration: '1 Month',
+      type: 'Global, Open Source',
+      guidelines: 'https://hacktoberfest.com/',
+      applyLink: 'https://hacktoberfest.com/',
+      poster: '/assets/opensourceProgram/Hacktoberfest.jpg',
+      shareLink: '#hacktoberfest2025',
+    },
 ];
 
 const OpenSourceProgram = () => {
@@ -812,7 +881,7 @@ const OpenSourceProgram = () => {
     if (location.hash) {
       const element = document.getElementById(location.hash.substring(1));
       if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
+        element.scrollIntoView({ behavior: 'smooth' });
       }
     }
   }, [location]);
@@ -822,21 +891,21 @@ const OpenSourceProgram = () => {
       <Navbar />
       <Hero />
       <Tags />
-      <div className="my-4"></div> 
+      <div className="my-4"></div>
       <div className="flex flex-wrap justify-center gap-4">
         {OSProgramList.map((program, index) => (
           <OSProgramCardComponent
-          key={index}
-          organizer={program.organizer}
-          title={program.title}
-          description={program.description}
-          timeline={program.timeline}
-          Duration={program.Duration}
-          type={program.type}
-          guidelines={program.guidelines}
-          applyLink={program.applyLink}
-          poster={program.poster}
-          shareLink={program.shareLink}
+            key={index}
+            organizer={program.organizer}
+            title={program.title}
+            description={program.description}
+            timeline={program.timeline}
+            Duration={program.Duration}
+            type={program.type}
+            guidelines={program.guidelines}
+            applyLink={program.applyLink}
+            poster={program.poster}
+            shareLink={program.shareLink}
           />
         ))}
       </div>
