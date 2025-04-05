@@ -278,9 +278,8 @@ const Tags = () => {
   return (
     <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
       <h4 className="text-md text-primary font-lg mb-8 text-center text-[#00a6fb] lg:text-2xl">
-        Explore premium global freelancing opportunities that match your expertise!
+        Explore the World of Open Source Opportunities!
       </h4>
-      {/* <h2 className="text-md text-primary mb-8 text-center text-[#00a6fb] font-bold lg:text-2xl">One Platform, Endless Tech Opportunities</h2> */}
 
       {/* Right to Left Scrolling */}
       <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} className="w-full">
@@ -516,21 +515,6 @@ const StyledWrapper = styled.div`
     animation-delay: 1.7s;
   }
 `;
-// const openSourceCards = [
-//   {
-//     Orgaizer: "Google",
-//     title: "Google Summer of Code 2025",
-//     description: "Work with open-source orgs under Google and get paid for contributing.",
-//     timeline: "Apply before April 8, 2025",
-//     Duration: "June - September 2025",
-//     type: "Student-friendly",
-//     guidelines: "https://summerofcode.withgoogle.com/how-it-works/",
-//     applyLink: "https://summerofcode.withgoogle.com/",
-//     poster: "https://summerofcode.withgoogle.com/assets/img/home-page-logo-2022.svg",
-//     shareLink: "#gsoc",
-//   },
-//   // Add more cards here as needed
-// ];
 
 const StyledOSProgramCard = styled.div`
   display: flex;
