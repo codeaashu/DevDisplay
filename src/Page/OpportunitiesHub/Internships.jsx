@@ -737,7 +737,7 @@ const Internships = () => {
       <Hero />
       <Tags />
       <InternshipAlerts />
-      <Internship />
+      <Internship  />
       <div className="my-8"></div> {/* Adds vertical spacing */}
       <Footer />
     </div>
