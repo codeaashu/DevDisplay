@@ -18,9 +18,9 @@ const shareContent = (url) => {
 };
 
 const Internship1 = () => {
-  const cardUrl = 'https://www.devdisplay.org/Internship#VijethaSoftwares';
+  const cardUrl = 'https://www.devdisplay.org/Internship#Vijetha-Softwares-Front-End-Developer';
   return (
-    <div id="VijethaSoftwares" className="group relative mx-auto w-full max-w-[30rem]">
+    <div id="Vijetha-Softwares-Front-End-Developer" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
         <div className="absolute -left-16 -top-16 h-32 w-32 rounded-full bg-gradient-to-br from-emerald-500/20 to-teal-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
         <div className="absolute -bottom-16 -right-16 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/20 to-indigo-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
@@ -167,9 +167,9 @@ const Internship1 = () => {
 };
 
 const Internship2 = () => {
-  const cardUrl = 'https://www.devdisplay.org/Internship#Webfuture';
+  const cardUrl = 'https://www.devdisplay.org/Internship#Webfuture-Front-End-Development';
   return (
-    <div id="Webfuture" className="group relative mx-auto w-full max-w-[30rem]">
+    <div id="Webfuture-Front-End-Development" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
         <div className="absolute -left-16 -top-16 h-32 w-32 rounded-full bg-gradient-to-br from-emerald-500/20 to-teal-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
         <div className="absolute -bottom-16 -right-16 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/20 to-indigo-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
