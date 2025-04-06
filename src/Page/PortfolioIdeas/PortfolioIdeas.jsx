@@ -389,7 +389,7 @@ const PortfolioIdeas = () => {
           <div className="modgp relative inline-block w-full py-3">
             <div className="relative">
               <div className="bg-primary enabled:hover:bg-primary-dark enabled:active:bg-primary-dark enabled:focus:bg-primary-dark px-18 relative inline-flex w-full items-center justify-center rounded-lg py-5 text-6xl font-bold text-white transition-all focus:outline-none enabled:hover:shadow-md disabled:opacity-50">
-                <div className="flex w-full items-center justify-center">Portfolio Showcase</div>
+                <div className="flex w-full items-center justify-center">Portfolio Display</div>
               </div>
             </div>
             <div className="pointer-events-none absolute inset-0">
@@ -397,7 +397,7 @@ const PortfolioIdeas = () => {
                 <div className="modgp relative inline-block w-full py-3">
                   <div className="relative">
                     <div className="bg-primary enabled:hover:bg-primary-dark enabled:active:bg-primary-dark enabled:focus:bg-primary-dark px-18 relative inline-flex w-full items-center justify-center rounded-lg py-5 text-6xl font-bold text-white transition-all focus:outline-none enabled:hover:shadow-md disabled:opacity-50">
-                      <div className="flex w-full items-center justify-center">Portfolio Showcase</div>
+                      <div className="flex w-full items-center justify-center">Portfolio Display</div>
                     </div>
                   </div>
                   <div className="pointer-events-none absolute inset-0">
@@ -596,41 +596,41 @@ const PortfolioIdeas = () => {
           onClick={() => setIsModalOpen(true)}
           className="rounded-lg bg-[#00a6fb] px-4 py-2 text-white transition-colors hover:bg-[#0089d2]"
         >
-          Add Portfolio
+          Add Your Portfolio
         </button>
       </div>
 
       {isModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-  <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white">
-    <div className="mb-4 flex items-center justify-between">
-      <h2 className="text-xl font-semibold">Add Your Portfolio</h2>
-      <button onClick={() => setIsModalOpen(false)} className="text-gray-400 hover:text-white">
-        ×
-      </button>
-    </div>
+          <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white">
+            <div className="mb-4 flex items-center justify-between">
+              <h2 className="text-xl font-semibold">Add Your Portfolio</h2>
+              <button onClick={() => setIsModalOpen(false)} className="text-gray-400 hover:text-white">
+                ×
+              </button>
+            </div>
 
-    {/* Embed the Tally form */}
-    <iframe
-      src="https://tally.so/embed/npzgEZ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-      width="100%"
-      height="500px"
-      frameBorder="0"
-      title="Tally Form"
-      className="rounded-lg"
-    ></iframe>
+            {/* Embed the Tally form */}
+            <iframe
+              src="https://tally.so/embed/npzgEZ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+              width="100%"
+              height="500px"
+              frameBorder="0"
+              title="Tally Form"
+              className="rounded-lg"
+            ></iframe>
 
-    <div className="mt-4 flex justify-end">
-      <button
-        type="button"
-        onClick={() => setIsModalOpen(false)}
-        className="rounded-lg bg-gray-700 px-4 py-2 text-white transition-colors hover:bg-gray-600"
-      >
-        Close
-      </button>
-    </div>
-  </div>
-</div>
+            <div className="mt-4 flex justify-end">
+              <button
+                type="button"
+                onClick={() => setIsModalOpen(false)}
+                className="rounded-lg bg-gray-700 px-4 py-2 text-white transition-colors hover:bg-gray-600"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
       )}
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
