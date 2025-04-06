@@ -602,84 +602,35 @@ const PortfolioIdeas = () => {
 
       {isModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white">
-            <div className="mb-4 flex items-center justify-between">
-              <h2 className="text-xl font-semibold">Add New Portfolio</h2>
-              <button onClick={() => setIsModalOpen(false)} className="text-gray-400 hover:text-white">
-                ×
-              </button>
-            </div>
+  <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white">
+    <div className="mb-4 flex items-center justify-between">
+      <h2 className="text-xl font-semibold">Add Your Portfolio</h2>
+      <button onClick={() => setIsModalOpen(false)} className="text-gray-400 hover:text-white">
+        ×
+      </button>
+    </div>
 
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div>
-                <label className="mb-1 block text-sm font-medium">Author</label>
-                <input
-                  type="text"
-                  value={newPortfolio.author}
-                  onChange={(e) => setNewPortfolio({ ...newPortfolio, author: e.target.value })}
-                  className="w-full rounded-lg bg-gray-700 px-3 py-2 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00a6fb]"
-                  required
-                />
-              </div>
-              <div>
-                <label className="mb-1 block text-sm font-medium">Screenshot URL</label>
-                <input
-                  type="url"
-                  value={newPortfolio.screenshot}
-                  onChange={(e) => setNewPortfolio({ ...newPortfolio, screenshot: e.target.value })}
-                  className="w-full rounded-lg bg-gray-700 px-3 py-2 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00a6fb]"
-                  required
-                />
-              </div>
-              <div>
-                <label className="mb-1 block text-sm font-medium">Live URL</label>
-                <input
-                  type="url"
-                  value={newPortfolio.liveUrl}
-                  onChange={(e) => setNewPortfolio({ ...newPortfolio, liveUrl: e.target.value })}
-                  className="w-full rounded-lg bg-gray-700 px-3 py-2 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00a6fb]"
-                  required
-                />
-              </div>
-              <div>
-                <label className="mb-1 block text-sm font-medium">Repository URL</label>
-                <input
-                  type="url"
-                  value={newPortfolio.repo}
-                  onChange={(e) => setNewPortfolio({ ...newPortfolio, repo: e.target.value })}
-                  className="w-full rounded-lg bg-gray-700 px-3 py-2 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00a6fb]"
-                  required
-                />
-              </div>
-              <div>
-                <label className="mb-1 block text-sm font-medium">Tech Stack</label>
-                <input
-                  type="text"
-                  value={newPortfolio.techStack}
-                  onChange={(e) => setNewPortfolio({ ...newPortfolio, techStack: e.target.value })}
-                  className="w-full rounded-lg bg-gray-700 px-3 py-2 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00a6fb]"
-                  required
-                  placeholder="e.g., React, Node.js, MongoDB"
-                />
-              </div>
-              <div className="mt-6 flex gap-2">
-                <button
-                  type="submit"
-                  className="w-full rounded-lg bg-[#00a6fb] px-4 py-2 text-white transition-colors hover:bg-[#0089d2]"
-                >
-                  Submit
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setIsModalOpen(false)}
-                  className="w-full rounded-lg bg-gray-700 px-4 py-2 text-white transition-colors hover:bg-gray-600"
-                >
-                  Cancel
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
+    {/* Embed the Tally form */}
+    <iframe
+      src="https://tally.so/embed/npzgEZ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+      width="100%"
+      height="500px"
+      frameBorder="0"
+      title="Tally Form"
+      className="rounded-lg"
+    ></iframe>
+
+    <div className="mt-4 flex justify-end">
+      <button
+        type="button"
+        onClick={() => setIsModalOpen(false)}
+        className="rounded-lg bg-gray-700 px-4 py-2 text-white transition-colors hover:bg-gray-600"
+      >
+        Close
+      </button>
+    </div>
+  </div>
+</div>
       )}
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
