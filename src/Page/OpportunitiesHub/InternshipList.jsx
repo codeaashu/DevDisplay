@@ -67,9 +67,9 @@ const Internship1 = () => {
           <div className="mt-6 flex flex-wrap gap-2">
           <span className="inline-flex items-center gap-1 rounded-lg bg-emerald-500/10 px-3 py-1 text-sm text-emerald-500">
           <FontAwesomeIcon icon={faClock} className="h-4 w-4 text-emerald-500" />
-              Ends on 20 April
+              Ends on 6 May
             </span>
-            {/* <span className="inline-flex items-center gap-1 rounded-lg bg-blue-500/10 px-3 py-1 text-sm text-blue-500">
+            <span className="inline-flex items-center gap-1 rounded-lg bg-blue-500/10 px-3 py-1 text-sm text-blue-500">
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
                   strokeLinecap="round"
@@ -79,7 +79,7 @@ const Internship1 = () => {
                 />
               </svg>
               Remote
-            </span> */}
+            </span>
             <span className="inline-flex items-center gap-1 rounded-lg bg-indigo-500/10 px-3 py-1 text-sm text-indigo-500">
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
@@ -89,7 +89,18 @@ const Internship1 = () => {
                   d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 />
               </svg>
-              Full-time
+              3 Months
+            </span>
+            <span className="inline-flex items-center gap-1 rounded-lg bg-green-500/10 px-3 py-1 text-sm text-green-500">
+              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"
+                />
+              </svg>
+              ₹ 3,500 /month
             </span>
           </div>
           <div className="mt-6 space-y-4">
@@ -100,27 +111,7 @@ const Internship1 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-                Proficiency in HTML, CSS, JavaScript, React.js and TailwindCSS.
-              </p>
-            </div>
-            <div className="flex items-start gap-3">
-              <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/10">
-                <svg className="h-4 w-4 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-              </div>
-              <p className="text-sm leading-relaxed text-slate-400">
-                Excellent communication and collaboration skills.
-              </p>
-            </div>
-            <div className="flex items-start gap-3">
-              <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/10">
-                <svg className="h-4 w-4 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-              </div>
-              <p className="text-sm leading-relaxed text-slate-400">
-                Experience with responsive design principles.
+              Are you a tech-savvy individual with a passion for mobile app development? Join our team at WOODSEY as a Mobile App Development Intern and gain hands-on experience in creating cutting-edge mobile applications. We are looking for someone skilled in Flutter, REST API, iOS, Android, and Firebase to help us build innovative solutions for our clients.
               </p>
             </div>
           </div>
@@ -218,7 +209,7 @@ const Internship2 = () => {
           <FontAwesomeIcon icon={faClock} className="h-4 w-4 text-emerald-500" />
               Ends on 20 April
             </span>
-            {/* <span className="inline-flex items-center gap-1 rounded-lg bg-blue-500/10 px-3 py-1 text-sm text-blue-500">
+            <span className="inline-flex items-center gap-1 rounded-lg bg-blue-500/10 px-3 py-1 text-sm text-blue-500">
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
                   strokeLinecap="round"
@@ -227,8 +218,8 @@ const Internship2 = () => {
                   d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
                 />
               </svg>
-              Remote
-            </span> */}
+              Onsite
+            </span>
             <span className="inline-flex items-center gap-1 rounded-lg bg-indigo-500/10 px-3 py-1 text-sm text-indigo-500">
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
@@ -367,7 +358,7 @@ const Internship3 = () => {
               <FontAwesomeIcon icon={faClock} className="h-4 w-4 text-emerald-500" />
               Ends on 23 April
             </span>
-            {/* <span className="inline-flex items-center gap-1 rounded-lg bg-blue-500/10 px-3 py-1 text-sm text-blue-500">
+            <span className="inline-flex items-center gap-1 rounded-lg bg-blue-500/10 px-3 py-1 text-sm text-blue-500">
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
                   strokeLinecap="round"
@@ -376,8 +367,8 @@ const Internship3 = () => {
                   d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
                 />
               </svg>
-              Remote
-            </span> */}
+              Onsite
+            </span>
             <span className="inline-flex items-center gap-1 rounded-lg bg-indigo-500/10 px-3 py-1 text-sm text-indigo-500">
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
