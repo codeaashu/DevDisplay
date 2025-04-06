@@ -218,6 +218,7 @@ const Tags = () => {
     { name: 'Accenture', logo: '/assets/Company/Accenture.png' },
     { name: 'Adobe', logo: '/assets/Company/Adobe.png' },
     { name: 'Apple', logo: '/assets/Company/Apple.png' },
+    { name: 'YouTube', logo: '/assets/Company/YouTube.png' },
     { name: 'Capgemini', logo: '/assets/Company/Capgemini.png' },
     { name: 'Cisco', logo: '/assets/Company/Cisco.png' },
     { name: 'Cloudflare', logo: '/assets/Company/Cloudflare.webp' },
