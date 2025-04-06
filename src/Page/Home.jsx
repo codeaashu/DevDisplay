@@ -79,7 +79,7 @@ const Hero = () => {
                 height="25"
                 className="mx-2 inline-block align-middle"
               />
-              231
+              234
             </div>
           </a>
         </p>
