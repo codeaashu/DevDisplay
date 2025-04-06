@@ -610,7 +610,6 @@ const PortfolioIdeas = () => {
               </button>
             </div>
 
-            {/* Embed the Tally form */}
             <iframe
               src="https://tally.so/embed/npzgEZ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
               width="100%"

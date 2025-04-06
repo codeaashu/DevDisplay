@@ -280,6 +280,16 @@ const hackathons = [
     shareLink: '#cardano-blockchain-hackathon-2025',
   },
   {
+    organizer: 'codecraX',
+    title: 'BrahmaX 1.0 - National Level Hackathon',
+    location: 'BGIEM, Jabalpur, MP',
+    date: 'May 9 - 10',
+    domains: ['web3', 'Blockchain', 'Edtech', 'Greentech', 'Healthcare', 'Cybersecurity'],
+    applyLink: 'https://unstop.com/o/Ch1wQ9l?utm_medium=Share&utm_source=shortUrl',
+    poster: '/assets/Hackathons/BrahmaX.png',
+    shareLink: '#brahmax-codecraX',
+  },
+  {
     organizer: 'Sui Foundation',
     title: 'Sui Overflow 2025',
     location: 'Online',
