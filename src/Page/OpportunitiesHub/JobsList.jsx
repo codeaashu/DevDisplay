@@ -35,7 +35,6 @@ const Jobs1 = () => {
                 <div className="mt-1 flex items-center gap-2">
                   <span className="text-sm text-slate-400">Google</span>
                   <span className="inline-block h-1 w-1 rounded-full bg-slate-400" />
-                  <span className="text-sm text-slate-400">YouTube</span>
                   {/* <div className="flex items-center gap-1">
                     <svg className="h-4 w-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -94,7 +93,7 @@ const Jobs1 = () => {
                   d="M12 2C8.686 2 6 4.686 6 8c0 5.25 6 12 6 12s6-6.75 6-12c0-3.314-2.686-6-6-6zM12 10a2 2 0 110-4 2 2 0 010 4z"
                 />
               </svg>
-              Bengaluru, Karnataka, India
+              Hyderabad, Telangana, India
             </span>
             <span className="inline-flex items-center gap-1 rounded-lg bg-indigo-500/10 px-3 py-1 text-sm text-indigo-500">
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -116,7 +115,7 @@ const Jobs1 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              Bachelor's degree in English, Journalism, Communication, Literature, Business, Marketing, a related field, or equivalent practical experience.
+              Bachelor’s degree or equivalent practical experience.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -126,7 +125,7 @@ const Jobs1 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              4 years of experience in writing, editorial, marketing, UX writing, content design, or related, as well as leading content strategy projects.
+              1 year of experience with software development in one or more programming languages (e.g., Python, C, C++, Java, JavaScript).
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -136,13 +135,23 @@ const Jobs1 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              Experience writing and designing User Interface UI for products.
+              Master's degree or PhD in Computer Science or related technical field.
+              </p>
+            </div>
+            <div className="flex items-start gap-3">
+              <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/10">
+                <svg className="h-4 w-4 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <p className="text-sm leading-relaxed text-slate-400">
+              Experience developing accessible technologies.
               </p>
             </div>
           </div>
           <div className="mt-8 flex gap-3">
             <a
-              href="https://www.google.com/about/careers/applications/jobs/results/74096962592219846-ux-writer-and-content-designer-youtube"
+              href="https://www.google.com/about/careers/applications/jobs/results/80228109793534662-software-engineer-corp-eng"
               target="_blank"
               rel="noopener noreferrer"
               className="group/btn relative flex-1 overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 p-px font-semibold text-white"
