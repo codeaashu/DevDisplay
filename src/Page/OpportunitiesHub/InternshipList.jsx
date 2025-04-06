@@ -17,7 +17,7 @@ const shareContent = (url) => {
   }
 };
 
-const VijethaSoftwares = () => {
+const Internship1 = () => {
   const cardUrl = 'https://www.devdisplay.org/Internship#VijethaSoftwares';
   return (
     <div id="VijethaSoftwares" className="group relative mx-auto w-full max-w-[30rem]">
@@ -166,7 +166,7 @@ const VijethaSoftwares = () => {
   );
 };
 
-const Webfuture = () => {
+const Internship2 = () => {
   const cardUrl = 'https://www.devdisplay.org/Internship#Webfuture';
   return (
     <div id="Webfuture" className="group relative mx-auto w-full max-w-[30rem]">
@@ -319,8 +319,8 @@ const InternshipList = () => {
   return (
     <>
       <div className="grid grid-cols-1 gap-6 px-3 sm:gap-4 md:grid-cols-2 lg:grid-cols-3">
-        <VijethaSoftwares />
-        <Webfuture />
+        <Internship1 />
+        <Internship2 />
       </div>
     </>
   );
