@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import styled from 'styled-components';
 import Marquee from 'react-fast-marquee';
@@ -466,12 +466,53 @@ const StyledWrapper = styled.div`
 `;
 
 const Hackathons = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <div className="background-wrapper min-h-screen bg-gray-900">
       <Navbar />
       <Hero />
       <Tags />
-      <div className="my-4"></div>
+      <div className="mb-8 flex items-center justify-between">
+        <button
+          onClick={() => setIsModalOpen(true)}
+          className="rounded-lg bg-[#00a6fb] px-4 py-2 text-white transition-colors hover:bg-[#0089d2]"
+        >
+        Spotlight Your Hackathon Globally!
+        </button>
+      </div>
+
+      {isModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white">
+            <div className="mb-4 flex items-center justify-between">
+              <h2 className="text-xl font-semibold">Submit The Hackathon Details!</h2>
+              <button onClick={() => setIsModalOpen(false)} className="text-gray-400 hover:text-white">
+                X
+              </button>
+            </div>
+
+            <iframe
+              src="https://tally.so/embed/mRjXkj?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+              width="100%"
+              height="500px"
+              frameBorder="0"
+              title="Tally Form"
+              className="rounded-lg"
+            ></iframe>
+
+            <div className="mt-4 flex justify-end">
+              <button
+                type="button"
+                onClick={() => setIsModalOpen(false)}
+                className="rounded-lg bg-gray-700 px-4 py-2 text-white transition-colors hover:bg-gray-600"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
       <HackathonList />
     </div>
   );
