@@ -473,6 +473,7 @@ const Hackathons = () => {
       <Navbar />
       <Hero />
       <Tags />
+      <div className="my-4"></div>
       <div className="mb-8 flex items-center justify-between">
         <button
           onClick={() => setIsModalOpen(true)}
