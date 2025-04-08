@@ -18,9 +18,9 @@ const shareContent = (url) => {
   }
 };
 
-// List of Global hackathons
+// List of Global Competitions
 
-const hackathons = [
+const Competitions = [
   // {
   //   organizer: 'Hack4Bihar',
   //   title: 'Hack4Bihar - Lucknow Hacking Tour',
@@ -312,7 +312,7 @@ const hackathons = [
   // ... Add others similarly
 ];
 
-const StyledHackathonCard = styled.div`
+const StyledCompetitionsCard = styled.div`
   position: relative;
   border: 1px solid rgb(182, 228, 250);
   background: linear-gradient(to right, rgba(15, 27, 53, 0.44), rgba(0, 43, 62, 0.43));
@@ -388,9 +388,9 @@ const StyledHackathonCard = styled.div`
   }
 `;
 
-const HackathonCardComponent = ({ organizer, title, location, date, domains, applyLink, poster, shareLink }) => {
+const CompetitionsCardComponent = ({ organizer, title, location, date, domains, applyLink, poster, shareLink }) => {
   return (
-    <StyledHackathonCard id={shareLink.substring(1)}>
+    <StyledCompetitionsCard id={shareLink.substring(1)}>
       {/* <div className="dot"></div> */}
       <div className="flex items-center justify-between p-2">
         <span className="text-sm font-semibold text-white">
@@ -449,7 +449,7 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
           </span>
         ))}
       </div>
-    </StyledHackathonCard>
+    </StyledCompetitionsCard>
   );
 };
 
@@ -466,7 +466,7 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
                     `}
 </style>;
 
-const HackathonListContainer = styled.div`
+const CompetitionsListContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -520,20 +520,20 @@ const FilterContainer = styled.div`
   }
 `;
 
-const HackathonList = () => {
+const CompetitionsList = () => {
   const [locationFilter, setLocationFilter] = useState('');
   const [monthFilter, setMonthFilter] = useState('');
   const [domainFilter, setDomainFilter] = useState('');
 
-  const filteredHackathons = hackathons.filter((hackathon) => {
+  const filteredCompetitions = Competitions.filter((competitions) => {
     const matchesLocation = locationFilter
-      ? hackathon.location.toLowerCase().includes(locationFilter.toLowerCase())
+      ? competitions.location.toLowerCase().includes(locationFilter.toLowerCase())
       : true;
     const matchesMonth = monthFilter
-      ? new Date(hackathon.date.split(' - ')[0]).getMonth() + 1 === parseInt(monthFilter)
+      ? new Date(competitions.date.split(' - ')[0]).getMonth() + 1 === parseInt(monthFilter)
       : true;
     const matchesDomain = domainFilter
-      ? hackathon.domains.some((domain) => domain.toLowerCase().includes(domainFilter.toLowerCase()))
+      ? competitions.domains.some((domain) => domain.toLowerCase().includes(domainFilter.toLowerCase()))
       : true;
     return matchesLocation && matchesMonth && matchesDomain;
   });
@@ -569,13 +569,13 @@ const HackathonList = () => {
           onChange={(e) => setDomainFilter(e.target.value)}
         />
       </FilterContainer>
-      <HackathonListContainer>
-        {filteredHackathons.map((hackathon, idx) => (
-          <HackathonCardComponent key={idx} {...hackathon} />
+      <CompetitionsListContainer>
+        {filteredCompetitions.map((competitions, idx) => (
+          <CompetitionsCardComponent key={idx} {...competitions} />
         ))}
-      </HackathonListContainer>
+      </CompetitionsListContainer>
     </>
   );
 };
 
-export default HackathonList;
+export default CompetitionsList;

@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import styled from 'styled-components';
 import Marquee from 'react-fast-marquee';
 import Competition from './CompetitionList.jsx';
 
 const Navbar = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
-    <nav className="sticky top-0 z-50 w-full bg-gray-800 text-white shadow-md">
+    <nav className="sticky top-0 z-50 w-full bg-gray-900 text-white shadow-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
         <a href="/opportunities">
           <button className="flex items-center gap-2 rounded-full border border-white p-2 hover:bg-gray-700">
@@ -15,13 +17,143 @@ const Navbar = () => {
           </button>
         </a>
 
+        <div className="flex items-center justify-center">
+          <StyledButton onClick={() => setIsModalOpen(true)}>
+            <div className="blob1" />
+            <div className="inner">Spotlight Your Competition Globally!</div>
+          </StyledButton>
+        </div>
+
         <div className="text-2xl font-bold">
           <img src="./DevDisplay ICON.png" alt="DevDisplay" className="h-12 w-12" />
         </div>
       </div>
+
+      {isModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white">
+            <div className="mb-4 flex items-center justify-between">
+              <h2 className="text-xl font-semibold">Submit The Competition Details!</h2>
+              <button onClick={() => setIsModalOpen(false)} className="text-gray-400 hover:text-white">
+                X
+              </button>
+            </div>
+
+            <iframe
+              src="https://tally.so/embed/mRjXkj?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+              width="100%"
+              height="500px"
+              frameBorder="0"
+              title="Tally Form"
+              className="rounded-lg"
+            ></iframe>
+
+            <div className="mt-4 flex justify-end">
+              <button
+                type="button"
+                onClick={() => setIsModalOpen(false)}
+                className="rounded-lg bg-gray-700 px-4 py-2 text-white transition-colors hover:bg-gray-600"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </nav>
   );
 };
+
+const StyledButton = styled.button`
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: none;
+  padding: 1px;
+  background: radial-gradient(circle 80px at 80% -10%, #ffffff, #181b1b);
+  position: relative;
+  transition: background 0.3s, transform 0.3s;
+  animation: zoom 3s ease-in-out infinite;
+  margin-top: 16px;
+
+  &:hover {
+    transform: scale(0.98);
+    animation-play-state: paused;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 65%;
+    height: 60%;
+    border-radius: 120px;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 20px #ffffff38;
+    z-index: -1;
+    transition: box-shadow 0.3s;
+  }
+
+  &:hover::after {
+    box-shadow: 0 0 10px #ffffff18;
+  }
+
+  .blob1 {
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    border-radius: 16px;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(circle 60px at 0% 100%, #3fe9ff, #0000ff80, transparent);
+    box-shadow: -10px 10px 30px #0051ff2d;
+    transition: background 0.3s, box-shadow 0.3s;
+  }
+
+  &:hover .blob1 {
+    box-shadow: -5px 5px 20px #000;
+  }
+
+  .inner {
+    padding: 10px 20px;
+    border-radius: 12px;
+    color: #fff;
+    z-index: 3;
+    position: relative;
+    background: radial-gradient(circle 80px at 80% -50%, #777777, #0f1111);
+    transition: background 0.3s;
+  }
+
+  &:hover .inner {
+    background: radial-gradient(circle 80px at 80% -50%, #333333, #0f0f0f);
+  }
+
+  .inner::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    background: radial-gradient(circle 60px at 0% 100%, #00e1ff1a, #0000ff11, transparent);
+    position: absolute;
+    transition: opacity 0.3s;
+  }
+
+  &:hover .inner::before {
+    opacity: 0;
+  }
+
+  @keyframes zoom {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+`;
 
 const Hero = () => {
   return (
@@ -32,7 +164,7 @@ const Hero = () => {
           <div className="modgp relative inline-block w-full py-3">
             <div className="relative">
               <div className="bg-primary enabled:hover:bg-primary-dark enabled:active:bg-primary-dark enabled:focus:bg-primary-dark px-18 relative inline-flex w-full items-center justify-center rounded-lg py-5 text-6xl font-bold text-white transition-all focus:outline-none enabled:hover:shadow-md disabled:opacity-50">
-                <div className="flex w-full items-center justify-center">Hackathons</div>
+                <div className="flex w-full items-center justify-center">Competitions</div>
               </div>
             </div>
             <div className="pointer-events-none absolute inset-0">
@@ -196,37 +328,32 @@ const Hero = () => {
 
 const Tags = () => {
   const tags = [
-    'Online Hackathons',
-    'Offline Hackathons',
-    'College Hackathons',
-    'International Hackathons',
-    'Beginner Friendly Hackathons',
-    'Themed Hackathons',
-    '24-Hour Hackathons',
-    'Startup Hackathons',
-    'AI/ML Hackathons',
-    'Web Development Hackathons',
-    'Game Dev Hackathons',
-    'Women-Only Hackathons',
-    'Student Competitions',
     'Coding Competitions',
-    '36-Hour Hackathons',
-    'Global Coding Challenges',
-    'Team-Based Competitions',
-    'Solo Coding Challenges',
-    '48-Hour Hackathons',
+    'AI/ML Competitions',
+    'Web Development Challenges',
+    'Game Development Contests',
+    'Cybersecurity Competitions',
+    'Blockchain Competitions',
+    'Data Science Challenges',
+    'Robotics Competitions',
+    'Hackathons',
     'Competitive Programming Contests',
-    'Blockchain Hackathons',
-    'Cybersecurity Hackathons',
-    'Web3 Hackathons',
-    'IOT Hackathons',
-    '72-Hour Hackathons',
+    'IOT Competitions',
+    'Web3 Competitions',
+    'Cloud Computing Challenges',
+    'AR/VR Development Contests',
+    'Open Source Contribution Contests',
+    'Algorithm Design Competitions',
+    'Tech Innovation Challenges',
+    'Software Development Competitions',
+    'Global Tech Challenges',
+    'Startup Pitch Competitions',
   ];
 
   return (
     <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
       <h1 className="text-md text-primary mb-8 text-center font-bold text-[#00a6fb] lg:text-2xl">
-        Explore and participate in global hackathons in one place.
+        Explore and participate in global Competitions in one place.
       </h1>
       {/* <h2 className="text-md text-primary mb-8 text-center text-[#00a6fb] font-bold lg:text-2xl">One Platform, Endless Tech Hackathon</h2> */}
 
