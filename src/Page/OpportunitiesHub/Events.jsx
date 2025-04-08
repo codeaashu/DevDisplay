@@ -352,6 +352,8 @@ const Tags = () => {
     'Green Tech Summits',
     'Space Tech Events',
     'Digital Transformation Conferences',
+    'College Fest',
+    'Dev Fest',
     'Tech Meetups',
     'Conferences',
   ];
