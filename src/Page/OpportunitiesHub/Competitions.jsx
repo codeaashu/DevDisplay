@@ -40,7 +40,7 @@ const Navbar = () => {
             </div>
 
             <iframe
-              src="https://tally.so/embed/mRjXkj?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+              src="https://tally.so/embed/3EakYA?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
               width="100%"
               height="500px"
               frameBorder="0"
