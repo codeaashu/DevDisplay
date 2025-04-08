@@ -18,7 +18,7 @@ const shareContent = (url) => {
   }
 };
 
-// List of Global Tech Events & Fest
+// List of Global Tech Events
 
 const techevents = [
     {
