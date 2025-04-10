@@ -16,6 +16,9 @@ import {
   Award,
   ArrowRight,
   Loader2,
+  Clock,
+  BookOpen,
+  Link,
 } from 'lucide-react';
 import { analyzeCareerPath } from '../api/skillAnalyzer.js';
 
@@ -42,7 +45,32 @@ const Feature = ({ icon, title, description }) => (
   </div>
 );
 
-function AiCareer() {
+const SkillCard = ({ title, skills, type }) => (
+  <div className="rounded-lg bg-white p-6 shadow">
+    <h3 className="mb-4 flex items-center text-lg font-semibold">
+      {type === 'matched' ? (
+        <CheckCircle2 className="mr-2 h-5 w-5 text-green-500" />
+      ) : (
+        <AlertCircle className="mr-2 h-5 w-5 text-amber-500" />
+      )}
+      {title}
+    </h3>
+    <div className="flex flex-wrap gap-2">
+      {skills.map((skill, index) => (
+        <span
+          key={index}
+          className={`rounded-full px-3 py-1 text-sm ${
+            type === 'matched' ? 'bg-green-100 text-green-800' : 'bg-amber-100 text-amber-800'
+          }`}
+        >
+          {skill}
+        </span>
+      ))}
+    </div>
+  </div>
+);
+
+function App() {
   const [jobGoal, setJobGoal] = useState('');
   const [currentSkills, setCurrentSkills] = useState('');
   const [targetCompany, setTargetCompany] = useState('');
@@ -90,49 +118,6 @@ function AiCareer() {
               <ArrowRight className="ml-2 h-5 w-5" />
             </a>
           </div>
-        </div>
-      </div>
-
-      {/* Stats Section */}
-      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-          <div className="rounded-xl bg-white p-6 text-center shadow-lg">
-            <LineChart className="mx-auto mb-4 h-12 w-12 text-indigo-600" />
-            <div className="mb-2 text-4xl font-bold text-gray-900">95%</div>
-            <p className="text-gray-600">Career Match Accuracy</p>
-          </div>
-          <div className="rounded-xl bg-white p-6 text-center shadow-lg">
-            <Users className="mx-auto mb-4 h-12 w-12 text-indigo-600" />
-            <div className="mb-2 text-4xl font-bold text-gray-900">50K+</div>
-            <p className="text-gray-600">Successful Career Transitions</p>
-          </div>
-          <div className="rounded-xl bg-white p-6 text-center shadow-lg">
-            <Building2 className="mx-auto mb-4 h-12 w-12 text-indigo-600" />
-            <div className="mb-2 text-4xl font-bold text-gray-900">1000+</div>
-            <p className="text-gray-600">Partner Companies</p>
-          </div>
-        </div>
-      </div>
-
-      {/* Features Section */}
-      <div className="mx-auto max-w-7xl bg-gray-50 px-4 py-16 sm:px-6 lg:px-8">
-        <h2 className="mb-12 text-center text-3xl font-bold">Why Choose AI Career Navigator?</h2>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-          <Feature
-            icon={<TrendingUp className="h-12 w-12" />}
-            title="AI-Powered Analysis"
-            description="Get precise career compatibility analysis using advanced machine learning algorithms"
-          />
-          <Feature
-            icon={<Rocket className="h-12 w-12" />}
-            title="Personalized Path"
-            description="Receive customized learning paths and skill development recommendations"
-          />
-          <Feature
-            icon={<Award className="h-12 w-12" />}
-            title="Industry Insights"
-            description="Access real-time industry trends and requirements from top companies"
-          />
         </div>
       </div>
 
@@ -211,159 +196,142 @@ function AiCareer() {
               </form>
             </div>
           ) : (
-            <div className="rounded-2xl bg-white p-8 shadow-xl">
-              <h2 className="mb-6 text-2xl font-bold text-gray-900">Your Career Analysis</h2>
+            <div className="space-y-8">
+              {/* Results Header */}
+              <div className="rounded-2xl bg-white p-8 shadow-xl">
+                <div className="mb-6 flex items-center justify-between">
+                  <h2 className="text-2xl font-bold text-gray-900">Career Analysis Results</h2>
+                  <button onClick={() => setShowResults(false)} className="text-indigo-600 hover:text-indigo-700">
+                    New Analysis
+                  </button>
+                </div>
 
-              {analysis && (
-                <div className="space-y-6">
-                  <div className="flex items-center justify-between rounded-lg bg-indigo-50 p-4">
-                    <div className="flex items-center">
-                      <Percent className="mr-3 h-8 w-8 text-indigo-600" />
-                      <div>
-                        <p className="text-sm text-gray-600">Job Compatibility</p>
-                        <p className="text-2xl font-bold text-indigo-600">{analysis.compatibility}%</p>
+                {analysis && (
+                  <div className="space-y-8">
+                    {/* Compatibility Score */}
+                    <div className="flex items-center justify-center">
+                      <div className="relative h-48 w-48">
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <div className="text-center">
+                            <div className="text-4xl font-bold text-indigo-600">{analysis.compatibility}%</div>
+                            <div className="text-gray-600">Compatibility</div>
+                          </div>
+                        </div>
+                        <svg className="h-48 w-48 -rotate-90 transform">
+                          <circle
+                            cx="96"
+                            cy="96"
+                            r="88"
+                            stroke="currentColor"
+                            strokeWidth="12"
+                            fill="transparent"
+                            className="text-gray-200"
+                          />
+                          <circle
+                            cx="96"
+                            cy="96"
+                            r="88"
+                            stroke="currentColor"
+                            strokeWidth="12"
+                            fill="transparent"
+                            strokeDasharray={553}
+                            strokeDashoffset={553 - (553 * analysis.compatibility) / 100}
+                            className="text-indigo-600"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+
+                    {/* Skill Analysis */}
+                    <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+                      <SkillCard title="Matched Skills" skills={analysis.matchedSkills} type="matched" />
+                      <SkillCard title="Skills to Develop" skills={analysis.missingSkills} type="missing" />
+                    </div>
+
+                    {/* Company Insights */}
+                    <div className="rounded-lg bg-white p-6 shadow">
+                      <h3 className="mb-4 flex items-center text-lg font-semibold">
+                        <Building2 className="mr-2 h-5 w-5 text-indigo-600" />
+                        Company Insights
+                      </h3>
+                      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+                        <div>
+                          <h4 className="mb-2 font-medium text-gray-700">Culture</h4>
+                          <p className="text-gray-600">{analysis.companyInsights.culture}</p>
+                        </div>
+                        <div>
+                          <h4 className="mb-2 font-medium text-gray-700">Tech Stack</h4>
+                          <div className="flex flex-wrap gap-2">
+                            {analysis.companyInsights.techStack.map((tech, index) => (
+                              <span key={index} className="rounded-full bg-blue-100 px-2 py-1 text-sm text-blue-800">
+                                {tech}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                        <div>
+                          <h4 className="mb-2 font-medium text-gray-700">Growth Areas</h4>
+                          <div className="flex flex-wrap gap-2">
+                            {analysis.companyInsights.growthAreas.map((area, index) => (
+                              <span key={index} className="rounded-full bg-green-100 px-2 py-1 text-sm text-green-800">
+                                {area}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Career Path Steps */}
+                    <div className="rounded-lg bg-white p-6 shadow">
+                      <h3 className="mb-6 flex items-center text-lg font-semibold">
+                        <TrendingUp className="mr-2 h-5 w-5 text-indigo-600" />
+                        Development Roadmap
+                      </h3>
+                      <div className="space-y-6">
+                        {analysis.careerPathSteps.map((step, index) => (
+                          <div key={index} className="border-l-2 border-indigo-200 pb-6 pl-4">
+                            <div className="mb-2 flex items-center">
+                              <Clock className="mr-2 h-4 w-4 text-indigo-600" />
+                              <span className="text-sm font-medium text-indigo-600">{step.timeframe}</span>
+                            </div>
+                            <h4 className="mb-2 text-lg font-medium text-gray-900">{step.focus}</h4>
+                            <ul className="space-y-2">
+                              {step.resources.map((resource, rIndex) => (
+                                <li key={rIndex} className="flex items-center text-gray-600">
+                                  <BookOpen className="mr-2 h-4 w-4" />
+                                  {resource}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Recommended Path */}
+                    <div className="rounded-lg bg-white p-6 shadow">
+                      <h3 className="mb-4 flex items-center text-lg font-semibold">
+                        <Rocket className="mr-2 h-5 w-5 text-indigo-600" />
+                        Recommended Next Steps
+                      </h3>
+                      <div className="prose max-w-none text-gray-600">
+                        {analysis.recommendedPath.split('\n').map((line, index) => (
+                          <p key={index} className="mb-2">
+                            {line}
+                          </p>
+                        ))}
                       </div>
                     </div>
                   </div>
-
-                  <div className="space-y-4">
-                    <h3 className="flex items-center text-lg font-semibold text-gray-900">
-                      <AlertCircle className="mr-2 h-5 w-5 text-amber-500" />
-                      Skills to Develop
-                    </h3>
-                    <ul className="list-disc space-y-2 pl-5">
-                      {analysis.missingSkills.map((skill, index) => (
-                        <li key={index} className="text-gray-600">
-                          {skill}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div className="border-t pt-4">
-                    <h3 className="mb-2 text-lg font-semibold text-gray-900">Recommended Path</h3>
-                    <p className="text-gray-600">{analysis.recommendedPath}</p>
-                  </div>
-
-                  <button
-                    onClick={() => setShowResults(false)}
-                    className="mt-4 w-full rounded-lg bg-gray-100 px-6 py-3 text-gray-700 transition-colors hover:bg-gray-200"
-                  >
-                    Start New Analysis
-                  </button>
-                </div>
-              )}
+                )}
+              </div>
             </div>
           )}
         </div>
       </div>
-
-      {/* Testimonials Section */}
-      <div className="mx-auto max-w-7xl bg-gray-50 px-4 py-16 sm:px-6 lg:px-8">
-        <h2 className="mb-12 text-center text-3xl font-bold">Success Stories</h2>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-          <Testimonial
-            name="Sarah Johnson"
-            role="Senior Software Engineer"
-            company="Google"
-            text="AI Career Navigator helped me identify the exact skills I needed to land my dream job at Google. The personalized roadmap was invaluable."
-            imageUrl="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80"
-          />
-          <Testimonial
-            name="Michael Chen"
-            role="Product Manager"
-            company="Microsoft"
-            text="The career compatibility analysis was spot-on. It helped me transition from engineering to product management seamlessly."
-            imageUrl="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80"
-          />
-          <Testimonial
-            name="Emily Rodriguez"
-            role="Data Scientist"
-            company="Amazon"
-            text="The AI-powered insights helped me focus on the most relevant skills for my field. I got three job offers within a month!"
-            imageUrl="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80"
-          />
-        </div>
-      </div>
-
-      {/* How It Works Section */}
-      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <h2 className="mb-12 text-center text-3xl font-bold">How It Works</h2>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
-          <div className="text-center">
-            <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-indigo-600 text-2xl font-bold text-white">
-              1
-            </div>
-            <h3 className="mb-2 text-xl font-semibold">Input Your Goals</h3>
-            <p className="text-gray-600">Share your career aspirations and current skill set</p>
-          </div>
-          <div className="text-center">
-            <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-indigo-600 text-2xl font-bold text-white">
-              2
-            </div>
-            <h3 className="mb-2 text-xl font-semibold">AI Analysis</h3>
-            <p className="text-gray-600">Our AI analyzes your profile against industry requirements</p>
-          </div>
-          <div className="text-center">
-            <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-indigo-600 text-2xl font-bold text-white">
-              3
-            </div>
-            <h3 className="mb-2 text-xl font-semibold">Get Insights</h3>
-            <p className="text-gray-600">Receive detailed compatibility analysis and skill gaps</p>
-          </div>
-          <div className="text-center">
-            <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-indigo-600 text-2xl font-bold text-white">
-              4
-            </div>
-            <h3 className="mb-2 text-xl font-semibold">Take Action</h3>
-            <p className="text-gray-600">Follow your personalized development roadmap</p>
-          </div>
-        </div>
-      </div>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 py-12 text-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
-            <div>
-              <h4 className="mb-4 text-lg font-semibold">AI Career Navigator</h4>
-              <p className="text-gray-400">Empowering careers through AI-driven insights</p>
-            </div>
-            <div>
-              <h4 className="mb-4 text-lg font-semibold">Features</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>Career Analysis</li>
-                <li>Skill Gap Assessment</li>
-                <li>Learning Paths</li>
-                <li>Industry Insights</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="mb-4 text-lg font-semibold">Company</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>About Us</li>
-                <li>Contact</li>
-                <li>Privacy Policy</li>
-                <li>Terms of Service</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="mb-4 text-lg font-semibold">Connect</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>Twitter</li>
-                <li>LinkedIn</li>
-                <li>Facebook</li>
-                <li>Instagram</li>
-              </ul>
-            </div>
-          </div>
-          <div className="mt-8 border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 AI Career Navigator. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
 
-export default AiCareer;
+export default App;
