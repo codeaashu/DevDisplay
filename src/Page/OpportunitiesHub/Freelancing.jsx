@@ -7,8 +7,10 @@ import Marquee from 'react-fast-marquee';
 import Freelance from './FreelanceList';
 
 const Navbar = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
-    <nav className="sticky top-0 z-50 w-full bg-gray-800 text-white shadow-md">
+    <nav className="sticky top-0 z-50 w-full bg-gray-900 text-white shadow-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
         <a href="/opportunities">
           <button className="flex items-center gap-2 rounded-full border border-white p-2 hover:bg-gray-700">
@@ -17,10 +19,49 @@ const Navbar = () => {
           </button>
         </a>
 
+        <div className="flex items-center justify-center">
+          <StyledButton onClick={() => setIsModalOpen(true)}>
+            <div className="blob1" />
+            <div className="inner">Spotlight Your Freelance Need Globally!</div>
+          </StyledButton>
+        </div>
+
         <div className="text-2xl font-bold">
           <img src="./DevDisplay ICON.png" alt="DevDisplay" className="h-12 w-12" />
         </div>
       </div>
+
+      {isModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white">
+            <div className="mb-4 flex items-center justify-between">
+              <h2 className="text-xl font-semibold">Submit The Freelancing Details!</h2>
+              <button onClick={() => setIsModalOpen(false)} className="text-gray-400 hover:text-white">
+                X
+              </button>
+            </div>
+
+            <iframe
+              src="https://tally.so/embed/mOV7Gp?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+              width="100%"
+              height="500px"
+              frameBorder="0"
+              title="Tally Form"
+              className="rounded-lg"
+            ></iframe>
+
+            <div className="mt-4 flex justify-end">
+              <button
+                type="button"
+                onClick={() => setIsModalOpen(false)}
+                className="rounded-lg bg-gray-700 px-4 py-2 text-white transition-colors hover:bg-gray-600"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </nav>
   );
 };

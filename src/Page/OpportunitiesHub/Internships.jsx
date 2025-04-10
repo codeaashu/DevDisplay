@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className="flex items-center justify-center">
           <StyledButton onClick={() => setIsModalOpen(true)}>
             <div className="blob1" />
-            <div className="inner">Spotlight Your Competition Globally!</div>
+            <div className="inner">Spotlight Your Internship Globally!</div>
           </StyledButton>
         </div>
 
@@ -35,14 +35,14 @@ const Navbar = () => {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
           <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white">
             <div className="mb-4 flex items-center justify-between">
-              <h2 className="text-xl font-semibold">Submit The Competition Details!</h2>
+              <h2 className="text-xl font-semibold">Submit The Internship Details!</h2>
               <button onClick={() => setIsModalOpen(false)} className="text-gray-400 hover:text-white">
                 X
               </button>
             </div>
 
             <iframe
-              src="#"
+              src="https://tally.so/embed/mOV7Gp?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
               width="100%"
               height="500px"
               frameBorder="0"
@@ -71,14 +71,7 @@ const Hero = () => {
   return (
     <section className="hero-section mb-0 flex min-h-[10vh] flex-col items-center justify-center text-white">
       <div className="flex w-full flex-col items-center justify-center px-8 text-center">
-        {/* <h2 className="mb-4 text-6xl font-bold">
-          Opportunities <span className="text-[#00a6fb]">Hub</span>
-        </h2> */}
-        {/* <p className="text-md md:text-md mx-auto max-w-2xl">
-         One Platform, Endless Tech Opportunities
-        </p> */}
         <div className="my-6"></div>
-        {/* <h1 className="mb-2 text-6xl font-bold tracking-widest md:text-4xl"><span className="text-[#00a6fb]">Unlock All Tech Opportunities in One Place</span></h1> */}
         <StyledWrapper>
           <div className="modgp relative inline-block w-full py-3">
             <div className="relative">
