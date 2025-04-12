@@ -1,10 +1,16 @@
 {
   "name": "Sai Kannadkar",
   "location": "Nashik, India",
-  "bio": " Computer Science Enthusiast | Inclined towards Reseach",
+  "bio": "Computer Science Enthusiast | Inclined towards Reseach",
   "avatar": "https://github.com/saikannadkar.png",
   "portfolio": "https://github.com/saikannadkar",
-  "skills": ["Java", "C++", "API", "Management", "Web Devlopment"],
+  "skills": [
+    "Java",
+    "C++",
+    "API",
+    "Management",
+    "Web Devlopment"
+  ],
   "social": {
     "GitHub": "https://github.com/saikannadkar",
     "Twitter": "https://twitter.com/saikannadkar",
@@ -20,13 +26,6 @@
     "DevTo": "https://dev.to/saikannadkar",
     "Hashnode": "https://hashnode.com/@saikannadkar",
     "Behance": "https://www.behance.net/saikannadkar",
-    "Dribbble": "https://dribbble.com/your-dribbble-profile",
-    "Figma": "https://www.figma.com/@your-figma-profile",
-    "Replit": "https://replit.com/@your-replit-username",
-    "BuyMeACoffee": "https://www.buymeacoffee.com/your-coffee-profile",
-    "ProductHunt": "https://www.producthunt.com/@your-producthunt-profile",
-    "Medium": "https://medium.com/@your-medium-profile",
-    "Reddit": "https://www.reddit.com/user/your-reddit-username",
     "Unstop": "https://unstop.com/@saikannadkar"
   }
 }
