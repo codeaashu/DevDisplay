@@ -52,12 +52,7 @@ const Internship1 = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  d="M3 17l6-6 4 4 8-8"
-                />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 17l6-6 4 4 8-8" />
               </svg>
               {/* <span className="h-5 w-5 text-slate-400 transition-colors group-hover/save:text-emerald-500">
                 🔥
@@ -65,8 +60,8 @@ const Internship1 = () => {
             </button>
           </div>
           <div className="mt-6 flex flex-wrap gap-2">
-          <span className="inline-flex items-center gap-1 rounded-lg bg-emerald-500/10 px-3 py-1 text-sm text-emerald-500">
-          <FontAwesomeIcon icon={faClock} className="h-4 w-4 text-emerald-500" />
+            <span className="inline-flex items-center gap-1 rounded-lg bg-emerald-500/10 px-3 py-1 text-sm text-emerald-500">
+              <FontAwesomeIcon icon={faClock} className="h-4 w-4 text-emerald-500" />
               Ends on 6 May
             </span>
             <span className="inline-flex items-center gap-1 rounded-lg bg-blue-500/10 px-3 py-1 text-sm text-blue-500">
@@ -111,7 +106,10 @@ const Internship1 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              Are you a tech-savvy individual with a passion for mobile app development? Join our team at WOODSEY as a Mobile App Development Intern and gain hands-on experience in creating cutting-edge mobile applications. We are looking for someone skilled in Flutter, REST API, iOS, Android, and Firebase to help us build innovative solutions for our clients.
+                Are you a tech-savvy individual with a passion for mobile app development? Join our team at WOODSEY as a
+                Mobile App Development Intern and gain hands-on experience in creating cutting-edge mobile applications.
+                We are looking for someone skilled in Flutter, REST API, iOS, Android, and Firebase to help us build
+                innovative solutions for our clients.
               </p>
             </div>
           </div>
@@ -192,12 +190,7 @@ const Internship2 = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  d="M3 17l6-6 4 4 8-8"
-                />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 17l6-6 4 4 8-8" />
               </svg>
               {/* <span className="h-5 w-5 text-slate-400 transition-colors group-hover/save:text-emerald-500">
                 🔥
@@ -205,8 +198,8 @@ const Internship2 = () => {
             </button>
           </div>
           <div className="mt-6 flex flex-wrap gap-2">
-          <span className="inline-flex items-center gap-1 rounded-lg bg-emerald-500/10 px-3 py-1 text-sm text-emerald-500">
-          <FontAwesomeIcon icon={faClock} className="h-4 w-4 text-emerald-500" />
+            <span className="inline-flex items-center gap-1 rounded-lg bg-emerald-500/10 px-3 py-1 text-sm text-emerald-500">
+              <FontAwesomeIcon icon={faClock} className="h-4 w-4 text-emerald-500" />
               Ends on 20 April
             </span>
             <span className="inline-flex items-center gap-1 rounded-lg bg-blue-500/10 px-3 py-1 text-sm text-blue-500">
@@ -259,9 +252,7 @@ const Internship2 = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <p className="text-sm leading-relaxed text-slate-400">
-                Experience with responsive design principles.
-              </p>
+              <p className="text-sm leading-relaxed text-slate-400">Experience with responsive design principles.</p>
             </div>
           </div>
           <div className="mt-8 flex gap-3">
@@ -341,12 +332,7 @@ const Internship3 = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  d="M3 17l6-6 4 4 8-8"
-                />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 17l6-6 4 4 8-8" />
               </svg>
               {/* <span className="h-5 w-5 text-slate-400 transition-colors group-hover/save:text-emerald-500">
                 🔥
@@ -388,9 +374,7 @@ const Internship3 = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <p className="text-sm leading-relaxed text-slate-400">
-                Proficiency in HTML, CSS, and JavaScript.
-              </p>
+              <p className="text-sm leading-relaxed text-slate-400">Proficiency in HTML, CSS, and JavaScript.</p>
             </div>
             <div className="flex items-start gap-3">
               <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/10">

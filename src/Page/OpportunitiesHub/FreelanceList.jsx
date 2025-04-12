@@ -24,13 +24,7 @@ const FreelanceCard = () => {
         <div className="absolute -bottom-16 -right-16 h-32 w-32 rounded-full bg-gradient-to-br from-purple-500/20 to-pink-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
         <div className="relative p-6">
           <div className="flex items-center gap-2">
-            <svg
-              className="w-5 h-5 text-white"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              viewBox="0 0 24 24"
-            >
+            <svg className="h-5 w-5 text-white" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -130,7 +124,6 @@ const FreelanceCard = () => {
   );
 };
 
-
 // const FreelanceCard2 = () => {
 //   const freelanceUrl = 'https://www.devdisplay.org/Freelance#FreelanceCard';
 
@@ -222,7 +215,6 @@ const FreelanceCard = () => {
 //     </div>
 //   );
 // };
-
 
 const InternshipCard = () => {
   return (

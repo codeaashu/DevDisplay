@@ -72,7 +72,9 @@ const StyledButton = styled.button`
   padding: 1px;
   background: radial-gradient(circle 80px at 80% -10%, #ffffff, #181b1b);
   position: relative;
-  transition: background 0.3s, transform 0.3s;
+  transition:
+    background 0.3s,
+    transform 0.3s;
   animation: zoom 3s ease-in-out infinite;
   margin-top: 16px;
 
@@ -107,7 +109,9 @@ const StyledButton = styled.button`
     left: 0;
     background: radial-gradient(circle 60px at 0% 100%, #3fe9ff, #0000ff80, transparent);
     box-shadow: -10px 10px 30px #0051ff2d;
-    transition: background 0.3s, box-shadow 0.3s;
+    transition:
+      background 0.3s,
+      box-shadow 0.3s;
   }
 
   &:hover .blob1 {

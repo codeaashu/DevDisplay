@@ -47,8 +47,8 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'MerriweatherSans-SemiBold', 'MerriweatherSans-Light',
-    monospace;
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, 'MerriweatherSans-SemiBold', 'MerriweatherSans-Light', monospace;
 }
 
 @media (max-width: 480px) {

@@ -351,7 +351,6 @@ const Tags = () => {
   );
 };
 
-
 const StyledButton = styled.button`
   cursor: pointer;
   font-size: 1rem; /* Smaller font size */

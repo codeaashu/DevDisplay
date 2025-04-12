@@ -4,15 +4,7 @@
   "bio": "Computer Science Enthusiast | Inclined towards Reseach",
   "avatar": "https://github.com/saikannadkar.png",
   "portfolio": "https://github.com/saikannadkar",
-  "skills": [
-    "Java",
-    "C++",
-    "API",
-    "Management",
-    "Web Devlopment",
-    "GitHub",
-    "Git"
-  ],
+  "skills": ["Java", "C++", "API", "Management", "Web Devlopment", "GitHub", "Git"],
   "social": {
     "GitHub": "https://github.com/saikannadkar",
     "Twitter": "https://twitter.com/saikannadkar",

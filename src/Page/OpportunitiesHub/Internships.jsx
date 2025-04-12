@@ -66,7 +66,6 @@ const Navbar = () => {
   );
 };
 
-
 const Hero = () => {
   return (
     <section className="hero-section mb-0 flex min-h-[10vh] flex-col items-center justify-center text-white">
@@ -344,7 +343,6 @@ const Tags = () => {
   );
 };
 
-
 const StyledButton = styled.button`
   cursor: pointer;
   font-size: 1rem; /* Smaller font size */
@@ -439,7 +437,6 @@ const StyledButton = styled.button`
     }
   }
 `;
-
 
 const StyledWrapper = styled.div`
   .relative {
@@ -641,7 +638,7 @@ const InternshipAlerts = () => {
     if (internshipTitle && location) {
       const formattedTitle = internshipTitle.replace(/\s+/g, '+');
       const formattedLocation = location.replace(/\s+/g, '+');
-  
+
       const internshipPlatforms = [
         {
           name: 'LinkedIn Internships',
@@ -696,7 +693,7 @@ const InternshipAlerts = () => {
           url: `https://remotive.io/remote-jobs/search?query=${formattedTitle}&type=internship`, // Filters for internships
         },
       ];
-  
+
       setInternshipLinks(internshipPlatforms);
     } else {
       alert('Please enter both internship title and location to get internship alerts.');
@@ -771,7 +768,7 @@ const Internships = () => {
       <Hero />
       <Tags />
       <InternshipAlerts />
-      <Internship  />
+      <Internship />
       <div className="my-8"></div> {/* Adds vertical spacing */}
       <Footer />
     </div>

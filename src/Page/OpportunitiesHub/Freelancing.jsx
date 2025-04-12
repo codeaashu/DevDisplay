@@ -66,7 +66,6 @@ const Navbar = () => {
   );
 };
 
-
 const Hero = () => {
   return (
     <section className="hero-section mb-0 flex min-h-[10vh] flex-col items-center justify-center text-white">
@@ -303,8 +302,8 @@ const Tags = () => {
 
   return (
     <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
-      <h4 className="text-md text-primary mb-8 text-center font-lg text-[#00a6fb] lg:text-2xl">
-      Explore premium global freelancing opportunities that match your expertise!
+      <h4 className="text-md text-primary font-lg mb-8 text-center text-[#00a6fb] lg:text-2xl">
+        Explore premium global freelancing opportunities that match your expertise!
       </h4>
       {/* <h2 className="text-md text-primary mb-8 text-center text-[#00a6fb] font-bold lg:text-2xl">One Platform, Endless Tech Opportunities</h2> */}
 
@@ -645,7 +644,7 @@ const FreelancingFinder = () => {
   const handleFreelancingFinder = () => {
     if (jobTitle) {
       const formattedTitle = jobTitle.replace(/\s+/g, '+');
-  
+
       const freelancePlatforms = [
         {
           name: 'Upwork',
@@ -700,7 +699,7 @@ const FreelancingFinder = () => {
           url: `https://www.kolabtree.com/find-an-expert?q=${formattedTitle}`,
         },
       ];
-  
+
       setJobLinks(freelancePlatforms);
     } else {
       alert('Please enter a job title to find freelance opportunities.');

@@ -15,7 +15,6 @@ const shareContent = (url) => {
   }
 };
 
-
 const Jobs1 = () => {
   const cardUrl = 'https://www.devdisplay.org/Jobs#Google-SDE-YouTube';
   return (
@@ -52,12 +51,7 @@ const Jobs1 = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  d="M3 17l6-6 4 4 8-8"
-                />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 17l6-6 4 4 8-8" />
               </svg>
               {/* <span className="h-5 w-5 text-slate-400 transition-colors group-hover/save:text-emerald-500">
                 🔥
@@ -116,7 +110,7 @@ const Jobs1 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              Bachelor’s degree or equivalent practical experience.
+                Bachelor’s degree or equivalent practical experience.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -126,7 +120,8 @@ const Jobs1 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              1 year of experience with software development in one or more programming languages (e.g., Python, C, C++, Java, JavaScript).
+                1 year of experience with software development in one or more programming languages (e.g., Python, C,
+                C++, Java, JavaScript).
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -136,7 +131,7 @@ const Jobs1 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              Master's degree or PhD in Computer Science or related technical field.
+                Master's degree or PhD in Computer Science or related technical field.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -145,9 +140,7 @@ const Jobs1 = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <p className="text-sm leading-relaxed text-slate-400">
-              Experience developing accessible technologies.
-              </p>
+              <p className="text-sm leading-relaxed text-slate-400">Experience developing accessible technologies.</p>
             </div>
           </div>
           <div className="mt-8 flex gap-3">
@@ -227,12 +220,7 @@ const Jobs2 = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  d="M3 17l6-6 4 4 8-8"
-                />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 17l6-6 4 4 8-8" />
               </svg>
               {/* <span className="h-5 w-5 text-slate-400 transition-colors group-hover/save:text-emerald-500">
                 🔥
@@ -310,9 +298,7 @@ const Jobs2 = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <p className="text-sm leading-relaxed text-slate-400">
-                Testing infrastructure development.
-              </p>
+              <p className="text-sm leading-relaxed text-slate-400">Testing infrastructure development.</p>
             </div>
             <div className="flex items-start gap-3">
               <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/10">
@@ -321,7 +307,8 @@ const Jobs2 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              The candidate should take ownership of the existing testing infrastructure  and its maintenance including monitoring the unit test failures in CI across the ecosystem 
+                The candidate should take ownership of the existing testing infrastructure  and its maintenance
+                including monitoring the unit test failures in CI across the ecosystem
               </p>
             </div>
           </div>
@@ -402,12 +389,7 @@ const Jobs3 = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  d="M3 17l6-6 4 4 8-8"
-                />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 17l6-6 4 4 8-8" />
               </svg>
               {/* <span className="h-5 w-5 text-slate-400 transition-colors group-hover/save:text-emerald-500">
                 🔥
@@ -466,7 +448,26 @@ const Jobs3 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              Bachelor’s degree or equivalent practical experience.
+                Bachelor’s degree or equivalent practical experience.
+              </p>
+            </div>
+            <div className="flex items-start gap-3">
+              <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/10">
+                <svg className="h-4 w-4 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <p className="text-sm leading-relaxed text-slate-400">4 years of experience in product design or UX.</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/10">
+                <svg className="h-4 w-4 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <p className="text-sm leading-relaxed text-slate-400">
+                Experience designing across multiple platforms, working with technical/design teams to create user
+                flows, wireframes, and building user interface mockups and prototypes.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -476,27 +477,8 @@ const Jobs3 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              4 years of experience in product design or UX.
-              </p>
-            </div>
-            <div className="flex items-start gap-3">
-              <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/10">
-                <svg className="h-4 w-4 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-              </div>
-              <p className="text-sm leading-relaxed text-slate-400">
-              Experience designing across multiple platforms, working with technical/design teams to create user flows, wireframes, and building user interface mockups and prototypes.
-              </p>
-            </div>
-            <div className="flex items-start gap-3">
-              <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/10">
-                <svg className="h-4 w-4 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-              </div>
-              <p className="text-sm leading-relaxed text-slate-400">
-              Include a portfolio, website, or any other link to your work in your resume (providing a viewable link or access instructions).
+                Include a portfolio, website, or any other link to your work in your resume (providing a viewable link
+                or access instructions).
               </p>
             </div>
           </div>
@@ -578,12 +560,7 @@ const Jobs4 = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  d="M3 17l6-6 4 4 8-8"
-                />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 17l6-6 4 4 8-8" />
               </svg>
               {/* <span className="h-5 w-5 text-slate-400 transition-colors group-hover/save:text-emerald-500">
                 🔥
@@ -642,7 +619,8 @@ const Jobs4 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              Bachelor's degree in English, Journalism, Communication, Literature, Business, Marketing, a related field, or equivalent practical experience.
+                Bachelor's degree in English, Journalism, Communication, Literature, Business, Marketing, a related
+                field, or equivalent practical experience.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -652,7 +630,8 @@ const Jobs4 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              4 years of experience in writing, editorial, marketing, UX writing, content design, or related, as well as leading content strategy projects.
+                4 years of experience in writing, editorial, marketing, UX writing, content design, or related, as well
+                as leading content strategy projects.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -662,7 +641,7 @@ const Jobs4 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              Experience writing and designing User Interface UI for products.
+                Experience writing and designing User Interface UI for products.
               </p>
             </div>
           </div>
@@ -743,12 +722,7 @@ const Jobs5 = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  d="M3 17l6-6 4 4 8-8"
-                />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 17l6-6 4 4 8-8" />
               </svg>
               {/* <span className="h-5 w-5 text-slate-400 transition-colors group-hover/save:text-emerald-500">
                 🔥
@@ -807,7 +781,7 @@ const Jobs5 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              Bachelor’s degree or equivalent practical experience.
+                Bachelor’s degree or equivalent practical experience.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -817,7 +791,8 @@ const Jobs5 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              1 year of experience with software development in one or more programming languages (e.g., Python, C, C++, Java, JavaScript).
+                1 year of experience with software development in one or more programming languages (e.g., Python, C,
+                C++, Java, JavaScript).
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -827,7 +802,7 @@ const Jobs5 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              Master's degree or PhD in Computer Science or related technical field.
+                Master's degree or PhD in Computer Science or related technical field.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -836,9 +811,7 @@ const Jobs5 = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <p className="text-sm leading-relaxed text-slate-400">
-              Experience developing accessible technologies.
-              </p>
+              <p className="text-sm leading-relaxed text-slate-400">Experience developing accessible technologies.</p>
             </div>
           </div>
           <div className="mt-8 flex gap-3">
@@ -886,7 +859,10 @@ const Jobs5 = () => {
 const Jobs6 = () => {
   const cardUrl = 'https://www.devdisplay.org/Jobs#Google-Web-Solutions-Engineer-University-Graduate-2025';
   return (
-    <div id="Google-Web-Solutions-Engineer-University-Graduate-2025" className="group relative mx-auto w-full max-w-[30rem]">
+    <div
+      id="Google-Web-Solutions-Engineer-University-Graduate-2025"
+      className="group relative mx-auto w-full max-w-[30rem]"
+    >
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
         <div className="absolute -left-16 -top-16 h-32 w-32 rounded-full bg-gradient-to-br from-emerald-500/20 to-teal-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
         <div className="absolute -bottom-16 -right-16 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/20 to-indigo-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
@@ -918,12 +894,7 @@ const Jobs6 = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  d="M3 17l6-6 4 4 8-8"
-                />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 17l6-6 4 4 8-8" />
               </svg>
               {/* <span className="h-5 w-5 text-slate-400 transition-colors group-hover/save:text-emerald-500">
                 🔥
@@ -982,7 +953,7 @@ const Jobs6 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              Bachelor's degree or equivalent practical experience.
+                Bachelor's degree or equivalent practical experience.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -992,7 +963,7 @@ const Jobs6 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              Experience in coding using either Java, C++, or Python.
+                Experience in coding using either Java, C++, or Python.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -1002,7 +973,7 @@ const Jobs6 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              Experience in SQL, Technical Design, Web Technologies, Troubleshooting, and Stakeholder Management.
+                Experience in SQL, Technical Design, Web Technologies, Troubleshooting, and Stakeholder Management.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -1012,7 +983,7 @@ const Jobs6 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              Excellent written and verbal business communication skills.
+                Excellent written and verbal business communication skills.
               </p>
             </div>
           </div>
@@ -1093,12 +1064,7 @@ const Jobs7 = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  d="M3 17l6-6 4 4 8-8"
-                />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 17l6-6 4 4 8-8" />
               </svg>
               {/* <span className="h-5 w-5 text-slate-400 transition-colors group-hover/save:text-emerald-500">
                 🔥
@@ -1148,17 +1114,19 @@ const Jobs7 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-                We are currently seeking a highly skilled and experienced Java Developer to join our team on a full-time, regular basis. As a Java Developer, you will be responsible for developing and maintaining high-quality software applications using Java programming language.
+                We are currently seeking a highly skilled and experienced Java Developer to join our team on a
+                full-time, regular basis. As a Java Developer, you will be responsible for developing and maintaining
+                high-quality software applications using Java programming language.
               </p>
             </div>
-             <div className="flex items-start gap-3">
+            <div className="flex items-start gap-3">
               <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/10">
                 <svg className="h-4 w-4 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-              Bachelor's degree in computer science engineering, or a related field
+                Bachelor's degree in computer science engineering, or a related field
               </p>
             </div>
             {/*<div className="flex items-start gap-3">

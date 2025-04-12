@@ -244,7 +244,7 @@ const hackathons = [
     title: 'HackStasy 2025',
     location: 'Microsoft Taj Office, Noida',
     date: 'Apr 16 - 19',
-    domains: [ 'AI/ML', 'Blockchain', 'Web3', 'Cloud Computing', 'Cybersecurity', 'IoT', 'Open Innovation'],
+    domains: ['AI/ML', 'Blockchain', 'Web3', 'Cloud Computing', 'Cybersecurity', 'IoT', 'Open Innovation'],
     applyLink: 'https://reskilll.com/hack/hackstasy',
     poster: '/assets/Hackathons/HackStasy 2025.jpg',
     shareLink: '#hackstasy-2025',

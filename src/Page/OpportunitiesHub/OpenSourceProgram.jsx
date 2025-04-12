@@ -741,94 +741,99 @@ const OSProgramCardComponent = ({
           </button>
         </div>
         <div className="details flex flex-col items-center gap-4">
-  <h2 className="text-lg font-bold text-white">{title}</h2>
-  <p className="text-sm text-gray-300 text-center">{description}</p>
-  <div className="info mt-2 flex flex-col items-center gap-1 rounded-lg border border-[#00a6fb] bg-gray-900 bg-opacity-50 px-14 py-3 text-sm text-white shadow-lg backdrop-blur-md transition-all hover:bg-gray-800">
-    <a href={guidelines} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-      <FontAwesomeIcon icon={faBookOpen} className="text-[#00a6fb]" />
-      <span className="font-medium">Guidelines</span>
-    </a>
-  </div>
-</div>
+          <h2 className="text-lg font-bold text-white">{title}</h2>
+          <p className="text-center text-sm text-gray-300">{description}</p>
+          <div className="info mt-2 flex flex-col items-center gap-1 rounded-lg border border-[#00a6fb] bg-gray-900 bg-opacity-50 px-14 py-3 text-sm text-white shadow-lg backdrop-blur-md transition-all hover:bg-gray-800">
+            <a href={guidelines} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+              <FontAwesomeIcon icon={faBookOpen} className="text-[#00a6fb]" />
+              <span className="font-medium">Guidelines</span>
+            </a>
+          </div>
+        </div>
       </div>
     </StyledOSProgramCard>
   );
 };
 
-
 const OSProgramList = [
-    {
-      organizer: 'Google',
-      title: 'Google Summer of Code 2025',
-      description: 'GSoC is a global, online program focused on bringing new contributors into open-source software development. Participants work with open-source organizations on a 12+ week programming project with mentorship and stipends provided by Google.',
-      timeline: 'March 18 - April 2, 2025',
-      Duration: 'May - September 2025',
-      type: 'Student-friendly, Open Source',
-      guidelines: 'https://summerofcode.withgoogle.com/how-it-works/',
-      applyLink: 'https://summerofcode.withgoogle.com/',
-      poster: '/assets/opensourceProgram/GSOC.png',
-      shareLink: '#gsoc2025',
-    },
-    {
-      organizer: 'MLH',
-      title: 'MLH Fellowship Spring 2025',
-      description: 'Collaborate with peers in a remote team to contribute to real open-source software projects under mentorship. Get paid while gaining practical development experience.',
-      timeline: 'December 2024',
-      Duration: 'March - June 2025',
-      type: 'Student-friendly, Open Source',
-      guidelines: 'https://fellowship.mlh.io/',
-      applyLink: 'https://fellowship.mlh.io/',
-      poster: '/assets/opensourceProgram/MLH.jpg',
-      shareLink: '#mlh-fellowship',
-    },
-    {
-      organizer: 'GirlScript Foundation',
-      title: 'GirlScript Summer of Code 2025',
-      description: 'An open-source program where you can contribute to various projects and get mentorship, swags, and certifications. It’s beginner-friendly and inclusive.',
-      timeline: 'August 2025',
-      Duration: 'May - August 2025',
-      type: 'Beginner-friendly, Open Source',
-      guidelines: 'https://gssoc.girlscript.tech/',
-      applyLink: 'https://gssoc.girlscript.tech/',
-      poster: '/assets/opensourceProgram/GSSOC.jpg',
-      shareLink: '#gssoc2025',
-    },
-    {
-      organizer: 'Outreachy',
-      title: 'Outreachy May 2025 Cohort',
-      description: 'Paid internships in open-source and open science for underrepresented groups. Work remotely with mentors on impactful projects.',
-      timeline: 'January 2025',
-      Duration: 'May - August 2025',
-      type: 'Inclusive, Open Source, Paid',
-      guidelines: 'https://www.outreachy.org/',
-      applyLink: 'https://www.outreachy.org/apply/',
-      poster: '/assets/opensourceProgram/Outreachy.jpg',
-      shareLink: '#outreachy',
-    },
-    {
-      organizer: 'Kharagpur Open Source Society',
-      title: 'KOSS Winter of Code 2024-25',
-      description: 'Winter-long open-source program for students to learn and contribute to FOSS projects with mentorship and rewards.',
-      timeline: 'November 2024',
-      Duration: 'December - February',
-      type: 'Student-friendly, Open Source',
-      guidelines: 'https://kossiitkgp.org/woc',
-      applyLink: 'https://kossiitkgp.org/woc',
-      poster: '/assets/opensourceProgram/KOSS.jpg',
-      shareLink: '#woc2024',
-    },
-    {
-      organizer: 'DigitalOcean',
-      title: 'Hacktoberfest 2025',
-      description: 'Annual event in October that encourages contributions to open source via GitHub. Complete PRs and earn swag or plant a tree!',
-      timeline: 'October 1 - October 31',
-      Duration: '1 Month',
-      type: 'Global, Open Source',
-      guidelines: 'https://hacktoberfest.com/',
-      applyLink: 'https://hacktoberfest.com/',
-      poster: '/assets/opensourceProgram/Hacktoberfest.jpg',
-      shareLink: '#hacktoberfest2025',
-    },
+  {
+    organizer: 'Google',
+    title: 'Google Summer of Code 2025',
+    description:
+      'GSoC is a global, online program focused on bringing new contributors into open-source software development. Participants work with open-source organizations on a 12+ week programming project with mentorship and stipends provided by Google.',
+    timeline: 'March 18 - April 2, 2025',
+    Duration: 'May - September 2025',
+    type: 'Student-friendly, Open Source',
+    guidelines: 'https://summerofcode.withgoogle.com/how-it-works/',
+    applyLink: 'https://summerofcode.withgoogle.com/',
+    poster: '/assets/opensourceProgram/GSOC.png',
+    shareLink: '#gsoc2025',
+  },
+  {
+    organizer: 'MLH',
+    title: 'MLH Fellowship Spring 2025',
+    description:
+      'Collaborate with peers in a remote team to contribute to real open-source software projects under mentorship. Get paid while gaining practical development experience.',
+    timeline: 'December 2024',
+    Duration: 'March - June 2025',
+    type: 'Student-friendly, Open Source',
+    guidelines: 'https://fellowship.mlh.io/',
+    applyLink: 'https://fellowship.mlh.io/',
+    poster: '/assets/opensourceProgram/MLH.jpg',
+    shareLink: '#mlh-fellowship',
+  },
+  {
+    organizer: 'GirlScript Foundation',
+    title: 'GirlScript Summer of Code 2025',
+    description:
+      'An open-source program where you can contribute to various projects and get mentorship, swags, and certifications. It’s beginner-friendly and inclusive.',
+    timeline: 'August 2025',
+    Duration: 'May - August 2025',
+    type: 'Beginner-friendly, Open Source',
+    guidelines: 'https://gssoc.girlscript.tech/',
+    applyLink: 'https://gssoc.girlscript.tech/',
+    poster: '/assets/opensourceProgram/GSSOC.jpg',
+    shareLink: '#gssoc2025',
+  },
+  {
+    organizer: 'Outreachy',
+    title: 'Outreachy May 2025 Cohort',
+    description:
+      'Paid internships in open-source and open science for underrepresented groups. Work remotely with mentors on impactful projects.',
+    timeline: 'January 2025',
+    Duration: 'May - August 2025',
+    type: 'Inclusive, Open Source, Paid',
+    guidelines: 'https://www.outreachy.org/',
+    applyLink: 'https://www.outreachy.org/apply/',
+    poster: '/assets/opensourceProgram/Outreachy.jpg',
+    shareLink: '#outreachy',
+  },
+  {
+    organizer: 'Kharagpur Open Source Society',
+    title: 'KOSS Winter of Code 2024-25',
+    description:
+      'Winter-long open-source program for students to learn and contribute to FOSS projects with mentorship and rewards.',
+    timeline: 'November 2024',
+    Duration: 'December - February',
+    type: 'Student-friendly, Open Source',
+    guidelines: 'https://kossiitkgp.org/woc',
+    applyLink: 'https://kossiitkgp.org/woc',
+    poster: '/assets/opensourceProgram/KOSS.jpg',
+    shareLink: '#woc2024',
+  },
+  {
+    organizer: 'DigitalOcean',
+    title: 'Hacktoberfest 2025',
+    description:
+      'Annual event in October that encourages contributions to open source via GitHub. Complete PRs and earn swag or plant a tree!',
+    timeline: 'October 1 - October 31',
+    Duration: '1 Month',
+    type: 'Global, Open Source',
+    guidelines: 'https://hacktoberfest.com/',
+    applyLink: 'https://hacktoberfest.com/',
+    poster: '/assets/opensourceProgram/Hacktoberfest.jpg',
+    shareLink: '#hacktoberfest2025',
+  },
 ];
 
 const OpenSourceProgram = () => {
