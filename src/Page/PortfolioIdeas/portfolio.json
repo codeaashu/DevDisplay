@@ -1,0 +1,2578 @@
+[
+  {
+    "author": "Bruno Simon",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/167303510-f39c3350-4273-4f6f-b28e-12f095f2af7a.png",
+    "liveUrl": "https://bruno-simon.com",
+    "repo": "https://github.com/brunosimon/folio-2019",
+    "techStack": "GSAP, ThreeJS, JavaScript, ETC"
+  },
+  {
+    "author": "Oluwadare Oluwaseyi",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/167304333-0f446a58-b279-4d19-8f01-320be629227c.png",
+    "liveUrl": "https://www.seyi.dev",
+    "repo": "https://github.com/oluwadareseyi/folio-v2",
+    "techStack": "HTML, SCSS, JavaScript, GSAP"
+  },
+  {
+    "author": "Jason Lengstorf",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/167304726-d8931575-6d37-453f-a2b5-02d6ba96b0ef.png",
+    "liveUrl": "https://www.jason.energy",
+    "repo": "https://github.com/jlengstorf/jason.energy",
+    "techStack": "JavaScript, TypeScript, Nunjucks, CSS"
+  },
+  {
+    "author": "Deidre Driscoll",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/169664358-7b8c417c-6e9b-4f90-8b60-00d0a79a960d.png",
+    "liveUrl": "https://deidredriscoll.com",
+    "repo": null,
+    "techStack": "HTML, JavaScript, CSS, GSAP"
+  },
+  {
+    "author": "Chris Porter",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/169663850-4e599cde-da68-4794-8806-9c3b6a8fe11e.png",
+    "liveUrl": "https://madebyporter.com",
+    "repo": "https://github.com/madebyporter/madebyporter",
+    "techStack": "HTML, Slim, Ruby, SCSS, Shell, JavaScript, CSS"
+  },
+  {
+    "author": "Louis Hoebregts",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/169704989-de117c0c-7277-4523-8db4-275c561eebc8.png",
+    "liveUrl": "https://www.mamboleoo.be",
+    "repo": null,
+    "techStack": "PHP, Parcel"
+  },
+  {
+    "author": "Adrien Gervaix",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/169705213-49e68326-ffbf-4d3d-8a55-ffda6ba6ae04.png",
+    "liveUrl": "https://adriengervaix.com",
+    "repo": null,
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Aaron Shapiro",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/169705836-7adab895-edc8-41c0-85c0-6ad53e79ad17.png",
+    "liveUrl": "https://www.aaron.mn",
+    "repo": "https://github.com/aarshap/aaron.mn",
+    "techStack": "React, Gatsby, Styled Components, Netlify"
+  },
+  {
+    "author": "Peter Tait",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/169706070-12936622-7740-4e67-a764-aa3594bab506.png",
+    "liveUrl": "https://petertait.com",
+    "repo": "https://github.com/petertait/petertait.com",
+    "techStack": "React, Webpack, Radium, Netlify"
+  },
+  {
+    "author": "Rick Waalders",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/169706503-e0065c41-b88d-43bb-9175-dfd48cc6e324.png",
+    "liveUrl": "https://www.rickwaalders.com",
+    "repo": null,
+    "techStack": "NextJS, React, NodeJS, GSAP, Webpack"
+  },
+  {
+    "author": "Community Pro",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/170606950-2eeec46f-f0c0-424d-9937-c0377fab1870.png",
+    "liveUrl": "https://cpro-portfolio-html.netlify.app",
+    "repo": "https://github.com/CommunityPro/portfolio-html",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Ahmed Zougari",
+    "screenshot": "https://user-images.githubusercontent.com/24995094/171908358-20bf2338-1e1d-4a14-9349-28779a7c1994.png",
+    "liveUrl": "https://ahmedzougari.com",
+    "repo": "https://github.com/zougari47/portfolio-template",
+    "techStack": "HTML, SASS, Bootstrap, JavaScript, Vite"
+  },
+  {
+    "author": "Raj Savaliya",
+    "screenshot": "https://user-images.githubusercontent.com/46242040/171985853-dbecac5c-fc94-4050-9f2f-5dba1e95c7bb.png",
+    "liveUrl": "https://www.rajsavaliya.com/",
+    "repo": "https://github.com/SRX9/portfoliosrx9",
+    "techStack": "NextJS, React, TypeScript, Tailwind CSS"
+  },
+  {
+    "author": "Victor Eke",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/62628408/618b6f06-1f3b-41e3-861f-6463ae5f0f81",
+    "liveUrl": "https://victoreke.com",
+    "repo": "https://github.com/evavic44/victoreke.com",
+    "techStack": "Nextjs, Sanity, Tailwind CSS, TypeScript, Umami, Vercel"
+  },
+  {
+    "author": "Kent C. Dodds",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/169700953-63aaedb6-4784-4f42-a356-84d6506f8bf3.png",
+    "liveUrl": "https://kentcdodds.com",
+    "repo": "https://github.com/kentcdodds/kentcdodds.com",
+    "techStack": "React, TypeScript, Remix, Prisma, Redis, Postgres, CSS"
+  },
+  {
+    "author": "Brittany Chiang",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/163446015-fc50d2c1-3cee-42fb-b80a-b692ad7eef1e.png",
+    "liveUrl": "https://v4.brittanychiang.com/",
+    "repo": "https://github.com/bchiang7/v4",
+    "techStack": "React, Gatsby, Styled-components"
+  },
+  {
+    "author": "Braydon Coyer",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/163818384-cebba9c4-e0ac-4172-bced-7011837bb292.png",
+    "liveUrl": "https://braydoncoyer.dev/",
+    "repo": "https://github.com/braydoncoyer/braydoncoyer.dev",
+    "techStack": "React, TypeScript, NextJS, Tailwindcss, Notion API, Supabase"
+  },
+  {
+    "author": "Tania Rascia",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/163881127-a67615f6-2157-4478-a4b5-46b067a4bb9f.png",
+    "liveUrl": "https://taniarascia.com",
+    "repo": "https://github.com/taniarascia/taniarascia.com",
+    "techStack": "React, Gatsby, CSS, Netlify, NodeJS"
+  },
+  {
+    "author": "Jemima Abu",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/164337756-03930aad-4702-4926-ba58-c388c06de187.png",
+    "liveUrl": "https://jemimaabu.com",
+    "repo": "https://github.com/jemimaabu/portfolio",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Rekhchand Sahu",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/164760564-3c749e0f-122c-40cb-9b28-112410227874.png",
+    "liveUrl": "https://rekhchandsahu.com",
+    "repo": null,
+    "techStack": "React, Gatsby, Preact, GSAP"
+  },
+  {
+    "author": "Olaolu Olawuyi",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/171729441-dee07db1-0c6e-4222-b5ab-9e9b0b4bd735.png",
+    "liveUrl": "https://olaolu.dev",
+    "repo": "https://github.com/whizkydee/olaolu.dev",
+    "techStack": "VueJS, JavaScript, HTML, styled-components, Sass"
+  },
+  {
+    "author": "Thang Huu Vu",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/164990543-ab28fa6b-1c39-4306-bd90-565470dd896b.png",
+    "liveUrl": "https://www.thvu.dev/",
+    "repo": "https://github.com/ThangHuuVu/thvu-blog",
+    "techStack": "React, NextJS, NodeJS, TypeScript, GraphQL, Tailwindcss"
+  },
+  {
+    "author": "George Francis",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/169704464-ed5ccfbd-f10b-47fa-820f-389466a4f4cf.png",
+    "liveUrl": "https://georgefrancis.dev",
+    "repo": null,
+    "techStack": "GSAP, Netlify, HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Aditya Vikram",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/164990973-ddb830bf-c3d3-4ed6-982a-9f137ff01b07.png",
+    "liveUrl": "https://people.umass.edu/avsingh",
+    "repo": "https://github.com/AVS1508/My-Alternate-Portfolio-Website",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Adeola Adeoti",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/165801986-100e5b52-e8b6-4346-ad83-34c4b5411d94.png",
+    "liveUrl": "https://www.adeolaadeoti.site",
+    "repo": "https://github.com/adeolaadeoti/adeolaadeoti-v2",
+    "techStack": "TypeScript, GSAP, NodeJS, NextJS, SCSS"
+  },
+  {
+    "author": "Dejan Markovic",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/165805667-b0946e79-8ac2-44a1-aaca-f31090ea97e6.png",
+    "liveUrl": "https://www.dejan.works",
+    "repo": null,
+    "techStack": "HTML, CSS, JavaScript, Jquery"
+  },
+  {
+    "author": "Max Böck",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/166805924-1a843d07-59b4-408f-bb38-cfc04dd8ab87.png",
+    "liveUrl": "https://mxb.dev",
+    "repo": "https://github.com/maxboeck/mxb",
+    "techStack": "Eleventy, SCSS, Nunjucks"
+  },
+  {
+    "author": "David Darnes",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/166808069-166b12df-f1cb-431f-b1b9-887986cea367.png",
+    "liveUrl": "https://darn.es",
+    "repo": null,
+    "techStack": "Netlify, Jekyll, ETC"
+  },
+  {
+    "author": "Schulz Daniel",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/166809062-f266e962-87e7-462d-b7ae-e0fae2b6227d.png",
+    "liveUrl": "https://iamschulz.com",
+    "repo": "https://github.com/iamschulz/iamschulz-hugo",
+    "techStack": "Hugo, Shell, JavaScript"
+  },
+  {
+    "author": "Rafael Conde",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/166811371-2ab2bc24-0d8a-4841-b859-13f65fb0dc17.png",
+    "liveUrl": "https://rafa.design",
+    "repo": "https://github.com/rafaelconde/rafaelconde",
+    "techStack": "Nunjucks, JavaScript, CSS"
+  },
+  {
+    "author": "Israel Mitolu",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/171987187-5a8cd378-13c0-4111-aab8-b76f01039992.png",
+    "liveUrl": "https://israelmitolu.netlify.app",
+    "repo": "https://github.com/israelmitolu/premier-portfolio",
+    "techStack": "HTML, SASS, Javascript, GSAP"
+  },
+  {
+    "author": "Saikat Roy",
+    "screenshot": "https://user-images.githubusercontent.com/28055486/171989464-e634cbf9-2772-4119-9e16-3283649290e4.png",
+    "liveUrl": "https://saikatroy.netlify.app/",
+    "repo": "https://github.com/njmsaikat/portfolio",
+    "techStack": "HTML, CSS, Bootstrap, JavaScript, jQuery"
+  },
+  {
+    "author": "Anand Baraik",
+    "screenshot": "https://user-images.githubusercontent.com/31516195/170092193-d24327ca-f035-4074-8fde-57238ef570d6.png",
+    "liveUrl": "https://anandbaraik.github.io",
+    "repo": "https://github.com/anandbaraik/anandbaraik.github.io",
+    "techStack": "HTML, CSS, React.js"
+  },
+  {
+    "author": "Nirban Chakraborty",
+    "screenshot": "https://user-images.githubusercontent.com/74231771/172013597-2d2fdb32-2695-4121-9e25-56a28443565a.png",
+    "liveUrl": "https://nirban-chakraborty.netlify.app/",
+    "repo": "https://github.com/nirban256/personal_website",
+    "techStack": "ReactJs, JavaScript, SASS, HTML"
+  },
+  {
+    "author": "Benaiah Alumona",
+    "screenshot": "https://user-images.githubusercontent.com/65370456/172291784-f6e5453c-f46b-43c1-b509-50dea24aef41.png",
+    "liveUrl": "https://benrobo.vercel.app",
+    "repo": "https://github.com/benrobo/portfolio-v3",
+    "techStack": "Reactjs, TailwindCss, Next.js, Emailjs, BaayMax"
+  },
+  {
+    "author": "Md Nayeem Hossain",
+    "screenshot": "https://user-images.githubusercontent.com/40033062/172034871-ff70f3fd-0311-4ee9-92bd-3b1fbc0adb9b.png",
+    "liveUrl": "https://nayeemdev.github.io/",
+    "repo": "https://github.com/nayeemdev/nayeemdev.github.io",
+    "techStack": "HTML, CSS, Bootstrap, Javascript, jQuery"
+  },
+  {
+    "author": "Sachin Chaurasiya",
+    "screenshot": "https://user-images.githubusercontent.com/59080942/172006977-6e120ee4-9440-405e-b5ac-e861e4eeedb2.png",
+    "liveUrl": "https://sachinchaurasiya.dev",
+    "repo": null,
+    "techStack": "HTML, CSS, JavaScript, ReactJs, Material UI"
+  },
+  {
+    "author": "Anish De",
+    "screenshot": "https://user-images.githubusercontent.com/51731966/172062656-0b29d77e-a7b3-4e60-aa1b-5667a2bb009c.png",
+    "liveUrl": "https://anishde.dev",
+    "repo": "https://github.com/AnishDe12020/portfolio",
+    "techStack": "Next.js, TypeScript, Tailwind CSS, Content Layer"
+  },
+  {
+    "author": "Shourya Shikhar Ghosh",
+    "screenshot": "https://user-images.githubusercontent.com/55531939/172037173-728af808-9299-4ecf-b68d-3dd2f39f5c7c.png",
+    "liveUrl": "https://shourya.vercel.app",
+    "repo": "https://github.com/danger-ahead/flutter_dev_folio",
+    "techStack": "Flutter"
+  },
+  {
+    "author": "Omar Sherif Ali ~OSA",
+    "screenshot": "https://user-images.githubusercontent.com/69806823/172054679-32dff626-d0ea-49ac-955c-30370b575263.png",
+    "liveUrl": "https://osa-portfolio.vercel.app/",
+    "repo": "https://github.com/omar-sherif9992",
+    "techStack": "ReactJs, JavaScript, CSS, HTML"
+  },
+  {
+    "author": "Robby Leonardi",
+    "screenshot": "https://user-images.githubusercontent.com/86816711/172065557-6e6ea80f-aa5b-4b43-8b90-438b6fd13b1c.png",
+    "liveUrl": "http://www.rleonardi.com",
+    "repo": null,
+    "techStack": "NextJS, React, NodeJS, GSAP, Webpack"
+  },
+  {
+    "author": "Serdar Gökhan",
+    "screenshot": "https://user-images.githubusercontent.com/55996319/172113874-d9ef07c2-beef-4f11-b471-c68507f45db6.png",
+    "liveUrl": "https://serdargokhan.dev",
+    "repo": "https://github.com/serdargokhan/portfolio-website-v1",
+    "techStack": "NextJS, TypeScript, TailwindCSS"
+  },
+  {
+    "author": "Jeferson Brito",
+    "screenshot": "https://user-images.githubusercontent.com/30840709/172082704-87e2a4e4-4573-42e3-b953-b1bcb36f43ad.png",
+    "liveUrl": "https://www.jefersonsilva.me/",
+    "repo": "https://github.com/jeferson-sb/portfolio",
+    "techStack": "Vue 3.0, Vite"
+  },
+  {
+    "author": "Trịnh Minh Nhật",
+    "screenshot": "https://user-images.githubusercontent.com/36529802/172173263-d87afabd-884d-4d88-b435-867f0963b868.png",
+    "liveUrl": "https://trinhminhnhat.com",
+    "repo": null,
+    "techStack": "React, Tailwindcss"
+  },
+  {
+    "author": "Yunus Ertürk",
+    "screenshot": "https://user-images.githubusercontent.com/2564340/172195787-6a42346a-1eba-4d45-b070-c34863f4fddb.png",
+    "liveUrl": "https://yunuserturk.com",
+    "repo": null,
+    "techStack": "HTML, CSS, React, NextJS"
+  },
+  {
+    "author": "Phong Nguyen",
+    "screenshot": "https://user-images.githubusercontent.com/88878684/172379242-6d063948-767d-40fd-a072-30cf875a91bc.png",
+    "liveUrl": "https://napthedev.com",
+    "repo": "https://github.com/napthedev/portfolio-next",
+    "techStack": "Nextjs, Tailwind, Framer-motion, Locomotive-scroll"
+  },
+  {
+    "author": "Ismael López",
+    "screenshot": "https://user-images.githubusercontent.com/13697123/172250584-228bf0c6-3dbd-4bf8-8f4e-1d0bdd29dbb1.png",
+    "liveUrl": "https://ismaellopez.dev",
+    "repo": null,
+    "techStack": "Svelte, JavaScript, CSS, HTML, Netlify CMS"
+  },
+  {
+    "author": "Micah Lindley",
+    "screenshot": "https://user-images.githubusercontent.com/86574651/172486974-7718d5b2-0386-477c-a912-21879def00c3.png",
+    "liveUrl": "https://micahlindley.com",
+    "repo": "https://github.com/micahlt/micahlt.github.io",
+    "techStack": "Vue 3, Vite"
+  },
+  {
+    "author": "Tri Dang",
+    "screenshot": "https://user-images.githubusercontent.com/6835551/172994818-e570612c-c286-4d23-8f41-1d09025d7a52.png",
+    "liveUrl": "https://tri-dang.github.io/about",
+    "repo": "https://github.com/tri-dang/tri-dang.github.io",
+    "techStack": "Ruby, Jekyll, Markdown"
+  },
+  {
+    "author": "Reza Ghasemzadeh",
+    "screenshot": "https://user-images.githubusercontent.com/36597017/172766065-02873144-d8df-4097-939f-5fa54fb339f0.jpg",
+    "liveUrl": "https://rezaghz.com",
+    "repo": null,
+    "techStack": "HTML, CSS, Bootstrap, Javascript, Blade"
+  },
+  {
+    "author": "Ariful Alam",
+    "screenshot": "https://user-images.githubusercontent.com/45073703/172781247-64b27deb-777e-48ec-b409-d1547bd7f96f.png",
+    "liveUrl": "https://arifszn.github.io/gitprofile",
+    "repo": "https://github.com/arifszn/gitprofile",
+    "techStack": "React, Vite, Tailwind CSS"
+  },
+  {
+    "author": "Dale Larroder",
+    "screenshot": "https://user-images.githubusercontent.com/52998821/172965944-b25832f5-53a1-4833-a651-26d5ca0cdb20.png",
+    "liveUrl": "https://dalelarroder.com",
+    "repo": "https://github.com/dlarroder/dalelarroder",
+    "techStack": "NextJS, Preact, TypeScript, Tailwind, MDX"
+  },
+  {
+    "author": "Williams Samuel",
+    "screenshot": "https://github.com/williamssam/My-Portfolio/raw/main/screenshot.jpg",
+    "liveUrl": "https://williamssam.netlify.app/",
+    "repo": "https://github.com/williamssam/My-Portfolio",
+    "techStack": "HTML, CSS, Javascript"
+  },
+  {
+    "author": "Guillaume Gouessan",
+    "screenshot": "https://user-images.githubusercontent.com/71810927/173070183-c0d30acf-2199-47a3-b0dd-919998e45e69.png",
+    "liveUrl": "https://guillaumegouessan.com/",
+    "repo": "https://github.com/superguigui/guillaumegouessan.com",
+    "techStack": "GSAP, ThreeJS, JavaScript"
+  },
+  {
+    "author": "Patrick Heng",
+    "screenshot": "https://user-images.githubusercontent.com/71810927/173091834-946abebd-d814-4b52-be4e-49b6dc9cd521.png",
+    "liveUrl": "https://patrickheng.com/",
+    "repo": null,
+    "techStack": "Nuxt.js, GSAP, ThreeJS"
+  },
+  {
+    "author": "Andrew Baisden",
+    "screenshot": "https://user-images.githubusercontent.com/5095486/173239467-0c16213e-e41c-47e8-94cc-959706474ee7.png",
+    "liveUrl": "https://andrewbaisden.com",
+    "repo": "https://github.com/andrewbaisden/andrew-baisden-portfolio-2022",
+    "techStack": "HTML, CSS, TypeScript, ReactJS"
+  },
+  {
+    "author": "Aziz Rahman",
+    "screenshot": "https://user-images.githubusercontent.com/35897418/174632557-a890ce80-1ded-477a-b99b-336c500a044f.png",
+    "liveUrl": "https://azizstark.com",
+    "repo": "https://github.com/AzizStark/AzizStark/tree/portfolio-v2",
+    "techStack": "React, Gatsby, Styled-Components, SCSS, AnimeJS"
+  },
+  {
+    "author": "Leonel Ngoya",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/8c34c73d-af10-4ae8-bc71-236af3851e55",
+    "liveUrl": "https://lndev.me",
+    "repo": "https://github.com/ln-dev7",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Jimmy Soussan",
+    "screenshot": "https://user-images.githubusercontent.com/32173192/174971390-5c5714ac-abef-49b3-b903-1e4456481a13.png",
+    "liveUrl": "https://www.cozy-codeur.fr",
+    "repo": "https://github.com/jilink/personal-portfolio",
+    "techStack": "React, Gatsby, Chakra UI, Framer Motion"
+  },
+  {
+    "author": "Segun Ajibola",
+    "screenshot": "https://user-images.githubusercontent.com/74687658/175204130-9b244725-408f-432b-955f-ecd3e4d340a4.png",
+    "liveUrl": "https://www.segunajibola.com",
+    "repo": "https://github.com/segunajibola/portfolio",
+    "techStack": "HTML, CSS, TailwindCSS, React, SwiperJS"
+  },
+  {
+    "author": "Hisami Kurita",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/175480204-5de0a83a-2f44-4c87-b230-98387847dce5.jpg",
+    "liveUrl": "https://hsmkrt1996.com/",
+    "repo": "https://github.com/hisamikurita/hisamikurita-portfoliosite",
+    "techStack": "Vue.js, Nuxt.js, SCSS, ThreeJS, GSAP, ASSCROLL, imagesLoaded"
+  },
+  {
+    "author": "Dennis Snellenberg",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/175517075-23ee52df-8724-4772-a46d-d3ff28c5e30a.png",
+    "liveUrl": "https://dennissnellenberg.com/",
+    "repo": null,
+    "techStack": "GSAP. JQuery, PHP, VueJS"
+  },
+  {
+    "author": "Isaac Fayemi",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/175786263-413a941c-99c8-4ac5-a54f-5af3cecdcf33.png",
+    "liveUrl": "https://www.fayemi.design/",
+    "repo": null,
+    "techStack": "Vanilla JS, pug, Prismic CMS, SCSS, ThreeJS, GSAP"
+  },
+  {
+    "author": "Bhavin Virani",
+    "screenshot": "https://user-images.githubusercontent.com/66407251/176358358-0cfb52ee-816c-4094-a104-3df88f94a082.png",
+    "liveUrl": "https://bhavinn.xyz",
+    "repo": "https://github.com/bhavinvirani/Protfolio",
+    "techStack": "HTML, CSS, JS, React.js, Github API"
+  },
+  {
+    "author": "Patrick Scott",
+    "screenshot": "https://user-images.githubusercontent.com/4536756/176472964-e5c42bbf-e33c-4cc0-98b3-14f2dea2c4ef.png",
+    "liveUrl": "https://pscott.io",
+    "repo": null,
+    "techStack": "React.js, Heroku and Github Pages"
+  },
+  {
+    "author": "Lazar Nikolov",
+    "screenshot": "https://user-images.githubusercontent.com/5396211/176441285-ec27b56f-c3b8-4f16-8900-11159bd133a8.png",
+    "liveUrl": "https://nikolovlazar.com",
+    "repo": "https://github.com/nikolovlazar/nikolovlazar.com",
+    "techStack": "Next.js, Chakra UI, MDX, Prisma, PlanetScale"
+  },
+  {
+    "author": "Reuben Rapose",
+    "screenshot": "https://user-images.githubusercontent.com/54074556/176431686-61ebae05-7555-49d9-9736-94038afe9968.png",
+    "liveUrl": "https://reubence.com",
+    "repo": "https://github.com/reubence/reubence",
+    "techStack": "HTML, TailwindCSS, React, Javascript, Next.JS, MDX, Mailchimp Newsletter, Gisqus Comments, etc."
+  },
+  {
+    "author": "M. Shahanwaz",
+    "screenshot": "https://user-images.githubusercontent.com/57594421/176514845-cca4bf4b-42a4-4ec9-b7f2-21e41f4fe543.png",
+    "liveUrl": "https://mshahanwaz.me",
+    "repo": "https://github.com/mshahanwaz/portfolio-v4",
+    "techStack": "HTML, CSS, JavaScript, React, Next.js, Nodemailer"
+  },
+  {
+    "author": "Lee Robinson",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/177008471-0421b1f6-14c1-4c02-9e96-68e9cda604cf.png",
+    "liveUrl": "https://leerob.io/",
+    "repo": "https://github.com/leerob/leerob.io",
+    "techStack": "Next.js, PlanetScale, Prisma, Vercel, Sanity, Tailwind CSS"
+  },
+  {
+    "author": "Parth Desai",
+    "screenshot": "https://user-images.githubusercontent.com/68416104/177186186-1fa8baa4-c03c-49be-b9ec-08476a678356.png",
+    "liveUrl": "https://musing.vercel.app/",
+    "repo": "https://github.com/pycoder2000/blog",
+    "techStack": "TailwindCSS, React, Javascript, Next.JS, MDX, Mailchimp Newsletter, Gisqus Comments"
+  },
+  {
+    "author": "Victor Ikechukwu",
+    "screenshot": "https://user-images.githubusercontent.com/69702944/177051340-bc7bd4cc-b3af-4fd6-9dba-d102ebb9b0fe.png",
+    "liveUrl": "https://iamvictor.tech",
+    "repo": null,
+    "techStack": "Next.js, Tailwind CSS, React Rough Notation, Vivus, Netlify"
+  },
+  {
+    "author": "Usman Sabuwala",
+    "screenshot": "https://user-images.githubusercontent.com/107297384/177572197-e0ecc686-260e-48eb-99e3-dcf4061f8d50.png",
+    "liveUrl": "https://www.usman-s.me",
+    "repo": "https://github.com/max-programming/usman-s.me",
+    "techStack": "NextJS, Chakra UI, Framer Motion"
+  },
+  {
+    "author": "Zacky Aduoli",
+    "screenshot": "https://user-images.githubusercontent.com/49382800/177875273-53d77154-14d4-4db8-a9d9-7de204941813.png",
+    "liveUrl": "https://lookupzach.netlify.app",
+    "repo": null,
+    "techStack": "ReactJS, Material UI, SCSS, Styled Components"
+  },
+  {
+    "author": "Payton Pierce",
+    "screenshot": "https://user-images.githubusercontent.com/18350557/176930938-fc5fab09-c45c-4c4c-a85a-0a3cdd9a4e81.png",
+    "liveUrl": "https://paytonpierce.dev",
+    "repo": "https://github.com/paytonjewell/paytonpierce.dev",
+    "techStack": "ReactJS, Material UI"
+  },
+  {
+    "author": "Jacob Valdez",
+    "screenshot": "https://user-images.githubusercontent.com/40343913/178501844-3067eecd-de14-47ff-812b-57ad1bb3c50c.png",
+    "liveUrl": "https://jacobfv.github.io",
+    "repo": "https://github.com/JacobFV/jacobfv.github.io",
+    "techStack": "HTML, Jekyll"
+  },
+  {
+    "author": "Jasmeet Singh",
+    "screenshot": "https://user-images.githubusercontent.com/5153163/178646040-abc99b1e-59b6-4c75-b9a4-a94f269a7b75.png",
+    "liveUrl": "https://jasmeetsinghbhatia.github.io/resume",
+    "repo": "https://github.com/jasmeetsinghbhatia/resume",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Walter Teng",
+    "screenshot": "https://user-images.githubusercontent.com/16046667/181013137-42c1cbee-351b-4582-943d-85a742fe0332.png",
+    "liveUrl": "https://walterteng.com/",
+    "repo": "https://github.com/davzoku/personal-website-v1",
+    "techStack": "React, Typescript, Gatsby, Netlify"
+  },
+  {
+    "author": "Jahidul Islam",
+    "screenshot": "https://xahidex.com/site-preview.png",
+    "liveUrl": "https://xahidex.com/",
+    "repo": null,
+    "techStack": "Typescript, NextJs, TailwindCSS, Prisma, Contentlayer, React"
+  },
+  {
+    "author": "Greg Sithole",
+    "screenshot": "https://user-images.githubusercontent.com/18423188/182963873-6fe4d0a1-5fca-4b29-a44e-3372e36304b7.png",
+    "liveUrl": "https://gregsithole.com",
+    "repo": "https://github.com/GregSithole/gregsithole-react-portfolio",
+    "techStack": "HTML, CSS, React.js"
+  },
+  {
+    "author": "Rohit Saini",
+    "screenshot": "https://user-images.githubusercontent.com/40729749/183277227-6a2a2537-bb13-4836-bab2-a5f1a56b0ab7.jpg",
+    "liveUrl": "https://portfolio-45b9b.web.app/",
+    "repo": null,
+    "techStack": "ReactJs, CSS, GSAP, Framer Motion"
+  },
+  {
+    "author": "Oscar Barajas",
+    "screenshot": "https://user-images.githubusercontent.com/10554486/181944426-ba1b32bf-0adf-44e5-b3b0-f99412932d78.png",
+    "liveUrl": "https://gndx.io",
+    "repo": "https://github.com/gndx/gndx.io",
+    "techStack": "HTML, TailwindCSS"
+  },
+  {
+    "author": "Phillip Cabrera",
+    "screenshot": "https://user-images.githubusercontent.com/77460748/183470369-4869772d-a402-49b2-baf2-9b14ab2b237b.png",
+    "liveUrl": "https://pcabreram-portfolio.netlify.app/",
+    "repo": "https://github.com/pcabreram1234/portfolio",
+    "techStack": "HTML, CSS, JavaScript, Webpack, ReactJs"
+  },
+  {
+    "author": "Nahuel Carrizo",
+    "screenshot": "https://raw.githubusercontent.com/Nahuel61920/portafolio-Nahuel/main/src/img/portfolio.png",
+    "liveUrl": "https://nahuel61920.github.io/portafolio-Nahuel/",
+    "repo": "https://github.com/Nahuel61920/portafolio-Nahuel",
+    "techStack": "HTML, CSS, JavaScript, React, Webpack, Github Pages"
+  },
+  {
+    "author": "Alfaizkhan Pathan",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/208278845-8b1059e8-7585-43c3-970e-443c9dd58625.png",
+    "liveUrl": "https://alfaizkhan.github.io",
+    "repo": "https://github.com/Alfaizkhan/alfaizkhan.github.io",
+    "techStack": "Flutter, Dart, Github Pages"
+  },
+  {
+    "author": "Jatin Kamboj",
+    "screenshot": "https://i.imgur.com/TxglVle.png",
+    "liveUrl": "https://jatinkamboj.me/",
+    "repo": null,
+    "techStack": "HTML, CSS, JavaScript, GreenSock"
+  },
+  {
+    "author": "Leonid Meleshin",
+    "screenshot": "https://user-images.githubusercontent.com/1759654/185768959-9d50c46f-b4fe-4c2d-91e2-539bb7e5b3bf.png",
+    "liveUrl": "https://leon0399.ru/",
+    "repo": "https://github.com/leon0399/leon0399.ru",
+    "techStack": "ReactJS, Tailwind, CSS, Vercel"
+  },
+  {
+    "author": "Brayden",
+    "screenshot": "https://user-images.githubusercontent.com/71810927/185853762-ec9618d3-182c-4f42-9e80-0c3935fefb61.png",
+    "liveUrl": "https://braydentw.io/",
+    "repo": "https://github.com/BraydenTW/braydentw.io",
+    "techStack": "React, NextJS, TailwindCSS"
+  },
+  {
+    "author": "Ben",
+    "screenshot": "https://user-images.githubusercontent.com/71810927/185855136-99dfebf8-5a4b-45b8-82e9-5416390eea23.png",
+    "liveUrl": "https://nuro.dev/",
+    "repo": "https://github.com/NuroDev/nuro.dev",
+    "techStack": "React, NextJS, TailwindCSS"
+  },
+  {
+    "author": "Matthias Kretschmann",
+    "screenshot": "https://user-images.githubusercontent.com/71810927/185856268-aa8375e6-e5ef-42cd-8261-1156cfe30f51.png",
+    "liveUrl": "https://matthiaskretschmann.com/",
+    "repo": "https://github.com/kremalicious/portfolio",
+    "techStack": "React, Gatsby"
+  },
+  {
+    "author": "Hamish Williams",
+    "screenshot": "https://user-images.githubusercontent.com/71810927/185857302-157bc072-8dc0-46ac-a89a-b2d0a40f06cb.png",
+    "liveUrl": "https://hamishw.com/",
+    "repo": "https://github.com/HamishMW/portfolio",
+    "techStack": "React, ThreeJS, NextJS"
+  },
+  {
+    "author": "Çağlar Turalı",
+    "screenshot": "https://user-images.githubusercontent.com/71810927/185857785-a1da121c-15fe-48dc-b242-e79811c676f7.png",
+    "liveUrl": "https://turali.js.org/",
+    "repo": "https://github.com/caglarturali/caglarturali.github.io",
+    "techStack": "React, TypeScript"
+  },
+  {
+    "author": "Pyae Sone",
+    "screenshot": "https://user-images.githubusercontent.com/99592123/186507689-9342132b-ff92-4883-b944-511ba3fef734.png",
+    "liveUrl": "https://pyaesonepsn.github.io/portfolio-project/",
+    "repo": "https://github.com/pyaesonepsn/portfolio-project",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Efren Martinez",
+    "screenshot": "https://user-images.githubusercontent.com/10801400/187723688-077ff829-813b-4201-a5e2-39306b0aed58.png",
+    "liveUrl": "https://efrencodes.com",
+    "repo": "https://github.com/efrencodes/efrencodes.ts",
+    "techStack": "NextJS, TypeScript, TailwindCSS"
+  },
+  {
+    "author": "Eliaz LR",
+    "screenshot": "https://user-images.githubusercontent.com/47760515/188088628-7f9e7f92-6848-4f98-924c-46343e50cf49.png",
+    "liveUrl": "https://portfolio2.eliaz-lr.dev/",
+    "repo": "https://github.com/Eliaz-LR/Personal-website-v2",
+    "techStack": "Vue 3, Vite, TailwindCSS"
+  },
+  {
+    "author": "Hikmet C. Kufteoglu",
+    "screenshot": "https://user-images.githubusercontent.com/40501852/188321184-0d750ecd-85ae-491a-8e34-ecfd393a2d0c.png",
+    "liveUrl": "https://hicaku.com",
+    "repo": "https://github.com/spencehiko/portfolio",
+    "techStack": "Vue 3, Pinia, TypeScript"
+  },
+  {
+    "author": "Ara Oladipo",
+    "screenshot": "https://user-images.githubusercontent.com/67078991/189193913-3e351d62-8515-47cd-9069-c449b0c81a77.png",
+    "liveUrl": "https://araoladipo.tech/",
+    "repo": "https://github.com/Ara-O/Portfolio-Website",
+    "techStack": "HTML, CSS, Javascript, Vue.js, Spline3D"
+  },
+  {
+    "author": "Anthony Fu",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/189466543-8297ec23-92e1-445d-8b26-dc2f38e73dc9.png",
+    "liveUrl": "https://antfu.me/",
+    "repo": "https://github.com/antfu/antfu.me",
+    "techStack": "VueJS, Markdown, TypeScript, CSS, HTML"
+  },
+  {
+    "author": "Timothy Lin",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/189490154-bd5ed60d-b9f7-40e5-ae26-639c7fe1f450.png",
+    "liveUrl": "https://timlrx.com",
+    "repo": "https://github.com/timlrx/timlrx.com",
+    "techStack": "NextJS, MDX, TailwindCSS, JavaScript, SASS"
+  },
+  {
+    "author": "Ngô Phú Thịnh",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/189491074-008e03d5-b8f9-42df-8ac9-107bf3fa929e.png",
+    "liveUrl": "https://thinhcorner.com",
+    "repo": "https://github.com/Th1nhNg0/th1nhng0.vercel.app",
+    "techStack": "NextJS, TailwindCSS, TypeScript, CSS"
+  },
+  {
+    "author": "Josiah B. Etuk",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/189539405-c7384739-aa02-42fe-9a64-e35f15b66833.png",
+    "liveUrl": "https://jobenetuk.dev/",
+    "repo": "None",
+    "techStack": "Vanilla JS, Node JS, Prismic CMS, SASS, GSAP"
+  },
+  {
+    "author": "Stef Ivanov",
+    "screenshot": "https://user-images.githubusercontent.com/18528418/190108679-aba5e134-4967-4a36-a516-632b21a8e477.png",
+    "liveUrl": "https://stefivanov.com",
+    "repo": "None",
+    "techStack": "WordPress, Yoast SEO, MailChimp, PWA, Google Analytics, Sumo."
+  },
+  {
+    "author": "Erika Senft Miller",
+    "screenshot": "https://user-images.githubusercontent.com/18528418/190111997-dad66b59-f31f-4f1b-82e1-0f9a3367c45a.png",
+    "liveUrl": "https://www.erikasenftmiller.com/",
+    "repo": "None",
+    "techStack": "Contentful, GSAP, LazySizes, PWA, Google Analytics."
+  },
+  {
+    "author": "Ruben Kuipers",
+    "screenshot": "https://user-images.githubusercontent.com/18528418/190115658-9fee276a-b79c-4a82-aaba-19e63c3e625d.png",
+    "liveUrl": "https://rubenkuipers.design/",
+    "repo": "None",
+    "techStack": "Vue.js, Nuxt.js, Tailwind CSS, scrollreveal, Google Tag Manager, Google Analytics"
+  },
+  {
+    "author": "Maggie Appleton",
+    "screenshot": "https://user-images.githubusercontent.com/18528418/190361290-ec86e3f1-d6a2-49c2-a893-225cc92d1247.png",
+    "liveUrl": "https://maggieappleton.com/",
+    "repo": "https://github.com/MaggieAppleton/maggieappleton.com-V2",
+    "techStack": "React, Next.js, MDX, Algolia Search, Reach UI, Tippy.js, Framer Motion, styled-components, Lodash"
+  },
+  {
+    "author": "Moe Dayraki",
+    "screenshot": "https://user-images.githubusercontent.com/54773679/191480771-849128cd-4b2c-4283-bb46-b7baa7a35f0a.jpg",
+    "liveUrl": "https://moe.dayrakiarts.com",
+    "repo": "https://github.com/moedayraki/moedayraki.github.io",
+    "techStack": "Vue 3, Vite, Cypress, Tailwindcss, Typescript, Pinia, Primevue, magic.css, VueUse"
+  },
+  {
+    "author": "Truong Phan",
+    "screenshot": "https://user-images.githubusercontent.com/259888/192136996-006f2a19-4d4f-496e-89f6-7fbbbf6f2741.png",
+    "liveUrl": "https://techika.com",
+    "repo": "https://github.com/infantiablue",
+    "techStack": "Vue 3, Vite, VuePress, Tailwindcss, Tailwind, Lighthouse"
+  },
+  {
+    "author": "Wasim Baig",
+    "screenshot": "https://user-images.githubusercontent.com/84036037/192362869-392ba8db-20d3-403f-a000-15636cb4f2c3.png",
+    "liveUrl": "https://wasimbaig.com",
+    "repo": "https://github.com/simbaig/portfolio-nextjs",
+    "techStack": "Next JS, Tailwind CSS, Framer-Motion"
+  },
+  {
+    "author": "Mike Bifulco",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/194711236-9e9cda7f-0611-4756-b237-ae122e355c75.png",
+    "liveUrl": "https://mikebifulco.com",
+    "repo": "https://github.com/mbifulco/blog",
+    "techStack": "NextJS, React, SCSS, MDX, Vercel"
+  },
+  {
+    "author": "Shodipo Ayomide",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/194711642-0618e969-2672-4179-90ed-b5909e0bf665.png",
+    "liveUrl": "https://shodipoayomide.com/",
+    "repo": "https://github.com/Developerayo/shodipoayomide.com",
+    "techStack": "Gatsby, React, SCSS, Bootstrap, Jquery"
+  },
+  {
+    "author": "Damian Watracz",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/194712470-98eec307-9b9c-4181-9167-2945b6362d5c.png",
+    "liveUrl": "https://watracz.com/",
+    "repo": "None",
+    "techStack": "HTML, CSS, JavaScript, Swiper"
+  },
+  {
+    "author": "Franklin Ohaegbulam",
+    "screenshot": "https://user-images.githubusercontent.com/46662771/195562343-cd7e2407-949e-4dba-813d-af6855b17e41.png",
+    "liveUrl": "https://frankiefab.com",
+    "repo": "https://github.com/frankiefab100/frankiefab.tech",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Samuel Akinosho",
+    "screenshot": "https://user-images.githubusercontent.com/46662771/195622011-33744cb7-bb4b-4229-a104-d88d108c1487.png",
+    "liveUrl": "https://www.samuelakinosho.com/",
+    "repo": "None",
+    "techStack": "Webflow, Jquery"
+  },
+  {
+    "author": "Rutik Wankhade",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/196155918-9068722c-875f-4016-ae89-37f63a4e6f1f.png",
+    "liveUrl": "https://rutikwankhade.dev/",
+    "repo": "None",
+    "techStack": "NextJs, React, NodeJS, TailwindCSS"
+  },
+  {
+    "author": "Adenekan Wonderful",
+    "screenshot": "https://user-images.githubusercontent.com/46662771/196423111-7b262df6-9ee8-4f2e-9de5-7eb2cd3e6ebe.png",
+    "liveUrl": "https://www.codewonders.dev/",
+    "repo": "None",
+    "techStack": "React, NextJS, Styled-components"
+  },
+  {
+    "author": "Olamide Sholanke",
+    "screenshot": "https://user-images.githubusercontent.com/46662771/196424318-5de568ff-73d1-48ad-9087-bc38c6fe234c.png",
+    "liveUrl": "https://www.olamide.dev/",
+    "repo": "None",
+    "techStack": "Vue, NuxtJS"
+  },
+  {
+    "author": "Daniel Ezekiel",
+    "screenshot": "https://user-images.githubusercontent.com/46662771/196419585-4faaf914-3681-402f-8f31-a196b450d667.png",
+    "liveUrl": "https://danielezekiel.me/",
+    "repo": "https://github.com/Daniel-Ezekiel/Portfolio-Website",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Julia Johnson",
+    "screenshot": "https://user-images.githubusercontent.com/46662771/196426246-88b06dd2-4305-4785-b795-6c8482874a36.png",
+    "liveUrl": "https://www.juliacodes.com/",
+    "repo": "https://github.com/juliacodes/JuliaCodesGatsby",
+    "techStack": "React, Styled-components"
+  },
+  {
+    "author": "Rida F'kih",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/736fec7a-d6e1-4541-bcca-a968c1ed8755",
+    "liveUrl": "https://www.rida.dev/",
+    "repo": "https://github.com/ridafkih/portfolio",
+    "techStack": "React, NextJS"
+  },
+  {
+    "author": "Anand Baraik",
+    "screenshot": "https://user-images.githubusercontent.com/31516195/188324601-78b0b8d4-ddca-43f2-8d3e-a6ef0846e770.png",
+    "liveUrl": "https://anandbaraik-folio.netlify.app/",
+    "repo": "https://github.com/anandbaraik/anandfolio",
+    "techStack": "HTML, CSS"
+  },
+  {
+    "author": "Abhishek Jha",
+    "screenshot": "https://user-images.githubusercontent.com/46662771/197171814-9902aa1a-8fc3-4ea0-9c5f-47f24bbec6e3.png",
+    "liveUrl": "https://www.abhishekjha.me",
+    "repo": "None",
+    "techStack": "HTML, CSS, JavaScript, Ruby on Rails, GSAP"
+  },
+  {
+    "author": "Olamide Adeyi",
+    "screenshot": "https://user-images.githubusercontent.com/46662771/197175156-6886c1c5-97ac-4305-bd60-5e824389c6be.png",
+    "liveUrl": "https://www.olamideadeyi.com",
+    "repo": "None",
+    "techStack": "Vue, NuxtJS, GSAP"
+  },
+  {
+    "author": "Greg Ives",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/227514948-40cb969e-f88c-4a83-8338-aeebaf44db58.png",
+    "liveUrl": "https://www.gregives.co.uk",
+    "repo": "https://github.com/gregives/gregives.co.uk",
+    "techStack": "Vue, NuxtJS, SASS, Netlify"
+  },
+  {
+    "author": "Collins Enebeli",
+    "screenshot": "https://user-images.githubusercontent.com/46662771/197170427-e2de03d3-f9f3-4893-a47a-ba554d70079a.png",
+    "liveUrl": "https://kadet.dev/",
+    "repo": "https://github.com/kadetXx/kadet.dev",
+    "techStack": "React, Gatsby"
+  },
+  {
+    "author": "Cole Solomon",
+    "screenshot": "https://user-images.githubusercontent.com/46662771/197168195-e906ca7f-d0d1-4a39-9c05-ce3f8d3631e5.png",
+    "liveUrl": "https://colesolomon.me/",
+    "repo": "https://github.com/codecole/colesolomonme",
+    "techStack": "HTML, CSS, SASS, JavaScript, GSAP, W3js, PHP"
+  },
+  {
+    "author": "Adewale Adeyemi",
+    "screenshot": "https://user-images.githubusercontent.com/113855742/208195796-b7c27dcf-67f0-4e1c-9c6d-e1d219bddbae.png",
+    "liveUrl": "https://adex.onrender.com/",
+    "repo": "https://github.com/dev-adewale/portfolio",
+    "techStack": "Gridsome, GraphQL, Tailwind"
+  },
+  {
+    "author": "Harsh Singh",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/197406605-8e3f25c7-85df-461d-a7e6-679f2a1be425.png",
+    "liveUrl": "https://harshsingh.xyz/",
+    "repo": "https://github.com/harshhhdev/harshhhdev.github.io",
+    "techStack": "NextJS, TailwindCSS, TypeScript, Prisma"
+  },
+  {
+    "author": "Wallace Nascimento",
+    "screenshot": "https://user-images.githubusercontent.com/65576111/197592263-52847d1a-6d4b-4528-9a5d-d28395761f5c.png",
+    "liveUrl": "https://portfolio-srnascimento40.vercel.app/",
+    "repo": "https://github.com/SrNascimento40/portfolio",
+    "techStack": "NextJS, ReactJS, TypeScript, Styled-Components"
+  },
+  {
+    "author": "Idris Olubisi",
+    "screenshot": "https://user-images.githubusercontent.com/45847909/198300427-860de419-9525-4e35-9b38-f6bfbba612d2.png",
+    "liveUrl": "https://idrisolubisi.com",
+    "repo": "https://github.com/Olanetsoft/idrisolubisi.com",
+    "techStack": "ReactJs, GatsbyJs, TypedJs, Styled Component"
+  },
+  {
+    "author": "Aycan Öğüt",
+    "screenshot": "https://user-images.githubusercontent.com/74212439/199970839-6f0ab4f3-c63a-4052-a05c-e8503d7943de.png",
+    "liveUrl": "https://www.aycan.dev",
+    "repo": "https://github.com/aycanogut/aycan.dev",
+    "techStack": "React, Next, TypeScript, Mantine"
+  },
+  {
+    "author": "Manish Kumar",
+    "screenshot": "https://user-images.githubusercontent.com/54291836/200181649-39dd0705-d6ac-4f2c-a60a-926b6e713f2e.png",
+    "liveUrl": "https://manishk.dev",
+    "repo": "https://github.com/manishprivet/portfolio",
+    "techStack": "React, Next, TypeScript, ParticleJS, Firebase, Vercel"
+  },
+  {
+    "author": "Andrea Toffanello",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/200663072-b61f6f84-c482-45d1-9e60-85ab096aca8f.png",
+    "liveUrl": "https://andreatoffanello.com",
+    "repo": "None",
+    "techStack": "VueJS, ThreeJS, GSAP, Blender"
+  },
+  {
+    "author": "Chandraprakash Darji",
+    "screenshot": "https://user-images.githubusercontent.com/93640141/201102466-189f51cb-f959-4645-920f-0b40d0ecc8a4.png",
+    "liveUrl": "https://chandraprakash.vercel.app/",
+    "repo": "https://github.com/Chandraprakash-Darji/personal",
+    "techStack": "Nextjs, Typescript, Tailwindcss, Vercel"
+  },
+  {
+    "author": "Khaled Mohamed",
+    "screenshot": "https://user-images.githubusercontent.com/73050798/201541801-81a752fb-c3c7-44fc-9526-002ccd2af7ca.png",
+    "liveUrl": "https://portfolio-john2.netlify.app/",
+    "repo": "None",
+    "techStack": "HTML5, SCSS, Bootstrap5, JavaScript, SwipperJS, Netlify"
+  },
+  {
+    "author": "Michael Kolesidis",
+    "screenshot": "https://raw.githubusercontent.com/michaelkolesidis/michaelkolesidis.com/main/screenshots/desktop_1.png",
+    "liveUrl": "https://michaelkolesidis.com/",
+    "repo": "https://github.com/michaelkolesidis/michaelkolesidis.com",
+    "techStack": "TypeScript, p5.js, Sass, Vite"
+  },
+  {
+    "author": "Piyush Goyani",
+    "screenshot": "https://user-images.githubusercontent.com/18528418/202102781-b1d7826f-d401-481b-afeb-d3d54f42ba7d.png",
+    "liveUrl": "https://piyushgoyani.thesourcepedia.org",
+    "repo": "None",
+    "techStack": "VueJS, Gridsome, TailwindCSS, Firebase"
+  },
+  {
+    "author": "Vanessa Santana",
+    "screenshot": "https://user-images.githubusercontent.com/52542645/202289197-bdc535a8-ebbf-4416-a997-21cdb73e9cee.png",
+    "liveUrl": "https://www.nessajs.com.br/",
+    "repo": "https://github.com/vanessa-dev/nessa.js",
+    "techStack": "HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "author": "Mahmoud Elkariouny",
+    "screenshot": "https://user-images.githubusercontent.com/65455064/203590991-00b66db7-492d-46f4-980b-efbacb53a9fa.jpg",
+    "liveUrl": "https://clear-sleet.surge.sh/",
+    "repo": "https://github.com/mahmoudessam820/my_portfolio",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Antonio Ayola",
+    "screenshot": "https://user-images.githubusercontent.com/35477201/203847317-bf6f76f1-62f5-434b-9cdf-c4bf702eb001.jpg",
+    "liveUrl": "https://antonioayola.netlify.app",
+    "repo": "https://github.com/Tono2007/Portafolio",
+    "techStack": "React, HTML, CSS, Modules CSS, JavaScript, PWA"
+  },
+  {
+    "author": "Ajo Alex",
+    "screenshot": "https://user-images.githubusercontent.com/67946056/204500454-a8f4f10e-efd3-44ae-9f49-fa16106a8318.png",
+    "liveUrl": "https://devpenzil.dev/",
+    "repo": "https://github.com/devpenzil/devpenzil.dev",
+    "techStack": "NextJS, Tailwind, GraphCMS"
+  },
+  {
+    "author": "Erys Mozo",
+    "screenshot": "https://user-images.githubusercontent.com/69915035/204743807-5c96d774-c361-4b5a-8fe2-cf6eb587e0c6.JPG",
+    "liveUrl": "https://erysmozo.vercel.app/",
+    "repo": "https://github.com/ErysCode7/Web-Portfolio",
+    "techStack": "React, SASS, Vite, AOS"
+  },
+  {
+    "author": "Peace Jinadu-Paul",
+    "screenshot": "https://user-images.githubusercontent.com/60526129/205677866-a6eae2e1-3ca6-4227-961e-69c3863b7b3d.png",
+    "liveUrl": "https://pjpportfolio.netlify.app/",
+    "repo": "https://github.com/Pappyjay23/my-portfolio-1",
+    "techStack": "React, HTML, CSS, Javascript, Framer Motion, Netlify"
+  },
+  {
+    "author": "Hari Prasad",
+    "screenshot": "https://user-images.githubusercontent.com/75234157/205496938-3ad80cff-037f-47fb-a853-810c9eda9cb7.png",
+    "liveUrl": "https://hariprasd.me",
+    "repo": "https://github.com/hariprasd",
+    "techStack": "React, Tailwind CSS"
+  },
+  {
+    "author": "Danilo Batson",
+    "screenshot": "https://user-images.githubusercontent.com/69876068/205551967-abc55adc-aae6-48c7-94cc-d9ed431c511a.png",
+    "liveUrl": "https://batson-portfolio.vercel.app/",
+    "repo": "https://github.com/danilobatson/batson-portfolio",
+    "techStack": "TypeScript, JavaScript, Python, React, React Native, Vue, Express, Node, MongoDB, Next JS"
+  },
+  {
+    "author": "Soumyadeep Das Bhowmick",
+    "screenshot": "https://user-images.githubusercontent.com/115442240/207277461-686247d5-01e7-4be8-ad0f-109ec2a637b1.png",
+    "liveUrl": "https://soumyadeeposd.github.io/Tensor-Block/",
+    "repo": "https://github.com/SoumyadeepOSD/Tensor-Block",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Byunggeun Cho",
+    "screenshot": "https://user-images.githubusercontent.com/51329156/208891221-6e4dbd09-06cb-4568-abc8-98128f6b1bca.png",
+    "liveUrl": "https://bbangjo.kr",
+    "repo": "https://github.com/bbangjooo/buffalo",
+    "techStack": "HTML, CSS, JavaScript, TypeScript, Threejs, Blender"
+  },
+  {
+    "author": "James Warner",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/209755001-3a603dcd-25bc-44b5-93a7-a5bc6cd44727.png",
+    "liveUrl": "https://jmswrnr.com/",
+    "repo": "None",
+    "techStack": "NextJS, Sanity, CSS, Preact, NodeJS, ThreeJS"
+  },
+  {
+    "author": "Maxime Heckel",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/209755866-1407b7f2-bb47-44ec-8fe6-9ce92c84dcda.png",
+    "liveUrl": "https://maximeheckel.com/",
+    "repo": "https://github.com/MaximeHeckel/blog.maximeheckel.com",
+    "techStack": "NextJS, TypeScript, Stiches/CSS, MDX"
+  },
+  {
+    "author": "Twan Mulder",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/209756628-7c93082a-3567-4238-9d65-1ea810fa1f51.png",
+    "liveUrl": "https://www.twanmulder.com/",
+    "repo": "https://github.com/twanmulder/portfolio",
+    "techStack": "React, TailwindCSS, Stripe, Netlify"
+  },
+  {
+    "author": "Rishi Mohan",
+    "screenshot": "https://user-images.githubusercontent.com/46662771/210183301-599c1add-f507-4626-8912-b55ecf565614.png",
+    "liveUrl": "https://rishimohan.me",
+    "repo": "https://github.com/rishimohan/rishimohan.me",
+    "techStack": "Next.js, TailwindCSS, Framer Motion"
+  },
+  {
+    "author": "Nikhil Rajput",
+    "screenshot": "https://user-images.githubusercontent.com/46662771/210183075-b58e2705-c2b9-4f16-adde-a19a12a3e8d9.png",
+    "liveUrl": "https://nixrajput.nixlab.co.in/",
+    "repo": "https://github.com/nixrajput/portfolio-nextjs",
+    "techStack": "Next.js, SCSS, Node.js"
+  },
+  {
+    "author": "Raphaël Chelly",
+    "screenshot": "https://user-images.githubusercontent.com/46662771/210182852-c316dc4e-c02a-436b-a526-53f2bdfe99a8.png",
+    "liveUrl": "https://www.raphaelchelly.com",
+    "repo": "https://github.com/raphaelchelly/raph_www",
+    "techStack": "Next.js, TailwindCSS, Vercel"
+  },
+  {
+    "author": "Damian Demasi",
+    "screenshot": "https://user-images.githubusercontent.com/46662771/211422082-0eb8dafe-dcb5-4359-b6b7-7221ab0b6150.png",
+    "liveUrl": "https://www.damiandemasi.com/",
+    "repo": "https://github.com/Colo-Codes/portfolio-v2",
+    "techStack": "ReactJS, TailwindCSS, DaisyUI"
+  },
+  {
+    "author": "Ifedili Onyegbu",
+    "screenshot": "https://user-images.githubusercontent.com/46662771/211422589-ec814f14-9db7-4162-8f5f-5eaa8f037e8d.png",
+    "liveUrl": "https://www.ifedili.com",
+    "repo": "https://github.com/saucecodee/ifedili.com",
+    "techStack": "Angular, TypeScript, SASS"
+  },
+  {
+    "author": "Daniel Cranney",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/211936079-1cbf1c5e-4025-4c38-a69f-d2094f5af907.png",
+    "liveUrl": "https://www.danielcranney.com/",
+    "repo": "https://github.com/danielcranney/portfolio",
+    "techStack": "NextJS, TailwindCSS, Vercel"
+  },
+  {
+    "author": "Abdellatif Laghjaj",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/211947181-e796b197-856e-482f-be89-35b74d87d2e2.png",
+    "liveUrl": "https://www.abdellatif-laghjaj.ml/",
+    "repo": "None",
+    "techStack": "VueJS, Lottilefiles, Verel, CSS"
+  },
+  {
+    "author": "Adham Dannaway",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/212376608-1647044c-3caa-48b7-b131-3407afc144ed.png",
+    "liveUrl": "https://www.adhamdannaway.com/",
+    "repo": "None",
+    "techStack": "Wordpress, PHP, jQuery, MySQL"
+  },
+  {
+    "author": "Khaled Mohamed",
+    "screenshot": "https://user-images.githubusercontent.com/73050798/212409001-0bea2f47-3a9a-4cb9-9984-1940d216af5c.jpeg",
+    "liveUrl": "https://james-oliver-portfolio.netlify.app/",
+    "repo": "None",
+    "techStack": "HTML5, CSS3, SCSS, Bootstrap5, TypeScript, SwipperJS, Fontello, PurgeCSS, Netlify"
+  },
+  {
+    "author": "Glayson Visgueira",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/213310609-ff768322-2d69-45fc-864b-e2f0a50aa749.png",
+    "liveUrl": "https://glaysonvisgueira.vercel.app/",
+    "repo": "https://github.com/Glaysonvisgueira/glaysonvisgueira_next-js",
+    "techStack": "NextJS, Styled-components, NodeJS, Vercel, Animate.css, Lottiefiles"
+  },
+  {
+    "author": "Chai Phonbopit",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/214586571-d915e4ec-6f5c-4b2b-a554-b444b3eed04f.png",
+    "liveUrl": "https://devahoy.com/",
+    "repo": "None",
+    "techStack": "NextJS, Preact, Tailwind CSS, NodeJS"
+  },
+  {
+    "author": "Aravind Balla",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/215120342-a009d241-4d40-4c9d-938a-28381e07dac5.png",
+    "liveUrl": "https://aravindballa.com",
+    "repo": "https://github.com/aravindballa/website",
+    "techStack": "NextJS, TypeScript, Tailwind CSS, Vercel"
+  },
+  {
+    "author": "Khaled Mohamed",
+    "screenshot": "https://user-images.githubusercontent.com/73050798/215182800-5f6da1a3-f8e0-4fb2-81c1-5ab5d8e136a8.jpeg",
+    "liveUrl": "https://thomas-david-portfolio.netlify.app/",
+    "repo": "None",
+    "techStack": "React JS, Tailwind CSS, AOS, SwipperJS, React Scroll, React Icons, React Laze Load Image, PostCSS, Netlify"
+  },
+  {
+    "author": "Tanishka Yadav",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/215251625-a47dc95b-3326-4ebb-bcec-332614ffe4f8.png",
+    "liveUrl": "https://tanishka-yadav.netlify.app/",
+    "repo": "https://github.com/Tanishka-dev/Portfolio-Reactjs",
+    "techStack": "ReactJS, Javascript, SASS, Framer Motion"
+  },
+  {
+    "author": "David Obodo",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/215259720-12a184da-5958-42ec-bfbe-265055acff67.png",
+    "liveUrl": "https://www.davidobodo.com/",
+    "repo": "None",
+    "techStack": "NextJS, Typescript, SASS, GSAP, Jest, Sendgrid, Google Analytics"
+  },
+  {
+    "author": "Manuel David Gomez",
+    "screenshot": "https://user-images.githubusercontent.com/122189894/215547727-1ce1d61c-4a93-465d-afd3-c86b58d8eda1.png",
+    "liveUrl": "https://manueldavgomez.github.io/manueldavidgomez/",
+    "repo": "https://github.com/ManuelDavGomez/manueldavidgomez",
+    "techStack": "ReactJs, Javascript, Css, Bootstrap, Bootstrap Icons, React-Animate-On-Scroll, React-Scroll, Vite, TsParticles"
+  },
+  {
+    "author": "Olasunkanmi Balogun",
+    "screenshot": "https://user-images.githubusercontent.com/80556643/215644049-188fe70d-a849-4f89-af62-751da7c3210b.png",
+    "liveUrl": "https://kanmibalogun.vercel.app/",
+    "repo": "https://github.com/SiR-PENt/folio-me",
+    "techStack": "NextJS, JavaScript, Tailwind, Framer-motion, vanilla CSS"
+  },
+  {
+    "author": "Priyankar Pal",
+    "screenshot": "https://user-images.githubusercontent.com/88102392/218301986-7d08fa18-bdca-4898-82c0-9e64d7822b96.png",
+    "liveUrl": "https://itspp.vercel.app",
+    "repo": "https://github.com/priyankarpal/Priyankar",
+    "techStack": "HTML & SCSS"
+  },
+  {
+    "author": "Marieflor Bawanan",
+    "screenshot": "https://user-images.githubusercontent.com/10086227/218483483-4a3358fd-a79a-4b81-b619-be28b3e0832c.png",
+    "liveUrl": "https://marieflor.dev",
+    "repo": "https://github.com/mariebawanan/marieflor.dev",
+    "techStack": "NextJS, TypeScript, TailwindCSS & GSAP"
+  },
+  {
+    "author": "Delba Oliviera",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/219158553-bc286921-2142-41e6-9167-88ef5b1348c1.png",
+    "liveUrl": "https://delba.dev/",
+    "repo": "https://github.com/delbaoliveira/website",
+    "techStack": "Next.js, MDX, Tailwind, Prisma, Typescript"
+  },
+  {
+    "author": "Vivek Patel",
+    "screenshot": "https://user-images.githubusercontent.com/62628408/219168599-59df9692-93cf-415b-83b2-579f933dacf1.png",
+    "liveUrl": "https://vivek9patel.github.io/",
+    "repo": "https://github.com/vivek9patel/vivek9patel.github.io",
+    "techStack": "NextJS, Tailwind CSS, GitHub Pages"
+  },
+  {
+    "author": "Sarah Dayan",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/219411465-b0ceecbe-835b-403a-951d-0e0a26f7ce6a.png",
+    "liveUrl": "https://www.sarahdayan.dev/",
+    "repo": "None",
+    "techStack": "NextJS, Tailwind CSS, NodeJS, Vercel"
+  },
+  {
+    "author": "Theodorus Clarence",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/219413309-8a34a630-9834-4f35-b973-c3c947ccede2.png",
+    "liveUrl": "https://theodorusclarence.com/",
+    "repo": "https://github.com/theodorusclarence/theodorusclarence.com",
+    "techStack": "NextJS, TypeScript, Tailwind CSS, MDX Bundler, Prisma"
+  },
+  {
+    "author": "Arafat Islam",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/219415220-e937b428-af9c-4371-842a-89e59ffd26ee.png",
+    "liveUrl": "https://portfolio-khaki-iota-89.vercel.app/",
+    "repo": "https://github.com/arafat4693/portfolio",
+    "techStack": "NextJS, TypeScript, GraphQL, Tailwind CSS"
+  },
+  {
+    "author": "Siddharth Verma",
+    "screenshot": "https://user-images.githubusercontent.com/74046564/220126823-63f205ae-db7c-4381-ad9a-f2d818b4f15e.png",
+    "liveUrl": "https://iamdev.netlify.app/home.html",
+    "repo": "None",
+    "techStack": "Tailwind, Javascript, React, html/CSS"
+  },
+  {
+    "author": "Abo Ghanbari",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/219416647-1e3976ab-2675-4f53-acff-5021e04906bb.png",
+    "liveUrl": "https://www.aboghanbari.com/",
+    "repo": "None",
+    "techStack": "Gatsby, Emotion, GSAP, Preact"
+  },
+  {
+    "author": "PATRICK T.LO",
+    "screenshot": "https://user-images.githubusercontent.com/88075256/220258658-dda19639-2409-472e-ade3-e204f79ab5be.png",
+    "liveUrl": "https://pleaseleaveon.com/",
+    "repo": "None",
+    "techStack": "HTML5, CSS, JavaScript, jQuery"
+  },
+  {
+    "author": "Aliyah Adefolake",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/220332052-589fbb61-8f37-4d0b-b5a9-da601a627a98.png",
+    "liveUrl": "https://www.aliyahadefolake.com/",
+    "repo": "None",
+    "techStack": "ReactJS, Gatsby, SASS, GSAP, Contentful"
+  },
+  {
+    "author": "Travis Fischer",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/220334086-51f7e523-7451-46e8-b3b8-6aed86341229.png",
+    "liveUrl": "https://transitivebullsh.it/",
+    "repo": "https://github.com/transitive-bullshit/nextjs-notion-starter-kit",
+    "techStack": "NextJS, TypeScript, Notion API, Vercel"
+  },
+  {
+    "author": "Lynn Fisher",
+    "screenshot": "https://user-images.githubusercontent.com/88075256/220362800-fe33d26e-8b09-4d29-9be8-b27aef020b01.png",
+    "liveUrl": "https://lynnandtonic.com/",
+    "repo": "https://github.com/lynnandtonic/lynnandtonic.com",
+    "techStack": "HTML5, CSS, JavaScript, SVG, Netlify, GoatCounter, HSTS, Open Graph"
+  },
+  {
+    "author": "Danny Garcia",
+    "screenshot": "https://user-images.githubusercontent.com/88075256/220831020-9c141f75-7b66-4274-9360-40d047d4501c.png",
+    "liveUrl": "https://danny-garcia.com/",
+    "repo": "https://github.com/dannygarcia/dannygarcia.github.com",
+    "techStack": "HTML5, CSS, JavaScript, TypeScript, GLSL, Netlify"
+  },
+  {
+    "author": "Robin Payot",
+    "screenshot": "https://user-images.githubusercontent.com/88075256/221104838-b82a01f2-b0f9-4d9a-bd0b-9fc7a87d2875.png",
+    "liveUrl": "http://www.robinpayot.com/",
+    "repo": "None",
+    "techStack": "HTML5, CSS, JavaScript, GSAP, Howler.js, Hammer.js, three.js, WebGL, PWA, Open Graph, Apache"
+  },
+  {
+    "author": "Jesse Zhou",
+    "screenshot": "https://user-images.githubusercontent.com/88075256/221340025-0e357cf8-61e3-461a-a969-11940d9c2ff1.png",
+    "liveUrl": "https://jesse-zhou.com/",
+    "repo": "https://github.com/enderh3art/Ramen-Shop",
+    "techStack": "HTML5, CSS, JavaScript, GLSL, Howler.js, GSAP, Three.js, Node.js, Vercel"
+  },
+  {
+    "author": "Rauno Freiberg",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/221341958-446d5cdf-bc22-47d2-9f09-fabe77e9eb5c.png",
+    "liveUrl": "https://rauno.me/",
+    "repo": "None",
+    "techStack": "NextJS, NodeJS, Stiches, Vercel"
+  },
+  {
+    "author": "Anurag Hazra",
+    "screenshot": "https://user-images.githubusercontent.com/74038190/221430160-5f280f15-ba4d-43a8-ace6-b3162855aea1.png",
+    "liveUrl": "https://anuraghazra.dev/",
+    "repo": "https://github.com/anuraghazra/anuraghazra.github.io",
+    "techStack": "React, Gatsby, Styled-components, Cypress, Jest, TravisCI"
+  },
+  {
+    "author": "Hardik Gohil",
+    "screenshot": "https://user-images.githubusercontent.com/32103022/231819818-4c43ecfa-5b8c-4099-90d2-7c4ca1166395.jpg",
+    "liveUrl": "https://hardikgohilhlr.tech/",
+    "repo": "None",
+    "techStack": "Next.js, TypeScript, Tailwind CSS, Firebase"
+  },
+  {
+    "author": "Jonathan Toon",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/222076260-9536d6e7-91bd-440d-835f-5fa641ce450c.PNG",
+    "liveUrl": "https://jonathontoon.com/",
+    "repo": "https://github.com/jonathontoon/jonathontoon.com",
+    "techStack": "Gulp, EsBuild, postCSS, Nunjuck"
+  },
+  {
+    "author": "Rafael Derolez",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/222077967-b94c5de3-f8db-4f00-be6a-adc8cf5000dc.PNG",
+    "liveUrl": "https://derolez.dev/",
+    "repo": "None",
+    "techStack": "NextJS, Sanity, ChakraUI, Emotion"
+  },
+  {
+    "author": "Chris Williams",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/222880704-e6062bc7-b19f-4be3-9ee2-2f809885e94d.png",
+    "liveUrl": "https://astro-theme-cactus.netlify.app/",
+    "repo": "https://github.com/chrismwilliams/astro-theme-cactus",
+    "techStack": "Astro, Typescript, Tailwind CSS, MDX"
+  },
+  {
+    "author": "Ben Holmes",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/222881198-5e24ac56-2cf0-40e1-aa5a-01a859132dc5.png",
+    "liveUrl": "https://bholmes.dev/",
+    "repo": "https://github.com/bholmesdev/bholmesdev",
+    "techStack": "Gatsby, Javascript, SCSS, Pug"
+  },
+  {
+    "author": "Yasio",
+    "screenshot": "https://user-images.githubusercontent.com/48645362/222945475-ce6c07d1-d580-47a5-8372-c66e6ff35e66.png",
+    "liveUrl": "https://yasio.dev/",
+    "repo": "https://github.com/YasiOnFire",
+    "techStack": "Nuxt.js, Node.js, core-js, Vue.js, VideoJS, Firebase, HSTS, Open Graph, HTTP/3, Webpack, PWA"
+  },
+  {
+    "author": "Alec Babala",
+    "screenshot": "https://user-images.githubusercontent.com/48645362/222978718-78e3e74c-66b1-48f6-a39f-2a0f03ac51a5.png",
+    "liveUrl": "https://www.alecbabala.com/",
+    "repo": "None",
+    "techStack": "Next.js, Node.js, core-js, React, HSTS, Open Graph, Webpack, MobX, GSAP, Contentful"
+  },
+  {
+    "author": "Gavin Nelson",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/223125102-7b266674-cb3b-4f1c-9562-af09202b35a5.png",
+    "liveUrl": "https://nelson.co/",
+    "repo": "https://github.com/gavinmn/nelson.co",
+    "techStack": "NextJS, Tailwind CSS, Vercel, MDX"
+  },
+  {
+    "author": "Yinka Adedire",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/223170581-4c10fd7d-a851-4f6d-8c78-fdd731c2b15c.png",
+    "liveUrl": "https://www.yinka.codes/",
+    "repo": "https://github.com/yinkakun/yinkakun-portfolio",
+    "techStack": "Gatsby, ReactJS, Styled-Components"
+  },
+  {
+    "author": "Abdullah Abdulfatah",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/223174294-72f9c025-92f4-41f2-b7c8-8dfc0b8e216b.png",
+    "liveUrl": "https://www.draq.tech/",
+    "repo": "None",
+    "techStack": "NextJS, Typescript, ChakraUI"
+  },
+  {
+    "author": "Samuel Imolorhe",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/224482950-e2dfbfdd-8d98-4a10-aed6-973fd568d9b4.png",
+    "liveUrl": "https://www.xkoji.dev/",
+    "repo": "https://github.com/imolorhe/xkoji-code",
+    "techStack": "Gatsby, GSAP, JavaScript, Netlify"
+  },
+  {
+    "author": "Abu Said",
+    "screenshot": "https://github.com/said7388/portfolio-ideas/assets/77630868/d6276920-ec58-4e7f-ac09-32cd43a3b8ee",
+    "liveUrl": "https://abusaid.netlify.app/",
+    "repo": "https://github.com/said7388/developer-portfolio",
+    "techStack": "Next.js, Tailwind CSS, Email.JS"
+  },
+  {
+    "author": "Quiet Node",
+    "screenshot": "https://user-images.githubusercontent.com/66233296/226226557-c6afd182-7d14-4ac3-87a5-319c14d599c4.png",
+    "liveUrl": "https://quiet-node.dev",
+    "repo": "https://github.com/quiet-node/portfolio-v2",
+    "techStack": "TypeScript, ReactJS, ViteJS, TailwindCSS, Motion Framer"
+  },
+  {
+    "author": "Daniel Wisky",
+    "screenshot": "https://user-images.githubusercontent.com/2626931/227245573-e5751c40-9d59-4b44-b697-e2b28bff4e6a.png",
+    "liveUrl": "https://danielwisky.com.br/",
+    "repo": "https://github.com/danielwisky/danielwisky.github.io",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "JJ Kasper",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/228754753-f18a3e24-72a8-4032-955b-ef4a01110846.png",
+    "liveUrl": "https://jjsweb.site/",
+    "repo": "https://github.com/ijjk/jjsweb.site",
+    "techStack": "NextJS, Vercel, CSS"
+  },
+  {
+    "author": "Cassidy Williams",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/228766009-832d7b30-c675-42a8-9a0c-445d8a8be8fb.png",
+    "liveUrl": "https://cassidoo.co/",
+    "repo": "None",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Jahir Fiquitiva",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/228767619-d48218cd-09d8-4886-a6b0-72e23f77a71e.PNG",
+    "liveUrl": "https://jahir.dev/",
+    "repo": "https://github.com/jahirfiquitiva/jahir.dev",
+    "techStack": "Next.js, Tailwind CSS, MDX, contentlayer, PlanetScale, Vercel, TypeScript"
+  },
+  {
+    "author": "Stefan Topalovic",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/228772337-5864d089-9c69-41e5-a126-8437a1541811.png",
+    "liveUrl": "https://stefantopalovicdev.vercel.app/",
+    "repo": "None",
+    "techStack": "ReactJS, SCSS, Vercel"
+  },
+  {
+    "author": "Abdullah Moiz",
+    "screenshot": "https://user-images.githubusercontent.com/90745903/229309195-8d735f52-f779-400c-81ff-1384ea227651.png",
+    "liveUrl": "https://mrmoiz.vercel.app/",
+    "repo": "None",
+    "techStack": "Next Js, Tailwind css, Vercel"
+  },
+  {
+    "author": "Victor Williams",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/230361704-ceb6b270-9148-4518-9578-53681cf49fe2.png",
+    "liveUrl": "https://www.victorwilliams.me/",
+    "repo": "https://github.com/victorcodess/folio-v1",
+    "techStack": "React, Next.js, TypeScript, TailwindCSS, Framer Motion, GSAP, Vercel"
+  },
+  {
+    "author": "Modupe Akanni",
+    "screenshot": "https://user-images.githubusercontent.com/105242931/230619541-50f3b035-2ee2-4925-a453-c35c1985df84.png",
+    "liveUrl": "https://modupe-akanni.vercel.app/",
+    "repo": "https://github.com/Goketech/next-p",
+    "techStack": "React, Next.js, Styled Components, Vercel"
+  },
+  {
+    "author": "Anuoluwapo Abolarin",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/231068477-13d011fc-aac4-466a-8d18-bbcb41a81025.png",
+    "liveUrl": "https://anuoluwapo.xyz/",
+    "repo": "https://github.com/Anu-oluwapo/portfolio-v2",
+    "techStack": "VueJS, SCSS, GSAP, Vite"
+  },
+  {
+    "author": "Andrew Branch",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/234782793-152ab17e-85de-4e5b-bc52-505e129d8354.png",
+    "liveUrl": "https://blog.andrewbran.ch/",
+    "repo": "https://github.com/andrewbranch/blog",
+    "techStack": "Gatsby, TypeScript, Emotion, Netlify"
+  },
+  {
+    "author": "Max Böck",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/234786328-5623c880-e5fc-4f47-aa67-e4db5e95f0e6.png",
+    "liveUrl": "https://mxb.dev/",
+    "repo": "https://github.com/maxboeck/mxb",
+    "techStack": "Eleventy, SCSS, Nunjucks"
+  },
+  {
+    "author": "Shahriar Shafin",
+    "screenshot": "https://user-images.githubusercontent.com/32214710/234838154-f087f7b0-ed0e-48ba-8602-ef07a25fb87b.png",
+    "liveUrl": "https://shahriarshafin.github.io/",
+    "repo": "https://github.com/shahriarshafin/myportfolio",
+    "techStack": "React, Next.js, Tailwind CSS"
+  },
+  {
+    "author": "Mukul Chugh",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/234845892-15d64c4c-21f5-4f19-be5e-08229faadf93.png",
+    "liveUrl": "https://mukulchugh.com/",
+    "repo": "None",
+    "techStack": "React, Next.js, Styled Components, Netlify"
+  },
+  {
+    "author": "Vijay Verma",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/236575661-f156aa7c-fb93-4c16-8d48-11a60e263fb3.png",
+    "liveUrl": "https://vjy.me/",
+    "repo": "None",
+    "techStack": "NextJS, Styled Components, Vercel"
+  },
+  {
+    "author": "Jhey Tompkins",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/236577676-9fcbcb5e-2302-4614-b16e-2fdd6743c4b7.png",
+    "liveUrl": "https://jhey.dev/",
+    "repo": "https://github.com/jh3y/jhey.dev",
+    "techStack": "Sanity, Astro, Tailwind CSS, Netlify"
+  },
+  {
+    "author": "David Heckhoff",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/236579586-63860bd8-5273-4005-818d-1b7e72b5d578.png",
+    "liveUrl": "https://david-hckh.com/",
+    "repo": "None",
+    "techStack": "HTML, CSS, JavaScript, ThreeJS, GSAP, PWA, Howler.js"
+  },
+  {
+    "author": "Ashish",
+    "screenshot": "https://user-images.githubusercontent.com/53873209/236580922-4da135d0-086d-4411-bfbf-60e573dbcb53.png",
+    "liveUrl": "https://asrvd.me/",
+    "repo": "https://github.com/asrvd/asrvd.me",
+    "techStack": "Next.js, tRPC, Tailwind CSS, TypeScript, NextAuth.js, Prisma"
+  },
+  {
+    "author": "Robb Owen",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/b108472d-0197-45fb-be95-7e19a9a77a90",
+    "liveUrl": "https://robbowen.digital/",
+    "repo": "None",
+    "techStack": "HTML, CSS, JavaScript, Netlify"
+  },
+  {
+    "author": "Josh Comeau",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/dacfef81-f090-4f54-885f-c8baec247351",
+    "liveUrl": "https://www.joshwcomeau.com/",
+    "repo": "None",
+    "techStack": "NextJS, Styled Components, MDX, MongoDB, Framer Motion, React Spring, Vercel"
+  },
+  {
+    "author": "Charles Bruyerre",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/d62f4726-71cf-4e7f-8b57-31f30309e89d",
+    "liveUrl": "https://itssharl.ee/",
+    "repo": "None",
+    "techStack": "NextJS, ThreeJS, PWA, Vercel"
+  },
+  {
+    "author": "Patrick David",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/e3d9c014-7064-46fa-ab0b-73dce47a5490",
+    "liveUrl": "https://bepatrickdavid.com/",
+    "repo": "None",
+    "techStack": "HTML, CSS, JavaScript, jQuery, Plesk, ThreeJS, GSAP, PWA"
+  },
+  {
+    "author": "Seán Halpin",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/87669b84-c2c0-4418-9dac-8f471b1e327f",
+    "liveUrl": "https://www.seanhalpin.xyz/",
+    "repo": "None",
+    "techStack": "Svelte, SvelteKit, Vite, PWA, Node.js"
+  },
+  {
+    "author": "Cyd Stumpel",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/2aac0726-8864-40ab-badc-d465e79e1060",
+    "liveUrl": "https://cydstumpel.nl/",
+    "repo": "None",
+    "techStack": "WordPress, PHP, ThreeJS, MySQL, GSAP, Lenis"
+  },
+  {
+    "author": "Tamal Sen",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/45c9a3bd-0168-418e-9119-5b5af0d4b01c",
+    "liveUrl": "https://tamalsen.dev/",
+    "repo": "None",
+    "techStack": "WordPress, Elementor, PHP, MySQL, Anime.js"
+  },
+  {
+    "author": "Aristide Benoist",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/f7a0669a-0ca9-45ba-b767-1eef42fa2eef",
+    "liveUrl": "https://aristidebenoist.com/",
+    "repo": "None",
+    "techStack": "PHP, JavaScript, WebGL, AWS"
+  },
+  {
+    "author": "Abhishek Jha",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/b7b78e82-233e-4ff7-ad1a-f38c96d3bf25",
+    "liveUrl": "https://abhishekjha.me/",
+    "repo": "None",
+    "techStack": "HTML, CSS, JavaScript, GSAP, Varnish, Locomotive Scroll, Github Pages"
+  },
+  {
+    "author": "Robin Mastromarino",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/02b5bb02-d918-4770-bc69-eb904a5ea436",
+    "liveUrl": "http://robinmastromarino.com/",
+    "repo": "None",
+    "techStack": "HTML, CSS, JavaScript, WebGL, GSAP, Google Analytics"
+  },
+  {
+    "author": "Lanre Adelowo",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/53ea111b-7425-41b1-94bf-818dbfbbccfa",
+    "liveUrl": "https://lanre.wtf/",
+    "repo": "None",
+    "techStack": "NextJS, CSS Modules, GSAP, Vercel, Hugo"
+  },
+  {
+    "author": "Prince Muhammad",
+    "screenshot": "https://github.com/priincemuhammad/portfolio-ideas/assets/53873209/edcfcbca-7f71-4ec8-ae23-ee4ce0b1960e",
+    "liveUrl": "https://princemuhammad.pro",
+    "repo": "None",
+    "techStack": "JavaScript, React.js, Next.js, TailwindCSS"
+  },
+  {
+    "author": "Victor Adeniji",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/b7a9401f-de19-457a-8819-5a5b447ff7f0",
+    "liveUrl": "https://codevickk.com/",
+    "repo": "None",
+    "techStack": "Nuxt.js, Vue.js, GSAP, Netlify, Lenis"
+  },
+  {
+    "author": "Kaung Myat Kyaw",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/111948881/e6ba8f70-9b7c-41f6-889f-3af1255186ac",
+    "liveUrl": "https://barry121.vercel.app/",
+    "repo": "https://github.com/Rhaegar121/Portfolio",
+    "techStack": "ReactJS, ThreeJS, TailwindCSS"
+  },
+  {
+    "author": "Eliaz LR",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/e41e2220-1b2e-48c1-ae91-2ab341d5c643",
+    "liveUrl": "https://eliaz-lr.dev/",
+    "repo": "https://github.com/Eliaz-LR/portfolio-v3",
+    "techStack": "Astro, TailwindCSS, Vue, DaisyUI"
+  },
+  {
+    "author": "Danny Johnson",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/ae9e69b5-4ced-44d4-9cdc-0e5a53d139b1",
+    "liveUrl": "https://www.mrdannyjohnson.co.uk/",
+    "repo": "None",
+    "techStack": "Astro, Vue, Sanity, Tailwind CSS"
+  },
+  {
+    "author": "Wahid Ali",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/e91365c8-2150-4198-8222-6a2cd69bbae4",
+    "liveUrl": "https://www.wahidali.dev/",
+    "repo": "https://github.com/Aliwahid17/portfolio",
+    "techStack": "Svelte, Tailwind CSS, TypeScript, Vercel"
+  },
+  {
+    "author": "Deepanshu Mehra",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/99004662/7285c0e2-1929-467a-aba6-324e007a1289",
+    "liveUrl": "https://deeshu2002.github.io/folio",
+    "repo": "https://github.com/deeshu2002/folio",
+    "techStack": "HTML, CSS, TypeScript, Vite, PWA"
+  },
+  {
+    "author": "Brian Lovin",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/343a246e-625b-4bb4-b637-5d905ce8d5cc",
+    "liveUrl": "https://brianlovin.com/",
+    "repo": "https://github.com/brianlovin/briOS",
+    "techStack": "NextJS, TypeScript, Tailwind CSS, Prisma, Planetscale"
+  },
+  {
+    "author": "Pritish Samal",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/5d0aac86-0fbc-46ac-8020-655b2f60b544",
+    "liveUrl": "https://pritishsamal.com/",
+    "repo": "https://github.com/CIPHERTron/portfolio-v2",
+    "techStack": "Next.js, TypeScript, Emotion, Chakra UI"
+  },
+  {
+    "author": "Sandeep Kumar",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/5a58f6df-2240-42ca-b5d5-b96f0d0180fd",
+    "liveUrl": "https://eternalfrustation.github.io/",
+    "repo": "https://github.com/eternalfrustation/eternalfrustation.github.io",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Mike Liu",
+    "screenshot": "https://github.com/mikeliuu/portfolio-ideas/assets/62628408/58e8d844-6532-4d73-9627-336fc2a01bbb",
+    "liveUrl": "https://mikeliuu.com",
+    "repo": "https://github.com/mikeliuu/mikeliuu.com",
+    "techStack": "NextJS, TypeScript, Tailwind CSS, HTML, CSS, Vercel"
+  },
+  {
+    "author": "Bryan Smith",
+    "screenshot": "https://github.com/multikitty/portfolio-ideas/assets/124760226/01f1ef98-e12c-4a96-9858-4f8d51197bb1",
+    "liveUrl": "https://multikitty.onrender.com",
+    "repo": "https://github.com/multikitty/multikitty.github.io",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Goodness Urama",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/d492f655-73eb-4872-867e-b34e3661e558",
+    "liveUrl": "https://www.goodie.work/",
+    "repo": "https://github.com/GoodyBoy301/goodie.work",
+    "techStack": "Pug, SCSS, Javascript, ThreeJS, GSAP, Vercel"
+  },
+  {
+    "author": "Zai Santillan",
+    "screenshot": "https://github.com/plskz/portfolio-ideas/assets/57343545/4103d08e-5bf9-43a5-a9fa-ce71a23dd213",
+    "liveUrl": "https://plskz-me.vercel.app/",
+    "repo": "https://github.com/plskz/plskz.me",
+    "techStack": "NextJS, TypeScript, Tailwind CSS, DaisyUI"
+  },
+  {
+    "author": "Ashutosh Hathidara",
+    "screenshot": "https://iili.io/HsLAPxS.png",
+    "liveUrl": "https://ashutoshhathidara.com/#/",
+    "repo": "https://github.com/ashutosh1919/masterPortfolio",
+    "techStack": "HTML5, CSS3, React, NextJS"
+  },
+  {
+    "author": "Syed Moshin",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/de551710-fc61-48d2-bf70-e8188fa50ef7",
+    "liveUrl": "https://opensource-portfolio.netlify.app/",
+    "repo": "https://github.com/devsyedmohsin/portfolio-template",
+    "techStack": "HTML5, CSS3, JavaScript"
+  },
+  {
+    "author": "David Angulo",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/8a822da5-d22a-4515-9182-ba76d8a56d9a",
+    "liveUrl": "https://www.davidangulo.xyz/",
+    "repo": "https://github.com/dcangulo/davidangulo.xyz",
+    "techStack": "HTML, Jekyl, Ruby, Bootstrap"
+  },
+  {
+    "author": "George Christeas",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/61952924/282461b4-b8e6-4c12-8143-97a6cd0b7973",
+    "liveUrl": "https://chr-ge.com/",
+    "repo": "https://github.com/chr-ge/chr-ge.com",
+    "techStack": "Next.js, Typescript, ChakraUI, Vercel"
+  },
+  {
+    "author": "Julien Thême",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/cef888f0-0685-4a4b-9b2c-954c44d251d6",
+    "liveUrl": "https://julien-theme.dev/",
+    "repo": "https://github.com/ZIRTR0X/PersonalWebsite",
+    "techStack": "Angular, TailwindCSS, ThreeJs"
+  },
+  {
+    "author": "Shubh Porwal",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/767d8333-d3a1-4d77-bb7f-c280fad725e2",
+    "liveUrl": "https://www.shubhporwal.me/",
+    "repo": "https://github.com/shubh73/devfolio",
+    "techStack": "NextJS, ReactJS, Tailwind CSS, GSAP"
+  },
+  {
+    "author": "Ross Moody",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/7e3433b9-ea01-49dc-b425-80aeead6020e",
+    "liveUrl": "https://rossmoody.com/",
+    "repo": "https://github.com/rossmoody/rossmoody.com",
+    "techStack": "Next.js, Chakra UI, TypeScript, MDX, Netlify"
+  },
+  {
+    "author": "Rémy Beumier",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/edac77d4-f8a1-4eee-a5ee-7d4d1b2e77fa",
+    "liveUrl": "https://remybeumier.be/",
+    "repo": "https://github.com/beumsk/beumsk.github.io",
+    "techStack": "Next.js, Sass, MDX, AOS"
+  },
+  {
+    "author": "Anirban Das",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/064f34ec-f7d3-4ede-814f-7f3db6c6e5ea",
+    "liveUrl": "https://www.anirbandas.in/",
+    "repo": "https://github.com/anirban12d/portfolio-2023",
+    "techStack": "Qwik, React, Tailwind CSS"
+  },
+  {
+    "author": "Rafael Santana",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/2012a0e7-39b8-4b0e-8b60-238d0adbe70a",
+    "liveUrl": "https://www.rafaelsantana.dev/",
+    "repo": "https://github.com/rafalmeida73/portfolio",
+    "techStack": "Next.js, Material UI, TypeScript"
+  },
+  {
+    "author": "Apoorv Maurya",
+    "screenshot": "https://iili.io/HZQmPrg.png",
+    "liveUrl": "https://apoorv.onrender.com",
+    "repo": "https://github.com/apoorvmaurya/portfolio",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Sumonta Saha Mridul",
+    "screenshot": "https://github.com/Sumonta056/portfolio-ideas/assets/61287791/6d35e046-87a0-45d3-84bd-7bcef01457c4",
+    "liveUrl": "https://sumonta056.github.io/",
+    "repo": "https://github.com/Sumonta056/sumonta056.github.io",
+    "techStack": "HTML5, CSS3, JavaScript"
+  },
+  {
+    "author": "Daniel Coyula",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/62628408/9c699df8-ce14-424d-9487-89e669e04470",
+    "liveUrl": "https://portfolio.dctech.dev/",
+    "repo": "None",
+    "techStack": "Flutter"
+  },
+  {
+    "author": "Shaan Alam",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/48273777/3bad2960-691a-4e17-bdd4-cc23420ee616",
+    "liveUrl": "https://shaanalam.vercel.app",
+    "repo": "https://github.com/shaan-alam/shaanalam",
+    "techStack": "NextJS, Tailwind, TypeScript & Hygraph"
+  },
+  {
+    "author": "Gregory Koberger",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/00d7480e-215d-4bb4-b908-9640bb0d4066",
+    "liveUrl": "https://gkoberger.com/",
+    "repo": "None",
+    "techStack": "VueJS, GSAP, NodeJS, Express"
+  },
+  {
+    "author": "Monica Powell",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/496ec2ba-bf6a-4e70-8429-b8bef5b8620d",
+    "liveUrl": "https://aboutmonica.com/",
+    "repo": "None",
+    "techStack": "Gatsby, Emotion, Netlify"
+  },
+  {
+    "author": "Ismoilbek Ilxomov",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/b971f784-3ee4-4462-9084-079a396e64de",
+    "liveUrl": "https://ismail.uz/",
+    "repo": "None",
+    "techStack": "NextJS, TailwindCSS, Netlify"
+  },
+  {
+    "author": "Kehinde Omopariola",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/26b59251-71ba-483a-9d52-b7676785f502",
+    "liveUrl": "https://www.pariola.dev",
+    "repo": "https://github.com/Pariola-droid/pariola-v2.2.0",
+    "techStack": "NextJS, Typescript, SASS, Motion One"
+  },
+  {
+    "author": "Shivam Gupta",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/109647722/6e85696e-5729-48a9-a7db-bd849d6e2a8c",
+    "liveUrl": "https://the-shivam-gupta.github.io/",
+    "repo": "https://github.com/the-shivam-gupta/the-shivam-gupta.github.io",
+    "techStack": "HTML, CSS, JS"
+  },
+  {
+    "author": "Mateus Felipe Gonçalves",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/40613276/b357a709-a2ce-49bc-a056-e5f74c99fb1f",
+    "liveUrl": "https://mateusf.com",
+    "repo": "https://github.com/mateusfg7/mateusf.com",
+    "techStack": "Next.js, Typescript, Tailwindcss, Giscus, Contentlayer & MDX"
+  },
+  {
+    "author": "Anubhav Sigdel",
+    "screenshot": "https://github.com/asigdel29/portfolio-ideas/assets/64096825/c13fc47d-e691-463d-8936-632e0af9baf9",
+    "liveUrl": "https://anubhavsigdel.vercel.app/",
+    "repo": "https://github.com/asigdel29/portfolio",
+    "techStack": "HTML, CSS, JS"
+  },
+  {
+    "author": "Krish Depani",
+    "screenshot": "https://github.com/Krish-Depani/portfolio-ideas/assets/72994417/d7790172-3d17-4fdb-8e52-2ec5daed7c3c",
+    "liveUrl": "https://krish-depani.vercel.app/",
+    "repo": "https://github.com/Krish-Depani/Portfolio-Website",
+    "techStack": "HTML & CSS"
+  },
+  {
+    "author": "Bona Brian Siagian",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/14372275/4a43c677-feaf-42e1-a606-b4b5aef7e1c2",
+    "liveUrl": "https://bonabrian.com",
+    "repo": "https://github.com/bonabrian/bonabrian.com",
+    "techStack": "Typescript, NextJs, TailwindCSS, Prisma, Contentlayer"
+  },
+  {
+    "author": "SofiDev",
+    "screenshot": "https://github.com/SofiDevO/portfolio-ideas/assets/102200061/8bf597fe-dda0-441d-825e-fdb3c4b8bacd",
+    "liveUrl": "https://itssofi.dev/",
+    "repo": "https://github.com/SofiDevO/sofidev-portfolio-astro",
+    "techStack": "Astro, CSS, Javascript, React"
+  },
+  {
+    "author": "Sadee",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/d63c7678-8a69-414a-95a9-05d59d76d231",
+    "liveUrl": "https://codewithsadee.github.io/vcard-personal-portfolio/",
+    "repo": "https://github.com/codewithsadee/vcard-personal-portfolio",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Emmanuel Nsikan-david",
+    "screenshot": "https://iili.io/Jq54yTF.png",
+    "liveUrl": "https://nsikandavid.dev",
+    "repo": "None",
+    "techStack": "ReactJS, CSS"
+  },
+  {
+    "author": "Cruip",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/62628408/11ba04d1-5562-464c-aa80-3089902dc9c7",
+    "liveUrl": "https://preview.cruip.com/devspace/",
+    "repo": "None",
+    "techStack": "Alpine.JS, Tailwind CSS, Chartjs"
+  },
+  {
+    "author": "Dev Khandelwal",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/122960451/1c885444-a588-4ed1-87ab-19e4bb6c05ab",
+    "liveUrl": "https://slyro.vercel.app/",
+    "repo": "https://github.com/khandelwaldev/dev",
+    "techStack": "Next.JS, Tailwind CSS, MDX"
+  },
+  {
+    "author": "Skifli",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/c0e4d617-3285-4ae5-bc8e-ec73b007a00f",
+    "liveUrl": "https://skifli.github.io/",
+    "repo": "https://github.com/skifli/skifli.github.io",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Eva Decker",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/4117920/466f86cd-ae24-454f-924b-5af6d419b5f6",
+    "liveUrl": "https://evadecker.com",
+    "repo": "https://github.com/evadecker/evadecker.com",
+    "techStack": "Astro, React, TypeScript, Framer Motion"
+  },
+  {
+    "author": "Guglielmo Cerri",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/ec76028c-0487-4a40-9919-5bded7b391f7",
+    "liveUrl": "https://guglielmocerri.github.io",
+    "repo": "https://github.com/GuglielmoCerri/GuglielmoCerri.github.io",
+    "techStack": "HTML, CSS, JavaScript, reCAPTCHA"
+  },
+  {
+    "author": "Wisnu Wicaksono",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/462f6725-9c96-4d0f-be1c-ce27d9c782ad",
+    "liveUrl": "https://wiscaksono.com/",
+    "repo": "https://github.com/wiscaksono/wiscaksono-site",
+    "techStack": "Nextjs, Tailwind CSS, MDX, Next Auth"
+  },
+  {
+    "author": "Emmanuel Alabi",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/49512755/c9a8959f-487c-4ad0-8003-27ed52aa00ed",
+    "liveUrl": "https://emmanuelalabi.vercel.app/",
+    "repo": "None",
+    "techStack": "HTML, TailwindCSS"
+  },
+  {
+    "author": "Zaher Al Majed",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/1b1b4e1f-ad4f-4815-9449-8bd0d71570d2",
+    "liveUrl": "https://zaher.design/",
+    "repo": "None",
+    "techStack": "React, TypeScript, NextJS, TailwindCSS"
+  },
+  {
+    "author": "Shivani Yadav",
+    "screenshot": "https://github.com/ShivaniYadav07/portfolio-ideas/assets/134120753/b816ca70-c4b8-4e32-8c82-1b7cf2f03295",
+    "liveUrl": "https://shivaniyadav.online",
+    "repo": "https://github.com/ShivaniYadav07/Portfolio",
+    "techStack": "React, TypeScript, ParticleJS, Hostinger, SCSS"
+  },
+  {
+    "author": "Matthias Kretschmann",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/69ad4ade-73e3-4dd5-bacd-ad4c326a1d08",
+    "liveUrl": "https://matthiaskretschmann.com/",
+    "repo": "https://github.com/kremalicious/portfolio",
+    "techStack": "NextJS, TypeScript, CSS Modules, Vercel"
+  },
+  {
+    "author": "Le Vinh Khang",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/563a8446-1886-41d1-8954-999023d3d7b7",
+    "liveUrl": "https://levinhkhang.org/",
+    "repo": "https://github.com/levinhkhangzz/personal-website",
+    "techStack": "NextJS, TailwindCSS, React"
+  },
+  {
+    "author": "Ali Imam",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/e83f0004-b7c9-4a50-9c79-e2299e5fa864",
+    "liveUrl": "https://www.aliimam.in/",
+    "repo": "https://github.com/aliimam-in/aliimam",
+    "techStack": "NextJS, TailwindCSS, React, Lenis"
+  },
+  {
+    "author": "Ahmed Amer",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/f4f03d80-b602-4598-bb52-659f49ea2fc1",
+    "liveUrl": "https://tammura.com/",
+    "repo": "None",
+    "techStack": "NextJS, TailwindCSS, Vercel, Cloudflare"
+  },
+  {
+    "author": "Alpay Celik",
+    "screenshot": "https://raw.githubusercontent.com/AlpayC/portfolio_site/main/fullpage.png",
+    "liveUrl": "https://alpaycelik.dev/",
+    "repo": "https://github.com/AlpayC/portfolio_site",
+    "techStack": "NextJS, TailwindCSS, Typescript, Framer Motion, Swiper, Vercel, NodeMailer"
+  },
+  {
+    "author": "Hanaia Youcef",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/96303710/09a844b7-ec18-4ce7-97b9-a9fa17a6f4d2",
+    "liveUrl": "https://poysa213.me/",
+    "repo": "https://github.com/poysa213/portfolio",
+    "techStack": "Typescript, NextJS, TailwindCSS, Framer Motion"
+  },
+  {
+    "author": "Jaber Said",
+    "screenshot": "https://github.com/Jaber-Saed/portfolio-ideas/assets/92320333/840a4a26-325f-44ca-b6b6-01c348f046b1",
+    "liveUrl": "https://jaber.dev",
+    "repo": "https://github.com/Jaber-Saed/3d-protfoluo",
+    "techStack": "React JS, Tailwind CSS, Three JS"
+  },
+  {
+    "author": "Xiaohan Zou",
+    "screenshot": "https://github.com/RahulKRaj7/portfolio-ideas/assets/113328473/689fec1a-dd19-42d5-986c-965a8893d9cd",
+    "liveUrl": "https://portfolio.zxh.me/",
+    "repo": "https://github.com/Renovamen/playground-macos",
+    "techStack": "React JS, Zustand, UnoCSS, Typescript, Vite"
+  },
+  {
+    "author": "Manh Hung Dao",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/81293286/c5993193-de95-4289-bba6-ba47e30a9c7f",
+    "liveUrl": "https://age-of-23.vercel.app/",
+    "repo": "https://github.com/mahhung12/AgeOf23",
+    "techStack": "Nextjs, MDX, Tailwind CSS, TypeScript, JavaScript"
+  },
+  {
+    "author": "CuB3y0nd",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/91041570/fce4f9d4-80d9-48b3-b439-bade2f671d95",
+    "liveUrl": "https://cubeyond.net",
+    "repo": "https://github.com/CuB3y0nd/cubeyond.net",
+    "techStack": "Nextjs, MDX, Tailwind CSS, TypeScript"
+  },
+  {
+    "author": "Baraa Alshaer",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/89737291/32e7df8d-9c05-4110-9716-abe98699fa56",
+    "liveUrl": "https://alshaer.vercel.app/",
+    "repo": "https://github.com/balshaer/alshaer",
+    "techStack": "React JS, Typescript, Shadcn ui, Tailwind CSS"
+  },
+  {
+    "author": "Sameera Sandakelum",
+    "screenshot": "https://github.com/sameerasw/portfolio-ideas/assets/68902530/795476a2-f048-49d9-9ce1-74e5abfa9269",
+    "liveUrl": "https://sameerasw.com/",
+    "repo": "https://github.com/sameerasw/sameerasw.com",
+    "techStack": "HTML, CSS, Javascript, Netlify"
+  },
+  {
+    "author": "Jam Moonbami",
+    "screenshot": "https://github.com/MoonbamiOfficial/portfolio-ideas/assets/141120384/bba11386-7807-486d-95e2-39eee7bb89fd",
+    "liveUrl": "https://moonbamiofficial.vercel.app",
+    "repo": "https://github.com/MoonbamiOfficial/dev-portfolio",
+    "techStack": "Next.js, Node.js, React, Tailwind CSS, MongoDB, Vercel"
+  },
+  {
+    "author": "Asharib Ali",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/102221198/c08ac4bc-f5d9-4115-89c9-e31f244428e2",
+    "liveUrl": "https://cv.asharib.xyz/",
+    "repo": "https://github.com/AsharibAli/cv",
+    "techStack": "Next.js, React, Typescript, Shadcn/ui, Tailwind CSS, Vercel"
+  },
+  {
+    "author": "MAHG",
+    "screenshot": "https://github.com/mahg0899/portfolio-ideas/assets/46274461/dfcd679a-924a-4a96-b513-a374790ff8ab",
+    "liveUrl": "https://mahg.me",
+    "repo": "https://github.com/mahg0899/mahgv2",
+    "techStack": "NextJS, React, Typescript, TailwindCSS, Vercel"
+  },
+  {
+    "author": "Sunidhi Singh",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/62628408/8834605e-e1b1-47a9-8fea-ad6886ded87e",
+    "liveUrl": "https://sunidhi-singh.netlify.app/",
+    "repo": "https://github.com/sunidhi014",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Dhairya Majmudar",
+    "screenshot": "https://github.com/DhairyaMajmudar/portfolio-ideas/assets/124715224/51942f9f-adc8-43e9-ae02-c0009ca3ea4f",
+    "liveUrl": "https://dhaiyra-majmudar.netlify.app",
+    "repo": "https://github.com/DhairyaMajmudar/Personal-Portfolio",
+    "techStack": "React, Tailwind, Material UI"
+  },
+  {
+    "author": "Jay Bhavsar",
+    "screenshot": "https://github.com/jbhv12/portfolio-ideas/assets/12010616/2fa35af8-eb56-4731-afb5-678c93c1b77d",
+    "liveUrl": "https://jay.is-savvy.dev",
+    "repo": "https://github.com/jbhv12/portfolio",
+    "techStack": "Vue, Gridsome, Tailwind CSS"
+  },
+  {
+    "author": "Siyana Zdravkova",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/52591976/7d91285a-0e1e-4f2c-8c59-c0c33ce61092",
+    "liveUrl": "https://bluebutterflies.github.io/professionalportfolio/",
+    "repo": "https://github.com/BlueButterflies/professionalportfolio",
+    "techStack": "Javascript, JSON, React JS, Bootstrap, Tachyons, animate.css, Tspracticles"
+  },
+  {
+    "author": "Anshul Gora",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/75837854/35c37ffc-3ad2-4a76-823e-b4d5158306db",
+    "liveUrl": "https://anshulwork.netlify.app/",
+    "repo": "None",
+    "techStack": "ReactJs, Bootstrap, Vanilla CSS, Javascript"
+  },
+  {
+    "author": "Dogan Merden",
+    "screenshot": "https://github.com/adambornrepo/portfolio-ideas/assets/121860189/17eb33c3-27a1-409a-8342-9ff9d38e25ca",
+    "liveUrl": "https://doganmerden.vercel.app/",
+    "repo": "None",
+    "techStack": "Next.js, TypeScript, Tailwind CSS, AuthJs, next-intl, Daisy UI, framer-motion"
+  },
+  {
+    "author": "Ibrahim Sadik Tamim",
+    "screenshot": "https://tam11a.dev/screenshot-compressed.png",
+    "liveUrl": "https://tam11a.dev",
+    "repo": "https://github.com/tam11a/tam11a.dev",
+    "techStack": "NextJS, TypeScript, TailwindCSS, Framer, GSAP"
+  },
+  {
+    "author": "Dipesh Murmu",
+    "screenshot": "https://github.com/user-attachments/assets/33675b3c-19bb-44d4-9218-7180d66b1184",
+    "liveUrl": "https://dipeshmurmu.com.np/",
+    "repo": "None",
+    "techStack": "Tailwind, Alpine, Laravel, Livewire"
+  },
+  {
+    "author": "Akshay kumar",
+    "screenshot": "https://github.com/akshaytalanki19/portfolio-ideas/assets/110332292/4598f249-9847-4f7e-87ca-05f8f864dce1",
+    "liveUrl": "https://akshaytalanki.netlify.app/",
+    "repo": "https://github.com/akshaytalanki19/portfolio",
+    "techStack": "Html, CSS, JavaScript"
+  },
+  {
+    "author": "Pieter-Jan Scheir",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/56866152/a2389222-c8f0-4c0f-ae10-472cd7b6f5a0",
+    "liveUrl": "https://www.pieterjanscheir.com/",
+    "repo": "None",
+    "techStack": "React/Next.js, Typescript, Tailwindcss, Vercel, Lucide"
+  },
+  {
+    "author": "Huy Nguyen",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/1ebb8e46-9ae2-46fb-a151-190cc1bfdf23",
+    "liveUrl": "https://www.huyng.xyz/",
+    "repo": "None",
+    "techStack": "React.js, TailwindCSS, GSAP, Lenis"
+  },
+  {
+    "author": "Anshul Soni",
+    "screenshot": "https://github.com/anshulsoni2010/adding-my-portfolio-ideas/assets/102960277/875d5d3d-d235-422a-ab52-abe2d5f73f2e",
+    "liveUrl": "https://www.anshulsoni.in/",
+    "repo": "https://github.com/anshulsoni2010/portfolio-website",
+    "techStack": "HTML, CSS, JavaScript, Other Libraries"
+  },
+  {
+    "author": "David Simoes",
+    "screenshot": "https://github.com/DaveSimoes/portfolio-ideas/assets/109705197/f4ba1b4c-bf4b-4104-addd-b5cecde3cb94",
+    "liveUrl": "https://davesimoesportfolio.netlify.app/",
+    "repo": "https://github.com/DaveSimoes/Developer.Portfolio",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Saahil Dutta",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/58448036/aad39399-a3cf-447c-94e9-6b547dbb2fcb",
+    "liveUrl": "https://saahild.com/",
+    "repo": "https://github.com/NeonGamerBot-QK/saahild.com",
+    "techStack": "Reactjs"
+  },
+  {
+    "author": "Moshood Sanusi",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/67eba3f4-2e1c-423f-a486-34975df32aaa",
+    "liveUrl": "https://www.olawale.dev/",
+    "repo": "None",
+    "techStack": "ReactJS, TailwindCSS, GSAP"
+  },
+  {
+    "author": "MD Affan Asghar",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/8f59ccd6-19c0-4405-89aa-0885b38a39f0",
+    "liveUrl": "https://affancoder.github.io/Portfolio_Website/",
+    "repo": "https://github.com/affancoder/Portfolio_Website",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "DEBAJYOTI GHOSH",
+    "screenshot": "https://github.com/DGRYZER/portfolio-ideas/assets/62628408/aff74380-321d-4a21-999f-361903e3d647",
+    "liveUrl": "https://convolexa-2503.web.app/",
+    "repo": "None",
+    "techStack": "React JS"
+  },
+  {
+    "author": "Muhammad Naeem Tahir",
+    "screenshot": "https://github.com/muhammadnaeemtahir/portfolio-ideas/assets/95528641/f38155ca-b531-45e4-b9f4-f89882d1efee",
+    "liveUrl": "https://muhammadnaeemtahir.github.io/",
+    "repo": "https://github.com/muhammadnaeemtahir/muhammadnaeemtahir.github.io",
+    "techStack": "HTML, CSS, JavaScript, Bootstrap"
+  },
+  {
+    "author": "Aravind Ashokan",
+    "screenshot": "https://github.com/code-lover636/portfolio-ideas/assets/77882744/3fc8e8fd-be7d-49c5-aa7e-05bd5b77947c",
+    "liveUrl": "https://aravindashokan.tech",
+    "repo": "https://github.com/code-lover636/aravindashokan",
+    "techStack": "ReactJS, CSS(SASS), Framer Motion, SwiperJS, EmailJS"
+  },
+  {
+    "author": "Moinak Majumdar",
+    "screenshot": "https://github.com/Moinak-Majumdar/portfolio-ideas/assets/99950805/4949bcb5-6712-45a2-9e10-6f458ffb1fb6",
+    "liveUrl": "https://moinak05.vercel.app/",
+    "repo": "https://github.com/Moinak-Majumdar/portfolio",
+    "techStack": "Next.js, TypeScript, Framer Motion, TailwindCss"
+  },
+  {
+    "author": "Saleh Salehizadeh",
+    "screenshot": "https://github.com/SirSaleh/portfolio-ideas/assets/7755345/a74dc18f-5739-4673-bb47-2b0c408059d9",
+    "liveUrl": "https://sirsaleh.github.io/Portfolio/",
+    "repo": "https://github.com/SirSaleh/Portfolio",
+    "techStack": "Nextjs, Tailwind CSS, TypeScript"
+  },
+  {
+    "author": "Vijay Kumar Reddy Talakola",
+    "screenshot": "https://github.com/VijayKumarReddyTalakola/portfolio-ideas/assets/109469574/c75a54c9-4f3b-47a3-920b-3da9f82ccb1c",
+    "liveUrl": "https://talakolavijay.vercel.app/",
+    "repo": "https://github.com/VijayKumarReddyTalakola/MyPortFolio",
+    "techStack": "Reactjs, Tailwind CSS, AOS"
+  },
+  {
+    "author": "Nisarg Kavi",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/219370ad-c82b-43bc-a319-35d00dcf9b61",
+    "liveUrl": "https://www.nisargkavi.in/",
+    "repo": "None",
+    "techStack": "Nextjs, Tailwind CSS, Framer Motion, AnimeJS"
+  },
+  {
+    "author": "Malik Naik",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/53873209/1724a180-1647-42cd-977e-161d8ed94418",
+    "liveUrl": "https://www.maliknaik.me/",
+    "repo": "None",
+    "techStack": "HTML, CSS, Bootstrap, and JavaScript"
+  },
+  {
+    "author": "Kshitij Gehlot",
+    "screenshot": "https://github.com/KDGehlot2003/portfolio-ideas/assets/97123008/0dadbdb3-2d5b-42dc-8c6f-5af25bc94fcb",
+    "liveUrl": "https://kdgehlot2003.github.io/Portfolio/",
+    "repo": "https://github.com/KDGehlot2003/Portfolio",
+    "techStack": "HTML, CSS, Bootstrap, and JavaScript"
+  },
+  {
+    "author": "Johnson Takashi",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/136550624/7a307c24-fa55-44b5-bcc2-c8997bb0f210",
+    "liveUrl": "https://johnson-takashi-blockchain.web.app/",
+    "repo": "https://github.com/John-T45/John-T45.github.io",
+    "techStack": "HTML, CSS, Bootstrap, and JavaScript"
+  },
+  {
+    "author": "Shivaraj Kolekar",
+    "screenshot": "https://github.com/Shivaraj-Kolekar/portfolio-ideas/assets/87165724/c838dc19-b23e-413b-83ae-e43211e87a5f",
+    "liveUrl": "https://shivaraj-portfolio.vercel.app/",
+    "repo": "https://github.com/Shivaraj-Kolekar/portfolio",
+    "techStack": "HTML, TailwindCSS, Javascript"
+  },
+  {
+    "author": "Shubham Gaur",
+    "screenshot": "https://i.ibb.co/5hmF1ch/Screenshot-2024-06-27-124604.png",
+    "liveUrl": "https://shubhamessier.github.io/portfolio",
+    "repo": "https://github.com/shubhamessier/portfolio",
+    "techStack": "HTML, CSS and JavaScript"
+  },
+  {
+    "author": "Atijosan Iyanuoluwa",
+    "screenshot": "https://github.com/Evavic44/portfolio-ideas/assets/108562866/2421d6e6-0053-4714-8009-ffa90223353a",
+    "liveUrl": "https://iyanu-codes-v1.vercel.app/",
+    "repo": "https://github.com/Iyanu1396",
+    "techStack": "REACTJS, TALWINDCSS and Other Libraries"
+  },
+  {
+    "author": "Mahmoud Ibrahim",
+    "screenshot": "https://github.com/mahmoudgx/portfolio-ideas/assets/21027024/bac949d7-b209-424c-ace6-a57d067509c1",
+    "liveUrl": "https://mahmoudibrahim.me",
+    "repo": "None",
+    "techStack": "React, Strapi, Bootstrap, TypeScript, Netlify"
+  },
+  {
+    "author": "Archit Agrawal",
+    "screenshot": "https://github.com/user-attachments/assets/5915dab8-54cb-43b8-b847-b96bff570409",
+    "liveUrl": "https://archit-agrawal-portfolio.vercel.app/",
+    "repo": "https://github.com/ArchitAgrawal25/Portfolio",
+    "techStack": "HTML, CSS and JavaScript"
+  },
+  {
+    "author": "Vaishnavi Shelke",
+    "screenshot": "https://github.com/user-attachments/assets/e8213586-99b9-435a-ac9f-7335fc3dcae3",
+    "liveUrl": "https://vsp-portfolio.netlify.app",
+    "repo": "https://github.com/vaishnavishelke2021/Portfolio-Website",
+    "techStack": "HTML, CSS, Bootstrap, Netlify"
+  },
+  {
+    "author": "Timothy Klint",
+    "screenshot": "https://github.com/user-attachments/assets/1897df67-24c7-418c-b96b-57d5b94b7e3b",
+    "liveUrl": "https://tjklint.github.io",
+    "repo": "https://github.com/tjklint/tjklint.github.io",
+    "techStack": "React, TypeScript, SASS"
+  },
+  {
+    "author": "Pravin Mane",
+    "screenshot": "https://github.com/user-attachments/assets/310d061d-ba72-45dd-b18f-32ca7536dab7",
+    "liveUrl": "https://www.pravinmane.com/",
+    "repo": "https://github.com/pravinmane1/Portfolio",
+    "techStack": "Angular, HTML, SCSS, TypeScript, gh-pages"
+  },
+  {
+    "author": "yuxxeun",
+    "screenshot": "https://github.com/user-attachments/assets/0008dca1-ade4-4baa-bb07-541efe93a824",
+    "liveUrl": "https://yuxxeun.xyz",
+    "repo": "https://github.com/yuxxeun",
+    "techStack": "Next.js, Tailwind, Supabase, Vercel"
+  },
+  {
+    "author": "Shivam Javiya",
+    "screenshot": "https://github.com/user-attachments/assets/209954b3-0a7a-422a-b3ff-71178126d8cb",
+    "liveUrl": "https://shivamjaviya.netlify.app/",
+    "repo": "https://github.com/ShivamJaviya/Shivam_Portfolio",
+    "techStack": "HTML, CSS, JS"
+  },
+  {
+    "author": "Krishnakumar Valliappan",
+    "screenshot": "https://github.com/user-attachments/assets/47417aec-3674-4e02-a459-2635bfee76e4",
+    "liveUrl": "https://www.krishnakumar.dev/",
+    "repo": "https://github.com/krishnavalliappan/portfolio-website",
+    "techStack": "Next.js, Framer, TypeScript, TailwindCSS, shadcn/ui"
+  },
+  {
+    "author": "Gokul Raja",
+    "screenshot": "https://github.com/user-attachments/assets/59df372f-c338-4410-8b23-af2b21ffd705",
+    "liveUrl": "https://gokul-raja84.github.io/",
+    "repo": "https://github.com/Gokul-Raja84/gokul-raja84.github.io",
+    "techStack": "React, styled-components, GraphQL, UnDraw, Github Pages"
+  },
+  {
+    "author": "Abdelrahman Ahmed",
+    "screenshot": "https://github.com/user-attachments/assets/8d323b25-452e-4541-8120-34f9e8868211",
+    "liveUrl": "https://abdalrahman.tech",
+    "repo": "https://github.com/AB-DALRAHM-AN",
+    "techStack": "Next.js, TypeScript, TailwindCss, Shadcn/ui, Notion, Vercel, Resend, ReactEmail"
+  },
+  {
+    "author": "Jiseeeh",
+    "screenshot": "https://github.com/user-attachments/assets/e15090ec-a4a2-49b4-9f02-07a127e7bd7a",
+    "liveUrl": "https://jiseeeh.codes",
+    "repo": "https://github.com/Jiseeeh/portfolio-revamp",
+    "techStack": "Next.js, TailwindCSS, GSAP, Vercel, PostHog"
+  },
+  {
+    "author": "Ghulam Ahmed",
+    "screenshot": "https://github.com/user-attachments/assets/7bb42754-c642-4031-98a2-f3cf12351947",
+    "liveUrl": "https://gahmed.com",
+    "repo": "https://github.com/theghulam",
+    "techStack": "Astro, Solid.js, TypeScript, TailwindCSS"
+  },
+  {
+    "author": "Carson Spriggs",
+    "screenshot": "https://github.com/user-attachments/assets/ebc39e5e-4cf5-4852-8649-81a41a772130",
+    "liveUrl": "https://carsonsgit.github.io/",
+    "repo": "https://github.com/carsonSgit/carsonsgit.github.io",
+    "techStack": "React, TypeScript, SCSS"
+  },
+  {
+    "author": "Nicholas Gannon",
+    "screenshot": "https://github.com/user-attachments/assets/a9fe6bee-fe62-4275-8078-cc0dcbff4957",
+    "liveUrl": "https://nicholasgannon.io/",
+    "repo": "https://github.com/NicholasGannon/Portfolio",
+    "techStack": "HTML, TailwindCSS, JavaScript"
+  },
+  {
+    "author": "Chung Nguyen Thanh",
+    "screenshot": "https://github.com/user-attachments/assets/1d84ec41-2003-4dbf-a147-0bf6e557464c",
+    "liveUrl": "https://chunhthanhde.github.io",
+    "repo": "https://github.com/chunhthanhde",
+    "techStack": "Flutter, Dart, Github Pages"
+  },
+  {
+    "author": "Babatunde Afreka",
+    "screenshot": "https://github.com/user-attachments/assets/40998efa-1242-4a34-bbd0-0c8f52bae569",
+    "liveUrl": "https://bafrekauiux.framer.website/",
+    "repo": "None",
+    "techStack": "Framer, React"
+  },
+  {
+    "author": "LNLenost",
+    "screenshot": "https://github.com/user-attachments/assets/04257cca-db69-4917-97c0-6e8d44d8599c",
+    "liveUrl": "https://lnlenost.netlify.app/",
+    "repo": "https://github.com/LNLenost/lnlenost.github.io",
+    "techStack": "HTML, SASS, JavaScript"
+  },
+  {
+    "author": "Shivam Panchal",
+    "screenshot": "https://github.com/user-attachments/assets/a2eee35e-c4d9-40e0-b426-97173a921888",
+    "liveUrl": "https://shivampanchal.vercel.app/",
+    "repo": "None",
+    "techStack": "ReactJS, CSS"
+  },
+  {
+    "author": "Mariya Baig",
+    "screenshot": "https://github.com/user-attachments/assets/a84c4d58-5d4b-4750-aecc-1111c13c4f8d",
+    "liveUrl": "https://mariyabaig.vercel.app/",
+    "repo": "None",
+    "techStack": "NextJS, TailwindCSS"
+  },
+  {
+    "author": "Ketuman",
+    "screenshot": "https://github.com/user-attachments/assets/2eeb3d2a-47b4-4646-ae43-3205558c2077",
+    "liveUrl": "https://k2maan.vercel.app/",
+    "repo": "None",
+    "techStack": "NextJS, TailwindCSS"
+  },
+  {
+    "author": "Adeola Badero",
+    "screenshot": "https://github.com/user-attachments/assets/e9f4789e-0544-4294-873b-1b46d980acbe",
+    "liveUrl": "https://adeolabadero.vercel.app",
+    "repo": "https://github.com/adex-hub/ade-folio",
+    "techStack": "Nextjs, Tailwind CSS, TypeScript, Framer Motion, Vercel"
+  },
+  {
+    "author": "Tanuj Chakraborty",
+    "screenshot": "https://github.com/user-attachments/assets/45d52df4-fa11-40e5-a99a-366af986a7b5",
+    "liveUrl": "https://iamtj.dev",
+    "repo": "https://github.com/i-am-tj/iamtj.dev",
+    "techStack": "React, Next.js, TypeScript, Tailwind CSS"
+  },
+  {
+    "author": "Akshay",
+    "screenshot": "https://github.com/user-attachments/assets/dae45cc1-2a79-44de-9166-df645d9314ec",
+    "liveUrl": "https://devakshay.vercel.app",
+    "repo": "https://github.com/Akshayp2002",
+    "techStack": "Angular,TypeScript,HTML, Tailwind CSS, Vercel, Flowbite"
+  },
+  {
+    "author": "Hari Thatikonda",
+    "screenshot": "https://github.com/user-attachments/assets/ab2ffdbe-bf3b-459f-97f5-621754bc8699",
+    "liveUrl": "https://thughari.github.io",
+    "repo": "https://github.com/thughari/thughari.github.io",
+    "techStack": "HTML, CSS, JS, (app script)"
+  },
+  {
+    "author": "Sawad",
+    "screenshot": "https://github.com/user-attachments/assets/d369bb33-81e1-469d-b8ea-5e815f44683a",
+    "liveUrl": "https://sawad.framer.website/",
+    "repo": "None",
+    "techStack": "Framer"
+  },
+  {
+    "author": "Carlos Dubón",
+    "screenshot": "https://github.com/user-attachments/assets/174443cc-d0fe-4d0c-85d8-7e1a11e1d861",
+    "liveUrl": "https://carlosdubon.dev",
+    "repo": "None",
+    "techStack": "Next.js 14, TailwindCSS, TypeScript, Framer Motion, Velite"
+  },
+  {
+    "author": "Umesh Nagare",
+    "screenshot": "https://github.com/user-attachments/assets/965c1482-ba68-42f1-8a35-d9432245f9fd",
+    "liveUrl": "https://umeshnagare.vercel.app",
+    "repo": "https://github.com/Algoture/PortFolio",
+    "techStack": "React, Vercel, CSS, Locomotive Scroll"
+  },
+  {
+    "author": "Muhammad Essa",
+    "screenshot": "https://github.com/user-attachments/assets/d89bdcc9-af16-4238-8cfa-4404182aae0c",
+    "liveUrl": "https://muhammadessa.vercel.app/",
+    "repo": "https://github.com/imuhammadessa",
+    "techStack": "React.js, Next.js, Tailwind, MUI and Vercel."
+  },
+  {
+    "author": "Farouk Mustapha",
+    "screenshot": "https://github.com/user-attachments/assets/b838cec5-83ea-438d-8cf7-78ffd2e50794",
+    "liveUrl": "https://devfarouk.vercel.app/",
+    "repo": "https://github.com/Farouk-ayo/devfarouk",
+    "techStack": "NextJs, Typescript, TailwindCSS, AOS"
+  },
+  {
+    "author": "Sachin Desai",
+    "screenshot": "https://github.com/user-attachments/assets/259f8197-9aa6-4e18-a2ed-0f81de07106f",
+    "liveUrl": "https://sachindesai.in",
+    "repo": "https://github.com/sachind3/finalportfolio",
+    "techStack": "Next Js 14, Tailwind CSS Vercel, GSAP, CSS, Locomotive Scroll"
+  },
+  {
+    "author": "Rauliqbal",
+    "screenshot": "https://github.com/user-attachments/assets/dbe29f36-a04f-4305-92e6-2b36b84fdc4a",
+    "liveUrl": "https://rauliqbal.vercel.app/",
+    "repo": "None",
+    "techStack": "Next JS, TypeScript, Tailwind CSS, Framer Motion, Supabase"
+  },
+  {
+    "author": "TSolutionsX",
+    "screenshot": "https://github.com/user-attachments/assets/9e9746e9-c6d5-4e87-b1ef-66649606af08",
+    "liveUrl": "https://techsolutionsx.vercel.app/",
+    "repo": "None",
+    "techStack": "NextJS, TailwindCSS"
+  },
+  {
+    "author": "Chun-Ho (Hugo) Lin",
+    "screenshot": "https://github.com/user-attachments/assets/6cbdefb3-a96f-47f3-80f1-d4ec55071cf5",
+    "liveUrl": "https://1chooo.com/",
+    "repo": "https://github.com/1chooo/1chooo.com",
+    "techStack": "ReactJS, Next.js, Nextra (V3), TypeScript"
+  },
+  {
+    "author": "Priyanshu Tiwari",
+    "screenshot": "https://github.com/user-attachments/assets/b5b35fc7-89cd-4439-9fb1-802622e3ac2f",
+    "liveUrl": "https://priyanshu-tiwari.vercel.app/",
+    "repo": "https://github.com/priyanshtiwari001/portfolio",
+    "techStack": "NextJS, TailwindCSS, TypeScript, ThreeJS"
+  },
+  {
+    "author": "Durgesh",
+    "screenshot": "https://github.com/user-attachments/assets/efb56504-c4bf-460b-a92d-d5caabe67b59",
+    "liveUrl": "https://yodkwtf.com/",
+    "repo": "https://github.com/yodkwtf/yodkwtf.com",
+    "techStack": "ReactJS, CSS, Context API, Airtable CMS"
+  },
+  {
+    "author": "Deepak Modi",
+    "screenshot": "https://raw.githubusercontent.com/decodewithdeepak/Portfolio/refs/heads/main/public/assets/portfolio.png",
+    "liveUrl": "https://deepakmodi.vercel.app/",
+    "repo": "https://github.com/decodewithdeepak/Portfolio",
+    "techStack": "React, Tailwind CSS, TypeScript, Vercel"
+  },
+  {
+    "author": "Madhurima Rawat",
+    "screenshot": "https://github.com/user-attachments/assets/f20ecf03-1cb0-43d9-a568-ae61a7b051e7",
+    "liveUrl": "https://madhurimarawat.github.io/Portfolio-Website/",
+    "repo": "https://github.com/madhurimarawat/Portfolio-Website",
+    "techStack": "HTML, CSS, JS, Bootstrap"
+  },
+  {
+    "author": "Kavan Bhavsar",
+    "screenshot": "https://github.com/user-attachments/assets/73f5c775-ccde-492c-80ba-fce460614288",
+    "liveUrl": "https://kavan-bhavsar.vercel.app",
+    "repo": "None",
+    "techStack": "Next.js, Tailwind, Framer Motion, Convex, Spline, TypeScript, Vercel"
+  },
+  {
+    "author": "Vignesh Patali",
+    "screenshot": "https://github.com/user-attachments/assets/628e1238-4682-4d3f-89b8-5fab71f38924",
+    "liveUrl": "https://vigh.me/",
+    "repo": "None",
+    "techStack": "Next.js, React, Tailwind CSS, TypeScript, Threejs, Vercel"
+  },
+  {
+    "author": "Mihir",
+    "screenshot": "https://github.com/user-attachments/assets/360b7613-349f-4b97-bfaa-f7a491e0024d",
+    "liveUrl": "https://mihir-portfolio-main-777.vercel.app/",
+    "repo": "https://github.com/MIHIR2006/mihir-portfolio",
+    "techStack": "React, Framer, GSAP, EmailJS"
+  },
+  {
+    "author": "Aditya Bansal",
+    "screenshot": "https://github.com/user-attachments/assets/71506a08-c688-4874-b356-dd669f94bafc",
+    "liveUrl": "https://www.adityabansal.tech/",
+    "repo": "None",
+    "techStack": "Three js, R3F, React Js, Framer Motion, GSAP"
+  },
+  {
+    "author": "Nafis Mahmud Ayon",
+    "screenshot": "https://github.com/user-attachments/assets/70a0398d-246b-46aa-86c4-41b02aed56f5",
+    "liveUrl": "https://nafisbd.com/",
+    "repo": "https://github.com/NafisMahmudAyon/Portfolio-NafisBd.com-v2",
+    "techStack": "React Js, Framer Motion, NextJS, TailwindCSS, TypeScript"
+  },
+  {
+    "author": "Ata Berkay Karakuş",
+    "screenshot": "https://github.com/user-attachments/assets/79981fa1-5b5b-4b5c-9a29-dfce53f2ea01",
+    "liveUrl": "https://berkaykrks.netlify.app/",
+    "repo": "https://github.com/berkaykrks/personal-website",
+    "techStack": "HTML, CSS, JS"
+  },
+  {
+    "author": "Salim Rutaganda",
+    "screenshot": "https://github.com/user-attachments/assets/37814bfc-a745-432d-8526-e1df45757a13",
+    "liveUrl": "https://www.rsalim.vercel.app/",
+    "repo": "https://github.com/rutaganda-salim/devfolio",
+    "techStack": "React, Next.js, Tailwindcss, TypeScript"
+  },
+  {
+    "author": "Culture DevOps",
+    "screenshot": "https://github.com/user-attachments/assets/80927193-1f1d-433b-a109-504c86067297",
+    "liveUrl": "https://culturedevops.com/en",
+    "repo": "https://github.com/CultureDevOps/blog",
+    "techStack": "Next.js, Tailwind CSS, i18n"
+  },
+  {
+    "author": "Hanif Yuli Abdillah P",
+    "screenshot": "https://github.com/user-attachments/assets/610c6585-7f32-415e-8abe-e5066404363b",
+    "liveUrl": "https://hanifabdlh.vercel.app/",
+    "repo": "None",
+    "techStack": "Python, HTML, CSS, JS"
+  },
+  {
+    "author": "Manish Tamang",
+    "screenshot": "https://github.com/user-attachments/assets/e0171048-0f49-4886-af41-4ca1a99670af",
+    "liveUrl": "https://manishtamang.com/",
+    "repo": "None",
+    "techStack": "Next.js, TailwindCSS, React, Sanity"
+  },
+  {
+    "author": "Aditya Punmiya",
+    "screenshot": "https://github.com/user-attachments/assets/a2bc432a-7c5a-48d8-8f83-0796184f0dea",
+    "liveUrl": "https://adityapunmiya.com/",
+    "repo": "https://github.com/Aditya-0011/portfolio-website",
+    "techStack": "Next.js, Tailwind CSS, TypeScript, MongoDB, Nodemailer, Zod"
+  },
+  {
+    "author": "Divyansh Kathuria",
+    "screenshot": "https://github.com/user-attachments/assets/4bb260ed-881b-482d-abee-4b33f2baef30",
+    "liveUrl": "https://divyanshkathuria.netlify.app/",
+    "repo": "https://github.com/DIVYANSHKATHURIA",
+    "techStack": "HTML, CSS, React, and Three.js"
+  },
+  {
+    "author": "Aditya Induraj",
+    "screenshot": "https://github.com/user-attachments/assets/1285ac0f-13a2-4b79-959f-7eff2cf294e1",
+    "liveUrl": "https://adityainduraj.xyz",
+    "repo": "https://github.com/adityainduraj",
+    "techStack": "Nextjs, Tailwind CSS, TypeScript, Vercel"
+  },
+  {
+    "author": "Mathis Zeghouani",
+    "screenshot": "https://github.com/user-attachments/assets/228f65af-4d2f-4e27-a09f-0cffc9025d56",
+    "liveUrl": "https://mathisdev.pro",
+    "repo": "https://github.com/mathisdev7/my-portfolio",
+    "techStack": "Next.js, React, Tailwind CSS, TypeScript, Vercel"
+  }
+]

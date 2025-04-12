@@ -1,9 +1,9 @@
 {
   "name": "Ashutosh Singh",
-  "location": "Bharat",
-  "bio": "Building 🌐 DevDisplay • A creative Full Stack Web Developer & A reliable designer you can rely on for all your design needs • Till now build 50+ WEB APP • Trailblazer",
+  "location": "Mostly On DevDisplay",
+  "bio": "Building 🌐 Paradise for Developers - DevDisplay",
   "avatar": "https://github.com/codeaashu.png",
-  "portfolio": "https://ashutosh-kumar.vercel.app",
+  "portfolio": "https://www.ashutoshkumar.me/",
   "skills": [
     "JavaScript",
     "ReactJS",
@@ -51,6 +51,14 @@
     "Twitter": "https://twitter.com/warrior_aashuu",
     "LinkedIn": "https://www.linkedin.com/in/ashutoshkumaraashu/",
     "Instagram": "https://www.instagram.com/warrior_aashuu/",
-    "Email": "hellow.ashutosh@gmail.com"
-  }
+    "Email": "hellow.ashutosh@gmail.com",
+    "Discord": "https://discord.com/channels/@warrior_aashuu",
+    "LeetCode": "https://leetcode.com/u/codeaashu/",
+    "Codeforces": "https://codeforces.com/profile/codeaashu",
+    "DevTo": "https://dev.to/codeaashu",
+    "Hashnode": "https://hashnode.com/@codeaashu",
+    "Figma": "https://www.figma.com/@codeaashu",
+    "Reddit": "https://www.reddit.com/user/warrior_aashuu/"
+  },
+  "verified": true
 }

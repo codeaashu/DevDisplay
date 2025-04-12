@@ -1,0 +1,26 @@
+{
+  "name": "Aayush Kumar",
+  "location": "Jaipur, Rajasthan, India",
+  "bio": "I'm Aayush, a Full Stack Developer specialised in MERN stack. I am fascinated with the connection between web development and scalable web applications.",
+  "avatar": "https://github.com/beingaayush.png",
+  "portfolio": "https://aayush-portfolio-pink.vercel.app/",
+  "skills": [
+    "c++",
+    "HTML",
+    "CSS",
+    "JAVASCRIPT",
+    "REACTJS",
+    "NODEJS",
+    "EXPRESSJS",
+    "MONGODB",
+    "MYSQL",
+    "TAILWIND"
+  ],
+  "social": {
+    "GitHub": "https://github.com/beingaayush",
+    "Twitter": "https://twitter.com/beingaayushraj3",
+    "LinkedIn": "https://www.linkedin.com/in/beingaayush",
+    "Instagram": "https://www.instagram.com/beingaayush__",
+    "Email": "beingaayushraj@gmail.com"
+  }
+}

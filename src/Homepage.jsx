@@ -8,7 +8,7 @@ import NoResultFound from './components/NoResultFound/NoResultFound';
 import Pagination from './components/Pagination/Pagination';
 import './App.css';
 import filenames from './ProfilesList.json';
-import GTranslateLoader from './components/GTranslateLoader';
+// import GTranslateLoader from './components/GTranslateLoader';
 
 function App() {
   const profilesRef = useRef();
@@ -37,7 +37,9 @@ function App() {
     const combineData = async () => {
       setLoadingProfiles(true);
       try {
-        const promises = filenames.map((file) => fetchData(`/data/${file}`));
+        const promises = filenames.map((file, index) =>
+          fetchData(`/data/${file}`).then((data) => ({ ...data, id: index + 1, fileName: file.replace('.json', '') })),
+        );
         const combinedData = await Promise.all(promises);
         const flattenedData = combinedData.flat();
         setCombinedData(flattenedData);
@@ -61,17 +63,19 @@ function App() {
     return array;
   };
 
+  const normalizeString = (str) => {
+    if (!str) return ''; // Return an empty string if str is undefined or null
+    return str
+      .toLowerCase()
+      .replace(/\s*,\s*/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  };
+
   const handleSearch = ({ value, criteria }) => {
-    const normalizeString = (str) =>
-      str
-        .toLowerCase()
-        .replace(/\s*,\s*/g, ' ')
-        .replace(/\s+/g, ' ')
-        .trim();
+    const normalizedValue = normalizeString(value);
 
     if (criteria !== 'skill') {
-      let normalizedValue = normalizeString(value);
-
       const filteredResults = combinedData.filter((user) => {
         if (criteria === 'name') {
           return normalizeString(user.name).includes(normalizedValue);
@@ -83,19 +87,17 @@ function App() {
 
       setProfiles(filteredResults);
     } else if (criteria === 'skill') {
-      // if criteria is skill the it will filter the data
       if (value.length > 0) {
-        let setOfSearchSkills = new Set(value.map((skill) => skill.toLowerCase())); // Convert searchSkills to lowercase for comparison
-        const filteredUsers = shuffledProfiles.filter(
-          (user) => user.skills.some((skill) => setOfSearchSkills.has(skill.toLowerCase())), // Ensure skill is also lowercase
+        const setOfSearchSkills = new Set(value.map((skill) => skill.toLowerCase()));
+        const filteredUsers = shuffledProfiles.filter((user) =>
+          user.skills.some((skill) => setOfSearchSkills.has(skill.toLowerCase())),
         );
         setProfiles(filteredUsers);
       } else {
-        //if skills are empty it will reset the data
         setProfiles(shuffledProfiles);
       }
     } else {
-      setProfiles(false);
+      setProfiles([]);
     }
 
     setSearching(true);
@@ -159,7 +161,7 @@ function App() {
           />
         )}
       </div>
-      <GTranslateLoader />
+      {/* <GTranslateLoader /> */}
     </div>
   ) : (
     <ErrorPage />

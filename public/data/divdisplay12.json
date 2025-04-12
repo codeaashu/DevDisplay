@@ -1,0 +1,29 @@
+{
+  "name": "Kashif Saeed",
+  "location": "Bahawalpur Punjab, Pakistan",
+  "bio": "MERN stack Developer - React-native",
+  "avatar": "https://github.com/your-github-username.png",
+  "portfolio": "https://kashifsaeed.netlify.app",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "SASS",
+    "SCSS",
+    "LESS",
+    "Reactjs",
+    "mobx",
+    "mobx state tree",
+    "redux toolkit",
+    "GitHub",
+    "NextJS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/KashifSaeed1",
+    "Twitter": "https://twitter.com/your-twitter-username",
+    "LinkedIn": "https://www.linkedin.com/in/kashif-saeed-286711246",
+    "Instagram": "https://www.instagram.com/your-instagram-username",
+    "Email": "kashifsaeedman@gmail.com"
+  }
+}

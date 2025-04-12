@@ -1,5 +1,5 @@
 <div align="center">
-<table align="center">
+<!-- <table align="center">
      <thead align="center">
         <tr border: 2px;>
             <td><b>🌟 Stars</b></td>
@@ -20,12 +20,16 @@
            <td><img alt="Contributors" src="https://img.shields.io/github/contributors/codeaashu/DevDisplay?style=flat&color=black&logo=github"/></td>
         </tr>
     </tbody>
-</table><hr>
+</table><br> -->
 
-  <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /> DevDisplay - Global Tech Hub <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /></h1>
-<a href="https://www.devdisplay.org/"><img src="./public/DevDisplay ICON.png" width="100px" /></a>
-<br><br>
-  DevDisplay is a global open-source tech community and organization that brings together all your tech needs in one place.<br><br>
+  <!-- <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cyclone.png" alt="Cyclone" width="25" height="25" /> Paradise For Developers <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cyclone.png" alt="Cyclone" width="25" height="25" /></h1> -->
+
+<a href="https://www.devdisplay.org/"><img src="./public/assets/DevDisplayLOGO/NameTagline.png" width="300px" /></a><br>
+<a href="https://www.devdisplay.org/"><img src="./public/DDColorLOGO.png" width="500px" /></a><br>
+
+`The First Global Platform for Developers to Fulfill All Their Tech Needs.`<br>
+
+<h2 align="center"> Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer </h2> <br><br>
 
 <details>
     <summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Click here to explore your all-in-one destination for everything tech! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></summary>
@@ -91,7 +95,7 @@
     </td>
     <td align="center">
       <a href="https://www.gitbook.com/">
-        <img src="./public/assets/SupportedBy/GitBookLight_1.png" alt="GitBook Logo" width="140">
+        <img src="./public/assets/SupportedBy/GitBook.png" alt="GitBook Logo" width="140">
       </a>
     </td>
     <td align="center">
@@ -126,7 +130,7 @@
 <table align="center">
      <thead>
          <tr>
-            <td><img src="./public/assets/SocialLogo/GitHub.png" alt="Discord Logo" width="50"></td>
+            <td><img src="./public/assets/SocialLogo/GitHub.png" alt="GitHub Logo" width="50"></td>
             <td><img src="./public/assets/SocialLogo/Discord.png" alt="Discord Logo" width="50"></td>
             <td><img src="./public/assets/SocialLogo/WhatsApp.png" alt="WhatsApp Logo" width="50"></td>
             <td><img src="./public/assets/SocialLogo/Linkedin.webp" alt="Linkedin Logo" width="50"></td>
