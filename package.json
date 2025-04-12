@@ -28,7 +28,7 @@
     "sitemap": "^8.0.0",
     "styled-components": "^6.1.15",
     "web-vitals": "^3.5.2",
-    "yocto-queue": "^1.2.0"
+    "yocto-queue": "^1.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
