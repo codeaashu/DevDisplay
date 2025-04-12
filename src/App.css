@@ -64,9 +64,13 @@ body {
   align-items: center;
   justify-content: center;
   background-size: 40px 40px;
-  background-image: linear-gradient(to right, rgba(0, 62, 81, 0.251) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(0, 62, 81, 0.251) 1px, transparent 1px);
-  background-color: #091224; /* Adjust color as desired */
+background-image:
+  linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+  linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+  linear-gradient(to right, rgba(0, 62, 81, 0.251) 1px, transparent 1px),
+  linear-gradient(to bottom, rgba(0, 62, 81, 0.251) 1px, transparent 1px);
+background-color: #091224;
+
 }
 
 .background-wrapper1 {
@@ -75,9 +79,10 @@ body {
   flex-direction: column;
   align-items: center;
   background-size: 40px 40px;
-  background-image: linear-gradient(to right, rgba(0, 62, 81, 0.251) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(0, 62, 81, 0.251) 1px, transparent 1px);
-  background-color: #091224; /* Adjust color as desired */
+background-image: linear-gradient(to right, rgba(0, 62, 81, 0.251) 1px, transparent 1px),
+  linear-gradient(to bottom, rgba(0, 62, 81, 0.251) 1px, transparent 1px);
+background-color: #091224; /* Adjust color as desired */
+
 }
 
 .globe-container {
