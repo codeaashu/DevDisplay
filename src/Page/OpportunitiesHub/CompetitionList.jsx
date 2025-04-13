@@ -7,8 +7,8 @@ const shareContent = (url) => {
   if (navigator.share) {
     navigator
       .share({
-        title: 'Check out this hackathon!',
-        text: 'Explore and participate on this amazing hackathon opportunity.',
+        title: 'Check out this Competitions!',
+        text: 'I found this competition on DevDisplay that might interest you.',
         url: url,
       })
       .then(() => console.log('Successful share'))
