@@ -3,12 +3,12 @@ import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFlag, faMapMarkerAlt, faCalendarAlt, faShareAlt } from '@fortawesome/free-solid-svg-icons';
 
-const shareContent = (url) => {
+const shareContent = (url, title, organizer) => {
   if (navigator.share) {
     navigator
       .share({
-        title: 'Check out this event!',
-        text: 'Explore and participate on this amazing tech events!',
+        title: title,
+        text: `Check out this certification organized by ${organizer}!`,
         url: url,
       })
       .then(() => console.log('Successful share'))
