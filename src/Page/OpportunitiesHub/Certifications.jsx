@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import styled from 'styled-components';
 import Marquee from 'react-fast-marquee';
-import CertficationList from './CertficationList.jsx';
+import CertficationList from './CertificationList.jsx';
 
 const Navbar = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
