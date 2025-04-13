@@ -168,7 +168,7 @@ const Hero = () => {
           <div className="modgp relative inline-block w-full py-3">
             <div className="relative">
               <div className="bg-primary enabled:hover:bg-primary-dark enabled:active:bg-primary-dark enabled:focus:bg-primary-dark px-18 relative inline-flex w-full items-center justify-center rounded-lg py-5 text-6xl font-bold text-white transition-all focus:outline-none enabled:hover:shadow-md disabled:opacity-50">
-                <div className="flex w-full items-center justify-center">Events Display</div>
+                <div className="flex w-full items-center justify-center">Bootcamps Display</div>
               </div>
             </div>
             <div className="pointer-events-none absolute inset-0">
@@ -332,34 +332,34 @@ const Hero = () => {
 
 const Tags = () => {
   const tags = [
-    'Global Tech Conferences',
-    'Developer Summits',
-    'AI/ML Conferences',
-    'Blockchain Summits',
-    'Web3 Events',
-    'Cybersecurity Conferences',
-    'Startup Tech Fests',
-    'Open Source Meetups',
-    'Cloud Computing Events',
-    'IoT Expos',
-    'Tech Leadership Summits',
-    'Women in Tech Events',
-    'Gaming and VR Expos',
-    'Data Science Summits',
-    'Software Engineering Conferences',
-    'Mobile App Development Fests',
-    'Tech Career Fairs',
-    'Innovation and Entrepreneurship Events',
-    'Tech Product Launches',
-    'Robotics and Automation Expos',
-    'EdTech Conferences',
-    'Green Tech Summits',
-    'Space Tech Events',
-    'Digital Transformation Conferences',
-    'College Fest',
-    'Dev Fest',
-    'Tech Meetups',
-    'Conferences',
+    'Full-Stack Development Bootcamps',
+    'Data Science Bootcamps',
+    'AI/ML Bootcamps',
+    'Blockchain Bootcamps',
+    'Web3 Bootcamps',
+    'Cybersecurity Bootcamps',
+    'Startup Bootcamps',
+    'Open Source Contribution Bootcamps',
+    'Cloud Computing Bootcamps',
+    'IoT Bootcamps',
+    'Leadership in Tech Bootcamps',
+    'Women in Tech Bootcamps',
+    'Gaming and VR Bootcamps',
+    'Data Engineering Bootcamps',
+    'Software Engineering Bootcamps',
+    'Mobile App Development Bootcamps',
+    'Tech Career Bootcamps',
+    'Entrepreneurship Bootcamps',
+    'Product Management Bootcamps',
+    'Robotics Bootcamps',
+    'EdTech Bootcamps',
+    'Green Tech Bootcamps',
+    'Space Tech Bootcamps',
+    'Digital Transformation Bootcamps',
+    'College Bootcamps',
+    'Developer Bootcamps',
+    'Tech Networking Bootcamps',
+    'Coding Bootcamps',
   ];
 
   return (
