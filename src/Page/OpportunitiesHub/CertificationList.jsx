@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFlag, faMapMarkerAlt, faCalendarAlt, faShareAlt } from '@fortawesome/free-solid-svg-icons';
+import { faFlag, faSignal, faClock, faShareAlt } from '@fortawesome/free-solid-svg-icons';
 
 const shareContent = (url, title, organizer) => {
   if (navigator.share) {
@@ -22,15 +22,15 @@ const shareContent = (url, title, organizer) => {
 
 const certification = [
   {
-    organizer: 'Coursera',
-    title: 'Foundations of User Experience (UX) Design',
+    organizer: 'Freecodecamp',
+    title: 'JavaScript Algorithms and DS',
     duration: '4 Weeks',
-    level: 'Beginner',
-    skills: ['UX', 'Design Thinking', 'Prototyping'],
-    referralCode: 'UX-REF123',
-    certificateLink: 'https://coursera.org/verify/ABCD1234',
-    poster: '/assets/ux-cert.png',
-    shareLink: '#ux-certification',
+    level: 'Intermediate',
+    skills: ['JavaScript', 'Algorithms', 'Data Structures'],
+    referralCode: 'devdisplay',
+    ApplyLink: 'https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/',
+    poster: '/assets/Certifications/JavaScript Algorithms and DS.png',
+    shareLink: '#javascript-algorithms-ds',
   },
 ];
 
@@ -110,22 +110,31 @@ const StyledcertificationCard = styled.div`
   }
 `;
 
-const CertificationCardComponent = ({ organizer, title, location, date, domains, applyLink, poster, shareLink }) => {
+const CertificationCardComponent = ({
+  organizer,
+  title,
+  duration,
+  level,
+  skills,
+  referralCode,
+  ApplyLink,
+  poster,
+  shareLink,
+}) => {
   return (
     <StyledcertificationCard id={shareLink.substring(1)}>
-      {/* <div className="dot"></div> */}
       <div className="flex items-center justify-between p-2">
         <span className="text-sm font-semibold text-white">
           <FontAwesomeIcon icon={faFlag} className="mr-1 text-[#00a6fb]" /> {organizer}
         </span>
         <a
-          href={applyLink}
+          href={ApplyLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gray-1000 hover:bg-gray-1000 text-semibold relative flex items-center rounded-full border border-[#00a6fb] px-2 py-1 text-gray-300"
+          className="bg-gray-1000 hover:bg-gray-1000 text-semibold flex items-center rounded-full border border-[#00a6fb] px-2 py-1 text-gray-300"
         >
-          <div className="status-user" style={{ marginRight: '8px' }} />
-          Apply Now
+          <div className="status-user mr-2" />
+          Certified Now
         </a>
       </div>
 
@@ -133,7 +142,7 @@ const CertificationCardComponent = ({ organizer, title, location, date, domains,
         <div className="absolute bottom-3 right-3 z-10">
           <button
             onClick={() => shareContent(window.location.href.split('#')[0] + shareLink)}
-            className="bg-gray-1000 hover:bg-slate-1000 flex items-center justify-center gap-2 rounded-xl border border-[#00a6fb] bg-opacity-50 px-2 py-1 text-xs text-white backdrop-blur-md transition-colors"
+            className="bg-gray-1000 hover:bg-slate-1000 flex items-center justify-center gap-2 rounded-xl border border-[#00a6fb] bg-opacity-50 px-2 py-1 text-xs text-white backdrop-blur-md"
           >
             <FontAwesomeIcon icon={faShareAlt} />
             Share
@@ -145,7 +154,7 @@ const CertificationCardComponent = ({ organizer, title, location, date, domains,
           className="h-full w-full rounded-lg object-cover"
           onError={(e) => {
             e.target.onerror = null;
-            e.target.src = '/images/default.png';
+            e.target.src = '/assets/Coming Soon.png';
           }}
         />
       </div>
@@ -154,20 +163,19 @@ const CertificationCardComponent = ({ organizer, title, location, date, domains,
 
       <div className="flex justify-between p-2 text-sm text-[#00a6fb]">
         <span>
-          <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-1 text-white" /> {location}
+          <FontAwesomeIcon icon={faClock} className="mr-1 text-white" /> {duration}
         </span>
         <span>
-          <FontAwesomeIcon icon={faCalendarAlt} className="mr-1 text-white" /> {date}
+          <FontAwesomeIcon icon={faSignal} className="mr-1 text-white" /> {level}
         </span>
       </div>
 
+      <div className="mb-1 text-center text-sm text-gray-400">Referral Code: {referralCode}</div>
+
       <div className="mt-2 flex flex-wrap justify-center gap-2 p-2">
-        {domains.map((domain, idx) => (
-          <span
-            key={idx}
-            className="bg-gray-1000 rounded-full border border-[#00a6fb]  px-2 py-1 text-xs text-gray-300"
-          >
-            {domain}
+        {skills.map((skill, idx) => (
+          <span key={idx} className="bg-gray-1000 rounded-full border border-[#00a6fb] px-2 py-1 text-xs text-gray-300">
+            {skill}
           </span>
         ))}
       </div>
@@ -243,21 +251,17 @@ const FilterContainer = styled.div`
 `;
 
 const CertificationList = () => {
-  const [locationFilter, setLocationFilter] = useState('');
-  const [monthFilter, setMonthFilter] = useState('');
-  const [domainFilter, setDomainFilter] = useState('');
+  const [skillFilter, setSkillFilter] = useState('');
+  const [organizerFilter, setOrganizerFilter] = useState('');
 
   const filteredcertification = certification.filter((certification) => {
-    const matchesLocation = locationFilter
-      ? certification.location.toLowerCase().includes(locationFilter.toLowerCase())
+    const matchesSkill = skillFilter
+      ? certification.skills.some((skill) => skill.toLowerCase().includes(skillFilter.toLowerCase()))
       : true;
-    const matchesMonth = monthFilter
-      ? new Date(certification.date.split(' - ')[0]).getMonth() + 1 === parseInt(monthFilter)
+    const matchesOrganizer = organizerFilter
+      ? certification.organizer.toLowerCase().includes(organizerFilter.toLowerCase())
       : true;
-    const matchesDomain = domainFilter
-      ? certification.domains.some((domain) => domain.toLowerCase().includes(domainFilter.toLowerCase()))
-      : true;
-    return matchesLocation && matchesMonth && matchesDomain;
+    return matchesSkill && matchesOrganizer;
   });
 
   return (
@@ -265,30 +269,15 @@ const CertificationList = () => {
       <FilterContainer>
         <input
           type="text"
-          placeholder="Search by location"
-          value={locationFilter}
-          onChange={(e) => setLocationFilter(e.target.value)}
+          placeholder="Search by Domain or skills"
+          value={skillFilter}
+          onChange={(e) => setSkillFilter(e.target.value)}
         />
-        <select value={monthFilter} onChange={(e) => setMonthFilter(e.target.value)}>
-          <option value="">Select month</option>
-          <option value="1">January</option>
-          <option value="2">February</option>
-          <option value="3">March</option>
-          <option value="4">April</option>
-          <option value="5">May</option>
-          <option value="6">June</option>
-          <option value="7">July</option>
-          <option value="8">August</option>
-          <option value="9">September</option>
-          <option value="10">October</option>
-          <option value="11">November</option>
-          <option value="12">December</option>
-        </select>
         <input
           type="text"
-          placeholder="Search by domain"
-          value={domainFilter}
-          onChange={(e) => setDomainFilter(e.target.value)}
+          placeholder="Search by organizer"
+          value={organizerFilter}
+          onChange={(e) => setOrganizerFilter(e.target.value)}
         />
       </FilterContainer>
       <StyledcertificationListContainer>
