@@ -4,8 +4,8 @@ const shareContent = (url) => {
   if (navigator.share) {
     navigator
       .share({
-        title: 'Check out this job opportunity!',
-        text: 'I found this amazing job opportunity for a Senior Product Designer at TechCorp Inc.',
+        title: 'Check out this freelance opportunity!',
+        text: 'I found this interesting freelance project that might interest you.',
         url: url,
       })
       .then(() => console.log('Successful share'))
@@ -216,7 +216,7 @@ const FreelanceCard = () => {
 //   );
 // };
 
-const InternshipCard = () => {
+const FreelancingList = () => {
   return (
     <>
       <div className="grid grid-cols-1 gap-6 px-3 sm:gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -226,4 +226,4 @@ const InternshipCard = () => {
   );
 };
 
-export default InternshipCard;
+export default FreelancingList;
