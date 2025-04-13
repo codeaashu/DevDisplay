@@ -18,9 +18,9 @@ const shareContent = (url) => {
   }
 };
 
-// List of Global Tech Events
+// List of Global Tech Bootcamps
 
-const techevents = [
+const Bootcamps = [
   {
     organizer: 'Organizer Name',
     title: 'Event Name',
@@ -33,7 +33,7 @@ const techevents = [
   },
 ];
 
-const StyledtecheventsCard = styled.div`
+const StyledbootcampsCard = styled.div`
   position: relative;
   border: 1px solid rgb(182, 228, 250);
   background: linear-gradient(to right, rgba(15, 27, 53, 0.44), rgba(0, 43, 62, 0.43));
@@ -109,9 +109,9 @@ const StyledtecheventsCard = styled.div`
   }
 `;
 
-const TecheventsCardComponent = ({ organizer, title, location, date, domains, applyLink, poster, shareLink }) => {
+const BootcampsCardComponent = ({ organizer, title, location, date, domains, applyLink, poster, shareLink }) => {
   return (
-    <StyledtecheventsCard id={shareLink.substring(1)}>
+    <StyledbootcampsCard id={shareLink.substring(1)}>
       {/* <div className="dot"></div> */}
       <div className="flex items-center justify-between p-2">
         <span className="text-sm font-semibold text-white">
@@ -170,7 +170,7 @@ const TecheventsCardComponent = ({ organizer, title, location, date, domains, ap
           </span>
         ))}
       </div>
-    </StyledtecheventsCard>
+    </StyledbootcampsCard>
   );
 };
 
@@ -187,7 +187,7 @@ const TecheventsCardComponent = ({ organizer, title, location, date, domains, ap
                     `}
 </style>;
 
-const StyledtecheventsListContainer = styled.div`
+const StyledbootcampsListContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -241,20 +241,20 @@ const FilterContainer = styled.div`
   }
 `;
 
-const TecheventsList = () => {
+const BootcampsList = () => {
   const [locationFilter, setLocationFilter] = useState('');
   const [monthFilter, setMonthFilter] = useState('');
   const [domainFilter, setDomainFilter] = useState('');
 
-  const filteredtechevents = techevents.filter((techevents) => {
+  const filteredbootcamps = Bootcamps.filter((bootcamps) => {
     const matchesLocation = locationFilter
-      ? techevents.location.toLowerCase().includes(locationFilter.toLowerCase())
+      ? bootcamps.location.toLowerCase().includes(locationFilter.toLowerCase())
       : true;
     const matchesMonth = monthFilter
-      ? new Date(techevents.date.split(' - ')[0]).getMonth() + 1 === parseInt(monthFilter)
+      ? new Date(bootcamps.date.split(' - ')[0]).getMonth() + 1 === parseInt(monthFilter)
       : true;
     const matchesDomain = domainFilter
-      ? techevents.domains.some((domain) => domain.toLowerCase().includes(domainFilter.toLowerCase()))
+      ? bootcamps.domains.some((domain) => domain.toLowerCase().includes(domainFilter.toLowerCase()))
       : true;
     return matchesLocation && matchesMonth && matchesDomain;
   });
@@ -290,13 +290,13 @@ const TecheventsList = () => {
           onChange={(e) => setDomainFilter(e.target.value)}
         />
       </FilterContainer>
-      <StyledtecheventsListContainer>
-        {filteredtechevents.map((techevents, idx) => (
-          <TecheventsCardComponent key={idx} {...techevents} />
+      <StyledbootcampsListContainer>
+        {filteredbootcamps.map((bootcamps, idx) => (
+          <BootcampsCardComponent key={idx} {...bootcamps} />
         ))}
-      </StyledtecheventsListContainer>
+      </StyledbootcampsListContainer>
     </>
   );
 };
 
-export default TecheventsList;
+export default BootcampsList;
