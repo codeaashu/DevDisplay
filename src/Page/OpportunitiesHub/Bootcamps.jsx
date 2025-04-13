@@ -365,7 +365,7 @@ const Tags = () => {
   return (
     <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
       <h1 className="text-md text-primary mb-8 text-center font-bold text-[#00a6fb] lg:text-2xl">
-        Explore and participate in global tech Bootcamps, all in one place.
+        Explore and participate in global tech Bootcamps!
       </h1>
 
       {/* Right to Left Scrolling */}
