@@ -616,4 +616,4 @@ const Certfication = () => {
   );
 };
 
-export default TechEvents;
+export default certfication;
