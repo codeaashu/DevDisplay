@@ -365,9 +365,8 @@ const Tags = () => {
   return (
     <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
       <h1 className="text-md text-primary mb-8 text-center font-bold text-[#00a6fb] lg:text-2xl">
-        Explore Our Certification Hub
+        Explore global certifications that can boost your career!
       </h1>
-      {/* <h2 className="text-md text-primary mb-8 text-center text-[#00a6fb] font-bold lg:text-2xl">One Platform, Endless Tech Hackathon</h2> */}
 
       {/* Right to Left Scrolling */}
       <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} className="w-full">
