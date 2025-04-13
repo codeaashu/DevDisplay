@@ -156,6 +156,7 @@ const ResumeBuilder = () => {
 
 export default ResumeBuilder;
 
+// https://github.com/abhishekkumar62000/AI-ResumeXpert-Analyst/blob/main/App.py
 // # Import Important Library
 // import streamlit as st
 // import google.generativeai as genai
