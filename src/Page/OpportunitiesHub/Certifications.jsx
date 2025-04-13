@@ -616,4 +616,4 @@ const Certfication = () => {
   );
 };
 
-export default certfication;
+export default Certfication;
