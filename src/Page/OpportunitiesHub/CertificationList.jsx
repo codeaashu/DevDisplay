@@ -18,22 +18,23 @@ const shareContent = (url, title, organizer) => {
   }
 };
 
-// List of all the certfications that matters for developers!
+// List of all the certifications that matters for developers!
 
-const certfication = [
+const certification = [
   {
-    organizer: 'Organizer Name',
-    title: 'Event Name',
-    location: 'Event Location',
-    date: 'Event Date',
-    domains: ['Open Innovation', 'No Restrictions'],
-    applyLink: '#',
-    poster: '/assets/Coming Soon.png',
-    shareLink: '#comingsoon',
+    organizer: 'Coursera',
+    title: 'Foundations of User Experience (UX) Design',
+    duration: '4 Weeks',
+    level: 'Beginner',
+    skills: ['UX', 'Design Thinking', 'Prototyping'],
+    referralCode: 'UX-REF123',
+    certificateLink: 'https://coursera.org/verify/ABCD1234',
+    poster: '/assets/ux-cert.png',
+    shareLink: '#ux-certification',
   },
 ];
 
-const StyledcertficationCard = styled.div`
+const StyledcertificationCard = styled.div`
   position: relative;
   border: 1px solid rgb(182, 228, 250);
   background: linear-gradient(to right, rgba(15, 27, 53, 0.44), rgba(0, 43, 62, 0.43));
@@ -109,9 +110,9 @@ const StyledcertficationCard = styled.div`
   }
 `;
 
-const CertficationCardComponent = ({ organizer, title, location, date, domains, applyLink, poster, shareLink }) => {
+const CertificationCardComponent = ({ organizer, title, location, date, domains, applyLink, poster, shareLink }) => {
   return (
-    <StyledcertficationCard id={shareLink.substring(1)}>
+    <StyledcertificationCard id={shareLink.substring(1)}>
       {/* <div className="dot"></div> */}
       <div className="flex items-center justify-between p-2">
         <span className="text-sm font-semibold text-white">
@@ -170,7 +171,7 @@ const CertficationCardComponent = ({ organizer, title, location, date, domains, 
           </span>
         ))}
       </div>
-    </StyledcertficationCard>
+    </StyledcertificationCard>
   );
 };
 
@@ -187,7 +188,7 @@ const CertficationCardComponent = ({ organizer, title, location, date, domains, 
                     `}
 </style>;
 
-const StyledcertficationListContainer = styled.div`
+const StyledcertificationListContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -241,20 +242,20 @@ const FilterContainer = styled.div`
   }
 `;
 
-const CertficationList = () => {
+const CertificationList = () => {
   const [locationFilter, setLocationFilter] = useState('');
   const [monthFilter, setMonthFilter] = useState('');
   const [domainFilter, setDomainFilter] = useState('');
 
-  const filteredcertfication = certfication.filter((certfication) => {
+  const filteredcertification = certification.filter((certification) => {
     const matchesLocation = locationFilter
-      ? certfication.location.toLowerCase().includes(locationFilter.toLowerCase())
+      ? certification.location.toLowerCase().includes(locationFilter.toLowerCase())
       : true;
     const matchesMonth = monthFilter
-      ? new Date(certfication.date.split(' - ')[0]).getMonth() + 1 === parseInt(monthFilter)
+      ? new Date(certification.date.split(' - ')[0]).getMonth() + 1 === parseInt(monthFilter)
       : true;
     const matchesDomain = domainFilter
-      ? certfication.domains.some((domain) => domain.toLowerCase().includes(domainFilter.toLowerCase()))
+      ? certification.domains.some((domain) => domain.toLowerCase().includes(domainFilter.toLowerCase()))
       : true;
     return matchesLocation && matchesMonth && matchesDomain;
   });
@@ -290,13 +291,13 @@ const CertficationList = () => {
           onChange={(e) => setDomainFilter(e.target.value)}
         />
       </FilterContainer>
-      <StyledcertficationListContainer>
-        {filteredcertfication.map((certfication, idx) => (
-          <CertficationCardComponent key={idx} {...certfication} />
+      <StyledcertificationListContainer>
+        {filteredcertification.map((certification, idx) => (
+          <CertificationCardComponent key={idx} {...certification} />
         ))}
-      </StyledcertficationListContainer>
+      </StyledcertificationListContainer>
     </>
   );
 };
 
-export default CertficationList;
+export default CertificationList;
