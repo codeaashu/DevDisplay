@@ -64,7 +64,6 @@ const Competitions = [
     poster: '/assets/Coming Soon.png',
     shareLink: '#comingsoon',
   },
-
 ];
 
 const StyledCompetitionsCard = styled.div`
