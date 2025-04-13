@@ -31,6 +31,40 @@ const Competitions = [
     poster: '/assets/Coming Soon.png',
     shareLink: '#comingsoon',
   },
+
+  {
+    organizer: 'Organizer Name',
+    title: 'Event Name',
+    location: 'Event Location',
+    date: 'Event Date',
+    domains: ['Open Innovation', 'No Restrictions'],
+    applyLink: '#',
+    poster: '/assets/Coming Soon.png',
+    shareLink: '#comingsoon',
+  },
+
+  {
+    organizer: 'Organizer Name',
+    title: 'Event Name',
+    location: 'Event Location',
+    date: 'Event Date',
+    domains: ['Open Innovation', 'No Restrictions'],
+    applyLink: '#',
+    poster: '/assets/Coming Soon.png',
+    shareLink: '#comingsoon',
+  },
+
+  {
+    organizer: 'Organizer Name',
+    title: 'Event Name',
+    location: 'Event Location',
+    date: 'Event Date',
+    domains: ['Open Innovation', 'No Restrictions'],
+    applyLink: '#',
+    poster: '/assets/Coming Soon.png',
+    shareLink: '#comingsoon',
+  },
+
 ];
 
 const StyledCompetitionsCard = styled.div`
