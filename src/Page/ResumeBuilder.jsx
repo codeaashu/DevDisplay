@@ -1,160 +1,160 @@
-import React, { useState } from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
-import { saveAs } from 'file-saver';
-import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+// import React, { useState } from 'react';
+// import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+// import 'react-tabs/style/react-tabs.css';
+// import { saveAs } from 'file-saver';
+// import { toast, ToastContainer } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
 
-// Libraries for text extraction
-import mammoth from 'mammoth'; // For DOCX files
-import * as pdfjsLib from 'pdfjs-dist'; // For PDF files
+// // Libraries for text extraction
+// import mammoth from 'mammoth'; // For DOCX files
+// import * as pdfjsLib from 'pdfjs-dist'; // For PDF files
 
-const ResumeBuilder = () => {
-  const [resumeText, setResumeText] = useState('');
-  const [feedback, setFeedback] = useState('');
-  const [score, setScore] = useState('');
-  const [jobDescription, setJobDescription] = useState('');
-  const [tabIndex, setTabIndex] = useState(0);
+// const ResumeBuilder = () => {
+//   const [resumeText, setResumeText] = useState('');
+//   const [feedback, setFeedback] = useState('');
+//   const [score, setScore] = useState('');
+//   const [jobDescription, setJobDescription] = useState('');
+//   const [tabIndex, setTabIndex] = useState(0);
 
-  // File upload and text extraction
-  const handleFileUpload = (event) => {
-    const file = event.target.files[0];
-    if (!file) return;
+//   // File upload and text extraction
+//   const handleFileUpload = (event) => {
+//     const file = event.target.files[0];
+//     if (!file) return;
 
-    const fileType = file.name.split('.').pop();
-    if (fileType === 'pdf') {
-      extractTextFromPDF(file);
-    } else if (fileType === 'docx') {
-      extractTextFromDOCX(file);
-    } else {
-      toast.error('Unsupported file type. Please upload a PDF or DOCX file.');
-    }
-  };
+//     const fileType = file.name.split('.').pop();
+//     if (fileType === 'pdf') {
+//       extractTextFromPDF(file);
+//     } else if (fileType === 'docx') {
+//       extractTextFromDOCX(file);
+//     } else {
+//       toast.error('Unsupported file type. Please upload a PDF or DOCX file.');
+//     }
+//   };
 
-  const extractTextFromPDF = (file) => {
-    const fileReader = new FileReader();
-    fileReader.onload = async () => {
-      const typedArray = new Uint8Array(fileReader.result);
-      const pdf = await pdfjsLib.getDocument(typedArray).promise;
-      let text = '';
-      for (let i = 0; i < pdf.numPages; i++) {
-        const page = await pdf.getPage(i + 1);
-        const content = await page.getTextContent();
-        text += content.items.map((item) => item.str).join(' ');
-      }
-      setResumeText(text);
-      toast.success('PDF text extracted successfully!');
-    };
-    fileReader.readAsArrayBuffer(file);
-  };
+//   const extractTextFromPDF = (file) => {
+//     const fileReader = new FileReader();
+//     fileReader.onload = async () => {
+//       const typedArray = new Uint8Array(fileReader.result);
+//       const pdf = await pdfjsLib.getDocument(typedArray).promise;
+//       let text = '';
+//       for (let i = 0; i < pdf.numPages; i++) {
+//         const page = await pdf.getPage(i + 1);
+//         const content = await page.getTextContent();
+//         text += content.items.map((item) => item.str).join(' ');
+//       }
+//       setResumeText(text);
+//       toast.success('PDF text extracted successfully!');
+//     };
+//     fileReader.readAsArrayBuffer(file);
+//   };
 
-  const extractTextFromDOCX = (file) => {
-    const fileReader = new FileReader();
-    fileReader.onload = async () => {
-      const result = await mammoth.extractRawText({ arrayBuffer: fileReader.result });
-      setResumeText(result.value);
-      toast.success('DOCX text extracted successfully!');
-    };
-    fileReader.readAsArrayBuffer(file);
-  };
+//   const extractTextFromDOCX = (file) => {
+//     const fileReader = new FileReader();
+//     fileReader.onload = async () => {
+//       const result = await mammoth.extractRawText({ arrayBuffer: fileReader.result });
+//       setResumeText(result.value);
+//       toast.success('DOCX text extracted successfully!');
+//     };
+//     fileReader.readAsArrayBuffer(file);
+//   };
 
-  // Mock AI responses
-  const analyzeResume = () => {
-    if (!resumeText) {
-      toast.error('Please upload a resume first.');
-      return;
-    }
-    setFeedback(`Analysis of resume: ${resumeText.substring(0, 100)}...`);
-    toast.success('Resume analyzed successfully!');
-  };
+//   // Mock AI responses
+//   const analyzeResume = () => {
+//     if (!resumeText) {
+//       toast.error('Please upload a resume first.');
+//       return;
+//     }
+//     setFeedback(`Analysis of resume: ${resumeText.substring(0, 100)}...`);
+//     toast.success('Resume analyzed successfully!');
+//   };
 
-  const getResumeScore = () => {
-    if (!resumeText) {
-      toast.error('Please upload a resume first.');
-      return;
-    }
-    setScore('Your resume score is 85/100. Great job!');
-    toast.success('Resume scored successfully!');
-  };
+//   const getResumeScore = () => {
+//     if (!resumeText) {
+//       toast.error('Please upload a resume first.');
+//       return;
+//     }
+//     setScore('Your resume score is 85/100. Great job!');
+//     toast.success('Resume scored successfully!');
+//   };
 
-  const downloadImprovedResume = () => {
-    const blob = new Blob([resumeText], { type: 'text/plain;charset=utf-8' });
-    saveAs(blob, 'Improved_Resume.txt');
-    toast.success('Resume downloaded successfully!');
-  };
+//   const downloadImprovedResume = () => {
+//     const blob = new Blob([resumeText], { type: 'text/plain;charset=utf-8' });
+//     saveAs(blob, 'Improved_Resume.txt');
+//     toast.success('Resume downloaded successfully!');
+//   };
 
-  return (
-    <div>
-      <ToastContainer />
-      <h1>🚀 AI ResumeXpert Analyst</h1>
-      <p>Upload your resume to get detailed AI feedback, ATS analysis, and job match insights!</p>
+//   return (
+//     <div>
+//       <ToastContainer />
+//       <h1>🚀 AI ResumeXpert Analyst</h1>
+//       <p>Upload your resume to get detailed AI feedback, ATS analysis, and job match insights!</p>
 
-      <input type="file" onChange={handleFileUpload} />
-      {resumeText && (
-        <div>
-          <h3>Resume Text Extracted:</h3>
-          <textarea value={resumeText} readOnly rows="10" style={{ width: '100%' }}></textarea>
-        </div>
-      )}
+//       <input type="file" onChange={handleFileUpload} />
+//       {resumeText && (
+//         <div>
+//           <h3>Resume Text Extracted:</h3>
+//           <textarea value={resumeText} readOnly rows="10" style={{ width: '100%' }}></textarea>
+//         </div>
+//       )}
 
-      <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
-        <TabList>
-          <Tab>📂 Upload Resume</Tab>
-          <Tab>📊 Job Match Analysis</Tab>
-          <Tab>🚀 AI Project Suggestions</Tab>
-          <Tab>🤷‍♂ ATS Score Checker</Tab>
-          <Tab>📊 AI-Powered Resume Ranking</Tab>
-        </TabList>
+//       <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
+//         <TabList>
+//           <Tab>📂 Upload Resume</Tab>
+//           <Tab>📊 Job Match Analysis</Tab>
+//           <Tab>🚀 AI Project Suggestions</Tab>
+//           <Tab>🤷‍♂ ATS Score Checker</Tab>
+//           <Tab>📊 AI-Powered Resume Ranking</Tab>
+//         </TabList>
 
-        {/* Tab 1: Resume Upload and Analysis */}
-        <TabPanel>
-          <button onClick={analyzeResume}>Analyze Resume</button>
-          <button onClick={getResumeScore}>Get Resume Score</button>
-          <button onClick={downloadImprovedResume}>Download Improved Resume</button>
-          {feedback && (
-            <p>
-              <strong>Feedback:</strong> {feedback}
-            </p>
-          )}
-          {score && (
-            <p>
-              <strong>Score:</strong> {score}
-            </p>
-          )}
-        </TabPanel>
+//         {/* Tab 1: Resume Upload and Analysis */}
+//         <TabPanel>
+//           <button onClick={analyzeResume}>Analyze Resume</button>
+//           <button onClick={getResumeScore}>Get Resume Score</button>
+//           <button onClick={downloadImprovedResume}>Download Improved Resume</button>
+//           {feedback && (
+//             <p>
+//               <strong>Feedback:</strong> {feedback}
+//             </p>
+//           )}
+//           {score && (
+//             <p>
+//               <strong>Score:</strong> {score}
+//             </p>
+//           )}
+//         </TabPanel>
 
-        {/* Tab 2: Job Match Analysis */}
-        <TabPanel>
-          <textarea
-            placeholder="Paste job description here..."
-            rows="5"
-            style={{ width: '100%' }}
-            value={jobDescription}
-            onChange={(e) => setJobDescription(e.target.value)}
-          ></textarea>
-          <button onClick={() => toast.info('Job match analysis coming soon!')}>Analyze Job Fit</button>
-        </TabPanel>
+//         {/* Tab 2: Job Match Analysis */}
+//         <TabPanel>
+//           <textarea
+//             placeholder="Paste job description here..."
+//             rows="5"
+//             style={{ width: '100%' }}
+//             value={jobDescription}
+//             onChange={(e) => setJobDescription(e.target.value)}
+//           ></textarea>
+//           <button onClick={() => toast.info('Job match analysis coming soon!')}>Analyze Job Fit</button>
+//         </TabPanel>
 
-        {/* Tab 3: AI Project Suggestions */}
-        <TabPanel>
-          <button onClick={() => toast.info('Project suggestions coming soon!')}>Get Project Suggestions</button>
-        </TabPanel>
+//         {/* Tab 3: AI Project Suggestions */}
+//         <TabPanel>
+//           <button onClick={() => toast.info('Project suggestions coming soon!')}>Get Project Suggestions</button>
+//         </TabPanel>
 
-        {/* Tab 4: ATS Score Checker */}
-        <TabPanel>
-          <button onClick={() => toast.info('ATS Score Checker coming soon!')}>Check ATS Score</button>
-        </TabPanel>
+//         {/* Tab 4: ATS Score Checker */}
+//         <TabPanel>
+//           <button onClick={() => toast.info('ATS Score Checker coming soon!')}>Check ATS Score</button>
+//         </TabPanel>
 
-        {/* Tab 5: AI-Powered Resume Ranking */}
-        <TabPanel>
-          <button onClick={() => toast.info('Resume ranking coming soon!')}>Rank Resumes</button>
-        </TabPanel>
-      </Tabs>
-    </div>
-  );
-};
+//         {/* Tab 5: AI-Powered Resume Ranking */}
+//         <TabPanel>
+//           <button onClick={() => toast.info('Resume ranking coming soon!')}>Rank Resumes</button>
+//         </TabPanel>
+//       </Tabs>
+//     </div>
+//   );
+// };
 
-export default ResumeBuilder;
+// export default ResumeBuilder;
 
 // https://github.com/abhishekkumar62000/AI-ResumeXpert-Analyst/blob/main/App.py
 // # Import Important Library
