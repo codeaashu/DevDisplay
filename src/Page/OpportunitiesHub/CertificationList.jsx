@@ -269,7 +269,7 @@ const CertificationList = () => {
       <FilterContainer>
         <input
           type="text"
-          placeholder="Search by Domain or skills"
+          placeholder="Search by domain or skills"
           value={skillFilter}
           onChange={(e) => setSkillFilter(e.target.value)}
         />
