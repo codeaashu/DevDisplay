@@ -30,8 +30,8 @@ const shareContent = (url) => {
   if (navigator.share) {
     navigator
       .share({
-        title: 'Check out this job opportunity!',
-        text: 'I found this amazing job opportunity for a Senior Product Designer at TechCorp Inc.',
+        title: 'Check out this Open Source opportunity!',
+        text: 'Join the Open Source Program and contribute to amazing projects.',
         url: url,
       })
       .then(() => console.log('Successful share'))
