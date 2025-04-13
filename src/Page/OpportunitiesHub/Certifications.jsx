@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="flex items-center justify-center">
           <StyledButton onClick={() => setIsModalOpen(true)}>
             <div className="blob1" />
-            <div className="inner">Spotlight Your bootcamps Globally!</div>
+            <div className="inner">Spotlight Your certfication Globally!</div>
           </StyledButton>
         </div>
 
@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
           <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white">
             <div className="mb-4 flex items-center justify-between">
-              <h2 className="text-xl font-semibold">Submit The bootcamps Details!</h2>
+              <h2 className="text-xl font-semibold">Submit The certfication Details!</h2>
               <button onClick={() => setIsModalOpen(false)} className="text-gray-400 hover:text-white">
                 X
               </button>
