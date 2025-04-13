@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import styled from 'styled-components';
 import Marquee from 'react-fast-marquee';
-import EventsList from './EventsList.jsx';
+import CertficationList from './CertficationList.jsx';
 
 const Navbar = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -365,7 +365,7 @@ const Tags = () => {
   return (
     <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
       <h1 className="text-md text-primary mb-8 text-center font-bold text-[#00a6fb] lg:text-2xl">
-        Explore and participate in global tech events, all in one place.
+        Explore Our Certification Hub
       </h1>
       {/* <h2 className="text-md text-primary mb-8 text-center text-[#00a6fb] font-bold lg:text-2xl">One Platform, Endless Tech Hackathon</h2> */}
 
@@ -604,14 +604,14 @@ const StyledWrapper = styled.div`
   }
 `;
 
-const TechEvents = () => {
+const Certfication = () => {
   return (
     <div className="background-wrapper min-h-screen bg-gray-900">
       <Navbar />
       <Hero />
       <Tags />
       <div className="my-4"></div>
-      <EventsList />
+      <CertficationList />
     </div>
   );
 };
