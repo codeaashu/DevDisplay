@@ -22,14 +22,14 @@ const shareContent = (url) => {
 
 const techevents = [
   {
-    organizer: 'Organizer Name',
-    title: 'Event Name',
-    location: 'Event Location',
-    date: 'Event Date',
-    domains: ['Open Innovation', 'No Restrictions'],
-    applyLink: '#',
-    poster: '/assets/Coming Soon.png',
-    shareLink: '#comingsoon',
+    organizer: 'IETE Organization',
+    title: 'ICSMS 2025',
+    location: 'New Delhi, India',
+    date: 'April 26 - 27',
+    domains: ['Smart Mobility Systems', 'International Conference'],
+    applyLink: 'https://iete.org/icsms2025/',
+    poster: '/assets/Events/ICSMS 2025.png',
+    shareLink: '#icsms2025',
   },
 ];
 
