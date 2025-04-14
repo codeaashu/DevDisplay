@@ -275,7 +275,7 @@ const CertificationList = () => {
         />
         <input
           type="text"
-          placeholder="Search by organizer"
+          placeholder="Search by provider"
           value={organizerFilter}
           onChange={(e) => setOrganizerFilter(e.target.value)}
         />
