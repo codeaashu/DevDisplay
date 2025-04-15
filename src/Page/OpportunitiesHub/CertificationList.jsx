@@ -53,7 +53,7 @@ const certification = [
     skills: ['HTML5', 'CSS', 'Responsive Web'],
     referralCode: 'devdisplay',
     ApplyLink: 'https://www.freecodecamp.org/learn/2022/responsive-web-design/',
-    poster: 'public/assets/Certifications/Intro to Deep Learning.png',
+    poster: '/assets/Certifications/Responsive Web Design.png',
     shareLink: '#responsive-web-design',
   },
 
