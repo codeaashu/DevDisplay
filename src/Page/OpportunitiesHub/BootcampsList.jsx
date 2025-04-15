@@ -134,7 +134,7 @@ const BootcampCardComponent = ({
           className="bg-gray-1000 hover:bg-gray-1000 text-semibold flex items-center rounded-full border border-[#00a6fb] px-2 py-1 text-gray-300"
         >
           <div className="status-user mr-2" />
-          Applu Now
+          Apply Now
         </a>
       </div>
 
