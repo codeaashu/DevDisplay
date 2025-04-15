@@ -32,6 +32,115 @@ const certification = [
     poster: '/assets/Certifications/JavaScript Algorithms and DS.png',
     shareLink: '#javascript-algorithms-ds',
   },
+
+  {
+    organizer: 'Independent',
+    title: 'Ethics of AI',
+    duration: 'NA',
+    level: 'Beginner',
+    skills: ['AI ethics', 'AI Rights?'],
+    referralCode: 'devdisplay',
+    ApplyLink: 'https://ethics-of-ai.mooc.fi/start',
+    poster: '/assets/Certifications/Ethics of AI.png',
+    shareLink: '#ethics-of-ai',
+  },
+
+  {
+    organizer: 'Freecodecamp',
+    title: 'Responsive Web Design',
+    duration: '4 Weeks',
+    level: 'Beginner',
+    skills: ['HTML5', 'CSS', 'Responsive Web'],
+    referralCode: 'devdisplay',
+    ApplyLink: 'https://www.freecodecamp.org/learn/2022/responsive-web-design/',
+    poster: 'public/assets/Certifications/Intro to Deep Learning.png',
+    shareLink: '#responsive-web-design',
+  },
+
+  {
+    organizer: 'Openlearn',
+    title: 'IT in everyday life',
+    duration: '1 Week',
+    level: 'Intermediate',
+    skills: ['Network', 'Data', 'Internet'],
+    referralCode: 'devdisplay',
+    ApplyLink: 'https://www.open.edu/openlearn/science-maths-technology/it-everyday-life/content-section-0?active-tab=description-tab',
+    poster: '/assets/Certifications/IT in everyday life.png',
+    shareLink: '#it-in-eveRyday-life',
+  },
+
+  {
+    organizer: 'Google cloud',
+    title: 'Introduction to Generative AI',
+    duration: '1 Day',
+    level: 'Beginner',
+    skills: ['Generative AI', 'Generative AI Quiz',],
+    referralCode: 'devdisplay',
+    ApplyLink: 'https://www.cloudskillsboost.google/course_templates/536',
+    poster: '/assets/Certifications/Introduction to Generative AI.png',
+    shareLink: '#introduction-to-generative-ai',
+  },
+
+  {
+    organizer: 'Codesignal',
+    title: 'Understanding LLMs and Basic Prompting Techniques',
+    duration: '1 Day',
+    level: 'Beginner',
+    skills: ['LLMs', 'Effective Prompting', 'LLM Prompting'],
+    referralCode: 'devdisplay',
+    ApplyLink: 'https://codesignal.com/learn/courses/understanding-llms-and-basic-prompting-techniques?utm_campaign=classcentral-courses_Q4_25_&utm_medium=referral&utm_source=classcentral&utm_content=go-to-class',
+    poster: '/assets/Certifications/Understanding LLMs and Basic Prompting Techniques.png',
+    shareLink: '#understanding-llms-and-basic-prompting-techniques',
+  },
+
+  {
+    organizer: 'Codesignal',
+    title: 'Prompt Engineering for Everyone',
+    duration: '1 Day',
+    level: 'Beginner',
+    skills: ['Understanding LLMs', 'Prompt Engineering',],
+    referralCode: 'devdisplay',
+    ApplyLink: 'https://codesignal.com/learn/paths/prompt-engineering-for-everyone?utm_campaign=classcentral-courses_Q4_25_&utm_medium=referral&utm_source=classcentral&utm_content=go-to-class',
+    poster: '/assets/Certifications/Prompt Engineering for Everyone.png',
+    shareLink: '#prompt-engineering-for-everyone',
+  },
+
+  {
+    organizer: 'Independent',
+    title: 'DevOps with Kubernetes',
+    duration: '2 Weeks',
+    level: 'Intermediate',
+    skills: ['Kubernates', 'Deploy', 'GitOps'],
+    referralCode: 'devdisplay',
+    ApplyLink: 'https://devopswithkubernetes.com/',
+    poster: '/assets/Certifications/DevOps with Kubernetes.png',
+    shareLink: '#devops-with-kubernetes',
+  },
+
+  {
+    organizer: 'Kaggle',
+    title: 'Intro to Deep Learning',
+    duration: '1 Day',
+    level: 'Beginner',
+    skills: ['DNN', 'Gradient Descent', 'Binay Classification'],
+    referralCode: 'devdisplay',
+    ApplyLink: 'https://www.kaggle.com/learn/intro-to-deep-learning',
+    poster: '/assets/Certifications/Intro to Deep Learning.png',
+    shareLink: '#intro-to-deep-learning',
+  },
+
+  {
+    organizer: 'Freecodecamp',
+    title: 'Scientific Computing with Python',
+    duration: '4 Week',
+    level: 'Intermediate',
+    skills: ['Python', 'Data Structures', 'Algorithm', 'OPPs'],
+    referralCode: 'devdisplay',
+    ApplyLink: 'https://www.freecodecamp.org/learn/scientific-computing-with-python/',
+    poster: '/assets/Certifications/Scientific Computing with Python.png',
+    shareLink: '#scientific-computing-with-python',
+  },
+
 ];
 
 const StyledcertificationCard = styled.div`
