@@ -64,7 +64,8 @@ const certification = [
     level: 'Intermediate',
     skills: ['Network', 'Data', 'Internet'],
     referralCode: 'devdisplay',
-    ApplyLink: 'https://www.open.edu/openlearn/science-maths-technology/it-everyday-life/content-section-0?active-tab=description-tab',
+    ApplyLink:
+      'https://www.open.edu/openlearn/science-maths-technology/it-everyday-life/content-section-0?active-tab=description-tab',
     poster: '/assets/Certifications/IT in everyday life.png',
     shareLink: '#it-in-eveRyday-life',
   },
@@ -74,7 +75,7 @@ const certification = [
     title: 'Introduction to Generative AI',
     duration: '1 Day',
     level: 'Beginner',
-    skills: ['Generative AI', 'Generative AI Quiz',],
+    skills: ['Generative AI', 'Generative AI Quiz'],
     referralCode: 'devdisplay',
     ApplyLink: 'https://www.cloudskillsboost.google/course_templates/536',
     poster: '/assets/Certifications/Introduction to Generative AI.png',
@@ -88,7 +89,8 @@ const certification = [
     level: 'Beginner',
     skills: ['LLMs', 'Effective Prompting', 'LLM Prompting'],
     referralCode: 'devdisplay',
-    ApplyLink: 'https://codesignal.com/learn/courses/understanding-llms-and-basic-prompting-techniques?utm_campaign=classcentral-courses_Q4_25_&utm_medium=referral&utm_source=classcentral&utm_content=go-to-class',
+    ApplyLink:
+      'https://codesignal.com/learn/courses/understanding-llms-and-basic-prompting-techniques?utm_campaign=classcentral-courses_Q4_25_&utm_medium=referral&utm_source=classcentral&utm_content=go-to-class',
     poster: '/assets/Certifications/Understanding LLMs and Basic Prompting Techniques.png',
     shareLink: '#understanding-llms-and-basic-prompting-techniques',
   },
@@ -98,9 +100,10 @@ const certification = [
     title: 'Prompt Engineering for Everyone',
     duration: '1 Day',
     level: 'Beginner',
-    skills: ['Understanding LLMs', 'Prompt Engineering',],
+    skills: ['Understanding LLMs', 'Prompt Engineering'],
     referralCode: 'devdisplay',
-    ApplyLink: 'https://codesignal.com/learn/paths/prompt-engineering-for-everyone?utm_campaign=classcentral-courses_Q4_25_&utm_medium=referral&utm_source=classcentral&utm_content=go-to-class',
+    ApplyLink:
+      'https://codesignal.com/learn/paths/prompt-engineering-for-everyone?utm_campaign=classcentral-courses_Q4_25_&utm_medium=referral&utm_source=classcentral&utm_content=go-to-class',
     poster: '/assets/Certifications/Prompt Engineering for Everyone.png',
     shareLink: '#prompt-engineering-for-everyone',
   },
@@ -140,7 +143,6 @@ const certification = [
     poster: '/assets/Certifications/Scientific Computing with Python.png',
     shareLink: '#scientific-computing-with-python',
   },
-
 ];
 
 const StyledcertificationCard = styled.div`
