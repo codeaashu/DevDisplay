@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFlag, faMapMarkerAlt, faCalendarAlt, faShareAlt } from '@fortawesome/free-solid-svg-icons';
+import { faFlag, faSignal, faClock, faShareAlt } from '@fortawesome/free-solid-svg-icons';
 
 const shareContent = (url, organizer, title) => {
   if (navigator.share) {
@@ -20,20 +20,21 @@ const shareContent = (url, organizer, title) => {
 
 // List of Global Tech Bootcamps
 
-const Bootcamps = [
+const bootcamp = [
   {
-    organizer: 'Organizer Name',
-    title: 'Event Name',
-    location: 'Event Location',
-    date: 'Event Date',
-    domains: ['Open Innovation', 'No Restrictions'],
-    applyLink: '#',
-    poster: '/assets/Coming Soon.png',
-    shareLink: '#comingsoon',
+    organizer: 'Freecodecamp',
+    title: 'JavaScript Algorithms and DS',
+    duration: '4 Weeks',
+    level: 'Intermediate',
+    skills: ['JavaScript', 'Algorithms', 'Data Structures'],
+    referralCode: 'devdisplay',
+    ApplyLink: 'https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/',
+    poster: '/assets/Certifications/JavaScript Algorithms and DS.png',
+    shareLink: '#javascript-algorithms-ds',
   },
 ];
 
-const StyledbootcampsCard = styled.div`
+const StyledbootcampCard = styled.div`
   position: relative;
   border: 1px solid rgb(182, 228, 250);
   background: linear-gradient(to right, rgba(15, 27, 53, 0.44), rgba(0, 43, 62, 0.43));
@@ -109,22 +110,31 @@ const StyledbootcampsCard = styled.div`
   }
 `;
 
-const BootcampsCardComponent = ({ organizer, title, location, date, domains, applyLink, poster, shareLink }) => {
+const BootcampCardComponent = ({
+  organizer,
+  title,
+  duration,
+  level,
+  skills,
+  referralCode,
+  ApplyLink,
+  poster,
+  shareLink,
+}) => {
   return (
-    <StyledbootcampsCard id={shareLink.substring(1)}>
-      {/* <div className="dot"></div> */}
+    <StyledbootcampCard id={shareLink.substring(1)}>
       <div className="flex items-center justify-between p-2">
         <span className="text-sm font-semibold text-white">
           <FontAwesomeIcon icon={faFlag} className="mr-1 text-[#00a6fb]" /> {organizer}
         </span>
         <a
-          href={applyLink}
+          href={ApplyLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gray-1000 hover:bg-gray-1000 text-semibold relative flex items-center rounded-full border border-[#00a6fb] px-2 py-1 text-gray-300"
+          className="bg-gray-1000 hover:bg-gray-1000 text-semibold flex items-center rounded-full border border-[#00a6fb] px-2 py-1 text-gray-300"
         >
-          <div className="status-user" style={{ marginRight: '8px' }} />
-          Apply Now
+          <div className="status-user mr-2" />
+          Applu Now
         </a>
       </div>
 
@@ -132,7 +142,7 @@ const BootcampsCardComponent = ({ organizer, title, location, date, domains, app
         <div className="absolute bottom-3 right-3 z-10">
           <button
             onClick={() => shareContent(window.location.href.split('#')[0] + shareLink)}
-            className="bg-gray-1000 hover:bg-slate-1000 flex items-center justify-center gap-2 rounded-xl border border-[#00a6fb] bg-opacity-50 px-2 py-1 text-xs text-white backdrop-blur-md transition-colors"
+            className="bg-gray-1000 hover:bg-slate-1000 flex items-center justify-center gap-2 rounded-xl border border-[#00a6fb] bg-opacity-50 px-2 py-1 text-xs text-white backdrop-blur-md"
           >
             <FontAwesomeIcon icon={faShareAlt} />
             Share
@@ -144,7 +154,7 @@ const BootcampsCardComponent = ({ organizer, title, location, date, domains, app
           className="h-full w-full rounded-lg object-cover"
           onError={(e) => {
             e.target.onerror = null;
-            e.target.src = '/images/default.png';
+            e.target.src = '/assets/Coming Soon.png';
           }}
         />
       </div>
@@ -153,24 +163,23 @@ const BootcampsCardComponent = ({ organizer, title, location, date, domains, app
 
       <div className="flex justify-between p-2 text-sm text-[#00a6fb]">
         <span>
-          <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-1 text-white" /> {location}
+          <FontAwesomeIcon icon={faClock} className="mr-1 text-white" /> {duration}
         </span>
         <span>
-          <FontAwesomeIcon icon={faCalendarAlt} className="mr-1 text-white" /> {date}
+          <FontAwesomeIcon icon={faSignal} className="mr-1 text-white" /> {level}
         </span>
       </div>
 
+      <div className="mb-1 text-center text-sm text-gray-400">Referral Code: {referralCode}</div>
+
       <div className="mt-2 flex flex-wrap justify-center gap-2 p-2">
-        {domains.map((domain, idx) => (
-          <span
-            key={idx}
-            className="bg-gray-1000 rounded-full border border-[#00a6fb]  px-2 py-1 text-xs text-gray-300"
-          >
-            {domain}
+        {skills.map((skill, idx) => (
+          <span key={idx} className="bg-gray-1000 rounded-full border border-[#00a6fb] px-2 py-1 text-xs text-gray-300">
+            {skill}
           </span>
         ))}
       </div>
-    </StyledbootcampsCard>
+    </StyledbootcampCard>
   );
 };
 
@@ -184,14 +193,14 @@ const BootcampsCardComponent = ({ organizer, title, location, date, domains, app
             font-weight: normal;
             font-style: normal;
           }
-                    `}
+          `}
 </style>;
 
-const StyledbootcampsListContainer = styled.div`
+const StyledbootcampListContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.5rem; /* Decreased gap */
+  gap: 0.5rem;
   padding: 1rem;
 
   @media (min-width: 768px) {
@@ -242,21 +251,17 @@ const FilterContainer = styled.div`
 `;
 
 const BootcampsList = () => {
-  const [locationFilter, setLocationFilter] = useState('');
-  const [monthFilter, setMonthFilter] = useState('');
-  const [domainFilter, setDomainFilter] = useState('');
+  const [skillFilter, setSkillFilter] = useState('');
+  const [organizerFilter, setOrganizerFilter] = useState('');
 
-  const filteredbootcamps = Bootcamps.filter((bootcamps) => {
-    const matchesLocation = locationFilter
-      ? bootcamps.location.toLowerCase().includes(locationFilter.toLowerCase())
+  const filteredbootcamp = bootcamp.filter((bootcamp) => {
+    const matchesSkill = skillFilter
+      ? bootcamp.skills.some((skill) => skill.toLowerCase().includes(skillFilter.toLowerCase()))
       : true;
-    const matchesMonth = monthFilter
-      ? new Date(bootcamps.date.split(' - ')[0]).getMonth() + 1 === parseInt(monthFilter)
+    const matchesOrganizer = organizerFilter
+      ? bootcamp.organizer.toLowerCase().includes(organizerFilter.toLowerCase())
       : true;
-    const matchesDomain = domainFilter
-      ? bootcamps.domains.some((domain) => domain.toLowerCase().includes(domainFilter.toLowerCase()))
-      : true;
-    return matchesLocation && matchesMonth && matchesDomain;
+    return matchesSkill && matchesOrganizer;
   });
 
   return (
@@ -264,37 +269,22 @@ const BootcampsList = () => {
       <FilterContainer>
         <input
           type="text"
-          placeholder="Search by location"
-          value={locationFilter}
-          onChange={(e) => setLocationFilter(e.target.value)}
+          placeholder="Search by domain or skills"
+          value={skillFilter}
+          onChange={(e) => setSkillFilter(e.target.value)}
         />
-        <select value={monthFilter} onChange={(e) => setMonthFilter(e.target.value)}>
-          <option value="">Select month</option>
-          <option value="1">January</option>
-          <option value="2">February</option>
-          <option value="3">March</option>
-          <option value="4">April</option>
-          <option value="5">May</option>
-          <option value="6">June</option>
-          <option value="7">July</option>
-          <option value="8">August</option>
-          <option value="9">September</option>
-          <option value="10">October</option>
-          <option value="11">November</option>
-          <option value="12">December</option>
-        </select>
         <input
           type="text"
-          placeholder="Search by domain"
-          value={domainFilter}
-          onChange={(e) => setDomainFilter(e.target.value)}
+          placeholder="Search by organizer"
+          value={organizerFilter}
+          onChange={(e) => setOrganizerFilter(e.target.value)}
         />
       </FilterContainer>
-      <StyledbootcampsListContainer>
-        {filteredbootcamps.map((bootcamps, idx) => (
-          <BootcampsCardComponent key={idx} {...bootcamps} />
+      <StyledbootcampListContainer>
+        {filteredbootcamp.map((bootcamp, idx) => (
+          <BootcampCardComponent key={idx} {...bootcamp} />
         ))}
-      </StyledbootcampsListContainer>
+      </StyledbootcampListContainer>
     </>
   );
 };
