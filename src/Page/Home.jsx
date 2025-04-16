@@ -829,8 +829,8 @@ const CardSection = () => {
                 encouraged to think beyond—think outside the box. Suggest and add new, innovative features that could
                 revolutionize the tech world and make a difference in the tech ecosystem. If you spot a gap in the tech
                 industry, DevDisplay can be the solution. You can also give us brutal and honest feedback—Roast Us! It
-                helps us improve and make DevDisplay even better. Here, your ideas matter, your feedback matters, your
-                code matters—you matter.
+                helps us improve and make DevDisplay even better. Here, your ideas matter, your code matters, you
+                matter.
               </p>
               <div className="flex gap-12">
                 <StyledButton onClick={() => window.open('#', '_blank')}>
