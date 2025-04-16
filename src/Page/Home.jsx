@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Globe from '../components/Globe';
 import { Footer } from '../components/Footer/Footer';
 import LOGO from './WordMark.png';
-import PoweredByDevDisplay from './PoweredByDevDisplay.png';
+// import PoweredByDevDisplay from './PoweredByDevDisplay.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import Marquee from 'react-fast-marquee';
@@ -16,7 +16,7 @@ const CountdownTimer = () => {
   const [timeLeft, setTimeLeft] = useState('');
 
   useEffect(() => {
-    const targetDate = new Date('April 17, 2025 10:00:00').getTime();
+    const targetDate = new Date('April 17, 2025 20:00:00').getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
