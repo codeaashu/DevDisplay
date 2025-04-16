@@ -302,14 +302,14 @@ const CertificationCardComponent = ({
             font-weight: normal;
             font-style: normal;
           }
-                    `}
+          `}
 </style>;
 
 const StyledcertificationListContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.5rem; /* Decreased gap */
+  gap: 0.5rem;
   padding: 1rem;
 
   @media (min-width: 768px) {
