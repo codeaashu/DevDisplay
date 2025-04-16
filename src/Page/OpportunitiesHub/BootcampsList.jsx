@@ -39,7 +39,8 @@ const bootcamp = [
     duration: '6 Weeks',
     level: 'Intermediate',
     skills: ['HubSpot API', 'React-based custom cards'],
-    applyLink: 'https://events.academy.hubspot.com/events/details/hubspot-academy-crm-customization-bootcamp-for-developers-spring-2025-presents-crm-customization-bootcamp-for-developers-spring-2025-2025-05-07/',
+    applyLink:
+      'https://events.academy.hubspot.com/events/details/hubspot-academy-crm-customization-bootcamp-for-developers-spring-2025-presents-crm-customization-bootcamp-for-developers-spring-2025-2025-05-07/',
     poster: '/assets/Bootcamps/CRM Customization Bootcamp for Developers Spring 2025.png',
     shareLink: '#crm-customization-bootcamp-for-developers',
   },
@@ -49,7 +50,8 @@ const bootcamp = [
     duration: '6 Weeks',
     level: 'Intermediate',
     skills: ['Sales & Marketing', 'ABM dashboards'],
-    applyLink: 'https://events.academy.hubspot.com/events/details/hubspot-academy-account-based-marketing-bootcamp-spring-2025-presents-account-based-marketing-bootcamp-spring-2025-2025-05-06/',
+    applyLink:
+      'https://events.academy.hubspot.com/events/details/hubspot-academy-account-based-marketing-bootcamp-spring-2025-presents-account-based-marketing-bootcamp-spring-2025-2025-05-06/',
     poster: '/assets/Bootcamps/Account-Based Marketing Bootcamp Spring 2025.png',
     shareLink: '#account-based-marketing-bootcamp',
   },
@@ -59,7 +61,8 @@ const bootcamp = [
     duration: '4 Weeks',
     level: 'Intermediate',
     skills: ['Marketing', 'Sales', 'Customer Service'],
-    applyLink: 'https://events.academy.hubspot.com/events/details/hubspot-academy-video-bootcamp-for-marketing-sales-and-service-spring-2025-presents-video-bootcamp-for-marketing-sales-and-service-spring-2025-2025-05-07/',
+    applyLink:
+      'https://events.academy.hubspot.com/events/details/hubspot-academy-video-bootcamp-for-marketing-sales-and-service-spring-2025-presents-video-bootcamp-for-marketing-sales-and-service-spring-2025-2025-05-07/',
     poster: '/assets/Bootcamps/Video Bootcamp for Marketing, Sales, and Service - Spring 2025.png',
     shareLink: '#video-bootcamp-for-marketing-sales--services',
   },
@@ -69,7 +72,8 @@ const bootcamp = [
     duration: '6 Weeks',
     level: 'Intermediate',
     skills: ['Setting up HubSpot', 'Configuration and Security'],
-    applyLink: 'https://events.academy.hubspot.com/events/details/hubspot-academy-super-admin-bootcamp-spring-2025-presents-super-admin-bootcamp-spring-2025-2025-05-08/',
+    applyLink:
+      'https://events.academy.hubspot.com/events/details/hubspot-academy-super-admin-bootcamp-spring-2025-presents-super-admin-bootcamp-spring-2025-2025-05-08/',
     poster: '/assets/Bootcamps/Super Admin Bootcamp - Spring 2025.png',
     shareLink: '#super-admin-bootcamp',
   },
@@ -79,7 +83,8 @@ const bootcamp = [
     duration: '6 Weeks',
     level: 'Intermediate',
     skills: ['RevOps Process Mapping', 'RevOps Strategy'],
-    applyLink: 'https://events.academy.hubspot.com/events/details/hubspot-academy-revops-bootcamp-spring-2025-presents-revops-bootcamp-spring-2025-2025-05-08/',
+    applyLink:
+      'https://events.academy.hubspot.com/events/details/hubspot-academy-revops-bootcamp-spring-2025-presents-revops-bootcamp-spring-2025-2025-05-08/',
     poster: '/assets/Bootcamps/RevOps Bootcamp - Spring 2025.png',
     shareLink: '#revops-bootcamp',
   },
@@ -89,7 +94,8 @@ const bootcamp = [
     duration: '6 Weeks',
     level: 'Intermediate',
     skills: ['HubSpot Flywheel', 'Lead Identification'],
-    applyLink: 'https://events.academy.hubspot.com/events/details/hubspot-academy-pipeline-generation-bootcamp-spring-2025-presents-pipeline-generation-bootcamp-spring-2025-2025-05-07/',
+    applyLink:
+      'https://events.academy.hubspot.com/events/details/hubspot-academy-pipeline-generation-bootcamp-spring-2025-presents-pipeline-generation-bootcamp-spring-2025-2025-05-07/',
     poster: '/assets/Bootcamps/Pipeline Generation Bootcamp - Spring 2025.png',
     shareLink: '#pipeline-generation-bootcamp',
   },
@@ -123,7 +129,6 @@ const bootcamp = [
     poster: '/assets/Bootcamps/Google Project Management Professional Certificate.png',
     shareLink: '#google-project-management-professional-certificate',
   },
-  
 ];
 
 const StyledbootcampCard = styled.div`

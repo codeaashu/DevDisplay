@@ -21,14 +21,14 @@ const shareContent = (url) => {
 // List of Global Competitions
 
 const Competitions = [
-
   {
     organizer: 'CEPT University',
     title: 'Call for Abstracts for Essay Competition 2025',
     location: 'Online',
     date: 'April 30, 2025',
-    domain: ['Essay Writing', 'Research'],
-    applyLink: 'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/call-for-abstracts-for-essay-competition-2025',
+    domains: ['Essay Writing', 'Research'],
+    applyLink:
+      'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/call-for-abstracts-for-essay-competition-2025',
     poster: '/assets/Competitions/Call for Abstracts for Essay Competition 2025.png',
     shareLink: '#call-for-abstract-for-essay-competition-2025',
   },
@@ -37,8 +37,9 @@ const Competitions = [
     title: 'The Ultimate Roleplay Acting Competition 2025',
     location: 'Online',
     date: 'April 30, 2025',
-    domain: ['Acting', 'Roleplay'],
-    applyLink: 'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/the-ultimate-roleplay-acting-competition-2025',
+    domains: ['Acting', 'Roleplay'],
+    applyLink:
+      'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/the-ultimate-roleplay-acting-competition-2025',
     poster: '/assets/Competitions/The Ultimate Roleplay Acting Competition 2025.png',
     shareLink: '#the-ultimate-roleplay-acting-competition-2025',
   },
@@ -47,8 +48,9 @@ const Competitions = [
     title: 'Love is in the air Photography Competition 2025',
     location: 'Online',
     date: 'May 12, 2025',
-    domain: ['Photography', 'Creativity'],
-    applyLink: 'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/love-is-in-the-air-photography-competition-2025',
+    domains: ['Photography', 'Creativity'],
+    applyLink:
+      'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/love-is-in-the-air-photography-competition-2025',
     poster: '/assets/Competitions/Love is in the air Photography Competition 2025.png',
     shareLink: '#love-is-in-the-air-photography-competition-2025',
   },
@@ -57,8 +59,9 @@ const Competitions = [
     title: 'Nikon Small World Photomicrography Competition 2025',
     location: 'Online',
     date: 'April 30, 2025',
-    domain: ['Microscopy', 'Photography'],
-    applyLink: 'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/nikon-small-world-photomicrography-competition-2025',
+    domains: ['Microscopy', 'Photography'],
+    applyLink:
+      'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/nikon-small-world-photomicrography-competition-2025',
     poster: '/assets/Competitions/Nikon Small World Photomicrography Competition 2025.png',
     shareLink: '#nikon-small-world-photomicrography-competition-2025',
   },
@@ -67,7 +70,7 @@ const Competitions = [
     title: 'Hindi Mein Kavita 2025',
     location: 'Online',
     date: 'May 1, 2025',
-    domain: ['Poetry', 'Hindi Literature'],
+    domains: ['Poetry', 'Hindi Literature'],
     applyLink: 'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/hindi-mein-kavita-2025',
     poster: '/assets/Competitions/Hindi Mein Kavita 2025.png',
     shareLink: '#hindi-mein-kavita-2025',
@@ -77,8 +80,9 @@ const Competitions = [
     title: 'Nikon Small World In Motion Video Competition 2025',
     location: 'Online',
     date: 'April 30, 2025',
-    domain: ['Microscopy', 'Videography'],
-    applyLink: 'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/nikon-small-world-in-motion-video-competition-2025',
+    domains: ['Microscopy', 'Videography'],
+    applyLink:
+      'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/nikon-small-world-in-motion-video-competition-2025',
     poster: '/assets/Competitions/Nikon Small World In Motion Video Competition 2025.png',
     shareLink: '#nikon-small-world-in-motion-video-competition-2025',
   },
@@ -87,12 +91,12 @@ const Competitions = [
     title: 'Elevate the Educational Reka',
     location: 'Shivajinagar, Pune, Maharashtra, India',
     date: 'April 30, 2025',
-    domain: ['Education', 'Innovation'],
-    applyLink: 'https://unstop.com/competitions/elevate-the-educational-reka-ieee-pune-section-1464734?lb=i8K8QT8Y&utm_medium=Share&utm_source=shortUrl',
+    domains: ['Education', 'Innovation'],
+    applyLink:
+      'https://unstop.com/competitions/elevate-the-educational-reka-ieee-pune-section-1464734?lb=i8K8QT8Y&utm_medium=Share&utm_source=shortUrl',
     poster: '/assets/Competitions/Elevate the Educational Reka.png',
     shareLink: '#elevate-the-education-reka',
   },
-  
 ];
 
 const StyledCompetitionsCard = styled.div`
