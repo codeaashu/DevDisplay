@@ -219,6 +219,19 @@ const Hero = () => {
 
 const Tags = () => {
   const tags = [
+    'Best Courses',
+    'Notes',
+    'Documentation',
+    'Dev Tools Directory',
+    'Valuable Repositories',
+    'Libraries',
+    'Roadmaps',
+    'Preparation',
+    'Research Paper',
+    'Useful APIs',
+    'Best Colleges',
+    'Developer Shared Resources',
+    'AI Tools',
     'Programming Resources',
     'Web Development',
     'Frontend Development',
@@ -379,24 +392,24 @@ const ResourcesCards = () => {
       link: '/ResearchPaper',
       tags: ['Research Papers', 'Papers', 'Research', 'Tech'],
     },
-    {
-      title: 'Useful APIs',
-      description: 'Explore and use useful APIs for your projects and applications.',
-      link: '/APIs',
-      tags: ['APIs', 'Tools', 'Development', 'Projects', 'Free APIs', 'Paid APIs'],
-    },
-    {
-      title: 'Best Colleges',
-      description: 'Explore the best colleges and universities for tech education.',
-      link: '/BestColleges',
-      tags: ['Colleges', 'Universities', 'Education', 'Tech'],
-    },
-    {
-      title: 'Developer Shared Resources',
-      description: 'Explore and share your own valuable resources for developers.',
-      link: '/DevShare',
-      tags: ['Shared Resources', 'Community', 'Developers', 'Tech', 'Notes', 'Courses'],
-    },
+    // {
+    //   title: 'Useful APIs',
+    //   description: 'Explore and use useful APIs for your projects and applications.',
+    //   link: '/APIs',
+    //   tags: ['APIs', 'Tools', 'Development', 'Projects', 'Free APIs', 'Paid APIs'],
+    // },
+    // {
+    //   title: 'Best Colleges',
+    //   description: 'Explore the best colleges and universities for tech education.',
+    //   link: '/BestColleges',
+    //   tags: ['Colleges', 'Universities', 'Education', 'Tech'],
+    // },
+    // {
+    //   title: 'Developer Shared Resources',
+    //   description: 'Explore and share your own valuable resources for developers.',
+    //   link: '/DevShare',
+    //   tags: ['Shared Resources', 'Community', 'Developers', 'Tech', 'Notes', 'Courses'],
+    // },
   ];
 
   const filteredResources = resources.filter((resources) => {
