@@ -88,7 +88,8 @@ const techevents = [
     location: 'NSUT Delhi',
     date: 'April 19, 2025',
     domains: ['Shayari', 'Songs', 'Pickup Lines'],
-    applyLink: 'https://unstop.com/events/kagazi-sher-a-paper-dancing-event-moksha-netaji-subhas-university-of-technology-nsut-delhi-1459793?lb=i8K8QT8Y&utm_medium=Share&utm_source=shortUrl',
+    applyLink:
+      'https://unstop.com/events/kagazi-sher-a-paper-dancing-event-moksha-netaji-subhas-university-of-technology-nsut-delhi-1459793?lb=i8K8QT8Y&utm_medium=Share&utm_source=shortUrl',
     poster: '/assets/Events/Kagazi Sher.png',
     shareLink: '#kagazisher',
   },
@@ -122,7 +123,6 @@ const techevents = [
     poster: '/assets/Events/Build With AI Chandigarh.png',
     shareLink: '#buildwithaichd',
   },
-  
 ];
 
 const StyledtecheventsCard = styled.div`
