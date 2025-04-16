@@ -29,6 +29,7 @@ const courses = [
     level: 'Beginner',
     domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'Free'],
     courseLink: 'https://youtu.be/sscX432bMZo?si=5ig6-ErKPW97NU5L',
+    poster: '/assets/Courses/JSHiteshChoudhary.png',
     shareLink: '#javascript-part-1-hc',
   },
   {
@@ -39,6 +40,7 @@ const courses = [
     level: 'Beginner',
     domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'Free'],
     courseLink: 'https://youtu.be/_TjtAyMkiTI?si=XwtFRiCPTWQNgAOH',
+    poster: '/assets/Courses/JSHiteshChoudhary.png',
     shareLink: '#javascript-part-2-hc',
   },
   {
@@ -49,6 +51,7 @@ const courses = [
     level: 'Beginner',
     domain: ['Web Development', 'HTML', 'Frontend', 'Free'],
     courseLink: 'https://youtu.be/rklidcZ-aLU?si=2iv5ZV0EypTpTsw7',
+    poster: '/assets/Courses/HTML1.png',
     shareLink: '#htmlbyprashantJain',
   },
   {
@@ -59,6 +62,7 @@ const courses = [
     level: 'Beginner',
     domain: ['Web Development', 'CSS', 'Frontend', 'Free'],
     courseLink: 'https://youtu.be/OpWjt_wbV4E?si=u_Z9BbUrhim4Ne9_',
+    poster: '/assets/Courses/CSS1.png',
     shareLink: '#cssbyprashantJain',
   },
   {
@@ -69,6 +73,7 @@ const courses = [
     level: 'Beginner',
     domain: ['Web Development', 'HTML', 'Frontend', 'Free'],
     courseLink: 'https://youtu.be/k7ELO356Npo?si=YYhRTsCFGLGbFF1h',
+    poster: '/assets/Courses/HTML4.png',
     shareLink: '#htmlbylovebabbar',
   },
   {
@@ -79,6 +84,7 @@ const courses = [
     level: 'Beginner',
     domain: ['Web Development', 'CSS', 'Frontend', 'Free'],
     courseLink: 'https://youtu.be/dSJM4Gyh8jE?si=0DA97_AKrV3bfKFo',
+    poster: '/assets/Courses/CSS2.png',
     shareLink: '#cssbylovebabbar',
   },
   {
@@ -89,6 +95,7 @@ const courses = [
     level: 'Beginner',
     domain: ['Web Development', 'HTML', 'CSS', 'Frontend', 'Free'],
     courseLink: 'https://youtu.be/G3e-cpL7ofc?si=D5xPjvKi7AnfDFft',
+    poster: '/assets/Courses/HTML3.png',
     shareLink: '#htmlcssbysupersimpledev',
   },
   {
@@ -99,16 +106,7 @@ const courses = [
     level: 'Beginner',
     domain: ['Web Development', 'CSS', 'Frontend', 'Free'],
     courseLink: 'https://youtu.be/OXGznpKZ_sA?si=_2uGEik_pdGQM_Ks',
-    shareLink: '#htmlbydavegray',
-  },
-  {
-    platform: 'YouTube',
-    title: 'CSS - English',
-    instructor: 'Dave Gray',
-    duration: '11 Hour',
-    level: 'Beginner',
-    domain: ['Web Development', 'CSS', 'Frontend', 'Free'],
-    courseLink: 'https://youtu.be/pN6jk0uUrD8?si=89uQMPPR2rZvjfnY',
+    poster: '/assets/Courses/CSS3.png',
     shareLink: '#htmlbydavegray',
   },
   // Add more courses similarly...
@@ -189,7 +187,6 @@ const StyledCoursesCard = styled.div`
     }
   }
 `;
-
 const CoursesCardComponent = ({
   platform,
   title,
@@ -201,15 +198,6 @@ const CoursesCardComponent = ({
   poster,
   shareLink,
 }) => {
-  const getYouTubeThumbnail = (url) => {
-    const videoIdMatch = url.match(
-      /(?:https?:\/\/)?(?:www\.)?youtu(?:\.be\/|be\.com\/(?:watch\?v=|embed\/|v\/))([\w-]{11})/,
-    );
-    return videoIdMatch ? `https://img.youtube.com/vi/${videoIdMatch[1]}/hqdefault.jpg` : poster;
-  };
-
-  const thumbnail = platform === 'YouTube' ? getYouTubeThumbnail(courseLink) : poster;
-
   return (
     <StyledCoursesCard id={shareLink.substring(1)}>
       <div className="flex items-center justify-between p-2">
@@ -238,7 +226,7 @@ const CoursesCardComponent = ({
           </button>
         </div>
         <img
-          src={thumbnail}
+          src={poster}
           alt={`${title} Poster`}
           className="h-full w-full rounded-lg object-cover"
           onError={(e) => {
