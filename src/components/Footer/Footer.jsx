@@ -31,10 +31,7 @@ export const Footer = () => {
           {/* Column 2 */}
           <div className="text-center">
             <h4 className="text-2xl font-bold text-[#00a6fb]">DevDisplay</h4>
-            <p className="mt-2 text-sm">
-              DevDisplay is a global open-source tech community and organization with a mission to unite all your tech
-              needs under one platform.
-            </p>
+            <p className="mt-2 text-sm">The First Global Platform for Developers to Fulfill All Their Tech Needs.</p>
           </div>
 
           {/* Column 3 */}
