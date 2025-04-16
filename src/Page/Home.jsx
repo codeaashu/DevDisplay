@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Globe from '../components/Globe';
 import { Footer } from '../components/Footer/Footer';
 import LOGO from './WordMark.png';
-// import PoweredByDevDisplay from './PoweredByDevDisplay.png';
+import PoweredByDevDisplay from './PoweredByDevDisplay.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import Marquee from 'react-fast-marquee';
@@ -315,7 +315,7 @@ const TechFeatures = () => {
       </div>
 
       {/* Grid Layout for Features */}
-      <div className="grid grid-cols-1 gap-6 text-center md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-6 text-center md:grid-cols-2 lg:grid-cols-3">
         <StyledDot>
           <a
             href="/opportunities"
@@ -424,7 +424,7 @@ const TechFeatures = () => {
             <span className="absolute inset-0"></span>
             <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
               <div>
-                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Portfolio Ideas</h3>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Portfolio Showcase</h3>
                 <p>Get inspired with creative ideas to enhance your portfolio and make an impact.</p>
               </div>
               <StyledButton onClick={() => (window.location.href = '/PortfolioIdeas')}>
@@ -436,139 +436,6 @@ const TechFeatures = () => {
           </a>
         </StyledDot>
 
-        {/* <StyledDot>
-          <a
-            href="/PortfolioBuilder"
-            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
-          >
-            <span className="absolute inset-0"></span>
-            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
-              <div>
-                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Portfolio Building</h3>
-                <p>Learn the best practices to build a standout portfolio that impresses recruiters.</p>
-              </div>
-              <StyledButton onClick={() => (window.location.href = '/PortfolioBuilder')}>
-                <div className="blob1" />
-                <div className="inner">Explore Now</div>
-              </StyledButton>
-            </div>
-            <div className="dot" />
-          </a>
-        </StyledDot> */}
-
-        <StyledDot>
-          <a
-            href="/ResumeBuilder"
-            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
-          >
-            <span className="absolute inset-0"></span>
-            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
-              <div>
-                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Resume Building</h3>
-                <p>Create a professional resume with tips and templates tailored to the tech industry.</p>
-              </div>
-              <StyledButton onClick={() => (window.location.href = '/ResumeBuilder')}>
-                <div className="blob1" />
-                <div className="inner">Explore Now</div>
-              </StyledButton>
-            </div>
-            <div className="dot" />
-          </a>
-        </StyledDot>
-
-        <StyledDot>
-          <a
-            href="/AIToolsHub"
-            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
-          >
-            <span className="absolute inset-0"></span>
-            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
-              <div>
-                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">AI Tools Hub</h3>
-                <p>The ultimate hub for powerful and innovative AI tools, all in one place.</p>
-              </div>
-              <StyledButton onClick={() => (window.location.href = '/AIToolsHub')}>
-                <div className="blob1" />
-                <div className="inner">Explore Now</div>
-              </StyledButton>
-            </div>
-            <div className="dot" />
-          </a>
-        </StyledDot>
-
-        {/* <StyledDot>
-          <a
-            href="/journeys"
-            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
-          >
-            <span className="absolute inset-0"></span>
-            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
-              <div>
-                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Journeys Page</h3>
-                <p>
-                  Explore inspiring stories of achievers, their challenges, and the strategies that led them to success.
-                </p>
-              </div>
-              <StyledButton onClick={() => (window.location.href = '/journeys')}>
-                <div className="blob1" />
-                <div className="inner">Explore Now</div>
-              </StyledButton>
-            </div>
-            <div className="dot" />
-          </a>
-        </StyledDot> */}
-
-        <StyledDot>
-          <a
-            href="/IndustryTrends"
-            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
-          >
-            <span className="absolute inset-0"></span>
-            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
-              <div>
-                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Industry Trends</h3>
-                <p>
-                  Share regular articles and videos on industry trends, expert insights, and career advice to keep
-                  engaged.
-                </p>
-              </div>
-              <StyledButton onClick={() => (window.location.href = '/IndustryTrends')}>
-                <div className="blob1" />
-                <div className="inner">Explore Now</div>
-              </StyledButton>
-            </div>
-            <div className="dot" />
-          </a>
-        </StyledDot>
-
-        <StyledDot>
-          <a
-            href="/AiCareer"
-            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
-          >
-            <span className="absolute inset-0"></span>
-            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
-              <div>
-                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">AI Career Guide</h3>
-                <p>Get AI-powered career recommendations tailored to your skills, interests, and goals.</p>
-              </div>
-              <StyledButton onClick={() => (window.location.href = '/AiCareer')}>
-                <div className="blob1" />
-                <div className="inner">Explore Now</div>
-              </StyledButton>
-            </div>
-            <div className="dot" />
-          </a>
-        </StyledDot>
-      </div>
-      {/* <div style={{ margin: '100px 0' }}></div> */}
-      {/*Powered By DevDisplay */}
-      {/* <div className="my-8 flex justify-center">
-        <img src={PoweredByDevDisplay} alt="Dev Display" className="h-auto w-[600px] text-5xl font-bold" />
-      </div> */}
-
-      {/* Tech Projects Powered by DevDisplay */}
-      {/* <div className="my-8 grid grid-cols-1 gap-6 text-center md:grid-cols-2 lg:grid-cols-4">
         <StyledDot>
           <a
             href="https://github-legacy.vercel.app/"
@@ -597,6 +464,220 @@ const TechFeatures = () => {
         </StyledDot>
 
         <StyledDot>
+          <a
+            href="https://resume-builder-pro.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Resume Builder</h3>
+                <p>Transform your GitHub journey into a professional resume in seconds</p>
+              </div>
+              <StyledButton
+                onClick={() => {
+                  window.location.href = 'https://resume-builder-pro.vercel.app/';
+                  window.open('_blank');
+                }}
+              >
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
+
+        {/* <StyledDot>
+          <a
+            href="/PortfolioBuilder"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Portfolio Building</h3>
+                <p>Learn the best practices to build a standout portfolio that impresses recruiters.</p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/PortfolioBuilder')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot> */}
+
+        {/* <StyledDot>
+          <a
+            href="/ResumeBuilder"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Resume Building</h3>
+                <p>Create a professional resume with tips and templates tailored to the tech industry.</p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/ResumeBuilder')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot> */}
+
+        {/* <StyledDot>
+          <a
+            href="/AIToolsHub"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">AI Tools Hub</h3>
+                <p>The ultimate hub for powerful and innovative AI tools, all in one place.</p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/AIToolsHub')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot> */}
+
+        {/* <StyledDot>
+          <a
+            href="/journeys"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Journeys Page</h3>
+                <p>
+                  Explore inspiring stories of achievers, their challenges, and the strategies that led them to success.
+                </p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/journeys')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot> */}
+
+        {/* <StyledDot>
+          <a
+            href="/IndustryTrends"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Industry Trends</h3>
+                <p>
+                  Share regular articles and videos on industry trends, expert insights, and career advice to keep
+                  engaged.
+                </p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/IndustryTrends')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot> */}
+
+        {/* <StyledDot>
+          <a
+            href="/AiCareer"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">AI Career Guide</h3>
+                <p>Get AI-powered career recommendations tailored to your skills, interests, and goals.</p>
+              </div>
+              <StyledButton onClick={() => (window.location.href = '/AiCareer')}>
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot> */}
+      </div>
+      {/* <div style={{ margin: '100px 0' }}></div> */}
+      {/*Powered By DevDisplay */}
+      {/* <div className="my-8 flex justify-center">
+        <img src={PoweredByDevDisplay} alt="Dev Display" className="h-auto w-[600px] text-5xl font-bold" />
+      </div> */}
+
+      {/* Tech Projects Powered by DevDisplay */}
+      {/* <div className="my-8 grid grid-cols-1 gap-6 text-center md:grid-cols-2 lg:grid-cols-4"> */}
+      {/* <StyledDot>
+          <a
+            href="https://github-legacy.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">GitHub Legacy</h3>
+                <p>Transform your GitHub journey into a professional resume in seconds</p>
+              </div>
+              <StyledButton
+                onClick={() => {
+                  window.location.href = 'https://github-legacy.vercel.app';
+                  window.open('_blank');
+                }}
+              >
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot>
+
+        <StyledDot>
+          <a
+            href="https://github-legacy.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
+          >
+            <span className="absolute inset-0"></span>
+            <div className="custom-font project-card-inner relative z-10 flex h-full flex-col justify-between rounded-lg p-[2px]">
+              <div>
+                <h3 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Resume Builder</h3>
+                <p>Transform your GitHub journey into a professional resume in seconds</p>
+              </div>
+              <StyledButton
+                onClick={() => {
+                  window.location.href = 'https://github-legacy.vercel.app';
+                  window.open('_blank');
+                }}
+              >
+                <div className="blob1" />
+                <div className="inner">Explore Now</div>
+              </StyledButton>
+            </div>
+            <div className="dot" />
+          </a>
+        </StyledDot> */}
+
+      {/*<StyledDot>
           <a
             href="/Library"
             target="_blank"
@@ -660,8 +741,8 @@ const TechFeatures = () => {
             </div>
             <div className="dot" />
           </a>
-        </StyledDot>
-      </div> */}
+        </StyledDot>*/}
+      {/* </div>  */}
       {/*Adding New Features */}
     </section>
   );
