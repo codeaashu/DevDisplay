@@ -40,7 +40,7 @@ const techevents = [
     domains: ['Sports', 'Book Reading'],
     applyLink: 'https://lu.ma/jzdpwdy6?tk=05iN8M',
     poster: '/assets/Events/The Kitab Cup.png',
-    shareLink: '#thekitabcup',
+    shareLink: '#the-kitab-cup',
   },
   {
     organizer: 'Shalaka Kulkarni',
@@ -49,7 +49,7 @@ const techevents = [
     date: 'April 18, 2025',
     domains: ['Book Reading'],
     applyLink: 'https://lu.ma/d6oz10f0',
-    poster: '/assets/Events/Tadow.png',
+    poster: '/assets/Events/Tadow  Book Reading.png',
     shareLink: '#tadow',
   },
   {
@@ -59,8 +59,8 @@ const techevents = [
     date: 'April 19, 2025',
     domains: ['Workshop', 'Web3'],
     applyLink: 'https://lu.ma/xw43ge3t',
-    poster: '/assets/Events/Infobip Workshop.png',
-    shareLink: '#infobiptechconnect',
+    poster: '/assets/Events/Infobip Tech Connect Workshop.png',
+    shareLink: '#infobip-tech-connect-workshop-2',
   },
   {
     organizer: 'Blockchained India',
@@ -69,8 +69,8 @@ const techevents = [
     date: 'April 19, 2025',
     domains: ['Web3', 'Crypto'],
     applyLink: 'https://lu.ma/4xke8cn0?tk=9xot7T',
-    poster: '/assets/Events/The HODL Tour.png',
-    shareLink: '#hodltourbitget',
+    poster: '/assets/Events/The HODL On Tour Level Up Your Web3 Game with Bitget.png',
+    shareLink: '#the-hodl-on-tour-bitget',
   },
   {
     organizer: 'ActualOne',
@@ -79,8 +79,8 @@ const techevents = [
     date: 'April 19, 2025',
     domains: ['Tech Networking'],
     applyLink: 'https://lu.ma/wzyhdwxe?tk=8G4W3I',
-    poster: '/assets/Events/LocalHost NCR.png',
-    shareLink: '#localhostncr',
+    poster: '/assets/Events/LocalHost India Tour NCR.png',
+    shareLink: '#local-host-india-tour-ncr',
   },
   {
     organizer: 'NSUT Delhi',
@@ -88,10 +88,9 @@ const techevents = [
     location: 'NSUT Delhi',
     date: 'April 19, 2025',
     domains: ['Shayari', 'Songs', 'Pickup Lines'],
-    applyLink:
-      'https://unstop.com/events/kagazi-sher-a-paper-dancing-event-moksha-netaji-subhas-university-of-technology-nsut-delhi-1459793?lb=i8K8QT8Y&utm_medium=Share&utm_source=shortUrl',
-    poster: '/assets/Events/Kagazi Sher.png',
-    shareLink: '#kagazisher',
+    applyLink: 'https://unstop.com/events/kagazi-sher-a-paper-dancing-event-moksha-netaji-subhas-university-of-technology-nsut-delhi-1459793?lb=i8K8QT8Y&utm_medium=Share&utm_source=shortUrl',
+    poster: '/assets/Events/Kagazi Sher A Paper Dancing Event.png',
+    shareLink: '#kagazi-sher-a-paper-dancing-event',
   },
   {
     organizer: 'Kaggle Days',
@@ -100,8 +99,8 @@ const techevents = [
     date: 'April 20, 2025',
     domains: ['AI/ML', 'Open Minds'],
     applyLink: 'https://lu.ma/55tn683m?tk=TLo5IH',
-    poster: '/assets/Events/Kaggle Meetup.png',
-    shareLink: '#kaggledelhi53',
+    poster: '/assets/Events/Meetup #53.png',
+    shareLink: '#meetup-delhi-ncr',
   },
   {
     organizer: 'Capxly',
@@ -110,8 +109,8 @@ const techevents = [
     date: 'April 26, 2025',
     domains: ['AI Startups', 'D2C Brands'],
     applyLink: 'https://lu.ma/hho9lk5y',
-    poster: '/assets/Events/Capxly AI Demo.png',
-    shareLink: '#capxlydemo',
+    poster: '/assets/Events/AI Demo Day X D2C.png',
+    shareLink: '#ai-demo-day-x-d2c',
   },
   {
     organizer: 'ML Chandigarh',
@@ -120,8 +119,8 @@ const techevents = [
     date: 'May 3, 2025',
     domains: ['AI', 'Gemini'],
     applyLink: 'https://www.commudle.com/communities/tfug-chandigarh/events/build-with-ai-chandigarh-edition',
-    poster: '/assets/Events/Build With AI Chandigarh.png',
-    shareLink: '#buildwithaichd',
+    poster: '/assets/Events/Build With AI Chandigarh Edition.png',
+    shareLink: '#build-with-ai-chandigarh-edition',
   },
 ];
 
