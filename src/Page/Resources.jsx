@@ -363,12 +363,6 @@ const ResourcesCards = () => {
       tags: ['AI Tools', 'Productive Tools', 'Developer Tools'],
     },
     {
-      title: 'Valuable Repositories',
-      description: 'Useful trending and valuable GitHub repositories.',
-      link: '/UsefulRepo',
-      tags: ['Github', 'OpenSource', 'Projects', 'Repositories'],
-    },
-    {
       title: 'Libraries',
       description: 'Explore and use libraries to accelerate development journey.',
       link: '/Libraries',
@@ -392,11 +386,17 @@ const ResourcesCards = () => {
       link: '/ResearchPaper',
       tags: ['Research Papers', 'Papers', 'Research', 'Tech'],
     },
+    {
+      title: 'Useful APIs',
+      description: 'Explore and use useful APIs for your projects and applications.',
+      link: '/APIs',
+      tags: ['APIs', 'Tools', 'Development', 'Projects', 'Free APIs', 'Paid APIs'],
+    },
     // {
-    //   title: 'Useful APIs',
-    //   description: 'Explore and use useful APIs for your projects and applications.',
-    //   link: '/APIs',
-    //   tags: ['APIs', 'Tools', 'Development', 'Projects', 'Free APIs', 'Paid APIs'],
+    //   title: 'Valuable Repositories',
+    //   description: 'Useful trending and valuable GitHub repositories.',
+    //   link: '/UsefulRepo',
+    //   tags: ['Github', 'OpenSource', 'Projects', 'Repositories'],
     // },
     // {
     //   title: 'Best Colleges',
