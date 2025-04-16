@@ -89,14 +89,14 @@ const courses = [
   },
   {
     platform: 'YouTube',
-    title: 'HTML - English',
+    title: 'HTML CSS - English',
     instructor: 'Simon Bao',
     duration: '7 Hour',
     level: 'Beginner',
     domain: ['Web Development', 'HTML', 'CSS', 'Frontend', 'Free'],
     courseLink: 'https://youtu.be/G3e-cpL7ofc?si=D5xPjvKi7AnfDFft',
     poster: '/assets/Courses/HTML3.png',
-    shareLink: '#htmlbysupersimpledev',
+    shareLink: '#htmlcssbysupersimpledev',
   },
   {
     platform: 'YouTube',
