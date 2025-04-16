@@ -122,7 +122,6 @@ const techevents = [
     poster: '/assets/Events/Build With AI Chandigarh Edition.png',
     shareLink: '#build-with-ai-chandigarh-edition',
   },
-  
 ];
 
 const StyledtecheventsCard = styled.div`
