@@ -18,7 +18,7 @@ const shareContent = (url) => {
   }
 };
 
-// List of Best Dev Tools
+// List of documentation resources
 
 const documentationData = [
   {
