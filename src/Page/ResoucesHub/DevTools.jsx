@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 w-full bg-gray-900 text-white shadow-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-2 py-3">
-        <a href="/opportunities">
+        <a href="/Resources">
           <button className="flex items-center gap-2 rounded-full border border-white p-2 hover:bg-gray-700">
             <ArrowLeft className="h-5 w-5" />
             <span className="hidden md:inline">Back</span>
@@ -18,10 +18,10 @@ const Navbar = () => {
         </a>
 
         <div className="flex items-center justify-center">
-          <StyledButton onClick={() => setIsModalOpen(true)}>
+          {/* <StyledButton onClick={() => setIsModalOpen(true)}>
             <div className="blob1" />
-            <div className="inner">Spotlight Your Courses Globally!</div>
-          </StyledButton>
+            <div className="inner">Spotlight Your DevTools Globally!</div>
+          </StyledButton> */}
         </div>
 
         <div className="text-2xl font-bold">
@@ -168,7 +168,7 @@ const Hero = () => {
           <div className="modgp relative inline-block w-full py-3">
             <div className="relative">
               <div className="bg-primary enabled:hover:bg-primary-dark enabled:active:bg-primary-dark enabled:focus:bg-primary-dark px-18 relative inline-flex w-full items-center justify-center rounded-lg py-5 text-6xl font-bold text-white transition-all focus:outline-none enabled:hover:shadow-md disabled:opacity-50">
-                <div className="flex w-full items-center justify-center">Courses Display</div>
+                <div className="flex w-full items-center justify-center">Dev Tools Display</div>
               </div>
             </div>
             <div className="pointer-events-none absolute inset-0">
@@ -332,37 +332,37 @@ const Hero = () => {
 
 const Tags = () => {
   const tags = [
-    'Online Hackathons',
-    'Offline Hackathons',
-    'College Hackathons',
-    'International Hackathons',
-    'Beginner Friendly Hackathons',
-    'Themed Hackathons',
-    '24-Hour Hackathons',
-    'Startup Hackathons',
-    'AI/ML Hackathons',
-    'Web Development Hackathons',
-    'Game Dev Hackathons',
-    'Women-Only Hackathons',
-    'Student Competitions',
-    'Coding Competitions',
-    '36-Hour Hackathons',
-    'Global Coding Challenges',
-    'Team-Based Competitions',
-    'Solo Coding Challenges',
-    '48-Hour Hackathons',
-    'Competitive Programming Contests',
-    'Blockchain Hackathons',
-    'Cybersecurity Hackathons',
-    'Web3 Hackathons',
-    'IOT Hackathons',
-    '72-Hour Hackathons',
+    'Frontend Tools',
+    'Backend Tools',
+    'API Testing Tools',
+    'Version Control Tools',
+    'Database Management Tools',
+    'Authentication & Security Tools',
+    'DevOps & CI/CD Tools',
+    'Performance Monitoring Tools',
+    'Design & Prototyping Tools',
+    'Package Management Tools',
+    'Containerization Tools',
+    'Cloud Development Tools',
+    'AI & Machine Learning Tools',
+    'Code Editors & IDEs',
+    'Debugging Tools',
+    'Static Site Generator Tools',
+    'Mobile Development Tools',
+    'Web Framework Tools',
+    'Browser Extension Tools',
+    'Open Source Tools',
+    'Productivity Tools',
+    'Documentation Tools',
+    'Collaboration Tools',
+    'Terminal Utilities',
+    'Linting & Code Quality Tools',
   ];
 
   return (
     <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
       <h1 className="text-md text-primary mb-8 text-center font-bold text-[#00a6fb] lg:text-2xl">
-        Explore the top best tech courses!
+        Explore and find the best tools for your daily development needs!
       </h1>
       {/* <h2 className="text-md text-primary mb-8 text-center text-[#00a6fb] font-bold lg:text-2xl">One Platform, Endless Tech Hackathon</h2> */}
 
@@ -601,7 +601,7 @@ const StyledWrapper = styled.div`
   }
 `;
 
-const Courses = () => {
+const DevTools = () => {
   return (
     <div className="background-wrapper min-h-screen bg-gray-900">
       <Navbar />
@@ -613,4 +613,4 @@ const Courses = () => {
   );
 };
 
-export default Courses;
+export default DevTools;

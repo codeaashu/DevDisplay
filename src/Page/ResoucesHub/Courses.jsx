@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 w-full bg-gray-900 text-white shadow-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-2 py-3">
-        <a href="/opportunities">
+        <a href="/Resources">
           <button className="flex items-center gap-2 rounded-full border border-white p-2 hover:bg-gray-700">
             <ArrowLeft className="h-5 w-5" />
             <span className="hidden md:inline">Back</span>
@@ -18,10 +18,10 @@ const Navbar = () => {
         </a>
 
         <div className="flex items-center justify-center">
-          <StyledButton onClick={() => setIsModalOpen(true)}>
+          {/* <StyledButton onClick={() => setIsModalOpen(true)}>
             <div className="blob1" />
             <div className="inner">Spotlight Your Courses Globally!</div>
-          </StyledButton>
+          </StyledButton> */}
         </div>
 
         <div className="text-2xl font-bold">
@@ -332,31 +332,39 @@ const Hero = () => {
 
 const Tags = () => {
   const tags = [
-    'Online Hackathons',
-    'Offline Hackathons',
-    'College Hackathons',
-    'International Hackathons',
-    'Beginner Friendly Hackathons',
-    'Themed Hackathons',
-    '24-Hour Hackathons',
-    'Startup Hackathons',
-    'AI/ML Hackathons',
-    'Web Development Hackathons',
-    'Game Dev Hackathons',
-    'Women-Only Hackathons',
-    'Student Competitions',
-    'Coding Competitions',
-    '36-Hour Hackathons',
-    'Global Coding Challenges',
-    'Team-Based Competitions',
-    'Solo Coding Challenges',
-    '48-Hour Hackathons',
-    'Competitive Programming Contests',
-    'Blockchain Hackathons',
-    'Cybersecurity Hackathons',
-    'Web3 Hackathons',
-    'IOT Hackathons',
-    '72-Hour Hackathons',
+    'Frontend Development',
+    'Backend Development',
+    'Full-Stack Development',
+    'Web Development',
+    'Mobile App Development',
+    'JavaScript Courses',
+    'React Courses',
+    'Node.js Courses',
+    'Python Courses',
+    'Java Courses',
+    'C++ Courses',
+    'Data Structures & Algorithms',
+    'System Design',
+    'DevOps & Cloud',
+    'Docker & Kubernetes',
+    'CI/CD & Deployment',
+    'Database & SQL',
+    'NoSQL Databases',
+    'Cybersecurity Fundamentals',
+    'Blockchain Development',
+    'Web3 Courses',
+    'Machine Learning',
+    'Artificial Intelligence',
+    'Data Science',
+    'Git & Version Control',
+    'APIs & RESTful Services',
+    'UI/UX Design',
+    'Clean Code & Best Practices',
+    'Testing & Debugging',
+    'Competitive Programming',
+    'Interview Preparation',
+    'DSA Crash Courses',
+    'Open Source Contribution',
   ];
 
   return (
