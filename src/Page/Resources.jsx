@@ -345,12 +345,6 @@ const ResourcesCards = () => {
       tags: ['Courses', 'Tech', 'Programming Languages'],
     },
     {
-      title: 'Notes',
-      description: 'Essential notes to simplify learning tech skills and programming languages.',
-      link: '/Notes',
-      tags: ['Notes', 'Hand Written', 'Programming Languages'],
-    },
-    {
       title: 'Documentation',
       description: 'Official documentation for popular libraries and frameworks.',
       link: '/Documentation',
@@ -367,6 +361,12 @@ const ResourcesCards = () => {
       description: 'Explore and use libraries to accelerate development journey.',
       link: '/Libraries',
       tags: ['Libraries', 'Tools', 'OpenSource', 'Development'],
+    },
+    {
+      title: 'Notes',
+      description: 'Essential notes to simplify learning tech skills and programming languages.',
+      link: '/Notes',
+      tags: ['Notes', 'Hand Written', 'Programming Languages'],
     },
     {
       title: 'Roadmaps',
@@ -461,10 +461,16 @@ const ResourcesCards = () => {
                       ))}
                     </div>
                   </div>
-                  <StyledButton onClick={() => (window.location.href = '/Resources')}>
-                    <div className="blob1" />
-                    <div className="inner">Explore Now</div>
-                  </StyledButton>
+                  {['Notes', 'Roadmaps', 'Preparation', 'Research Paper', 'Useful APIs'].includes(resources.title) ? (
+                    <StyledButton disabled>
+                      <div className="inner">Coming Soon</div>
+                    </StyledButton>
+                  ) : (
+                    <StyledButton onClick={() => (window.location.href = resources.link)}>
+                      <div className="blob1" />
+                      <div className="inner">Explore Now</div>
+                    </StyledButton>
+                  )}
                 </div>
                 <div className="dot" />
               </a>

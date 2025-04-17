@@ -9,6 +9,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import Marquee from 'react-fast-marquee';
 import { Badges } from './Badges';
+import {
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+  FaDiscord,
+  FaMapMarkerAlt,
+  FaEnvelope,
+  FaCheckCircle,
+} from 'react-icons/fa';
+import { IoMdShareAlt } from 'react-icons/io';
+import { SiDevdotto } from 'react-icons/si';
 
 // Removed duplicate import to avoid redeclaration of SupportersComponent
 
@@ -1078,6 +1089,120 @@ export const SupportersComponent = () => {
   );
 };
 
+const DeveloperCard = () => {
+  return (
+    <div
+      className="flex flex-col items-center justify-between rounded-xl border p-4 md:flex-row"
+      style={{ borderColor: '#00a6fb', backgroundColor: 'rgba(1, 11, 31, 0.58)', color: '#e2e8f0' }}
+    >
+      {/* Left Developer Card */}
+      <div className="flex w-full flex-col items-start p-4 md:w-1/2">
+        <div className="flex items-center space-x-4">
+          <img src="/CREATOR.jpg" alt="Developer" className="h-20 w-20 rounded-full object-cover" />
+          <div>
+            <h2 className="flex items-center text-xl font-bold">
+              Ashutosh Singh <FaCheckCircle className="ml-2 text-blue-400" />
+            </h2>
+            <p className="flex items-center gap-2 text-sm text-gray-300">
+              <FaMapMarkerAlt className="text-blue-400" /> Mostly On DevDisplay
+            </p>
+            <div className="mt-2 flex gap-2 text-sm">
+              <span className="rounded bg-gray-700 px-2 py-1">WEB APP Development</span>
+              <span className="rounded bg-gray-700 px-2 py-1">Web Designing</span>
+            </div>
+          </div>
+        </div>
+
+        <p className="mt-4">
+          Building 🌐 Paradise for Developers – <strong>DevDisplay</strong>
+        </p>
+
+        <div className="mt-4 flex items-center gap-4 text-xl">
+          <FaGithub />
+          <FaLinkedin />
+          <FaInstagram />
+          <FaDiscord />
+          <IoMdShareAlt />
+          <SiDevdotto />
+          <FaEnvelope />
+        </div>
+      </div>
+
+      {/* Right Verification Steps */}
+      <div className="mt-6 flex w-full flex-col items-center justify-center md:mt-0 md:w-1/2">
+        <h3 className="mb-2 flex items-center gap-2 text-2xl font-semibold">
+          <FaCheckCircle className="text-blue-400" />
+          Verify Your Developer Profile
+        </h3>
+        <p className="mb-4 text-center text-sm">Follow this step to get a blue tick on your developer profile</p>
+        <style>
+          {`
+  @keyframes arrowMove {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(6px); }
+    100% { transform: translateX(0); }
+  }
+
+  .arrow-animate {
+    animation: arrowMove 1.2s infinite;
+  }
+`}
+        </style>
+
+        <div className="mt-6 flex items-center justify-center gap-6">
+          {/* Box 1 */}
+          <a
+            href="/"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center text-center transition-transform hover:scale-105"
+          >
+            <div className="flex h-24 w-24 items-center justify-center rounded-lg border-2 border-[#00A6FB] p-4">
+              <img src="/assets/Profile.png" alt="Profile" className="h-16 w-16 object-contain" />
+            </div>
+            <p className="mt-2 text-sm font-medium text-[#e2e8f0]">Add Your Profile</p>
+          </a>
+
+          {/* Arrow 1 */}
+          <div className="flex h-24 items-center justify-center">
+            <span className="arrow-animate text-3xl text-[#00A6FB]">→</span>
+          </div>
+
+          {/* Box 2 */}
+          <a
+            href="/PortfolioIdeas"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center text-center transition-transform hover:scale-105"
+          >
+            <div className="flex h-24 w-24 items-center justify-center rounded-lg border-2 border-[#00A6FB] p-4">
+              <img src="/assets/Portfolio.png" alt="Portfolio" className="h-16 w-16 object-contain" />
+            </div>
+            <p className="mt-2 text-sm font-medium text-[#e2e8f0]">Add Your Portfolio</p>
+          </a>
+
+          {/* Arrow 2 */}
+          <div className="flex h-24 items-center justify-center">
+            <span className="arrow-animate text-3xl text-[#00A6FB]">→</span>
+          </div>
+
+          {/* Box 3 */}
+          <a
+            href="/ProjectShowcase"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center text-center transition-transform hover:scale-105"
+          >
+            <div className="flex h-24 w-24 items-center justify-center rounded-lg border-2 border-[#00A6FB] p-4">
+              <img src="/assets/Project.png" alt="Projects" className="h-16 w-16 object-contain" />
+            </div>
+            <p className="mt-2 text-sm font-medium text-[#e2e8f0]">Add minimum 5 projects</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const Home = () => {
   return (
     <div className="background-wrapper bg-gray-400">
@@ -1090,6 +1215,7 @@ const Home = () => {
       <div style={{ margin: '30px 0' }}></div>
       <Badges />
       <div style={{ margin: '20px 0' }}></div>
+      <DeveloperCard />
       <SupportersComponent />
       <Footer />
     </div>
