@@ -207,7 +207,7 @@ const Developers = () => (
           OpenSource
         </a>
       </div>
-      <div>
+      {/* <div>
         <h3 className="mb-2 text-sm font-medium">Evolution</h3>
         <a href="https://www.devdisplay.org/ProjectShowcase" className="mb-1 block text-sm text-neutral-400">
           Project Hub
@@ -224,14 +224,14 @@ const Developers = () => (
         <a href="https://www.devdisplay.org/ResumeBuilder" className="block text-sm text-neutral-400">
           Resume Building
         </a>
-      </div>
+      </div> */}
     </div>
   </div>
 );
 
 const Pricing = () => (
   <div className="grid grid-cols-3 gap-4 divide-x divide-neutral-700">
-    <a
+    {/* <a
       href="#"
       className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
     >
@@ -251,14 +251,14 @@ const Pricing = () => (
     >
       <FiPieChart className="mb-2 text-xl text-indigo-300" />
       <span className="text-xs">Enterprise</span>
-    </a>
+    </a> */}
   </div>
 );
 
 const Blog = () => (
   <div>
     <div className="grid grid-cols-2 gap-2">
-      <a href="#">
+      {/* <a href="#">
         <img className="mb-2 h-14 w-full rounded object-cover" src="/imgs/blog/4.png" alt="Placeholder image" />
         <h4 className="mb-0.5 text-sm font-medium">Lorem ipsum dolor</h4>
         <p className="text-xs text-neutral-400">
@@ -271,7 +271,7 @@ const Blog = () => (
         <p className="text-xs text-neutral-400">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo quidem eos.
         </p>
-      </a>
+      </a> */}
     </div>
   </div>
 );
@@ -281,14 +281,14 @@ const TABS = [
     title: 'Developers',
     Component: Developers,
   },
-  {
-    title: 'Pricing',
-    Component: Pricing,
-  },
-  {
-    title: 'Blog',
-    Component: Blog,
-  },
+  // {
+  //   title: 'Pricing',
+  //   Component: Pricing,
+  // },
+  // {
+  //   title: 'Blog',
+  //   Component: Blog,
+  // },
 ].map((n, idx) => ({ ...n, id: idx + 1 }));
 
 export default Navbar;
