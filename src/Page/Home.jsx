@@ -826,6 +826,14 @@ const Tags = () => {
 };
 
 const CardSection = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalContent, setModalContent] = useState('');
+
+  const openModal = (content) => {
+    setModalContent(content);
+    setIsModalOpen(true);
+  };
+
   return (
     <section className="card-section flex items-center justify-center py-0">
       <StyledWrapper>
@@ -844,11 +852,23 @@ const CardSection = () => {
                 matter.
               </p>
               <div className="flex gap-12">
-                <StyledButton onClick={() => window.open('#', '_blank')}>
+                <StyledButton
+                  onClick={() =>
+                    openModal(
+                      'https://tally.so/embed/npZYxy?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1',
+                    )
+                  }
+                >
                   <div className="blob1" />
                   <div className="inner">✨ Suggest new idea!</div>
                 </StyledButton>
-                <StyledButton onClick={() => window.open('#', '_blank')}>
+                <StyledButton
+                  onClick={() =>
+                    openModal(
+                      'https://tally.so/embed/mVxWG6?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1',
+                    )
+                  }
+                >
                   <div className="blob1" />
                   <div className="inner">💀 Roast DevDisplay!</div>
                 </StyledButton>
@@ -860,6 +880,38 @@ const CardSection = () => {
           </div>
         </div>
       </StyledWrapper>
+
+      {isModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white">
+            <div className="mb-4 flex items-center justify-between">
+              <h2 className="text-xl font-semibold">You Matter! Your Feedback Matter!</h2>
+              <button onClick={() => setIsModalOpen(false)} className="text-gray-400 hover:text-white">
+                X
+              </button>
+            </div>
+
+            <iframe
+              src={modalContent}
+              width="100%"
+              height="500px"
+              frameBorder="0"
+              title="Tally Form"
+              className="rounded-lg"
+            ></iframe>
+
+            <div className="mt-4 flex justify-end">
+              <button
+                type="button"
+                onClick={() => setIsModalOpen(false)}
+                className="rounded-lg bg-gray-700 px-4 py-2 text-white transition-colors hover:bg-gray-600"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 };
