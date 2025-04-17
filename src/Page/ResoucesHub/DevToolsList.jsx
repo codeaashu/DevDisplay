@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap, faUser, faClock, faShareAlt } from '@fortawesome/free-solid-svg-icons';
+import { faExternalLinkAlt, faTools, faShareAlt } from '@fortawesome/free-solid-svg-icons';
 
 const shareContent = (url) => {
   if (navigator.share) {
@@ -18,101 +18,165 @@ const shareContent = (url) => {
   }
 };
 
-// List of Best Tech Courses on the Internet
+// List of Best Dev Tools
 
-const courses = [
+const devtools = [
   {
-    platform: 'YouTube',
-    title: 'Javascript - Hindi | part 1',
-    instructor: 'Hitesh Choudhary',
-    duration: '9 Hour',
-    level: 'Beginner',
-    domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'Free'],
-    courseLink: 'https://youtu.be/sscX432bMZo?si=5ig6-ErKPW97NU5L',
-    poster: '/assets/Courses/JSHiteshChoudhary.png',
-    shareLink: '#javascript-part-1-hc',
+    name: 'Postman',
+    description: 'API testing tool to streamline development and collaboration.',
+    category: ['API', 'Testing'],
+    link: 'https://www.postman.com/',
+    image: '/assets/DevTools/Postman.png',
+    shareLink: '#postman',
+    howToUseLink: 'https://learning.postman.com/docs/getting-started/introduction/',
   },
   {
-    platform: 'YouTube',
-    title: 'Javascript - Hindi | part 2',
-    instructor: 'Hitesh Choudhary',
-    duration: '10 Hour',
-    level: 'Beginner',
-    domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'Free'],
-    courseLink: 'https://youtu.be/_TjtAyMkiTI?si=XwtFRiCPTWQNgAOH',
-    poster: '/assets/Courses/JSHiteshChoudhary.png',
-    shareLink: '#javascript-part-2-hc',
+    name: 'GitHub Copilot',
+    description: 'AI pair programmer that helps you write code faster with autocomplete.',
+    category: ['AI', 'Code Completion', 'Productivity'],
+    link: 'https://github.com/features/copilot',
+    image: '/assets/DevTools/Copilot.jpg',
+    shareLink: '#github-copilot',
+    howToUseLink: 'https://github.com/features/copilot',
   },
   {
-    platform: 'YouTube',
-    title: 'HTML - Hindi',
-    instructor: 'Prashant Jain',
-    duration: '4 Hour',
-    level: 'Beginner',
-    domain: ['Web Development', 'HTML', 'Frontend', 'Free'],
-    courseLink: 'https://youtu.be/rklidcZ-aLU?si=2iv5ZV0EypTpTsw7',
-    poster: '/assets/Courses/HTML1.png',
-    shareLink: '#htmlbyprashantJain',
+    name: 'Figma',
+    description: 'Collaborative UI/UX design tool used for wireframes, prototypes, and more.',
+    category: ['Design', 'Collaboration'],
+    link: 'https://figma.com/',
+    image: '/assets/DevTools/Figma.png',
+    shareLink: '#figma',
+    howToUseLink: 'https://figma.com/resources',
   },
   {
-    platform: 'YouTube',
-    title: 'CSS - Hindi',
-    instructor: 'Prashant Jain',
-    duration: '8 Hour',
-    level: 'Beginner',
-    domain: ['Web Development', 'CSS', 'Frontend', 'Free'],
-    courseLink: 'https://youtu.be/OpWjt_wbV4E?si=u_Z9BbUrhim4Ne9_',
-    poster: '/assets/Courses/CSS1.png',
-    shareLink: '#cssbyprashantJain',
+    name: 'ChatGPT',
+    description: 'AI assistant for generating code, fixing bugs, and more.',
+    category: ['AI', 'Productivity', 'Helper'],
+    link: 'https://chat.openai.com/',
+    image: '/assets/DevTools/ChatGPT.png',
+    shareLink: '#chatgpt',
+    howToUseLink: 'https://chat.openai.com/',
   },
   {
-    platform: 'YouTube',
-    title: 'HTML - Hindi',
-    instructor: 'Love Babbar',
-    duration: '6 Hour',
-    level: 'Beginner',
-    domain: ['Web Development', 'HTML', 'Frontend', 'Free'],
-    courseLink: 'https://youtu.be/k7ELO356Npo?si=YYhRTsCFGLGbFF1h',
-    poster: '/assets/Courses/HTML4.png',
-    shareLink: '#htmlbylovebabbar',
+    name: 'TabNine',
+    description: 'AI-powered code completion tool for faster development.',
+    category: ['AI', 'Code Completion'],
+    link: 'https://www.tabnine.com/',
+    image: '/assets/DevTools/Tabnine.jpg',
+    shareLink: '#tabnine',
+    howToUseLink: 'https://www.tabnine.com/docs',
   },
   {
-    platform: 'YouTube',
-    title: 'CSS - Hindi',
-    instructor: 'Love Babbar',
-    duration: '11 Hour',
-    level: 'Beginner',
-    domain: ['Web Development', 'CSS', 'Frontend', 'Free'],
-    courseLink: 'https://youtu.be/dSJM4Gyh8jE?si=0DA97_AKrV3bfKFo',
-    poster: '/assets/Courses/CSS2.png',
-    shareLink: '#cssbylovebabbar',
+    name: 'Codota',
+    description: 'AI code completion tool for Java and Kotlin developers.',
+    category: ['AI', 'Code Completion'],
+    link: 'https://www.codota.com/',
+    image: '/assets/DevTools/Codota.jpg',
+    shareLink: '#codota',
+    howToUseLink: 'https://www.codota.com/docs',
   },
   {
-    platform: 'YouTube',
-    title: 'HTML CSS - English',
-    instructor: 'Simon Bao',
-    duration: '7 Hour',
-    level: 'Beginner',
-    domain: ['Web Development', 'HTML', 'CSS', 'Frontend', 'Free'],
-    courseLink: 'https://youtu.be/G3e-cpL7ofc?si=D5xPjvKi7AnfDFft',
-    poster: '/assets/Courses/HTML3.png',
-    shareLink: '#htmlcssbysupersimpledev',
+    name: 'Hugging Face',
+    description: 'AI platform for natural language processing and machine learning.',
+    category: ['AI', 'NLP', 'ML'],
+    link: 'https://huggingface.co/',
+    image: '/assets/DevTools/HuggingFace.jpg',
+    shareLink: '#huggingface',
+    howToUseLink: 'https://huggingface.co/docs',
   },
   {
-    platform: 'YouTube',
-    title: 'CSS - English',
-    instructor: 'Dave Gray',
-    duration: '11 Hour',
-    level: 'Beginner',
-    domain: ['Web Development', 'CSS', 'Frontend', 'Free'],
-    courseLink: 'https://youtu.be/OXGznpKZ_sA?si=_2uGEik_pdGQM_Ks',
-    poster: '/assets/Courses/CSS3.png',
-    shareLink: '#htmlbydavegray',
+    name: 'OpenAI Codex',
+    description: 'AI system that translates natural language to code.',
+    category: ['AI', 'Code Generation'],
+    link: 'https://openai.com/',
+    image: '/assets/DevTools/OpenAICodex.webp',
+    shareLink: '#openai-codex',
+    howToUseLink: 'https://openai.com/docs',
   },
-  // Add more courses similarly...
+  {
+    name: 'PyCaret',
+    description: 'Low-code machine learning library for Python.',
+    category: ['AI', 'ML', 'Python'],
+    link: 'https://pycaret.org/',
+    image: '/assets/DevTools/Pycaret.jpg',
+    shareLink: '#pycaret',
+    howToUseLink: 'https://pycaret.org/docs',
+  },
+  {
+    name: 'DataRobot',
+    description: 'AI platform for building and deploying machine learning models.',
+    category: ['AI', 'ML', 'Automation'],
+    link: 'https://www.datarobot.com/',
+    image: '/assets/DevTools/DataRobot.png',
+    shareLink: '#datarobot',
+    howToUseLink: 'https://www.datarobot.com/platform/',
+  },
+  {
+    name: 'TensorFlow',
+    description: 'Open-source platform for machine learning and AI development.',
+    category: ['AI', 'ML', 'Framework'],
+    link: 'https://www.tensorflow.org/',
+    image: '/assets/DevTools/Tensorflow.png',
+    shareLink: '#tensorflow',
+    howToUseLink: 'https://www.tensorflow.org/learn',
+  },
+  {
+    name: 'Dialogflow',
+    description: 'AI tool for building conversational interfaces and chatbots.',
+    category: ['AI', 'Chatbots', 'NLP'],
+    link: 'https://dialogflow.cloud.google.com/',
+    image: '/assets/DevTools/Dialogflow.jpg',
+    shareLink: '#dialogflow',
+    howToUseLink: 'https://cloud.google.com/dialogflow/docs',
+  },
+  {
+    name: 'Runway ML',
+    description: 'AI tool for creating and editing media content.',
+    category: ['AI', 'Media', 'Creativity'],
+    link: 'https://runwayml.com/',
+    image: '/assets/DevTools/Runway.png',
+    shareLink: '#runwayml',
+    howToUseLink: 'https://runwayml.com/docs',
+  },
+  {
+    name: 'Replit Ghostwriter',
+    description: 'AI-powered code completion and debugging tool.',
+    category: ['AI', 'Code Completion', 'Debugging'],
+    link: 'https://replit.com/',
+    image: '/assets/DevTools/Ghostwriter.png',
+    shareLink: '#replit-ghostwriter',
+    howToUseLink: 'https://replit.com/site/ghostwriter',
+  },
+  {
+    name: 'Wit.ai',
+    description: 'AI tool for building natural language interfaces.',
+    category: ['AI', 'NLP', 'Chatbots'],
+    link: 'https://wit.ai/',
+    image: '/assets/DevTools/WITAI.jpg',
+    shareLink: '#witai',
+    howToUseLink: 'https://wit.ai/docs',
+  },
+  {
+    name: 'Clarifai',
+    description: 'AI platform for visual recognition and machine learning.',
+    category: ['AI', 'Vision', 'ML'],
+    link: 'https://www.clarifai.com/',
+    image: '/assets/DevTools/Clarifai.png',
+    shareLink: '#clarifai',
+    howToUseLink: 'https://www.clarifai.com/docs',
+  },
+  {
+    name: 'Cohere',
+    description: 'AI platform for natural language understanding and generation.',
+    category: ['AI', 'NLP', 'ML'],
+    link: 'https://cohere.ai/',
+    image: '/assets/DevTools/Cohere.png',
+    shareLink: '#cohere',
+    howToUseLink: 'https://docs.cohere.ai/',
+  },
 ];
 
-const StyledCoursesCard = styled.div`
+const StyledDevToolsCard = styled.div`
   position: relative;
   border: 1px solid rgb(182, 228, 250);
   background: linear-gradient(to right, rgba(15, 27, 53, 0.44), rgba(0, 43, 62, 0.43));
@@ -187,31 +251,29 @@ const StyledCoursesCard = styled.div`
     }
   }
 `;
-const CoursesCardComponent = ({
-  platform,
-  title,
-  instructor,
-  duration,
-  level,
-  domain,
-  courseLink,
-  poster,
-  shareLink,
-}) => {
+
+const DevToolsCardComponent = ({ name, description, category, link, image, shareLink, howToUseLink }) => {
   return (
-    <StyledCoursesCard id={shareLink.substring(1)}>
+    <StyledDevToolsCard id={shareLink.substring(1)}>
       <div className="flex items-center justify-between p-2">
-        <span className="text-sm font-semibold text-white">
-          <FontAwesomeIcon icon={faGraduationCap} className="mr-1 text-[#00a6fb]" /> {platform}
-        </span>
         <a
-          href={courseLink}
+          href={howToUseLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-1 text-sm font-semibold text-[#00a6fb] underline hover:text-white"
+        >
+          <FontAwesomeIcon icon={faTools} className="text-[#00a6fb]" />
+          How to Use
+        </a>
+
+        <a
+          href={link}
           target="_blank"
           rel="noopener noreferrer"
           className="bg-gray-1000 hover:bg-gray-1000 text-semibold relative flex items-center rounded-full border border-[#00a6fb] px-2 py-1 text-gray-300"
         >
-          <div className="status-user" style={{ marginRight: '8px' }} />
-          View Course
+          <FontAwesomeIcon icon={faExternalLinkAlt} className="mr-1" />
+          Visit
         </a>
       </div>
 
@@ -219,16 +281,16 @@ const CoursesCardComponent = ({
         <div className="absolute bottom-3 right-3 z-10">
           <button
             onClick={() => shareContent(window.location.href.split('#')[0] + shareLink)}
-            className="bg-gray-1000 hover:bg-slate-1000 flex items-center justify-center gap-2 rounded-xl border border-[#00a6fb] bg-opacity-50 px-2 py-1 text-xs text-white backdrop-blur-md transition-colors"
+            className="bg-gray-1000 hover:bg-slate-1000 text-#00a6fb flex items-center justify-center gap-2 rounded-xl border border-[#00a6fb] bg-opacity-50 px-2 py-1 text-xs backdrop-blur-md transition-colors"
           >
             <FontAwesomeIcon icon={faShareAlt} />
             Share
           </button>
         </div>
         <img
-          src={poster}
-          alt={`${title} Poster`}
-          className="h-full w-full rounded-lg object-cover"
+          src={image}
+          alt={`${name} Logo`}
+          className="h-full w-full rounded-lg bg-white object-contain"
           onError={(e) => {
             e.target.onerror = null;
             e.target.src = '/images/default.png';
@@ -236,27 +298,18 @@ const CoursesCardComponent = ({
         />
       </div>
 
-      <h2 className="mt-1 p-1 text-center text-lg font-bold text-white">{title}</h2>
+      <h2 className="mt-1 p-1 text-center text-lg font-bold text-white">{name}</h2>
 
-      <div className="flex justify-between p-2 text-sm text-[#00a6fb]">
-        <span>
-          <FontAwesomeIcon icon={faUser} className="mr-1 text-white" /> {instructor}
-        </span>
-        <span>
-          <FontAwesomeIcon icon={faClock} className="mr-1 text-white" /> {duration}
-        </span>
-      </div>
+      <p className="px-3 text-center text-sm text-gray-400">{description}</p>
 
-      <div className="pb-2 text-center text-xs text-gray-300">Level: {level}</div>
-
-      <div className="mt-2 flex flex-wrap justify-center gap-2 p-2">
-        {domain.map((d, idx) => (
+      <div className="mt-3 flex flex-wrap justify-center gap-2 p-2">
+        {category.map((cat, idx) => (
           <span key={idx} className="bg-gray-1000 rounded-full border border-[#00a6fb] px-2 py-1 text-xs text-gray-300">
-            {d}
+            {cat}
           </span>
         ))}
       </div>
-    </StyledCoursesCard>
+    </StyledDevToolsCard>
   );
 };
 
@@ -273,7 +326,7 @@ const CoursesCardComponent = ({
                     `}
 </style>;
 
-const CoursesListContainer = styled.div`
+const DevToolsListContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -300,9 +353,9 @@ const FilterContainer = styled.div`
 
   input,
   select {
-    padding: 0.75rem 1rem; /* Adjusted padding */
+    padding: 0.75rem 1rem;
     border: 1px solid #00a6fb;
-    border-radius: 9999px; /* fully rounded */
+    border-radius: 9999px;
     background: rgba(15, 27, 53, 0.9);
     color: #ffffff;
     font-size: 1rem;
@@ -327,62 +380,40 @@ const FilterContainer = styled.div`
   }
 `;
 
-const CoursesList = () => {
-  const [platformFilter, setPlatformFilter] = useState('');
-  const [instructorFilter, setInstructorFilter] = useState('');
-  const [domainFilter, setDomainFilter] = useState('');
+const DevToolsList = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [categorySearchTerm, setCategorySearchTerm] = useState('');
 
-  const filteredCourses = courses.filter((course) => {
-    const matchesPlatform = platformFilter
-      ? course.platform.toLowerCase().includes(platformFilter.toLowerCase())
-      : true;
-
-    const matchesInstructor = instructorFilter
-      ? course.instructor.toLowerCase().includes(instructorFilter.toLowerCase())
-      : true;
-
-    const matchesDomain = domainFilter
-      ? course.domain.some((d) => d.toLowerCase().includes(domainFilter.toLowerCase()))
-      : true;
-
-    return matchesPlatform && matchesInstructor && matchesDomain;
+  const filteredDevTools = devtools.filter((tool) => {
+    const matchesName = tool.name.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesCategory = tool.category.some((cat) => cat.toLowerCase().includes(categorySearchTerm.toLowerCase()));
+    return matchesName && matchesCategory;
   });
 
   return (
     <>
-      <FilterContainer className="flex flex-wrap gap-2 p-4">
+      <FilterContainer>
         <input
           type="text"
-          placeholder="Search by platform"
-          value={platformFilter}
-          onChange={(e) => setPlatformFilter(e.target.value)}
-          className="rounded-md border border-[#00a6fb] bg-gray-900 p-2 text-sm text-white"
+          placeholder="Search by name..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
         />
         <input
           type="text"
-          placeholder="Search by instructor"
-          value={instructorFilter}
-          onChange={(e) => setInstructorFilter(e.target.value)}
-          className="rounded-md border border-[#00a6fb] bg-gray-900 p-2 text-sm text-white"
-        />
-        <input
-          type="text"
-          placeholder="Search by domain"
-          value={domainFilter}
-          onChange={(e) => setDomainFilter(e.target.value)}
-          className="rounded-md border border-[#00a6fb] bg-gray-900 p-2 text-sm text-white"
+          placeholder="Search by category..."
+          value={categorySearchTerm}
+          onChange={(e) => setCategorySearchTerm(e.target.value)}
         />
       </FilterContainer>
 
-      <CoursesListContainer className="flex flex-wrap justify-center">
-        {filteredCourses.length > 0 ? (
-          filteredCourses.map((course, idx) => <CoursesCardComponent key={idx} {...course} />)
-        ) : (
-          <p className="mt-4 w-full text-center text-white">No courses found matching your filters.</p>
-        )}
-      </CoursesListContainer>
+      <DevToolsListContainer className="flex flex-wrap justify-center">
+        {filteredDevTools.map((tool, idx) => (
+          <DevToolsCardComponent key={idx} {...tool} />
+        ))}
+      </DevToolsListContainer>
     </>
   );
 };
 
-export default CoursesList;
+export default DevToolsList;

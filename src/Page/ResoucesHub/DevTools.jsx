@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import styled from 'styled-components';
 import Marquee from 'react-fast-marquee';
-import CoursesList from './Courseslist.jsx';
+import DevToolsList from './DevToolsList.jsx';
 
 const Navbar = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -608,7 +608,7 @@ const Courses = () => {
       <Hero />
       <Tags />
       <div className="my-4"></div>
-      <CoursesList />
+      <DevToolsList />
     </div>
   );
 };
