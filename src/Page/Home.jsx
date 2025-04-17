@@ -53,7 +53,6 @@ const CountdownTimer = () => {
     <div className="my-4 text-center">
       <div className="flex items-center gap-2">
         <h2 className="custom-font text-1xl flex items-center gap-1 font-bold text-gray-400">
-          v2.0 Dropping Soon
           <img
             src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png"
             alt="High Voltage"
