@@ -7,8 +7,8 @@ const shareContent = (url) => {
   if (navigator.share) {
     navigator
       .share({
-        title: 'Check out this awesome Dev Tool!',
-        text: 'I found this amazing tool that might help you in your development work.',
+        title: 'Check out this library!',
+        text: 'I found this amazing library that you might like.',
         url: url,
       })
       .then(() => console.log('Successful share'))
@@ -26,7 +26,7 @@ const libraryData = [
     description: 'Tailwind CSS components for building modern UIs.',
     category: ['CSS', 'UI Components'],
     link: 'https://daisyui.com/',
-    image: '/assets/Libraries/DaisyUI.png', // Local image path
+    image: '/assets/Libraries/DaisyUI.png',
     shareLink: '#daisyui',
   },
   {
@@ -34,7 +34,7 @@ const libraryData = [
     description: 'Free UI elements and components for modern web design.',
     category: ['CSS', 'UI Components'],
     link: 'https://uiverse.io/',
-    image: '/assets/Libraries/UIVERSE.png', // Local image path
+    image: '/assets/Libraries/UIVERSE.png',
     shareLink: '#uiverse',
   },
   {
@@ -42,7 +42,7 @@ const libraryData = [
     description: 'Free and premium Tailwind CSS UI components.',
     category: ['CSS', 'UI Components'],
     link: 'https://floatui.com/',
-    image: '/assets/Libraries/FloatUI.png', // Local image path
+    image: '/assets/Libraries/FloatUI.png',
     shareLink: '#floatui',
   },
   {
@@ -50,7 +50,7 @@ const libraryData = [
     description: 'Beautifully designed components built with Radix UI and Tailwind CSS.',
     category: ['CSS', 'UI Components'],
     link: 'https://ui.shadcn.com/',
-    image: '/assets/Libraries/ShadcnUI.png', // Local image path
+    image: '/assets/Libraries/ShadcnUI.png',
     shareLink: '#shadcn-ui',
   },
   {
@@ -58,7 +58,7 @@ const libraryData = [
     description: 'Modern UI components for building responsive web applications.',
     category: ['CSS', 'UI Components'],
     link: 'https://ui.aceternity.com/',
-    image: '/assets/Libraries/AceternityUI.png', // Local image path
+    image: '/assets/Libraries/AceternityUI.png',
     shareLink: '#aceternity-ui',
   },
   {
@@ -66,7 +66,7 @@ const libraryData = [
     description: 'A collection of magical UI components for modern web design.',
     category: ['CSS', 'UI Components'],
     link: 'https://magicui.design/',
-    image: '/assets/Libraries/MagicUI.png', // Local image path
+    image: '/assets/Libraries/MagicUI.png',
     shareLink: '#magic-ui',
   },
   {
@@ -74,8 +74,88 @@ const libraryData = [
     description: 'Hero-themed UI components for building stunning web interfaces.',
     category: ['CSS', 'UI Components'],
     link: 'https://www.heroui.com/',
-    image: '/assets/Libraries/HeroUI.png', // Local image path
+    image: '/assets/Libraries/HeroUI.png',
     shareLink: '#hero-ui',
+  },
+  {
+    name: 'Framer Motion',
+    description: 'Production-ready motion library for React.',
+    category: ['Animation', 'React'],
+    link: 'https://www.framer.com/motion/',
+    image: '/assets/Libraries/FramerMotion.png',
+    shareLink: '#framer-motion',
+  },
+  {
+    name: 'Vitest',
+    description: 'Blazing fast unit test framework powered by Vite.',
+    category: ['Testing', 'JavaScript'],
+    link: 'https://vitest.dev/',
+    image: '/assets/Libraries/Vitest.png',
+    shareLink: '#vitest',
+  },
+  {
+    name: 'Chakra UI',
+    description: 'Simple, modular, and accessible component library for React.',
+    category: ['UI Components', 'React'],
+    link: 'https://chakra-ui.com/',
+    image: '/assets/Libraries/ChakraUI.png',
+    shareLink: '#chakra-ui',
+  },
+  {
+    name: 'Zod',
+    description: 'TypeScript-first schema validation library.',
+    category: ['Validation', 'TypeScript'],
+    link: 'https://zod.dev/',
+    image: '/assets/Libraries/ZOD.png',
+    shareLink: '#zod',
+  },
+  {
+    name: 'TanStack Query',
+    description: 'Powerful data-fetching and caching for React.',
+    category: ['State Management', 'React'],
+    link: 'https://tanstack.com/query/',
+    image: '/assets/Libraries/TanstackQuery.png',
+    shareLink: '#tanstack-query',
+  },
+  {
+    name: 'Tailwind CSS',
+    description: 'Utility-first CSS framework for rapidly building custom designs.',
+    category: ['CSS', 'Framework'],
+    link: 'https://tailwindcss.com/',
+    image: '/assets/Libraries/TailwindCSS.png',
+    shareLink: '#tailwind-css',
+  },
+  {
+    name: 'Radix UI',
+    description: 'Unstyled, accessible components for building high‑quality design systems.',
+    category: ['UI Components', 'Accessibility'],
+    link: 'https://www.radix-ui.com/',
+    image: '/assets/Libraries/RadixUI.png',
+    shareLink: '#radix-ui',
+  },
+  {
+    name: 'React Hook Form',
+    description: 'Performant, flexible, and extensible form library for React.',
+    category: ['Forms', 'React'],
+    link: 'https://react-hook-form.com/',
+    image: '/assets/Libraries/ReactHookForm.png',
+    shareLink: '#react-hook-form',
+  },
+  {
+    name: 'Axios',
+    description: 'Promise-based HTTP client for the browser and Node.js.',
+    category: ['HTTP', 'JavaScript'],
+    link: 'https://axios-http.com/',
+    image: '/assets/Libraries/AXIOS.png',
+    shareLink: '#axios',
+  },
+  {
+    name: 'Zustand',
+    description: 'A small, fast, and scalable bearbones state-management solution.',
+    category: ['State Management', 'React'],
+    link: 'https://zustand-demo.pmnd.rs/',
+    image: '/assets/Libraries/Zustand.png',
+    shareLink: '#zustand',
   },
   // Add more libraries as needed
 ];
@@ -204,7 +284,7 @@ const LibraryCardComponent = ({ name, description, category, link, image, shareL
                     `}
 </style>;
 
-const DevToolsListContainer = styled.div`
+const LibrariesListContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

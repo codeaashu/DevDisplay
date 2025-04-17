@@ -168,7 +168,7 @@ const Hero = () => {
           <div className="modgp relative inline-block w-full py-3">
             <div className="relative">
               <div className="bg-primary enabled:hover:bg-primary-dark enabled:active:bg-primary-dark enabled:focus:bg-primary-dark px-18 relative inline-flex w-full items-center justify-center rounded-lg py-5 text-6xl font-bold text-white transition-all focus:outline-none enabled:hover:shadow-md disabled:opacity-50">
-                <div className="flex w-full items-center justify-center">Documentation Display</div>
+                <div className="flex w-full items-center justify-center">Library Display</div>
               </div>
             </div>
             <div className="pointer-events-none absolute inset-0">
@@ -332,44 +332,44 @@ const Hero = () => {
 
 const Tags = () => {
   const tags = [
-    'Web Development Docs',
-    'JavaScript Docs',
-    'React Documentation',
-    'Node.js Docs',
-    'Python Documentation',
-    'Java Docs',
-    'C++ Docs',
-    'TypeScript Docs',
-    'HTML & CSS Docs',
-    'Tailwind CSS Docs',
-    'Next.js Documentation',
-    'Express.js Docs',
-    'MongoDB Docs',
-    'MySQL Documentation',
-    'PostgreSQL Docs',
-    'Firebase Docs',
-    'GraphQL Docs',
-    'REST API Docs',
-    'Git & GitHub Docs',
-    'Docker Documentation',
-    'Kubernetes Docs',
-    'Linux Commands Docs',
-    'Bash & Shell Docs',
-    'AWS Documentation',
-    'Google Cloud Docs',
-    'Azure Docs',
-    'CI/CD Docs',
-    'DevOps Tools Docs',
-    'Web Security Docs',
-    'Authentication & OAuth Docs',
-    'Open Source Project Docs',
-    'Design Systems & UI Docs',
+    'CSS Frameworks',
+    'UI Components',
+    'React UI Libraries',
+    'Vue UI Libraries',
+    'Angular UI Libraries',
+    'Tailwind CSS Components',
+    'Material Design Libraries',
+    'Bootstrap Components',
+    'Chakra UI',
+    'Ant Design',
+    'Shadcn UI',
+    'Hero UI',
+    'Magic UI',
+    'DaisyUI',
+    'UIVERSE',
+    'FloatUI',
+    'Aceternity UI',
+    'PrimeReact',
+    'Vuetify',
+    'Quasar Framework',
+    'Element Plus',
+    'Kendo UI',
+    'Foundation Framework',
+    'Metro 4 UI',
+    'Onsen UI',
+    'Framework7',
+    'Bulma CSS',
+    'Spectre.css',
+    'UIKit',
+    'Clarity Design System',
+    'Evergreen UI',
+    'Blueprint.js',
   ];
 
   return (
     <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
       <h1 className="text-md text-primary mb-8 text-center font-bold text-[#00a6fb] lg:text-2xl">
-        Explore and find the original documentation that you need!
+        Explore and find the best UI libraries for your projects!
       </h1>
       {/* <h2 className="text-md text-primary mb-8 text-center text-[#00a6fb] font-bold lg:text-2xl">One Platform, Endless Tech Hackathon</h2> */}
 
