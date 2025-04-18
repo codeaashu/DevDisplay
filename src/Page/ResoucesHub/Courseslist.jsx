@@ -425,7 +425,7 @@ const CoursesList = () => {
 
       const interval = setInterval(() => {
         setShuffledCourses(shuffleArray(courses));
-      }, 9000);
+      }, 5000);
 
       // Cleanup interval on component unmount
       return () => clearInterval(interval);
