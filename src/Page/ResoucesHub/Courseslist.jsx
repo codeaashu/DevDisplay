@@ -185,6 +185,18 @@ const courses = [
       'https://www.udemy.com/share/10bPPF3@u19KFpL6vN7IwhSrJN5cYFVFa4wyBFF0FWt0kxtj3520J2P4WzcUK3R_NXptnbDGeQ==/',
     shareLink: '#pythonwithdsakrish',
   },
+  {
+    platform: 'Udemy',
+    title: 'Complete MLOps With 10+ End To End ML Projects',
+    instructor: 'Krish Naik',
+    duration: '51 hours',
+    level: 'Intermediate',
+    domain: ['Machine Learning', 'MLOps', 'Data Science', 'Paid'],
+    poster: '/assets/Courses/KrishMLOps.png',
+    courseLink:
+      'https://www.udemy.com/share/10bYlh3@jqduaaieDl1nKdgWzD6GL3HGAFzvk-YSluGWEzDbBUAhWKr7E5jgmZlLEcznFHZ3qA==/',
+    shareLink: '#mlopsbykrish',
+  },
   // Add more courses similarly...
 ];
 
