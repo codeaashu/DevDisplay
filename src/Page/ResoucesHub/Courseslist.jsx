@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap, faUser, faClock, faShareAlt } from '@fortawesome/free-solid-svg-icons';
@@ -160,6 +160,18 @@ const courses = [
     domain: ['Web Development', 'Full Stack', 'Backend', 'Frontend', 'Database', 'Free'],
     courseLink: 'https://youtu.be/ZxKM3DCV2kE?si=kF4sGU0z-RREMgps',
     shareLink: '#fullstackbymehul',
+  },
+  {
+    platform: 'Udemy',
+    title: 'Complete Full-Stack Web Development - English',
+    instructor: 'Dr. Angela Yu',
+    duration: '61 hours',
+    level: 'Intermediate',
+    domain: ['Web Development', 'Full Stack', 'Backend', 'Frontend', 'Database', 'Paid'],
+    poster: '/assets/Courses/AngelaFullStackDev.png',
+    courseLink:
+      'https://www.udemy.com/share/1013gG3@EyR3Dc5QwlywZjfRg5cHgciPWEKlVbAonImXoDW1aBzlAAnzWsIzUNDkI4O0oY07PA==/',
+    shareLink: '#fullstackbyangela',
   },
   // Add more courses similarly...
 ];
@@ -389,12 +401,41 @@ const FilterContainer = styled.div`
   }
 `;
 
+const skillFilters = ['HTML', 'CSS', 'JavaScript', 'Python', 'React'];
+
 const CoursesList = () => {
   const [platformFilter, setPlatformFilter] = useState('');
   const [instructorFilter, setInstructorFilter] = useState('');
   const [domainFilter, setDomainFilter] = useState('');
+  const [skillFilter, setSkillFilter] = useState('');
+  const [shuffledCourses, setShuffledCourses] = useState([]);
 
-  const filteredCourses = courses.filter((course) => {
+  // Function to shuffle the courses array
+  const shuffleArray = (array) => {
+    return array
+      .map((item) => ({ ...item, sortKey: Math.random() }))
+      .sort((a, b) => a.sortKey - b.sortKey)
+      .map(({ sortKey, ...item }) => item);
+  };
+
+  // Shuffle courses on component mount and every 5 seconds if no filter is active
+  useEffect(() => {
+    if (!platformFilter && !instructorFilter && !domainFilter && !skillFilter) {
+      setShuffledCourses(shuffleArray(courses));
+
+      const interval = setInterval(() => {
+        setShuffledCourses(shuffleArray(courses));
+      }, 9000);
+
+      // Cleanup interval on component unmount
+      return () => clearInterval(interval);
+    } else {
+      // If a filter is active, show the original filtered courses
+      setShuffledCourses(courses);
+    }
+  }, [platformFilter, instructorFilter, domainFilter, skillFilter]);
+
+  const filteredCourses = shuffledCourses.filter((course) => {
     const matchesPlatform = platformFilter
       ? course.platform.toLowerCase().includes(platformFilter.toLowerCase())
       : true;
@@ -407,7 +448,9 @@ const CoursesList = () => {
       ? course.domain.some((d) => d.toLowerCase().includes(domainFilter.toLowerCase()))
       : true;
 
-    return matchesPlatform && matchesInstructor && matchesDomain;
+    const matchesSkill = skillFilter ? course.domain.some((d) => d.toLowerCase() === skillFilter.toLowerCase()) : true;
+
+    return matchesPlatform && matchesInstructor && matchesDomain && matchesSkill;
   });
 
   return (
@@ -435,6 +478,28 @@ const CoursesList = () => {
           className="rounded-md border border-[#00a6fb] bg-gray-900 p-2 text-sm text-white"
         />
       </FilterContainer>
+
+      <div className="mb-4 flex justify-center gap-2">
+        {skillFilters.map((skill) => (
+          <button
+            key={skill}
+            onClick={() => setSkillFilter(skill)}
+            className={`rounded-full border border-[#00a6fb] px-2 py-1 text-xs ${
+              skillFilter === skill ? 'bg-[#00a6fb] text-white' : 'bg-gray-1000 text-[#00a6fb]'
+            } transition hover:bg-[#00a6fb] hover:text-white`}
+          >
+            {skill}
+          </button>
+        ))}
+        {skillFilter && (
+          <button
+            onClick={() => setSkillFilter('')}
+            className="rounded-full border bg-red-500 px-2 py-1 text-xs text-white transition hover:bg-red-600"
+          >
+            Clear Filter
+          </button>
+        )}
+      </div>
 
       <CoursesListContainer className="flex flex-wrap justify-center">
         {filteredCourses.length > 0 ? (
