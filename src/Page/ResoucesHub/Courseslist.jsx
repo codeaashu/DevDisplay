@@ -176,7 +176,7 @@ const courses = [
   {
     platform: 'Udemy',
     title: 'Python With DSA + LEETCODE Exercises',
-    instructor: 'Krish Naik, Mayank Ag.',
+    instructor: 'Krish Naik, Mayank Aggarwal',
     duration: '61 hours',
     level: 'Intermediate',
     domain: ['Python', 'DSA', 'Data Structures', 'Algorithms', 'Paid'],
@@ -220,6 +220,40 @@ const courses = [
     courseLink:
       'https://www.udemy.com/share/10bnAf3@AMuXiKfGJ1iHhOn_64-IBiWsHEJbI9LKoxWkWzeUzjZQpJ3hcUrJ16CqVddiVWl-Hg==/',
     shareLink: '#generativeaibykrish',
+  },
+  {
+    platform: 'Udemy',
+    title: 'Complete Data Analyst - Basics To Advanced',
+    instructor: 'Krish Naik, Jayant Topnani',
+    duration: '71 hours',
+    level: 'Intermediate',
+    domain: ['Data Analysis', 'Data Science', 'Python', 'Pandas', 'Numpy', 'Paid'],
+    poster: '/assets/Courses/KrishDataAnalyst.png',
+    courseLink:
+      'https://www.udemy.com/share/10bEjb3@GyVBilNH4BklWqgyIenUi5VzcdzWAaR_51cwFR8YVP_nbvU9h60JJigyqIeTF2Rvsw==/',
+    shareLink: '#dataanalystbykrish',
+  },
+  {
+    platform: 'Udemy',
+    title: 'Complete Data Analyst - Basics To Advanced',
+    instructor: 'Krish Naik, Jayant Topnani',
+    duration: '71 hours',
+    level: 'Intermediate',
+    domain: ['Data Analysis', 'Data Science', 'Python', 'Pandas', 'Numpy', 'Paid'],
+    poster: '/assets/Courses/KrishDataAnalyst.png',
+    courseLink: 'https://ineuron.ai/course/full-stack-data-science-bootcamp-20',
+    shareLink: '#dataanalystbykrish',
+  },
+  {
+    platform: 'Udemy',
+    title: 'Complete Data Analyst - Basics To Advanced',
+    instructor: 'Krish Naik, Jayant Topnani',
+    duration: '71 hours',
+    level: 'Intermediate',
+    domain: ['Data Analysis', 'Data Science', 'Python', 'Pandas', 'Numpy', 'Paid'],
+    poster: '/assets/Courses/KrishDataAnalyst.png',
+    courseLink: 'https://ineuron.ai/course/full-stack-data-science-bootcamp-20',
+    shareLink: '#dataanalystbykrish',
   },
   // Add more courses similarly...
 ];
