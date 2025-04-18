@@ -197,6 +197,30 @@ const courses = [
       'https://www.udemy.com/share/10bYlh3@jqduaaieDl1nKdgWzD6GL3HGAFzvk-YSluGWEzDbBUAhWKr7E5jgmZlLEcznFHZ3qA==/',
     shareLink: '#mlopsbykrish',
   },
+  {
+    platform: 'Udemy',
+    title: 'Complete Data Science, Machine Learning, DL, NLP',
+    instructor: 'Krish Naik',
+    duration: '99 hours',
+    level: 'Intermediate',
+    domain: ['Machine Learning', 'Deep Learning', 'NLP', 'MLOps', 'Data Science', 'Paid'],
+    poster: '/assets/Courses/KrishMLDLNLP.png',
+    courseLink:
+      'https://www.udemy.com/share/10b9km3@ajJzHRVlS-BdTOaTGMG8iUl8QmGRJOLb3L3t-_UEPViitrhkG7j59ROC3DMhNCQJkg==/',
+    shareLink: '#ml-dl-nlp-bykrish',
+  },
+  {
+    platform: 'Udemy',
+    title: 'Complete Data Science, Machine Learning, DL, NLP',
+    instructor: 'Krish Naik',
+    duration: '99 hours',
+    level: 'Intermediate',
+    domain: ['Machine Learning', 'Deep Learning', 'NLP', 'MLOps', 'Data Science', 'Paid'],
+    poster: '/assets/Courses/KrishGenerativeAI.png',
+    courseLink:
+      'https://www.udemy.com/share/10b9km3@ajJzHRVlS-BdTOaTGMG8iUl8QmGRJOLb3L3t-_UEPViitrhkG7j59ROC3DMhNCQJkg==/',
+    shareLink: '#ml-dl-nlp-bykrish',
+  },
   // Add more courses similarly...
 ];
 
