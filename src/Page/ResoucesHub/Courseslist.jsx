@@ -211,15 +211,15 @@ const courses = [
   },
   {
     platform: 'Udemy',
-    title: 'Complete Data Science, Machine Learning, DL, NLP',
+    title: 'Complete Generative AI Course With Langchain and Huggingface',
     instructor: 'Krish Naik',
-    duration: '99 hours',
+    duration: '54 hours',
     level: 'Intermediate',
-    domain: ['Machine Learning', 'Deep Learning', 'NLP', 'MLOps', 'Data Science', 'Paid'],
+    domain: ['Generative AI', 'Langchain', 'Huggingface', 'MLOps', 'Data Science', 'Paid'],
     poster: '/assets/Courses/KrishGenerativeAI.png',
     courseLink:
-      'https://www.udemy.com/share/10b9km3@ajJzHRVlS-BdTOaTGMG8iUl8QmGRJOLb3L3t-_UEPViitrhkG7j59ROC3DMhNCQJkg==/',
-    shareLink: '#ml-dl-nlp-bykrish',
+      'https://www.udemy.com/share/10bnAf3@AMuXiKfGJ1iHhOn_64-IBiWsHEJbI9LKoxWkWzeUzjZQpJ3hcUrJ16CqVddiVWl-Hg==/',
+    shareLink: '#generativeaibykrish',
   },
   // Add more courses similarly...
 ];
