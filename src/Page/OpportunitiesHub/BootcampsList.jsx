@@ -136,7 +136,7 @@ const bootcamp = [
     level: 'Intermediate',
     skills: ['Web Development', 'Full Stack', 'Backend', 'Frontend', 'Database', 'Paid'],
     applyLink:
-      'https://www.udemy.com/share/1013gG3@EyR3Dc5QwlywZjfRg5cHgciPWEKlVbAonImXoDW1aBzlAAnzWsIzUNDkI4O0oY07PA==/',
+      'https://www.udemy.com/share/1013gG3@vFw3WU1bEGYVy7rvGUXmeKb5WYPRqfmhxr8gYIuu5ul-QyKkjjv8GH_oYgs2tTnDKg==/',
     poster: '/assets/Courses/AngelaFullStackDev.png',
     shareLink: '#complete-full-stack-web-development-bootcamp',
   },
@@ -147,7 +147,7 @@ const bootcamp = [
     level: 'Intermediate',
     skills: ['Python', 'Backend', 'Data Science', 'Machine Learning', 'Paid'],
     applyLink:
-      'https://www.udemy.com/share/103IHM3@YSEmRuzwftAjy5b5LzrVTT2Xy6Rgo8NE0yvC_V3LpgPurP381GTs_UcUKLE8BJNkzw==/',
+      'https://www.udemy.com/share/103IHM3@PpzlFKvoy_U8C44nS4mcr3ctFo9qRxCWrgOqCDeXLdFS6ybdfqRrtt4QuxJwC5Rhdw==/',
     poster: '/assets/Courses/AngelaPython.png',
     shareLink: '#complete-python-pro-bootcamp',
   },

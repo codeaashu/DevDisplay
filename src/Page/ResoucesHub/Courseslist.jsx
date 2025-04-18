@@ -170,8 +170,20 @@ const courses = [
     domain: ['Web Development', 'Full Stack', 'Backend', 'Frontend', 'Database', 'Paid'],
     poster: '/assets/Courses/AngelaFullStackDev.png',
     courseLink:
-      'https://www.udemy.com/share/1013gG3@EyR3Dc5QwlywZjfRg5cHgciPWEKlVbAonImXoDW1aBzlAAnzWsIzUNDkI4O0oY07PA==/',
+      'https://www.udemy.com/share/1013gG3@3wgcoIB2pBwIOUfeSk4Z42gqBYC3uvHGnbWHJnZDmoMmWtixq1om-ZBvibtqhW-LqQ==/',
     shareLink: '#fullstackbyangela',
+  },
+  {
+    platform: 'Udemy',
+    title: 'Python With DSA + LEETCODE Exercises',
+    instructor: 'Krish Naik, Mayank Ag.',
+    duration: '61 hours',
+    level: 'Intermediate',
+    domain: ['Python', 'DSA', 'Data Structures', 'Algorithms', 'Paid'],
+    poster: '/assets/Courses/KrishPythonWithDSA.png',
+    courseLink:
+      'https://www.udemy.com/share/10bPPF3@u19KFpL6vN7IwhSrJN5cYFVFa4wyBFF0FWt0kxtj3520J2P4WzcUK3R_NXptnbDGeQ==/',
+    shareLink: '#pythonwithdsakrish',
   },
   // Add more courses similarly...
 ];
