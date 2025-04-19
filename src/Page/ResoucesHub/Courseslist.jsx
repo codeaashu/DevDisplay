@@ -175,6 +175,27 @@ const courses = [
     courseLink: 'https://youtu.be/H3XIJYEPdus?si=HB3XchtzU3-7ydgq',
     shareLink: '#javascriptbyhuxn',
   },
+  // Backend Courses by Hitesh Choudhary
+  {
+    platform: 'YouTube',
+    title: 'Complete Backend Developer course | Part 1 - Hindi',
+    instructor: 'Hitesh Choudhary',
+    duration: '10 Hour',
+    level: 'Intermediate',
+    domain: ['Web Development', 'Backend', 'Javascript', 'JS', 'NodeJS', 'ExpressJS', 'Free'],
+    courseLink: 'https://youtu.be/7fjOw8ApZ1I?si=29DimBEpWtVXNs-Y',
+    shareLink: '#backend-part-1-hc',
+  },
+  {
+    platform: 'YouTube',
+    title: 'Complete Backend Developer course | Part 2 - Hindi',
+    instructor: 'Hitesh Choudhary',
+    duration: '4 Hour',
+    level: 'Intermediate',
+    domain: ['Web Development', 'Backend', 'Javascript', 'JS', 'NodeJS', 'ExpressJS', 'Free'],
+    courseLink: 'https://youtu.be/8k-kK3tsJFY?si=9mju_i7-7SolK8_2',
+    shareLink: '#backend-part-2-hc',
+  },
   // ReactJS Courses by Hitesh Choudhary, HuXn WebDev, Sarthak Sharma, Prashant Jain
   {
     platform: 'YouTube',
