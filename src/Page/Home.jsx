@@ -165,9 +165,9 @@ const Hero = () => {
       <div className="mb-[-80%] mt-2 xs:mb-[-22%] sm:mb-[-15%] md:mb-[-12%] lg:mb-[-10%] xl:mb-[-16%] 2xl:mb-[-14%]">
         {' '}
         {/* Changed mt-4 to mt-2 */}
-        <div className="flex items-center justify-center">
+        {/* <div className="flex items-center justify-center">
           <CountdownTimer />
-        </div>
+        </div> */}
         <Globe />
       </div>
       <div className="mb-20"></div>
