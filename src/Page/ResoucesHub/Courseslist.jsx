@@ -154,6 +154,16 @@ const courses = [
     courseLink: 'https://namastedev.com/learn/namaste-javascript',
     shareLink: '#javascriptbyakshaysaini',
   },
+  {
+    platform: 'YouTube',
+    title: 'Zero to Full Stack: Master JavaScript and Create Dynamic Web Apps - English',
+    instructor: 'HuXn WebDev',
+    duration: '16 Hour',
+    level: 'Intermediate',
+    domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'fullstack', 'Free'],
+    courseLink: 'https://youtu.be/H3XIJYEPdus?si=HB3XchtzU3-7ydgq',
+    shareLink: '#javascriptbyhuxn',
+  },
   // ReactJS Courses by Hitesh Choudhary, HuXn WebDev, Sarthak Sharma, Prashant Jain
   {
     platform: 'YouTube',
@@ -241,6 +251,18 @@ const courses = [
     courseLink:
       'https://www.udemy.com/share/10bPPF3@u19KFpL6vN7IwhSrJN5cYFVFa4wyBFF0FWt0kxtj3520J2P4WzcUK3R_NXptnbDGeQ==/',
     shareLink: '#pythonwithdsakrish',
+  },
+  {
+    platform: 'Udemy',
+    title: '100 Days of Code: The Complete Python Pro Course',
+    instructor: 'Dr. Angela Yu',
+    duration: '52 hours',
+    level: 'Intermediate',
+    domain: ['Python', 'automation', 'data science', 'Algorithms', '100 projects', 'Paid'],
+    poster: '/assets/Courses/AngelaPython.png',
+    courseLink:
+      'https://www.udemy.com/share/103IHM3@PpzlFKvoy_U8C44nS4mcr3ctFo9qRxCWrgOqCDeXLdFS6ybdfqRrtt4QuxJwC5Rhdw==/',
+    shareLink: '#pythonbyangela',
   },
   // Python, MLOps, Machine Learning, Data Science, Generative AI, Data Analyst, courses by Krish Naik, Jayant Topnani, Sunny Savita
   {
