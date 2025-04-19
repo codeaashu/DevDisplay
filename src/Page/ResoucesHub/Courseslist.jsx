@@ -21,6 +21,17 @@ const shareContent = (url) => {
 // List of Best Tech Courses on the Internet
 
 const courses = [
+  // Computer science courses by Harvard
+  {
+    platform: 'YouTube',
+    title: 'Harvard CS50 - Full Computer Science University Course - English',
+    instructor: 'David Jay Malan',
+    duration: '24 Hour',
+    level: 'Beginner',
+    domain: ['Computer Science', 'CS50', 'CS', 'Free'],
+    courseLink: 'https://youtu.be/8mAITcNt710?si=zPApnq2wlCSZACJd',
+    shareLink: '#harvardcs50',
+  },
   // HTML and CSS Courses by Prashant Jain, Love Babbar, FreeCodeCamp, Dave Gray, Simon Bao, Kevin Powell
   {
     platform: 'YouTube',
@@ -576,7 +587,7 @@ const CoursesList = () => {
 
       const interval = setInterval(() => {
         setShuffledCourses(shuffleArray(courses));
-      }, 5000);
+      }, 9000);
 
       // Cleanup interval on component unmount
       return () => clearInterval(interval);
