@@ -93,6 +93,16 @@ const courses = [
   },
   {
     platform: 'YouTube',
+    title: 'HTML - English',
+    instructor: 'FreeCodeCamp.org',
+    duration: '2 Hour',
+    level: 'Beginner',
+    domain: ['Web Development', 'HTML', 'Frontend', 'Free'],
+    courseLink: 'https://youtu.be/pQN-pnXPaVg?si=QQYNbdJuG0L9uVrS',
+    shareLink: '#htmlbyfreecodecamp',
+  },
+  {
+    platform: 'YouTube',
     title: 'CSS - Hindi',
     instructor: 'Love Babbar',
     duration: '11 Hour',
