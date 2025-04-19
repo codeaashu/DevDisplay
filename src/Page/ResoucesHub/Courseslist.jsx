@@ -21,6 +21,7 @@ const shareContent = (url) => {
 // List of Best Tech Courses on the Internet
 
 const courses = [
+  // Javascript Courses by Hitesh Choudhary, Akshay Saini, FreeCodeCamp, Bro Code
   {
     platform: 'YouTube',
     title: 'Javascript - Hindi | part 1',
@@ -62,6 +63,18 @@ const courses = [
     shareLink: '#javascriptbybrocode',
   },
   {
+    platform: 'namastedev.com',
+    title: 'Namaste JavaScript - Hindi + English',
+    instructor: 'Akshay Saini',
+    duration: '12+ Hours',
+    level: 'Beginner',
+    domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'Free'],
+    poster: '/assets/Courses/AkshaySainiNamasteJavaScript.png',
+    courseLink: 'https://namastedev.com/learn/namaste-javascript',
+    shareLink: '#javascriptbyakshaysaini',
+  },
+  // HTML and CSS Courses by Prashant Jain, Love Babbar, FreeCodeCamp, Dave Gray, Simon Bao, Kevin Powell
+  {
     platform: 'YouTube',
     title: 'HTML - Hindi',
     instructor: 'Prashant Jain',
@@ -70,16 +83,6 @@ const courses = [
     domain: ['Web Development', 'HTML', 'Frontend', 'Free'],
     courseLink: 'https://youtu.be/rklidcZ-aLU?si=2iv5ZV0EypTpTsw7',
     shareLink: '#htmlbyprashantJain',
-  },
-  {
-    platform: 'YouTube',
-    title: 'CSS - Hindi',
-    instructor: 'Prashant Jain',
-    duration: '8 Hour',
-    level: 'Beginner',
-    domain: ['Web Development', 'CSS', 'Frontend', 'Free'],
-    courseLink: 'https://youtu.be/OpWjt_wbV4E?si=u_Z9BbUrhim4Ne9_',
-    shareLink: '#cssbyprashantJain',
   },
   {
     platform: 'YouTube',
@@ -104,12 +107,32 @@ const courses = [
   {
     platform: 'YouTube',
     title: 'CSS - Hindi',
+    instructor: 'Prashant Jain',
+    duration: '8 Hour',
+    level: 'Beginner',
+    domain: ['Web Development', 'CSS', 'Frontend', 'Free'],
+    courseLink: 'https://youtu.be/OpWjt_wbV4E?si=u_Z9BbUrhim4Ne9_',
+    shareLink: '#cssbyprashantJain',
+  },
+  {
+    platform: 'YouTube',
+    title: 'CSS - Hindi',
     instructor: 'Love Babbar',
     duration: '11 Hour',
     level: 'Beginner',
     domain: ['Web Development', 'CSS', 'Frontend', 'Free'],
     courseLink: 'https://youtu.be/dSJM4Gyh8jE?si=0DA97_AKrV3bfKFo',
     shareLink: '#cssbylovebabbar',
+  },
+  {
+    platform: 'YouTube',
+    title: 'CSS - English',
+    instructor: 'Dave Gray',
+    duration: '11 Hour',
+    level: 'Beginner',
+    domain: ['Web Development', 'CSS', 'Frontend', 'Free'],
+    courseLink: 'https://youtu.be/OXGznpKZ_sA?si=_2uGEik_pdGQM_Ks',
+    shareLink: '#htmlbydavegray',
   },
   {
     platform: 'YouTube',
@@ -131,29 +154,10 @@ const courses = [
     courseLink: 'https://youtu.be/1L2YiWdaUDM?si=ZjQmd8SmAUisctP6',
     shareLink: '#htmlcssbykevinpowell',
   },
+  // ReactJS Courses by Hitesh Choudhary, HuXn WebDev, Sarthak Sharma, Prashant Jain
   {
     platform: 'YouTube',
-    title: 'CSS - English',
-    instructor: 'Dave Gray',
-    duration: '11 Hour',
-    level: 'Beginner',
-    domain: ['Web Development', 'CSS', 'Frontend', 'Free'],
-    courseLink: 'https://youtu.be/OXGznpKZ_sA?si=_2uGEik_pdGQM_Ks',
-    shareLink: '#htmlbydavegray',
-  },
-  {
-    platform: 'YouTube',
-    title: 'Namaste JavaScript - Hindi + English',
-    instructor: 'Akshay Saini',
-    duration: '12 Hour+',
-    level: 'Beginner',
-    domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'Free'],
-    courseLink: 'https://youtu.be/pN6jk0uUrD8?si=89uQMPPR2rZvjfnY',
-    shareLink: '#namastejs',
-  },
-  {
-    platform: 'YouTube',
-    title: 'React JS Full Course - Hindi',
+    title: 'ReactJS Full Course - Hindi',
     instructor: 'Hitesh Choudhary',
     duration: '9 Hour',
     level: 'Beginner',
@@ -163,7 +167,7 @@ const courses = [
   },
   {
     platform: 'YouTube',
-    title: 'REACT.JS 19 MONSTER Course - English',
+    title: 'ReactJS 19 MONSTER Course - English',
     instructor: 'HuXn WebDev',
     duration: '50 Hour',
     level: 'Intermediate',
@@ -177,7 +181,7 @@ const courses = [
     instructor: 'Sarthak Sharma',
     duration: '4 Hour',
     level: 'Beginner',
-    domain: ['Web Development', 'ReactJS', 'Frontend', 'Free'],
+    domain: ['Web Development', 'React', 'ReactJS', 'Frontend', 'Free'],
     courseLink: 'https://youtu.be/E6tAtRi82QY?si=KUOqEZ_c_rujUNQY',
     shareLink: '#reactjs-sheryians',
   },
@@ -187,10 +191,11 @@ const courses = [
     instructor: 'Prashant Jain',
     duration: '20 Hour',
     level: 'Beginner',
-    domain: ['Web Development', 'ReactJS', 'Redux', 'Frontend', 'Free'],
+    domain: ['Web Development', 'React', 'ReactJS', 'Redux', 'Frontend', 'Free'],
     courseLink: 'https://youtu.be/eILUmCJhl64?si=yuhUO0jjYMb7mahQ',
     shareLink: '#reactjsbyprashantJain',
   },
+  // Tailwind CSS Courses by Hitesh Choudhary
   {
     platform: 'YouTube',
     title: 'Tailwind CSS - Hindi',
@@ -201,6 +206,7 @@ const courses = [
     courseLink: 'https://youtu.be/_9mTJ84uL1Q?si=3xxaXdAaN8u52n0w',
     shareLink: '#tailwindcss-hc',
   },
+  // Full stack courses by Mehul, Angela Yu, Krish Naik
   {
     platform: 'YouTube',
     title: 'Full Stack Web Development - English',
