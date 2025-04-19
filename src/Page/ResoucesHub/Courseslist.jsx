@@ -21,58 +21,6 @@ const shareContent = (url) => {
 // List of Best Tech Courses on the Internet
 
 const courses = [
-  // Javascript Courses by Hitesh Choudhary, Akshay Saini, FreeCodeCamp, Bro Code
-  {
-    platform: 'YouTube',
-    title: 'Javascript - Hindi | part 1',
-    instructor: 'Hitesh Choudhary',
-    duration: '9 Hour',
-    level: 'Beginner',
-    domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'Free'],
-    courseLink: 'https://youtu.be/sscX432bMZo?si=5ig6-ErKPW97NU5L',
-    shareLink: '#javascript-part-1-hc',
-  },
-  {
-    platform: 'YouTube',
-    title: 'Javascript - Hindi | part 2',
-    instructor: 'Hitesh Choudhary',
-    duration: '10 Hour',
-    level: 'Beginner',
-    domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'Free'],
-    courseLink: 'https://youtu.be/_TjtAyMkiTI?si=XwtFRiCPTWQNgAOH',
-    shareLink: '#javascript-part-2-hc',
-  },
-  {
-    platform: 'YouTube',
-    title: 'JavaScript Full Course for Beginners - English',
-    instructor: 'FreeCodeCamp.org',
-    duration: '4 Hour',
-    level: 'Beginner',
-    domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'Free'],
-    courseLink: 'https://youtu.be/PkZNo7MFNFg?si=4ehxCo6jkkiewD-1',
-    shareLink: '#javascriptbyfreecodecamp',
-  },
-  {
-    platform: 'YouTube',
-    title: 'JavaScript Full Course - English',
-    instructor: 'Bro Code',
-    duration: '8 Hour',
-    level: 'Beginner',
-    domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'Free'],
-    courseLink: 'https://youtu.be/8dWL3wF_OMw?si=s0GckMSp8QK024Sj',
-    shareLink: '#javascriptbybrocode',
-  },
-  {
-    platform: 'namastedev.com',
-    title: 'Namaste JavaScript - Hindi + English',
-    instructor: 'Akshay Saini',
-    duration: '12+ Hours',
-    level: 'Beginner',
-    domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'Free'],
-    poster: '/assets/Courses/AkshaySainiNamasteJavaScript.png',
-    courseLink: 'https://namastedev.com/learn/namaste-javascript',
-    shareLink: '#javascriptbyakshaysaini',
-  },
   // HTML and CSS Courses by Prashant Jain, Love Babbar, FreeCodeCamp, Dave Gray, Simon Bao, Kevin Powell
   {
     platform: 'YouTube',
@@ -154,6 +102,58 @@ const courses = [
     courseLink: 'https://youtu.be/1L2YiWdaUDM?si=ZjQmd8SmAUisctP6',
     shareLink: '#htmlcssbykevinpowell',
   },
+  // Javascript Courses by Hitesh Choudhary, Akshay Saini, FreeCodeCamp, Bro Code
+  {
+    platform: 'YouTube',
+    title: 'Javascript - Hindi | part 1',
+    instructor: 'Hitesh Choudhary',
+    duration: '9 Hour',
+    level: 'Beginner',
+    domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'Free'],
+    courseLink: 'https://youtu.be/sscX432bMZo?si=5ig6-ErKPW97NU5L',
+    shareLink: '#javascript-part-1-hc',
+  },
+  {
+    platform: 'YouTube',
+    title: 'Javascript - Hindi | part 2',
+    instructor: 'Hitesh Choudhary',
+    duration: '10 Hour',
+    level: 'Beginner',
+    domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'Free'],
+    courseLink: 'https://youtu.be/_TjtAyMkiTI?si=XwtFRiCPTWQNgAOH',
+    shareLink: '#javascript-part-2-hc',
+  },
+  {
+    platform: 'YouTube',
+    title: 'JavaScript Full Course for Beginners - English',
+    instructor: 'FreeCodeCamp.org',
+    duration: '4 Hour',
+    level: 'Beginner',
+    domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'Free'],
+    courseLink: 'https://youtu.be/PkZNo7MFNFg?si=4ehxCo6jkkiewD-1',
+    shareLink: '#javascriptbyfreecodecamp',
+  },
+  {
+    platform: 'YouTube',
+    title: 'JavaScript Full Course - English',
+    instructor: 'Bro Code',
+    duration: '8 Hour',
+    level: 'Beginner',
+    domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'Free'],
+    courseLink: 'https://youtu.be/8dWL3wF_OMw?si=s0GckMSp8QK024Sj',
+    shareLink: '#javascriptbybrocode',
+  },
+  {
+    platform: 'namastedev.com',
+    title: 'Namaste JavaScript - Hindi + English',
+    instructor: 'Akshay Saini',
+    duration: '12+ Hours',
+    level: 'Beginner',
+    domain: ['Web Development', 'Javascript', 'JS', 'Frontend', 'Free'],
+    poster: '/assets/Courses/AkshaySainiNamasteJavaScript.png',
+    courseLink: 'https://namastedev.com/learn/namaste-javascript',
+    shareLink: '#javascriptbyakshaysaini',
+  },
   // ReactJS Courses by Hitesh Choudhary, HuXn WebDev, Sarthak Sharma, Prashant Jain
   {
     platform: 'YouTube',
@@ -229,6 +229,7 @@ const courses = [
       'https://www.udemy.com/share/1013gG3@3wgcoIB2pBwIOUfeSk4Z42gqBYC3uvHGnbWHJnZDmoMmWtixq1om-ZBvibtqhW-LqQ==/',
     shareLink: '#fullstackbyangela',
   },
+  // Python courses by Krish Naik
   {
     platform: 'Udemy',
     title: 'Python With DSA + LEETCODE Exercises',
@@ -241,6 +242,7 @@ const courses = [
       'https://www.udemy.com/share/10bPPF3@u19KFpL6vN7IwhSrJN5cYFVFa4wyBFF0FWt0kxtj3520J2P4WzcUK3R_NXptnbDGeQ==/',
     shareLink: '#pythonwithdsakrish',
   },
+  // Python, MLOps, Machine Learning, Data Science, Generative AI, Data Analyst, courses by Krish Naik, Jayant Topnani, Sunny Savita
   {
     platform: 'Udemy',
     title: 'Complete MLOps With 10+ End To End ML Projects',
