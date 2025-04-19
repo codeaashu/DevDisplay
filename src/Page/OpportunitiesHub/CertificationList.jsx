@@ -20,6 +20,8 @@ const shareContent = (url, title, organizer) => {
 
 // List of all the certifications that matters for developers!
 
+// https://www.coursera.org/professional-certificates/meta-front-end-developer?irclickid=wgYXi5xY2xycUXeyopwbUQf0UksUvy3nEzO4TM0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=3552395&utm_content=b2c&utm_campaignid=Power%20Couple%20Media%20LLC&utm_term=14726_SI_1164545_
+
 const certification = [
   {
     organizer: 'Freecodecamp',
