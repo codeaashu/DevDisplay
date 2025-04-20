@@ -56,7 +56,14 @@
 </div>
 </details> -->
 
+<<<<<<< HEAD
+
 <a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0084.gif" border="0" alt="animated-line-image-0084" /></a>
+
+=======
+<img align="center" src="./public/star.png" width="10px" />
+
+> > > > > > > 7a8bf91c90a9de281eb5b2d16f6ded5b694bc749
 
 </div>
 
