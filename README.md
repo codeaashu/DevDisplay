@@ -55,7 +55,7 @@
 
 </div>
 </details> -->
-<a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0242.gif" border="0" alt="animated-line-image-0242" /></a>
+<a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0105.gif" border="0" alt="animated-line-image-0105" /></a>
 </div>
 
 <div align="center">
