@@ -31,7 +31,7 @@
 
 <h2 align="center"> Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer </h2> <br><br>
 
-<details>
+  <!-- <details>
     <summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Click here to explore your all-in-one destination for everything tech! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></summary>
 <div align="center">     
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="150" height="150" /> <br>
@@ -54,7 +54,7 @@
 | 🎁     | One platform to get exclusive benefits as a tech enthusiast |
 
 </div>
-</details>
+</details> -->
 </div><hr>
 
 <div align="center">
