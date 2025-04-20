@@ -29,7 +29,7 @@
 
 `The First Global Platform for Developers to Fulfill All Their Tech Needs.`<br>
 
-<h2 align="center"> Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer </h2> <br><br>
+<h2 align="center"> Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer </h2>
 
   <!-- <details>
     <summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Click here to explore your all-in-one destination for everything tech! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></summary>
