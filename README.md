@@ -55,7 +55,7 @@
 
 </div>
 </details> -->
-<img align="center" src="./public/star.png" width="150px" />
+<img align="center" src="./public/star.png" width="100px" />
 </div>
 
 <div align="center">
