@@ -55,7 +55,7 @@
 
 </div>
 </details> -->
-<img align="center" src="./public/star.png" width="100px" />
+<img align="center" src="./public/star.png" width="150px" />
 </div>
 
 <div align="center">
@@ -126,7 +126,7 @@
 </div>
 
 <div align="center">
-     <a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0084.gif" border="0" alt="animated-line-image-0084" /></a>
+<img align="center" src="./public/star.png" width="150px" />
   <h2>Connect with DevDisplay Organization <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Raising%20Hands.webp" alt="Raising Hands" width="25" height="25" /></h2>
 </div>
 <table align="center">
@@ -151,7 +151,7 @@
         </tr>
      </tbody>
 </table>
-<div align="center"><a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0084.gif" border="0" alt="animated-line-image-0084" /></a></div></div>
+<img align="center" src="./public/star.png" width="150px" /></div>
 
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> DevDisplay Welcomes Your Contribution <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /></h1>
 <h4 align="center">Contributions make the open source community such an amazing place to learn, inspire, and create.</h4>
