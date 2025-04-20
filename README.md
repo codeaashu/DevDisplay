@@ -29,9 +29,9 @@
 
 `The First Global Platform for Developers to Fulfill All Their Tech Needs.`<br>
 
-<h2 align="center"> Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer </h2> <br><br>
+<h2 align="center"> Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer </h2>
 
-<details>
+  <!-- <details>
     <summary> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Click here to explore your all-in-one destination for everything tech! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></summary>
 <div align="center">     
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="150" height="150" /> <br>
@@ -54,8 +54,9 @@
 | 🎁     | One platform to get exclusive benefits as a tech enthusiast |
 
 </div>
-</details>
-</div><hr>
+</details> -->
+<a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0084.gif" border="0" alt="animated-line-image-0084" /></a>
+</div>
 
 <div align="center">
 <h1 align="center">Supported By <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Folded Hands Light Skin Tone" width="25" height="25" /></h1>
@@ -122,9 +123,10 @@
 <a href="https://www.producthunt.com/posts/devdisplay?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-devdisplay" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=594879&theme=neutral" alt="DevDisplay&#0032;open&#0032;source&#0032;tech&#0032;platform | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 <a href="https://www.producthunt.com/posts/devdisplay?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-devdisplay" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=445392&theme=neutral&period=daily" alt="DevDisplay&#0032;environment&#0032;manager&#0032;that&#0032;makes&#0032;you&#0032;2x&#0032;more&#0032;productive | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
-</div><hr>
+</div>
 
 <div align="center">
+     <a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0084.gif" border="0" alt="animated-line-image-0084" /></a>
   <h2>Connect with DevDisplay Organization <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Raising%20Hands.webp" alt="Raising Hands" width="25" height="25" /></h2>
 </div>
 <table align="center">
@@ -148,7 +150,9 @@
             <td><b><a href="https://www.instagram.com/devdisplay/"> Insta. </a></b></td>
         </tr>
      </tbody>
-</table></div><hr>
+</table>
+<div align="center"><a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0084.gif" border="0" alt="animated-line-image-0084" /></a></div></div>
+
 
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> DevDisplay Welcomes Your Contribution <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /></h1>
 <h4 align="center">Contributions make the open source community such an amazing place to learn, inspire, and create.</h4>
