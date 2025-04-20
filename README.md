@@ -27,7 +27,7 @@
 <a href="https://www.devdisplay.org/"><img src="./public/assets/DevDisplayLOGO/NameTagline.png" width="300px" /></a><br>
 <a href="https://www.devdisplay.org/"><img src="./public/DDColorLOGO.png" width="500px" /></a><br>
 
-`The First Global Platform for Developers to Fulfill All Their Tech Needs.`<br>
+`The First Global Platform for Developers to Fulfill All Their Tech Needs.`<br> 
 
 <h2 align="center"> Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer </h2>
 
@@ -55,7 +55,7 @@
 
 </div>
 </details> -->
-<a href="https://www.animatedimages.org/cat-lines-562.htm"><img src="https://www.animatedimages.org/data/media/562/animated-line-image-0084.gif" border="0" alt="animated-line-image-0084" /></a>
+<img align="center" src="./public/star.png" width="10px" />
 </div>
 
 <div align="center">
