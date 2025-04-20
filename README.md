@@ -152,9 +152,8 @@
      </tbody>
 </table></div>
 
-<img align="center" src="./public/star.png" width="150px" />
-
 <div align="center">
+     <img align="center" src="./public/star.png" width="150px" />
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> DevDisplay Welcomes Your Contribution <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /></h1>
 <h4 align="center">Contributions make the open source community such an amazing place to learn, inspire, and create.</h4>
 
