@@ -262,7 +262,8 @@ const Blog = () => (
         <img className="mb-2 h-14 w-full rounded object-cover" src="/imgs/blog/4.png" alt="Placeholder image" />
         <h4 className="mb-0.5 text-sm font-medium">Lorem ipsum dolor</h4>
         <p className="text-xs text-neutral-400">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo quidem eos.
+          A global developer community that brings the powerful impact of innovation to universities, colleges, cities,
+          and other developer communities.
         </p>
       </a>
       <a href="#">
