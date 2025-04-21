@@ -258,17 +258,17 @@ const Pricing = () => (
 const Blog = () => (
   <div>
     <div className="grid grid-cols-2 gap-2">
-      <a href="#">
-        <img className="mb-2 h-14 w-full rounded object-cover" src="/imgs/blog/4.png" alt="Placeholder image" />
-        <h4 className="mb-0.5 text-sm font-medium">Lorem ipsum dolor</h4>
+      <a href="https://www.devdisplay.tech/">
+        <img className="mb-2 h-14 w-full rounded object-cover" src="/DCommunity.png" alt="Placeholder image" />
+        <h4 className="mb-0.5 text-sm font-medium">DevDisplay Community</h4>
         <p className="text-xs text-neutral-400">
           A global developer community that brings the powerful impact of innovation from the ground up in universities,
           colleges, and cities.
         </p>
       </a>
       <a href="#">
-        <img className="mb-2 h-14 w-full rounded object-cover" src="/imgs/blog/5.png" alt="Placeholder image" />
-        <h4 className="mb-0.5 text-sm font-medium">Lorem ipsum dolor</h4>
+        <img className="mb-2 h-14 w-full rounded object-cover" src="/DStudio.png" alt="Placeholder image" />
+        <h4 className="mb-0.5 text-sm font-medium">DevDisplay Studio</h4>
         <p className="text-xs text-neutral-400">
           DevDisplay Studio empowers startups, enterprises, and agencies with premium and powerful software solutions by
           OG DevDisplay Developers.
