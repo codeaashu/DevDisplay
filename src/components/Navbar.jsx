@@ -255,7 +255,7 @@ const Pricing = () => (
   </div>
 );
 
-const Blog = () => (
+const Explore = () => (
   <div>
     <div className="grid grid-cols-2 gap-2">
       <a href="https://www.devdisplay.tech/">
@@ -288,8 +288,8 @@ const TABS = [
     Component: Pricing,
   },
   {
-    title: 'Blog',
-    Component: Blog,
+    title: 'Explore',
+    Component: Explore,
   },
 ].map((n, idx) => ({ ...n, id: idx + 1 }));
 
