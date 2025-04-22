@@ -257,8 +257,8 @@ const Pricing = () => (
 
 const Explore = () => (
   <div>
-    <div className="grid grid-cols-2 gap-2" target="_blank" rel="noopener noreferrer">
-      <a href="https://www.devdisplay.tech/">
+    <div className="grid grid-cols-2 gap-2">
+      <a href="https://www.devdisplay.tech/" target="_blank" rel="noopener noreferrer">
         <img className="mb-2 h-14 w-full rounded object-cover" src="/DCommunity.png" alt="DevDisplay Community" />
         <h4 className="mb-0.5 text-sm font-medium">DevDisplay Community</h4>
         <p className="text-xs text-neutral-400">
