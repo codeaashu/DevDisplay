@@ -229,28 +229,28 @@ const Developers = () => (
   </div>
 );
 
-const Pricing = () => (
+const VerifyNow = () => (
   <div className="grid grid-cols-3 gap-4 divide-x divide-neutral-700">
     <a
-      href="#"
+      href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
       className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
     >
       <FiHome className="mb-2 text-xl text-indigo-300" />
-      <span className="text-xs">Startup</span>
+      <span className="text-xs">Add Profile</span>
     </a>
     <a
-      href="#"
+      href="https://www.devdisplay.org/PortfolioShowcase"
       className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
     >
       <FiBarChart2 className="mb-2 text-xl text-indigo-300" />
-      <span className="text-xs">Scaleup</span>
+      <span className="text-xs">Add Portfolio</span>
     </a>
     <a
-      href="#"
+      href="https://www.devdisplay.org/ProjectShowcase"
       className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
     >
       <FiPieChart className="mb-2 text-xl text-indigo-300" />
-      <span className="text-xs">Enterprise</span>
+      <span className="text-xs">Add Projects</span>
     </a>
   </div>
 );
@@ -284,8 +284,8 @@ const TABS = [
     Component: Developers,
   },
   {
-    title: 'Pricing',
-    Component: Pricing,
+    title: 'Verify Now',
+    Component: VerifyNow,
   },
   {
     title: 'Explore',
