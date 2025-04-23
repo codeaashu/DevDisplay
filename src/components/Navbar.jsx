@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FiChevronDown, FiArrowRight, FiHome, FiBarChart2, FiPieChart } from 'react-icons/fi';
 import { AnimatePresence, motion } from 'framer-motion';
+import { FiUser, FiBriefcase, FiClipboard } from 'react-icons/fi';
 
 const Navbar = () => {
   const [selected, setSelected] = useState(null);
@@ -235,21 +236,25 @@ const VerifyNow = () => (
       href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
       className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
     >
-      <FiHome className="mb-2 text-xl text-indigo-300" />
+      {/* <FiHome className="mb-2 text-xl text-indigo-300" /> */}
+      <FiUser className="mb-2 text-xl text-indigo-300" />
       <span className="text-xs">Add Profile</span>
     </a>
     <a
       href="https://www.devdisplay.org/PortfolioShowcase"
       className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
     >
-      <FiBarChart2 className="mb-2 text-xl text-indigo-300" />
+      {/* <FiBarChart2 className="mb-2 text-xl text-indigo-300" /> */}
+      <FiBriefcase className="mb-2 text-xl text-indigo-300" />
       <span className="text-xs">Add Portfolio</span>
     </a>
     <a
       href="https://www.devdisplay.org/ProjectShowcase"
       className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
     >
-      <FiPieChart className="mb-2 text-xl text-indigo-300" />
+      {/* <FiPieChart className="mb-2 text-xl text-indigo-300" /> */}
+      {/* <FiFolder className="mb-2 text-xl text-indigo-300" /> */}
+      <FiClipboard className="mb-2 text-xl text-indigo-300" />
       <span className="text-xs">Add Projects</span>
     </a>
   </div>
