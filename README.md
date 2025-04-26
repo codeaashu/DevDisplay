@@ -244,7 +244,7 @@
    </tr>
 </table>
 
-<div align="center"><img align="center" src="./public/star.png" width="150px" /></div>
+<div align="center"><img align="center" src="./public/star.png" width="150px" /><br></div>
 
 <!-- <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /> Creator & Founder of DevDisplay <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /></h1>
 
