@@ -196,7 +196,8 @@
   Propose and add innovative, creative features.<br>
   <em>(Lead with creativity by implementing new ideas in DevDisplay.)</em>
 </p>
-<img align="center" src="./public/star.png" width="150px" />
+
+<div><img align="center" src="./public/star.png" width="150px" /></div>
 
 <h1 align="center">Featured In <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="25" height="25" /></h1>
 <table>
