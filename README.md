@@ -201,7 +201,7 @@
 
 <div align="center"><img align="center" src="./public/star.png" width="150px" /></div>
 
-<h1 align="center">Featured in <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="25" height="25" /></h1>
+<h1 align="center">Featured in <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" /></h1>
 <table>
 
    <tr>
