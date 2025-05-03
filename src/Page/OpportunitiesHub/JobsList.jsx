@@ -16,23 +16,23 @@ const shareContent = (url) => {
 };
 
 const Jobs1 = () => {
-  const cardUrl = 'https://www.devdisplay.org/Jobs#Google-SDE-YouTube';
+  const cardUrl = 'https://www.devdisplay.org/Jobs#Cluely-Founding-Engineer';
   return (
-    <div id="Google-SDE-YouTube" className="group relative mx-auto w-full max-w-[30rem]">
+    <div id="Cluely-Founding-Engineer" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
         <div className="absolute -left-16 -top-16 h-32 w-32 rounded-full bg-gradient-to-br from-emerald-500/20 to-teal-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
         <div className="absolute -bottom-16 -right-16 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/20 to-indigo-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
         <div className="relative p-6">
           <div className="flex items-start justify-between">
             <div className="flex gap-4">
-              <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
+              <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white/20 p-2 backdrop-blur-md">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
-                <img src="/assets/Company/Google.png" alt="Custom Icon" className="h-15 w-15" />
+                <img src="/assets/Company/Cluely.png" alt="Custom Icon" className="h-15 w-15" />
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-white">Software Engineer, YouTube</h3>
+                <h3 className="text-lg font-semibold text-white">Founding Engineer</h3>
                 <div className="mt-1 flex items-center gap-2">
-                  <span className="text-sm text-slate-400">Google</span>
+                  <span className="text-sm text-slate-400">Cluely</span>
                   <span className="inline-block h-1 w-1 rounded-full bg-slate-400" />
                   <span className="text-sm text-slate-400">YouTube</span>
                   {/* <div className="flex items-center gap-1">
