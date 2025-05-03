@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import useDebounce from '../../hooks/useDebouncer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faXmark, faMicrophone } from '@fortawesome/free-solid-svg-icons';
-import SearchSkillsContainer from './SearchSkillsContainer';
 import VoiceSearch from './VoiceSearch';
 import { FaCheckCircle } from 'react-icons/fa';
 
@@ -13,8 +12,6 @@ function Search({ onSearch }) {
   const [searchCriteria, setSearchCriteria] = useState('name');
   const searchInput = useRef(null);
 
-  const [searchSkills, setSearchSkills] = useState([]);
-
   //voice search
   const [voiceText, setVoiceText] = useState(''); // to store recognized text
   const [isListening, setIsListening] = useState(false); // to toggle listening state
@@ -23,28 +20,18 @@ function Search({ onSearch }) {
     setSearchValue(voiceText);
   }, [voiceText]);
 
-  const normalizeString = (str) =>
-    str
-      .toLowerCase()
-      .replace(/\s*,\s*/g, ' ')
-      .replace(/\s+/g, ' ')
-      .trim();
-
   const handleInputChange = (event) => {
     setSearchValue(event.target.value);
   };
 
   const handleCriteriaChange = (event) => {
-    if (event.target.value !== 'skill') {
-      handleClearSkills();
-    }
     setSearchCriteria(event.target.value);
   };
 
   const debouncedValue = useDebounce(searchValue, 500);
 
   useEffect(() => {
-    if (debouncedValue !== prevSearchValue && searchCriteria !== 'skill') {
+    if (debouncedValue !== prevSearchValue) {
       onSearch({ value: debouncedValue, criteria: searchCriteria });
       setPrevSearchValue(debouncedValue);
     }
@@ -52,35 +39,17 @@ function Search({ onSearch }) {
   }, [debouncedValue]);
 
   const handleSearch = () => {
-    if ((searchValue !== prevSearchValue && searchCriteria !== 'skill') || searchValue.trim() === '') {
+    if (searchValue !== prevSearchValue) {
       onSearch({ value: searchValue, criteria: searchCriteria });
       setPrevSearchValue(searchValue);
     }
   };
 
-  const handleSearchOnEnter = (event) => {
-    if (event.keyCode === 13) {
-      //if searchCriteia is skill then it will add that skill to searchSkills
-      let searchvalue = normalizeString(searchValue);
-      searchvalue = searchvalue.trim();
-      if (searchvalue.length > 0) {
-        var set = new Set(searchSkills);
-        set.add(searchvalue);
-        setSearchSkills((prev) => [...set]);
-      }
-      setSearchValue('');
-    } else {
+  const handleSearchOnEnter = (e) => {
+    if (e.keyCode === 13) {
       handleSearch();
     }
   };
-
-  useEffect(() => {
-    //when new skill is added to searchSkill it will filter the data
-    if (searchCriteria === 'skill') {
-      onSearch({ value: searchSkills, criteria: searchCriteria });
-      setPrevSearchValue('');
-    }
-  }, [searchSkills]);
 
   const handleSearchButtonClick = () => {
     handleSearch();
@@ -93,15 +62,6 @@ function Search({ onSearch }) {
       onSearch({ value: '', criteria: searchCriteria });
       searchInput.current.focus();
     }
-  };
-
-  //Reset the profiles
-  const handleClearSkills = () => {
-    setSearchSkills([]);
-    setSearchValue('');
-    setPrevSearchValue('');
-    onSearch({ value: [], criteria: 'skill' });
-    searchInput.current.focus();
   };
 
   useEffect(() => {
@@ -176,19 +136,6 @@ function Search({ onSearch }) {
           />
         </div>
       </div>
-
-      {/* This block show the skills the user searched */}
-      {searchCriteria === 'skill' && searchSkills && searchSkills.length > 0 ? (
-        <>
-          <button
-            onClick={handleClearSkills}
-            className="m-2 cursor-pointer self-end rounded-md bg-white p-2 font-semibold dark:bg-[#1E2A47] dark:text-white"
-          >
-            Clear All
-          </button>
-          <SearchSkillsContainer searchSkills={searchSkills} setSearchSkills={setSearchSkills} />
-        </>
-      ) : null}
 
       <VoiceSearch setVoiceText={setVoiceText} isListening={isListening} setIsListening={setIsListening} />
     </div>
