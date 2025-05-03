@@ -19,6 +19,7 @@ import {
   FaReddit,
   FaShareAlt,
 } from 'react-icons/fa';
+import { FaHandshake } from 'react-icons/fa';
 import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
 import { SiLeetcode, SiCodeforces, SiHashnode, SiReplit, SiHackerrank } from 'react-icons/si';
 
@@ -178,15 +179,12 @@ function Card({ data }) {
           <a
             href={data.portfolio}
             className={`flex w-28 items-center gap-2 ${
-              data.portfolio
-                ? 'text-textSecondary hover:underline'
-                : 'cursor-not-allowed text-textSecondary brightness-50'
+              data.portfolio ? 'text-blue-600 hover:underline' : 'cursor-not-allowed text-blue-600 brightness-50'
             }`}
             target="_blank"
             rel="noreferrer"
           >
-            Connect
-            {/* Connect &#8594; */}
+            <FaHandshake className="text-lg" />
           </a>
         </div>
       </div>
