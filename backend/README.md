@@ -1,5 +1,4 @@
-﻿
-# 🚀 DevDisplay API: Your Gateway to Developer Trends
+﻿# 🚀 DevDisplay API: Your Gateway to Developer Trends
 
 ## 🌟 Project Overview
 
@@ -7,17 +6,17 @@ DevDisplay API is a powerful backend service that aggregates and serves trending
 
 ## ✨ Key Features
 
--   **Trending Insights**: Discover top developers, repositories, and posts
--   **Regularly scraped data**: Latest data scraped from authentic sources
--   **Flexible Time Frames**: Choose from daily, weekly, or monthly trending data
--   **Multi-Source Aggregation**: Pulls data from GitHub and Dev.to
--   **Newsletter Subscription**: Stay updated with the latest tech trends
+- **Trending Insights**: Discover top developers, repositories, and posts
+- **Regularly scraped data**: Latest data scraped from authentic sources
+- **Flexible Time Frames**: Choose from daily, weekly, or monthly trending data
+- **Multi-Source Aggregation**: Pulls data from GitHub and Dev.to
+- **Newsletter Subscription**: Stay updated with the latest tech trends
 
 ## 🛠 Tech Stack
 
--   **Backend**: Node.js & Express.js
--   **Database**: MongoDB with Mongoose ORM
--   **Data Sources**: GitHub.com, Dev.to
+- **Backend**: Node.js & Express.js
+- **Database**: MongoDB with Mongoose ORM
+- **Data Sources**: GitHub.com, Dev.to
 
 ## 📂 Project Structure
 
@@ -59,27 +58,27 @@ DevDisplay-API/
 
 ### Dev.to Endpoints
 
--   `GET /devdisplay/v1/trending/dev/posts/:since`
--   `GET /devdisplay/v1/trending/dev/getRandomPost`
+- `GET /devdisplay/v1/trending/dev/posts/:since`
+- `GET /devdisplay/v1/trending/dev/getRandomPost`
 
 ### GitHub Endpoints
 
--   `GET /devdisplay/v1/trending/github/repositories/:since`
--   `GET /devdisplay/v1/trending/github/developers/:since`
--   `GET /devdisplay/v1/trending/github/getRandomDev`
--   `GET /devdisplay/v1/trending/github/getRandomRepo`
+- `GET /devdisplay/v1/trending/github/repositories/:since`
+- `GET /devdisplay/v1/trending/github/developers/:since`
+- `GET /devdisplay/v1/trending/github/getRandomDev`
+- `GET /devdisplay/v1/trending/github/getRandomRepo`
 
 ### Subscription Endpoints
 
--   `POST /devdisplay/v1/subscribers`
+- `POST /devdisplay/v1/subscribers`
 
 ## 🚀 Quick Start Guide
 
 ### Prerequisites
 
--   Node.js
--   npm
--   MongoDB
+- Node.js
+- npm
+- MongoDB
 
 ### Installation Steps
 
@@ -109,16 +108,17 @@ DB_NAME=devdisplay
 
 4.  Prepare MongoDB Collections Ensure your MongoDB database has these collections:
 
--   `daily_trending_devs`
--   `daily_trending_posts`
--   `daily_trending_repos`
--   `weekly_trending_devs`
--   `weekly_trending_posts`
--   `weekly_trending_repos`
--   `monthly_trending_devs`
--   `monthly_trending_posts`
--   `monthly_trending_repos`
--   `tests`
+- `daily_trending_devs`
+- `daily_trending_posts`
+- `daily_trending_repos`
+- `weekly_trending_devs`
+- `weekly_trending_posts`
+- `weekly_trending_repos`
+- `monthly_trending_devs`
+- `monthly_trending_posts`
+- `monthly_trending_repos`
+- `tests`
+
 5.  Start the Server
 
 ```bash
@@ -138,6 +138,6 @@ Refer to `.env.sample` for detailed environment variable setup.
 
 Special thanks to GitHub and Dev.to for providing the incredible developer data that powers this API.
 
-----------
+---
 
 **Built with ❤️ by Developers, for Developers**

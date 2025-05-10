@@ -88,7 +88,7 @@ const Jobs1 = () => {
                   d="M12 2C8.686 2 6 4.686 6 8c0 5.25 6 12 6 12s6-6.75 6-12c0-3.314-2.686-6-6-6zM12 10a2 2 0 110-4 2 2 0 010 4z"
                 />
               </svg>
-              Bengaluru, Karnataka, India
+              San Francisco, USA • On-site
             </span>
             <span className="inline-flex items-center gap-1 rounded-lg bg-indigo-500/10 px-3 py-1 text-sm text-indigo-500">
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -110,7 +110,8 @@ const Jobs1 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-                Bachelor’s degree or equivalent practical experience.
+                Cluely is looking to hire the best software engineers in the world to help us create the ultimate
+                experience layer for AI.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -120,9 +121,17 @@ const Jobs1 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-                1 year of experience with software development in one or more programming languages (e.g., Python, C,
-                C++, Java, JavaScript).
+                Experience with Electron, Typescript, React, Docker, Kubernetes & DevOps OR building native Mac apps in
+                Swift.
               </p>
+            </div>
+            <div className="flex items-start gap-3">
+              <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/10">
+                <svg className="h-4 w-4 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <p className="text-sm leading-relaxed text-slate-400">Must be willing to WORK HARD.</p>
             </div>
             <div className="flex items-start gap-3">
               <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/10">
@@ -131,21 +140,13 @@ const Jobs1 = () => {
                 </svg>
               </div>
               <p className="text-sm leading-relaxed text-slate-400">
-                Master's degree or PhD in Computer Science or related technical field.
+                Working full-time in-person in the Mission District, SF
               </p>
-            </div>
-            <div className="flex items-start gap-3">
-              <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/10">
-                <svg className="h-4 w-4 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-              </div>
-              <p className="text-sm leading-relaxed text-slate-400">Experience developing accessible technologies.</p>
             </div>
           </div>
           <div className="mt-8 flex gap-3">
             <a
-              href="https://www.google.com/about/careers/applications/jobs/results/80134030950834886-software-engineer-youtube"
+              href="https://jobs.ashbyhq.com/cluely/9ed623a7-fc2d-4afc-ab88-a01af977cb9f"
               target="_blank"
               rel="noopener noreferrer"
               className="group/btn relative flex-1 overflow-hidden rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 p-px font-semibold text-white"
@@ -186,23 +187,23 @@ const Jobs1 = () => {
 };
 
 const Jobs2 = () => {
-  const cardUrl = 'https://www.devdisplay.org/Jobs#Adove-SDE';
+  const cardUrl = 'https://www.devdisplay.org/Jobs#Cluely-Founding-Designer';
   return (
-    <div id="Adove-SDE" className="group relative mx-auto w-full max-w-[30rem]">
+    <div id="Cluely-Founding-Designer" className="group relative mx-auto w-full max-w-[30rem]">
       <div className="relative overflow-hidden rounded-2xl bg-slate-950 shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-emerald-500/10">
         <div className="absolute -left-16 -top-16 h-32 w-32 rounded-full bg-gradient-to-br from-emerald-500/20 to-teal-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
         <div className="absolute -bottom-16 -right-16 h-32 w-32 rounded-full bg-gradient-to-br from-blue-500/20 to-indigo-500/0 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-70" />
         <div className="relative p-6">
           <div className="flex items-start justify-between">
             <div className="flex gap-4">
-              <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
+              <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white/20 p-2 backdrop-blur-md">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
-                <img src="/assets/Company/Adobe.png" alt="Custom Icon" className="h-15 w-15" />
+                <img src="/assets/Company/Cluely.png" alt="Custom Icon" className="h-15 w-15" />
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-white">Software Development Engineer</h3>
+                <h3 className="text-lg font-semibold text-white">Founding Designer</h3>
                 <div className="mt-1 flex items-center gap-2">
-                  <span className="text-sm text-slate-400">Adobe</span>
+                  <span className="text-sm text-slate-400">Cluely</span>
                   <span className="inline-block h-1 w-1 rounded-full bg-slate-400" />
                   {/* <div className="flex items-center gap-1">
                     <svg className="h-4 w-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
@@ -364,7 +365,7 @@ const Jobs3 = () => {
         <div className="relative p-6">
           <div className="flex items-start justify-between">
             <div className="flex gap-4">
-              <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
+              <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white/20 p-2 backdrop-blur-md">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
                 <img src="/assets/Company/YouTube.png" alt="Custom Icon" className="h-15 w-15" />
               </div>
@@ -534,7 +535,7 @@ const Jobs4 = () => {
         <div className="relative p-6">
           <div className="flex items-start justify-between">
             <div className="flex gap-4">
-              <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
+              <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white/20 p-2 backdrop-blur-md">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
                 <img src="/assets/Company/Google.png" alt="Custom Icon" className="h-15 w-15" />
               </div>
@@ -697,7 +698,7 @@ const Jobs5 = () => {
         <div className="relative p-6">
           <div className="flex items-start justify-between">
             <div className="flex gap-4">
-              <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
+              <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white/20 p-2 backdrop-blur-md">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
                 <img src="/assets/Company/Google.png" alt="Custom Icon" className="h-15 w-15" />
               </div>
@@ -869,7 +870,7 @@ const Jobs6 = () => {
         <div className="relative p-6">
           <div className="flex items-start justify-between">
             <div className="flex gap-4">
-              <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
+              <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white/20 p-2 backdrop-blur-md">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
                 <img src="/assets/Company/Google.png" alt="Custom Icon" className="h-15 w-15" />
               </div>
@@ -1039,7 +1040,7 @@ const Jobs7 = () => {
         <div className="relative p-6">
           <div className="flex items-start justify-between">
             <div className="flex gap-4">
-              <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
+              <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white/20 p-2 backdrop-blur-md">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
                 <img src="/assets/LocalCompany/QuestGlobal.jpg" alt="Custom Icon" className="h-15 w-15" />
               </div>
