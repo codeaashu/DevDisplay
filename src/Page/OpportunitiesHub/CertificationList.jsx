@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+'use client';
+
+import { useState } from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFlag, faSignal, faClock, faShareAlt } from '@fortawesome/free-solid-svg-icons';
@@ -18,10 +20,6 @@ const shareContent = (url, title, organizer) => {
   }
 };
 
-// List of all the certifications that matters for developers!
-
-// https://www.coursera.org/professional-certificates/meta-front-end-developer?irclickid=wgYXi5xY2xycUXeyopwbUQf0UksUvy3nEzO4TM0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=3552395&utm_content=b2c&utm_campaignid=Power%20Couple%20Media%20LLC&utm_term=14726_SI_1164545_
-
 const certification = [
   {
     organizer: 'Freecodecamp',
@@ -33,8 +31,8 @@ const certification = [
     ApplyLink: 'https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/',
     poster: '/assets/Certifications/JavaScript Algorithms and DS.png',
     shareLink: '#javascript-algorithms-ds',
+    price: 'Free',
   },
-
   {
     organizer: 'Independent',
     title: 'Ethics of AI',
@@ -45,8 +43,8 @@ const certification = [
     ApplyLink: 'https://ethics-of-ai.mooc.fi/start',
     poster: '/assets/Certifications/Ethics of AI.png',
     shareLink: '#ethics-of-ai',
+    price: 'Free',
   },
-
   {
     organizer: 'Freecodecamp',
     title: 'Responsive Web Design',
@@ -57,8 +55,8 @@ const certification = [
     ApplyLink: 'https://www.freecodecamp.org/learn/2022/responsive-web-design/',
     poster: '/assets/Certifications/Responsive Web Design.png',
     shareLink: '#responsive-web-design',
+    price: 'Free',
   },
-
   {
     organizer: 'Openlearn',
     title: 'IT in everyday life',
@@ -70,10 +68,10 @@ const certification = [
       'https://www.open.edu/openlearn/science-maths-technology/it-everyday-life/content-section-0?active-tab=description-tab',
     poster: '/assets/Certifications/IT in everyday life.png',
     shareLink: '#it-in-eveRyday-life',
+    price: 'Free',
   },
-
   {
-    organizer: 'Google cloud',
+    organizer: 'Google Cloud',
     title: 'Introduction to Generative AI',
     duration: '1 Day',
     level: 'Beginner',
@@ -82,8 +80,8 @@ const certification = [
     ApplyLink: 'https://www.cloudskillsboost.google/course_templates/536',
     poster: '/assets/Certifications/Introduction to Generative AI.png',
     shareLink: '#introduction-to-generative-ai',
+    price: 'Free',
   },
-
   {
     organizer: 'Codesignal',
     title: 'Understanding LLMs and Basic Prompting Techniques',
@@ -95,8 +93,8 @@ const certification = [
       'https://codesignal.com/learn/courses/understanding-llms-and-basic-prompting-techniques?utm_campaign=classcentral-courses_Q4_25_&utm_medium=referral&utm_source=classcentral&utm_content=go-to-class',
     poster: '/assets/Certifications/Understanding LLMs and Basic Prompting Techniques.png',
     shareLink: '#understanding-llms-and-basic-prompting-techniques',
+    price: 'Free',
   },
-
   {
     organizer: 'Codesignal',
     title: 'Prompt Engineering for Everyone',
@@ -108,8 +106,8 @@ const certification = [
       'https://codesignal.com/learn/paths/prompt-engineering-for-everyone?utm_campaign=classcentral-courses_Q4_25_&utm_medium=referral&utm_source=classcentral&utm_content=go-to-class',
     poster: '/assets/Certifications/Prompt Engineering for Everyone.png',
     shareLink: '#prompt-engineering-for-everyone',
+    price: 'Free',
   },
-
   {
     organizer: 'Independent',
     title: 'DevOps with Kubernetes',
@@ -120,8 +118,8 @@ const certification = [
     ApplyLink: 'https://devopswithkubernetes.com/',
     poster: '/assets/Certifications/DevOps with Kubernetes.png',
     shareLink: '#devops-with-kubernetes',
+    price: 'Free',
   },
-
   {
     organizer: 'Kaggle',
     title: 'Intro to Deep Learning',
@@ -132,8 +130,8 @@ const certification = [
     ApplyLink: 'https://www.kaggle.com/learn/intro-to-deep-learning',
     poster: '/assets/Certifications/Intro to Deep Learning.png',
     shareLink: '#intro-to-deep-learning',
+    price: 'Free',
   },
-
   {
     organizer: 'Freecodecamp',
     title: 'Scientific Computing with Python',
@@ -144,6 +142,151 @@ const certification = [
     ApplyLink: 'https://www.freecodecamp.org/learn/scientific-computing-with-python/',
     poster: '/assets/Certifications/Scientific Computing with Python.png',
     shareLink: '#scientific-computing-with-python',
+    price: 'Free',
+  },
+  {
+    organizer: 'Google Cloud',
+    title: 'Cloud Digital Leader',
+    duration: '4 Weeks',
+    level: 'Beginner',
+    skills: ['Cloud Computing', 'Google Cloud Products', 'Business Use Cases'],
+    referralCode: 'gcloudcert',
+    ApplyLink: 'https://cloud.google.com/learn/certification/cloud-digital-leader',
+    poster: '/assets/Certifications/CloudDigitalLeader.png',
+    shareLink: '#cloud-digital-leader',
+    price: '$99',
+  },
+  {
+    organizer: 'Google Cloud',
+    title: 'Associate Cloud Engineer',
+    duration: '6 Months',
+    level: 'Intermediate',
+    skills: ['Cloud Computing', 'Application Deployment', 'Operations Monitoring'],
+    referralCode: 'gcloudcert',
+    ApplyLink: 'https://cloud.google.com/learn/certification/cloud-engineer',
+    poster: '/assets/Certifications/AssociateCloudEngineer.png',
+    shareLink: '#associate-cloud-engineer',
+    price: '$125',
+  },
+  {
+    organizer: 'Google Cloud',
+    title: 'Associate Google Workspace Administrator',
+    duration: '6 Months',
+    level: 'Intermediate',
+    skills: ['Google Workspace', 'Cloud Administration', 'User Management'],
+    referralCode: 'gcloudcert',
+    ApplyLink: 'https://cloud.google.com/certification/associate-google-workspace-administrator',
+    poster: '/assets/Certifications/GoogleWorkspaceAdministrator.png',
+    shareLink: '#google-workspace-administrator',
+    price: '$125',
+  },
+  {
+    organizer: 'Google Cloud',
+    title: 'Associate Data Practitioner',
+    duration: '6 Months',
+    level: 'Intermediate',
+    skills: ['Data Management', 'Cloud Computing', 'Data Processing'],
+    referralCode: 'gcloudcert',
+    ApplyLink: 'https://cloud.google.com/learn/certification/data-practitioner',
+    poster: '/assets/Certifications/DataPractitioner.png',
+    shareLink: '#data-practitioner',
+    price: '$125',
+  },
+  {
+    organizer: 'Google Cloud',
+    title: 'Professional Cloud Architect',
+    duration: '1 Year',
+    level: 'Advanced',
+    skills: ['Cloud Architecture', 'Solution Design', 'Infrastructure Management'],
+    referralCode: 'gcloudcert',
+    ApplyLink: 'https://cloud.google.com/learn/certification/cloud-architect',
+    poster: '/assets/Certifications/ProfessionalCloudArchitect.png',
+    shareLink: '#professional-cloud-architect',
+    price: '$200',
+  },
+  {
+    organizer: 'Google Cloud',
+    title: 'Professional Cloud Database Engineer',
+    duration: '1 Year',
+    level: 'Advanced',
+    skills: ['Database Management', 'Cloud Databases', 'Data Optimization'],
+    referralCode: 'gcloudcert',
+    ApplyLink: 'https://cloud.google.com/certification/cloud-database-engineer',
+    poster: '/assets/Certifications/ProfessionalCloudDatabaseEngineer.png',
+    shareLink: '#professional-cloud-database-engineer',
+    price: '$200',
+  },
+  {
+    organizer: 'Google Cloud',
+    title: 'Professional Cloud Developer',
+    duration: '1 Year',
+    level: 'Advanced',
+    skills: ['Cloud Development', 'Application Development', 'Scalability'],
+    referralCode: 'gcloudcert',
+    ApplyLink: 'https://cloud.google.com/learn/certification/cloud-developer',
+    poster: '/assets/Certifications/ProfessionalCloudDeveloper.png',
+    shareLink: '#professional-cloud-developer',
+    price: '$200',
+  },
+  {
+    organizer: 'Google Cloud',
+    title: 'Professional Data Engineer',
+    duration: '1 Year',
+    level: 'Advanced',
+    skills: ['Data Engineering', 'Machine Learning', 'Data Processing'],
+    referralCode: 'gcloudcert',
+    ApplyLink: 'https://cloud.google.com/learn/certification/data-engineer',
+    poster: '/assets/Certifications/ProfessionalDataEngineer.png',
+    shareLink: '#professional-data-engineer',
+    price: '$200',
+  },
+  {
+    organizer: 'Google Cloud',
+    title: 'Professional Cloud DevOps Engineer',
+    duration: '1 Year',
+    level: 'Advanced',
+    skills: ['DevOps', 'CI/CD', 'Site Reliability'],
+    referralCode: 'gcloudcert',
+    ApplyLink: 'https://cloud.google.com/certification/cloud-devops-engineer',
+    poster: '/assets/Certifications/ProfessionalCloudDevOpsEngineer.png',
+    shareLink: '#professional-cloud-devops-engineer',
+    price: '$200',
+  },
+  {
+    organizer: 'Google Cloud',
+    title: 'Professional Cloud Security Engineer',
+    duration: '1 Year',
+    level: 'Advanced',
+    skills: ['Cloud Security', 'Identity Management', 'Compliance'],
+    referralCode: 'gcloudcert',
+    ApplyLink: 'https://cloud.google.com/certification/cloud-security-engineer',
+    poster: '/assets/Certifications/ProfessionalCloudSecurityEngineer.png',
+    shareLink: '#professional-cloud-security-engineer',
+    price: '$200',
+  },
+  {
+    organizer: 'Google Cloud',
+    title: 'Professional Cloud Network Engineer',
+    duration: '1 Year',
+    level: 'Advanced',
+    skills: ['Cloud Networking', 'Network Design', 'Connectivity'],
+    referralCode: 'gcloudcert',
+    ApplyLink: 'https://cloud.google.com/certification/cloud-network-engineer',
+    poster: '/assets/Certifications/ProfessionalCloudNetworkEngineer.png',
+    shareLink: '#professional-cloud-network-engineer',
+    price: '$200',
+  },
+  {
+    organizer: 'Google Cloud',
+    title: 'Professional Machine Learning Engineer',
+    duration: '1 Year',
+    level: 'Advanced',
+    skills: ['Machine Learning', 'AI Model Deployment', 'Data Science'],
+    referralCode: 'gcloudcert',
+    ApplyLink: 'https://cloud.google.com/certification/machine-learning-engineer',
+    poster: '/assets/Certifications/ProfessionalMachineLearningEngineer.png',
+    shareLink: '#professional-machine-learning-engineer',
+    price: '$200',
   },
 ];
 
@@ -157,8 +300,8 @@ const StyledcertificationCard = styled.div`
     transform 0.3s,
     box-shadow 0.3s;
   width: 100%;
-  max-width: 350px; /* Increased width */
-  margin: 0.5rem; /* Decreased gap */
+  max-width: 350px;
+  margin: 0.5rem;
 
   &:hover {
     transform: scale(1.05);
@@ -233,6 +376,7 @@ const CertificationCardComponent = ({
   ApplyLink,
   poster,
   shareLink,
+  price,
 }) => {
   return (
     <StyledcertificationCard id={shareLink.substring(1)}>
@@ -262,7 +406,7 @@ const CertificationCardComponent = ({
           </button>
         </div>
         <img
-          src={poster}
+          src={poster || '/placeholder.svg'}
           alt={`${title} Poster`}
           className="h-full w-full rounded-lg object-cover"
           onError={(e) => {
@@ -285,6 +429,8 @@ const CertificationCardComponent = ({
 
       <div className="mb-1 text-center text-sm text-gray-400">Referral Code: {referralCode}</div>
 
+      <div className="mb-1 text-center text-sm text-[#00a6fb]">Price: {price}</div>
+
       <div className="mt-2 flex flex-wrap justify-center gap-2 p-2">
         {skills.map((skill, idx) => (
           <span key={idx} className="bg-gray-1000 rounded-full border border-[#00a6fb] px-2 py-1 text-xs text-gray-300">
@@ -295,19 +441,6 @@ const CertificationCardComponent = ({
     </StyledcertificationCard>
   );
 };
-
-<style>
-  {`
-          @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
-
-          @font-face {
-            font-family: "MerriweatherSans-SemiBold";
-            src: url('/fonts/MerriweatherSans-SemiBold.ttf') format('truetype');
-            font-weight: normal;
-            font-style: normal;
-          }
-          `}
-</style>;
 
 const StyledcertificationListContainer = styled.div`
   display: flex;
@@ -333,16 +466,21 @@ const FilterContainer = styled.div`
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 
   input,
   select {
-    padding: 0.75rem 1rem; /* Adjusted padding */
+    padding: 0.75rem 1rem;
     border: 1px solid #00a6fb;
-    border-radius: 9999px; /* fully rounded */
+    border-radius: 9999px;
     background: rgba(15, 27, 53, 0.9);
     color: #ffffff;
     font-size: 1rem;
-    min-width: 220px;
+    min-width: 200px;
+    flex: 1;
     transition: all 0.3s ease-in-out;
 
     &::placeholder {
@@ -361,43 +499,246 @@ const FilterContainer = styled.div`
       box-shadow: 0 0 0 2px rgba(20, 200, 255, 0.4);
     }
   }
+
+  .filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: stretch;
+
+    input,
+    select {
+      width: 100%;
+      min-width: unset;
+    }
+
+    .filter-row {
+      flex-direction: column;
+    }
+  }
 `;
 
 const CertificationList = () => {
-  const [skillFilter, setSkillFilter] = useState('');
-  const [organizerFilter, setOrganizerFilter] = useState('');
+  const [filters, setFilters] = useState({
+    search: '',
+    organizer: '',
+    level: '',
+    price: '',
+    selectedDomain: '',
+  });
 
-  const filteredcertification = certification.filter((certification) => {
-    const matchesSkill = skillFilter
-      ? certification.skills.some((skill) => skill.toLowerCase().includes(skillFilter.toLowerCase()))
-      : true;
-    const matchesOrganizer = organizerFilter
-      ? certification.organizer.toLowerCase().includes(organizerFilter.toLowerCase())
-      : true;
-    return matchesSkill && matchesOrganizer;
+  const skillCategories = {
+    Cloud: [
+      'Cloud Computing',
+      'Google Cloud Products',
+      'Cloud Administration',
+      'Cloud Architecture',
+      'Cloud Databases',
+      'Cloud Development',
+      'Cloud Networking',
+      'Cloud Security',
+      'Application Deployment',
+      'Operations Monitoring',
+      'Solution Design',
+      'Infrastructure Management',
+      'Data Optimization',
+      'Scalability',
+      'Network Design',
+      'Connectivity',
+      'Identity Management',
+      'Compliance',
+      'CI/CD',
+      'Site Reliability',
+    ],
+    AI: [
+      'Generative AI',
+      'Generative AI Quiz',
+      'LLMs',
+      'Effective Prompting',
+      'LLM Prompting',
+      'Understanding LLMs',
+      'Prompt Engineering',
+      'AI ethics',
+      'AI Rights?',
+      'Machine Learning',
+      'AI Model Deployment',
+      'Data Science',
+      'DNN',
+      'Gradient Descent',
+      'Binay Classification',
+    ],
+    WebDevelopment: ['HTML5', 'CSS', 'Responsive Web', 'JavaScript'],
+    DevOps: ['Kubernates', 'Deploy', 'GitOps', 'DevOps'],
+    Data: [
+      'Data Management',
+      'Data Processing',
+      'Data Engineering',
+      'Data Structures',
+      'Network',
+      'Data',
+      'Internet',
+      'Business Use Cases',
+      'User Management',
+    ],
+    Programming: ['Python', 'Algorithm', 'OPPs', 'Algorithms'],
+  };
+
+  const skillToCategory = {};
+  Object.entries(skillCategories).forEach(([category, skills]) => {
+    skills.forEach((skill) => {
+      skillToCategory[skill] = category;
+    });
+  });
+
+  const uniqueOrganizers = [...new Set(certification.map((cert) => cert.organizer))];
+  const uniqueLevels = [...new Set(certification.map((cert) => cert.level))];
+  const uniqueCategories = Object.keys(skillCategories);
+
+  const handleSearchChange = (e) => {
+    const value = e.target.value;
+    setFilters((prev) => ({
+      ...prev,
+      search: value,
+    }));
+  };
+
+  const handleOrganizerChange = (e) => {
+    setFilters((prev) => ({
+      ...prev,
+      organizer: e.target.value,
+    }));
+  };
+
+  const handleLevelChange = (e) => {
+    setFilters((prev) => ({
+      ...prev,
+      level: e.target.value,
+    }));
+  };
+
+  const handlePriceChange = (e) => {
+    setFilters((prev) => ({
+      ...prev,
+      price: e.target.value,
+    }));
+  };
+
+  const handleDomainChange = (e) => {
+    setFilters((prev) => ({
+      ...prev,
+      selectedDomain: e.target.value,
+    }));
+  };
+
+  const clearFilters = () => {
+    setFilters({
+      search: '',
+      organizer: '',
+      level: '',
+      price: '',
+      selectedDomain: '',
+    });
+  };
+
+  const filteredCertifications = certification.filter((cert) => {
+    const searchMatch =
+      filters.search === '' ||
+      cert.title.toLowerCase().includes(filters.search.toLowerCase()) ||
+      cert.organizer.toLowerCase().includes(filters.search.toLowerCase()) ||
+      cert.skills.some((skill) => skill.toLowerCase().includes(filters.search.toLowerCase()));
+
+    const organizerMatch = filters.organizer === '' || cert.organizer === filters.organizer;
+
+    const levelMatch = filters.level === '' || cert.level === filters.level;
+
+    const priceMatch =
+      filters.price === '' ||
+      (filters.price === 'Free' ? cert.price === 'Free' : filters.price === 'Paid' ? cert.price !== 'Free' : true);
+
+    const domainMatch =
+      filters.selectedDomain === '' || cert.skills.some((skill) => skillToCategory[skill] === filters.selectedDomain);
+
+    return searchMatch && organizerMatch && levelMatch && priceMatch && domainMatch;
   });
 
   return (
     <>
       <FilterContainer>
-        <input
-          type="text"
-          placeholder="Search by domain or skills"
-          value={skillFilter}
-          onChange={(e) => setSkillFilter(e.target.value)}
-        />
-        <input
-          type="text"
-          placeholder="Search by provider"
-          value={organizerFilter}
-          onChange={(e) => setOrganizerFilter(e.target.value)}
-        />
+        <div className="filter-row">
+          <input
+            type="text"
+            placeholder="Search by title, provider or skills"
+            value={filters.search}
+            onChange={handleSearchChange}
+          />
+
+          <select value={filters.selectedDomain} onChange={handleDomainChange}>
+            <option value="">All Domains</option>
+            {uniqueCategories.map((category, idx) => (
+              <option key={idx} value={category}>
+                {category}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="filter-row">
+          <select value={filters.organizer} onChange={handleOrganizerChange}>
+            <option value="">All Providers</option>
+            {uniqueOrganizers.map((org, idx) => (
+              <option key={idx} value={org}>
+                {org}
+              </option>
+            ))}
+          </select>
+
+          <select value={filters.level} onChange={handleLevelChange}>
+            <option value="">All Levels</option>
+            {uniqueLevels.map((level, idx) => (
+              <option key={idx} value={level}>
+                {level}
+              </option>
+            ))}
+          </select>
+
+          <select value={filters.price} onChange={handlePriceChange}>
+            <option value="">All Prices</option>
+            <option value="Free">Free</option>
+            <option value="Paid">Paid</option>
+          </select>
+        </div>
       </FilterContainer>
-      <StyledcertificationListContainer>
-        {filteredcertification.map((certification, idx) => (
-          <CertificationCardComponent key={idx} {...certification} />
-        ))}
-      </StyledcertificationListContainer>
+
+      {(filters.search || filters.organizer || filters.level || filters.price || filters.selectedDomain) && (
+        <div className="mb-4 flex justify-center">
+          <button onClick={clearFilters} className="rounded-full bg-red-600 px-3 py-1 text-sm text-white">
+            Clear Filters
+          </button>
+        </div>
+      )}
+
+      {filteredCertifications.length === 0 ? (
+        <div className="p-8 text-center text-white">
+          <h3 className="mb-2 text-xl font-bold">No certifications found</h3>
+          <p>Try adjusting your filters to see more results</p>
+        </div>
+      ) : (
+        <StyledcertificationListContainer>
+          {filteredCertifications.map((cert, idx) => (
+            <CertificationCardComponent key={idx} {...cert} />
+          ))}
+        </StyledcertificationListContainer>
+      )}
+
+      <div className="mt-4 text-center text-gray-400">
+        Showing {filteredCertifications.length} of {certification.length} certifications
+      </div>
     </>
   );
 };
