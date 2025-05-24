@@ -15,7 +15,9 @@ import IdeaSubmission from './Page/IdeaSubmission.jsx';
 import PortfolioIdeas from './Page/PortfolioIdeas/PortfolioIdeas.jsx';
 import PortfolioBuilder from './Page/PortfolioBuilder.jsx';
 import ProjectShowcase from './Page/ProjectShowcase.jsx';
-import ResumeBuilder from './Page/ResumeBuilder.jsx';
+import Resume from './Page/Resume.jsx';
+import ResumeBuilder from './components/ResumeBuilder/ResumeBuilder.jsx';
+import ResumeAnalyzer from './components/ResumeAnalyzer/ResumeAnalyzer.jsx';
 import Discussions from './Page/Discussions.jsx';
 import IndustryTrends from './Page/IndustryTrends.jsx';
 import JourneyPage from './Page/JourneyPage.jsx';
@@ -50,6 +52,7 @@ import DevShare from './Page/ResoucesHub/DevShare.jsx';
 
 import PageNotFound from './Page/PageNotFound.jsx';
 import ProfilePage from './components/Profile/ProfilePage';
+import { ResumeProvider } from './components/ResumeBuilder/context/ResumeContext.jsx';
 
 function App() {
   React.useEffect(() => {
@@ -110,7 +113,16 @@ function App() {
         <Route path="/IdeaSubmission" element={<IdeaSubmission />} />
         <Route path="/PortfolioIdeas" element={<PortfolioIdeas />} />
         <Route path="/PortfolioBuilder" element={<PortfolioBuilder />} />
-        <Route path="/ResumeBuilder" element={<ResumeBuilder />} />
+        <Route path="/Resume" element={<Resume />} />
+        <Route
+          path="/ResumeBuilder"
+          element={
+            <ResumeProvider>
+              <ResumeBuilder />
+            </ResumeProvider>
+          }
+        />
+        <Route path="/ResumeAnalyzer" element={<ResumeAnalyzer />} />
         <Route path="/journeys/:id" element={<AchieverJourneyPage />} />
         <Route path="/journeys" element={<JourneyPage />} />
         <Route path="/IndustryTrends" element={<IndustryTrends />} />
