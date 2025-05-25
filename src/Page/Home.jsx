@@ -475,7 +475,7 @@ const TechFeatures = () => {
 
         <StyledDot>
           <a
-            href="https://resume-builder-pro.vercel.app/"
+            href="/Resume"
             target="_blank"
             rel="noopener noreferrer"
             className="project-card to-[rgba(0, 43, 62, 0.6)] group relative block h-full rounded-lg border border-white bg-gradient-to-r from-[rgba(15,27,53,0.9)] p-6 shadow-lg transition duration-300 hover:scale-105 hover:transform"
@@ -488,7 +488,7 @@ const TechFeatures = () => {
               </div>
               <StyledButton
                 onClick={() => {
-                  window.location.href = 'https://resume-builder-pro.vercel.app/';
+                  window.location.href = '/Resume';
                   window.open('_blank');
                 }}
               >
