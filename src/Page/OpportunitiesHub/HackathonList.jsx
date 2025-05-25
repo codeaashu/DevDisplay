@@ -339,6 +339,16 @@ const hackathons = [
     poster: '/assets/Hackathons/Lisk Builders Challenge.jpg',
     shareLink: '#lisk-builders-challenge',
   },
+  {
+    organizer: 'Reskill - Social',
+    title: 'Social Summer of Code (SSoC) 2025',
+    location: 'Offline',
+    date: 'June 10',
+    domains: ['Blockchain', 'Web3'],
+    applyLink: 'https://lisk-builders-challenge-1.devfolio.co/',
+    poster: '/assets/Hackathons/Lisk Builders Challenge.jpg',
+    shareLink: '#lisk-builders-challenge',
+  },
   // ... Add others similarly
 ];
 

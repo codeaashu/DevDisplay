@@ -757,19 +757,6 @@ const OSProgramCardComponent = ({
 
 const OSProgramList = [
   {
-    organizer: 'Google',
-    title: 'Google Summer of Code 2025',
-    description:
-      'GSoC is a global, online program focused on bringing new contributors into open-source software development. Participants work with open-source organizations on a 12+ week programming project with mentorship and stipends provided by Google.',
-    timeline: 'March 18 - April 2, 2025',
-    Duration: 'May - September 2025',
-    type: 'Student-friendly, Open Source',
-    guidelines: 'https://summerofcode.withgoogle.com/how-it-works/',
-    applyLink: 'https://summerofcode.withgoogle.com/',
-    poster: '/assets/opensourceProgram/GSOC.png',
-    shareLink: '#gsoc2025',
-  },
-  {
     organizer: 'MLH',
     title: 'MLH Fellowship Spring 2025',
     description:
@@ -789,6 +776,19 @@ const OSProgramList = [
       'An open-source program where you can contribute to various projects and get mentorship, swags, and certifications. It’s beginner-friendly and inclusive.',
     timeline: 'August 2025',
     Duration: 'May - August 2025',
+    type: 'Beginner-friendly, Open Source',
+    guidelines: 'https://gssoc.girlscript.tech/',
+    applyLink: 'https://gssoc.girlscript.tech/',
+    poster: '/assets/opensourceProgram/GSSOC.jpg',
+    shareLink: '#gssoc2025',
+  },
+  {
+    organizer: 'GirlScript Foundation',
+    title: 'Social Summer of Code (SSoC)',
+    description:
+      'Social Summer of Code (SSoC) is an open-source program organized by Social and Reskilll, designed to connect students with open-source organizations and projects. It aims to promote open-source partic',
+    timeline: 'JUN 10',
+    Duration: '29 Apr - 23 Aug',
     type: 'Beginner-friendly, Open Source',
     guidelines: 'https://gssoc.girlscript.tech/',
     applyLink: 'https://gssoc.girlscript.tech/',
