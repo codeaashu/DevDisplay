@@ -757,6 +757,19 @@ const OSProgramCardComponent = ({
 
 const OSProgramList = [
   {
+    organizer: 'Social and Reskilll',
+    title: 'Social Summer of Code (SSoC)',
+    description:
+      'Social Summer of Code (SSoC) is an open-source program organized by Social and Reskilll, designed to connect students with open-source organizations and projects. It aims to promote open-source participation and provide mentorship to students.',
+    timeline: 'JUN 10',
+    Duration: '10 June - 23 Aug',
+    type: 'Beginner-friendly, Open Source',
+    guidelines: 'https://reskilll.com/hack/ssoc4',
+    applyLink: 'https://reskilll.com/hack/ssoc4',
+    poster: '/assets/opensourceProgram/SSOC4.png',
+    shareLink: '#ssoc4',
+  },
+  {
     organizer: 'MLH',
     title: 'MLH Fellowship Spring 2025',
     description:
@@ -776,19 +789,6 @@ const OSProgramList = [
       'An open-source program where you can contribute to various projects and get mentorship, swags, and certifications. It’s beginner-friendly and inclusive.',
     timeline: 'August 2025',
     Duration: 'May - August 2025',
-    type: 'Beginner-friendly, Open Source',
-    guidelines: 'https://gssoc.girlscript.tech/',
-    applyLink: 'https://gssoc.girlscript.tech/',
-    poster: '/assets/opensourceProgram/GSSOC.jpg',
-    shareLink: '#gssoc2025',
-  },
-  {
-    organizer: 'GirlScript Foundation',
-    title: 'Social Summer of Code (SSoC)',
-    description:
-      'Social Summer of Code (SSoC) is an open-source program organized by Social and Reskilll, designed to connect students with open-source organizations and projects. It aims to promote open-source partic',
-    timeline: 'JUN 10',
-    Duration: '29 Apr - 23 Aug',
     type: 'Beginner-friendly, Open Source',
     guidelines: 'https://gssoc.girlscript.tech/',
     applyLink: 'https://gssoc.girlscript.tech/',
