@@ -34,7 +34,7 @@ import Competitions from './Page/OpportunitiesHub/Competitions.jsx';
 import Events from './Page/OpportunitiesHub/Events.jsx';
 import Bootcamps from './Page/OpportunitiesHub/Bootcamps.jsx';
 import Certifications from './Page/OpportunitiesHub/Certifications.jsx';
-import OpenSourceProgram from './Page/OpportunitiesHub/OpenSourceProgram.jsx';
+import OpenSource from './Page/OpportunitiesHub/OpenSource.jsx';
 // Features - Resources Hub Pages
 import Resources from './Page/Resources.jsx';
 import Documentation from './Page/ResoucesHub/Documentation.jsx';
@@ -138,7 +138,7 @@ function App() {
         <Route path="/Events" element={<Events />} />
         <Route path="/Bootcamps" element={<Bootcamps />} />
         <Route path="/Certifications" element={<Certifications />} />
-        <Route path="/OpenSourceProgram" element={<OpenSourceProgram />} />
+        <Route path="/OpenSource" element={<OpenSource />} />
         {/* Features - Resources Hub Pages */}
         <Route path="/Resources" element={<Resources />} />
         <Route path="/Documentation" element={<Documentation />} />

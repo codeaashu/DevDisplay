@@ -204,7 +204,7 @@ const Developers = () => (
         <a href="https://www.devdisplay.org/Certifications" className="block text-sm text-neutral-400">
           Certifications
         </a>
-        <a href="https://www.devdisplay.org/OpenSourceProgram" className="block text-sm text-neutral-400">
+        <a href="https://www.devdisplay.org/OpenSource" className="block text-sm text-neutral-400">
           OpenSource
         </a>
       </div>

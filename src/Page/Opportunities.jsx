@@ -347,7 +347,7 @@ const OpportunitiesCards = () => {
     {
       title: 'OpenSource Program',
       description: 'Explore & Participate in Global OpenSource Programs.',
-      link: '/OpenSourceProgram',
+      link: '/OpenSource',
       tags: ['OpenSource Program', 'GSOC', 'Hacktoberfest', 'Outreachy', 'MLH Fellowship', 'GSSOC', 'SWOC'],
     },
   ];
