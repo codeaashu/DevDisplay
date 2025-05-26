@@ -1,16 +1,27 @@
 import jsPDF from 'jspdf';
 
+const hexToRgb = (hex) => {
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result ? [parseInt(result[1], 16), parseInt(result[2], 16), parseInt(result[3], 16)] : [0, 0, 0];
+};
+
 const addText = (doc, text, x, y, options = {}) => {
   doc.text(text, x, y, options);
   const textHeight = doc.getTextDimensions(text, { fontSize: doc.getFontSize() }).h;
   return y + textHeight;
 };
 
-const addWrappedText = (doc, text, x, y, maxWidth, lineHeight = 4) => {
+const addWrappedText = (doc, text, x, y, maxWidth, lineHeight = 3.5, linkUrl = null) => {
   if (!text) return y;
   const textLines = doc.splitTextToSize(text, maxWidth);
+
   textLines.forEach((line, index) => {
-    doc.text(line, x, y + index * lineHeight);
+    const currentLineY = y + index * lineHeight;
+    if (linkUrl && index === 0) {
+      doc.textWithLink(line, x, currentLineY, { url: linkUrl });
+    } else {
+      doc.text(line, x, currentLineY);
+    }
   });
   const totalTextHeight = textLines.length * lineHeight;
   return y + totalTextHeight;
@@ -25,44 +36,45 @@ const renderSection = (doc, yPosition, margin, pageWidth, contentWidth, title, d
     return yPosition;
   }
 
-  const sectionTitleHeight = doc.getTextDimensions(title, { fontSize: 16 }).h + 3 + 5;
+  const sectionTitleFontSize = 14;
+  const sectionTitleHeight = doc.getTextDimensions(title, { fontSize: sectionTitleFontSize }).h + 2 + 3;
 
   if (yPosition + sectionTitleHeight > doc.internal.pageSize.getHeight() - margin) {
     doc.addPage();
     yPosition = margin;
   }
 
-  doc.setFontSize(16);
+  doc.setFontSize(sectionTitleFontSize);
   doc.setFont('helvetica', 'bold');
   yPosition = addText(doc, title, margin, yPosition);
-  yPosition += 3;
+  yPosition += 2;
 
   doc.setLineWidth(0.5);
   doc.line(margin, yPosition, pageWidth - margin, yPosition);
-  yPosition += 5;
+  yPosition += 3;
 
   doc.setFont('helvetica', 'normal');
 
   if (Array.isArray(data)) {
     data.forEach((item, index) => {
-      const estimatedItemHeight = 40;
+      const estimatedItemHeight = 25;
 
       if (yPosition + estimatedItemHeight > doc.internal.pageSize.getHeight() - margin) {
         doc.addPage();
         yPosition = margin;
       }
       yPosition = renderItem(doc, item, yPosition, margin, pageWidth, contentWidth);
-      yPosition += 5;
+      yPosition += 3;
     });
   } else {
-    const estimatedItemHeight = 60;
+    const estimatedItemHeight = 35;
 
     if (yPosition + estimatedItemHeight > doc.internal.pageSize.getHeight() - margin) {
       doc.addPage();
       yPosition = margin;
     }
     yPosition = renderItem(doc, data, yPosition, margin, pageWidth, contentWidth);
-    yPosition += 5;
+    yPosition += 3;
   }
 
   return yPosition;
@@ -77,8 +89,12 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
     let yPosition = margin;
     const pageWidth = doc.internal.pageSize.getWidth();
     const contentWidth = pageWidth - 2 * margin;
+    const bodyFontSize = 10;
+    const wrappedLineHeight = 3.5;
+    const linkColorHex = '#007bff';
+    const rgbLinkColor = hexToRgb(linkColorHex);
 
-    doc.setFontSize(24);
+    doc.setFontSize(22);
     doc.setFont('helvetica', 'bold');
     yPosition = addText(
       doc,
@@ -87,9 +103,9 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
       yPosition,
       { align: 'center' },
     );
-    yPosition += 8;
+    yPosition += 5;
 
-    doc.setFontSize(10);
+    doc.setFontSize(9);
     doc.setFont('helvetica', 'normal');
     const contactItems = [];
     if (resumeData.basicInfo.email) contactItems.push(resumeData.basicInfo.email);
@@ -99,26 +115,47 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
     const contactTextLines = doc.splitTextToSize(contactText, contentWidth);
     let contactY = yPosition;
     contactTextLines.forEach((line, index) => {
-      doc.text(line, pageWidth / 2, contactY + index * 4, { align: 'center' });
+      doc.text(line, pageWidth / 2, contactY + index * 3.5, { align: 'center' });
     });
-    yPosition = contactY + contactTextLines.length * 4;
-    yPosition += 3;
+    yPosition = contactY + contactTextLines.length * 3.5;
+    yPosition += 2;
 
-    doc.setFontSize(10);
+    doc.setFontSize(9);
     doc.setFont('helvetica', 'normal');
-    const linkItems = [];
-    if (resumeData.basicInfo.linkedinLink) linkItems.push(`LinkedIn: ${resumeData.basicInfo.linkedinLink}`);
-    if (resumeData.basicInfo.githubLink) linkItems.push(`GitHub: ${resumeData.basicInfo.githubLink}`);
+    let currentLinkX = margin;
+    const linkTextInitialY = yPosition;
 
-    const linkText = linkItems.join(' | ');
-    const linkTextLines = doc.splitTextToSize(linkText, contentWidth);
-    let linkY = yPosition;
-    linkTextLines.forEach((line, index) => {
-      doc.text(line, pageWidth / 2, linkY + index * 4, { align: 'center' });
+    const linksToRender = [];
+    if (resumeData.basicInfo.linkedinLink) {
+      linksToRender.push({
+        text: `LinkedIn: ${resumeData.basicInfo.linkedinLink}`,
+        url: resumeData.basicInfo.linkedinLink,
+      });
+    }
+    if (resumeData.basicInfo.githubLink) {
+      linksToRender.push({ text: `GitHub: ${resumeData.basicInfo.githubLink}`, url: resumeData.basicInfo.githubLink });
+    }
+
+    const allLinksText = linksToRender.map((l) => l.text).join(' | ');
+    const allLinksWidth = doc.getTextDimensions(allLinksText, { fontSize: 9 }).w;
+    currentLinkX = (pageWidth - allLinksWidth) / 2;
+
+    linksToRender.forEach((linkInfo, index) => {
+      if (index > 0) {
+        const separator = ' | ';
+        doc.setTextColor(0, 0, 0);
+        doc.text(separator, currentLinkX, linkTextInitialY);
+        currentLinkX += doc.getTextDimensions(separator, { fontSize: 9 }).w;
+      }
+
+      doc.setTextColor(rgbLinkColor[0], rgbLinkColor[1], rgbLinkColor[2]);
+      doc.textWithLink(linkInfo.text, currentLinkX, linkTextInitialY, { url: linkInfo.url });
+      currentLinkX += doc.getTextDimensions(linkInfo.text, { fontSize: 9 }).w;
     });
-    yPosition = linkY + linkTextLines.length * 4;
+    doc.setTextColor(0, 0, 0);
+    yPosition = linkTextInitialY + doc.getTextDimensions('Sample', { fontSize: 9 }).h;
 
-    yPosition += 8;
+    yPosition += 6;
 
     yPosition = renderSection(
       doc,
@@ -129,7 +166,7 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
       'Skills',
       resumeData.skills,
       (doc, skills, y, margin, pageWidth, contentWidth) => {
-        doc.setFontSize(12);
+        doc.setFontSize(bodyFontSize);
         let currentY = y;
         const skillCategories = [
           { title: 'Languages', content: skills.languages },
@@ -140,10 +177,13 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
 
         skillCategories.forEach((category) => {
           if (category.content) {
-            const titleHeight = doc.getTextDimensions(`${category.title}:`, { fontSize: 12, fontStyle: 'bold' }).h;
+            const titleHeight = doc.getTextDimensions(`${category.title}:`, {
+              fontSize: doc.getFontSize(),
+              fontStyle: 'bold',
+            }).h;
             const contentLines = doc.splitTextToSize(category.content, contentWidth).length;
-            const contentHeight = contentLines * 4;
-            const estimatedHeight = titleHeight + 3 + contentHeight + 8;
+            const contentHeight = contentLines * wrappedLineHeight;
+            const estimatedHeight = titleHeight + 1 + contentHeight + 4;
 
             if (currentY + estimatedHeight > doc.internal.pageSize.getHeight() - margin) {
               doc.addPage();
@@ -152,11 +192,11 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
 
             doc.setFont('helvetica', 'bold');
             currentY = addText(doc, `${category.title}:`, margin, currentY);
-            currentY += 3;
+            currentY += 1;
 
             doc.setFont('helvetica', 'normal');
-            currentY = addWrappedText(doc, category.content, margin, currentY, contentWidth, 4);
-            currentY += 8;
+            currentY = addWrappedText(doc, category.content, margin, currentY, contentWidth, wrappedLineHeight);
+            currentY += 4;
           }
         });
         return currentY;
@@ -173,28 +213,30 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
       resumeData.experience,
       (doc, exp, y, margin, pageWidth, contentWidth) => {
         let currentY = y;
-        doc.setFontSize(12);
+        doc.setFontSize(bodyFontSize);
         doc.setFont('helvetica', 'bold');
+        const designationTextHeight = doc.getTextDimensions(exp.designation, { fontSize: doc.getFontSize() }).h;
         currentY = addText(doc, exp.designation, margin, currentY);
+
         doc.setFont('helvetica', 'normal');
         let companyLocationText = `${exp.companyName}${exp.location ? ', ' + exp.location : ''}`;
-        let companyLocationY = currentY + 1;
+        let companyLocationY = currentY + 0.5;
         let companyLocationTextLines = doc.splitTextToSize(companyLocationText, contentWidth / 2);
 
         companyLocationTextLines.forEach((line, index) => {
-          doc.text(line, margin, companyLocationY + index * 4);
+          doc.text(line, margin, companyLocationY + index * wrappedLineHeight);
         });
-        currentY = companyLocationY + companyLocationTextLines.length * 4;
+        currentY = companyLocationY + companyLocationTextLines.length * wrappedLineHeight;
 
         doc.setFont('helvetica', 'italic');
-        doc.text(exp.duration, pageWidth - margin, y + doc.getTextDimensions(exp.designation, { fontSize: 12 }).h + 1, {
+        doc.text(exp.duration, pageWidth - margin, y + designationTextHeight, {
           align: 'right',
         });
 
         doc.setFont('helvetica', 'normal');
         if (exp.workDescription) {
-          currentY += 3;
-          currentY = addWrappedText(doc, exp.workDescription, margin, currentY, contentWidth, 4);
+          currentY += 2;
+          currentY = addWrappedText(doc, exp.workDescription, margin, currentY, contentWidth, wrappedLineHeight);
         }
         return currentY;
       },
@@ -210,37 +252,80 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
       resumeData.projects,
       (doc, project, y, margin, pageWidth, contentWidth) => {
         let currentY = y;
-        doc.setFontSize(12);
+        doc.setFontSize(bodyFontSize);
         doc.setFont('helvetica', 'bold');
         currentY = addText(doc, project.title, margin, currentY);
         doc.setFont('helvetica', 'normal');
 
         if (project.techStacks) {
-          currentY += 3;
-          currentY = addWrappedText(doc, `Tech Stack: ${project.techStacks}`, margin, currentY, contentWidth, 4);
+          currentY += 2;
+          currentY = addWrappedText(
+            doc,
+            `Tech Stack: ${project.techStacks}`,
+            margin,
+            currentY,
+            contentWidth,
+            wrappedLineHeight,
+          );
         }
         if (project.description) {
-          currentY += 3;
-          currentY = addWrappedText(doc, project.description, margin, currentY, contentWidth, 4);
+          currentY += 2;
+          currentY = addWrappedText(doc, project.description, margin, currentY, contentWidth, wrappedLineHeight);
         }
         if (project.impact) {
-          currentY += 3;
-          currentY = addWrappedText(doc, `Impact: ${project.impact}`, margin, currentY, contentWidth, 4);
+          currentY += 2;
+          currentY = addWrappedText(
+            doc,
+            `Impact: ${project.impact}`,
+            margin,
+            currentY,
+            contentWidth,
+            wrappedLineHeight,
+          );
         }
         if (project.uniqueness) {
-          currentY += 3;
-          currentY = addWrappedText(doc, `Unique Features: ${project.uniqueness}`, margin, currentY, contentWidth, 4);
+          currentY += 2;
+          currentY = addWrappedText(
+            doc,
+            `Unique Features: ${project.uniqueness}`,
+            margin,
+            currentY,
+            contentWidth,
+            wrappedLineHeight,
+          );
         }
 
-        const projectLinks = [];
-        if (project.deployedLink) projectLinks.push(`Live Demo: ${project.deployedLink}`);
-        if (project.githubLink) projectLinks.push(`Source Code: ${project.githubLink}`);
+        const projectLinkFontSize = bodyFontSize - 1 > 7 ? bodyFontSize - 1 : 8;
+        const oldFontSize = doc.getFontSize();
 
-        if (projectLinks.length > 0) {
-          currentY += 3;
-          doc.setFontSize(10);
+        if (project.deployedLink || project.githubLink) {
+          currentY += 2;
+          doc.setFontSize(projectLinkFontSize);
           doc.setFont('helvetica', 'italic');
-          currentY = addWrappedText(doc, projectLinks.join(' | '), margin, currentY, contentWidth, 4);
+
+          if (project.deployedLink) {
+            const text = `Live Demo: ${project.deployedLink}`;
+            doc.setTextColor(rgbLinkColor[0], rgbLinkColor[1], rgbLinkColor[2]);
+            currentY = addWrappedText(
+              doc,
+              text,
+              margin,
+              currentY,
+              contentWidth,
+              wrappedLineHeight,
+              project.deployedLink,
+            );
+            doc.setTextColor(0, 0, 0);
+            currentY += 1;
+          }
+          if (project.githubLink) {
+            const text = `Source Code: ${project.githubLink}`;
+            doc.setTextColor(rgbLinkColor[0], rgbLinkColor[1], rgbLinkColor[2]);
+            currentY = addWrappedText(doc, text, margin, currentY, contentWidth, wrappedLineHeight, project.githubLink);
+            doc.setTextColor(0, 0, 0);
+          }
+          doc.setFontSize(oldFontSize);
+          doc.setFont('helvetica', 'normal');
         }
         return currentY;
       },
@@ -256,23 +341,27 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
       resumeData.education,
       (doc, edu, y, margin, pageWidth, contentWidth) => {
         let currentY = y;
-        doc.setFontSize(12);
+        doc.setFontSize(bodyFontSize);
         doc.setFont('helvetica', 'bold');
+        const titleTextHeight = doc.getTextDimensions(edu.title, { fontSize: doc.getFontSize() }).h;
         currentY = addText(doc, edu.title, margin, currentY);
+
         doc.setFont('helvetica', 'normal');
         let schoolLocationText = `${edu.schoolName}${edu.location ? ', ' + edu.location : ''}`;
-        let schoolLocationY = currentY + 1;
+        let schoolLocationY = currentY + 0.5;
         let schoolLocationTextLines = doc.splitTextToSize(schoolLocationText, contentWidth / 2);
 
         schoolLocationTextLines.forEach((line, index) => {
-          doc.text(line, margin, schoolLocationY + index * 4);
+          doc.text(line, margin, schoolLocationY + index * wrappedLineHeight);
         });
-        currentY = schoolLocationY + schoolLocationTextLines.length * 4;
+        currentY = schoolLocationY + schoolLocationTextLines.length * wrappedLineHeight;
 
         doc.setFont('helvetica', 'italic');
-        doc.text(edu.duration, pageWidth - margin, y + doc.getTextDimensions(edu.title, { fontSize: 12 }).h + 1, {
+        doc.text(edu.duration, pageWidth - margin, y + titleTextHeight, {
           align: 'right',
         });
+        doc.setFont('helvetica', 'normal');
+        doc.setFontSize(bodyFontSize);
 
         return currentY;
       },
@@ -288,35 +377,66 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
       resumeData.leadership,
       (doc, lead, y, margin, pageWidth, contentWidth) => {
         let currentY = y;
-        doc.setFontSize(12);
+        doc.setFontSize(bodyFontSize);
         doc.setFont('helvetica', 'bold');
+        const positionTextHeight = doc.getTextDimensions(lead.position, { fontSize: doc.getFontSize() }).h;
         currentY = addText(doc, lead.position, margin, currentY);
+
         doc.setFont('helvetica', 'normal');
         let organizationLocationText = `${lead.organizationName}${lead.location ? ', ' + lead.location : ''}`;
-        let organizationLocationY = currentY + 1;
+        let organizationLocationY = currentY + 0.5;
         let organizationLocationTextLines = doc.splitTextToSize(organizationLocationText, contentWidth / 2);
 
         organizationLocationTextLines.forEach((line, index) => {
-          doc.text(line, margin, organizationLocationY + index * 4);
+          doc.text(line, margin, organizationLocationY + index * wrappedLineHeight);
         });
-        currentY = organizationLocationY + organizationLocationTextLines.length * 4;
+        currentY = organizationLocationY + organizationLocationTextLines.length * wrappedLineHeight;
 
         doc.setFont('helvetica', 'italic');
-        doc.text(lead.duration, pageWidth - margin, y + doc.getTextDimensions(lead.position, { fontSize: 12 }).h + 1, {
+        doc.text(lead.duration, pageWidth - margin, y + positionTextHeight, {
           align: 'right',
         });
 
         doc.setFont('helvetica', 'normal');
+        doc.setFontSize(bodyFontSize);
 
-        const leadershipDetails = [];
-        if (lead.responsibilities) leadershipDetails.push(`Responsibilities: ${lead.responsibilities}`);
-        if (lead.impact) leadershipDetails.push(`Impact: ${lead.impact}`);
-        if (lead.additionalInfo) leadershipDetails.push(`Additional Info: ${lead.additionalInfo}`);
+        currentY += 2;
+        let detailsAdded = false;
+        if (lead.responsibilities) {
+          currentY = addWrappedText(
+            doc,
+            `Responsibilities: ${lead.responsibilities}`,
+            margin,
+            currentY,
+            contentWidth,
+            wrappedLineHeight,
+          );
+          currentY += 1.5;
+          detailsAdded = true;
+        }
+        if (lead.impact) {
+          currentY = addWrappedText(doc, `Impact: ${lead.impact}`, margin, currentY, contentWidth, wrappedLineHeight);
+          currentY += 1.5;
+          detailsAdded = true;
+        }
+        if (lead.additionalInfo) {
+          currentY = addWrappedText(
+            doc,
+            `Additional Info: ${lead.additionalInfo}`,
+            margin,
+            currentY,
+            contentWidth,
+            wrappedLineHeight,
+          );
+          detailsAdded = true;
+        }
 
-        if (leadershipDetails.length > 0) {
-          currentY += 3;
-          doc.setFontSize(10);
-          currentY = addWrappedText(doc, leadershipDetails.join(' | '), margin, currentY, contentWidth, 4);
+        if (detailsAdded && (lead.responsibilities || lead.impact || lead.additionalInfo)) {
+          if (currentY > y + 2) {
+            currentY -= 1.5;
+          }
+        } else if (!detailsAdded) {
+          currentY -= 2;
         }
 
         return currentY;
@@ -333,7 +453,7 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
       resumeData.achievements,
       (doc, achievements, y, margin, pageWidth, contentWidth) => {
         let currentY = y;
-        doc.setFontSize(12);
+        doc.setFontSize(bodyFontSize);
         const achievementItems = [
           achievements.achievement1,
           achievements.achievement2,
@@ -343,15 +463,15 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
 
         if (achievementItems.length > 0) {
           achievementItems.forEach((item, index) => {
-            const estimatedAchievementHeight = doc.splitTextToSize(item, contentWidth).length * 4;
-            if (currentY + estimatedAchievementHeight + 3 > doc.internal.pageSize.getHeight() - margin) {
+            const estimatedAchievementHeight = doc.splitTextToSize(item, contentWidth).length * wrappedLineHeight;
+            if (currentY + estimatedAchievementHeight + 2 > doc.internal.pageSize.getHeight() - margin) {
               doc.addPage();
               currentY = margin;
             }
-            currentY = addWrappedText(doc, `• ${item}`, margin, currentY, contentWidth, 4);
-            currentY += 5;
+            currentY = addWrappedText(doc, `• ${item}`, margin, currentY, contentWidth, wrappedLineHeight);
+            currentY += 2;
           });
-          return currentY - 5;
+          return currentY - 2;
         }
         return currentY;
       },
@@ -360,7 +480,7 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
     doc.save(`${resumeData.basicInfo.firstName || 'resume'}.pdf`);
   } catch (error) {
     console.error('Error generating PDF:', error);
-    alert('Failed to generate PDF. Please try again.');
+    alert('Failed to generate PDF. Please check console for details.');
   } finally {
     setIsGenerating(false);
   }

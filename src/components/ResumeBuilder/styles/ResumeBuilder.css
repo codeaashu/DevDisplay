@@ -1,20 +1,16 @@
+:root {
+}
+
 .resume-builder {
   display: flex;
   min-height: 100vh;
-  max-height: 100vh;
   width: 100%;
   position: relative;
-  overflow: hidden;
   background: #0b1120;
 }
 
 .resume-builder > div:first-child {
-  position: relative;
-  z-index: 10;
   flex-shrink: 0;
-  height: 100vh;
-  overflow: hidden;
-  box-shadow: 2px 0 20px rgba(0, 166, 251, 0.1);
 }
 
 .resume-content {
@@ -24,7 +20,6 @@
   background: transparent;
   position: relative;
   z-index: 1;
-  height: 100vh;
   width: 100%;
 }
 
@@ -77,7 +72,6 @@
 }
 
 .resume-builder:has(.w-20) .form-container {
-  width: 100%;
 }
 
 @keyframes fadeIn {
@@ -89,16 +83,6 @@
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.form-card {
-  width: 100%;
-  min-height: 500px;
-  background-color: rgba(21, 32, 56, 0.6);
-  border: 1px solid rgba(0, 166, 251, 0.25);
-  box-shadow:
-    0 20px 25px -5px rgba(0, 166, 251, 0.1),
-    0 10px 10px -5px rgba(0, 166, 251, 0.04);
 }
 
 .form-row {
@@ -114,22 +98,6 @@
   }
 }
 
-.sidebar-container {
-  height: 100vh;
-  position: sticky;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(135deg, rgba(15, 27, 53, 0.95) 0%, rgba(0, 43, 62, 0.85) 100%);
-  backdrop-filter: blur(10px);
-}
-
-.sidebar-scrollable {
-  flex: 1;
-  overflow-y: auto;
-  min-height: 0;
-}
-
 .resume-builder .sidebar-transition {
   transition: all 0.3s ease-in-out;
 }
@@ -138,10 +106,6 @@
   .resume-content {
     padding: 2rem;
   }
-
-  .form-container {
-    max-width: none;
-  }
 }
 
 @media (max-width: 1024px) {
@@ -149,31 +113,14 @@
     max-width: 100%;
     min-width: auto;
   }
-
   .resume-content {
     padding: 1.25rem;
   }
 }
 
-@media (max-width: 768px) {
-  .resume-builder {
-    flex-direction: column;
-    max-height: none;
-  }
-
-  .resume-builder > div:first-child {
-    height: auto;
-    box-shadow: 0 2px 10px rgba(0, 166, 251, 0.1);
-  }
-
+@media (max-width: 767.98px) {
   .resume-content {
     padding: 1rem;
-    height: auto;
-  }
-
-  .form-container {
-    max-width: 100%;
-    min-width: auto;
   }
 }
 
@@ -190,15 +137,12 @@
 .text-primary {
   color: #00a6fb;
 }
-
 .bg-primary {
   background-color: #00a6fb;
 }
-
 .border-primary {
   border-color: rgba(0, 166, 251, 0.2);
 }
-
 .shadow-primary {
   box-shadow: 0 4px 20px rgba(0, 166, 251, 0.15);
 }
