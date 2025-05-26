@@ -770,19 +770,6 @@ const OSProgramList = [
     shareLink: '#ssoc4',
   },
   {
-    organizer: 'MLH',
-    title: 'MLH Fellowship Spring 2025',
-    description:
-      'Collaborate with peers in a remote team to contribute to real open-source software projects under mentorship. Get paid while gaining practical development experience.',
-    timeline: 'December 2024',
-    Duration: 'March - June 2025',
-    type: 'Student-friendly, Open Source',
-    guidelines: 'https://fellowship.mlh.io/',
-    applyLink: 'https://fellowship.mlh.io/',
-    poster: '/assets/opensourceProgram/MLH.jpg',
-    shareLink: '#mlh-fellowship',
-  },
-  {
     organizer: 'GirlScript Foundation',
     title: 'GirlScript Summer of Code 2025',
     description:
@@ -794,6 +781,19 @@ const OSProgramList = [
     applyLink: 'https://gssoc.girlscript.tech/',
     poster: '/assets/opensourceProgram/GSSOC.jpg',
     shareLink: '#gssoc2025',
+  },
+  {
+    organizer: 'MLH',
+    title: 'MLH Fellowship Spring 2025',
+    description:
+      'Collaborate with peers in a remote team to contribute to real open-source software projects under mentorship. Get paid while gaining practical development experience.',
+    timeline: 'December 2024',
+    Duration: 'March - June 2025',
+    type: 'Student-friendly, Open Source',
+    guidelines: 'https://fellowship.mlh.io/',
+    applyLink: 'https://fellowship.mlh.io/',
+    poster: '/assets/opensourceProgram/MLH.jpg',
+    shareLink: '#mlh-fellowship',
   },
   {
     organizer: 'Outreachy',
