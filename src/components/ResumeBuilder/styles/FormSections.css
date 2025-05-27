@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --primary: #00a6fb;
   --primary-light: #33b8ff;
@@ -116,6 +120,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
 }
 
 .form-row {
@@ -166,6 +171,13 @@ label {
 
 .input-with-icon {
   position: relative;
+  width: 100%;
+}
+
+.input-with-icon input {
+  width: 100%;
+  padding-left: 2.5rem;
+  box-sizing: border-box;
 }
 
 .input-icon {
@@ -177,6 +189,8 @@ label {
   transition: var(--transition);
   z-index: 2;
   filter: drop-shadow(0 2px 4px rgba(0, 166, 251, 0.15));
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 input,
@@ -194,6 +208,7 @@ select {
   box-shadow:
     inset 0 1px 3px rgba(0, 0, 0, 0.2),
     0 1px 2px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
 input:focus,
@@ -357,24 +372,28 @@ textarea {
 
 .btn-remove {
   position: absolute;
-  top: 1.2rem;
-  right: 1.2rem;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+  padding: 4px;
   background: rgba(239, 68, 68, 0.15);
   border: 1px solid rgba(239, 68, 68, 0.4);
   color: var(--danger);
-  padding: 0.6rem;
-  border-radius: var(--radius);
-  opacity: 0.7;
-  transition: var(--transition);
+  cursor: pointer;
 }
 
-.section-card:hover .btn-remove {
-  opacity: 1;
+.btn-remove svg {
+  width: 1rem;
+  height: 1rem;
 }
 
 .btn-remove:hover {
   background: rgba(239, 68, 68, 0.25);
   box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+  opacity: 1;
+}
+
+.section-card:hover .btn-remove {
   opacity: 1;
 }
 
@@ -408,35 +427,49 @@ textarea {
 }
 
 @media (max-width: 640px) {
+  .form-card {
+    min-height: auto;
+    margin: 0.8rem;
+    overflow-y: auto;
+    height: auto;
+  }
+
   .form-row {
     grid-template-columns: 1fr;
-    gap: 1.2rem;
+    gap: 1rem;
   }
+
+  .form-header {
+    padding: 1rem;
+  }
+
+  .form-content {
+    padding: 1rem;
+  }
+
   .form-actions {
     flex-direction: column;
     gap: 0.8rem;
+    padding-top: 1rem;
   }
   .form-actions button {
     width: 100%;
     min-width: auto;
   }
-  .form-header {
-    padding: 1.5rem;
-  }
+
   .form-header h2 {
     font-size: 1.4rem;
   }
-  .form-content {
-    padding: 1.5rem;
-  }
-  .form-card {
-    min-height: auto;
-    margin: 0.8rem;
-  }
+
   .section-card {
     padding: 1.2rem;
   }
+
   .btn {
     padding: 0.7rem 1.6rem;
+  }
+  .input-icon {
+    width: 1rem;
+    height: 1rem;
   }
 }

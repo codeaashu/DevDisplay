@@ -1,7 +1,8 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { FaUser, FaBriefcase, FaCode, FaBook, FaGraduationCap, FaUsers, FaAward, FaFileAlt } from 'react-icons/fa';
+import { Menu as MenuIcon } from 'lucide-react';
 
 import Sidebar from './Sidebar';
 import BasicInfo from './Sections/BasicInfo';
@@ -28,6 +29,22 @@ const sections = [
 
 function ResumeBuilder() {
   const [activeSection, setActiveSection] = useState('basic-info');
+  const [isMobileView, setIsMobileView] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      const mobile = window.innerWidth < 768;
+      setIsMobileView(mobile);
+      if (!mobile) {
+        setMobileMenuOpen(false);
+      }
+    };
+
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   const getStepStatus = (sectionId) => {
     const currentIndex = sections.findIndex((section) => section.id === activeSection);
@@ -35,7 +52,7 @@ function ResumeBuilder() {
 
     if (sectionIndex < currentIndex) return 'completed';
     if (sectionIndex === currentIndex) return 'active';
-    return 'pending';
+    return 'upcoming';
   };
 
   const renderSection = () => {
@@ -65,11 +82,27 @@ function ResumeBuilder() {
 
   return (
     <div className="resume-builder">
+      {isMobileView && (
+        <button
+          onClick={() => setMobileMenuOpen(true)}
+          className={`fixed left-4 top-4 z-[51] flex h-8 w-8 items-center justify-center rounded-full border border-[var(--primary)] text-white transition-all duration-200 hover:scale-105 hover:bg-[rgba(0,166,251,0.2)] ${mobileMenuOpen ? 'pointer-events-none opacity-0' : 'opacity-100'}`}
+          aria-label="Open menu"
+          style={{
+            background: 'rgba(0, 166, 251, 0.1)',
+            boxShadow: '0 0 10px var(--primary-glow)',
+          }}
+        >
+          <MenuIcon size={18} />
+        </button>
+      )}
       <Sidebar
         sections={sections}
         activeSection={activeSection}
         setActiveSection={setActiveSection}
         getStepStatus={getStepStatus}
+        isMobileView={isMobileView}
+        mobileMenuOpen={mobileMenuOpen}
+        setMobileMenuOpen={setMobileMenuOpen}
       />
       <main className="resume-content">{renderSection()}</main>
     </div>
