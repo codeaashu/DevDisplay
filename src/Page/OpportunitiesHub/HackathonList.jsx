@@ -524,18 +524,17 @@ const HackathonListContainer = styled.div`
 
 const FilterContainer = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column; /* Default: stacked for mobile */
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2rem;
 
   input,
   select {
-    padding: 0.75rem 1rem; /* Adjusted padding */
+    padding: 0.75rem 1rem;
     border: 1px solid #00a6fb;
-    border-radius: 9999px; /* fully rounded */
+    border-radius: 9999px;
     background: rgba(15, 27, 53, 0.9);
     color: #ffffff;
     font-size: 1rem;
@@ -557,6 +556,10 @@ const FilterContainer = styled.div`
       border-color: #14c8ff;
       box-shadow: 0 0 0 2px rgba(20, 200, 255, 0.4);
     }
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row; /* Horizontal layout for tablets and larger */
   }
 `;
 
