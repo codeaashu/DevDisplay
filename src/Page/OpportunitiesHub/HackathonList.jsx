@@ -131,6 +131,16 @@ const hackathons = [
     poster: '/assets/Hackathons/DEVMatch.jpg',
     shareLink: '#devmatch',
   },
+  {
+    organizer: 'Hack4Maharashtra',
+    title: 'Hack4Maharashtra',
+    location: 'Nagpur, India',
+    date: 'Aug 25 - 26',
+    domains: ['Open Innovation', 'real-world challenges', '24 hours Hackathon'],
+    applyLink: 'https://hack4maharashtra.devfolio.co/?ref=37575e18b3',
+    poster: '/assets/Hackathons/Hack4Maharashtra.jpg',
+    shareLink: '#hack4maharashtra',
+  },
   // {
   //   organizer: 'Hack4Bihar',
   //   title: 'Hack4Bihar - Lucknow Hacking Tour',
