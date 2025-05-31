@@ -22,80 +22,15 @@ const shareContent = (url) => {
 
 const Competitions = [
   {
-    organizer: 'CEPT University',
-    title: 'Call for Abstracts for Essay Competition 2025',
+    organizer: 'Google',
+    title: 'GEN AI Exchange Program',
     location: 'Online',
-    date: 'April 30, 2025',
-    domains: ['Essay Writing', 'Research'],
+    date: 'Aug 28',
+    domains: ['Open Innovation', 'real-world challenges', 'Google Cloud', 'Generative AI', 'Google AI'],
     applyLink:
-      'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/call-for-abstracts-for-essay-competition-2025',
-    poster: '/assets/Competitions/Call for Abstracts for Essay Competition 2025.png',
-    shareLink: '#call-for-abstract-for-essay-competition-2025',
-  },
-  {
-    organizer: 'Tap Your Talents',
-    title: 'The Ultimate Roleplay Acting Competition 2025',
-    location: 'Online',
-    date: 'April 30, 2025',
-    domains: ['Acting', 'Roleplay'],
-    applyLink:
-      'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/the-ultimate-roleplay-acting-competition-2025',
-    poster: '/assets/Competitions/The Ultimate Roleplay Acting Competition 2025.png',
-    shareLink: '#the-ultimate-roleplay-acting-competition-2025',
-  },
-  {
-    organizer: 'Tap Your Talents',
-    title: 'Love is in the air Photography Competition 2025',
-    location: 'Online',
-    date: 'May 12, 2025',
-    domains: ['Photography', 'Creativity'],
-    applyLink:
-      'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/love-is-in-the-air-photography-competition-2025',
-    poster: '/assets/Competitions/Love is in the air Photography Competition 2025.png',
-    shareLink: '#love-is-in-the-air-photography-competition-2025',
-  },
-  {
-    organizer: 'Nikon Corporation',
-    title: 'Nikon Small World Photomicrography Competition 2025',
-    location: 'Online',
-    date: 'April 30, 2025',
-    domains: ['Microscopy', 'Photography'],
-    applyLink:
-      'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/nikon-small-world-photomicrography-competition-2025',
-    poster: '/assets/Competitions/Nikon Small World Photomicrography Competition 2025.png',
-    shareLink: '#nikon-small-world-photomicrography-competition-2025',
-  },
-  {
-    organizer: 'Tap Your Talents',
-    title: 'Hindi Mein Kavita 2025',
-    location: 'Online',
-    date: 'May 1, 2025',
-    domains: ['Poetry', 'Hindi Literature'],
-    applyLink: 'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/hindi-mein-kavita-2025',
-    poster: '/assets/Competitions/Hindi Mein Kavita 2025.png',
-    shareLink: '#hindi-mein-kavita-2025',
-  },
-  {
-    organizer: 'Nikon Corporation',
-    title: 'Nikon Small World In Motion Video Competition 2025',
-    location: 'Online',
-    date: 'April 30, 2025',
-    domains: ['Microscopy', 'Videography'],
-    applyLink:
-      'https://www.dublieu.com/upcoming-competitions-for-students-in-2025/nikon-small-world-in-motion-video-competition-2025',
-    poster: '/assets/Competitions/Nikon Small World In Motion Video Competition 2025.png',
-    shareLink: '#nikon-small-world-in-motion-video-competition-2025',
-  },
-  {
-    organizer: 'IEEE Pune Section',
-    title: 'Elevate the Educational Reka',
-    location: 'Shivajinagar, Pune, Maharashtra, India',
-    date: 'April 30, 2025',
-    domains: ['Education', 'Innovation'],
-    applyLink:
-      'https://unstop.com/competitions/elevate-the-educational-reka-ieee-pune-section-1464734?lb=i8K8QT8Y&utm_medium=Share&utm_source=shortUrl',
-    poster: '/assets/Competitions/Elevate the Educational Reka.png',
-    shareLink: '#elevate-the-education-reka',
+      'https://vision.hack2skill.com/event/genaiexchange/?utm_source=hack2skill&utm_medium=teamdashboard&utm_term=referral-1&utm_campaign=genaiexchange&utm_content=673a30cde4555f1991506e5f',
+    poster: '/assets/Hackathons/GEN AI Exchange Program.jpg',
+    shareLink: '#gen-ai-exchange-program',
   },
 ];
 
