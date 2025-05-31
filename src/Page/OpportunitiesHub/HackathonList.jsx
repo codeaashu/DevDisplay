@@ -52,7 +52,7 @@ const hackathons = [
     shareLink: '#ethkyiv-2025',
   },
   {
-    organizer: 'GM VIETNAM | Vietnam Blockchain Week',
+    organizer: 'GM VIETNAM',
     title: 'Vietnam Aptos Hackathon',
     location: 'Virtual',
     date: 'Jun 19',
