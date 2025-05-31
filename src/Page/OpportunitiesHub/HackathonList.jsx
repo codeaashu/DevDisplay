@@ -141,6 +141,16 @@ const hackathons = [
     poster: '/assets/Hackathons/Hack4Maharashtra.jpg',
     shareLink: '#hack4maharashtra',
   },
+  {
+    organizer: 'IIIT Kalyani',
+    title: 'StatusCode 2',
+    location: 'Mohanpur, India',
+    date: 'Aug 23 - 24',
+    domains: ['Open Innovation', 'real-world challenges', '24 hours Hackathon'],
+    applyLink: 'https://statuscode-2.devfolio.co/?ref=37575e18b3',
+    poster: '/assets/Hackathons/StatusCode2.jpg',
+    shareLink: '#statuscode2',
+  },
   // {
   //   organizer: 'Hack4Bihar',
   //   title: 'Hack4Bihar - Lucknow Hacking Tour',
