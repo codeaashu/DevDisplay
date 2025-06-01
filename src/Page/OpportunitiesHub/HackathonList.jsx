@@ -201,6 +201,16 @@ const hackathons = [
     shareLink: '#gen-ai-exchange-program',
   },
   {
+    organizer: 'ETHAccra',
+    title: 'ETHAccra Hackathon 2025',
+    location: 'Accra, Greater Accra, Ghana',
+    date: 'Sep 3 - 6',
+    domains: ['Blockchain', 'WEB3', 'crypto'],
+    applyLink: 'https://dorahacks.io/hackathon/ethaccrahackathon2025/',
+    poster: '/assets/Hackathons/ETHAccra Hackathon 2025.jpg',
+    shareLink: '#ethaccra',
+  },
+  {
     organizer: 'DCSE JIMS - Geek Room',
     title: 'Hack Quanta',
     location: 'Greater Noida, India',
