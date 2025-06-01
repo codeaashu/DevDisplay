@@ -73,6 +73,17 @@ const hackathons = [
     shareLink: '#apechain-africa',
   },
   {
+    organizer: 'Samsung',
+    title: 'Samsung Galaxy AI Treasure Hunt',
+    location: 'Online',
+    date: 'Jun 18',
+    domains: ['Samsung', 'AI'],
+    applyLink:
+      'https://unstop.com/quiz/samsung-galaxy-ai-treasure-hunt-samsung-1485695?lb=fAzXUaUr&utm_medium=Share&utm_source=shortUrl',
+    poster: '/assets/Hackathons/Samsung Galaxy AI.jpg',
+    shareLink: '#samsung-galaxy-ai',
+  },
+  {
     organizer: 'GM VIETNAM',
     title: 'Vietnam Aptos Hackathon',
     location: 'Virtual',
