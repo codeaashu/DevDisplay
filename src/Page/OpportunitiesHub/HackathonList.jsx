@@ -52,6 +52,17 @@ const hackathons = [
     shareLink: '#ethkyiv-2025',
   },
   {
+    organizer: 'Parul University',
+    title: 'AI ML Hackathon 2.0',
+    location: 'Parul University (PU), Vadodara',
+    date: 'Jun 14',
+    domains: ['Open Innovation', 'AI/ML', 'Full Stack', 'Cloud', 'FinTech', 'HealthTech', 'Cybersecurity', 'IOT'],
+    applyLink:
+      'https://unstop.com/hackathons/ai-ml-hackathon-20-parul-university-pu-vadodara-1488475?lb=fAzXUaUr&utm_medium=Share&utm_source=shortUrl',
+    poster: '/assets/Hackathons/AIML.png',
+    shareLink: '#aiml2',
+  },
+  {
     organizer: 'ApeChain Africa',
     title: 'APECHAIN Africa Hackathon UCC',
     location: 'Virtual',
@@ -199,6 +210,17 @@ const hackathons = [
       'https://vision.hack2skill.com/event/genaiexchange/?utm_source=hack2skill&utm_medium=teamdashboard&utm_term=referral-1&utm_campaign=genaiexchange&utm_content=673a30cde4555f1991506e5f',
     poster: '/assets/Hackathons/GEN AI Exchange Program.jpg',
     shareLink: '#gen-ai-exchange-program',
+  },
+  {
+    organizer: 'UEM Kolkata',
+    title: 'Hack Synthesis 2.0',
+    location: 'UEM Kolkata, India',
+    date: 'Aug 30 - 31',
+    domains: ['Open Innovation', 'real-world challenges', '30 hours hackathon'],
+    applyLink:
+      'https://unstop.com/hackathons/hack-synthesis-20-university-of-engineering-and-management-kolkata-1489501?lb=fAzXUaUr&utm_medium=Share&utm_source=shortUrl',
+    poster: '/assets/Hackathons/Hack Synthesis 2.0.jpg',
+    shareLink: '#hacksynthesis2',
   },
   {
     organizer: 'ETHAccra',
