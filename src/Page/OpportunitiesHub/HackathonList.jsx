@@ -104,6 +104,17 @@ const hackathons = [
     shareLink: '#zk-hack-berlin',
   },
   {
+    organizer: 'Google',
+    title: 'Agent Development Kit Hackathon',
+    location: 'Online',
+    date: 'Jun 24',
+    domains: ['Machine Learning', 'AI', 'Low/No Code', 'Open Ended'],
+    applyLink:
+      'https://googlecloudmultiagents.devpost.com/?ref_feature=challenge&ref_medium=homepage-recommended-hackathons',
+    poster: '/assets/Hackathons/Agent Development Kit Hackathon.jpg',
+    shareLink: '#agent-development-kit-hackathon',
+  },
+  {
     organizer: 'Chainlink',
     title: 'Chromion: A Chainlink Hackathon',
     location: 'Online',
