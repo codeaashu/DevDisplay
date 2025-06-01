@@ -84,6 +84,16 @@ const hackathons = [
     shareLink: '#samsung-galaxy-ai',
   },
   {
+    organizer: 'Google',
+    title: 'AI in Action',
+    location: 'Online',
+    date: 'Jun 18',
+    domains: ['Databases', 'Machine Learning', 'AI', 'Open Ended'],
+    applyLink: 'https://ai-in-action.devpost.com/?ref_feature=challenge&ref_medium=homepage-recommended-hackathons',
+    poster: '/assets/Hackathons/AI in Action.png',
+    shareLink: '#ai-in-action',
+  },
+  {
     organizer: 'GM VIETNAM',
     title: 'Vietnam Aptos Hackathon',
     location: 'Virtual',
