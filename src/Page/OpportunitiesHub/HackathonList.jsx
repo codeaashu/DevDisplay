@@ -52,6 +52,16 @@ const hackathons = [
     shareLink: '#ethkyiv-2025',
   },
   {
+    organizer: 'ApeChain Africa',
+    title: 'APECHAIN Africa Hackathon UCC',
+    location: 'Virtual',
+    date: 'Jun 16 - 28',
+    domains: ['Blockchain', 'Web3', 'AI'],
+    applyLink: 'https://dorahacks.io/hackathon/apechain-africa/',
+    poster: '/assets/Hackathons/APECHAIN Africa Hackathon UCC.jpg',
+    shareLink: '#apechain-africa',
+  },
+  {
     organizer: 'GM VIETNAM',
     title: 'Vietnam Aptos Hackathon',
     location: 'Virtual',
@@ -128,6 +138,16 @@ const hackathons = [
     applyLink: 'https://deerhack-25.devfolio.co/?ref=37575e18b3',
     poster: '/assets/Hackathons/DeerHack 2025.jpg',
     shareLink: '#deerhack-2025',
+  },
+  {
+    organizer: 'Hack The League',
+    title: 'Hack The League 4 - Build Beyond',
+    location: 'Virtual',
+    date: 'Aug 1 - Oct 30',
+    domains: ['AI', 'Web3', 'L1', 'L2', 'Move', 'Solidity', 'Grant'],
+    applyLink: 'https://dorahacks.io/hackathon/htl4-build-beyond/',
+    poster: '/assets/Hackathons/Hack The League 4 - Build Beyond.jpg',
+    shareLink: '#hacktheleague4',
   },
   {
     organizer: 'APUBCC',
