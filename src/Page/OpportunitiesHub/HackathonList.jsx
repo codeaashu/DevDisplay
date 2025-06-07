@@ -32,6 +32,16 @@ const hackathons = [
     shareLink: '#worlds-largest-hackathon',
   },
   {
+    organizer: 'Hack4Brahmaputra',
+    title: 'Hack4Brahma',
+    location: 'Guwahati, India',
+    date: 'Sep 9',
+    domains: ['Military', 'Hack For Army', 'Offline', '24 hours Hackathon'],
+    applyLink: 'https://hack4brahmaputra.devfolio.co/?ref=37575e18b3',
+    poster: '/assets/Hackathons/Hack4Brahmaputra.png',
+    shareLink: '#hack4brahma',
+  },
+  {
     organizer: 'Reskill - Social',
     title: 'Social Summer of Code (SSoC) 2025',
     location: 'Offline',
