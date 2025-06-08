@@ -4227,5 +4227,45 @@
         "maker_image": "https://avatars.githubusercontent.com/u/146642552?s=400&u=d94b12cfbbcb29b782a4e780eb4419b7932beb5f&v=4"
       }
     ]
+  },
+  {
+    "github_username": "iamaloksy",
+    "Projects": [
+      {
+        "github_url": "https://github.com/iamaloksy/climate_analyser",
+        "title": "Climate Analyser",
+        "description": "Climate Analyser is a web application that provides users with the ability to analyze and visualize climate data from various sources.",
+        "tech": ["HTML", "css", "js", "Apis"],
+        "maker_image": "https://github.com/iamaloksy.png"
+      },
+      {
+        "github_url": "https://github.com/iamaloksy/Meet_Me",
+        "title": "Meet Me",
+        "description": "Meetme is a web based application for create meeting with organisation and freelancer.",
+        "tech": ["Nextjs", "typescript", "tailwindcss", "steam api", "clerk api", "emotion js"],
+        "maker_image": "https://github.com/iamaloksy.png"
+      },
+      {
+        "github_url": "https://github.com/iamaloksy/LX_GPT",
+        "title": "LX GPT",
+        "description": "This is personal gpt for daily uses like chat gpt.",
+        "tech": ["HTML", "css", "JavaScript", "api", "Gemini api"],
+        "maker_image": "https://github.com/iamaloksy.png"
+      },
+      {
+        "github_url": "https://github.com/iamaloksy/Fundsgro",
+        "title": "Fundsgro",
+        "description": "This website create to helps those new startup entrepreneur for funding raise.",
+        "tech": ["Nextjs", "typescript", "tailwindcss"],
+        "maker_image": "https://github.com/iamaloksy.png"
+      },
+      {
+        "github_url": "https://github.com/iamaloksy/Paws-Care",
+        "title": "Paws Care",
+        "description": "This website helps to adopt and report of dogs. It is a platform where you can adopt dogs and report stray dogs.",
+        "tech": ["Nextjs", "typescript", "tailwindcss"],
+        "maker_image": "https://github.com/iamaloksy.png"
+      }
+    ]
   }
 ]
