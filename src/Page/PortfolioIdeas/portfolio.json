@@ -2574,5 +2574,13 @@
     "liveUrl": "https://mathisdev.pro",
     "repo": "https://github.com/mathisdev7/my-portfolio",
     "techStack": "Next.js, React, Tailwind CSS, TypeScript, Vercel"
+  },
+  {
+    "author": "Alok kumar",
+    "screenshot": "https://github.com/user-attachments/assets/e4830297-6b92-4a75-b03a-691fa6e6b615",
+    "liveUrl": "https://aloksy.netlify.app/",
+    "repo": "https://github.com/iamaloksy/portfolio",
+    "techStack": "Matter.js, JavaScript, Tailwind Css , HTML"
   }
 ]
+  
