@@ -765,8 +765,6 @@ const HackathonListContainer = styled.div`
   justify-content: center;
   gap: 0.5rem; /* Decreased gap */
   padding: 1rem;
-  max-height: 80vh;
-  overflow-y: auto;
 
   @media (min-width: 768px) {
     justify-content: space-around;
@@ -824,7 +822,6 @@ const HackathonList = () => {
   const [domainFilter, setDomainFilter] = useState('');
   const [highlightId, setHighlightId] = useState(null);
   const cardRefs = useRef({});
-  const containerRef = useRef(null);
 
   // Filter logic
   const filteredHackathons = hackathons.filter((hackathon) => {
@@ -859,21 +856,13 @@ const HackathonList = () => {
   }, [locationFilter, monthFilter, domainFilter]);
 
   useEffect(() => {
-    if (highlightId && cardRefs.current[highlightId] && containerRef.current) {
-      const card = cardRefs.current[highlightId];
-      const container = containerRef.current;
-      // Scroll so the card is centered in the container
-      const cardTop = card.offsetTop;
-      const cardHeight = card.offsetHeight;
-      const containerHeight = container.offsetHeight;
-      container.scrollTo({
-        top: cardTop - containerHeight / 2 + cardHeight / 2,
-        behavior: 'smooth',
-      });
-      card.style.boxShadow = '0 0 0 4px #00a6fb, 0 0 20px #00a6fb';
-      card.style.transition = 'box-shadow 0.5s';
+    if (highlightId && cardRefs.current[highlightId]) {
+      const el = cardRefs.current[highlightId];
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      el.style.boxShadow = '0 0 0 4px #00a6fb, 0 0 20px #00a6fb';
+      el.style.transition = 'box-shadow 0.5s';
       setTimeout(() => {
-        card.style.boxShadow = '';
+        el.style.boxShadow = '';
       }, 2000);
     }
   }, [highlightId, displayHackathons.length]);
@@ -909,7 +898,7 @@ const HackathonList = () => {
           onChange={(e) => setDomainFilter(e.target.value)}
         />
       </FilterContainer>
-      <HackathonListContainer ref={containerRef}>
+      <HackathonListContainer>
         {displayHackathons.map((hackathon) => (
           <HackathonCardComponent
             key={hackathon.shareLink}
