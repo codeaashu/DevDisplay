@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import styled from 'styled-components';
-import { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFlag, faMapMarkerAlt, faCalendarAlt, faShareAlt } from '@fortawesome/free-solid-svg-icons';
 
@@ -682,9 +681,9 @@ const StyledHackathonCard = styled.div`
   }
 `;
 
-const HackathonCardComponent = ({ organizer, title, location, date, domains, applyLink, poster, shareLink }) => {
-  return (
-    <StyledHackathonCard id={shareLink.substring(1)}>
+const HackathonCardComponent = React.forwardRef(
+  ({ organizer, title, location, date, domains, applyLink, poster, shareLink }, ref) => (
+    <StyledHackathonCard id={shareLink.substring(1)} ref={ref}>
       {/* <div className="dot"></div> */}
       <div className="flex items-center justify-between p-2">
         <span className="text-sm font-semibold text-white">
@@ -744,8 +743,8 @@ const HackathonCardComponent = ({ organizer, title, location, date, domains, app
         ))}
       </div>
     </StyledHackathonCard>
-  );
-};
+  ),
+);
 
 <style>
   {`
@@ -821,22 +820,10 @@ const HackathonList = () => {
   const [locationFilter, setLocationFilter] = useState('');
   const [monthFilter, setMonthFilter] = useState('');
   const [domainFilter, setDomainFilter] = useState('');
+  const [highlightId, setHighlightId] = useState(null);
+  const cardRefs = useRef({});
 
-  useEffect(() => {
-    if (window.location.hash) {
-      const id = window.location.hash.substring(1);
-      const el = document.getElementById(id);
-      if (el) {
-        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        el.style.boxShadow = '0 0 0 4px #00a6fb, 0 0 20px #00a6fb';
-        el.style.transition = 'box-shadow 0.5s';
-        setTimeout(() => {
-          el.style.boxShadow = '';
-        }, 2000);
-      }
-    }
-  }, []);
-
+  // Filter logic
   const filteredHackathons = hackathons.filter((hackathon) => {
     const matchesLocation = locationFilter
       ? hackathon.location.toLowerCase().includes(locationFilter.toLowerCase())
@@ -849,6 +836,36 @@ const HackathonList = () => {
       : true;
     return matchesLocation && matchesMonth && matchesDomain;
   });
+
+  // Always include the card with the hash if present
+  let displayHackathons = filteredHackathons;
+  let hashId = null;
+  if (typeof window !== 'undefined' && window.location.hash) {
+    hashId = window.location.hash.substring(1);
+    const exists = filteredHackathons.some((h) => h.shareLink.substring(1) === hashId);
+    if (!exists) {
+      const card = hackathons.find((h) => h.shareLink.substring(1) === hashId);
+      if (card) displayHackathons = [card, ...filteredHackathons];
+    }
+  }
+
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.location.hash) {
+      setHighlightId(window.location.hash.substring(1));
+    }
+  }, [locationFilter, monthFilter, domainFilter]);
+
+  useEffect(() => {
+    if (highlightId && cardRefs.current[highlightId]) {
+      const el = cardRefs.current[highlightId];
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      el.style.boxShadow = '0 0 0 4px #00a6fb, 0 0 20px #00a6fb';
+      el.style.transition = 'box-shadow 0.5s';
+      setTimeout(() => {
+        el.style.boxShadow = '';
+      }, 2000);
+    }
+  }, [highlightId, displayHackathons.length]);
 
   return (
     <>
@@ -882,8 +899,12 @@ const HackathonList = () => {
         />
       </FilterContainer>
       <HackathonListContainer>
-        {filteredHackathons.map((hackathon, idx) => (
-          <HackathonCardComponent key={idx} {...hackathon} />
+        {displayHackathons.map((hackathon) => (
+          <HackathonCardComponent
+            key={hackathon.shareLink}
+            ref={(el) => (cardRefs.current[hackathon.shareLink.substring(1)] = el)}
+            {...hackathon}
+          />
         ))}
       </HackathonListContainer>
     </>
