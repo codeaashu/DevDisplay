@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFlag, faMapMarkerAlt, faCalendarAlt, faShareAlt } from '@fortawesome/free-solid-svg-icons';
 
@@ -820,6 +821,21 @@ const HackathonList = () => {
   const [locationFilter, setLocationFilter] = useState('');
   const [monthFilter, setMonthFilter] = useState('');
   const [domainFilter, setDomainFilter] = useState('');
+
+  useEffect(() => {
+    if (window.location.hash) {
+      const id = window.location.hash.substring(1);
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        el.style.boxShadow = '0 0 0 4px #00a6fb, 0 0 20px #00a6fb';
+        el.style.transition = 'box-shadow 0.5s';
+        setTimeout(() => {
+          el.style.boxShadow = '';
+        }, 2000);
+      }
+    }
+  }, []);
 
   const filteredHackathons = hackathons.filter((hackathon) => {
     const matchesLocation = locationFilter
