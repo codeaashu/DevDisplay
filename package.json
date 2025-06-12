@@ -28,7 +28,7 @@
     "react-router-dom": "^7.6.1",
     "react-scripts": "5.0.1",
     "sitemap": "^8.0.0",
-    "styled-components": "^6.1.15",
+    "styled-components": "^6.1.19",
     "web-vitals": "^5.0.3",
     "yocto-queue": "^1.2.0"
   },
