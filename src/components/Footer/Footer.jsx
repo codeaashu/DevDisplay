@@ -52,14 +52,14 @@ export const Footer = () => {
             >
               <i className="fab fa-discord"></i>
             </a>
-            <a
+            {/* <a
               href="https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4"
               target="_blank"
               rel="noopener noreferrer"
               className="transform text-3xl transition-transform hover:scale-110 hover:text-[#00a6fb]"
             >
               <i className="fab fa-whatsapp"></i>
-            </a>
+            </a> */}
             <a
               href="https://www.linkedin.com/company/devdisplay/"
               target="_blank"

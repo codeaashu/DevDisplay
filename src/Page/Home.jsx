@@ -21,53 +21,63 @@ import {
 import { IoMdShareAlt } from 'react-icons/io';
 import { SiDevdotto } from 'react-icons/si';
 
-// Removed duplicate import to avoid redeclaration of SupportersComponent
+// Timer component is commented out for now, but can be uncommented if needed
 
-const CountdownTimer = () => {
-  const [timeLeft, setTimeLeft] = useState('');
+// const CountdownTimer = () => {
+//   const [timeLeft, setTimeLeft] = useState('');
+
+//   useEffect(() => {
+//     const targetDate = new Date('April 17, 2025 20:00:00').getTime();
+
+//     const interval = setInterval(() => {
+//       const now = new Date().getTime();
+//       const difference = targetDate - now;
+
+//       if (difference <= 0) {
+//         clearInterval(interval);
+//         setTimeLeft('v2.0 is here!');
+//       } else {
+//         const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+//         const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//         const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+//         const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+//         setTimeLeft(`${days}d ${hours}h ${minutes}m ${seconds}s`);
+//       }
+//     }, 1000);
+
+//     return () => clearInterval(interval);
+//   }, []);
+
+//   return (
+//     <div className="my-4 text-center">
+//       <div className="flex items-center gap-2">
+//         <h2 className="custom-font text-1xl flex items-center gap-1 font-bold text-gray-400">
+//           <img
+//             src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png"
+//             alt="High Voltage"
+//             width="25"
+//             height="25"
+//           />
+//         </h2>
+//         <p className="custom-font text-1xl text-gray-400">{timeLeft}</p>
+//       </div>
+//     </div>
+//   );
+// };
+
+const GITHUB_REPO = 'codeaashu/DevDisplay';
+
+const Hero = () => {
+  const [stars, setStars] = useState(null);
 
   useEffect(() => {
-    const targetDate = new Date('April 17, 2025 20:00:00').getTime();
-
-    const interval = setInterval(() => {
-      const now = new Date().getTime();
-      const difference = targetDate - now;
-
-      if (difference <= 0) {
-        clearInterval(interval);
-        setTimeLeft('v2.0 is here!');
-      } else {
-        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((difference % (1000 * 60)) / 1000);
-
-        setTimeLeft(`${days}d ${hours}h ${minutes}m ${seconds}s`);
-      }
-    }, 1000);
-
-    return () => clearInterval(interval);
+    fetch(`https://api.github.com/repos/${GITHUB_REPO}`)
+      .then((res) => res.json())
+      .then((data) => setStars(data.stargazers_count))
+      .catch(() => setStars('N/A'));
   }, []);
 
-  return (
-    <div className="my-4 text-center">
-      <div className="flex items-center gap-2">
-        <h2 className="custom-font text-1xl flex items-center gap-1 font-bold text-gray-400">
-          <img
-            src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png"
-            alt="High Voltage"
-            width="25"
-            height="25"
-          />
-        </h2>
-        <p className="custom-font text-1xl text-gray-400">{timeLeft}</p>
-      </div>
-    </div>
-  );
-};
-
-// Add the CountdownTimer component before the image
-const Hero = () => {
   return (
     <section className="hero-section mt-20 flex flex-col items-center justify-center text-white sm:min-h-screen">
       <div className="flex w-full flex-col items-center justify-center px-8 text-center">
@@ -89,7 +99,7 @@ const Hero = () => {
                 height="25"
                 className="mx-2 inline-block align-middle"
               />
-              234
+              {stars !== null ? stars : '...'}
             </div>
           </a>
         </p>
