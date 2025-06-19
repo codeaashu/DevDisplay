@@ -129,11 +129,11 @@ function Search({ onSearch }) {
               icon={faMagnifyingGlass}
             />
           )}
-          <FontAwesomeIcon
+          {/* <FontAwesomeIcon
             onClick={() => setIsListening((prev) => !prev)}
             className="hover:text-primaryFocus dark:hover:text-secondaryFocus absolute right-12 top-1/2 -translate-y-1/2 transform cursor-pointer text-xl text-secondaryColor dark:text-white"
             icon={faMicrophone}
-          />
+          /> */}
         </div>
       </div>
 
