@@ -24,6 +24,7 @@ import JourneyPage from './Page/JourneyPage.jsx';
 import AiCareer from './Page/AiCareer.jsx';
 import AIToolsHub from './Page/AIToolsHub.jsx';
 import AchieverJourneyPage from './components/AchievementJourney/IndividualJourney.js';
+import Leaderboard from './Page/Leaderboard.jsx';
 // Features - Opportunities Hub Pages
 import Opportunities from './Page/Opportunities.jsx';
 import Jobs from './Page/OpportunitiesHub/Jobs.jsx';
@@ -128,6 +129,7 @@ function App() {
         <Route path="/IndustryTrends" element={<IndustryTrends />} />
         <Route path="/AiCareer" element={<AiCareer />} />
         <Route path="/AIToolsHub" element={<AIToolsHub />} />
+        <Route path="/leaderboard" element={<Leaderboard />} />
         {/* Features - Opportunities Hub Pages */}
         <Route path="/Opportunities" element={<Opportunities />} />
         <Route path="/Jobs" element={<Jobs />} />
