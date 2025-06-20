@@ -3,8 +3,137 @@ import useDebounce from '../hooks/useDebouncer';
 import projectsData from '../DB/projects.json';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { Footer } from '../components/Footer/Footer';
-import styled from 'styled-components'; // Import styled-components
-import Marquee from 'react-fast-marquee'; // Import Marquee
+import styled from 'styled-components';
+// import Marquee from 'react-fast-marquee';
+import { ArrowLeft } from 'lucide-react';
+
+const StyledButton = styled.button`
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: none;
+  padding: 1px;
+  background: radial-gradient(circle 80px at 80% -10%, #ffffff, #181b1b);
+  position: relative;
+  transition:
+    background 0.3s,
+    transform 0.3s;
+  animation: zoom 3s ease-in-out infinite;
+  margin-top: 16px;
+
+  &:hover {
+    transform: scale(0.98);
+    animation-play-state: paused;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 65%;
+    height: 60%;
+    border-radius: 120px;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 20px #ffffff38;
+    z-index: -1;
+    transition: box-shadow 0.3s;
+  }
+
+  &:hover::after {
+    box-shadow: 0 0 10px #ffffff18;
+  }
+
+  .blob1 {
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    border-radius: 16px;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(circle 60px at 0% 100%, #3fe9ff, #0000ff80, transparent);
+    box-shadow: -10px 10px 30px #0051ff2d;
+    transition:
+      background 0.3s,
+      box-shadow 0.3s;
+  }
+
+  &:hover .blob1 {
+    box-shadow: -5px 5px 20px #000;
+  }
+
+  .inner {
+    padding: 10px 20px;
+    border-radius: 12px;
+    color: #fff;
+    z-index: 3;
+    position: relative;
+    background: radial-gradient(circle 80px at 80% -50%, #777777, #0f1111);
+    transition: background 0.3s;
+  }
+
+  &:hover .inner {
+    background: radial-gradient(circle 80px at 80% -50%, #333333, #0f0f0f);
+  }
+
+  .inner::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    background: radial-gradient(circle 60px at 0% 100%, #00e1ff1a, #0000ff11, transparent);
+    position: absolute;
+    transition: opacity 0.3s;
+  }
+
+  &:hover .inner::before {
+    opacity: 0;
+  }
+
+  @keyframes zoom {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+`;
+
+// Add this Navbar component
+const Navbar = ({ onOpenModal }) => (
+  <nav className="sticky top-0 z-50 w-full bg-gray-900 text-white shadow-md">
+    <div className="mx-auto flex max-w-7xl items-center justify-between px-2 py-3">
+      <a href="/">
+        <button className="flex items-center gap-2 rounded-full border border-white p-2 hover:bg-gray-700">
+          <ArrowLeft className="h-5 w-5" />
+          <span className="hidden md:inline">Back</span>
+        </button>
+      </a>
+      <div className="flex items-center justify-center">
+        <StyledButton onClick={onOpenModal}>
+          <div className="blob1" />
+          <div className="inner">Add Your Projects!</div>
+        </StyledButton>
+      </div>
+      <div className="text-2xl font-bold">
+        <img src="./DevDisplay ICON.png" alt="DevDisplay" className="h-12 w-12" />
+      </div>
+    </div>
+  </nav>
+);
+
+function shuffleArray(array) {
+  // Fisher-Yates shuffle (does NOT mutate original array)
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
 
 const ProjectsPage = () => {
   const [allProjects, setAllProjects] = useState([]);
@@ -12,40 +141,55 @@ const ProjectsPage = () => {
   const [filteredProjects, setFilteredProjects] = useState([]);
   const [visibleProjects, setVisibleProjects] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
-  const debouncedSearchQuery = useDebounce(searchQuery, 300);
+
+  // Single search state and dropdown
+  const [searchValue, setSearchValue] = useState('');
+  const [searchType, setSearchType] = useState('Domain'); // Default to Domain
+
+  const debouncedSearch = useDebounce(searchValue, 300);
+
   const projectsPerPage = 9;
 
-  const shuffleArray = (array) => {
-    const shuffled = [...array];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-    }
-    return shuffled;
-  };
+  // ...shuffleArray and useEffect for loading projects...
 
   useEffect(() => {
+    // Flatten all projects and add username to each project
     const flattenedProjects = projectsData.flatMap((user) =>
-      user.Projects.map((project) => ({
+      (user.Projects || []).map((project) => ({
         ...project,
-        username: user.github_username,
+        username: user.github_username || '',
+        tech: project.tech || [],
+        title: project.title || '',
       })),
     );
 
+    // Use the fixed shuffleArray function
     const shuffledProjects = shuffleArray(flattenedProjects);
+
     setAllProjects(shuffledProjects);
     setFilteredProjects(shuffledProjects);
     setVisibleProjects(shuffledProjects.slice(0, projectsPerPage));
   }, []);
 
   useEffect(() => {
-    const filtered = allProjects.filter((project) =>
-      project.title.toLowerCase().includes(debouncedSearchQuery.toLowerCase()),
-    );
+    // Filter based on dropdown selection
+    const filtered = allProjects.filter((project) => {
+      const value = debouncedSearch.toLowerCase();
+      if (!value) return true;
+      if (searchType === 'Domain') {
+        return project.tech.some((t) => t.toLowerCase().includes(value));
+      }
+      if (searchType === 'Title') {
+        return project.title.toLowerCase().includes(value);
+      }
+      if (searchType === 'username') {
+        return project.username.toLowerCase().includes(value);
+      }
+      return true;
+    });
     setFilteredProjects(filtered);
     setVisibleProjects(filtered.slice(0, projectsPerPage));
-  }, [debouncedSearchQuery, allProjects]);
+  }, [debouncedSearch, searchType, allProjects]);
 
   const loadMoreProjects = () => {
     if (isLoading || visibleProjects.length >= filteredProjects.length) return;
@@ -69,111 +213,9 @@ const ProjectsPage = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [visibleProjects, isLoading, filteredProjects]);
 
-  const Tags = () => {
-    const tags = [
-      'Web Development',
-      'Mobile App Development',
-      'Full-Stack Development',
-      'Frontend Development',
-      'Backend Development',
-      'AI & Machine Learning',
-      'Data Science & Analytics',
-      'Blockchain & Web3',
-      'Cybersecurity',
-      'Cloud Computing',
-      'DevOps & CI/CD',
-      'IoT & Embedded Systems',
-      'Game Development',
-      'AR/VR & Metaverse',
-      'Automation & Scripting',
-      'Open Source Contributions',
-      'Software Development',
-      'Networking & Security',
-      'Database & SQL',
-      'NoSQL & MongoDB',
-      'System Design & Architecture',
-      'API Development',
-      'SaaS & No-Code',
-      'Big Data & Analytics',
-      'Computer Vision',
-      'NLP (Natural Language Processing)',
-      'Robotics & Hardware',
-      'AI-Powered Chatbots',
-      'Cloud-Native Applications',
-      'Data Engineering',
-      'Quantum Computing',
-      'Hackathon Winning',
-      'Freelance & Client-Based',
-      'Academic & Research-Based',
-      'Enterprise-Level Applications',
-      'Startup MVPs & Prototypes',
-      'Tech for Social Good',
-      'Smart Home & Automation',
-      'Finance & FinTech',
-      'Healthcare & MedTech',
-      'E-Commerce & Marketplace',
-      'EdTech & Learning Platform',
-      'SaaS Platform Development',
-      'DevTools & Productivity',
-      'Portfolio & Personal Branding',
-      'Resume Builder & Career Tools',
-      'Competitive Programming & Algorithmic',
-      'Low-Code & No-Code AI',
-    ];
-
-    return (
-      <section id="tags" className="mb-0 w-full pt-12 sm:py-16">
-        <h1 className="text-md text-primary mb-8 text-center font-bold text-[#00a6fb] lg:text-2xl">
-          Explore amazing projects contributed by developers.
-        </h1>
-        {/* <h2 className="text-md text-primary mb-8 text-center text-[#00a6fb] font-bold lg:text-2xl">One Platform, Endless Tech Opportunities</h2> */}
-
-        {/* Right to Left Scrolling */}
-        <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} className="w-full">
-          <div className="flex w-full flex-nowrap items-center">
-            {[...tags, ...tags, ...tags].map((text, index) => (
-              <span key={index} className="tag-item mr-6">
-                {text}
-              </span>
-            ))}
-          </div>
-        </Marquee>
-
-        <div className="my-4"></div>
-
-        {/* Left to Right Scrolling */}
-        <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} direction="right" className="w-full">
-          <div className="flex w-full flex-nowrap items-center">
-            {[...tags, ...tags, ...tags].map((text, index) => (
-              <span key={index} className="tag-item mr-6">
-                {text}
-              </span>
-            ))}
-          </div>
-        </Marquee>
-
-        <style jsx>{`
-          .tag-item {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            white-space: nowrap;
-            padding: 0.5rem 1.5rem;
-            border-radius: 9999px;
-            border: 1px solid #00a6fb;
-            background-color: rgba(1, 11, 31, 0.58);
-            color: #e2e8f0;
-            font-size: 0.915rem;
-            text-align: center;
-            min-width: max-content;
-          }
-        `}</style>
-      </section>
-    );
-  };
-
   return (
     <div>
+      <Navbar onOpenModal={() => setIsModalOpen(true)} />
       <div className="background-wrapper1 min-h-screen bg-gray-900 p-6 text-white">
         <div className="flex w-full flex-col items-center justify-center px-8 text-center">
           <div className="my-6"></div>
@@ -340,30 +382,48 @@ const ProjectsPage = () => {
             </div>
           </StyledWrapper>
         </div>
-        <Tags />
-        <div className="mb-6">
+        <div className="my-8"></div>
+        <div className="mb-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <input
             type="text"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="Search projects..."
-            className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-white transition focus:outline-none focus:ring focus:ring-[#00a6fb]"
+            value={searchValue}
+            onChange={(e) => setSearchValue(e.target.value)}
+            placeholder={`Search by ${searchType}...`}
+            className="w-full max-w-xs rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-white transition focus:outline-none focus:ring focus:ring-[#00a6fb]"
           />
-        </div>
-        <div className="mb-8 flex items-center justify-between">
-          <button
-            onClick={() => setIsModalOpen(true)}
-            className="rounded-lg bg-[#00a6fb] px-4 py-2 text-white transition-colors hover:bg-[#0089d2]"
-          >
-            Add Your Portfolio
-          </button>
+          <div className="relative w-full max-w-xs">
+            <select
+              value={searchType}
+              onChange={(e) => setSearchType(e.target.value)}
+              className="w-full appearance-none rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 pr-10 text-white transition focus:outline-none focus:ring focus:ring-[#00a6fb]"
+              style={{
+                backgroundColor: '#1f2937',
+                color: '#fff',
+              }}
+            >
+              <option value="Domain">Domain</option>
+              <option value="Title">Title</option>
+              <option value="username">Username</option>
+            </select>
+            <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">
+              <svg width="20" height="20" fill="none" viewBox="0 0 20 20">
+                <path
+                  d="M6 8l4 4 4-4"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </span>
+          </div>
         </div>
 
         {isModalOpen && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
             <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white">
               <div className="mb-4 flex items-center justify-between">
-                <h2 className="text-xl font-semibold">Add Your Projects!</h2>
+                <h2 className="text-xl font-semibold">Spotlight Your Projects Globally!</h2>
                 <button onClick={() => setIsModalOpen(false)} className="text-gray-400 hover:text-white">
                   X
                 </button>
@@ -412,7 +472,7 @@ const ProjectCard = ({ project }) => {
   const { title, description, tech, github_url, username, maker_image, live_url } = project;
 
   return (
-    <div className="rounded-lg border border-gray-700 bg-gray-800 p-5 shadow-lg transition-all duration-300 hover:scale-105">
+    <div className="rounded-lg border border-gray-700 bg-gray-900 p-5 shadow-lg transition-all duration-300 hover:scale-105">
       <div className="mb-4 flex items-center">
         <img src={maker_image} alt={username} className="mr-4 h-10 w-10 rounded-full" />
         <h2 className="text-xl font-semibold text-white">{title}</h2>
