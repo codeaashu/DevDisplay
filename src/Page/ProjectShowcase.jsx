@@ -8,102 +8,6 @@ import styled from 'styled-components';
 import { ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
-const StyledButton = styled.button`
-  cursor: pointer;
-  font-size: 1rem;
-  border-radius: 12px;
-  border: none;
-  padding: 1px;
-  background: radial-gradient(circle 80px at 80% -10%, #ffffff, #181b1b);
-  position: relative;
-  transition:
-    background 0.3s,
-    transform 0.3s;
-  animation: zoom 3s ease-in-out infinite;
-  margin-top: 16px;
-
-  &:hover {
-    transform: scale(0.98);
-    animation-play-state: paused;
-  }
-
-  &::after {
-    content: '';
-    position: absolute;
-    width: 65%;
-    height: 60%;
-    border-radius: 120px;
-    top: 0;
-    right: 0;
-    box-shadow: 0 0 20px #ffffff38;
-    z-index: -1;
-    transition: box-shadow 0.3s;
-  }
-
-  &:hover::after {
-    box-shadow: 0 0 10px #ffffff18;
-  }
-
-  .blob1 {
-    position: absolute;
-    width: 50px;
-    height: 100%;
-    border-radius: 16px;
-    bottom: 0;
-    left: 0;
-    background: radial-gradient(circle 60px at 0% 100%, #3fe9ff, #0000ff80, transparent);
-    box-shadow: -10px 10px 30px #0051ff2d;
-    transition:
-      background 0.3s,
-      box-shadow 0.3s;
-  }
-
-  &:hover .blob1 {
-    box-shadow: -5px 5px 20px #000;
-  }
-
-  .inner {
-    padding: 10px 20px;
-    border-radius: 12px;
-    color: #fff;
-    z-index: 3;
-    position: relative;
-    background: radial-gradient(circle 80px at 80% -50%, #777777, #0f1111);
-    transition: background 0.3s;
-  }
-
-  &:hover .inner {
-    background: radial-gradient(circle 80px at 80% -50%, #333333, #0f0f0f);
-  }
-
-  .inner::before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    border-radius: 12px;
-    background: radial-gradient(circle 60px at 0% 100%, #00e1ff1a, #0000ff11, transparent);
-    position: absolute;
-    transition: opacity 0.3s;
-  }
-
-  &:hover .inner::before {
-    opacity: 0;
-  }
-
-  @keyframes zoom {
-    0%,
-    100% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.05);
-    }
-  }
-`;
-
-// Add this Navbar component
 const Navbar = ({ onOpenModal }) => (
   <nav className="sticky top-0 z-50 w-full bg-gray-900 text-white shadow-md">
     <div className="mx-auto flex max-w-7xl items-center justify-between px-2 py-3">
@@ -127,7 +31,6 @@ const Navbar = ({ onOpenModal }) => (
 );
 
 function shuffleArray(array) {
-  // Fisher-Yates shuffle (does NOT mutate original array)
   const arr = [...array];
   for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -143,9 +46,8 @@ const ProjectsPage = () => {
   const [visibleProjects, setVisibleProjects] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  // Single search state and dropdown
   const [searchValue, setSearchValue] = useState('');
-  const [searchType, setSearchType] = useState('Domain'); // Default to Domain
+  const [searchType, setSearchType] = useState('Domain');
 
   const debouncedSearch = useDebounce(searchValue, 300);
 
@@ -153,10 +55,7 @@ const ProjectsPage = () => {
 
   const navigate = useNavigate();
 
-  // ...shuffleArray and useEffect for loading projects...
-
   useEffect(() => {
-    // Flatten all projects and add username to each project
     const flattenedProjects = projectsData.flatMap((user) =>
       (user.Projects || []).map((project) => ({
         ...project,
@@ -166,7 +65,6 @@ const ProjectsPage = () => {
       })),
     );
 
-    // Use the fixed shuffleArray function
     const shuffledProjects = shuffleArray(flattenedProjects);
 
     setAllProjects(shuffledProjects);
@@ -175,7 +73,6 @@ const ProjectsPage = () => {
   }, []);
 
   useEffect(() => {
-    // Filter based on dropdown selection
     const filtered = allProjects.filter((project) => {
       const value = debouncedSearch.toLowerCase();
       if (!value) return true;
@@ -969,6 +866,101 @@ const StyledWrapper = styled.div`
   @keyframes filled {
     to {
       fill: white;
+    }
+  }
+`;
+
+const StyledButton = styled.button`
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: none;
+  padding: 1px;
+  background: radial-gradient(circle 80px at 80% -10%, #ffffff, #181b1b);
+  position: relative;
+  transition:
+    background 0.3s,
+    transform 0.3s;
+  animation: zoom 3s ease-in-out infinite;
+  margin-top: 16px;
+
+  &:hover {
+    transform: scale(0.98);
+    animation-play-state: paused;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 65%;
+    height: 60%;
+    border-radius: 120px;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 20px #ffffff38;
+    z-index: -1;
+    transition: box-shadow 0.3s;
+  }
+
+  &:hover::after {
+    box-shadow: 0 0 10px #ffffff18;
+  }
+
+  .blob1 {
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    border-radius: 16px;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(circle 60px at 0% 100%, #3fe9ff, #0000ff80, transparent);
+    box-shadow: -10px 10px 30px #0051ff2d;
+    transition:
+      background 0.3s,
+      box-shadow 0.3s;
+  }
+
+  &:hover .blob1 {
+    box-shadow: -5px 5px 20px #000;
+  }
+
+  .inner {
+    padding: 10px 20px;
+    border-radius: 12px;
+    color: #fff;
+    z-index: 3;
+    position: relative;
+    background: radial-gradient(circle 80px at 80% -50%, #777777, #0f1111);
+    transition: background 0.3s;
+  }
+
+  &:hover .inner {
+    background: radial-gradient(circle 80px at 80% -50%, #333333, #0f0f0f);
+  }
+
+  .inner::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    background: radial-gradient(circle 60px at 0% 100%, #00e1ff1a, #0000ff11, transparent);
+    position: absolute;
+    transition: opacity 0.3s;
+  }
+
+  &:hover .inner::before {
+    opacity: 0;
+  }
+
+  @keyframes zoom {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
     }
   }
 `;
