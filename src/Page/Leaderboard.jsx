@@ -29,7 +29,12 @@ const Leaderboard = () => {
       </div>
       <div className="mb-8 text-center">
         <span className="text-lg font-semibold text-[#00a6fb]">Live Leaderboard (Global)</span>
-        <span className="ml-2">🌍📊</span>
+        <img
+          src="https://d8it4huxumps7.cloudfront.net/uploads/images/66ebce3b69885_leaderboard.svg"
+          alt="Leaderboard Icon"
+          className="ml-2 inline-block h-6 align-middle"
+          style={{ verticalAlign: 'middle' }}
+        />
       </div>
       {/* Top 3 */}
       <div className="mb-10 flex flex-wrap justify-center gap-6">
