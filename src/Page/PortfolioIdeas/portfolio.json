@@ -2580,6 +2580,13 @@
     "screenshot": "https://github.com/user-attachments/assets/7ee34114-7a5d-4c6d-af68-c96b3d687ef6",
     "liveUrl": "https://aloksy.netlify.app/",
     "repo": "https://github.com/iamaloksy/portfolio",
-    "techStack": "Matter.js, JavaScript, Tailwind Css , HTML"
+    "techStack": "Matter.js, JavaScript, Tailwind Css, HTML"
+  },
+  {
+    "author": "Abhishek kumar",
+    "screenshot": "https://github.com/user-attachments/assets/5c8f5d5b-a02b-45b0-9231-20450ec4f8cc",
+    "liveUrl": "https://abhi-yadav.vercel.app/",
+    "repo": "https://github.com/abhishekkumar62000/My-Portfolio-Website",
+    "techStack": "HTML, CSS, JS"
   }
 ]
