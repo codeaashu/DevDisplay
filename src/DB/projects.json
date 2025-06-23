@@ -4267,5 +4267,45 @@
         "maker_image": "https://github.com/iamaloksy.png"
       }
     ]
+  },
+  {
+    "github_username": "abhishekkumar62000",
+    "Projects": [
+      {
+        "github_url": "https://github.com/abhishekkumar62000/AI-Powered-MindGraphX-Visionary-APP",
+        "title": "AI Powered MindGraphX Visionary APP",
+        "description": "An open-source innovation designed to transform how we visualize, analyze, and understand data.",
+        "tech": ["Python", "Streamlit", "Gemini API", "html2canvas"],
+        "maker_image": "https://github.com/abhishekkumar62000.png"
+      },
+      {
+        "github_url": "https://github.com/abhishekkumar62000/AI-ResumeXpert-Analyst",
+        "title": "AI ResumeXpert Analyst",
+        "description": "A cutting-edge AI-powered platform that helps job seekers optimize their resumes, improve ATS compatibility, and get career insights.",
+        "tech": ["Streamlit", "AI Models", "Google Gemini AI", "Hugging Face NLP", "Groq", "GTP 4o"],
+        "maker_image": "https://github.com/abhishekkumar62000.png"
+      },
+      {
+        "github_url": "https://github.com/abhishekkumar62000/DSA_CodeMastery-Club.AI",
+        "title": "DSA CodeMastery Club AI",
+        "description": "A fully-featured, AI-powered, interactive learning platform for mastering Data Structures and Algorithms (DSA).",
+        "tech": ["Streamlit", "Matplotlib", "Python", "JSON", "Gemini api"],
+        "maker_image": "https://github.com/abhishekkumar62000.png"
+      },
+      {
+        "github_url": "https://github.com/abhishekkumar62000/BreakUp-Recovery-AI-Multi-Agents-Project",
+        "title": "BreakUp Recovery AI Multi Agent",
+        "description": "A feature-rich, emotionally intelligent AI-powered platform to help users heal from breakups through text, image, and audio-based interactions with specialized AI agents.",
+        "tech": ["Streamlit", "Agents", "Agno", "Google Gemini 2.0", "APIs"],
+        "maker_image": "https://github.com/abhishekkumar62000.png"
+      },
+      {
+        "github_url": "https://github.com/abhishekkumar62000/2025-IPL-Auction-Team-Purchase-Secrets-Strategy-Analysis-Project",
+        "title": "2025 IPL Auction Team Purchase Secrets Strategy Analysis",
+        "description": "A project that predict and analyze IPL team purchases during the 2025 auction.",
+        "tech": ["Python", "Pandas", "NumPy", "Matplotlib", "XGBoost", "Scikit learn"],
+        "maker_image": "https://github.com/abhishekkumar62000.png"
+      }
+    ]
   }
 ]
