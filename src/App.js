@@ -7,6 +7,7 @@ import Homepage from './Homepage';
 import Home from './Page/Home.jsx';
 // NavBar Pages
 import About from './Page/About.jsx';
+import Connect from './Page/Connect.jsx';
 import Contribution from './Page/Contribution.jsx';
 import SponsorUs from './Page/Sponsor.jsx';
 import DevSpring from './Page/DevSpring.jsx';
@@ -105,6 +106,7 @@ function App() {
         <Route path="/Home" element={<Home />} />
         {/* NavBar Pages */}
         <Route path="/About" element={<About />} />
+        <Route path="/Connect" element={<Connect />} />
         <Route path="/Contribution" element={<Contribution />} />
         <Route path="/SponsorUs" element={<SponsorUs />} />
         <Route path="/DevSpring" element={<DevSpring />} />

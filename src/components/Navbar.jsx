@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FiChevronDown, FiArrowRight, FiHome, FiBarChart2, FiPieChart } from 'react-icons/fi';
 import { AnimatePresence, motion } from 'framer-motion';
-import { FiUser, FiBriefcase, FiClipboard } from 'react-icons/fi';
+// import { FiUser, FiBriefcase, FiClipboard } from 'react-icons/fi';
 
 const Navbar = () => {
   const [selected, setSelected] = useState(null);
@@ -230,33 +230,82 @@ const Developers = () => (
   </div>
 );
 
-const VerifyNow = () => (
-  <div className="grid grid-cols-3 gap-4 divide-x divide-neutral-700">
-    <a
-      href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
-      className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
-    >
-      {/* <FiHome className="mb-2 text-xl text-indigo-300" /> */}
-      <FiUser className="mb-2 text-xl text-indigo-300" />
-      <span className="text-xs">Add Profile</span>
-    </a>
-    <a
-      href="https://www.devdisplay.org/PortfolioShowcase"
-      className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
-    >
-      {/* <FiBarChart2 className="mb-2 text-xl text-indigo-300" /> */}
-      <FiBriefcase className="mb-2 text-xl text-indigo-300" />
-      <span className="text-xs">Add Portfolio</span>
-    </a>
-    <a
-      href="https://www.devdisplay.org/ProjectShowcase"
-      className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
-    >
-      {/* <FiPieChart className="mb-2 text-xl text-indigo-300" /> */}
-      {/* <FiFolder className="mb-2 text-xl text-indigo-300" /> */}
-      <FiClipboard className="mb-2 text-xl text-indigo-300" />
-      <span className="text-xs">Add Projects</span>
-    </a>
+// const VerifyNow = () => (
+//   <div className="grid grid-cols-3 gap-4 divide-x divide-neutral-700">
+//     <a
+//       href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
+//       className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
+//     >
+//       {/* <FiHome className="mb-2 text-xl text-indigo-300" /> */}
+//       <FiUser className="mb-2 text-xl text-indigo-300" />
+//       <span className="text-xs">Add Profile</span>
+//     </a>
+//     <a
+//       href="https://www.devdisplay.org/PortfolioShowcase"
+//       className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
+//     >
+//       {/* <FiBarChart2 className="mb-2 text-xl text-indigo-300" /> */}
+//       <FiBriefcase className="mb-2 text-xl text-indigo-300" />
+//       <span className="text-xs">Add Portfolio</span>
+//     </a>
+//     <a
+//       href="https://www.devdisplay.org/ProjectShowcase"
+//       className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
+//     >
+//       {/* <FiPieChart className="mb-2 text-xl text-indigo-300" /> */}
+//       {/* <FiFolder className="mb-2 text-xl text-indigo-300" /> */}
+//       <FiClipboard className="mb-2 text-xl text-indigo-300" />
+//       <span className="text-xs">Add Projects</span>
+//     </a>
+//   </div>
+// );
+
+const Connect = () => (
+  <div>
+    <div className="flex gap-4">
+      <div>
+        <h3 className="mb-2 text-sm font-medium">Social Links</h3>
+        <a href="https://www.devdisplay.org/Connect" className="mb-1 block text-sm text-neutral-400">
+          All Connect Links
+        </a>
+        <a href="https://linkedin.com/company/devdisplay" className="block text-sm text-neutral-400">
+          LinkedIn
+        </a>
+        <a href="https://twitter.com/devdisplay" className="block text-sm text-neutral-400">
+          Twitter
+        </a>
+        <a href="https://instagram.com/devdisplay" className="block text-sm text-neutral-400">
+          Instagram
+        </a>
+        <a href="https://discord.gg/devdisplay" className="block text-sm text-neutral-400">
+          Discord
+        </a>
+      </div>
+      <div>
+        <h3 className="mb-2 text-sm font-medium">Development</h3>
+        <a href="https://github.com/codeaashu/DevDisplay" className="mb-1 block text-sm text-neutral-400">
+          GitHub Repo
+        </a>
+        <a href="https://github.com/DevDisplay" className="block text-sm text-neutral-400">
+          GitHub Org
+        </a>
+        <a href="https://youtube.com/@devdisplay" className="block text-sm text-neutral-400">
+          YouTube
+        </a>
+        <a href="https://t.me/devdisplay" className="block text-sm text-neutral-400">
+          Telegram
+        </a>
+      </div>
+      <div>
+        <h3 className="mb-2 text-sm font-medium">Contact</h3>
+        <a href="mailto:team@devdisplay.org" className="mb-1 block text-sm text-neutral-400">
+          Email Team
+        </a>
+        <a href="https://linkedin.com/in/codeaashu" className="block text-sm text-neutral-400">
+          Contact Founder
+        </a>
+      </div>
+    </div>
   </div>
 );
 
@@ -289,9 +338,13 @@ const TABS = [
     Component: Developers,
   },
   {
-    title: 'Verify Now',
-    Component: VerifyNow,
+    title: 'Connect',
+    Component: Connect,
   },
+  // {
+  //   title: 'Verify Now',
+  //   Component: VerifyNow,
+  // },
   {
     title: 'Explore',
     Component: Explore,
