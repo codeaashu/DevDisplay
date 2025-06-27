@@ -957,22 +957,23 @@ const LogoSection = styled.div`
   margin-bottom: 3rem;
   animation: fadeInUp 1s ease-out;
 
-  img {
-    width: 120px;
-    height: 120px;
-    object-fit: contain;
-    margin-bottom: 1.5rem;
-    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.1));
-  }
-
   h1 {
     font-size: 2.5rem;
     font-weight: 800;
-    background: linear-gradient(135deg, #00d4ff, #00ff88, #ff00d4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: white;
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    img {
+      height: 3rem;
+      width: auto;
+      object-fit: contain;
+      filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.1));
+    }
   }
 
   p {
@@ -986,13 +987,14 @@ const LogoSection = styled.div`
   @media (max-width: 768px) {
     h1 {
       font-size: 2rem;
+      gap: 0.5rem;
+
+      img {
+        height: 2.5rem;
+      }
     }
     p {
       font-size: 1rem;
-    }
-    img {
-      width: 100px;
-      height: 100px;
     }
   }
 
@@ -1307,8 +1309,9 @@ const Connect = () => {
 
       <Container>
         <LogoSection>
-          <img src="/DDColorLOGO.png" alt="DevDisplay Logo" />
-          <h1>Connect with DevDisplay</h1>
+          <h1>
+            Connect with <img src="/DDColorLOGO.png" alt="DevDisplay" />
+          </h1>
           <p>The First Global Platform and community for Developers to Fulfill All Their Tech Needs.</p>
         </LogoSection>
 
