@@ -2,26 +2,29 @@ import React, { useState, useEffect } from 'react';
 import { Footer } from '../../components/Footer/Footer';
 import portfoliosData from './portfolio.json'; // Import the JSON file
 import styled from 'styled-components';
+import { ArrowLeft } from 'lucide-react';
 
-const Navbar = () => {
-  return (
-    <nav className="sticky top-0 z-50 w-full bg-gray-800 text-white shadow-md">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
-        <a href="/home">
-          <button className="flex items-center gap-2 rounded-full border border-white p-2 hover:bg-gray-700">
-            <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-            <span className="hidden md:inline">Back</span>
-          </button>
-        </a>
-        <div className="text-2xl font-bold">
-          <img src="./DevDisplay ICON.png" alt="DevDisplay" className="h-12 w-12" />
-        </div>
+const Navbar = ({ onOpenModal }) => (
+  <nav className="sticky top-0 z-50 w-full bg-gray-900 text-white shadow-md">
+    <div className="mx-auto flex max-w-7xl items-center justify-between px-2 py-3">
+      <a href="/">
+        <button className="flex items-center gap-2 rounded-full border border-white p-2 hover:bg-gray-700">
+          <ArrowLeft className="h-5 w-5" />
+          <span className="hidden md:inline">Back</span>
+        </button>
+      </a>
+      <div className="flex items-center justify-center">
+        <StyledButton onClick={onOpenModal}>
+          <div className="blob1" />
+          <div className="inner">Add Your Portfolio!</div>
+        </StyledButton>
       </div>
-    </nav>
-  );
-};
+      <div className="text-2xl font-bold">
+        <img src="./DevDisplay ICON.png" alt="DevDisplay" className="h-12 w-12" />
+      </div>
+    </div>
+  </nav>
+);
 
 const StyledWrapper = styled.div`
   .relative {
@@ -336,18 +339,105 @@ const VoteButton = styled.button`
   }
 `;
 
-const PortfolioIdeas = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+const StyledButton = styled.button`
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: none;
+  padding: 1px;
+  background: radial-gradient(circle 80px at 80% -10%, #ffffff, #181b1b);
+  position: relative;
+  transition:
+    background 0.3s,
+    transform 0.3s;
+  animation: zoom 3s ease-in-out infinite;
+  margin-top: 16px;
+
+  &:hover {
+    transform: scale(0.98);
+    animation-play-state: paused;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 65%;
+    height: 60%;
+    border-radius: 120px;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 20px #ffffff38;
+    z-index: -1;
+    transition: box-shadow 0.3s;
+  }
+
+  &:hover::after {
+    box-shadow: 0 0 10px #ffffff18;
+  }
+
+  .blob1 {
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    border-radius: 16px;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(circle 60px at 0% 100%, #3fe9ff, #0000ff80, transparent);
+    box-shadow: -10px 10px 30px #0051ff2d;
+    transition:
+      background 0.3s,
+      box-shadow 0.3s;
+  }
+
+  &:hover .blob1 {
+    box-shadow: -5px 5px 20px #000;
+  }
+
+  .inner {
+    padding: 10px 20px;
+    border-radius: 12px;
+    color: #fff;
+    z-index: 3;
+    position: relative;
+    background: radial-gradient(circle 80px at 80% -50%, #777777, #0f1111);
+    transition: background 0.3s;
+  }
+
+  &:hover .inner {
+    background: radial-gradient(circle 80px at 80% -50%, #333333, #0f0f0f);
+  }
+
+  .inner::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    background: radial-gradient(circle 60px at 0% 100%, #00e1ff1a, #0000ff11, transparent);
+    position: absolute;
+    transition: opacity 0.3s;
+  }
+
+  &:hover .inner::before {
+    opacity: 0;
+  }
+
+  @keyframes zoom {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+`;
+
+const PortfolioIdeas = ({ isModalOpen, setIsModalOpen }) => {
   const [portfolios, setPortfolios] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [votes, setVotes] = useState({});
-  const [newPortfolio, setNewPortfolio] = useState({
-    author: '',
-    screenshot: '',
-    liveUrl: '',
-    repo: '',
-    techStack: '',
-  });
 
   useEffect(() => {
     const shuffledPortfolios = shuffleArray(portfoliosData); // Shuffle portfolios
@@ -364,19 +454,6 @@ const PortfolioIdeas = () => {
     localStorage.setItem('portfolioVotes', JSON.stringify(newVotes));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setPortfolios([...portfolios, newPortfolio]);
-    setNewPortfolio({
-      author: '',
-      screenshot: '',
-      liveUrl: '',
-      repo: '',
-      techStack: '',
-    });
-    setIsModalOpen(false);
-  };
-
   const filteredPortfolios = portfolios.filter((portfolio) =>
     portfolio.author.toLowerCase().includes(searchTerm.toLowerCase()),
   );
@@ -384,7 +461,7 @@ const PortfolioIdeas = () => {
   return (
     <div className="p-6">
       <div className="flex w-full flex-col items-center justify-center px-8 text-center">
-        <div className="my-0"></div>
+        <div className="my-4"></div>
         <StyledWrapper>
           <div className="modgp relative inline-block w-full py-3">
             <div className="relative">
@@ -587,24 +664,19 @@ const PortfolioIdeas = () => {
             </div>
           </div>
         </StyledWrapper>
+        <div className="my-6"></div>
       </div>
-      <div className="mb-8 flex items-center justify-between">
+      <div className="mb-8 flex justify-center">
         <div className="w-64">
           <SearchBar onSearch={setSearchTerm} />
         </div>
-        <button
-          onClick={() => setIsModalOpen(true)}
-          className="rounded-lg bg-[#00a6fb] px-4 py-2 text-white transition-colors hover:bg-[#0089d2]"
-        >
-          Add Your Portfolio
-        </button>
       </div>
 
       {isModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
           <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white">
             <div className="mb-4 flex items-center justify-between">
-              <h2 className="text-xl font-semibold">Add Your Portfolio</h2>
+              <h2 className="text-xl font-semibold">Spotlight Your Portfolio Globally!</h2>
               <button onClick={() => setIsModalOpen(false)} className="text-gray-400 hover:text-white">
                 X
               </button>
@@ -686,11 +758,13 @@ const PortfolioIdeas = () => {
 };
 
 const ProjectsPage = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <div className="background-wrapper1 flex min-h-screen flex-col bg-gray-900">
-      <Navbar />
+      <Navbar onOpenModal={() => setIsModalOpen(true)} />
       <div className="flex-grow">
-        <PortfolioIdeas />
+        <PortfolioIdeas isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
       </div>
       <Footer />
     </div>
