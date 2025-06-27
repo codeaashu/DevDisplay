@@ -17,10 +17,10 @@
     "cobe": "^0.6.3",
     "devdisplay": "file:",
     "flag": "^5.0.1",
-    "framer-motion": "^12.17.0",
+    "framer-motion": "^12.19.1",
     "html2canvas": "^1.4.1",
     "jspdf": "^3.0.1",
-    "lucide-react": "^0.514.0",
+    "lucide-react": "^0.522.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.5",
@@ -65,7 +65,7 @@
     "flag": "^5.0.1",
     "husky": "^9.1.7",
     "json-loader": "^0.5.7",
-    "prettier": "^3.4.2",
+    "prettier": "^3.6.0",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.16"
   }
