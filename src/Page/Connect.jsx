@@ -961,6 +961,7 @@ const LogoSection = styled.div`
     font-size: 2.5rem;
     font-weight: 800;
     color: white;
+    margin-top: 3rem;
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
