@@ -268,16 +268,16 @@ const Connect = () => (
         <a href="https://www.devdisplay.org/Connect" className="mb-1 block text-sm text-neutral-400">
           All Connect Links
         </a>
-        <a href="https://linkedin.com/company/devdisplay" className="block text-sm text-neutral-400">
+        <a href="https://www.linkedin.com/company/devdisplay/" className="block text-sm text-neutral-400">
           LinkedIn
         </a>
-        <a href="https://twitter.com/devdisplay" className="block text-sm text-neutral-400">
+        <a href="https://twitter.com/devdisplay_" className="block text-sm text-neutral-400">
           Twitter
         </a>
         <a href="https://instagram.com/devdisplay" className="block text-sm text-neutral-400">
           Instagram
         </a>
-        <a href="https://discord.gg/devdisplay" className="block text-sm text-neutral-400">
+        <a href="https://discord.com/invite/chyt2UgTv5" className="block text-sm text-neutral-400">
           Discord
         </a>
       </div>
@@ -301,7 +301,7 @@ const Connect = () => (
         <a href="mailto:team@devdisplay.org" className="mb-1 block text-sm text-neutral-400">
           Email Team
         </a>
-        <a href="https://linkedin.com/in/codeaashu" className="block text-sm text-neutral-400">
+        <a href="https://github.com/codeaashu/DevDisplay" className="block text-sm text-neutral-400">
           Contact Founder
         </a>
       </div>
