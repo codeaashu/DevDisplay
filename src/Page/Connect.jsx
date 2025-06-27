@@ -1312,7 +1312,7 @@ const Connect = () => {
           <h1>
             Connect with <img src="/DDColorLOGO.png" alt="DevDisplay" />
           </h1>
-          <p>The First Global Platform and community for Developers to Fulfill All Their Tech Needs.</p>
+          <p>The First Global Platform for Developers to Fulfill All Their Tech Needs.</p>
         </LogoSection>
 
         <LinksGrid>
