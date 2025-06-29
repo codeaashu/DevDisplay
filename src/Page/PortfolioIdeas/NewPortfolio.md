@@ -3,3 +3,6 @@
 
 `Abhishek Kumar` https://github.com/abhishekkumar62000
 ![Screenshot (1888)](https://github.com/user-attachments/assets/5c8f5d5b-a02b-45b0-9231-20450ec4f8cc)
+
+`Ayush Kumar Verma` https://github.com/Ayush2426
+![Screenshot 2025-06-28 003815](https://github.com/user-attachments/assets/314c25e6-28f6-46d9-8f11-312ab2a0e34c)
