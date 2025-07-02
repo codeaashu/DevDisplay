@@ -9,7 +9,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@headlessui/react": "^2.2.4",
-    "@huggingface/inference": "^4.1.0",
+    "@huggingface/inference": "^4.3.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^16.0.1",
     "@testing-library/user-event": "^14.5.2",
