@@ -1,0 +1,27 @@
+{
+    "name": "Shreya",
+    "location": "Mangalore",
+    "bio": "A dedicated individual focused on Frontend development and problem-solving, with a strong commitment to continuous learning and team collaboration",
+    "avatar": "https://github.com/Shreyya18.png",
+    "portfolio": "https://shreya-self.vercel.app/",
+    "skills": [
+        "C",
+        "C++",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Git",
+        "GitHub",
+        "MySQL"
+    ],
+    "social": {
+        "GitHub": "https://github.com/Shreyya18",
+        "Twitter": "https://twitter.com/Shreyya_Poojary",
+        "LinkedIn": "https://www.linkedin.com/in/shreya-p-06bb0226a/",
+        "Instagram": "#",
+        "Email": "shreyapoojary251@gmail.com"    
+    }
+}
