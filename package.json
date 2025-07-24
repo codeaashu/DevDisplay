@@ -17,7 +17,7 @@
     "cobe": "^0.6.3",
     "devdisplay": "file:",
     "flag": "^5.0.1",
-    "framer-motion": "^12.23.6",
+    "framer-motion": "^12.23.9",
     "html2canvas": "^1.4.1",
     "jspdf": "^3.0.1",
     "lucide-react": "^0.523.0",
