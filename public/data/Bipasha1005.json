@@ -1,0 +1,24 @@
+{
+  "name": "Bipasha Acharjee",
+  "location": "24 Parganas (North), West Bengal, India",
+  "bio": "Front-end Web Developer crafting sleek, responsive UIs with a passion for user experience.",
+  "avatar": "https://github.com/Bipasha1005.png",
+  "portfolio": "https://bipashaacharjeeportfolio.netlify.app/",
+  "skills": [
+    "HTML5",
+    "CSS3",
+    "Javascript",
+    "Bootstrap5",
+    "Tailwind CSS",
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Web Development"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Bipasha1005",
+    "Twitter": "https://twitter.com/Acharje4Bipasha",
+    "LinkedIn": "https://www.linkedin.com/in/bipasha-acharjee-b34939253",
+    "Email": "bipasha1705@gmail.com"
+  }
+}
