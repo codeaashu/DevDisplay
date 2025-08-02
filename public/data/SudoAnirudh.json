@@ -4,7 +4,20 @@
   "bio": "I & ML Engineering Student | Python & C Developer | Code Addict & AI Explorer | Building the Future with Innovation & Emerging Technologies",
   "avatar": "https://github.com/SudoAnirudh.png",
   "portfolio": "https://sudoanirudh.github.io/portfolio_main/",
-  "skills": ["Python", "C", "AI", "ML", "Data Science", "Web Development", "HTML", "CSS", "JavaScript", "MongoDB", "Git", "GitHub"],
+  "skills": [
+    "Python",
+    "C",
+    "AI",
+    "ML",
+    "Data Science",
+    "Web Development",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "MongoDB",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/SudoAnirudh",
     "Twitter": "https://x.com/SudoAnirudh",
