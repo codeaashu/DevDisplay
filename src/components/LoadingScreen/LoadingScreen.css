@@ -1,0 +1,385 @@
+/* Loading Screen Styles */
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* Logo Section */
+.logo-container {
+  text-align: center;
+  margin-bottom: 2rem;
+  animation: fadeInUp 1s ease-out;
+}
+
+.loading-logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1rem;
+  animation: logoFloat 3s ease-in-out infinite;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+.loading-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  animation: textGlow 2s ease-in-out infinite alternate;
+}
+
+.loading-subtitle {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0.5rem 0 0 0;
+  animation: fadeIn 1.5s ease-out;
+}
+
+/* Loading Elements */
+.loading-elements {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Pulsing Dots */
+.pulse-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: white;
+  animation: pulseDot 1.4s ease-in-out infinite both;
+}
+
+.dot-1 {
+  animation-delay: -0.32s;
+}
+.dot-2 {
+  animation-delay: -0.16s;
+}
+.dot-3 {
+  animation-delay: 0s;
+}
+
+/* Progress Bar */
+.progress-container {
+  width: 100%;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ffffff, #a8edea, #fed6e3);
+  border-radius: 2px;
+  animation: progressAnimation 3s ease-in-out infinite;
+}
+
+.loading-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9rem;
+  animation: textFade 2s ease-in-out infinite;
+}
+
+/* Floating Code Elements */
+.floating-elements {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  height: 200px;
+  pointer-events: none;
+}
+
+.code-element {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  font-size: 1.2rem;
+  animation: float 4s ease-in-out infinite;
+}
+
+.code-1 {
+  top: 20px;
+  left: 10%;
+  animation-delay: 0s;
+  animation-duration: 3s;
+}
+
+.code-2 {
+  top: 60px;
+  right: 15%;
+  animation-delay: 0.5s;
+  animation-duration: 3.5s;
+}
+
+.code-3 {
+  top: 100px;
+  left: 20%;
+  animation-delay: 1s;
+  animation-duration: 4s;
+}
+
+.code-4 {
+  top: 40px;
+  right: 35%;
+  animation-delay: 1.5s;
+  animation-duration: 3.2s;
+}
+
+.code-5 {
+  top: 80px;
+  left: 50%;
+  animation-delay: 2s;
+  animation-duration: 3.8s;
+}
+
+.code-6 {
+  top: 120px;
+  right: 25%;
+  animation-delay: 2.5s;
+  animation-duration: 3.3s;
+}
+
+/* Spinning Ring */
+.spinner-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+  height: 120px;
+}
+
+.ring-part {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 3px solid transparent;
+  border-top: 3px solid rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+}
+
+.ring-part:nth-child(1) {
+  animation-delay: 0s;
+}
+.ring-part:nth-child(2) {
+  animation-delay: 0.3s;
+  opacity: 0.8;
+}
+.ring-part:nth-child(3) {
+  animation-delay: 0.6s;
+  opacity: 0.6;
+}
+.ring-part:nth-child(4) {
+  animation-delay: 0.9s;
+  opacity: 0.4;
+}
+
+/* Background Pattern */
+.bg-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  z-index: 1;
+}
+
+.pattern-grid {
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+  animation: patternMove 10s linear infinite;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes logoFloat {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes textGlow {
+  from {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  to {
+    text-shadow:
+      2px 2px 4px rgba(0, 0, 0, 0.3),
+      0 0 20px rgba(255, 255, 255, 0.5);
+  }
+}
+
+@keyframes pulseDot {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+    opacity: 0.5;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 0%;
+    transform: translateX(0%);
+  }
+  50% {
+    width: 70%;
+    transform: translateX(0%);
+  }
+  100% {
+    width: 100%;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes textFade {
+  0%,
+  100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(-20px) rotate(180deg);
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes patternMove {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    transform: translateX(50px) translateY(50px);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .loading-title {
+    font-size: 2.5rem;
+  }
+
+  .loading-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .code-element {
+    font-size: 1rem;
+  }
+
+  .spinner-ring {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .loading-title {
+    font-size: 2rem;
+  }
+
+  .loading-subtitle {
+    font-size: 1rem;
+  }
+
+  .loading-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .loading-elements {
+    max-width: 300px;
+  }
+}

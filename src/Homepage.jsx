@@ -6,6 +6,8 @@ import Sidebar from './components/Sidebar/Sidebar';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import NoResultFound from './components/NoResultFound/NoResultFound';
 import Pagination from './components/Pagination/Pagination';
+// PERFORMANCE ADDITION: Beautiful loading screen while data loads
+import LoadingScreen from './components/LoadingScreen/LoadingScreen';
 import './App.css';
 import filenames from './ProfilesList.json';
 // import GTranslateLoader from './components/GTranslateLoader';
@@ -18,6 +20,9 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [shuffledProfiles, setShuffledProfiles] = useState([]);
   const [loadingProfiles, setLoadingProfiles] = useState(false);
+
+  // PERFORMANCE ADDITION: Track overall page loading state for loading screen
+  const [isPageLoading, setIsPageLoading] = useState(true);
 
   const recordsPerPage = 20;
 
@@ -50,6 +55,11 @@ function App() {
         setShuffledProfiles([]);
       }
       setLoadingProfiles(false);
+
+      // Add a minimum loading time of 2 seconds for better UX
+      setTimeout(() => {
+        setIsPageLoading(false);
+      }, 2000);
     };
 
     combineData();
@@ -147,22 +157,28 @@ function App() {
   };
 
   return currentUrl === '/' ? (
-    <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
-      <Sidebar />
-      <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7" ref={profilesRef}>
-        <Search onSearch={handleSearch} />
-        {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
-        {combinedData.length > 0 && (
-          <Pagination
-            currentPage={currentPage}
-            totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
-            onNextPage={handleNextPage}
-            onPrevPage={handlePrevPage}
-          />
-        )}
+    <>
+      {/* PERFORMANCE ENHANCEMENT: Show beautiful loading screen while data loads */}
+      {/* This prevents showing empty/broken UI during initial data fetching */}
+      {isPageLoading && <LoadingScreen />}
+
+      <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
+        <Sidebar />
+        <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7" ref={profilesRef}>
+          <Search onSearch={handleSearch} />
+          {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
+          {combinedData.length > 0 && (
+            <Pagination
+              currentPage={currentPage}
+              totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
+              onNextPage={handleNextPage}
+              onPrevPage={handlePrevPage}
+            />
+          )}
+        </div>
+        {/* <GTranslateLoader /> */}
       </div>
-      {/* <GTranslateLoader /> */}
-    </div>
+    </>
   ) : (
     <ErrorPage />
   );
