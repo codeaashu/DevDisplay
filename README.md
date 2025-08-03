@@ -134,7 +134,7 @@
          <tr>
             <td><img src="./public/assets/SocialLogo/GitHub.png" alt="GitHub Logo" width="50"></td>
             <td><img src="./public/assets/SocialLogo/Discord.png" alt="Discord Logo" width="50"></td>
-            <td><img src="./public/assets/SocialLogo/WhatsApp.png" alt="WhatsApp Logo" width="50"></td>
+           <!-- <td><img src="./public/assets/SocialLogo/WhatsApp.png" alt="WhatsApp Logo" width="50"></td> -->
             <td><img src="./public/assets/SocialLogo/Linkedin.webp" alt="Linkedin Logo" width="50"></td>
             <td><img src="./public/assets/SocialLogo/X.png" alt="Twitter Logo" width="50"></td>
             <td><img src="./public/assets/SocialLogo/Instagram.png" alt="Instagram Logo" width="50"></td>
@@ -144,7 +144,7 @@
         <tr border: 2px;>
             <td><b><a href="https://github.com/devdisplay"> GitHub </a></b></td>
             <td><b><a href="https://discord.gg/chyt2UgTv5"> Discord </a></b></td>
-            <td><b><a href="https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4"> WA </a></b></td>
+          <!--  <td><b><a href="https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4"> WA </a></b></td> -->
             <td><b><a href="https://www.linkedin.com/company/devdisplay/"> Linkedin </a></b></td>
             <td><b><a href="https://x.com/devdisplay_"> Twitter </a></b></td>
             <td><b><a href="https://www.instagram.com/devdisplay/"> Insta. </a></b></td>
