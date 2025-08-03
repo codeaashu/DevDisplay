@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import Navbar from '../components/Navbar';
-import Globe from '../components/Globe';
+// PERFORMANCE OPTIMIZATION: Replaced direct Globe import with LazyGlobe
+// This implements code splitting to reduce initial bundle size and loading time
+import LazyGlobe from '../components/LazyGlobe';
 import { Footer } from '../components/Footer/Footer';
 import LOGO from './WordMark.png';
 // import PoweredByDevDisplay from './PoweredByDevDisplay.png';
@@ -178,7 +180,9 @@ const Hero = () => {
         {/* <div className="flex items-center justify-center">
           <CountdownTimer />
         </div> */}
-        <Globe />
+        {/* PERFORMANCE OPTIMIZATION: Using LazyGlobe instead of direct Globe import */}
+        {/* This provides code splitting, lazy loading, and better loading UX */}
+        <LazyGlobe />
       </div>
       <div className="mb-20"></div>
     </section>
@@ -321,7 +325,7 @@ const StyledDot = styled.div`
 const TechFeatures = () => {
   return (
     <section className="tech-features-section mt-[60%] max-w-[90%] px-4 py-16 text-white xs:mt-0">
-      <div className="mx-auto my-12 max-w-[80%] text-center ">
+      <div className="mx-auto my-12 max-w-[80%] text-center">
         <h2 className="custom-font my-4 text-4xl font-bold text-[#00a6fb]">Dive into DevDisplay</h2>
         <div className="mb-6 mt-4 flex flex-col items-center">
           <p className="max-w-2xl text-center text-lg text-gray-400">

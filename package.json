@@ -15,6 +15,7 @@
     "@testing-library/user-event": "^14.5.2",
     "canvas-confetti": "^1.9.3",
     "cobe": "^0.6.3",
+    "d3": "^7.9.0",
     "devdisplay": "file:",
     "flag": "^5.0.1",
     "framer-motion": "^12.23.12",
@@ -30,6 +31,7 @@
     "react-scripts": "5.0.1",
     "sitemap": "^8.0.0",
     "styled-components": "^6.1.15",
+    "topojson-client": "^3.1.0",
     "web-vitals": "^5.0.3",
     "yocto-queue": "^1.2.0"
   },

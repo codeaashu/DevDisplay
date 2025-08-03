@@ -5,6 +5,19 @@ body {
   font-family: 'Merriweather Sans', sans-serif;
 }
 
+/* Performance optimizations for animations */
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.7;
+    transform: scale(1); /* Use transform for hardware acceleration */
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.02); /* Subtle scale change for visual interest */
+  }
+}
+
 /* existing styles */
 
 @media (max-width: 768px) {
