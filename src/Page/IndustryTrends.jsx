@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'; // Import React and hooks
-import { Search, PlusCircle, Trash } from 'lucide-react'; // Import icons from 'lucide-react'
+import { Search, PlusCircle, Trash, ExternalLink, TrendingUp, Cpu, Shield, Leaf, Globe, Zap } from 'lucide-react'; // Import icons from 'lucide-react'
 import { Footer } from '../components/Footer/Footer'; // Import Footer component
 import { Dialog } from '@headlessui/react'; // Import Dialog component from Headless UI
 
@@ -30,18 +30,156 @@ const Hero = () => {
       <div className="container mx-auto flex flex-col items-center justify-center text-center">
         <div className="mb-10 rounded-br-[50px] rounded-tl-[50px] border border-[#00a6fb] p-8 shadow-lg">
           <p className="text-lg font-semibold tracking-widest text-[#00a6fb]">
-            Discover the Latest Industry Insights 🌐
+            Discover the Latest Technology Trends 🚀
           </p>
         </div>
         <h2 className="mb-8 text-5xl font-bold">
-          Industry <span className="text-[#00a6fb]">Trends</span>
+          Tech <span className="text-[#00a6fb]">Trends</span>
         </h2>
         <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-300">
-          Discover the latest updates on industry trends through insightful blogs and engaging video content to stay
-          ahead.
+          Stay ahead of the curve with the latest technology trends shaping the future of innovation and development.
         </p>
       </div>
     </section>
+  );
+};
+
+// Tech Trends Data
+const techTrendsData = [
+  {
+    id: 1,
+    title: "AI & Machine Learning",
+    description: "Artificial Intelligence and Machine Learning continue to revolutionize industries with advanced algorithms, neural networks, and automated decision-making systems.",
+    icon: <Cpu className="h-8 w-8" />,
+    color: "from-purple-500 to-pink-500",
+    link: "#ai-ml"
+  },
+  {
+    id: 2,
+    title: "Blockchain Technology",
+    description: "Decentralized systems and cryptocurrency innovations are transforming finance, supply chain, and digital identity management across global markets.",
+    icon: <Globe className="h-8 w-8" />,
+    color: "from-blue-500 to-cyan-500",
+    link: "#blockchain"
+  },
+  {
+    id: 3,
+    title: "Quantum Computing",
+    description: "Quantum computers promise unprecedented computational power, potentially solving complex problems in cryptography, optimization, and scientific research.",
+    icon: <Zap className="h-8 w-8" />,
+    color: "from-yellow-500 to-orange-500",
+    link: "#quantum"
+  },
+  {
+    id: 4,
+    title: "Green Technology",
+    description: "Sustainable tech solutions focus on renewable energy, carbon reduction, and environmentally friendly innovations for a greener future.",
+    icon: <Leaf className="h-8 w-8" />,
+    color: "from-green-500 to-emerald-500",
+    link: "#green-tech"
+  },
+  {
+    id: 5,
+    title: "Web3 & Metaverse",
+    description: "The next generation of the internet featuring decentralized applications, virtual worlds, and immersive digital experiences.",
+    icon: <Globe className="h-8 w-8" />,
+    color: "from-indigo-500 to-purple-500",
+    link: "#web3"
+  },
+  {
+    id: 6,
+    title: "Cybersecurity",
+    description: "Advanced security measures, zero-trust architectures, and AI-powered threat detection to protect against evolving cyber threats.",
+    icon: <Shield className="h-8 w-8" />,
+    color: "from-red-500 to-pink-500",
+    link: "#cybersecurity"
+  }
+];
+
+// TechTrendCard Component
+const TechTrendCard = ({ trend }) => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  return (
+    <div
+      className={`group relative overflow-hidden rounded-xl bg-gray-800 p-6 transition-all duration-300 hover:scale-105 hover:shadow-2xl ${
+        isHovered ? 'transform-gpu' : ''
+      }`}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      {/* Gradient overlay */}
+      <div className={`absolute inset-0 bg-gradient-to-br ${trend.color} opacity-0 transition-opacity duration-300 group-hover:opacity-10`}></div>
+      
+      {/* Content */}
+      <div className="relative z-10">
+        {/* Icon */}
+        <div className={`mb-4 inline-flex rounded-lg bg-gradient-to-br ${trend.color} p-3 text-white`}>
+          {trend.icon}
+        </div>
+        
+        {/* Title */}
+        <h3 className="mb-3 text-xl font-bold text-white group-hover:text-[#00a6fb] transition-colors duration-300">
+          {trend.title}
+        </h3>
+        
+        {/* Description */}
+        <p className="mb-4 text-gray-300 leading-relaxed">
+          {trend.description}
+        </p>
+        
+        {/* Explore Link */}
+        <button className="inline-flex items-center gap-2 text-[#00a6fb] hover:text-blue-400 transition-colors duration-300 font-semibold">
+          <span>Explore</span>
+          <ExternalLink className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+        </button>
+      </div>
+      
+      {/* Hover effect border */}
+      <div className="absolute inset-0 rounded-xl border-2 border-transparent group-hover:border-[#00a6fb] transition-colors duration-300"></div>
+    </div>
+  );
+};
+
+// TechTrendsGrid Component
+const TechTrendsGrid = ({ searchQuery }) => {
+  const filteredTrends = techTrendsData.filter(trend =>
+    trend.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    trend.description.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  return (
+    <div className="px-6 py-8">
+      <div className="mx-auto max-w-7xl">
+        <div className="mb-8 flex items-center justify-between">
+          <div>
+            <h2 className="text-3xl font-bold text-white mb-2">
+              Latest Tech <span className="text-[#00a6fb]">Trends</span>
+            </h2>
+            <p className="text-gray-400">
+              Discover the technologies shaping our future
+            </p>
+          </div>
+          <div className="flex items-center gap-2 text-[#00a6fb]">
+            <TrendingUp className="h-5 w-5" />
+            <span className="font-semibold">{filteredTrends.length} Trends</span>
+          </div>
+        </div>
+        
+        {filteredTrends.length > 0 ? (
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {filteredTrends.map((trend) => (
+              <TechTrendCard key={trend.id} trend={trend} />
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-12">
+            <div className="text-gray-400 text-lg mb-2">No trends found</div>
+            <p className="text-gray-500">Try adjusting your search query</p>
+          </div>
+        )}
+      </div>
+    </div>
   );
 };
 
@@ -135,110 +273,123 @@ const IndustryTrendsSec = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-between p-6">
+      {/* Search Bar */}
+      <div className="flex flex-col md:flex-row items-center justify-between gap-4 p-6">
         <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
         <div className="flex gap-4">
           <button
             onClick={() => openModal('blog')} // Open modal to add a new blog
-            className="margin-left-5 flex items-center gap-2 rounded-full bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
+            className="flex items-center gap-2 rounded-full bg-[#00a6fb] px-6 py-3 text-white hover:bg-blue-600 transition-colors duration-300 font-semibold"
           >
-            <PlusCircle className="h-5 w-5" /> Add Blog
+            <PlusCircle className="h-5 w-5" /> Add Article
           </button>
         </div>
       </div>
 
+      {/* Tech Trends Grid */}
+      <TechTrendsGrid searchQuery={searchQuery} />
+
       {/* Modal for adding new content */}
       <Dialog open={isModalOpen} onClose={() => setIsModalOpen(false)} className="relative z-50">
         <div className="fixed inset-0 bg-black bg-opacity-50"></div>
-        <div className="fixed inset-0 flex items-center justify-center">
-          <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white shadow-lg">
-            <h2 className="mb-4 text-lg font-bold">Add Blog</h2>
+        <div className="fixed inset-0 flex items-center justify-center p-4">
+          <div className="w-full max-w-md rounded-xl bg-gray-800 p-6 text-white shadow-2xl">
+            <h2 className="mb-6 text-2xl font-bold text-[#00a6fb]">Add New Article</h2>
             {/* Form fields for blog details */}
             <input
               type="text"
               value={newTitle}
               onChange={(e) => setNewTitle(e.target.value)} // Handle title input
-              placeholder="Enter blog title"
+              placeholder="Enter article title"
               required
-              className="mb-4 w-full rounded-md bg-gray-700 p-2 text-white placeholder-gray-400 outline-none"
+              className="mb-4 w-full rounded-lg bg-gray-700 p-3 text-white placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#00a6fb] transition-all duration-300"
             />
             <textarea
               value={newDescription}
               onChange={(e) => setNewDescription(e.target.value)} // Handle description input
-              placeholder="Enter blog description"
-              className="mb-4 h-28 w-full rounded-md bg-gray-700 p-2 text-white placeholder-gray-400 outline-none"
+              placeholder="Enter article description"
+              className="mb-4 h-28 w-full rounded-lg bg-gray-700 p-3 text-white placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#00a6fb] transition-all duration-300 resize-none"
             />
             <input
               type="text"
               value={newAuthor}
               onChange={(e) => setNewAuthor(e.target.value)} // Handle author input
               placeholder="Enter author name"
-              className="mb-4 w-full rounded-md bg-gray-700 p-2 text-white placeholder-gray-400 outline-none"
+              className="mb-4 w-full rounded-lg bg-gray-700 p-3 text-white placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#00a6fb] transition-all duration-300"
             />
             <input
               type="file"
               onChange={(e) => setNewImage(e.target.files[0])} // Handle image upload
-              className="mb-4 w-full text-gray-400"
+              className="mb-4 w-full text-gray-400 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-[#00a6fb] file:text-white file:cursor-pointer hover:file:bg-blue-600"
             />
             <textarea
               value={newContent}
               onChange={(e) => setNewContent(e.target.value)} // Handle blog content input
-              placeholder="Enter blog content..."
-              className="mb-4 h-28 w-full rounded-md bg-gray-700 p-2 text-white placeholder-gray-400 outline-none"
+              placeholder="Enter article content..."
+              className="mb-6 h-32 w-full rounded-lg bg-gray-700 p-3 text-white placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#00a6fb] transition-all duration-300 resize-none"
             />
             {/* Buttons for submitting or canceling */}
             <div className="flex justify-end gap-4">
               <button
                 onClick={() => setIsModalOpen(false)} // Close modal without submitting
-                className="rounded bg-gray-600 px-4 py-2 hover:bg-gray-700"
+                className="rounded-lg bg-gray-600 px-6 py-2 hover:bg-gray-700 transition-colors duration-300"
               >
                 Cancel
               </button>
               <button
                 onClick={handleAddContent} // Submit content to be added
-                className="rounded bg-blue-600 px-4 py-2 hover:bg-blue-700"
+                className="rounded-lg bg-[#00a6fb] px-6 py-2 hover:bg-blue-600 transition-colors duration-300 font-semibold"
               >
-                Submit
+                Publish
               </button>
             </div>
           </div>
         </div>
       </Dialog>
 
-      {/* Display saved trends */}
-      <div className="mt-8 px-6">
-        <h2 className="text-2xl font-bold text-white">Top Trends</h2>
-        <div className="mt-4 space-y-4">
-          {filteredTrends.map((trend, index) => (
-            <div key={index} className="flex rounded-md bg-gray-800 p-4 text-white">
-              {trend.image && (
-                <div className="w-1/4">
-                  <img src={trend.image} alt="Blog image" className="h-auto w-full rounded-md" />
+      {/* Display saved articles */}
+      {filteredTrends.length > 0 && (
+        <div className="mt-12 px-6">
+          <div className="mx-auto max-w-7xl">
+            <h2 className="text-3xl font-bold text-white mb-6">
+              Community <span className="text-[#00a6fb]">Articles</span>
+            </h2>
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {filteredTrends.map((trend, index) => (
+                <div key={index} className="group relative overflow-hidden rounded-xl bg-gray-800 p-6 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                  {trend.image && (
+                    <div className="mb-4">
+                      <img src={trend.image} alt="Article image" className="h-48 w-full rounded-lg object-cover" />
+                    </div>
+                  )}
+                  <div>
+                    <h3 className="mb-3 text-xl font-bold text-white group-hover:text-[#00a6fb] transition-colors duration-300">
+                      {trend.title}
+                    </h3>
+                    <p className="mb-4 text-gray-300 leading-relaxed">
+                      {trend.description}
+                    </p>
+                    <div className="mb-4 text-sm text-gray-400">
+                      By {trend.author} | {trend.publishTime}
+                    </div>
+                    {trend.type === 'blog' && (
+                      <p className="text-gray-300 text-sm line-clamp-3">
+                        {trend.content}
+                      </p>
+                    )}
+                    <button className="mt-4 inline-flex items-center gap-2 text-[#00a6fb] hover:text-blue-400 transition-colors duration-300 font-semibold">
+                      <span>Read More</span>
+                      <ExternalLink className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+                    </button>
+                  </div>
+                  {/* Hover effect border */}
+                  <div className="absolute inset-0 rounded-xl border-2 border-transparent group-hover:border-[#00a6fb] transition-colors duration-300"></div>
                 </div>
-              )}
-              <div className="ml-4 w-3/4">
-                <h3 className="text-xl font-semibold">{trend.title}</h3>
-                <p>{trend.description}</p>
-                <p className="text-gray-400">
-                  By {trend.author} | {trend.publishTime}
-                </p>
-                {trend.type === 'blog' && (
-                  <p>
-                    <strong>Blog:</strong> {trend.content}
-                  </p>
-                )}
-                {/* Uncomment to enable delete functionality */}
-                {/* <button
-                  onClick={() => handleDeleteContent(index)} // Delete the content when clicked
-                  className="mt-2 text-red-500 hover:text-red-700"
-                >
-                  <Trash className="inline h-5 w-5 mr-1" /> Delete
-                </button> */}
-              </div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
-      </div>
+      )}
       <br />
       <br />
     </div>
