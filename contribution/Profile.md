@@ -58,7 +58,7 @@
 8. **Save** the **`ProfileLists.json`** file.
 
 9. **Contribute** Follow this 👇🏻:
-   <img src="./contribution/How to contribute.png"/>
+   <img src="/contribution/How to contribute.png"/>
 
 10. **Wait for review and merge:** Wait for the project maintainers to review and merge your changes.
 
