@@ -72,7 +72,7 @@ function Search({ onSearch }) {
     <div className="relative pb-6">
       <StyledWrapper className="mb-4">
         <a
-          href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
+          href="https://github.com/codeaashu/DevDisplay/blob/main/contribution/Profile.md#-add-your-profile-on-devdisplay-"
           target="_blank"
           rel="noreferrer"
         >
