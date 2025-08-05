@@ -65,19 +65,19 @@
 11. **Need help?** You can take help from the video tutorial here:  
     📹 [How to Add Your Profile on DevDisplay](https://youtu.be/DAjartal2kQ)
 
-<h3 align="center">Once your changes are merged <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Your profile will be displayed on the project's website and you will receive a personalized appreciation post will be shared on LinkedIn and Twitter through DevDisplay's official social media handles.</h3><hr>
+<h3 align="center">Once your changes are merged <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Your profile will be displayed on the project's website and you will receive a personalized appreciation post will be shared on LinkedIn and Twitter through DevDisplay's official social media handles.</h3>
 </div>
 
 ---
 
 <h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Check%20Mark%20Button.webp" alt="Check Mark Button" width="25" height="25" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Check%20Box%20With%20Check.webp" alt="Check Box With Check" width="25" height="25" />
   Verify Your Developer Profile
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Check%20Mark%20Button.webp" alt="Check Mark Button" width="25" height="25" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Check%20Box%20With%20Check.webp" alt="Check Box With Check" width="25" height="25" />
 </h2>
 
 <p align="center">
-  <img src="./verifiedprofile.png" alt="Verified Profile" width="400" />
+  <img src="/verifiedprofile.png" alt="Verified Profile" width="400" />
 </p>
 
 <h4 align="center">Follow this step to get a blue tick on your developer profile</h4>
