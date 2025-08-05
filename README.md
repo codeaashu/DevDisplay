@@ -186,8 +186,6 @@
 <h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" />How to Earn These Badges?<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" /><br><br><a href="#"><img src="https://img.shields.io/badge/Click%20Here%20For%20Details-000000?style=for-the-badge&logo=github&logoColor=white" alt="How to Earn These Badges">
 </a></h2>
 
----
-
 <div align="center"><img align="center" src="./public/star.png" width="150px" /></div>
 
 <h1 align="center">Featured in <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" /></h1>
