@@ -35,11 +35,11 @@ Starring the repository is a mandatory step for all contributors and the first p
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="75" height="75" />
 </div>
 
-<h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Juggling%20Light%20Skin%20Tone.png" alt="Man Juggling Light Skin Tone" width="25" height="25" /> Add Your Profile On DevDisplay <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Juggling%20Light%20Skin%20Tone.png" alt="Man Juggling Light Skin Tone" width="25" height="25" /></h1>
+<h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Juggling%20Light%20Skin%20Tone.png" alt="Man Juggling Light Skin Tone" width="25" height="25" /> Add Your Profile On DevDisplay <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Juggling%20Light%20Skin%20Tone.png" alt="Man Juggling Light Skin Tone" width="25" height="25" /><br>
 
-<a align="center" href="https://github.com/codeaashu/DevDisplay/blob/main/contribution/Profile.md#-add-your-profile-on-devdisplay-">
+<a href="https://github.com/codeaashu/DevDisplay/blob/main/contribution/Profile.md#-add-your-profile-on-devdisplay-">
   <img src="https://img.shields.io/badge/Add%20Your%20Profile-000000?style=for-the-badge&logo=github&logoColor=white" alt="Add Your Profile">
-</a><br>
+</a><br></h1>
 <hr>
 <h1 align="center"> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Now the time to become a Dev Pioneer to Dev Enhancer and Dev Innovator. It’s depend on contributor to decide their path.<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /></h1>
 
