@@ -49,5 +49,4 @@
   </tr>
 </table>
 
-
 <div align="center"><img align="center" src="/public/star.png" width="150px" /></div>
