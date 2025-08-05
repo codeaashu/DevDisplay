@@ -183,7 +183,7 @@
 
 </div>
 
-<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" />How to Earn These Badges?<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" /><br><br><a href="#"><img src="https://img.shields.io/badge/Click%20Here%20For%20Details-000000?style=for-the-badge&logo=github&logoColor=white" alt="How to Earn These Badges">
+<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" />How to Earn These Badges?<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" /><br><br><a href="https://github.com/codeaashu/DevDisplay/blob/main/contribution/ContributionBadges.md#-devdisplay-contributor-badges-"><img src="https://img.shields.io/badge/Click%20Here%20For%20Details-000000?style=for-the-badge&logo=github&logoColor=white" alt="How to Earn These Badges">
 </a></h2>
 
 <div align="center"><img align="center" src="./public/star.png" width="150px" /></div>
