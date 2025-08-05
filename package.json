@@ -22,7 +22,7 @@
     "jspdf": "^3.0.1",
     "lucide-react": "^0.536.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "^19.1.1",
     "react-fast-marquee": "^1.6.5",
     "react-helmet": "^6.1.0",
     "react-icons": "^5.5.0",
