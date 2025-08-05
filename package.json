@@ -30,7 +30,7 @@
     "react-scripts": "5.0.1",
     "sitemap": "^8.0.0",
     "styled-components": "^6.1.15",
-    "web-vitals": "^5.0.3",
+    "web-vitals": "^5.1.0",
     "yocto-queue": "^1.2.0"
   },
   "scripts": {
