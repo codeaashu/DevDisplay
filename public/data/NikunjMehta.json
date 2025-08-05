@@ -1,0 +1,14 @@
+{
+  "name": "Nikunj Mehta",
+  "location": "Pune, Maharashtra",
+  "bio": "Passionate computer science student focused on DSA and web development, striving for a successful career in tech.",
+  "avatar": "https://github.com/Nikunj-Mehta.png",
+  "skills": ["JAVA", "DSA", "HTML", "CSS", "Javascript", "Frontend", "Backend", "MERN stack Developer", "Git", "GitHub", "Deployment"],
+  "social": {
+    "GitHub": "https://github.com/Nikunj-Mehta",
+    "Twitter": "https://x.com/NikunjMehta_15",
+    "LinkedIn": "https://www.linkedin.com/in/nikunj-mehta-016a2a2b0/",
+    "LeetCode": "https://leetcode.com/u/mehtanikunj11/",
+    "Email": "mehtanikunj11@gmail.com"
+  }
+}
