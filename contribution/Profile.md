@@ -67,3 +67,41 @@
 
 <h3 align="center">Once your changes are merged <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Your profile will be displayed on the project's website and you will receive a personalized appreciation post will be shared on LinkedIn and Twitter through DevDisplay's official social media handles.</h3><hr>
 </div>
+
+---
+
+<h2 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Check%20Mark%20Button.webp" alt="Check Mark Button" width="25" height="25" />
+  Verify Your Developer Profile
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Check%20Mark%20Button.webp" alt="Check Mark Button" width="25" height="25" />
+</h2>
+
+<p align="center">
+  <img src="./verifiedprofile.png" alt="Verified Profile" width="400" />
+</p>
+
+<h4 align="center">Follow this step to get a blue tick on your developer profile</h4>
+
+<br>
+
+<div align="center">
+
+  <a href="https://www.devdisplay.org/ProjectShowcase" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/Add%20your%20minimum%205%20projects-000000?style=for-the-badge&logo=github&logoColor=white" alt="Add your projects"/>
+  </a>
+  
+  <br><br>
+
+  <a href="https://www.devdisplay.org/PortfolioIdeas" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/Add%20your%20Portfolio-000000?style=for-the-badge&logo=github&logoColor=white" alt="Add your portfolio"/>
+  </a>
+
+</div>
+
+<br>
+
+<h3 align="center">
+  Once these steps are completed and reviewed ✅ <br/>
+  Your profile will be verified and proudly display a blue checkmark on DevDisplay!
+</h3>
+
