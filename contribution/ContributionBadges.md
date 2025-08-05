@@ -3,10 +3,10 @@
 
 <table align="center">
   <tr>
-    <td align="center" width="300">
-      <img src="/public/assets/DevBadges/DevPioneerpng.gif" alt="Dev Pioneer Badge" width="100" />
+    <td align="center" width="180" style="padding: 20px;">
+      <img src="/public/assets/DevBadges/DevPioneerpng.gif" alt="Dev Pioneer Badge" width="150" />
     </td>
-    <td align="left">
+    <td align="left" style="padding: 20px;">
       <strong>
         <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" />
         Dev Pioneer
@@ -19,10 +19,10 @@
   <tr><td colspan="2" height="20"></td></tr> <!-- Spacer -->
 
   <tr>
-    <td align="center" width="150">
-      <img src="/public/assets/DevBadges/DevEnhancerpng.gif" alt="Dev Enhancer Badge" width="100" />
+    <td align="center" width="180" style="padding: 20px;">
+      <img src="/public/assets/DevBadges/DevEnhancerpng.gif" alt="Dev Enhancer Badge" width="150" />
     </td>
-    <td align="left">
+    <td align="left" style="padding: 20px;">
       <strong>
         <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" />
         Dev Enhancer
@@ -35,10 +35,10 @@
   <tr><td colspan="2" height="20"></td></tr> <!-- Spacer -->
 
   <tr>
-    <td align="center" width="150">
-      <img src="/public/assets/DevBadges/DevInnovatorpng.gif" alt="Dev Innovator Badge" width="100" />
+    <td align="center" width="180" style="padding: 20px;">
+      <img src="/public/assets/DevBadges/DevInnovatorpng.gif" alt="Dev Innovator Badge" width="150" />
     </td>
-    <td align="left">
+    <td align="left" style="padding: 20px;">
       <strong>
         <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Light%20Bulb.webp" alt="Light Bulb" width="25" />
         Dev Innovator
@@ -48,5 +48,6 @@
     </td>
   </tr>
 </table>
+
 
 <div align="center"><img align="center" src="./public/star.png" width="150px" /></div>
