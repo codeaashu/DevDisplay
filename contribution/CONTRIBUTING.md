@@ -31,7 +31,7 @@
 </table>
   
 <div align="center"><h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Let's Start, But First <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Add Your Profile on DevDisplay! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1>
-Adding Your Profile is a mandatory step for all contributors and the first priority in contributing to DevDisplay.<br>
+Adding Your Profile is a mandatory step for all contributors and the first priority in contributing to DevDisplay.<br><br>
   <a href="https://github.com/codeaashu/DevDisplay/blob/main/contribution/Profile.md#-add-your-profile-on-devdisplay-">
   <img src="https://img.shields.io/badge/Click%20Here%20To%20Add-000000?style=for-the-badge&logo=github&logoColor=white" alt="Add Your Profile">
 </a><br>
