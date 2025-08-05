@@ -187,7 +187,7 @@
 </a></h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" />
 
   <a href="https://github.com/codeaashu/DevDisplay/blob/main/contribution/Profile.md#-add-your-profile-on-devdisplay-">
-  <img src="https://img.shields.io/badge/How%20to%20Earn%20These%20Badges?-000000?style=for-the-badge&logo=github&logoColor=white" alt="Add Your Profile">
+  <img src="https://img.shields.io/badge/How%20to%20Earn%20These%20Badges-000000?style=for-the-badge&logo=github&logoColor=white" alt="Add Your Profile">
 </a>
 
 <p align="center">
