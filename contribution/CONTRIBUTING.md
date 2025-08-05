@@ -61,7 +61,7 @@ Adding Your Profile is a mandatory step for all contributors and the first prior
 
 # Dev Innovator: <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" />
 
-- **Step into the spotlight as a creative force by introducing **new and groundbreaking tech features** to DevDisplay. This path isn’t just about coding—it’s about envisioning a future where DevDisplay evolves into a **global tech hub** that fulfills all tech needs for developers, contributors, and innovators alike.**
+- **Step into the spotlight as a creative force by introducing **new and groundbreaking tech features** to DevDisplay. This path isn’t just about coding, it’s about envisioning a future where DevDisplay evolves into a **global tech hub** that fulfills all tech needs for developers, contributors, and innovators alike.**
 
 **Dev Innovator Highlights:**
 
@@ -74,9 +74,7 @@ With every feature added, Dev Innovators play a pivotal role in crafting a futur
 
 ### **So, Let’s Unlock the Next Level of Open Source & Be a Part of global vision with DevDisplay!**
 
-<hr
-
-<div align="center"><h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Top Prioritized Features for Contribution - After Profile Setup <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1>
+<!--<div align="center"><h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Top Prioritized Features for Contribution - After Profile Setup <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1>
 Below is a list of feature requests that need your focus. Please prioritize these before creating or working on other issues. Pick a feature request from the list above. Visit the linked issue details for a detailed description and requirements. Fork the repository, make your changes, and submit a pull request referencing the issue.
 
 <h4 align="center">Click on any feature below to view its issue details and start contributing.</h4></div>
@@ -93,7 +91,7 @@ Below is a list of feature requests that need your focus. Please prioritize thes
 | Resume Building Features    | [View Page](https://www.devdisplay.org/ResumeBuilder)    | [View Issue](https://github.com/codeaashu/DevDisplay/issues/601#issue-2758467731) |
 | Tech Resources Features     | [View Page](https://www.devdisplay.org/Resources)        | [View Issue](https://github.com/codeaashu/DevDisplay/issues/600#issue-2758465270) |
 
-</div>
+</div>-->
 
 ---
 
