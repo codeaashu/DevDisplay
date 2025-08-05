@@ -163,9 +163,9 @@
 
 <table align="center">
   <tr>
-    <td align="center" width="300" style="border: 2px solid #00ADEF; border-radius: 10px; padding: 20px;">
+    <td align="center" width="300" style="border: 2px solid #00ADEF; border-radius: 20px; padding: 10px;">
       <a href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md" target="_blank" style="text-decoration: none; color: #ffffff;">
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="50"><br><br>
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="100"><br>
         <strong style="font-size: 16px; color: #00ADEF;">Check Out The Contribution Details</strong>
       </a>
     </td>
