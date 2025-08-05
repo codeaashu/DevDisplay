@@ -183,7 +183,7 @@
 
 </div>
 
-<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" /><a href="#">How to Earn These Badges?<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" /><br><img src="https://img.shields.io/badge/How%20to%20Earn%20These%20Badges-000000?style=for-the-badge&logo=github&logoColor=white" alt="How to Earn These Badges">
+<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" />How to Earn These Badges?<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" /><br><a href="#"><img src="https://img.shields.io/badge/Click%20Here%20For%20Details-000000?style=for-the-badge&logo=github&logoColor=white" alt="How to Earn These Badges">
 </a></h2>
 
 <p align="center">
