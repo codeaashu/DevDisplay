@@ -105,6 +105,6 @@
 <br>
 
 <h3 align="center">
-  Once these steps are completed and reviewed ✅<br/>
+  Once these both are completed and reviewed ✅<br/>
   Your profile will be verified and proudly display a blue checkmark on DevDisplay!
 </h3>
