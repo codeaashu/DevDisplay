@@ -10,19 +10,19 @@
 <table align="center">
      <thead>
          <tr>
-            <td><img src="./public/assets/SocialLogo/GitHub.png" alt="Discord Logo" width="50"></td>
-            <td><img src="./public/assets/SocialLogo/Discord.png" alt="Discord Logo" width="50"></td>
-            <td><img src="./public/assets/SocialLogo/WhatsApp.png" alt="WhatsApp Logo" width="50"></td>
-            <td><img src="./public/assets/SocialLogo/Linkedin.webp" alt="Linkedin Logo" width="50"></td>
-            <td><img src="./public/assets/SocialLogo/X.png" alt="Twitter Logo" width="50"></td>
-            <td><img src="./public/assets/SocialLogo/Instagram.png" alt="Instagram Logo" width="50"></td>
+            <td><img src="/public/assets/SocialLogo/GitHub.png" alt="Discord Logo" width="50"></td>
+            <td><img src="/public/assets/SocialLogo/Discord.png" alt="Discord Logo" width="50"></td>
+           <!-- <td><img src="/public/assets/SocialLogo/WhatsApp.png" alt="WhatsApp Logo" width="50"></td>-->
+            <td><img src="/public/assets/SocialLogo/Linkedin.webp" alt="LinkedIn Logo" width="50"></td>
+            <td><img src="/public/assets/SocialLogo/X.png" alt="Twitter Logo" width="50"></td>
+            <td><img src="/public/assets/SocialLogo/Instagram.png" alt="Instagram Logo" width="50"></td>
         </tr>
     </thead>
      <tbody align="center">
         <tr border: 2px;>
             <td><b><a href="https://github.com/devdisplay"> GitHub </a></b></td>
             <td><b><a href="https://discord.gg/chyt2UgTv5"> Discord </a></b></td>
-            <td><b><a href="https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4"> WA </a></b></td>
+           <!-- <td><b><a href="https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4"> WA </a></b></td>-->
             <td><b><a href="https://www.linkedin.com/company/devdisplay/"> Linkedin </a></b></td>
             <td><b><a href="https://x.com/devdisplay_"> Twitter </a></b></td>
             <td><b><a href="https://www.instagram.com/devdisplay/"> Insta. </a></b></td>
@@ -30,84 +30,16 @@
      </tbody>
 </table>
   
-<div align="center"><h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Let's Start, But First <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Star The DevDisplay Repository! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1>
-Starring the repository is a mandatory step for all contributors and the first priority in contributing to DevDisplay.<br>
+<div align="center"><h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Let's Start, But First <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Add Your Profile on DevDisplay! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1>
+Adding Your Profile is a mandatory step for all contributors and the first priority in contributing to DevDisplay.<br><br>
+  <a href="https://github.com/codeaashu/DevDisplay/blob/main/contribution/Profile.md#-add-your-profile-on-devdisplay-">
+  <img src="https://img.shields.io/badge/Click%20Here%20To%20Add-000000?style=for-the-badge&logo=github&logoColor=white" alt="Add Your Profile">
+</a><br>
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="75" height="75" />
 </div>
 
-<h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Juggling%20Light%20Skin%20Tone.png" alt="Man Juggling Light Skin Tone" width="25" height="25" /> Add Your Profile On DevDisplay <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Juggling%20Light%20Skin%20Tone.png" alt="Man Juggling Light Skin Tone" width="25" height="25" /></h1>
+<!--<h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Juggling%20Light%20Skin%20Tone.png" alt="Man Juggling Light Skin Tone" width="25" height="25" /> Add Your Profile On DevDisplay <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Juggling%20Light%20Skin%20Tone.png" alt="Man Juggling Light Skin Tone" width="25" height="25" /></h1>-->
 
-<details>
-    <summary align="center"> Click Here For Add Your Profile on DevDisplay and Start your Contribution</summary>
-
-<h3 align="center">Steps to Add Your Profile<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Down.png" alt="Backhand Index Pointing Down" width="25" height="25" /></h3>
-
-1. **Fork the repository:** To create a copy of the repository in your GitHub account, click on the "Fork" button in the top right corner of the project repository page.
-
-2. **Navigate** to the **`public/data`** folder in your project directory.
-
-3. **Create a new JSON file** named **`your_github_username.json`** (replace your_github_username with your actual GitHub username). Open the file you just created.
-
-4. **Add** the following JSON object, replacing the placeholder values with your own details:
-
-   ```json
-   {
-     "name": "Your Name",
-     "location": "Your Location",
-     "bio": "Your Bio should be 20-30 words not more than that",
-     "avatar": "https://github.com/your-github-username.png",
-     "portfolio": "Your Portfolio URL or Github URL",
-     "skills": ["Your Skill 1", "Your Skill 2", "..."],
-     "social": {
-       "GitHub": "https://github.com/your-github-username",
-       "Twitter": "https://twitter.com/your-twitter-username",
-       "LinkedIn": "https://www.linkedin.com/in/your-linkedin-username",
-       "Instagram": "https://www.instagram.com/your-instgram-username",
-       "Email": "your-email-id",
-       "Discord": "https://discord.com/users/your-discord-id",
-       "LeetCode": "https://leetcode.com/your-leetcode-username",
-       "Codeforces": "https://codeforces.com/profile/your-codeforces-username",
-       "HackerRank": "https://www.hackerrank.com/your-hackerrank-username",
-       "StackOverflow": "https://stackoverflow.com/users/your-stackoverflow-id",
-       "YouTube": "https://www.youtube.com/c/your-youtube-channel",
-       "DevTo": "https://dev.to/your-dev-profile",
-       "Hashnode": "https://hashnode.com/@your-hashnode-username",
-       "Behance": "https://www.behance.net/your-behance-profile",
-       "Dribbble": "https://dribbble.com/your-dribbble-profile",
-       "Figma": "https://www.figma.com/@your-figma-profile",
-       "Replit": "https://replit.com/@your-replit-username",
-       "BuyMeACoffee": "https://www.buymeacoffee.com/your-coffee-profile",
-       "ProductHunt": "https://www.producthunt.com/@your-producthunt-profile",
-       "Medium": "https://medium.com/@your-medium-profile",
-       "Reddit": "https://www.reddit.com/user/your-reddit-username",
-       "Unstop": "https://unstop.com/@your-unstop-username"
-     }
-   }
-   ```
-
-5. **Save** the **`your_github_username.json`** file.
-
-6. **Navigate** to the **`src`** folder in your project directory. Open the **`ProfilesList.json`** file.
-
-7. **Add your JSON filename** (your_github_username.json) to the array of filenames in the ProfileList.json file, like this:
-
-   ```json
-   ["filename1.json", "filename2.json", "filename3.json", "your_github_username.json"]
-   ```
-
-8. **Save** the **`ProfileLists.json`** file.
-
-9. **Contribute** Follow this 👇🏻:
-   <img src="./public/How to contribute.png"/>
-
-10. **Wait for review and merge:** Wait for the project maintainers to review and merge your changes.
-
-11. **Need help?** You can take help from the video tutorial here:  
-    📹 [How to Add Your Profile on DevDisplay](https://youtu.be/DAjartal2kQ)
-
-<h3 align="center">Once your changes are merged <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Your profile will be displayed on the project's website and you will receive a Dev Pioneer Badge via email also a personalized appreciation post will be shared on LinkedIn and Twitter through DevDisplay's official social media handles.</h3><hr>
-</div>
-</details>
 <hr>
 <h1 align="center"> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Now the time to become a Dev Pioneer to Dev Enhancer and Dev Innovator. It’s depend on contributor to decide their path.<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /></h1>
 
@@ -129,7 +61,7 @@ Starring the repository is a mandatory step for all contributors and the first p
 
 # Dev Innovator: <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" />
 
-- **Step into the spotlight as a creative force by introducing **new and groundbreaking tech features** to DevDisplay. This path isn’t just about coding—it’s about envisioning a future where DevDisplay evolves into a **global tech hub** that fulfills all tech needs for developers, contributors, and innovators alike.**
+- **Step into the spotlight as a creative force by introducing **new and groundbreaking tech features** to DevDisplay. This path isn’t just about coding, it’s about envisioning a future where DevDisplay evolves into a **global tech hub** that fulfills all tech needs for developers, contributors, and innovators alike.**
 
 **Dev Innovator Highlights:**
 
@@ -142,9 +74,7 @@ With every feature added, Dev Innovators play a pivotal role in crafting a futur
 
 ### **So, Let’s Unlock the Next Level of Open Source & Be a Part of global vision with DevDisplay!**
 
-<hr
-
-<div align="center"><h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Top Prioritized Features for Contribution - After Profile Setup <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1>
+<!--<div align="center"><h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Top Prioritized Features for Contribution - After Profile Setup <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1>
 Below is a list of feature requests that need your focus. Please prioritize these before creating or working on other issues. Pick a feature request from the list above. Visit the linked issue details for a detailed description and requirements. Fork the repository, make your changes, and submit a pull request referencing the issue.
 
 <h4 align="center">Click on any feature below to view its issue details and start contributing.</h4></div>
@@ -161,7 +91,7 @@ Below is a list of feature requests that need your focus. Please prioritize thes
 | Resume Building Features    | [View Page](https://www.devdisplay.org/ResumeBuilder)    | [View Issue](https://github.com/codeaashu/DevDisplay/issues/601#issue-2758467731) |
 | Tech Resources Features     | [View Page](https://www.devdisplay.org/Resources)        | [View Issue](https://github.com/codeaashu/DevDisplay/issues/600#issue-2758465270) |
 
-</div>
+</div>-->
 
 ---
 
