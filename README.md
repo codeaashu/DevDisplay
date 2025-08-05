@@ -183,12 +183,8 @@
 
 </div>
 
-<h2 align="center"><a href="#"><img src="https://img.shields.io/badge/How%20to%20Earn%20These%20Badges?-000000?style=for-the-badge&logo=github&logoColor=white" alt="How to Earn These Badges">
-</a></h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" />
-
-  <a href="https://github.com/codeaashu/DevDisplay/blob/main/contribution/Profile.md#-add-your-profile-on-devdisplay-">
-  <img src="https://img.shields.io/badge/How%20to%20Earn%20These%20Badges-000000?style=for-the-badge&logo=github&logoColor=white" alt="Add Your Profile">
-</a>
+<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" /><a href="#">How to Earn These Badges?<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" /><br><img src="https://img.shields.io/badge/How%20to%20Earn%20These%20Badges-000000?style=for-the-badge&logo=github&logoColor=white" alt="How to Earn These Badges">
+</a></h2>
 
 <p align="center">
   <strong><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Dev Pioneer</strong><br>
