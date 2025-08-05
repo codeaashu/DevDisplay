@@ -84,24 +84,28 @@
 
 <br>
 
-<div align="center">
-
-  <a href="https://www.devdisplay.org/ProjectShowcase" target="_blank" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Add%20your%20minimum%205%20projects-000000?style=for-the-badge&logo=github&logoColor=white" alt="Add your projects"/>
-  </a>
-  
-  <br><br>
-
-  <a href="https://www.devdisplay.org/PortfolioIdeas" target="_blank" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Add%20your%20Portfolio-000000?style=for-the-badge&logo=github&logoColor=white" alt="Add your portfolio"/>
-  </a>
-
-</div>
+<table align="center">
+  <tr>
+    <td align="center" width="300" style="border: 2px solid #00ADEF; border-radius: 10px; padding: 20px;">
+      <a href="https://www.devdisplay.org/ProjectShowcase" target="_blank" style="text-decoration: none; color: #ffffff;">
+        <img src="https://cdn-icons-png.flaticon.com/512/6031/6031937.png" alt="Projects Icon" width="60"><br><br>
+        <strong style="font-size: 16px; color: #00ADEF;">Add your minimum 5 projects</strong>
+      </a>
+    </td>
+    <td width="50"></td>
+    <td align="center" width="300" style="border: 2px solid #00ADEF; border-radius: 10px; padding: 20px;">
+      <a href="https://www.devdisplay.org/PortfolioIdeas" target="_blank" style="text-decoration: none; color: #ffffff;">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135789.png" alt="Portfolio Icon" width="60"><br><br>
+        <strong style="font-size: 16px; color: #00ADEF;">Add your Portfolio</strong>
+      </a>
+    </td>
+  </tr>
+</table>
 
 <br>
 
 <h3 align="center">
-  Once these steps are completed and reviewed ✅ <br/>
+  Once these steps are completed and reviewed ✅<br/>
   Your profile will be verified and proudly display a blue checkmark on DevDisplay!
 </h3>
 
