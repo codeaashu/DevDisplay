@@ -161,9 +161,16 @@
 
 <a href="https://drive.google.com/file/d/17Wh9xxN_SIeEVcejoSN7K7tUhWXPvSxR/view?usp=sharing" target="_blank" rel="noreferrer">View the 8 Benefits of Contributing to DevDisplay</a></div>
 
-<div align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="75" height="75" /></div>
-
-<div align="center"><a href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Check Out The Contribution Details</a></div><br>
+<table align="center">
+  <tr>
+    <td align="center" width="300" style="border: 2px solid #00ADEF; border-radius: 10px; padding: 20px;">
+      <a href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md" target="_blank" style="text-decoration: none; color: #ffffff;">
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="50"><br><br>
+        <strong style="font-size: 16px; color: #00ADEF;">Check Out The Contribution Details</strong>
+      </a>
+    </td>
+  </tr>
+</table>
 
 <div align="center"><a href="https://github.com/codeaashu/DevDisplay/blob/main/contribution/Profile.md#-add-your-profile-on-devdisplay-" target="_blank" rel="noreferrer">Add Your Profile On DevDisplay</a></div>
 
