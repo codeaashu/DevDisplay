@@ -13,7 +13,7 @@
             <td><img src="/public/assets/SocialLogo/GitHub.png" alt="Discord Logo" width="50"></td>
             <td><img src="/public/assets/SocialLogo/Discord.png" alt="Discord Logo" width="50"></td>
            <!-- <td><img src="/public/assets/SocialLogo/WhatsApp.png" alt="WhatsApp Logo" width="50"></td>-->
-            <td><img src="/public/assets/SocialLogo/Linkedin.webp" alt="Linkedin Logo" width="50"></td>
+            <td><img src="/public/assets/SocialLogo/Linkedin.webp" alt="LinkedIn Logo" width="50"></td>
             <td><img src="/public/assets/SocialLogo/X.png" alt="Twitter Logo" width="50"></td>
             <td><img src="/public/assets/SocialLogo/Instagram.png" alt="Instagram Logo" width="50"></td>
         </tr>
@@ -30,7 +30,7 @@
      </tbody>
 </table>
   
-<div align="center"><h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Let's Start, But First <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Star The DevDisplay Repository! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1>
+<div align="center"><h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Let's Start, But First <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Add Your Profile on DevDisplay! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /></h1>
 Starring the repository is a mandatory step for all contributors and the first priority in contributing to DevDisplay.<br>
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="75" height="75" />
 </div>
