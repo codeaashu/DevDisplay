@@ -77,7 +77,7 @@
 </h2>
 
 <p align="center">
-  <img src="/verifiedprofile.png" alt="Verified Profile" width="400" />
+  <img src="/public/verifiedprofile.png" alt="Verified Profile" width="400" />
 </p>
 
 <h4 align="center">Follow this step to get a blue tick on your developer profile</h4>
