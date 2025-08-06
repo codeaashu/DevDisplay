@@ -1,0 +1,13 @@
+{
+  "name": "Suryansh Dubey",
+  "location": "Kota",
+  "bio": "I love looking at the small frictions in our daily lives and asking, 'How can tech make this better?" That curiosity drives me to build products that are simple, useful, and genuinely helpful.",
+  "avatar": "https://github.com/suryansh924.png",
+  "portfolio": "https://github.com/suryansh924",
+  "skills": ["C++", "Python", "TypeScript", "JavaScript", "SQL", "React.js", "Node.js", "Express", "FastAPI", "MongoDB", "Redis", "Docker", "LangChain", "REST APIs", "RAG Pipelines", "Prompt Engineering", "JWT Authentication", "Git", "AWS S3", "Webhooks", "Pytest"],
+  "social": {
+    "GitHub": "https://github.com/suryansh924",
+    "Twitter": "https://twitter.com/suryansh924",
+    "LinkedIn": "https://www.linkedin.com/in/suryanshdubey0902"
+  }
+}
