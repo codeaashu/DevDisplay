@@ -20,6 +20,13 @@ jobs:
           issue-message: |
             🚀 Great Job! @${{ github.actor }}!
 
+            ## **💡 Before diving in, make sure to:**
+            **✅ Add your profile to DevDisplay**
+            **⭐ Star the repository to show your support and stay updated with new features!**
+            ## **🚨 This is the first & mandatory step in becoming a contributor.**
+              
+            ### If you've already done both—you're all set, so just chill and enjoy the journey! 😎🔥
+
             Your issue isn't just a submission—it's the spark that ignites creativity and pushes boundaries! ⚡ Because here, your ideas matter. Your code matters. You matter. 🚀
 
             At DevDisplay, we believe every idea has the power to create waves in the tech world. Your contribution is helping shape a platform built by developers, for developers.
@@ -35,14 +42,6 @@ jobs:
             If you put your 💯 into creating something exceptional, you could even join our Global Core Team and also you can lead DevDisplay as a Community Leader in your area, college, or university.
 
             Get ready to make an impact — Stay engaged—this is just the beginning of something amazing! 🔥
-
-            ## **💡 Before diving in, make sure to:**
-            **✅ Add your profile to DevDisplay—because this is the first step in becoming a contributor.**
-            **⭐ Star the repository to show your support and stay updated with new features!**
-              
-            ### If you've already done both—you're all set, so just chill and enjoy the journey! 😎🔥
-
-            ---
 
             ## **💡 Your issue is now in review!**
             - **Our maintainers will soon review your issue, provide feedback/suggestions, and assign it to you—then you can start working on it! 🚀 Stay tuned, stay engaged, and get ready to bring your ideas to life! 💡**
