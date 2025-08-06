@@ -20,7 +20,7 @@ const SponsorUs = () => {
           within the tech community.
         </p>
 
-        <div className="mb-8 ">
+        <div className="mb-8">
           <h6 className="mb-2 text-xl font-semibold">What is DevDisplay?</h6>
           <p className="mb-4">
             DevDisplay is a global open-source tech community with the mission to unite all tech-related needs under one

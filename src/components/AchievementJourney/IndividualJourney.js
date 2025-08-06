@@ -53,7 +53,7 @@ const AchieverJourneyPage = () => {
         </div>
       </header>
 
-      <section className=" mx-auto mt-4 p-8">
+      <section className="mx-auto mt-4 p-8">
         <motion.h2
           className="text-3xl font-bold text-[#00a6fb]"
           initial={{ opacity: 0, y: -20 }}
@@ -113,7 +113,7 @@ const AchieverJourneyPage = () => {
         </ul>
       </section>
 
-      <section className=" mx-auto mt-12 p-8">
+      <section className="mx-auto mt-12 p-8">
         <h2 className="text-2xl font-semibold text-[#00a6fb]">Interview Process</h2>
         <h3 className="mt-4 text-xl font-semibold">Preparation</h3>
         <ul className="list-disc pl-6">
@@ -158,7 +158,7 @@ const AchieverJourneyPage = () => {
         </ul>
       </section>
 
-      <section className=" mx-auto mt-12 p-8">
+      <section className="mx-auto mt-12 p-8">
         <h2 className="text-2xl font-semibold text-[#00a6fb]">Resources for Preparation</h2>
         {achieverData.resources.learningMaterials.map((material, index) => (
           <div key={index} className="mt-4">
@@ -179,7 +179,7 @@ const AchieverJourneyPage = () => {
         </ul>
       </section>
 
-      <section className=" mx-auto mt-12 p-8">
+      <section className="mx-auto mt-12 p-8">
         <h2 className="text-2xl font-semibold text-[#00a6fb]">Inspiration & Guidance</h2>
         {achieverData.inspirationAndGuidance.roadmaps.map((roadmap, index) => (
           <div key={index} className="mt-8">
