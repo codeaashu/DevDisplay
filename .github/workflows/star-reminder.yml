@@ -25,7 +25,7 @@ jobs:
 
             // Use GraphQL to check if user starred the repo
             const query = `
-              query($owner: String!, $repo: String!, $user: String!) {
+              query($user: String!) {
                 user(login: $user) {
                   starredRepositories(first: 100, orderBy: {field: STARRED_AT, direction: DESC}) {
                     nodes {
@@ -41,8 +41,6 @@ jobs:
 
             try {
               const result = await github.graphql(query, {
-                owner: owner,
-                repo: repo,
                 user: contributor
               });
               
