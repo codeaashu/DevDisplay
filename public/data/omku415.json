@@ -5,11 +5,21 @@
   "avatar": "https://github.com/omku415.png",
   "portfolio": "https://github.com/omku415",
   "skills": [
-    "C++", "JavaScript", "React", "HTML", "CSS",
-    "Node.js", "Express.js", "JWT",
-    "MySQL", "MongoDB",
-    "Git", "VS Code",
-    "Netlify", "Render", "Railway"
+    "C++",
+    "JavaScript",
+    "React",
+    "HTML",
+    "CSS",
+    "Node.js",
+    "Express.js",
+    "JWT",
+    "MySQL",
+    "MongoDB",
+    "Git",
+    "VS Code",
+    "Netlify",
+    "Render",
+    "Railway"
   ],
   "social": {
     "GitHub": "https://github.com/omku415",
@@ -24,4 +34,3 @@
     "Unstop": "https://unstop.com/u/omkum8636"
   }
 }
-
