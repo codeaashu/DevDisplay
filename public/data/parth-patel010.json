@@ -1,28 +1,19 @@
 {
-    "name": "Parth Patel",
-    "location": "Vadodara, Gujarat, India",
-    "bio": "Hi, I’m Parth Patel. 💡 17 y/o developer | Building AI, SaaS, & full-stack apps 🌐 Tech Stack: JS | React | Node.js | PHP | Python | SQL | C++ | Java",
-    "avatar": "https://github.com/parth-patel010.png",
-    "portfolio": "https://github.com/parth-patel010",
-    "skills": [
-        "JavaScript",
-        "Java",
-        "Node.js",
-        "PHP",
-        "Python",
-        "SQL",
-        "C++",
-        "Java"
-    ],
-    "social": {
-        "GitHub": "https://github.com/parth-patel010",
-        "LinkedIn": "https://www.linkedin.com/in/parth-patel010",
-        "Instagram": "https://www.instagram.com/parthpatel_.__/",
-        "Email": "2403466160106@paruluniversity.ac.in",
-        "Discord": "https://discord.com/users/parth_patel010",
-        "LeetCode": "https://leetcode.com/u/Parth_Patel_HOHO/",
-        "HackerRank": "https://www.hackerrank.com/profile/parthpm312",
-        "StackOverflow": "https://stackoverflow.com/users/30610834/parth-patel",
-        "Unstop": "https://unstop.com/u/parthpat14287"
-    }
+  "name": "Parth Patel",
+  "location": "Vadodara, Gujarat, India",
+  "bio": "Hi, I’m Parth Patel. 💡 17 y/o developer | Building AI, SaaS, & full-stack apps 🌐 Tech Stack: JS | React | Node.js | PHP | Python | SQL | C++ | Java",
+  "avatar": "https://github.com/parth-patel010.png",
+  "portfolio": "https://github.com/parth-patel010",
+  "skills": ["JavaScript", "Java", "Node.js", "PHP", "Python", "SQL", "C++", "Java"],
+  "social": {
+    "GitHub": "https://github.com/parth-patel010",
+    "LinkedIn": "https://www.linkedin.com/in/parth-patel010",
+    "Instagram": "https://www.instagram.com/parthpatel_.__/",
+    "Email": "2403466160106@paruluniversity.ac.in",
+    "Discord": "https://discord.com/users/parth_patel010",
+    "LeetCode": "https://leetcode.com/u/Parth_Patel_HOHO/",
+    "HackerRank": "https://www.hackerrank.com/profile/parthpm312",
+    "StackOverflow": "https://stackoverflow.com/users/30610834/parth-patel",
+    "Unstop": "https://unstop.com/u/parthpat14287"
+  }
 }
