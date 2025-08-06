@@ -1,0 +1,54 @@
+name: Star Reminder for Contributors
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  star-reminder:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: read
+    
+    steps:
+      - name: Send star reminder to new contributors
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { owner, repo } = context.repo;
+            const contributor = context.payload.pull_request.user.login;
+            const prNumber = context.payload.pull_request.number;
+            
+            console.log('Processing PR from contributor: ' + contributor);
+            
+            // Check if we've already sent a reminder on this PR
+            const comments = await github.rest.issues.listComments({
+              owner: owner,
+              repo: repo,
+              issue_number: prNumber
+            });
+            
+            const existingReminder = comments.data.find(comment => 
+              comment.user.type === 'Bot' && 
+              comment.body.includes('awesome contributor!')
+            );
+            
+            if (!existingReminder) {
+              const message = 'Dear @' + contributor + '\n\n' +
+                'awesome contributor! We noticed you contributed to DevDisplay but forgot to star the repo. Its like making an amazing sandwich and forgetting to take a bite!\n\n' +
+                'I think our repos feeling a little lonely without your star. Can you help us out?\n\n' +
+                '> **Star the repo by clicking the star button at the top of this page!**';
+
+              await github.rest.issues.createComment({
+                owner: owner,
+                repo: repo,
+                issue_number: prNumber,
+                body: message
+              });
+              
+              console.log('Sent star reminder to ' + contributor);
+            } else {
+              console.log('Star reminder already sent to ' + contributor + ' on this PR');
+            }
