@@ -1,0 +1,28 @@
+{
+    "name": "Divya Jain",
+    "location": "Delhi, India",
+    "bio": "Aspiring Data Analyst | GSSoC'25 Campus Ambassador & Contributor | Student",
+    "avatar": "https://avatars.githubusercontent.com/u/147162320?v=4&size=300",
+    "portfolio": "https://github.com/DivyaJain-DataAnalyst",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Excel",
+      "PowerBI",
+      "SQL",
+      "Git",
+      "Responsive Design",
+      "Tailwind CSS",
+      "C",
+      "C+",
+      "GitHub"
+    ],
+    "social": {
+      "GitHub": "https://github.com/DivyaJain-DataAnalyst",
+      "Twitter": "#",
+      "LinkedIn": "https://www.linkedin.com/in/divyajain-dataanalyst/",
+      "Instagram": "#",
+      "Email": "divya_239179@saitm.ac.in"
+    }
+  }
