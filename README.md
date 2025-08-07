@@ -1,4 +1,10 @@
 <div align="center">
+
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=2000&pause=400&color=00ADEF&center=true&vCenter=true&width=800&lines=🚀+Welcome+to+DevDisplay;🌍+The+Global+Tech+Hub;💡+Connect+•+Collab+•+Code+•+Create" alt="Typing animation">
+
+</div>
+
 <!-- <table align="center">
      <thead align="center">
         <tr border: 2px;>
@@ -23,6 +29,14 @@
 </table><br> -->
 
   <!-- <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cyclone.png" alt="Cyclone" width="25" height="25" /> Paradise For Developers <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cyclone.png" alt="Cyclone" width="25" height="25" /></h1> -->
+
+# 🔐 DevDisplay
+
+![GSSoC Logo](/DevDisplay/public/gssoc%20logo.png)
+
+🌐 Visit the website to explore real-world projects, filter by tech stack, and discover new ideas!
+
+---
 
 <a href="https://www.devdisplay.org/"><img src="./public/assets/DevDisplayLOGO/NameTagline.png" width="300px" /></a><br>
 <a href="https://www.devdisplay.org/"><img src="./public/DDColorLOGO.png" width="500px" /></a><br>
@@ -55,6 +69,18 @@
 
 </div>
 </details> -->
+
+<p align="center">
+  <strong>An open-source framework to build and deploy intelligent, self-hosted AI agents that can handle real-world phone calls.</strong>
+  <br />
+  <br />
+<!--   <a href="#-getting-started-in-under-5-minutes"><strong>🚀 Get Started</strong></a> -->
+  ·
+  <a href="https://github.com/Hiteshydv001/Voice-Marketing-Agent/issues"><strong>🐛 Report a Bug</strong></a>
+  ·
+  <a href="https://github.com/Hiteshydv001/Voice-Marketing-Agent/issues"><strong>✨ Request a Feature</strong></a>
+</p>
+
 <img align="center" src="./public/star.png" width="150px" />
 </div>
 
@@ -185,7 +211,58 @@
 <h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" />How to Earn These Badges?<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" /><br><br><a href="https://github.com/codeaashu/DevDisplay/blob/main/contribution/ContributionBadges.md#-devdisplay-contributor-badges-"><img src="https://img.shields.io/badge/Click%20Here%20For%20Details-000000?style=for-the-badge&logo=github&logoColor=white" alt="How to Earn These Badges">
 </a></h2>
 
-<div align="center"><img align="center" src="./public/star.png" width="150px" /></div>
+<div align="center"><img align="center" src="./public/star.png" width="150px" />
+</div>
+
+## 📥 Submitting a Pull Request
+
+Follow these steps to contribute your changes to **DevDisplay**:
+
+1. **🌟 Star & Fork the Repository**  
+   Click the **“Star”** button to support the project, then **“Fork”** the repo to create your own copy:  
+   👉 [https://github.com/codeaashu/DevDisplay](https://github.com/codeaashu/DevDisplay)
+
+2. **📥 Clone Your Fork**  
+   Use the following command to clone your forked repository to your local machine:
+   ```bash
+   git clone https://github.com/Your-Username/DevDisplay.git
+   ```
+ 3. Create a Branch
+    Navigate to the project directory and create a new branch for your changes:
+
+    ```bash
+    cd DevDisplay
+    git checkout -b my-feature-branch
+    ```
+
+ 4. Make Changes
+    Add your new ML projects, games, websites, or enhancements. Fix bugs or improve UI/UX as needed.
+
+ 5. Commit Your Changes
+    Use a meaningful commit message:
+
+    ```bash
+    git add .
+    git commit -m "📦 [Feature Add] Add XYZ website project"
+    ```
+
+ 6. Push Your Changes
+    Push your branch to your GitHub fork:
+
+    ```bash
+    git push origin my-feature-branch
+    ```
+ 7. Submit a Pull Request
+
+    Go to your fork on GitHub.
+    
+    Click "Compare & pull request".
+
+    Add a descriptive title using one of the prefixes: [UI], [UX], [Feature Add].
+
+    Link the related issue (if any) and clearly describe your changes.
+
+---
 
 <h1 align="center">Featured in <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" /></h1>
 <table>
@@ -265,3 +342,68 @@ This project is licensed under <a href="./LICENSE">MIT</a>. <img width=2300/>
     </a><br>
      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="150" height="150" />
 </div>
+
+<details>
+  <summary><strong>📂 Explore the Project Directory Structure</strong></summary>
+
+```bash
+
+DevDisplay/
+├── public/                     # Static assets
+│   ├── assets/
+│   │   ├── SocialLogo/         # Social media logos (GitHub.png, Discord.png, etc.)
+│   │   ├── SupportedBy/        # Partner logos (MicrosoftForStartups.png, etc.)
+│   │   ├── DevBadges/          # Contributor badges (DevPioneerpng.gif, etc.)
+│   │   └── DevDisplayLOGO/     # Main logos (NameTagline.png)
+│   ├── gssoc logo.png          # GSSoC logo
+│   ├── DDColorLOGO.png         # Main logo
+│   └── star.png                # Decorative image
+├── src/                        # Source code
+│   ├── styles/                 # CSS/Stylesheets
+│   └── scripts/                # JavaScript files
+├── .gitignore                  # Files to ignore in Git
+├── .prettierrc.json            # Prettier configuration
+├── CODE_OF_CONDUCT.md          # Community guidelines
+├── CONTRIBUTING.md             # Contribution guidelines
+├── LICENSE                     # MIT License
+├── package.json                # Project dependencies
+├── package-lock.json           # Lock file for dependencies
+├── README.md                   # Project documentation
+├── SECURITY.md                 # Security policy
+├── tailwind.config.js          # Tailwind CSS configuration
+└── generate-sitemap.js         # Sitemap generator script
+```
+</details>
+
+---
+
+## 🙌 Contributors
+
+Thanks to these amazing people who have contributed to the **Dev-Display** project:
+
+<!-- readme: contributors -start -->
+<p align="center">
+    <img src="https://api.vaunt.dev/v1/github/entities/codeaashu/repositories/DevDisplay/contributors?format=svg&limit=54" width="1000" />
+</p>
+<!-- readme: contributors -end -->
+
+---
+
+## 💡 Suggestions & Feedback
+Feel free to open issues or discussions if you have any feedback, feature suggestions, or want to collaborate!
+
+---
+
+## 📜 Code of Conduct
+
+To ensure a welcoming and inclusive environment, we have a Code of Conduct that all contributors are expected to follow. In short: **Be respectful, be kind, and be collaborative.** Please read the full [Code of Conduct](https://github.com/codeaashu/DevDisplay/blob/main/CODE_OF_CONDUCT.md) before participating.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://github.com/codeaashu/DevDisplay/blob/main/LICENSE).
+
+---
+
+Thank you again for your interest. We can't wait to see what you build with us! ❤️❤️
