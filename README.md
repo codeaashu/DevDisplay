@@ -1,8 +1,7 @@
 <div align="center">
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=2000&pause=400&color=00ADEF&center=true&vCenter=true&width=800&lines=🚀+Welcome+to+DevDisplay;🌍+The+Global+Tech+Hub;💡+Connect+•+Collab+•+Code+•+Create" alt="Typing animation">
-
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=35&duration=2500&pause=800&color=00ADEF&background=FFFFFF00&center=true&vCenter=true&width=850&height=100&lines=🚀+Welcome+to+DevDisplay;🌍+One+Platform+For+All+Tech+Needs;🌐+Global+Community+of+10K+Developers;💡+Powered+by+Open+Source+Innovation" alt="DevDisplay animated header">
 </div>
 
 <!-- <table align="center">
@@ -30,9 +29,9 @@
 
   <!-- <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cyclone.png" alt="Cyclone" width="25" height="25" /> Paradise For Developers <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cyclone.png" alt="Cyclone" width="25" height="25" /></h1> -->
 
-# 🔐 DevDisplay
+# 🔐 Dev-Display
 
-![GSSoC Logo](/DevDisplay/public/gssoc%20logo.png)
+![GSSoC Logo](https://github.com/DivyaJain-DataAnalyst/DevDisplay/blob/main/public/gssoc%20logo.png)
 
 🌐 Visit the website to explore real-world projects, filter by tech stack, and discover new ideas!
 
@@ -343,8 +342,7 @@ This project is licensed under <a href="./LICENSE">MIT</a>. <img width=2300/>
      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="150" height="150" />
 </div>
 
-<details>
-  <summary><strong>📂 Explore the Project Directory Structure</strong></summary>
+📂 Explore the Project Directory Structure
 
 ```bash
 
@@ -373,7 +371,6 @@ DevDisplay/
 ├── tailwind.config.js          # Tailwind CSS configuration
 └── generate-sitemap.js         # Sitemap generator script
 ```
-</details>
 
 ---
 
