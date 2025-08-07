@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { ArrowLeft, Search, FileText, Sparkles, Zap, Edit, Eye, Download, Share2, TrendingUp } from 'lucide-react';
 import styled from 'styled-components';
 import Marquee from 'react-fast-marquee';
@@ -7,8 +7,10 @@ import { Footer } from '../components/Footer/Footer';
 import ResumeBuilder from '../components/ResumeBuilder/ResumeBuilder';
 import ResumeAnalyzer from '../components/ResumeAnalyzer/ResumeAnalyzer';
 
+// Dummy provider, can be extended if needed
 const ResumeProvider = ({ children }) => <div>{children}</div>;
 
+// Navbar with back button and main icon
 const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 w-full bg-gray-800 text-white shadow-md">
@@ -27,6 +29,7 @@ const Navbar = () => {
   );
 };
 
+// Hero section with animated sparkle background and page title
 const Hero = () => {
   return (
     <section className="hero-section mb-0 flex min-h-[10vh] flex-col items-center justify-center text-white">
@@ -71,6 +74,7 @@ const Hero = () => {
   );
 };
 
+// Tags section with marquee animation
 const Tags = () => {
   const tags = [
     'Professional Templates',
@@ -100,7 +104,7 @@ const Tags = () => {
       <h1 className="text-md text-primary mb-8 text-center font-bold text-[#00a6fb] lg:text-2xl">
         Create Professional Resumes That Get You Hired
       </h1>
-      <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} className="w-full">
+      <Marquee gradient={false} speed={60} pauseOnHover loop={0} className="w-full">
         <div className="flex w-full flex-nowrap items-center">
           {[...tags, ...tags, ...tags].map((text, index) => (
             <span key={index} className="tag-item mr-6">
@@ -110,7 +114,7 @@ const Tags = () => {
         </div>
       </Marquee>
       <div className="my-4"></div>
-      <Marquee gradient={false} speed={60} pauseOnHover={true} loop={0} direction="right" className="w-full">
+      <Marquee gradient={false} speed={60} pauseOnHover loop={0} direction="right" className="w-full">
         <div className="flex w-full flex-nowrap items-center">
           {[...tags, ...tags, ...tags].map((text, index) => (
             <span key={index} className="tag-item mr-6">
@@ -139,6 +143,7 @@ const Tags = () => {
   );
 };
 
+// Features cards with filterable search input
 const ResumeBuilderCards = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -244,6 +249,7 @@ const ResumeBuilderCards = () => {
   );
 };
 
+// Action section with buttons to start building or analyze resume
 const ActionSection = () => {
   const navigate = useNavigate();
 
@@ -284,6 +290,7 @@ const ActionSection = () => {
   );
 };
 
+// Styled button with hover and animation effects
 const StyledButton = styled.button`
   cursor: pointer;
   font-size: 1rem;
@@ -383,6 +390,7 @@ const StyledButton = styled.button`
   }
 `;
 
+// Styled container for the white moving dot animation on feature cards
 const StyledDot = styled.div`
   .dot {
     width: 5px;
@@ -421,32 +429,27 @@ const StyledDot = styled.div`
   }
 `;
 
+// Styled wrapper for sparkle animations and related styles
 const StyledWrapper = styled.div`
   .relative {
     position: relative;
   }
-
   .inline-block {
     display: inline-block;
   }
-
   .py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
   }
-
   .pointer-events-none {
     pointer-events: none;
   }
-
   .absolute {
     position: absolute;
   }
-
   .inset-0 {
     inset: 0;
   }
-
   button {
     font-family: inherit;
     font-feature-settings: inherit;
@@ -459,132 +462,108 @@ const StyledWrapper = styled.div`
     padding: 0;
     width: 300px !important;
   }
-
   button {
     text-transform: none;
     cursor: pointer;
   }
-
   .inline-flex {
     display: inline-flex;
   }
-
   .justify-center {
     justify-content: center;
   }
-
   .rounded-lg {
     border-radius: 0.5rem;
   }
-
   .bg-primary {
     --tw-bg-opacity: 1;
     background-color: rgba(15, 27, 53, 0);
   }
-
   .text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
-
   .px-18 {
     padding-left: 4.5rem;
     padding-right: 4.5rem;
   }
-
   .py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
   }
-
   .text-6xl {
     font-size: 3.75rem;
     line-height: 1;
   }
-
   .font-bold {
     font-weight: 700;
   }
-
   .transition-all {
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
   }
-
   .focus\:outline-none:focus {
     outline specials: 2px solid transparent;
     outline-offset: 2px;
   }
-
   .enabled\:hover\:shadow-md:hover:enabled {
-    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
-    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
+      0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
-
   .disabled\:opacity-50:disabled {
     opacity: 0.5;
   }
-
   .animate-magic-sparkle {
     animation: magic-sparkle 3s infinite;
   }
-
   .style-AQliM {
     top: 10%;
     left: 5%;
   }
-
   .style-WCb99 {
     top: 20%;
     right: 10%;
   }
-
   .style-dBNZV {
     bottom: 15%;
     left: 15%;
   }
-
   .style-tiisO {
     top: 30%;
     left: 25%;
   }
-
   .style-re9B7 {
     bottom: 25%;
     right: 20%;
   }
-
   .style-BKG4G {
     top: 15%;
     right: 30%;
   }
-
   .style-NaoVe {
     bottom: 10%;
     left: 35%;
   }
-
   .style-pwIlv {
     top: 25%;
     right: 15%;
   }
-
   .style-QmcAd {
     bottom: 20%;
     left: 10%;
   }
-
   .style-VG2eL {
     top: 35%;
     right: 25%;
   }
-
   .animate-spin-slow {
     animation: spin 8s linear infinite;
   }
-
   @keyframes magic-sparkle {
     0% {
       opacity: 0;
@@ -599,7 +578,6 @@ const StyledWrapper = styled.div`
       transform: scale(0.5);
     }
   }
-
   @keyframes spin {
     from {
       transform: rotate(0deg);
@@ -610,6 +588,7 @@ const StyledWrapper = styled.div`
   }
 `;
 
+// Home page with all the main sections
 const Home = () => {
   return (
     <div className="background-wrapper min-h-screen bg-gray-900">
@@ -623,6 +602,7 @@ const Home = () => {
   );
 };
 
+// Main app entry with routing
 const App = () => {
   return (
     <ResumeProvider>

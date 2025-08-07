@@ -17,17 +17,14 @@ In the interest of fostering an open and welcoming environment, we as contributo
 We expect all participants to:
 
 1. **Be Respectful:**
-
    - Treat everyone with respect and courtesy.
    - Approach disagreements constructively and considerately.
 
 2. **Be Inclusive:**
-
    - Ensure everyone feels welcome and valued.
    - Avoid discriminatory, exclusionary, or harmful language and actions.
 
 3. **Be Collaborative:**
-
    - Share knowledge and help others.
    - Focus on improving the platform and the experience for all.
 
@@ -52,11 +49,9 @@ The following behaviors are unacceptable in the DevDisplay community:
 
 - **Join DevDisplay Discord Community**: [Discord Community](https://discord.gg/chyt2UgTv5)
 - **Join DevDisplay WhatsApp Community**: [WhatsApp Community](https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4)
-
   - Connect with other developers and collaborate on exciting projects.
 
 - **Reach Out to the Team**:
-
   - Organization Email: team@devdisplay.org
   - Creator's Email: hellow.ashutosh@gmail.com
 
@@ -69,7 +64,6 @@ The following behaviors are unacceptable in the DevDisplay community:
 ---
 
 2. **Provide Details:**
-
    - Include a description of the incident, relevant links, or screenshots if possible.
 
 3. **Expect a Response:**
