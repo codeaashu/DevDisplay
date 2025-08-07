@@ -96,7 +96,7 @@ function Search({ onSearch }) {
           </button>
         </a>
       </StyledWrapper>
-      <div className="relative flex items-center justify-end space-x-4 ">
+      <div className="relative flex items-center justify-end space-x-4">
         <select
           className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
           value={searchCriteria}

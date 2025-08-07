@@ -23,19 +23,16 @@ We take the security of DevDisplay seriously. If you discover any security vulne
 ### For Contributors
 
 1. **Code Review**
-
    - All code changes must go through peer review
    - Security-sensitive code requires additional review
    - Follow secure coding guidelines
 
 2. **Dependencies**
-
    - Keep all dependencies up to date
    - Regularly check for known vulnerabilities in dependencies
    - Use only trusted and well-maintained packages
 
 3. **Authentication & Authorization**
-
    - Use strong password policies
    - Implement proper session management
    - Follow the principle of least privilege
@@ -48,7 +45,6 @@ We take the security of DevDisplay seriously. If you discover any security vulne
 ### For Users
 
 1. **Account Security**
-
    - Use strong, unique passwords
    - Enable two-factor authentication when available
    - Keep your access tokens secure
