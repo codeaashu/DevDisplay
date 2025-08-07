@@ -4,7 +4,21 @@
   "bio": "I don’t just write code — I architect digital weapons. I debug like a sniper and build web solutions that conquer. Always hungry to outsmart tech, not just learn it.",
   "avatar": "https://github.com/pseudodanish.png",
   "portfolio": "https://github.com/pseudodanish",
-  "skills": ["Python", "Javascript", "Django","React JS","Wordpress","Shopify","Java","Javascript","Typescript","Redux Toolkit","Ant Design","Axios","Redux Saga"],
+  "skills": [
+    "Python",
+    "Javascript",
+    "Django",
+    "React JS",
+    "Wordpress",
+    "Shopify",
+    "Java",
+    "Javascript",
+    "Typescript",
+    "Redux Toolkit",
+    "Ant Design",
+    "Axios",
+    "Redux Saga"
+  ],
   "social": {
     "GitHub": "https://github.com/pseudodanish",
     "Twitter": "https://x.com/Draggy2131",
@@ -13,6 +27,6 @@
     "Email": "danishasadmomin@gmail.com",
     "Discord": "https://discord.com/users/dragzy6702",
     "YouTube": "https://www.youtube.com/channel/UC7yqfvX8Ivnxgp-EfIgHmnQ",
-    "Upwork":"https://www.upwork.com/freelancers/~01be7c53737368bf38?mp_source=share",
+    "Upwork": "https://www.upwork.com/freelancers/~01be7c53737368bf38?mp_source=share"
   }
 }
