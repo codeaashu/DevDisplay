@@ -1,9 +1,5 @@
 <div align="center">
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=35&duration=2500&pause=800&color=00ADEF&background=FFFFFF00&center=true&vCenter=true&width=850&height=100&lines=🚀+Welcome+to+DevDisplay;🌍+One+Platform+For+All+Tech+Needs;🌐+Global+Community+of+10K+Developers;💡+Powered+by+Open+Source+Innovation" alt="DevDisplay animated header">
-</div>
-
 <!-- <table align="center">
      <thead align="center">
         <tr border: 2px;>
