@@ -27,7 +27,7 @@
 
 # 🔐 Dev-Display
 
-![GSSoC Logo](https://github.com/DivyaJain-DataAnalyst/DevDisplay/blob/main/public/gssoc%20logo.png)
+![GSSoC Logo]([https://github.com/DivyaJain-DataAnalyst/DevDisplay/blob/main/public/gssoc%20logo.png](https://github.com/DivyaJain-DataAnalyst/DevDisplay/blob/main/public/gssoc%20logo.png))
 
 🌐 Visit the website to explore real-world projects, filter by tech stack, and discover new ideas!
 
@@ -71,9 +71,9 @@
   <br />
 <!--   <a href="#-getting-started-in-under-5-minutes"><strong>🚀 Get Started</strong></a> -->
   ·
-  <a href="https://github.com/Hiteshydv001/Voice-Marketing-Agent/issues"><strong>🐛 Report a Bug</strong></a>
+  <a href="https://github.com/codeaashu/DevDisplay/issues"><strong>🐛 Report a Bug</strong></a>
   ·
-  <a href="https://github.com/Hiteshydv001/Voice-Marketing-Agent/issues"><strong>✨ Request a Feature</strong></a>
+  <a href="https://github.com/codeaashu/DevDisplay/issues"><strong>✨ Request a Feature</strong></a>
 </p>
 
 <img align="center" src="./public/star.png" width="150px" />
