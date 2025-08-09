@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Enable Dark Mode](https://img.shields.io/badge/Enable%20GitHub%20Dark%20Mode-Click%20Here-blue?style=for-the-badge&logo=github#gh-light-mode-only)](https://github.com/settings/appearance)
+[![Enable GitHub Dark Mode for best view →](https://img.shields.io/badge/Enable%20GitHub%20Dark%20Mode-Click%20Here-blue?style=for-the-badge&logo=github#gh-light-mode-only)](https://github.com/settings/appearance)
 
 [Click here to Enable GitHub Dark Mode for best view →](https://github.com/settings/appearance)
 <hr>
