@@ -1,4 +1,7 @@
 <div align="center">
+
+[Switch to Dark Mode on GitHub](https://github.com/settings/appearance)
+
 <!-- <table align="center">
      <thead align="center">
         <tr border: 2px;>
