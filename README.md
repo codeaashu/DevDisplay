@@ -265,3 +265,11 @@ This project is licensed under <a href="./LICENSE">MIT</a>. <img width=2300/>
     </a><br>
      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" alt="Mirror Ball" width="150" height="150" />
 </div>
+
+
+## 🙌 Contributors
+Thanks to these amazing people who have contributed to the **Dev-Display** project:
+<!-- readme: contributors -start -->
+<p align="center">
+    <img src="https://api.vaunt.dev/v1/github/entities/codeaashu/repositories/DevDisplay/contributors?format=svg&limit=54" width="1000" />
+</p>
