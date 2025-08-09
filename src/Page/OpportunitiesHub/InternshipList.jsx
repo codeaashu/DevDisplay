@@ -28,7 +28,7 @@ const Internship1 = () => {
           <div className="flex items-start justify-between">
             <div className="flex gap-4">
               <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
-                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br  to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
+                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
                 <img src="/assets/LocalCompany/WOODESY.png" alt="Custom Icon" className="h-10 w-10" />
               </div>
               <div>
@@ -166,7 +166,7 @@ const Internship2 = () => {
           <div className="flex items-start justify-between">
             <div className="flex gap-4">
               <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
-                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br  to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
+                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
                 <img src="/assets/LocalCompany/Vijetha Softwares Pvt.Ltd.jpg" alt="Custom Icon" className="h-10 w-10" />
               </div>
               <div>
@@ -308,7 +308,7 @@ const Internship3 = () => {
           <div className="flex items-start justify-between">
             <div className="flex gap-4">
               <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-white p-2">
-                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br  to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
+                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br to-teal-500 opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30" />
                 <img src="/assets/LocalCompany/Webfuture.jpg" alt="Custom Icon" className="h-10 w-10" />
               </div>
               <div>
