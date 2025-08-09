@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import Profile from './components/Profile/Profile';
+import RandomQuote from './components/RandomQuote';
 import ProfileSkeleton from './components/ProfileSkeleton/ProfileSkeleton';
 import Search from './components/Search/Search';
 import Sidebar from './components/Sidebar/Sidebar';
@@ -31,10 +32,9 @@ function App() {
       } catch (error) {
         console.error('Error fetching data:', error);
         return [];
-      }
-    };
+    }
 
-    const combineData = async () => {
+  export default App;
       setLoadingProfiles(true);
       try {
         const promises = filenames.map((file, index) =>
@@ -146,26 +146,34 @@ function App() {
     return paginatedData.map((currentRecord, index) => <Profile data={currentRecord} key={index} />);
   };
 
-  return currentUrl === '/' ? (
-    <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
-      <Sidebar />
-      <div className="w-full pl-5 pr-4 md:h-screen md:w-[77%] md:overflow-y-scroll md:py-7" ref={profilesRef}>
-        <Search onSearch={handleSearch} />
-        {profiles.length === 0 && searching ? <NoResultFound /> : renderProfiles()}
-        {combinedData.length > 0 && (
-          <Pagination
-            currentPage={currentPage}
-            totalPages={Math.ceil((searching ? profiles.length : shuffledProfiles.length) / recordsPerPage)}
-            onNextPage={handleNextPage}
-            onPrevPage={handlePrevPage}
-          />
-        )}
+  if (currentUrl === '/') {
+    return (
+      <div className="App flex flex-col bg-primaryColor dark:bg-secondaryColor md:flex-row">
+        <Sidebar />
+        <div className="main-content">
+          <RandomQuote />
+          <Search onSearch={handleSearch} searching={searching} setSearching={setSearching} />
+          {searching ? (
+            <ProfileSkeleton />
+          ) : (
+            <Profile
+              profiles={profiles}
+              loadingProfiles={loadingProfiles}
+              profilesRef={profilesRef}
+              currentPage={currentPage}
+              setCurrentPage={setCurrentPage}
+              recordsPerPage={recordsPerPage}
+              shuffledProfiles={shuffledProfiles}
+              setShuffledProfiles={setShuffledProfiles}
+              NoResultFound={NoResultFound}
+              Pagination={Pagination}
+            />
+          )}
+        </div>
+        {/* <GTranslateLoader /> */}
       </div>
-      {/* <GTranslateLoader /> */}
-    </div>
-  ) : (
-    <ErrorPage />
-  );
+    );
+  } else {
+    return <ErrorPage />;
+  }
 }
-
-export default App;
