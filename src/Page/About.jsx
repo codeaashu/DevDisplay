@@ -10,8 +10,8 @@ export default function About() {
 
   return (
     <div>
-      <Navbar />
       <div className="min-h-screen bg-[#0d1b2a] text-white">
+        <Navbar />
         <header
           className="relative h-[50vh] bg-cover bg-center"
           style={{ backgroundImage: 'url(/images/hero-bg.jpg)' }}
@@ -25,6 +25,7 @@ export default function About() {
               backgroundSize: '400% 400%',
             }}
           />
+
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <motion.div
             className="relative z-10 flex h-full flex-col items-center justify-center p-4 text-center"

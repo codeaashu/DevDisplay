@@ -1,0 +1,32 @@
+{
+  "name": "Sayed Al Amaan Zaidi",
+  "location": "Ghaziabad",
+  "bio": "Passionate About Artificial Intelligence, Machine Learning, Data Science and web development 💻 Full Stack Developer",
+  "avatar": "https://github.com/amaan1114.png",
+  "portfolio": "https://sayedalamaanportfolio.netlify.app/",
+  "skills": ["MERN", "HTML", "Python","CSS","Tailwind","BootStrap"],
+  "social": {
+    "GitHub": "https://github.com/amaan1114",
+    "Twitter": "https://twitter.com/your-twitter-username",
+    "LinkedIn": "https://www.linkedin.com/in/amaan-zaidi-1214801b9/",
+    "Instagram": "https://www.instagram.com/a_m_aa_n_14/",
+    "Email": "amaan.zaidi05@gmail.com",
+    "Discord": "https://discord.com/users/your-discord-id",
+    "LeetCode": "https://leetcode.com/your-leetcode-username",
+    "Codeforces": "https://codeforces.com/profile/your-codeforces-username",
+    "HackerRank": "https://www.hackerrank.com/your-hackerrank-username",
+    "StackOverflow": "https://stackoverflow.com/users/your-stackoverflow-id",
+    "YouTube": "https://www.youtube.com/c/your-youtube-channel",
+    "DevTo": "https://dev.to/your-dev-profile",
+    "Hashnode": "https://hashnode.com/@your-hashnode-username",
+    "Behance": "https://www.behance.net/your-behance-profile",
+    "Dribbble": "https://dribbble.com/your-dribbble-profile",
+    "Figma": "https://www.figma.com/@your-figma-profile",
+    "Replit": "https://replit.com/@your-replit-username",
+    "BuyMeACoffee": "https://www.buymeacoffee.com/your-coffee-profile",
+    "ProductHunt": "https://www.producthunt.com/@your-producthunt-profile",
+    "Medium": "https://medium.com/@your-medium-profile",
+    "Reddit": "https://www.reddit.com/user/your-reddit-username",
+    "Unstop": "https://unstop.com/@your-unstop-username"
+  }
+}
