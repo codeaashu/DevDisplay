@@ -4,6 +4,9 @@
   "description": "An application which scraps the trending repostitories and developers from Github.",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"

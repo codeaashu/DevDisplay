@@ -254,10 +254,7 @@ const TecheventsCardComponent = ({ organizer, title, location, date, domains, ap
 
       <div className="mt-2 flex flex-wrap justify-center gap-2 p-2">
         {domains.map((domain, idx) => (
-          <span
-            key={idx}
-            className="bg-gray-1000 rounded-full border border-[#00a6fb]  px-2 py-1 text-xs text-gray-300"
-          >
+          <span key={idx} className="bg-gray-1000 rounded-full border border-[#00a6fb] px-2 py-1 text-xs text-gray-300">
             {domain}
           </span>
         ))}

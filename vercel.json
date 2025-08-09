@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "backend/index.js": {
+      "runtime": "@vercel/node@22.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/backend/index.js"
+    }
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install"
+}
