@@ -1,6 +1,7 @@
 <div align="center">
 
-[Switch to Dark Mode on GitHub](https://github.com/settings/appearance)
+[Click here to Enable GitHub Dark Mode for best view →](https://github.com/settings/appearance)
+<hr>
 
 <!-- <table align="center">
      <thead align="center">
