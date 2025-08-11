@@ -13,6 +13,7 @@
     "@testing-library/jest-dom": "^6.6.4",
     "@testing-library/react": "^16.0.1",
     "@testing-library/user-event": "^14.5.2",
+    "@vercel/analytics": "^1.5.0",
     "canvas-confetti": "^1.9.3",
     "cobe": "^0.6.3",
     "devdisplay": "file:",
@@ -20,13 +21,13 @@
     "framer-motion": "^12.23.12",
     "html2canvas": "^1.4.1",
     "jspdf": "^3.0.1",
-    "lucide-react": "^0.536.0",
+    "lucide-react": "^0.539.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.5",
     "react-helmet": "^6.1.0",
     "react-icons": "^5.5.0",
-    "react-router-dom": "^7.6.3",
+    "react-router-dom": "^7.8.0",
     "react-scripts": "5.0.1",
     "sitemap": "^8.0.0",
     "styled-components": "^6.1.15",
@@ -48,6 +49,9 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "engines": {
+    "node": "22.x"
   },
   "browserslist": {
     "production": [
