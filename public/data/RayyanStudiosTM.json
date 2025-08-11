@@ -4,12 +4,19 @@
   "bio": "Software developer and AI enthusiast building SaaS platforms, apps, and AI-powered tools to make learning and productivity smarter.",
   "avatar": "https://github.com/RayyanStudiosTM.png",
   "portfolio": "https://github.com/RayyanStudiosTM",
-  "skills": ["Full Stack Development", "AI & Machine Learning", "App Development", "SaaS Development", "Data Science", "Cloud Computing"],
+  "skills": [
+    "Full Stack Development",
+    "AI & Machine Learning",
+    "App Development",
+    "SaaS Development",
+    "Data Science",
+    "Cloud Computing"
+  ],
   "social": {
     "GitHub": "https://github.com/RayyanStudiosTM",
     "LinkedIn": "https://www.linkedin.com/in/bytexpert/",
     "Instagram": "https://www.instagram.com/mr._.rayy",
     "Email": "shaikhrayyanofficial@gmail.com",
-    "Discord": "https://discord.com/users/shaikhrayyanahmed",
+    "Discord": "https://discord.com/users/shaikhrayyanahmed"
   }
 }
