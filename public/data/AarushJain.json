@@ -4,7 +4,19 @@
   "bio": "Software Development Enthusiast",
   "avatar": "https://github.com/aarushjain2401.png",
   "portfolio": "https://github.com/aarushjain2401",
-  "skills": ["ReactJs","C++","C","HTML","Javascript","ExpressJs","NodeJs","MongoDB","Quick Learner", "Problem Solving", "Hard Working"],
+  "skills": [
+    "ReactJs",
+    "C++",
+    "C",
+    "HTML",
+    "Javascript",
+    "ExpressJs",
+    "NodeJs",
+    "MongoDB",
+    "Quick Learner",
+    "Problem Solving",
+    "Hard Working"
+  ],
   "social": {
     "GitHub": "https://github.com/aarushjain2401",
     "LinkedIn": "https://www.linkedin.com/in/aarushjain2401",
