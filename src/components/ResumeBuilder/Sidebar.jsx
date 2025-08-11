@@ -31,28 +31,18 @@ function Sidebar({
         />
       )}
       <div
-        className={`
-          ${
-            isMobileView
-              ? `fixed left-0 top-0 z-50 h-full w-72 transform transition-all duration-300 ease-in-out ${mobileMenuOpen ? 'translate-x-0 shadow-2xl' : '-translate-x-full'}`
-              : `${desktopCollapsed ? 'w-20' : 'w-72'} sticky top-0 h-screen border-r border-[var(--border-dark-theme-light)] shadow-2xl`
-          }
-          flex flex-col 
-          text-[var(--text-light1)] 
-          ${isMobileView ? '' : 'transition-all duration-300'} 
-        `}
+        className={` ${
+          isMobileView
+            ? `fixed left-0 top-0 z-50 h-full w-72 transform transition-all duration-300 ease-in-out ${mobileMenuOpen ? 'translate-x-0 shadow-2xl' : '-translate-x-full'}`
+            : `${desktopCollapsed ? 'w-20' : 'w-72'} sticky top-0 h-screen border-r border-[var(--border-dark-theme-light)] shadow-2xl`
+        } flex flex-col text-[var(--text-light1)] ${isMobileView ? '' : 'transition-all duration-300'} `}
         style={{
           background: 'linear-gradient(135deg, rgba(15,27,53,0.98) 0%, rgba(0,43,62,0.90) 100%)',
           backdropFilter: 'blur(10px)',
         }}
       >
         <div
-          className={`
-          relative flex items-center border-b border-[var(--border-dark-theme)]
-          ${isMobileView ? 'h-16 justify-between px-4' : ''}
-          ${!isMobileView && desktopCollapsed ? 'h-16 justify-center px-3' : ''}
-          ${!isMobileView && !desktopCollapsed ? 'justify-between p-6' : ''} /* Removed min-h, using for padding */ p-6
-        `}
+          className={`relative flex items-center border-b border-[var(--border-dark-theme)] ${isMobileView ? 'h-16 justify-between px-4' : ''} ${!isMobileView && desktopCollapsed ? 'h-16 justify-center px-3' : ''} ${!isMobileView && !desktopCollapsed ? 'justify-between p-6' : ''} /* Removed min-h, using for padding */ p-6`}
         >
           {!(!isMobileView && desktopCollapsed) && (
             <div className="pointer-events-none absolute inset-0 overflow-hidden">
@@ -101,12 +91,7 @@ function Sidebar({
           </button>
         </div>
 
-        <div
-          className={`
-          relative min-h-0 flex-1 overflow-y-auto
-          ${isMobileView ? 'p-3' : 'px-3 pb-4'} 
-        `}
-        >
+        <div className={`relative min-h-0 flex-1 overflow-y-auto ${isMobileView ? 'p-3' : 'px-3 pb-4'} `}>
           <ul className={`relative z-10 space-y-2 ${isMobileView ? 'mt-2' : 'mt-4'}`}>
             {sections.map((section) => {
               const status = getStepStatus(section.id);
@@ -117,11 +102,7 @@ function Sidebar({
                 <li key={section.id}>
                   <button
                     onClick={() => handleSectionClick(section.id)}
-                    className={`group relative flex w-full items-center gap-3 overflow-hidden rounded-lg px-4 py-3 text-left transition-all duration-300
-                      ${status === 'completed' ? 'border border-[var(--border-dark-theme)] bg-gradient-to-r from-[rgba(0,166,251,0.2)] to-[rgba(0,166,251,0.1)] text-[var(--text-light1)] hover:from-[rgba(0,166,251,0.3)] hover:to-[rgba(0,166,251,0.2)]' : ''}
-                      ${status === 'active' ? 'border border-[var(--primary)] bg-gradient-to-r from-[var(--primary)] to-[color-mix(in_srgb,var(--primary)_80%,transparent)] font-semibold text-white shadow-lg' : ''}
-                      ${status === 'upcoming' ? 'border border-transparent text-[var(--text-light2)] hover:border-[var(--border-dark-theme-light)] hover:bg-[rgba(0,166,251,0.05)] hover:text-[var(--text-light1)]' : ''}
-                    `}
+                    className={`group relative flex w-full items-center gap-3 overflow-hidden rounded-lg px-4 py-3 text-left transition-all duration-300 ${status === 'completed' ? 'border border-[var(--border-dark-theme)] bg-gradient-to-r from-[rgba(0,166,251,0.2)] to-[rgba(0,166,251,0.1)] text-[var(--text-light1)] hover:from-[rgba(0,166,251,0.3)] hover:to-[rgba(0,166,251,0.2)]' : ''} ${status === 'active' ? 'border border-[var(--primary)] bg-gradient-to-r from-[var(--primary)] to-[color-mix(in_srgb,var(--primary)_80%,transparent)] font-semibold text-white shadow-lg' : ''} ${status === 'upcoming' ? 'border border-transparent text-[var(--text-light2)] hover:border-[var(--border-dark-theme-light)] hover:bg-[rgba(0,166,251,0.05)] hover:text-[var(--text-light1)]' : ''} `}
                     style={{
                       boxShadow:
                         status === 'active'
@@ -138,11 +119,7 @@ function Sidebar({
                       />
                     )}
                     <div
-                      className={`flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border-2 text-sm transition-all duration-300
-                        ${status === 'completed' ? 'border-[var(--primary)] bg-[var(--primary)] text-white shadow-md' : ''}
-                        ${status === 'active' ? 'border-white bg-white text-[var(--primary)] shadow-md' : ''}
-                        ${status === 'upcoming' ? 'border-[var(--text-muted-light)] text-[var(--text-muted-light)] group-hover:border-[var(--primary)] group-hover:text-[var(--primary)]' : ''}
-                      `}
+                      className={`flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border-2 text-sm transition-all duration-300 ${status === 'completed' ? 'border-[var(--primary)] bg-[var(--primary)] text-white shadow-md' : ''} ${status === 'active' ? 'border-white bg-white text-[var(--primary)] shadow-md' : ''} ${status === 'upcoming' ? 'border-[var(--text-muted-light)] text-[var(--text-muted-light)] group-hover:border-[var(--primary)] group-hover:text-[var(--primary)]' : ''} `}
                     >
                       {status === 'completed' ? <Check size={16} strokeWidth={3} /> : <IconComponent size={16} />}
                     </div>
