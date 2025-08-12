@@ -11,182 +11,182 @@ const AchieverJourneyPage = () => {
   useEffect(() => {
     const item = achievers.find((item) => item.id == id);
     setAchieverData(item);
-  }, []);
+  }, [id]);
 
-  if (achieverData == null) {
-    return <>Loading ...</>;
+  if (!achieverData) {
+    return <div className="flex h-screen items-center justify-center bg-[#0d1b2a] text-white">Loading...</div>;
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-[#1e2a42] via-[#141d2f] to-[#0d1b2a] p-4 text-white">
-      <header className="relative flex items-center justify-between bg-cover bg-center p-4 pt-8">
+    <div className="min-h-screen bg-gradient-to-br from-[#1e2a42] via-[#141d2f] to-[#0d1b2a] font-sans text-white">
+      {/* Header Section */}
+      <header className="relative flex flex-col items-center gap-6 px-6 py-12 md:flex-row md:items-center md:justify-between">
         <motion.div
-          className="relative z-10 flex h-full flex-col items-center justify-center p-4"
+          className="z-10 max-w-2xl"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-5xl font-extrabold text-[#00a6fb]">
-            {achieverData.name}'s Journey in {achieverData.domain}
+          <h1 className="text-4xl font-extrabold leading-snug text-[#00a6fb] md:text-5xl">
+            {achieverData.name}'s Journey in <span className="text-white">{achieverData.domain}</span>
           </h1>
-          <p className="mt-4 max-w-2xl text-lg text-gray-200">
-            Working at {achieverData.company} and achieving the following milestones:
+          <p className="mt-4 text-lg text-gray-300">
+            Working at <span className="font-semibold text-white">{achieverData.company}</span> and achieving the
+            following milestones:
           </p>
-          <section className="container mt-12 p-8">
-            <h2 className="text-2xl font-semibold text-[#00a6fb]">Key Achievements</h2>
-            <ul className="list-disc pl-6 text-lg">
-              {achieverData.keyAchievements.map((achievement, index) => (
-                <li key={index} className="text-lg text-gray-300">
-                  {achievement}
-                </li>
-              ))}
-            </ul>
-          </section>
         </motion.div>
 
-        <div className="relative z-10">
-          <img
-            src={achieverData.imageURL}
-            alt="Achiever"
-            className="h-48 w-48 rounded-full border-4 border-[#00a6fb] object-cover"
-          />
-        </div>
+        <motion.img
+          src={achieverData.imageURL}
+          alt="Achiever"
+          className="h-48 w-48 rounded-full border-4 border-[#00a6fb] object-cover shadow-lg transition-transform duration-300 hover:scale-105"
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1 }}
+        />
       </header>
 
-      <section className=" mx-auto mt-4 p-8">
-        <motion.h2
-          className="text-3xl font-bold text-[#00a6fb]"
-          initial={{ opacity: 0, y: -20 }}
+      {/* Key Achievements */}
+      <section className="container mx-auto px-6 py-8">
+        <motion.div
+          className="rounded-2xl bg-white/10 p-6 shadow-lg backdrop-blur-md"
+          initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.8 }}
         >
-          Starting Point
-        </motion.h2>
-        <p className="mt-4 text-lg text-gray-300">{achieverData.journey.startingPoint.story}</p>
-        <h3 className="mt-4 text-xl font-semibold">Challenges Faced:</h3>
-        <ul className="list-disc pl-6">
-          {achieverData.journey.startingPoint.challenges.map((challenge, index) => (
-            <li key={index} className="text-gray-300">
-              {challenge}
-            </li>
-          ))}
-        </ul>
-
-        <motion.h2
-          className="mt-8 text-3xl font-bold text-[#00a6fb]"
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-        >
-          Turning Points in My Journey
-        </motion.h2>
-        <ul className="list-disc pl-6">
-          {achieverData.journey.turningPoints.milestones.map((milestone, index) => (
-            <li key={index} className="text-gray-300">
-              {milestone}
-            </li>
-          ))}
-        </ul>
-        <h3 className="mt-4 text-xl font-semibold">Influences & Mentorship:</h3>
-        <ul className="list-disc pl-6">
-          {achieverData.journey.turningPoints.influences.map((influence, index) => (
-            <li key={index} className="text-gray-300">
-              {influence}
-            </li>
-          ))}
-        </ul>
-
-        <motion.h2
-          className="mt-8 text-3xl font-bold text-[#00a6fb]"
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-        >
-          Overcoming Challenges
-        </motion.h2>
-        <ul className="list-disc pl-6">
-          {achieverData.journey.resolutionOfChallenges.solutions.map((solution, index) => (
-            <li key={index} className="text-gray-300">
-              {solution}
-            </li>
-          ))}
-        </ul>
+          <h2 className="mb-4 text-2xl font-semibold text-[#00a6fb]">Key Achievements</h2>
+          <ul className="list-disc space-y-2 pl-6 text-lg text-gray-300">
+            {achieverData.keyAchievements.map((achievement, index) => (
+              <li key={index}>{achievement}</li>
+            ))}
+          </ul>
+        </motion.div>
       </section>
 
-      <section className=" mx-auto mt-12 p-8">
-        <h2 className="text-2xl font-semibold text-[#00a6fb]">Interview Process</h2>
-        <h3 className="mt-4 text-xl font-semibold">Preparation</h3>
-        <ul className="list-disc pl-6">
-          {achieverData.interviewProcess.preparation.resourcesUsed.map((resource, index) => (
-            <li key={index} className="text-gray-300">
-              {resource}
-            </li>
-          ))}
-        </ul>
-        <p className="mt-2 text-gray-300">Preparation Timeline: {achieverData.interviewProcess.preparation.timeline}</p>
-
-        <h3 className="mt-8 text-xl font-semibold">Sample Interview Questions</h3>
-        {Object.keys(achieverData.interviewProcess.interviewQuestions.categories).map((category, index) => (
-          <div key={index} className="mb-4">
-            <h4 className="font-semibold text-gray-300">{category}</h4>
-            <ul className="list-disc pl-6">
-              {achieverData.interviewProcess.interviewQuestions.categories[category].map((question, index) => (
-                <li key={index} className="text-gray-300">
-                  {question}
-                </li>
-              ))}
-            </ul>
-            <p className="mt-2 text-gray-300">{achieverData.interviewProcess.interviewQuestions.answers[index]}</p>
-          </div>
+      {/* Journey Sections */}
+      <section className="container mx-auto space-y-12 px-6">
+        {[
+          {
+            title: 'Starting Point',
+            story: achieverData.journey.startingPoint.story,
+            listTitle: 'Challenges Faced',
+            list: achieverData.journey.startingPoint.challenges,
+          },
+          {
+            title: 'Turning Points in My Journey',
+            list: achieverData.journey.turningPoints.milestones,
+            extraTitle: 'Influences & Mentorship',
+            extraList: achieverData.journey.turningPoints.influences,
+          },
+          {
+            title: 'Overcoming Challenges',
+            list: achieverData.journey.resolutionOfChallenges.solutions,
+          },
+        ].map((section, idx) => (
+          <motion.div
+            key={idx}
+            className="rounded-2xl bg-white/10 p-6 shadow-lg backdrop-blur-md"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: idx * 0.2 }}
+          >
+            <h2 className="text-2xl font-semibold text-[#00a6fb]">{section.title}</h2>
+            {section.story && <p className="mt-4 text-gray-300">{section.story}</p>}
+            {section.list && (
+              <>
+                {section.listTitle && <h3 className="mt-4 text-lg font-semibold text-white">{section.listTitle}:</h3>}
+                <ul className="mt-2 list-disc space-y-1 pl-6 text-gray-300">
+                  {section.list.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
+                </ul>
+              </>
+            )}
+            {section.extraTitle && (
+              <>
+                <h3 className="mt-4 text-lg font-semibold text-white">{section.extraTitle}:</h3>
+                <ul className="mt-2 list-disc space-y-1 pl-6 text-gray-300">
+                  {section.extraList.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
+                </ul>
+              </>
+            )}
+          </motion.div>
         ))}
+      </section>
+      <section className="mx-auto mt-12 rounded-xl bg-gray-900 p-8 shadow-lg">
+        {/* Section Title */}
+        <h2 className="mb-6 border-b border-gray-700 pb-3 text-3xl font-bold text-[#00a6fb]">Interview Process</h2>
 
-        <h3 className="mt-8 text-xl font-semibold">Tips for Success</h3>
-        <ul className="list-disc pl-6">
-          {achieverData.interviewProcess.tipsForSuccess.insights.map((insight, index) => (
-            <li key={index} className="text-gray-300">
-              {insight}
-            </li>
+        {/* Preparation */}
+        <div className="mb-8">
+          <h3 className="mb-3 text-2xl font-semibold text-white">Preparation</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            {achieverData.interviewProcess.preparation.resourcesUsed.map((resource, index) => (
+              <li key={index} className="leading-relaxed text-gray-300">
+                {resource}
+              </li>
+            ))}
+          </ul>
+          <p className="mt-3 italic text-gray-400">⏳ Timeline: {achieverData.interviewProcess.preparation.timeline}</p>
+        </div>
+
+        {/* Sample Interview Questions */}
+        <div className="mb-8">
+          <h3 className="mb-4 text-2xl font-semibold text-white">Sample Interview Questions</h3>
+          {Object.keys(achieverData.interviewProcess.interviewQuestions.categories).map((category, index) => (
+            <div key={index} className="mb-6 rounded-lg bg-gray-800 p-4">
+              <h4 className="mb-2 text-lg font-semibold text-[#00a6fb]">{category}</h4>
+              <ul className="list-disc space-y-1 pl-6">
+                {achieverData.interviewProcess.interviewQuestions.categories[category].map((question, idx) => (
+                  <li key={idx} className="text-gray-300">
+                    {question}
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-2 text-gray-400">💡 {achieverData.interviewProcess.interviewQuestions.answers[index]}</p>
+            </div>
           ))}
-        </ul>
-        <h3 className="mt-4 text-xl font-semibold">Common Mistakes</h3>
-        <ul className="list-disc pl-6">
-          {achieverData.interviewProcess.tipsForSuccess.commonMistakes.map((mistake, index) => (
-            <li key={index} className="text-gray-300">
-              {mistake}
-            </li>
-          ))}
-        </ul>
+        </div>
+
+        {/* Tips for Success */}
+        <div className="mb-8">
+          <h3 className="mb-3 text-2xl font-semibold text-white">Tips for Success</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            {achieverData.interviewProcess.tipsForSuccess.insights.map((insight, index) => (
+              <li key={index} className="text-gray-300">
+                {insight}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Common Mistakes */}
+        <div>
+          <h3 className="mb-3 text-2xl font-semibold text-white">Common Mistakes</h3>
+          <ul className="list-disc space-y-2 pl-6">
+            {achieverData.interviewProcess.tipsForSuccess.commonMistakes.map((mistake, index) => (
+              <li key={index} className="text-red-400">
+                {mistake}
+              </li>
+            ))}
+          </ul>
+        </div>
       </section>
 
-      <section className=" mx-auto mt-12 p-8">
-        <h2 className="text-2xl font-semibold text-[#00a6fb]">Resources for Preparation</h2>
-        {achieverData.resources.learningMaterials.map((material, index) => (
-          <div key={index} className="mt-4">
-            <a href={material.link} className="font-semibold text-[#00a6fb]">
-              {material.title}
-            </a>
-            <span className="ml-2 text-gray-300">{material.type}</span>
-          </div>
-        ))}
+      <section className="mx-auto mt-12 max-w-5xl rounded-2xl border border-gray-700 bg-gray-800 p-8 shadow-lg">
+        <h2 className="mb-6 text-3xl font-bold tracking-wide text-[#00a6fb]">Inspiration & Guidance</h2>
 
-        <h3 className="mt-8 text-xl font-semibold">Study Techniques</h3>
-        <ul className="list-disc pl-6">
-          {achieverData.resources.studyTechniques.map((technique, index) => (
-            <li key={index} className="text-gray-300">
-              {technique}
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section className=" mx-auto mt-12 p-8">
-        <h2 className="text-2xl font-semibold text-[#00a6fb]">Inspiration & Guidance</h2>
         {achieverData.inspirationAndGuidance.roadmaps.map((roadmap, index) => (
-          <div key={index} className="mt-8">
-            <h3 className="text-xl font-semibold text-gray-300">{roadmap.goal}</h3>
-            <ul className="list-disc pl-6">
-              {roadmap.steps.map((step, index) => (
-                <li key={index} className="text-gray-300">
+          <div
+            key={index}
+            className="mt-8 rounded-xl border border-gray-700 bg-gray-900 p-6 transition-shadow hover:shadow-md"
+          >
+            <h3 className="mb-4 text-2xl font-semibold text-gray-100">{roadmap.goal}</h3>
+            <ul className="list-disc space-y-2 pl-6">
+              {roadmap.steps.map((step, stepIndex) => (
+                <li key={stepIndex} className="leading-relaxed text-gray-300 transition-colors hover:text-[#00a6fb]">
                   {step}
                 </li>
               ))}
@@ -195,21 +195,26 @@ const AchieverJourneyPage = () => {
         ))}
       </section>
 
-      <footer className="bg-gray-900 py-6 text-center">
+      {/* Footer */}
+      <footer className="mt-16 bg-gray-900 py-8 text-center">
         <h2 className="mb-4 text-xl text-gray-300">Connect with Me for Guidance</h2>
-        <div className="flex justify-center gap-4">
-          <a href={achieverData.socialsAndPortfolio.github} target="_blank" rel="noopener noreferrer">
-            <FaGithub className="text-2xl text-gray-300 hover:text-[#00a6fb]" />
-          </a>
-          <a href={achieverData.socialsAndPortfolio.linkedin} target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className="text-2xl text-gray-300 hover:text-[#00a6fb]" />
-          </a>
-          <a href={achieverData.socialsAndPortfolio.twitter} target="_blank" rel="noopener noreferrer">
-            <FaTwitter className="text-2xl text-gray-300 hover:text-[#00a6fb]" />
-          </a>
-          <a href={achieverData.socialsAndPortfolio.personalPortfolio} target="_blank" rel="noopener noreferrer">
-            <FaGlobe className="text-2xl text-gray-300 hover:text-[#00a6fb]" />
-          </a>
+        <div className="flex justify-center gap-6">
+          {[
+            { icon: FaGithub, link: achieverData.socialsAndPortfolio.github },
+            { icon: FaLinkedin, link: achieverData.socialsAndPortfolio.linkedin },
+            { icon: FaTwitter, link: achieverData.socialsAndPortfolio.twitter },
+            { icon: FaGlobe, link: achieverData.socialsAndPortfolio.personalPortfolio },
+          ].map(({ icon: Icon, link }, idx) => (
+            <a
+              key={idx}
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-2xl text-gray-300 transition-colors hover:text-[#00a6fb]"
+            >
+              <Icon />
+            </a>
+          ))}
         </div>
       </footer>
     </div>

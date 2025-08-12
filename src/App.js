@@ -2,6 +2,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import { Analytics } from '@vercel/analytics/react';
 import Homepage from './Homepage';
 // Introducing DevDisplay
 import Home from './Page/Home.jsx';
@@ -63,6 +64,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <Analytics />
       <Helmet>
         <title>DevDisplay - Paradise for developers</title>
         <meta name="description" content="The First Global Platform for Developers to Fulfill All Their Tech Needs." />

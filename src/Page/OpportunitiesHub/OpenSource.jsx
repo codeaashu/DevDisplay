@@ -715,7 +715,7 @@ const OSProgramCardComponent = ({
             <div className="status-user" />
             Apply Now
           </a>
-          <div className="mt-2 flex flex-col items-start gap-1 rounded-lg border border-[#00a6fb] bg-gray-900 bg-opacity-50 px-14 py-3 text-sm text-xs text-white text-white shadow-lg backdrop-blur-md transition-all hover:bg-gray-800">
+          <div className="mt-2 flex flex-col items-start gap-1 rounded-lg border border-[#00a6fb] bg-gray-900 bg-opacity-50 px-14 py-3 text-sm text-xs text-white shadow-lg backdrop-blur-md transition-all hover:bg-gray-800">
             <div className="flex items-center">
               <FontAwesomeIcon icon={faCalendarAlt} className="mr-2 text-[#00a6fb]" />
               <span className="font-medium">{timeline}</span>
