@@ -47,11 +47,16 @@ const renderSection = (doc, yPosition, margin, pageWidth, contentWidth, title, d
   doc.setFontSize(sectionTitleFontSize);
   doc.setFont('helvetica', 'bold');
   yPosition = addText(doc, title, margin, yPosition);
-  yPosition += 2;
+
+  doc.setDrawColor(150);
+  doc.setLineWidth(0.5);
+  doc.line(margin, yPosition, margin + contentWidth, yPosition);
+
+  yPosition += 4; // uniform gap after the line
 
   doc.setLineWidth(0.5);
-  doc.line(margin, yPosition, pageWidth - margin, yPosition);
-  yPosition += 3;
+
+  yPosition += 6; // more breathing space
 
   doc.setFont('helvetica', 'normal');
 
@@ -79,16 +84,16 @@ const renderSection = (doc, yPosition, margin, pageWidth, contentWidth, title, d
 
   return yPosition;
 };
-
 export const generateResumePdf = (resumeData, setIsGenerating) => {
   setIsGenerating(true);
 
   try {
     const doc = new jsPDF('p', 'mm', 'a4');
-    const margin = 15;
+    const margin = 10;
     let yPosition = margin;
     const pageWidth = doc.internal.pageSize.getWidth();
     const contentWidth = pageWidth - 2 * margin;
+
     const bodyFontSize = 10;
     const wrappedLineHeight = 3.5;
     const linkColorHex = '#007bff';
@@ -192,11 +197,11 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
 
             doc.setFont('helvetica', 'bold');
             currentY = addText(doc, `${category.title}:`, margin, currentY);
-            currentY += 1;
+            currentY += 1; // gap after title
 
             doc.setFont('helvetica', 'normal');
             currentY = addWrappedText(doc, category.content, margin, currentY, contentWidth, wrappedLineHeight);
-            currentY += 4;
+            currentY += 4; // additional gap after content
           }
         });
         return currentY;
@@ -235,8 +240,9 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
 
         doc.setFont('helvetica', 'normal');
         if (exp.workDescription) {
-          currentY += 2;
+          currentY += 2; // gap before work description
           currentY = addWrappedText(doc, exp.workDescription, margin, currentY, contentWidth, wrappedLineHeight);
+          currentY += 6; // gap after work description
         }
         return currentY;
       },
@@ -326,6 +332,7 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
           }
           doc.setFontSize(oldFontSize);
           doc.setFont('helvetica', 'normal');
+          currentY += 6; // gap after links
         }
         return currentY;
       },
@@ -362,6 +369,7 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
         });
         doc.setFont('helvetica', 'normal');
         doc.setFontSize(bodyFontSize);
+        currentY += 6; // gap before description
 
         return currentY;
       },
@@ -438,7 +446,7 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
         } else if (!detailsAdded) {
           currentY -= 2;
         }
-
+        currentY += 6; // gap after leadership section
         return currentY;
       },
     );
@@ -472,6 +480,12 @@ export const generateResumePdf = (resumeData, setIsGenerating) => {
             currentY += 2;
           });
           return currentY - 2;
+        }
+        // If no achievements, return currentY without adding anything
+        if (currentY > y) {
+          currentY -= 2; // Adjust for the last gap
+        } else {
+          currentY = y; // Reset to original position if no achievements
         }
         return currentY;
       },
