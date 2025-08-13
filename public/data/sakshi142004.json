@@ -1,0 +1,13 @@
+{
+  "name": "Sakshi Bhati",
+  "location": "Indore, India",
+  "bio": "Turning logic into interfaces | Java & Web Developer | APIs, Automation, and Real-World Projects.",
+  "avatar": "https://github.com/sakshi142004.png",
+  "portfolio": "https://github.com/sakshi142004",
+  "skills": ["Java", "Flask", "HTML", "CSS", "JavaScript", "REST APIs", "MySQL", "Android Studio", "Geofencing", "Git"],
+  "social": {
+    "GitHub": "https://github.com/sakshi142004",
+    "LinkedIn": "https://www.linkedin.com/in/sakshi142004",
+    "Email": "bhatisakshi2004@gmail.com"
+  }
+}
