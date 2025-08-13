@@ -62,7 +62,6 @@ const AchieverJourneyPage = () => {
           </ul>
         </motion.div>
       </section>
-
       {/* Journey Sections */}
       <section className="container mx-auto space-y-12 px-6">
         {[
@@ -149,7 +148,6 @@ const AchieverJourneyPage = () => {
             </div>
           ))}
         </div>
-
         {/* Tips for Success */}
         <div className="mb-8">
           <h3 className="mb-3 text-2xl font-semibold text-white">Tips for Success</h3>
@@ -177,7 +175,6 @@ const AchieverJourneyPage = () => {
 
       <section className="mx-auto mt-12 max-w-5xl rounded-2xl border border-gray-700 bg-gray-800 p-8 shadow-lg">
         <h2 className="mb-6 text-3xl font-bold tracking-wide text-[#00a6fb]">Inspiration & Guidance</h2>
-
         {achieverData.inspirationAndGuidance.roadmaps.map((roadmap, index) => (
           <div
             key={index}
