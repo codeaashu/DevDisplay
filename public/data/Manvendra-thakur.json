@@ -1,21 +1,16 @@
 {
   "name": "Manvendra pratap singh",
-  "location": "Ayodhya,Uttar Pradeh",
+  "location": "Ayodhya, Uttar Pradeh",
   "bio": "I’m Manvendra Thakur, a passionate and curious Computer Science Engineering student currently in my 3rd year at Ramlu College. I’m building strong foundations in Java and Web Development, aiming to become a job-ready software developer by the end of my degree.",
   "avatar": "https://github.com/Manvendra-thakur.png",
-  
-  "skills": ["html", "css", "java","c","Github","Git"],
+  "portfolio": "https://github.com/Manvendra-thakur",
+  "skills": ["html", "css", "java", "c", "Github", "Git"],
   "social": {
     "GitHub": "https://github.com/Manvendra-thakur",
-    
-    "LinkedIn": "https://www.linkedin.com/in/manvendra-pratap-singh-42b17a2b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  
+    "LinkedIn": "https://www.linkedin.com/in/manvendra-pratap-singh-42b17a2b3/",
     "Email": "manvendrapratapsingh356@gmail.com",
     "Discord": "https://discord.com/users/manvendrathakur_05",
     "LeetCode": "https://leetcode.com/Dark_developer",
-    
-    "HackerRank": "https://www.hackerrank.com/Manvendra pratap singh",
-   
-    
+    "HackerRank": "https://www.hackerrank.com/Manvendra pratap singh"
   }
 }
