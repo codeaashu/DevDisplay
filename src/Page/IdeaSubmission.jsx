@@ -1,35 +1,22 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+import IdeaSubmissionForm from '../components/IdeaSubmissionForm.jsx';
 
-const IdeaSubmissionPage = () => {
+export default function IdeaSubmission() {
   return (
-    <div className="background-wrapper1 min-h-screen bg-gray-900 p-6 text-center text-white">
-      <header className="mb-6 w-full rounded-md bg-[#00a6fb] py-4 text-center">
-        <h1 className="text-4xl font-bold">
-          This is the Idea Submission page - Want to Build this page as a contributor
-        </h1>
-      </header>
-      <h1 className="text-center text-4xl font-bold">Click here for features details 👇🏻</h1>
-      <a href="https://github.com/codeaashu/DevDisplay/issues/1083#issue-3297263652" target="_blank" rel="noreferrer">
-        <button className="mx-auto mt-4 block inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-sm text-xl transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-          <span>
-            <b>🌟 Add Idea Submission Features 💌 & Get 8 Benefits 🌟</b>
-          </span>
-        </button>
-      </a>
-      <h2 className="mt-8 text-center text-3xl font-bold">Benefits of Contribution</h2>
-      <a
-        href="https://drive.google.com/file/d/17Wh9xxN_SIeEVcejoSN7K7tUhWXPvSxR/view?usp=sharing"
-        target="_blank"
-        rel="noreferrer"
+    <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-blue-50 to-white px-4 py-10 dark:from-gray-900 dark:to-gray-800">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="w-full max-w-3xl rounded-lg bg-white p-8 shadow-xl dark:bg-gray-800"
       >
-        <button className="mx-auto mt-4 block inline-flex cursor-pointer items-center rounded-lg border-2 border-textSecondary bg-textSecondary px-[15px] py-1.5 text-center font-poppoins text-lg text-sm transition-all duration-500 hover:bg-transparent hover:text-textSecondary dark:text-white">
-          <span>
-            <b>📄 View the Benefits of Contributing to DevDisplay</b>
-          </span>
-        </button>
-      </a>
+        <h1 className="mb-4 text-center text-3xl font-bold text-gray-900 dark:text-white">💡 Submit Your Idea</h1>
+        <p className="mb-8 text-center text-gray-700 dark:text-gray-300">
+          Pitch your most innovative project ideas to the DevDisplay community. The top-voted ideas will come to life!
+        </p>
+        <IdeaSubmissionForm />
+      </motion.div>
     </div>
   );
-};
-
-export default IdeaSubmissionPage;
+}
