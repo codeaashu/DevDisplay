@@ -21,7 +21,7 @@
     "framer-motion": "^12.23.12",
     "html2canvas": "^1.4.1",
     "jspdf": "^3.0.1",
-    "lucide-react": "^0.539.0",
+    "lucide-react": "^0.541.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.5",
