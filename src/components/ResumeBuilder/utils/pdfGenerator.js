@@ -50,7 +50,7 @@ const renderSection = (doc, yPosition, margin, pageWidth, contentWidth, title, d
 
   doc.setDrawColor(150);
   doc.setLineWidth(0.5);
-  doc.line(margin, yPosition, margin + contentWidth, yPosition);
+  doc.line(margin, yPosition, margin + contentWidth, yPosition); // draw line under title
 
   yPosition += 4; // uniform gap after the line
 

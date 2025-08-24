@@ -56,7 +56,7 @@ import DevShare from './Page/ResoucesHub/DevShare.jsx';
 import PageNotFound from './Page/PageNotFound.jsx';
 import ProfilePage from './components/Profile/ProfilePage';
 import { ResumeProvider } from './components/ResumeBuilder/context/ResumeContext.jsx';
-
+import Collaboration from './Page/Collaboration.jsx';
 function App() {
   React.useEffect(() => {
     document.documentElement.classList.add('dark');
@@ -116,6 +116,7 @@ function App() {
         <Route path="/ProjectShowcase" element={<ProjectShowcase />} />
         <Route path="/Discussions" element={<Discussions />} />
         <Route path="/IdeaSubmission" element={<IdeaSubmission />} />
+        <Route path="/collaboration/:id" element={<Collaboration />} />
         <Route path="/PortfolioIdeas" element={<PortfolioIdeas />} />
         <Route path="/PortfolioBuilder" element={<PortfolioBuilder />} />
         <Route path="/Resume" element={<Resume />} />

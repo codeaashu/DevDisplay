@@ -12,7 +12,7 @@ import filenames from './ProfilesList.json';
 
 function App() {
   const profilesRef = useRef();
-  const [profiles, setProfiles] = useState([]);
+  const [profiles, setProfiles] = useState([]); //profiles
   const [searching, setSearching] = useState(false);
   const [combinedData, setCombinedData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
