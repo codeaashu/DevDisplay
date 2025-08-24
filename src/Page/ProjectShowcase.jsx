@@ -399,7 +399,7 @@ const ProjectCard = ({ project }) => {
         </a>
         {live_url && (
           <a
-            href={github_url}
+            href={live_url}
             target="_blank"
             rel="noreferrer"
             className="flex items-center text-sm text-[#00a6fb] hover:underline"

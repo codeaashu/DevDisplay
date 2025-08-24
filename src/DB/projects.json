@@ -4307,5 +4307,34 @@
         "maker_image": "https://github.com/abhishekkumar62000.png"
       }
     ]
+  },
+  {
+    "github_username": "shre167",
+    "Projects": [
+      {
+        "github_url": "https://github.com/shre167/MedSense",
+        "live_url": "https://medsense-1.onrender.com/",
+        "title": "MedSense",
+        "description": "MedSense is a health-focused project I developed to assist individuals in managing their medications more efficiently and safely.",
+        "tech": ["Flask", "Python", "HTML", "AI/ML Models"],
+        "maker_image": "https://github.com/shre167.png"
+      },
+      {
+        "github_url": "https://github.com/shre167/financely",
+        "live_url": "https://financely-u3af-pjb5qsk5f-shreya-samals-projects.vercel.app/",
+        "title": "Financely",
+        "description": "A financial management app for tracking, categorizing, sorting, and searching transactions with real-time updates. Built using React, Express, and Firebase, it enables seamless transaction management with import/export features.",
+        "tech": ["React", "Express", "Firebase"],
+        "maker_image": "https://github.com/shre167.png"
+      },
+      {
+        "github_url": "https://github.com/shre167/split-ease-app",
+        "live_url": "https://split-ease-app.vercel.app/",
+        "title": "SplitEase - UPI Powered Smart Expense Manager",
+        "description": "A full-stack web app that simplifies group and personal expense tracking with real-time UPI integration. Features include smart splitting, borrowing requests, QR-based payments, currency preferences, monthly insights, and an AI assistant for queries.",
+        "tech": ["Vite", "TypeScript", "React", "Tailwind CSS"],
+        "maker_image": "https://github.com/shre167.png"
+      }
+    ]
   }
 ]
