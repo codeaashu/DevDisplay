@@ -2588,5 +2588,47 @@
     "liveUrl": "https://ayushhh-portfolio-2025-oalo.vercel.app/",
     "repo": "https://github.com/Ayush2426/",
     "techStack": "ReactJs, Javascript, Css, Vercel, Github, Generative AI"
+  },
+  {
+    "author": "Sonali Mishra",
+    "screenshot": "https://github.com/user-attachments/assets/5eb7cd3f-4e97-4b47-939d-85854e572c32",
+    "liveUrl": "https://sonali-portfolio-nine.vercel.app/",
+    "repo": "https://github.com/sonali131/SonaliPortfolio",
+    "techStack": "HTML, CSS, JAVASCRIPT"
+  },
+  {
+    "author": "Aayush Kumar",
+    "screenshot": "https://github.com/user-attachments/assets/e8dd64c1-bcfa-432c-b9e1-de79249f45a2",
+    "liveUrl": "http://aayush-portfolio-pink.vercel.app/",
+    "repo": "https://github.com/beingaayush/MyPortfolio",
+    "techStack": "HTML5, CSS3, JavaScript"
+  },
+  {
+    "author": "Amit Kumar",
+    "screenshot": "https://github.com/user-attachments/assets/18b83967-350f-41bf-818b-b8f0182a2f00",
+    "liveUrl": "https://amit-kumar-portfolio.vercel.app/",
+    "repo": "https://github.com/amitkumardemo/Amit-kumar-portfolio.git",
+    "techStack": "React, JavaScript , TalwindCss , Vue.js, TypeScript"
+  },
+  {
+    "author": "Piyush Gupta",
+    "screenshot": "https://github.com/user-attachments/assets/156af719-5af9-467b-8fa8-0d3d645c51bb",
+    "liveUrl": "https://www.piyushgupta.me/",
+    "repo": "https://github.com/Piyush-t24/Portfolio",
+    "techStack": "HTML, CSS, JavaScript"
+  },
+  {
+    "author": "Rohan Shrivastava",
+    "screenshot": "https://github.com/user-attachments/assets/4469e5af-5200-4158-9ff9-a578682db7cb",
+    "liveUrl": "https://my-modern-portfolio-zeta.vercel.app/",
+    "repo": "https://github.com/RohanShrivastava08/My-Modern-Portfolio",
+    "techStack": "React, TailwindCSS, Firebase"
+  },
+  {
+    "author": "Navneet Vishwakarma",
+    "screenshot": "https://github.com/user-attachments/assets/1d61152d-dacc-4b75-93d0-9eea909b8687",
+    "liveUrl": "https://navneet-portfolio.netwaycabs.com/",
+    "repo": "#",
+    "techStack": "reactjs, nodejs"
   }
 ]

@@ -10,7 +10,7 @@
 `Sonali Mishra` https://github.com/sonali131
 <img width="1886" height="860" alt="Screenshot 2025-08-20 142706" src="https://github.com/user-attachments/assets/5eb7cd3f-4e97-4b47-939d-85854e572c32" />
 
-`Navneet Vishwakarma` 
+`Navneet Vishwakarma`
 <img width="1397" height="912" alt="portfolio" src="https://github.com/user-attachments/assets/1d61152d-dacc-4b75-93d0-9eea909b8687" />
 
 `Piyush Gupta` https://github.com/Piyush-t24
@@ -24,6 +24,3 @@
 
 `Aayush Kumar` https://github.com/beingaayush
 ![IMG-20250409-WA0005](https://github.com/user-attachments/assets/e8dd64c1-bcfa-432c-b9e1-de79249f45a2)
-
-
-
