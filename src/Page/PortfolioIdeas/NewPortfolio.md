@@ -6,3 +6,6 @@
 
 `Ayush Kumar Verma` https://github.com/Ayush2426
 ![Screenshot 2025-06-28 003815](https://github.com/user-attachments/assets/314c25e6-28f6-46d9-8f11-312ab2a0e34c)
+
+`Sonali Mishra` https://github.com/sonali131
+<img width="1886" height="860" alt="Screenshot 2025-08-20 142706" src="https://github.com/user-attachments/assets/5eb7cd3f-4e97-4b47-939d-85854e572c32" />
