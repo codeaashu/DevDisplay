@@ -4336,5 +4336,71 @@
         "maker_image": "https://github.com/shre167.png"
       }
     ]
+  },
+  {
+    "github_username": "sonali131",
+    "Projects": [
+      {
+        "github_url": "https://github.com/sonali131/Time-Crypto-Price-Tracker",
+        "live_url": "https://time-crypto-price-tracker-4.onrender.com/",
+        "title": "Time Crypto Price Tracker",
+        "description": "Real Time Crypto Currency Analyser",
+        "tech": ["React", "Redux Toolkit"],
+        "maker_image": "https://github.com/sonali131.png"
+      },
+      {
+        "github_url": "https://github.com/sonali131/Uttar-Pradesh-Tourism",
+        "live_url": "http://jazzy-faun-5ea300.netlify.app/",
+        "title": "Uttar Pradesh Tourism",
+        "description": "A comprehensive guide to Uttar Pradesh's rich cultural heritage and tourist attractions.",
+        "tech": ["HTML", "CSS", "JavaScript"],
+        "maker_image": "https://github.com/sonali131.png"
+      },
+      {
+        "github_url": "https://github.com/sonali131/Quiz-App",
+        "live_url": "https://quiz-app-xi-roan.vercel.app/",
+        "title": "Quizz App",
+        "description": "A fun and interactive quiz application built with HTML, CSS, and JavaScript.",
+        "tech": ["React", "Vite", "APICalling"],
+        "maker_image": "https://github.com/sonali131.png"
+      },
+      {
+        "github_url": "https://github.com/sonali131/TimeComplexityAnalayzer",
+        "live_url": "https://time-complexity-analayzer.vercel.app/",
+        "title": "Time Complexity Analyzer",
+        "description": "A comprehensive guide to analyzing time complexity of algorithms.",
+        "tech": ["React", "Vite", "CSS"],
+        "maker_image": "https://github.com/sonali131.png"
+      },
+      {
+        "github_url": "https://github.com/sonali131/Extension",
+        "live_url": "https://extension-seven-beta.vercel.app/",
+        "title": "Google Chrome Extension",
+        "description": "Dad Jokes for fun...!",
+        "tech": ["API", "HTML", "CSS", "JavaScript"],
+        "maker_image": "https://github.com/sonali131.png"
+      },
+      {
+        "github_url": "https://github.com/sonali131/Covid19",
+        "live_url": "https://covid19-xi-rust.vercel.app/",
+        "title": "Covid App",
+        "description": "Show the all india recovery rate",
+        "tech": ["HTML", "CSS", "JavaScript"],
+        "maker_image": "https://github.com/sonali131.png"
+      }
+    ]
+  },
+  {
+    "github_username": "RohanShrivastava08",
+    "Projects": [
+      {
+        "github_url": "https://github.com/RohanShrivastava08/Job-Application-Tracker",
+        "live_url": "https://job-application-tracker-plum.vercel.app/",
+        "title": "Job Application Tracker",
+        "description": "A web application to track job applications. Simplify your job search journey. Track all your applications, interviews, and offers in one place.",
+        "tech": ["React", "Typescript", "Tailwind CSS", "Framer Motion", "Firebase"],
+        "maker_image": "https://github.com/RohanShrivastava08.png"
+      }
+    ]
   }
 ]
