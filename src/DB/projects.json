@@ -4307,5 +4307,100 @@
         "maker_image": "https://github.com/abhishekkumar62000.png"
       }
     ]
+  },
+  {
+    "github_username": "shre167",
+    "Projects": [
+      {
+        "github_url": "https://github.com/shre167/MedSense",
+        "live_url": "https://medsense-1.onrender.com/",
+        "title": "MedSense",
+        "description": "MedSense is a health-focused project I developed to assist individuals in managing their medications more efficiently and safely.",
+        "tech": ["Flask", "Python", "HTML", "AI/ML Models"],
+        "maker_image": "https://github.com/shre167.png"
+      },
+      {
+        "github_url": "https://github.com/shre167/financely",
+        "live_url": "https://financely-u3af-pjb5qsk5f-shreya-samals-projects.vercel.app/",
+        "title": "Financely",
+        "description": "A financial management app for tracking, categorizing, sorting, and searching transactions with real-time updates. Built using React, Express, and Firebase, it enables seamless transaction management with import/export features.",
+        "tech": ["React", "Express", "Firebase"],
+        "maker_image": "https://github.com/shre167.png"
+      },
+      {
+        "github_url": "https://github.com/shre167/split-ease-app",
+        "live_url": "https://split-ease-app.vercel.app/",
+        "title": "SplitEase - UPI Powered Smart Expense Manager",
+        "description": "A full-stack web app that simplifies group and personal expense tracking with real-time UPI integration. Features include smart splitting, borrowing requests, QR-based payments, currency preferences, monthly insights, and an AI assistant for queries.",
+        "tech": ["Vite", "TypeScript", "React", "Tailwind CSS"],
+        "maker_image": "https://github.com/shre167.png"
+      }
+    ]
+  },
+  {
+    "github_username": "sonali131",
+    "Projects": [
+      {
+        "github_url": "https://github.com/sonali131/Time-Crypto-Price-Tracker",
+        "live_url": "https://time-crypto-price-tracker-4.onrender.com/",
+        "title": "Time Crypto Price Tracker",
+        "description": "Real Time Crypto Currency Analyser",
+        "tech": ["React", "Redux Toolkit"],
+        "maker_image": "https://github.com/sonali131.png"
+      },
+      {
+        "github_url": "https://github.com/sonali131/Uttar-Pradesh-Tourism",
+        "live_url": "http://jazzy-faun-5ea300.netlify.app/",
+        "title": "Uttar Pradesh Tourism",
+        "description": "A comprehensive guide to Uttar Pradesh's rich cultural heritage and tourist attractions.",
+        "tech": ["HTML", "CSS", "JavaScript"],
+        "maker_image": "https://github.com/sonali131.png"
+      },
+      {
+        "github_url": "https://github.com/sonali131/Quiz-App",
+        "live_url": "https://quiz-app-xi-roan.vercel.app/",
+        "title": "Quizz App",
+        "description": "A fun and interactive quiz application built with HTML, CSS, and JavaScript.",
+        "tech": ["React", "Vite", "APICalling"],
+        "maker_image": "https://github.com/sonali131.png"
+      },
+      {
+        "github_url": "https://github.com/sonali131/TimeComplexityAnalayzer",
+        "live_url": "https://time-complexity-analayzer.vercel.app/",
+        "title": "Time Complexity Analyzer",
+        "description": "A comprehensive guide to analyzing time complexity of algorithms.",
+        "tech": ["React", "Vite", "CSS"],
+        "maker_image": "https://github.com/sonali131.png"
+      },
+      {
+        "github_url": "https://github.com/sonali131/Extension",
+        "live_url": "https://extension-seven-beta.vercel.app/",
+        "title": "Google Chrome Extension",
+        "description": "Dad Jokes for fun...!",
+        "tech": ["API", "HTML", "CSS", "JavaScript"],
+        "maker_image": "https://github.com/sonali131.png"
+      },
+      {
+        "github_url": "https://github.com/sonali131/Covid19",
+        "live_url": "https://covid19-xi-rust.vercel.app/",
+        "title": "Covid App",
+        "description": "Show the all india recovery rate",
+        "tech": ["HTML", "CSS", "JavaScript"],
+        "maker_image": "https://github.com/sonali131.png"
+      }
+    ]
+  },
+  {
+    "github_username": "RohanShrivastava08",
+    "Projects": [
+      {
+        "github_url": "https://github.com/RohanShrivastava08/Job-Application-Tracker",
+        "live_url": "https://job-application-tracker-plum.vercel.app/",
+        "title": "Job Application Tracker",
+        "description": "A web application to track job applications. Simplify your job search journey. Track all your applications, interviews, and offers in one place.",
+        "tech": ["React", "Typescript", "Tailwind CSS", "Framer Motion", "Firebase"],
+        "maker_image": "https://github.com/RohanShrivastava08.png"
+      }
+    ]
   }
 ]
