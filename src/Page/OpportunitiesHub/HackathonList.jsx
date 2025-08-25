@@ -32,6 +32,21 @@ const hackathons = [
     shareLink: '#hack-quanta',
   },
   {
+    organizer: 'The Product Folks',
+    title: 'mosAIc - 2-week AI buildathon',
+    location: 'Online',
+    date: 'Sep 7',
+    domains: [
+      'Voice AI & Conversational Products',
+      'Vibecoding',
+      'AI Agents Workflow Automation',
+      'AI Evals and Observability',
+    ],
+    applyLink: 'https://mosaicbytpf.devfolio.co/?ref=37575e18b3',
+    poster: '/assets/Hackathons/mosAIc.jpg',
+    shareLink: '#mosAIc',
+  },
+  {
     organizer: 'Hack4Brahmaputra',
     title: 'Hack4Brahma',
     location: 'Guwahati, India',
@@ -51,6 +66,16 @@ const hackathons = [
       'https://unstop.com/hackathons/codesynthesis-merging-innovation-with-sustainable-impact-guru-tegh-bahadur-4th-centenary-engineering-college--1521757?lb=s8cgmb2g&utm_medium=Share&utm_source=imaashuu19859&utm_campaign=Innovation_challenge&utm_content=imaashuu19859',
     poster: '/assets/Hackathons/CodeSynthesis.png',
     shareLink: '#codesynthesis',
+  },
+  {
+    organizer: 'IdeaKode',
+    title: 'KodeKalesh 2025',
+    location: 'Kanpur, India',
+    date: 'Nov 15 - 16',
+    domains: ['IoT', 'Web3', 'AI & ML', 'Cybersecurity', 'Game Development', 'Open Innovation'],
+    applyLink: 'https://kodekalesh-2025.devfolio.co/?ref=37575e18b3',
+    poster: '/assets/Hackathons/KodeKalesh.jpg',
+    shareLink: '#kodekalesh2025',
   },
   {
     organizer: 'RNSIT Bengaluru',
