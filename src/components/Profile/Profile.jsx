@@ -184,7 +184,7 @@ function Card({ data }) {
             target="_blank"
             rel="noreferrer"
           >
-            <FaHandshake className="text-lg" />
+            <FaHandshake className="text-lg duration-300 hover:scale-125" />
           </a>
         </div>
       </div>
