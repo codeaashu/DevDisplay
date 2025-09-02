@@ -22,6 +22,16 @@ const shareContent = (url) => {
 
 const techevents = [
   {
+    organizer: 'GDG New Delhi',
+    title: 'Google I/O Extended New Delhi 2025',
+    location: 'ThoughtWorks, Gurugram, India',
+    date: 'Sep 13',
+    domains: ['Technology', 'Developer', 'GDG', 'Google I/O'],
+    applyLink: 'https://www.commudle.com/communities/gdg-new-delhi/events/google-i-o-extended-new-delhi',
+    poster: '/assets/Events/Google IO Delhi.jpg',
+    shareLink: '#googleiodelhi',
+  },
+  {
     organizer: 'GDG Gurugram',
     title: 'DevFest Gurugram 2025',
     location: 'Gurugram, India',
@@ -32,14 +42,14 @@ const techevents = [
     shareLink: '#devfestgurugram',
   },
   {
-    organizer: 'GDG New Delhi',
-    title: 'Google I/O Extended New Delhi 2025',
-    location: 'ThoughtWorks, Gurugram, India',
-    date: 'Sep 13',
-    domains: ['Technology', 'Developer', 'GDG', 'Google I/O'],
-    applyLink: 'https://www.commudle.com/communities/gdg-new-delhi/events/google-i-o-extended-new-delhi',
-    poster: '/assets/Events/Google IO Delhi.jpg',
-    shareLink: '#googleiodelhi',
+    organizer: 'GDG Cloud New Delhi',
+    title: 'SheSecures',
+    location: 'New Delhi, India',
+    date: 'Sep 27',
+    domains: ['Technology', 'Developer', 'AI', 'Cloud', 'DevOps', 'Networking'],
+    applyLink: 'https://www.commudle.com/communities/gdgcloudnd/events/shesecures',
+    poster: '/assets/Events/SheSecures.png',
+    shareLink: '#shesecures',
   },
 ];
 
