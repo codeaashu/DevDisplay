@@ -4402,5 +4402,18 @@
         "maker_image": "https://github.com/RohanShrivastava08.png"
       }
     ]
+  },
+  {
+    "github_username": "KWIZERA-CALEB",
+    "Projects": [
+      {
+        "github_url": "https://github.com/KWIZERA-CALEB/instagram-clone",
+        "live_url": "https://twikaapp.netlify.app/",
+        "title": "Twikka",
+        "description": "A social media platform hobby project similar to instagram with real time chatting and playing games online built within 48 hours.",
+        "tech": ["Zustand", "Reactjs", "Expressjs", "Mongodb", "Antdesign", "Socket.io"],
+        "maker_image": "https://github.com/KWIZERA-CALEB.png"
+      }
+    ]
   }
 ]
