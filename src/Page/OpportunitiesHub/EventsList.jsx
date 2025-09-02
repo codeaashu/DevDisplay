@@ -51,6 +51,26 @@ const techevents = [
     poster: '/assets/Events/SheSecures.png',
     shareLink: '#shesecures',
   },
+  {
+    organizer: 'GDG Noida',
+    title: 'Design Samvaad',
+    location: 'TBD, Noida, India',
+    date: 'Sep 20',
+    domains: ['Technology', 'Developer', 'AI', 'Design'],
+    applyLink: 'https://www.commudle.com/communities/gdg-noida/events/design-samvaad',
+    poster: '/assets/Events/Design Samvaad.png',
+    shareLink: '#designsamvaad',
+  },
+  {
+    organizer: 'GDG Ludhiana',
+    title: 'DevFest Ludhiana 2025',
+    location: 'GNDEC, Ludhiana, India',
+    date: 'Oct 11',
+    domains: ['Technology', 'Developer', 'GDG', 'DevFest', 'Networking'],
+    applyLink: 'https://gdg.community.dev/events/details/google-gdg-ludhiana-presents-devfest-ludhiana-2025-train-the-trainer-edition/',
+    poster: '/assets/Events/DevFest Ludhiana 2025.png',
+    shareLink: '#devfestludhiana',
+  }
 ];
 
 const StyledtecheventsCard = styled.div`
@@ -152,7 +172,7 @@ const TecheventsCardComponent = ({ organizer, title, location, date, domains, ap
         <div className="absolute bottom-3 right-3 z-10">
           <button
             onClick={() => shareContent(window.location.href.split('#')[0] + shareLink)}
-            className="bg-gray-1000 hover:bg-slate-1000 flex items-center justify-center gap-2 rounded-xl border border-[#00a6fb] bg-opacity-50 px-2 py-1 text-xs text-white backdrop-blur-md transition-colors"
+            className="bg-gray-700 hover:bg-slate-1000 flex items-center justify-center gap-2 rounded-xl border border-[#00a6fb] bg-opacity-50 px-2 py-1 text-xs text-white backdrop-blur-md transition-colors"
           >
             <FontAwesomeIcon icon={faShareAlt} />
             Share
