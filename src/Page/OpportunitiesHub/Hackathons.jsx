@@ -22,6 +22,9 @@ const Navbar = () => {
             <div className="blob1" />
             <div className="inner">Spotlight Your Hackathon Globally!</div>
           </StyledButton>
+          <button className="ml-4 px-4 py-2 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700" onClick={() => setShowRoomModal(true)}>
+            Create/Join Virtual Hackathon Room
+          </button>
         </div>
 
         <div className="text-2xl font-bold">
@@ -614,3 +617,21 @@ const Hackathons = () => {
 };
 
 export default Hackathons;
+
+{showRoomModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white">
+            <div className="mb-4 flex items-center justify-between">
+              <h2 className="text-xl font-semibold">Virtual Hackathon Room</h2>
+              <button onClick={() => setShowRoomModal(false)} className="text-gray-400 hover:text-white">X</button>
+            </div>
+            <p className="mb-4">Collaborate with your team in real-time! (Chat, video, and coding tools coming soon.)</p>
+            <div className="mb-4">
+              <label className="block mb-2 font-semibold">Upload Screenshot</label>
+              <input type="file" accept="image/*" className="mb-2" onChange={e => alert('Screenshot upload coming soon!')} />
+              <div className="mt-2 text-sm text-gray-300">Screenshots will appear here after upload.</div>
+            </div>
+            <button className="rounded-lg bg-blue-600 px-4 py-2 text-white font-bold hover:bg-blue-700" onClick={() => alert('Room creation/joining coming soon!')}>Create/Join Room</button>
+          </div>
+        </div>
+      )}

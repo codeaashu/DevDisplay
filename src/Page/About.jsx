@@ -606,3 +606,16 @@ export default function About() {
     </div>
   );
 }
+
+        <section className="container mx-auto mt-12 p-8 text-center">
+          <div className="mt-8 p-6 rounded-lg bg-green-900">
+            <h2 className="text-2xl font-bold mb-4 text-green-300">Wellness & Productivity Dashboard (Coming Soon)</h2>
+            <p className="mb-4">Maintain a healthy work-life balance while coding with wellness tips, focus timers, and productivity analytics.</p>
+            <div className="mb-4">
+              <label className="block mb-2 font-semibold">Upload Wellness Screenshot</label>
+              <input type="file" accept="image/*" className="mb-2" onChange={e => alert('Screenshot upload coming soon!')} />
+              <div className="mt-2 text-sm text-gray-300">Screenshots will appear here after upload.</div>
+            </div>
+            <div className="mt-4 text-sm text-green-200">Wellness tips, timers, and analytics coming soon.</div>
+          </div>
+        </section>
