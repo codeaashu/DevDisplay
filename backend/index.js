@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import pingDB from './cron/test.cron.js';
 import * as devCronJobs from './cron/dev.cron.js';
 import * as githubCronJobs from './cron/github.cron.js';
+import * as monthlyWinnerCron from './cron/monthlyWinner.cron.js';
 
 dotenv.config({
   path: './.env',
