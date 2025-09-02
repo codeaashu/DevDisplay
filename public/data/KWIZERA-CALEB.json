@@ -1,10 +1,22 @@
 {
   "name": "Kwizera Caleb",
-  "location": "Kigali,Rwanda",
+  "location": "Kigali, Rwanda, Africa",
   "bio": "Hello, am by names of Kwizera Caleb a software and tech lover with passion of focusing on clean software products.",
   "avatar": "https://github.com/KWIZERA-CALEB.png",
   "portfolio": "https://github.com/KWIZERA-CALEB",
-  "skills": ["Nextjs", "Expressjs", "Tensorflow", "Zustand", "Redux", "Shadcn", "Collaboration", "Typescript", "Django", "Python", "Django Rest framework"],
+  "skills": [
+    "Nextjs",
+    "Expressjs",
+    "Tensorflow",
+    "Zustand",
+    "Redux",
+    "Shadcn",
+    "Collaboration",
+    "Typescript",
+    "Django",
+    "Python",
+    "Django Rest framework"
+  ],
   "social": {
     "GitHub": "https://github.com/KWIZERA-CALEB",
     "Twitter/X": "https://x.com/KwizeraCaleb",
@@ -17,6 +29,6 @@
     "DevTo": "https://dev.to/caleb82",
     "ProductHunt": "https://www.producthunt.com/@kwizera_caleb",
     "Medium": "https://medium.com/@kwizeracaleb91",
-    "Reddit": "https://www.reddit.com/user/Caleb-Kwizera/",
+    "Reddit": "https://www.reddit.com/user/Caleb-Kwizera/"
   }
 }
