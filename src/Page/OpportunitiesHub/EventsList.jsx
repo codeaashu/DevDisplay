@@ -149,67 +149,70 @@ const StyledtecheventsCard = styled.div`
   }
 `;
 
-const TecheventsCardComponent = ({ organizer, title, location, date, domains, applyLink, poster, shareLink }) => {
-  return (
-    <StyledtecheventsCard id={shareLink.substring(1)}>
-      {/* <div className="dot"></div> */}
-      <div className="flex items-center justify-between p-2">
-        <span className="text-sm font-semibold text-white">
-          <FontAwesomeIcon icon={faFlag} className="mr-1 text-[#00a6fb]" /> {organizer}
-        </span>
-        <a
-          href={applyLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-gray-1000 hover:bg-gray-1000 text-semibold relative flex items-center rounded-full border border-[#00a6fb] px-2 py-1 text-gray-300"
-        >
-          <div className="status-user" style={{ marginRight: '8px' }} />
-          Apply Now
-        </a>
-      </div>
 
-      <div className="h-50 relative w-full overflow-hidden rounded-xl p-2 shadow-md">
-        <div className="absolute bottom-3 right-3 z-10">
-          <button
-            onClick={() => shareContent(window.location.href.split('#')[0] + shareLink)}
-            className="bg-gray-700 hover:bg-slate-1000 flex items-center justify-center gap-2 rounded-xl border border-[#00a6fb] bg-opacity-50 px-2 py-1 text-xs text-white backdrop-blur-md transition-colors"
-          >
-            <FontAwesomeIcon icon={faShareAlt} />
-            Share
-          </button>
-        </div>
-        <img
-          src={poster}
-          alt={`${title} Poster`}
-          className="h-full w-full rounded-lg object-cover"
-          onError={(e) => {
-            e.target.onerror = null;
-            e.target.src = '/images/default.png';
-          }}
-        />
-      </div>
-
-      <h2 className="mt-1 p-1 text-center text-lg font-bold text-white">{title}</h2>
-
-      <div className="flex justify-between p-2 text-sm text-[#00a6fb]">
-        <span>
-          <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-1 text-white" /> {location}
-        </span>
-        <span>
-          <FontAwesomeIcon icon={faCalendarAlt} className="mr-1 text-white" /> {date}
-        </span>
-      </div>
-
-      <div className="mt-2 flex flex-wrap justify-center gap-2 p-2">
-        {domains.map((domain, idx) => (
-          <span key={idx} className="bg-gray-1000 rounded-full border border-[#00a6fb] px-2 py-1 text-xs text-gray-300">
-            {domain}
+const TecheventsCardComponent = React.forwardRef(
+  ({ organizer, title, location, date, domains, applyLink, poster, shareLink }, ref) => {
+    return (
+      <StyledtecheventsCard id={shareLink.substring(1)} ref={ref}>
+        {/* <div className="dot"></div> */}
+        <div className="flex items-center justify-between p-2">
+          <span className="text-sm font-semibold text-white">
+            <FontAwesomeIcon icon={faFlag} className="mr-1 text-[#00a6fb]" /> {organizer}
           </span>
-        ))}
-      </div>
-    </StyledtecheventsCard>
-  );
-};
+          <a
+            href={applyLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gray-1000 hover:bg-gray-1000 text-semibold relative flex items-center rounded-full border border-[#00a6fb] px-2 py-1 text-gray-300"
+          >
+            <div className="status-user" style={{ marginRight: '8px' }} />
+            Apply Now
+          </a>
+        </div>
+
+        <div className="h-50 relative w-full overflow-hidden rounded-xl p-2 shadow-md">
+          <div className="absolute bottom-3 right-3 z-10">
+            <button
+              onClick={() => shareContent(window.location.href.split('#')[0] + shareLink)}
+              className="bg-gray-700 hover:bg-slate-1000 flex items-center justify-center gap-2 rounded-xl border border-[#00a6fb] bg-opacity-50 px-2 py-1 text-xs text-white backdrop-blur-md transition-colors"
+            >
+              <FontAwesomeIcon icon={faShareAlt} />
+              Share
+            </button>
+          </div>
+          <img
+            src={poster}
+            alt={`${title} Poster`}
+            className="h-full w-full rounded-lg object-cover"
+            onError={(e) => {
+              e.target.onerror = null;
+              e.target.src = '/images/default.png';
+            }}
+          />
+        </div>
+
+        <h2 className="mt-1 p-1 text-center text-lg font-bold text-white">{title}</h2>
+
+        <div className="flex justify-between p-2 text-sm text-[#00a6fb]">
+          <span>
+            <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-1 text-white" /> {location}
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faCalendarAlt} className="mr-1 text-white" /> {date}
+          </span>
+        </div>
+
+        <div className="mt-2 flex flex-wrap justify-center gap-2 p-2">
+          {domains.map((domain, idx) => (
+            <span key={idx} className="bg-gray-1000 rounded-full border border-[#00a6fb] px-2 py-1 text-xs text-gray-300">
+              {domain}
+            </span>
+          ))}
+        </div>
+      </StyledtecheventsCard>
+    );
+  }
+);
 
 <style>
   {`
