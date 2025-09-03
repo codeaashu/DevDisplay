@@ -7,7 +7,7 @@
     "@fortawesome/fontawesome-svg-core": "^7.0.1",
     "@fortawesome/free-brands-svg-icons": "^7.0.0",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
-    "@fortawesome/react-fontawesome": "^0.2.3",
+    "@fortawesome/react-fontawesome": "^3.0.2",
     "@headlessui/react": "^2.2.4",
     "@huggingface/inference": "^4.7.0",
     "@testing-library/jest-dom": "^6.6.4",
