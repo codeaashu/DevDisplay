@@ -2077,53 +2077,6 @@
     ]
   },
   {
-    "github_username": "vaibhav-xp",
-    "Projects": [
-      {
-        "github_url": "https://github.com/vaibhav-xp/Certificate-Generator",
-        "title": "Certificate Generator",
-        "description": "This is a certificate generator application that take inputs and generate certificate also we cand do download. ",
-        "tech": ["html", "css", "javascript", "html2canva"],
-        "maker_image": "https://github.com/vaibhav-xp.png"
-      },
-      {
-        "github_url": "https://github.com/vaibhav-xp/Portfolio",
-        "title": "Portfolio site",
-        "description": "A portfolio project showcases an individual's or a professional's work, skills, and accomplishments in a concise and visually appealing manner to demonstrate their expertise and attract potential opportunities.",
-        "tech": ["css", "javascript", "html"],
-        "maker_image": "https://github.com/vaibhav-xp.png"
-      },
-      {
-        "github_url": "https://github.com/vaibhav-xp/Music-Player",
-        "title": "Music Player",
-        "description": "Music Player",
-        "tech": ["css", "javascript", "html"],
-        "maker_image": "https://github.com/vaibhav-xp.png"
-      },
-      {
-        "github_url": "https://github.com/vaibhav-xp/Vanilla-Javascript-Projects/tree/master/Color%20Flipper",
-        "title": "Color Flipper",
-        "description": "Color Flipper is a vanilla javascript project.",
-        "tech": ["css", "javascript", "html"],
-        "maker_image": "https://github.com/vaibhav-xp.png"
-      },
-      {
-        "github_url": "https://github.com/vaibhav-xp/Vanilla-Javascript-Projects/tree/master/Reviews",
-        "title": "Testimonials Carousal",
-        "description": "This is the testimonial carousal made with vanilla javascript. ",
-        "tech": ["css", "javascript", "html"],
-        "maker_image": "https://github.com/vaibhav-xp.png"
-      },
-      {
-        "github_url": "https://github.com/vaibhav-xp/OIBSIP_Pizza-delivery-app",
-        "title": "Pizza Delivery Web App",
-        "description": "Full Stack Pizza Delivery Application",
-        "tech": ["react", "redux", "mongodb", "nodejs", "expressjs"],
-        "maker_image": "https://github.com/vaibhav-xp.png"
-      }
-    ]
-  },
-  {
     "github_username": "Roshnijeewani3457",
     "Projects": [
       {
@@ -4400,6 +4353,19 @@
         "description": "A web application to track job applications. Simplify your job search journey. Track all your applications, interviews, and offers in one place.",
         "tech": ["React", "Typescript", "Tailwind CSS", "Framer Motion", "Firebase"],
         "maker_image": "https://github.com/RohanShrivastava08.png"
+      }
+    ]
+  },
+  {
+    "github_username": "KWIZERA-CALEB",
+    "Projects": [
+      {
+        "github_url": "https://github.com/KWIZERA-CALEB/instagram-clone",
+        "live_url": "https://twikaapp.netlify.app/",
+        "title": "Twikka",
+        "description": "A social media platform hobby project similar to instagram with real time chatting and playing games online built within 48 hours.",
+        "tech": ["Zustand", "Reactjs", "Expressjs", "Mongodb", "Antdesign", "Socket.io"],
+        "maker_image": "https://github.com/KWIZERA-CALEB.png"
       }
     ]
   }
