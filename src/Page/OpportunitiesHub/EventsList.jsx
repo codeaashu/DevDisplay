@@ -67,10 +67,11 @@ const techevents = [
     location: 'GNDEC, Ludhiana, India',
     date: 'Oct 11',
     domains: ['Technology', 'Developer', 'GDG', 'DevFest', 'Networking'],
-    applyLink: 'https://gdg.community.dev/events/details/google-gdg-ludhiana-presents-devfest-ludhiana-2025-train-the-trainer-edition/',
+    applyLink:
+      'https://gdg.community.dev/events/details/google-gdg-ludhiana-presents-devfest-ludhiana-2025-train-the-trainer-edition/',
     poster: '/assets/Events/DevFest Ludhiana 2025.png',
     shareLink: '#devfestludhiana',
-  }
+  },
 ];
 
 const StyledtecheventsCard = styled.div`
@@ -149,7 +150,6 @@ const StyledtecheventsCard = styled.div`
   }
 `;
 
-
 const TecheventsCardComponent = React.forwardRef(
   ({ organizer, title, location, date, domains, applyLink, poster, shareLink }, ref) => {
     return (
@@ -174,7 +174,7 @@ const TecheventsCardComponent = React.forwardRef(
           <div className="absolute bottom-3 right-3 z-10">
             <button
               onClick={() => shareContent(window.location.href.split('#')[0] + shareLink)}
-              className="bg-gray-700 hover:bg-slate-1000 flex items-center justify-center gap-2 rounded-xl border border-[#00a6fb] bg-opacity-50 px-2 py-1 text-xs text-white backdrop-blur-md transition-colors"
+              className="hover:bg-slate-1000 flex items-center justify-center gap-2 rounded-xl border border-[#00a6fb] bg-gray-700 bg-opacity-50 px-2 py-1 text-xs text-white backdrop-blur-md transition-colors"
             >
               <FontAwesomeIcon icon={faShareAlt} />
               Share
@@ -204,14 +204,17 @@ const TecheventsCardComponent = React.forwardRef(
 
         <div className="mt-2 flex flex-wrap justify-center gap-2 p-2">
           {domains.map((domain, idx) => (
-            <span key={idx} className="bg-gray-1000 rounded-full border border-[#00a6fb] px-2 py-1 text-xs text-gray-300">
+            <span
+              key={idx}
+              className="bg-gray-1000 rounded-full border border-[#00a6fb] px-2 py-1 text-xs text-gray-300"
+            >
               {domain}
             </span>
           ))}
         </div>
       </StyledtecheventsCard>
     );
-  }
+  },
 );
 
 <style>

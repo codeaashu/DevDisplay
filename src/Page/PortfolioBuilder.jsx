@@ -1,4 +1,5 @@
 import React from 'react';
+import DynamicPortfolioGenerator from './DynamicPortfolioGenerator';
 
 const PortfolioBuilderPage = () => {
   return (
@@ -28,16 +29,7 @@ const PortfolioBuilderPage = () => {
           </span>
         </button>
       </a>
-      <div className="mt-8 p-6 rounded-lg bg-gray-800">
-        <h2 className="text-2xl font-bold mb-4">Dynamic Portfolio Generator (Coming Soon)</h2>
-        <p className="mb-4">Build and customize your interactive portfolio with drag-and-drop widgets, live project demos, and real-time analytics.</p>
-        <div className="mb-4">
-          <label className="block mb-2 font-semibold">Upload Portfolio Screenshot</label>
-          <input type="file" accept="image/*" className="mb-2" onChange={e => alert('Screenshot upload coming soon!')} />
-          <div className="mt-2 text-sm text-gray-300">Screenshots will appear here after upload.</div>
-        </div>
-        <div className="mt-4 text-sm text-gray-400">Drag-and-drop widgets and analytics coming soon.</div>
-      </div>
+      <DynamicPortfolioGenerator />
     </div>
   );
 };

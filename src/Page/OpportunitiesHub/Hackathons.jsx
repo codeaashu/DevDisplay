@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Marquee from 'react-fast-marquee';
 import HackathonList from './HackathonList.jsx';
 
-const Navbar = () => {
+const Navbar = ({ onShowRoomModal }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
@@ -22,7 +22,10 @@ const Navbar = () => {
             <div className="blob1" />
             <div className="inner">Spotlight Your Hackathon Globally!</div>
           </StyledButton>
-          <button className="ml-4 px-4 py-2 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700" onClick={() => setShowRoomModal(true)}>
+          <button
+            className="ml-4 rounded-lg bg-blue-600 px-4 py-2 font-semibold text-white hover:bg-blue-700"
+            onClick={onShowRoomModal}
+          >
             Create/Join Virtual Hackathon Room
           </button>
         </div>
@@ -605,33 +608,131 @@ const StyledWrapper = styled.div`
 `;
 
 const Hackathons = () => {
+  const [showRoomModal, setShowRoomModal] = useState(false);
+  const [screenshot, setScreenshot] = useState(null);
+  const [roomName, setRoomName] = useState('');
+  const [joinedRoom, setJoinedRoom] = useState(null);
+  const [rooms, setRooms] = useState([]);
+  const [error, setError] = useState('');
+
+  const handleScreenshotUpload = (e) => {
+    if (e.target.files && e.target.files[0]) setScreenshot(e.target.files[0]);
+  };
+  const handleCreateRoom = () => {
+    if (!roomName.trim()) {
+      setError('Room name is required');
+      return;
+    }
+    if (rooms.find((r) => r.name === roomName.trim())) {
+      setError('Room already exists');
+      return;
+    }
+    const newRoom = { name: roomName.trim(), screenshot };
+    setRooms([...rooms, newRoom]);
+    setJoinedRoom(newRoom);
+    setShowRoomModal(false);
+    setRoomName('');
+    setScreenshot(null);
+    setError('');
+  };
+  const handleJoinRoom = () => {
+    if (!roomName.trim()) {
+      setError('Room name is required');
+      return;
+    }
+    const foundRoom = rooms.find((r) => r.name === roomName.trim());
+    if (!foundRoom) {
+      setError('Room not found');
+      return;
+    }
+    setJoinedRoom(foundRoom);
+    setShowRoomModal(false);
+    setRoomName('');
+    setScreenshot(null);
+    setError('');
+  };
+
   return (
     <div className="background-wrapper min-h-screen bg-gray-900">
-      <Navbar />
+      <Navbar onShowRoomModal={() => setShowRoomModal(true)} />
       <Hero />
       <Tags />
       <div className="my-4"></div>
       <HackathonList />
+      {joinedRoom && (
+        <div style={{ margin: '16px 0', padding: '12px', background: '#e3f2fd', borderRadius: 8, color: '#222' }}>
+          <strong>Joined Room:</strong> {joinedRoom.name}
+          {joinedRoom.screenshot && (
+            <div style={{ marginTop: 8 }}>
+              <img
+                src={URL.createObjectURL(joinedRoom.screenshot)}
+                alt="Screenshot"
+                style={{ maxWidth: 200, maxHeight: 120, borderRadius: 4, border: '1px solid #ccc' }}
+              />
+            </div>
+          )}
+        </div>
+      )}
+      {rooms.length > 0 && (
+        <div style={{ margin: '16px 0' }}>
+          <strong>Available Rooms:</strong>
+          <ul style={{ marginTop: 8 }}>
+            {rooms.map((room, idx) => (
+              <li key={room.name + idx} style={{ marginBottom: 4 }}>
+                {room.name} {room.screenshot && <span style={{ color: '#888' }}>(Screenshot uploaded)</span>}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {showRoomModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white">
+            <div className="mb-4 flex items-center justify-between">
+              <h2 className="text-xl font-semibold">Virtual Hackathon Room</h2>
+              <button onClick={() => setShowRoomModal(false)} className="text-gray-400 hover:text-white">
+                X
+              </button>
+            </div>
+            <div className="mb-4">
+              <input
+                type="text"
+                placeholder="Room Name or Code"
+                className="mb-2 w-full rounded bg-gray-700 p-2 text-white"
+                value={roomName}
+                onChange={(e) => {
+                  setRoomName(e.target.value);
+                  setError('');
+                }}
+              />
+              <label className="mb-2 block font-semibold">Upload Screenshot (optional):</label>
+              <input type="file" accept="image/*" className="mb-2" onChange={handleScreenshotUpload} />
+              {screenshot && <span style={{ marginLeft: 8 }}>{screenshot.name}</span>}
+            </div>
+            {error && <div style={{ color: 'red', marginBottom: 8 }}>{error}</div>}
+            <button
+              className="mr-2 rounded-lg bg-blue-600 px-4 py-2 font-bold text-white hover:bg-blue-700"
+              onClick={handleJoinRoom}
+            >
+              Join
+            </button>
+            <button
+              className="mr-2 rounded-lg bg-blue-600 px-4 py-2 font-bold text-white hover:bg-blue-700"
+              onClick={handleCreateRoom}
+            >
+              Create
+            </button>
+            <button
+              className="rounded-lg bg-gray-600 px-4 py-2 font-bold text-white hover:bg-gray-700"
+              onClick={() => setShowRoomModal(false)}
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
 
 export default Hackathons;
-
-{showRoomModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="w-full max-w-md rounded-lg bg-gray-800 p-6 text-white">
-            <div className="mb-4 flex items-center justify-between">
-              <h2 className="text-xl font-semibold">Virtual Hackathon Room</h2>
-              <button onClick={() => setShowRoomModal(false)} className="text-gray-400 hover:text-white">X</button>
-            </div>
-            <p className="mb-4">Collaborate with your team in real-time! (Chat, video, and coding tools coming soon.)</p>
-            <div className="mb-4">
-              <label className="block mb-2 font-semibold">Upload Screenshot</label>
-              <input type="file" accept="image/*" className="mb-2" onChange={e => alert('Screenshot upload coming soon!')} />
-              <div className="mt-2 text-sm text-gray-300">Screenshots will appear here after upload.</div>
-            </div>
-            <button className="rounded-lg bg-blue-600 px-4 py-2 text-white font-bold hover:bg-blue-700" onClick={() => alert('Room creation/joining coming soon!')}>Create/Join Room</button>
-          </div>
-        </div>
-      )}
