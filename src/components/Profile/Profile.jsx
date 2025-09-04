@@ -19,9 +19,10 @@ import {
   FaReddit,
   FaShareAlt,
 } from 'react-icons/fa';
-import { FaHandshake } from 'react-icons/fa';
+import { FaHandshake, FaCopy, FaTimes } from 'react-icons/fa';
 import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
 import { SiLeetcode, SiCodeforces, SiHashnode, SiReplit, SiHackerrank } from 'react-icons/si';
+import './ProfileShareTooltip.css';
 
 const UnstopIcon = () => (
   <svg width="24" height="24" viewBox="0 0 225 225" xmlns="http://www.w3.org/2000/svg">
@@ -53,17 +54,17 @@ function Profile({ data }) {
 function Card({ data }) {
   const cardRef = React.useRef();
   const [showFallback, setShowFallback] = React.useState(false);
+  const [showTooltip, setShowTooltip] = React.useState(false);
+  const shareBtnRef = React.useRef();
 
   const handleWheel = (event) => {
     event.stopPropagation();
     event.preventDefault();
     let container = event.target;
     if (!container) return false;
-
     while (!container.classList.contains('skills-container')) {
       container = container.parentNode;
     }
-
     const delta = event.deltaX || event.deltaY;
     container.scrollLeft += delta;
   };
@@ -72,6 +73,41 @@ function Card({ data }) {
     cardRef.current.addEventListener('wheel', handleWheel, { passive: false });
   }, []);
 
+  React.useEffect(() => {
+    if (!showTooltip) return;
+    function handleClickOutside(e) {
+      if (
+        shareBtnRef.current &&
+        !shareBtnRef.current.contains(e.target)
+      ) {
+        setShowTooltip(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [showTooltip]);
+
+  const profileFileName = data.fileName.replace('.json', '');
+  const shareUrl = `https://www.devdisplay.org/profile/${profileFileName}`;
+
+  // Tooltip share actions
+  const handleShareX = () => {
+    const caption = encodeURIComponent(`🚀 Check out my DevDisplay profile! #DevDisplay\n${shareUrl}`);
+    window.open(`https://x.com/intent/tweet?text=${caption}`, '_blank');
+    setShowTooltip(false);
+  };
+  const handleShareLinkedIn = () => {
+    const caption = encodeURIComponent(`Check out my DevDisplay profile!\n${shareUrl}`);
+    window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}&summary=${caption}`, '_blank');
+    setShowTooltip(false);
+  };
+  const handleCopy = () => {
+    navigator.clipboard.writeText(shareUrl);
+    setShowTooltip(false);
+    alert(`URL copied to clipboard: ${shareUrl}`);
+  };
   return (
     <div className="mb-6 h-auto rounded-lg bg-white p-4 shadow dark:bg-textPrimary">
       <div className="relative flex gap-4">
@@ -154,28 +190,31 @@ function Card({ data }) {
           </div>
         </div>
         <div className="flex items-center justify-end md:absolute md:right-0 md:top-0">
-          <FaShareAlt
-            className="mr-4 cursor-pointer text-xl text-blue-600 duration-300 hover:scale-125"
-            onClick={(e) => {
-              const profileFileName = data.fileName.replace('.json', '');
-              const shareUrl = `https://www.devdisplay.org/profile/${profileFileName}`;
-              console.log('Share URL:', shareUrl); // Log the share URL
-
-              if (navigator.share) {
-                navigator
-                  .share({
-                    title: 'Check out this profile!',
-                    text: 'Check out my DevDisplay profile!',
-                    url: shareUrl,
-                  })
-                  .then(() => console.log('Successful share'))
-                  .catch((error) => console.log('Error sharing', error));
-              } else {
-                navigator.clipboard.writeText(shareUrl);
-                alert(`URL copied to clipboard: ${shareUrl}`);
-              }
-            }}
-          />
+          <div className="relative" ref={shareBtnRef}>
+            <FaShareAlt
+              className="mr-4 cursor-pointer text-xl text-blue-600 duration-300 hover:scale-125"
+              onClick={() => setShowTooltip(true)}
+            />
+            {showTooltip && (
+              <div className="profile-share-tooltip">
+                <button className="profile-share-close" onClick={() => setShowTooltip(false)}>
+                  <FaTimes />
+                </button>
+                <div className="profile-share-row" onClick={handleShareX}>
+                  <FaXTwitter className="text-xl" />
+                  <span>Share on X</span>
+                </div>
+                <div className="profile-share-row" onClick={handleShareLinkedIn}>
+                  <FaLinkedin className="text-xl" />
+                  <span>Share on LinkedIn</span>
+                </div>
+                <div className="profile-share-row" onClick={handleCopy}>
+                  <FaCopy className="text-xl" />
+                  <span>Copy Link</span>
+                </div>
+              </div>
+            )}
+          </div>
           <a
             href={data.portfolio}
             className={`flex w-28 items-center gap-2 ${
