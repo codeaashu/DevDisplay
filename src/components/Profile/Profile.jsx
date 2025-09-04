@@ -104,9 +104,8 @@ function Card({ data }) {
     setShowTooltip(false);
   };
   const handleCopy = () => {
-    navigator.clipboard.writeText(shareUrl);
-    setShowTooltip(false);
-    alert(`URL copied to clipboard: ${shareUrl}`);
+  navigator.clipboard.writeText(shareUrl);
+  setShowTooltip(false);
   };
   return (
     <div className="mb-6 h-auto rounded-lg bg-white p-4 shadow dark:bg-textPrimary">
