@@ -99,7 +99,7 @@ function Card({ data }) {
     setShowTooltip(false);
   };
   const handleShareLinkedIn = () => {
-    const caption = encodeURIComponent(`Check out my DevDisplay profile!\n${shareUrl}`);
+    const caption = encodeURIComponent(`Check out my DevDisplay profile! #DevDisplay\n${shareUrl}`);
     window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}&summary=${caption}`, '_blank');
     setShowTooltip(false);
   };
