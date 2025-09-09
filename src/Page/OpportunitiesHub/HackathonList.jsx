@@ -88,6 +88,16 @@ const hackathons = [
     shareLink: '#pinnaclehacks',
   },
   {
+    organizer: 'DevFolio',
+    title: 'BlockTrain',
+    location: 'Bengaluru, Delhi',
+    date: 'Sep 20 - 22',
+    domains: ['Offline', 'Open Innovation', '36 Hours Hackathon'],
+    applyLink: 'https://blocktrain.devfolio.co/?ref=37575e18b3',
+    poster: '/assets/Hackathons/BlockTrain.jpg',
+    shareLink: '#blocktrain',
+  },
+  {
     organizer: 'Tata Group',
     title: 'Tata Imagination Challenge 2025',
     location: 'Online',
