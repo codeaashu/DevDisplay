@@ -378,7 +378,19 @@ const courses = [
     courseLink: 'https://ineuron.ai/course/full-stack-data-science-bootcamp-20',
     shareLink: '#fullstackdatascience',
   },
-  // Add more courses similarly...
+  // Web Development by Sheryians
+  {
+    platform: 'Sheryians',
+    title: 'Frontend Domination',
+    instructor: 'Harsh & Sarthak Sharma',
+    duration: '64 hours',
+    level: 'Intermediate',
+    domain: ['Web Development', 'Animation', 'Frontend', 'Paid'],
+    poster: '/assets/Courses/FrontEndDomination.jpg',
+    courseLink: 'https://www.sheryians.com/courses/courses-details/Front-End%20Domination:%20Create%20Anything%20with%20Code',
+    shareLink: '#sheryians-frontend',
+  },
+
 ];
 
 const StyledCoursesCard = styled.div`
@@ -623,7 +635,6 @@ const CoursesList = () => {
       .map(({ sortKey, ...item }) => item);
   };
 
-  // Shuffle courses on component mount and every 5 seconds if no filter is active
   useEffect(() => {
     if (!platformFilter && !instructorFilter && !domainFilter && !skillFilter) {
       setShuffledCourses(shuffleArray(courses));
@@ -632,10 +643,8 @@ const CoursesList = () => {
         setShuffledCourses(shuffleArray(courses));
       }, 9000);
 
-      // Cleanup interval on component unmount
       return () => clearInterval(interval);
     } else {
-      // If a filter is active, show the original filtered courses
       setShuffledCourses(courses);
     }
   }, [platformFilter, instructorFilter, domainFilter, skillFilter]);
