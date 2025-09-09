@@ -163,7 +163,7 @@ const hackathons = [
     title: 'RNS HackOverflow 2.0',
     location: 'Bengaluru, India',
     date: 'Nov 21 - 22',
-    domains: ['Open Innovation', 'real-world challenges', '24 hours Hackathon'],
+    domains: ['Open Innovation', 'Blockchain', 'Ethereum', '24 hours Hackathon'],
     applyLink: 'https://rns-hackoverflow-2.devfolio.co/?ref=37575e18b3',
     poster: '/assets/Hackathons/RNS HackOverflow 2.0.jpg',
     shareLink: '#rnshackoverflow2',
