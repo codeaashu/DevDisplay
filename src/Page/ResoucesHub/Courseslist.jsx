@@ -573,9 +573,9 @@ const FilterContainer = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2rem;
+  flex-wrap: nowrap;
 
   input,
   select {
@@ -660,27 +660,24 @@ const CoursesList = () => {
 
   return (
     <>
-      <FilterContainer className="flex flex-wrap gap-2 p-4">
+      <FilterContainer>
         <input
           type="text"
           placeholder="Search by platform"
           value={platformFilter}
           onChange={(e) => setPlatformFilter(e.target.value)}
-          className="rounded-md border border-[#00a6fb] bg-gray-900 p-2 text-sm text-white"
         />
         <input
           type="text"
           placeholder="Search by instructor"
           value={instructorFilter}
           onChange={(e) => setInstructorFilter(e.target.value)}
-          className="rounded-md border border-[#00a6fb] bg-gray-900 p-2 text-sm text-white"
         />
         <input
           type="text"
           placeholder="Search by domain"
           value={domainFilter}
           onChange={(e) => setDomainFilter(e.target.value)}
-          className="rounded-md border border-[#00a6fb] bg-gray-900 p-2 text-sm text-white"
         />
       </FilterContainer>
 
