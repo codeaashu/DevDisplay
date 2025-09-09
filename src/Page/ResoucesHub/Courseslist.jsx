@@ -390,7 +390,17 @@ const courses = [
     courseLink: 'https://www.sheryians.com/courses/courses-details/Front-End%20Domination:%20Create%20Anything%20with%20Code',
     shareLink: '#sheryians-frontend',
   },
-
+  {
+    platform: 'Sheryians',
+    title: 'Job Ready AI Powered cohort',
+    instructor: 'Sheryians Instructer',
+    duration: '260 hours',
+    level: 'Intermediate',
+    domain: ['Web Development', 'DSA', 'Aptitude', 'Frontend', 'Gen AI', 'MERN', 'Reasoning', 'Paid'],
+    poster: '/assets/Courses/Job Ready.jpg',
+    courseLink: 'http://sheryians.com/courses/courses-details/2.0%20Job%20Ready%20AI%20Powered%20Cohort:%20Web%20+%20DSA%20+%20Aptitude',
+    shareLink: '#job-ready',
+  }
 ];
 
 const StyledCoursesCard = styled.div`
