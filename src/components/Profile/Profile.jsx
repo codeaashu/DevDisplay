@@ -1,4 +1,6 @@
 import React from 'react';
+import QRCode from 'react-qr-code';
+import { FaQrcode } from 'react-icons/fa';
 import {
   FaEnvelope,
   FaGithub,
@@ -55,6 +57,7 @@ function Card({ data }) {
   const cardRef = React.useRef();
   const [showFallback, setShowFallback] = React.useState(false);
   const [showTooltip, setShowTooltip] = React.useState(false);
+  const [showQRModal, setShowQRModal] = React.useState(false);
   const shareBtnRef = React.useRef();
 
   const handleWheel = (event) => {
@@ -76,10 +79,7 @@ function Card({ data }) {
   React.useEffect(() => {
     if (!showTooltip) return;
     function handleClickOutside(e) {
-      if (
-        shareBtnRef.current &&
-        !shareBtnRef.current.contains(e.target)
-      ) {
+      if (shareBtnRef.current && !shareBtnRef.current.contains(e.target)) {
         setShowTooltip(false);
       }
     }
@@ -93,7 +93,10 @@ function Card({ data }) {
   if (data.fileName) {
     profileFileName = data.fileName.replace('.json', '');
   } else if (data.name) {
-    profileFileName = data.name.toLowerCase().replace(/\s+/g, '').replace(/[^a-z0-9]/g, '');
+    profileFileName = data.name
+      .toLowerCase()
+      .replace(/\s+/g, '')
+      .replace(/[^a-z0-9]/g, '');
   }
   const shareUrl = `https://www.devdisplay.org/profile/${profileFileName}`;
 
@@ -109,9 +112,60 @@ function Card({ data }) {
     setShowTooltip(false);
   };
   const handleCopy = () => {
-  navigator.clipboard.writeText(shareUrl);
-  setShowTooltip(false);
+    navigator.clipboard.writeText(shareUrl);
+    setShowTooltip(false);
   };
+  // QR download handler with padding and border
+  const handleDownloadQR = () => {
+    const svg = document.getElementById('profile-qr-code');
+    if (!svg) return;
+    const serializer = new XMLSerializer();
+    const svgStr = serializer.serializeToString(svg);
+    const img = new window.Image();
+    img.onload = function () {
+      // Add padding and border
+      const padding = 32;
+      const borderRadius = 24;
+      const borderWidth = 4;
+      const borderColor = '#0ea5e9';
+      const size = img.width + padding * 2;
+      const canvas = document.createElement('canvas');
+      canvas.width = size;
+      canvas.height = size;
+      const ctx = canvas.getContext('2d');
+      // Draw rounded rectangle background
+      ctx.save();
+      ctx.beginPath();
+      ctx.moveTo(borderRadius, 0);
+      ctx.lineTo(size - borderRadius, 0);
+      ctx.quadraticCurveTo(size, 0, size, borderRadius);
+      ctx.lineTo(size, size - borderRadius);
+      ctx.quadraticCurveTo(size, size, size - borderRadius, size);
+      ctx.lineTo(borderRadius, size);
+      ctx.quadraticCurveTo(0, size, 0, size - borderRadius);
+      ctx.lineTo(0, borderRadius);
+      ctx.quadraticCurveTo(0, 0, borderRadius, 0);
+      ctx.closePath();
+      ctx.fillStyle = '#fff';
+      ctx.fill();
+      // Draw border
+      ctx.lineWidth = borderWidth;
+      ctx.strokeStyle = borderColor;
+      ctx.stroke();
+      ctx.restore();
+      // Draw QR image
+      ctx.drawImage(img, padding, padding);
+      const pngFile = canvas.toDataURL('image/png');
+      const downloadLink = document.createElement('a');
+      downloadLink.href = pngFile;
+      downloadLink.download = `${profileFileName}-profile-qr.png`;
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+      document.body.removeChild(downloadLink);
+    };
+    img.src = 'data:image/svg+xml;base64,' + window.btoa(unescape(encodeURIComponent(svgStr)));
+  };
+
   return (
     <div className="mb-6 h-auto rounded-lg bg-white p-4 shadow dark:bg-textPrimary">
       <div className="relative flex gap-4">
@@ -216,6 +270,16 @@ function Card({ data }) {
                   <FaCopy className="text-xl" />
                   <span>Copy Link</span>
                 </div>
+                <div
+                  className="profile-share-row"
+                  onClick={() => {
+                    setShowQRModal(true);
+                    setShowTooltip(false);
+                  }}
+                >
+                  <FaQrcode className="text-xl" />
+                  <span>Share QR</span>
+                </div>
               </div>
             )}
           </div>
@@ -231,6 +295,38 @@ function Card({ data }) {
           </a>
         </div>
       </div>
+      {/* QR Modal */}
+      {showQRModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="relative flex w-[340px] flex-col items-center rounded-lg bg-white p-6 shadow-lg">
+            <button
+              className="absolute right-2 top-2 text-gray-500 hover:text-gray-700"
+              onClick={() => setShowQRModal(false)}
+            >
+              <FaTimes />
+            </button>
+            <h4 className="mb-2 text-lg font-bold">Profile QR Code</h4>
+            <div
+              style={{
+                padding: 24,
+                background: '#fff',
+                borderRadius: 20,
+                border: '3px solid #0ea5e9',
+                boxShadow: '0 2px 12px rgba(14,165,233,0.12)',
+              }}
+            >
+              <QRCode id="profile-qr-code" value={shareUrl} size={192} style={{ borderRadius: 16 }} />
+            </div>
+            <p className="mt-2 break-all text-center text-xs text-gray-600">{shareUrl}</p>
+            <button
+              className="mt-4 rounded bg-blue-600 px-4 py-2 text-white shadow hover:bg-blue-700"
+              onClick={handleDownloadQR}
+            >
+              Download QR
+            </button>
+          </div>
+        </div>
+      )}
       <div className="mt-4">
         <div className="dark:text-white">{data.bio}</div>
         <div className="mt-1 flex gap-x-4">

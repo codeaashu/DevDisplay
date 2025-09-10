@@ -5,20 +5,26 @@
   right: 0;
   z-index: 50;
   background: #091224;
-  color: #00A6FB;
+  color: #00a6fb;
   border-radius: 0.75rem;
-  box-shadow: 0 4px 24px rgba(13,25,53,0.15);
+  box-shadow: 0 4px 24px rgba(13, 25, 53, 0.15);
   padding: 1rem 1.25rem;
   min-width: 220px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  animation: tooltipFadeIn 0.3s cubic-bezier(0.4,0,0.2,1);
+  animation: tooltipFadeIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @keyframes tooltipFadeIn {
-  0% { opacity: 0; transform: translateY(-10px) scale(0.95); }
-  100% { opacity: 1; transform: translateY(0) scale(1); }
+  0% {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 .profile-share-tooltip .profile-share-row {
@@ -28,7 +34,9 @@
   cursor: pointer;
   padding: 0.5rem 0.75rem;
   border-radius: 0.5rem;
-  transition: background 0.2s, transform 0.2s;
+  transition:
+    background 0.2s,
+    transform 0.2s;
 }
 
 .profile-share-tooltip .profile-share-row:hover {
@@ -43,7 +51,7 @@
   right: 0.5rem;
   background: transparent;
   border: none;
-  color: #00A6FB;
+  color: #00a6fb;
   font-size: 1.25rem;
   cursor: pointer;
   transition: color 0.2s;
