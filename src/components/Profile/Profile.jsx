@@ -89,7 +89,14 @@ function Card({ data }) {
     };
   }, [showTooltip]);
 
-  const profileFileName = data.fileName.replace('.json', '');
+  // Defensive: fileName may not exist in data, fallback to data.name or empty string
+  let profileFileName = '';
+  if (data.fileName) {
+    profileFileName = data.fileName.replace('.json', '');
+  } else if (data.name) {
+    // fallback: use name, but sanitize (lowercase, remove spaces, special chars)
+    profileFileName = data.name.toLowerCase().replace(/\s+/g, '').replace(/[^a-z0-9]/g, '');
+  }
   const shareUrl = `https://www.devdisplay.org/profile/${profileFileName}`;
 
   // Tooltip share actions
