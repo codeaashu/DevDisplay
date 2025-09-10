@@ -115,23 +115,30 @@ function Card({ data }) {
     navigator.clipboard.writeText(shareUrl);
     setShowTooltip(false);
   };
-  // QR download handler with padding and border
+  // Improved QR download handler: balanced text, padding, and border
   const handleDownloadQR = () => {
     const svg = document.getElementById('profile-qr-code');
     if (!svg) return;
     const serializer = new XMLSerializer();
     const svgStr = serializer.serializeToString(svg);
-    const img = new window.Image();
-    img.onload = function () {
-      // Add padding and border
-      const padding = 32;
-      const borderRadius = 24;
-      const borderWidth = 4;
+    const qrImg = new window.Image();
+    qrImg.onload = function () {
+      // HD scaling factor
+      const scale = 3;
+      const qrSize = qrImg.width * scale;
+      const padding = 48 * scale; // more padding
+      const borderRadius = 28 * scale;
+      const borderWidth = 4 * scale; // thinner border
       const borderColor = '#0ea5e9';
-      const size = img.width + padding * 2;
+      const textFontSize = 22 * scale;
+      const textPaddingTop = 32 * scale;
+      const textPaddingBottom = 18 * scale;
+      const textHeight = textFontSize + textPaddingTop + textPaddingBottom;
+      const size = qrSize + padding * 2;
+      const totalHeight = size + textHeight;
       const canvas = document.createElement('canvas');
       canvas.width = size;
-      canvas.height = size;
+      canvas.height = totalHeight;
       const ctx = canvas.getContext('2d');
       // Draw rounded rectangle background
       ctx.save();
@@ -139,10 +146,10 @@ function Card({ data }) {
       ctx.moveTo(borderRadius, 0);
       ctx.lineTo(size - borderRadius, 0);
       ctx.quadraticCurveTo(size, 0, size, borderRadius);
-      ctx.lineTo(size, size - borderRadius);
-      ctx.quadraticCurveTo(size, size, size - borderRadius, size);
-      ctx.lineTo(borderRadius, size);
-      ctx.quadraticCurveTo(0, size, 0, size - borderRadius);
+      ctx.lineTo(size, totalHeight - borderRadius);
+      ctx.quadraticCurveTo(size, totalHeight, size - borderRadius, totalHeight);
+      ctx.lineTo(borderRadius, totalHeight);
+      ctx.quadraticCurveTo(0, totalHeight, 0, totalHeight - borderRadius);
       ctx.lineTo(0, borderRadius);
       ctx.quadraticCurveTo(0, 0, borderRadius, 0);
       ctx.closePath();
@@ -153,8 +160,15 @@ function Card({ data }) {
       ctx.strokeStyle = borderColor;
       ctx.stroke();
       ctx.restore();
+      // Draw text above QR
+      ctx.font = `bold ${textFontSize}px Arial`;
+      ctx.fillStyle = '#15457B';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'top';
+      ctx.fillText('Connect with me!', size / 2, textPaddingTop);
       // Draw QR image
-      ctx.drawImage(img, padding, padding);
+      ctx.drawImage(qrImg, padding, textHeight, qrSize, qrSize);
+      // Download
       const pngFile = canvas.toDataURL('image/png');
       const downloadLink = document.createElement('a');
       downloadLink.href = pngFile;
@@ -163,7 +177,7 @@ function Card({ data }) {
       downloadLink.click();
       document.body.removeChild(downloadLink);
     };
-    img.src = 'data:image/svg+xml;base64,' + window.btoa(unescape(encodeURIComponent(svgStr)));
+    qrImg.src = 'data:image/svg+xml;base64,' + window.btoa(unescape(encodeURIComponent(svgStr)));
   };
 
   return (
@@ -305,7 +319,7 @@ function Card({ data }) {
             >
               <FaTimes />
             </button>
-            <h4 className="mb-2 text-lg font-bold">Profile QR Code</h4>
+            <div className="mb-2 text-lg font-bold text-[#15457B]">Connect with me!</div>
             <div
               style={{
                 padding: 24,
@@ -313,9 +327,21 @@ function Card({ data }) {
                 borderRadius: 20,
                 border: '3px solid #0ea5e9',
                 boxShadow: '0 2px 12px rgba(14,165,233,0.12)',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
               }}
             >
               <QRCode id="profile-qr-code" value={shareUrl} size={192} style={{ borderRadius: 16 }} />
+              <img
+                src={require('./WordMark.png')}
+                alt="DevDisplay Logo"
+                style={{ width: 120, marginTop: 12 }}
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = 'https://cdn.jsdelivr.net/gh/codeaashu/DevDisplay@main/public/DDColorLOGO.png';
+                }}
+              />
             </div>
             <p className="mt-2 break-all text-center text-xs text-gray-600">{shareUrl}</p>
             <button
