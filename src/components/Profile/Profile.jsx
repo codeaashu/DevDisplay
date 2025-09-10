@@ -123,22 +123,20 @@ function Card({ data }) {
     const svgStr = serializer.serializeToString(svg);
     const qrImg = new window.Image();
     qrImg.onload = function () {
-      // HD scaling factor
-      const scale = 3;
-      const qrSize = qrImg.width * scale;
-      const padding = 48 * scale; // more padding
-      const borderRadius = 28 * scale;
-      const borderWidth = 4 * scale; // thinner border
+      // Target square size
+      const size = 864;
+      // QR code size inside the square (with padding)
+      const qrSize = 640;
+      const padding = (size - qrSize) / 2;
+      const borderRadius = 60;
+      const borderWidth = 8;
       const borderColor = '#0ea5e9';
-      const textFontSize = 22 * scale;
-      const textPaddingTop = 32 * scale;
-      const textPaddingBottom = 18 * scale;
-      const textHeight = textFontSize + textPaddingTop + textPaddingBottom;
-      const size = qrSize + padding * 2;
-      const totalHeight = size + textHeight;
+      const textFontSize = 72;
+      const textPaddingTop = 40;
+      const text = 'Connect with me!';
       const canvas = document.createElement('canvas');
       canvas.width = size;
-      canvas.height = totalHeight;
+      canvas.height = size;
       const ctx = canvas.getContext('2d');
       // Draw rounded rectangle background
       ctx.save();
@@ -146,28 +144,26 @@ function Card({ data }) {
       ctx.moveTo(borderRadius, 0);
       ctx.lineTo(size - borderRadius, 0);
       ctx.quadraticCurveTo(size, 0, size, borderRadius);
-      ctx.lineTo(size, totalHeight - borderRadius);
-      ctx.quadraticCurveTo(size, totalHeight, size - borderRadius, totalHeight);
-      ctx.lineTo(borderRadius, totalHeight);
-      ctx.quadraticCurveTo(0, totalHeight, 0, totalHeight - borderRadius);
+      ctx.lineTo(size, size - borderRadius);
+      ctx.quadraticCurveTo(size, size, size - borderRadius, size);
+      ctx.lineTo(borderRadius, size);
+      ctx.quadraticCurveTo(0, size, 0, size - borderRadius);
       ctx.lineTo(0, borderRadius);
       ctx.quadraticCurveTo(0, 0, borderRadius, 0);
       ctx.closePath();
-      ctx.fillStyle = '#fff';
+      ctx.fillStyle = '#ffffffff';
       ctx.fill();
-      // Draw border
       ctx.lineWidth = borderWidth;
       ctx.strokeStyle = borderColor;
       ctx.stroke();
       ctx.restore();
-      // Draw text above QR
       ctx.font = `bold ${textFontSize}px Arial`;
-      ctx.fillStyle = '#15457B';
+      ctx.fillStyle = '#0ea5e9';
       ctx.textAlign = 'center';
       ctx.textBaseline = 'top';
-      ctx.fillText('Connect with me!', size / 2, textPaddingTop);
-      // Draw QR image
-      ctx.drawImage(qrImg, padding, textHeight, qrSize, qrSize);
+      ctx.fillText(text, size / 2, textPaddingTop);
+      const gapBelowText = 48;
+      ctx.drawImage(qrImg, padding, textPaddingTop + textFontSize + gapBelowText, qrSize, qrSize);
       // Download
       const pngFile = canvas.toDataURL('image/png');
       const downloadLink = document.createElement('a');
