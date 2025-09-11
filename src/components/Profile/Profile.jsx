@@ -100,7 +100,6 @@ function Card({ data }) {
   }
   const shareUrl = `https://www.devdisplay.org/profile/${profileFileName}`;
 
-  // Tooltip share actions
   const handleShareX = () => {
     const caption = encodeURIComponent(`🚀 Check out my DevDisplay profile! #DevDisplay\n${shareUrl}`);
     window.open(`https://x.com/intent/tweet?text=${caption}`, '_blank');
@@ -115,7 +114,6 @@ function Card({ data }) {
     navigator.clipboard.writeText(shareUrl);
     setShowTooltip(false);
   };
-  // Improved QR download handler: balanced text, padding, and border
   const handleDownloadQR = () => {
     const svg = document.getElementById('profile-qr-code');
     if (!svg) return;
@@ -123,9 +121,7 @@ function Card({ data }) {
     const svgStr = serializer.serializeToString(svg);
     const qrImg = new window.Image();
     qrImg.onload = function () {
-      // Target square size
       const size = 864;
-      // QR code size inside the square (with padding)
       const qrSize = 640;
       const padding = (size - qrSize) / 2;
       const borderRadius = 60;
@@ -163,7 +159,6 @@ function Card({ data }) {
       ctx.fillText(text, size / 2, textPaddingTop);
       const gapBelowText = 48;
       ctx.drawImage(qrImg, padding, textPaddingTop + textFontSize + gapBelowText, qrSize, qrSize);
-      // Download
       const pngFile = canvas.toDataURL('image/png');
       const downloadLink = document.createElement('a');
       downloadLink.href = pngFile;
