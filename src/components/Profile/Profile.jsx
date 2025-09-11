@@ -463,7 +463,6 @@ function Card({ data }) {
               <UnstopIcon className="text-2xl text-blue-600 duration-300 hover:scale-125" />
             </a>
           )}
-
           {data.social?.HackerRank && (
             <a href={data.social.HackerRank} target="_blank" rel="noreferrer">
               <SiHackerrank className="text-2xl text-blue-600 duration-300 hover:scale-125" />
