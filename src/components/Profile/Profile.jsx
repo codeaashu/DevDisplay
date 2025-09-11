@@ -458,7 +458,6 @@ function Card({ data }) {
               <FaReddit className="text-2xl text-blue-600 duration-300 hover:scale-125" />
             </a>
           )}
-
           {data.social?.Unstop && (
             <a href={data.social.Unstop} target="_blank" rel="noreferrer">
               <UnstopIcon className="text-2xl text-blue-600 duration-300 hover:scale-125" />
