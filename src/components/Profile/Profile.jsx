@@ -262,14 +262,6 @@ function Card({ data }) {
                 <button className="profile-share-close" onClick={() => setShowTooltip(false)}>
                   <FaTimes />
                 </button>
-                <div className="profile-share-row" onClick={handleShareX}>
-                  <FaXTwitter className="text-xl" />
-                  <span>Share on X</span>
-                </div>
-                <div className="profile-share-row" onClick={handleShareLinkedIn}>
-                  <FaLinkedin className="text-xl" />
-                  <span>Share on LinkedIn</span>
-                </div>
                 <div className="profile-share-row" onClick={handleCopy}>
                   <FaCopy className="text-xl" />
                   <span>Copy Link</span>
@@ -283,6 +275,14 @@ function Card({ data }) {
                 >
                   <FaQrcode className="text-xl" />
                   <span>Share QR</span>
+                </div>
+                <div className="profile-share-row" onClick={handleShareLinkedIn}>
+                  <FaLinkedin className="text-xl" />
+                  <span>Share on LinkedIn</span>
+                </div>
+                <div className="profile-share-row" onClick={handleShareX}>
+                  <FaXTwitter className="text-xl" />
+                  <span>Share on X</span>
                 </div>
               </div>
             )}
@@ -447,7 +447,6 @@ function Card({ data }) {
               <FaProductHunt className="text-2xl text-blue-600 duration-300 hover:scale-125" />
             </a>
           )}
-
           {data.social?.Medium && (
             <a href={data.social.Medium} target="_blank" rel="noreferrer">
               <FaMedium className="text-2xl text-blue-600 duration-300 hover:scale-125" />
