@@ -138,7 +138,6 @@ function Card({ data }) {
       canvas.width = size;
       canvas.height = size;
       const ctx = canvas.getContext('2d');
-      // Draw rounded rectangle background
       ctx.save();
       ctx.beginPath();
       ctx.moveTo(borderRadius, 0);
