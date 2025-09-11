@@ -171,7 +171,7 @@ function Card({ data }) {
   };
 
   return (
-    <div className="mb-6 h-auto rounded-lg bg-white p-4 shadow dark:bg-textPrimary">
+    <div className="mb-6 h-auto rounded-lg border border-blue-900 bg-[#0e1a34] p-4 shadow">
       <div className="relative flex gap-4">
         <div className="flex h-24 w-24 flex-shrink-0 items-center justify-center rounded-full bg-gray-200">
           {!showFallback ? (
