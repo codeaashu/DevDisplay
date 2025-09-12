@@ -172,7 +172,7 @@ function Card({ data }) {
 
   return (
     <div className="mb-6 h-auto rounded-lg border border-blue-900 bg-[#0e1a34] p-4 shadow">
-      <div className="relative flex items-start gap-4">
+      <div className="relative flex gap-4">
         <div className="flex h-24 w-24 flex-shrink-0 items-center justify-center rounded-full bg-gray-200">
           {!showFallback ? (
             <img
@@ -186,7 +186,7 @@ function Card({ data }) {
           )}
         </div>
 
-        <div className="min-w-0 flex-1 pr-14 md:pr-6">
+        <div className="w-[55%] sm:w-[75%]">
           <h3>
             <a
               className="flex items-center text-lg font-bold hover:text-textSecondary dark:text-white"
