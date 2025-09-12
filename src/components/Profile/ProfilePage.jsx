@@ -41,7 +41,7 @@ const ProfilePage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-[#0e1a34] text-white">
+    <div className="min-h-screen bg-[#0e1a34] pt-12 text-white">
       <Profile data={profileData} />
     </div>
   );
