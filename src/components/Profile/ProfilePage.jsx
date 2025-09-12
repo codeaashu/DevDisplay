@@ -80,7 +80,7 @@ const StyledButton = styled.button`
   transition:
     background 0.3s,
     transform 0.3s;
-  animation: zoom 3s ease-in-out infinite;
+  animation: zoom 2s ease-in-out infinite;
   margin-top: 16px;
 
   &:hover {
