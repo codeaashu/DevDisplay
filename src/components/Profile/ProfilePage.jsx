@@ -28,7 +28,8 @@ const ProfilePage = () => {
         }
         const response = await fetch(`/data/${profileFile}`);
         const data = await response.json();
-        setProfileData(data);
+        // Add fileName (without .json) to the profile data
+        setProfileData({ ...data, fileName: profileFile.replace('.json', '') });
       } catch (error) {
         console.error('Error fetching profile data:', error);
       } finally {
