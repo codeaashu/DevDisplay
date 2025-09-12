@@ -20,7 +20,8 @@ const ProfilePage = () => {
   useEffect(() => {
     const fetchProfileData = async () => {
       try {
-        const profileFile = profilesList.find((file) => file.replace('.json', '') === name);
+        // Case-insensitive match for profile filename
+        const profileFile = profilesList.find((file) => file.replace('.json', '').toLowerCase() === name.toLowerCase());
         if (!profileFile) {
           setProfileData(null);
           setLoading(false);
