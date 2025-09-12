@@ -1,8 +1,16 @@
 import React, { useEffect, useState } from 'react';
+import { createGlobalStyle } from 'styled-components';
 import styled from 'styled-components';
 import { useParams } from 'react-router-dom';
 import Profile from './Profile';
 import profilesList from '../../ProfilesList.json';
+
+const GlobalFont = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+  .custom-font {
+    font-family: 'Merriweather Sans', sans-serif;
+  }
+`;
 
 const ProfilePage = () => {
   const { name } = useParams();
@@ -42,19 +50,22 @@ const ProfilePage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-[#0e1a34] pt-12 text-white">
-      <div className="mx-2 md:mx-16">
-        <Profile data={profileData} />
+    <>
+      <GlobalFont />
+      <div className="custom-font min-h-screen bg-[#0e1a34] pt-12 text-white">
+        <div className="mx-2 md:mx-16">
+          <Profile data={profileData} />
+        </div>
+        <div className="mt-8 flex justify-center">
+          <a href="https://www.devdisplay.org" target="_blank" rel="noopener noreferrer">
+            <StyledButton>
+              <div className="blob1" />
+              <div className="inner">Visit DevDisplay</div>
+            </StyledButton>
+          </a>
+        </div>
       </div>
-      <div className="mt-8 flex justify-center">
-        <a href="https://www.devdisplay.org" target="_blank" rel="noopener noreferrer">
-          <StyledButton>
-            <div className="blob1" />
-            <div className="inner">Visit DevDisplay</div>
-          </StyledButton>
-        </a>
-      </div>
-    </div>
+    </>
   );
 };
 
