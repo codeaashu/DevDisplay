@@ -77,6 +77,21 @@ const JourneyPage = () => {
         <p className="mt-2 text-sm opacity-90">Explore the inspiring journeys of achievers.</p>
       </header>
 
+      {/* Tag Filter Bar */}
+      <div className="mb-4 flex flex-wrap items-center justify-start gap-2">
+        {availableTags.map((tag) => (
+          <button
+            key={tag}
+            onClick={() => toggleTag(tag)}
+            className={`px-4 py-2 rounded-full border transition-colors duration-200 text-sm font-semibold mr-2 mb-2 ${selectedTags.includes(tag)
+              ? 'bg-blue-500 text-white border-blue-700 shadow-lg'
+              : 'bg-gray-800 text-blue-300 border-gray-700 hover:bg-blue-700 hover:text-white'}`}
+          >
+            {tag}
+          </button>
+        ))}
+      </div>
+
       {/* Search Bar */}
       <div className="mb-4 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <input
