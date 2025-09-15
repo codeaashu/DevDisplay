@@ -159,10 +159,10 @@ function ProfileSkeleton() {
 
   return (
     <ProfileSkeletonWrapper>
-      <div className="font-MerriweatherSans-Light mb-[1.5rem] h-auto rounded-[10px] pb-[0rem] pl-[1rem] pr-[1rem] pt-[1rem] shadow-lg">
-        <div className="flex flex-wrap gap-[1rem]">
+      <div className="font-MerriweatherSans-Light mb-[1.5rem] h-auto overflow-hidden rounded-[10px] pb-[0rem] pl-[1rem] pr-[1rem] pt-[1rem] shadow-lg">
+        <div className="relative flex flex-wrap gap-[1rem]">
           <div className="skeleton skeleton-circle h-[6.1rem] w-[6.1rem] flex-shrink-0"></div>
-          <div className="w-[80%] flex-grow overflow-hidden">
+          <div className="min-w-0 flex-1 overflow-hidden">
             <h3 className="skeleton skeleton-line w-full">
               {skeletonData.name}
               {skeletonData.verified && (
@@ -179,7 +179,7 @@ function ProfileSkeleton() {
               )}
             </h3>
             <p className="skeleton skeleton-line w-full">{skeletonData.location}</p>
-            <div className="flex flex-wrap gap-[1rem] overflow-hidden">
+            <div className="mt-[0.5rem] flex w-full flex-wrap gap-[1rem] overflow-hidden">
               {skeletonData.skills &&
                 skeletonData.skills.map((skill, index) => (
                   <div className="skeleton skeleton-skill" key={index}>
@@ -188,13 +188,14 @@ function ProfileSkeleton() {
                 ))}
             </div>
           </div>
-          <div className="w-full justify-end overflow-hidden sm:w-[10%]">
-            <div className="skeleton skeleton-line h-[6rem] w-full sm:w-[4rem]"></div>
+          <div className="absolute right-0 top-0">
+            <div className="skeleton skeleton-icon"></div>
           </div>
         </div>
-        <div className="mt-[1rem]">
+        <div className="mt-[0.75rem]">
           <div className="skeleton skeleton-line w-full">{skeletonData.bio}</div>
           <div className="mt-[0.5rem] flex h-auto flex-wrap gap-[1rem]">
+            <div className="skeleton skeleton-line h-[1rem] w-[4rem]"></div>
             {Object.keys(skeletonData.social).map((platform, index) => socialIcons[platform])}
           </div>
         </div>

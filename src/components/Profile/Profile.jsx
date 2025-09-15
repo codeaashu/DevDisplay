@@ -21,7 +21,7 @@ import {
   FaReddit,
   FaShareAlt,
 } from 'react-icons/fa';
-import { FaHandshake, FaCopy, FaTimes } from 'react-icons/fa';
+import { FaCopy, FaTimes } from 'react-icons/fa';
 import { FaXTwitter, FaLocationDot } from 'react-icons/fa6';
 import { SiLeetcode, SiCodeforces, SiHashnode, SiReplit, SiHackerrank } from 'react-icons/si';
 import './ProfileShareTooltip.css';
@@ -171,7 +171,7 @@ function Card({ data }) {
   };
 
   return (
-    <div className="mb-6 h-auto rounded-lg border border-blue-900 bg-[#0e1a34] p-4 shadow">
+    <div className="mb-6 h-auto overflow-hidden rounded-lg border border-blue-900 bg-[#0e1a34] p-4 shadow">
       <div className="relative flex gap-4">
         <div className="flex h-24 w-24 flex-shrink-0 items-center justify-center rounded-full bg-gray-200">
           {!showFallback ? (
@@ -186,27 +186,22 @@ function Card({ data }) {
           )}
         </div>
 
-        <div className="w-[55%] sm:w-[75%]">
+        <div className="min-w-0 flex-1 overflow-hidden">
           <h3>
-            <a
-              className="flex items-center text-lg font-bold hover:text-textSecondary dark:text-white"
-              href={data.portfolio}
-              target="_blank"
-              rel="noreferrer"
-            >
+            <span className="flex items-center text-lg font-bold dark:text-white">
               {data.name}
               {data.verified && (
                 <FaCheckCircle className="ml-2 rounded-full border-[1px] border-[#0ea5e9] p-0.5 text-xl text-[#0ea5e9]" />
               )}
-            </a>
+            </span>
           </h3>
           <p className="flex items-center gap-x-1 text-sm dark:text-white">
             <FaLocationDot />
             {data.location}
           </p>
-          <div className="group flex overflow-hidden">
+          <div className="group flex w-full overflow-hidden">
             <div
-              className="skills-container group-hover:paused mr-2 mt-4 flex h-auto animate-loop-scroll gap-4 whitespace-nowrap"
+              className="skills-container group-hover:paused mr-2 mt-2 flex h-auto animate-loop-scroll gap-4 whitespace-nowrap"
               ref={cardRef}
             >
               {data.skills &&
@@ -220,7 +215,7 @@ function Card({ data }) {
                 ))}
             </div>
             <div
-              className="skills-container group-hover:paused mr-2 mt-4 flex h-auto animate-loop-scroll gap-4 whitespace-nowrap"
+              className="skills-container group-hover:paused mr-2 mt-2 flex h-auto animate-loop-scroll gap-4 whitespace-nowrap"
               aria-hidden="true"
               ref={cardRef}
             >
@@ -235,7 +230,7 @@ function Card({ data }) {
                 ))}
             </div>
             <div
-              className="skills-container group-hover:paused mt-4 flex h-auto animate-loop-scroll gap-4 whitespace-nowrap"
+              className="skills-container group-hover:paused mt-2 flex h-auto animate-loop-scroll gap-4 whitespace-nowrap"
               aria-hidden="true"
               ref={cardRef}
             >
@@ -251,10 +246,11 @@ function Card({ data }) {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-end md:absolute md:right-0 md:top-0">
+
+        <div className="absolute right-0 top-0">
           <div className="relative" ref={shareBtnRef}>
             <FaShareAlt
-              className="mr-4 cursor-pointer text-xl text-blue-600 duration-300 hover:scale-125"
+              className="cursor-pointer text-xl text-blue-600 duration-300 hover:scale-125"
               onClick={() => setShowTooltip(true)}
             />
             {showTooltip && (
@@ -287,16 +283,6 @@ function Card({ data }) {
               </div>
             )}
           </div>
-          <a
-            href={data.portfolio}
-            className={`flex w-28 items-center gap-2 ${
-              data.portfolio ? 'text-blue-600 hover:underline' : 'cursor-not-allowed text-blue-600 brightness-50'
-            }`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaHandshake className="text-lg duration-300 hover:scale-125" />
-          </a>
         </div>
       </div>
       {/* QR Modal */}
@@ -343,9 +329,22 @@ function Card({ data }) {
           </div>
         </div>
       )}
-      <div className="mt-4">
+      <div className="mt-3">
         <div className="dark:text-white">{data.bio}</div>
-        <div className="mt-1 flex gap-x-4">
+        <div className="mt-2 flex flex-wrap gap-x-4 gap-y-2">
+          {data.portfolio && (
+            <a
+              href={data.portfolio}
+              className={`flex items-center gap-1 text-sm ${
+                data.portfolio ? 'text-blue-600 hover:underline' : 'cursor-not-allowed text-blue-600 brightness-50'
+              }`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>Portfolio</span>
+            </a>
+          )}
+
           {data.social?.GitHub && (
             <a href={data.social.GitHub} target="_blank" rel="noreferrer">
               <FaGithub className="text-2xl text-blue-600 duration-300 hover:scale-125" />
