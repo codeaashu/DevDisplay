@@ -73,6 +73,8 @@ function App() {
   };
 
   const handleSearch = ({ value, criteria }) => {
+    // Whenever a new search is performed, reset to first page
+    if (currentPage !== 1) setCurrentPage(1);
     const normalizedValue = normalizeString(value);
 
     if (criteria !== 'skill') {
@@ -128,10 +130,28 @@ function App() {
   };
 
   useEffect(() => {
-    profilesRef.current.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
+    // On desktop the scrolling container has its own scroll (md:overflow-y-scroll).
+    // On mobile the container is not scrollable (no overflow) so we need to scroll the window.
+    const scrollContainer = profilesRef.current;
+    if (scrollContainer) {
+      const canScroll = scrollContainer.scrollHeight > scrollContainer.clientHeight + 5; // small tolerance
+      if (canScroll) {
+        try {
+          scrollContainer.scrollTo({ top: 0, behavior: 'smooth' });
+        } catch (e) {
+          scrollContainer.scrollTop = 0; // fallback without smooth behavior
+        }
+      } else {
+        // Fallback to window scrolling for mobile devices / small screens
+        try {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } catch (e) {
+          window.scrollTo(0, 0);
+        }
+      }
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   }, [currentPage]);
 
   const getPaginatedData = () => {
