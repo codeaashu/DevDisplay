@@ -64,7 +64,7 @@ function App() {
   };
 
   const normalizeString = (str) => {
-    if (!str) return ''; // Return an empty string if str is undefined or null
+    if (!str) return '';
     return str
       .toLowerCase()
       .replace(/\s*,\s*/g, ' ')
@@ -73,7 +73,6 @@ function App() {
   };
 
   const handleSearch = ({ value, criteria }) => {
-    // Whenever a new search is performed, reset to first page
     if (currentPage !== 1) setCurrentPage(1);
     const normalizedValue = normalizeString(value);
 
@@ -130,8 +129,6 @@ function App() {
   };
 
   useEffect(() => {
-    // On desktop the scrolling container has its own scroll (md:overflow-y-scroll).
-    // On mobile the container is not scrollable (no overflow) so we need to scroll the window.
     const scrollContainer = profilesRef.current;
     if (scrollContainer) {
       const canScroll = scrollContainer.scrollHeight > scrollContainer.clientHeight + 5; // small tolerance
@@ -139,10 +136,9 @@ function App() {
         try {
           scrollContainer.scrollTo({ top: 0, behavior: 'smooth' });
         } catch (e) {
-          scrollContainer.scrollTop = 0; // fallback without smooth behavior
+          scrollContainer.scrollTop = 0;
         }
       } else {
-        // Fallback to window scrolling for mobile devices / small screens
         try {
           window.scrollTo({ top: 0, behavior: 'smooth' });
         } catch (e) {
