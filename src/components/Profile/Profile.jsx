@@ -249,10 +249,12 @@ function Card({ data }) {
 
         <div className="absolute right-0 top-0">
           <div className="relative" ref={shareBtnRef}>
-            <FaShareAlt
-              className="cursor-pointer text-xl text-blue-600 duration-300 hover:scale-125"
-              onClick={() => setShowTooltip(true)}
-            />
+            {!showTooltip && (
+              <FaShareAlt
+                className="cursor-pointer text-xl text-blue-600 duration-300 hover:scale-125"
+                onClick={() => setShowTooltip(true)}
+              />
+            )}
             {showTooltip && (
               <div className="profile-share-tooltip">
                 <button className="profile-share-close" onClick={() => setShowTooltip(false)}>
