@@ -337,13 +337,13 @@ function Card({ data }) {
           {data.portfolio && (
             <a
               href={data.portfolio}
-              className={`flex items-center gap-1 text-sm ${
-                data.portfolio ? 'text-blue-600 hover:underline' : 'cursor-not-allowed text-blue-600 brightness-50'
+              className={`relative flex items-center gap-1 rounded-lg border-2 border-blue-600 px-3 py-0.5 text-sm transition-all duration-300 before:absolute before:inset-0 before:rounded-lg before:border-2 before:border-transparent before:bg-gradient-to-r before:from-blue-400 before:via-blue-500 before:to-blue-600 before:opacity-0 before:transition-opacity before:duration-300 hover:scale-105 hover:border-blue-400 hover:bg-blue-600 hover:text-white hover:shadow-lg hover:shadow-blue-500/25 hover:before:opacity-20 ${
+                data.portfolio ? 'text-blue-600' : 'cursor-not-allowed text-blue-600 brightness-50'
               }`}
               target="_blank"
               rel="noreferrer"
             >
-              <span>Portfolio</span>
+              <span className="relative z-10">Portfolio</span>
             </a>
           )}
 
