@@ -87,8 +87,19 @@ function App() {
 
       setProfiles(filteredResults);
     } else if (criteria === 'skill') {
-      if (value.length > 0) {
-        const setOfSearchSkills = new Set(value.map((skill) => skill.toLowerCase()));
+      if (value && value.length > 0) {
+        const searchSkills =
+          typeof value === 'string'
+            ? value
+                .toLowerCase()
+                .split(',')
+                .map((skill) => skill.trim())
+                .filter((skill) => skill.length > 0)
+            : Array.isArray(value)
+              ? value.map((skill) => skill.toLowerCase())
+              : [value.toLowerCase()];
+
+        const setOfSearchSkills = new Set(searchSkills);
         const filteredUsers = shuffledProfiles.filter((user) =>
           user.skills.some((skill) => setOfSearchSkills.has(skill.toLowerCase())),
         );
