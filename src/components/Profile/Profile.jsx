@@ -272,14 +272,14 @@ function Card({ data }) {
                   <FaQrcode className="text-xl" />
                   <span>Share QR</span>
                 </div>
-                <div className="profile-share-row" onClick={handleShareLinkedIn}>
+                {/* <div className="profile-share-row" onClick={handleShareLinkedIn}>
                   <FaLinkedin className="text-xl" />
                   <span>Share on LinkedIn</span>
                 </div>
                 <div className="profile-share-row" onClick={handleShareX}>
                   <FaXTwitter className="text-xl" />
                   <span>Share on X</span>
-                </div>
+                </div> */}
               </div>
             )}
           </div>
