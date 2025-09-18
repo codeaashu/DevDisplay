@@ -103,6 +103,16 @@ const hackathons = [
     shareLink: '#hacknitr7',
   },
   {
+    organizer: 'Geeta University',
+    title: 'NexhackGU',
+    location: 'Panipat, India',
+    date: 'Nov 3 - 4',
+    domains: ['Open Innovation'],
+    applyLink: 'https://nexhackgu.devfolio.co/?ref=37575e18b3',
+    poster: '/assets/Hackathons/NexhackGU.jpg',
+    shareLink: '#nexhackgu',
+  },
+  {
     organizer: 'IIC - Jadavpur University',
     title: 'HACK <N> PITCH',
     location: 'Kolkata, India',
