@@ -73,6 +73,16 @@ const hackathons = [
     shareLink: '#the-big-hack',
   },
   {
+    organizer: 'AIMS DTU',
+    title: 'brAInwave 2.0',
+    location: 'New Delhi, India',
+    date: 'Oct 30 - 31',
+    domains: ['Open Innovation', '36 Hours Hackathon'],
+    applyLink: 'https://brainwave2.devfolio.co/?ref=37575e18b3',
+    poster: '/assets/Hackathons/brAInwave 2.jpg',
+    shareLink: '#brainwave2',
+  },
+  {
     organizer: 'NIT Rourkela',
     title: 'HackNITR 7.0',
     location: 'Rourkela, India',
