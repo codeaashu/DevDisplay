@@ -83,6 +83,16 @@ const hackathons = [
     shareLink: '#brainwave2',
   },
   {
+    organizer: 'APPTEAM - NIT Hamirpur',
+    title: 'Hack On Hills 7.0',
+    location: 'Hamirpur, India',
+    date: 'Oct 31',
+    domains: ['Open Innovation', '24 Hours Hackathon'],
+    applyLink: 'https://hackonhills7.devfolio.co/?ref=37575e18b3',
+    poster: '/assets/Hackathons/Hack On Hills 7.jpg',
+    shareLink: '#hack-on-hills7',
+  },
+  {
     organizer: 'NIT Rourkela',
     title: 'HackNITR 7.0',
     location: 'Rourkela, India',
