@@ -73,6 +73,16 @@ const hackathons = [
     shareLink: '#the-big-hack',
   },
   {
+    organizer: 'NIT Rourkela',
+    title: 'HackNITR 7.0',
+    location: 'Rourkela, India',
+    date: 'Nov 1 - 2',
+    domains: ['Open Innovation'],
+    applyLink: 'https://hacknitr7.devfolio.co/?ref=37575e18b3',
+    poster: '/assets/Hackathons/HackNITR 7.jpg',
+    shareLink: '#hacknitr7',
+  },
+  {
     organizer: 'IIC - Jadavpur University',
     title: 'HACK <N> PITCH',
     location: 'Kolkata, India',
