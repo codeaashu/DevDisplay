@@ -63,7 +63,7 @@ const hackathons = [
     shareLink: '#hackaura',
   },
   {
-    organizer: 'Acharya Institute of Technology',
+    organizer: 'Acharya Institute of Tech.',
     title: 'The Big Hack',
     location: 'Bengaluru, India',
     date: 'Oct 14 - 15',
