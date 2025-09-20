@@ -65,7 +65,7 @@
 11. **Need help?** You can take help from the video tutorial here:  
     📹 [How to Add Your Profile on DevDisplay](https://youtu.be/DAjartal2kQ)
 
-<h3 align="center">Once your changes are merged <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Your profile will be displayed on the project's website and you will receive a personalized appreciation post will be shared on LinkedIn and Twitter through DevDisplay's official social media handles.</h3>
+<h3 align="center">Once your changes are merged <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" /> Your profile will be displayed on the project's website and you will receive a personalized appreciation post through mail by DevDisplay Team.</h3>
 </div>
 
 ---
