@@ -2,6 +2,7 @@ import express from 'express';
 import { devRouter } from './routes/dev.routes.js';
 import { githubRouter } from './routes/github.routes.js';
 import { subscribersRouter } from './routes/subscribers.routes.js';
+import { ideasRouter } from './routes/ideas.routes.js';
 import { getSubscribers } from './controllers/subscribers.controllers.js';
 import Subscribers from './models/subscribers.models.js';
 const app = express();
@@ -14,6 +15,9 @@ app.use('/devdisplay/v1/trending/dev', devRouter);
 
 // Use the githubRouter for the "/api/v1/trending/github" route
 app.use('/devdisplay/v1/trending/github', githubRouter);
+
+// Use the ideasRouter for the "/devdisplay/v1/ideas" route
+app.use('/devdisplay/v1/ideas', ideasRouter);
 
 app.use('/devdisplay/v1/subscribers', getSubscribers);
 
