@@ -443,9 +443,9 @@ const InternshipList = () => {
   return (
     <>
       <div className="grid grid-cols-1 gap-6 px-3 sm:gap-4 md:grid-cols-2 lg:grid-cols-3">
-        <Internship1 />
+        {/* <Internship1 />
         <Internship2 />
-        <Internship3 />
+        <Internship3 /> */}
       </div>
     </>
   );
