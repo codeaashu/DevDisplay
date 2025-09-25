@@ -8,7 +8,7 @@ import {
   getIdeaById,
   selectIdeaForDevelopment,
   joinIdeaCollaboration,
-  getSubmissionStatus
+  getSubmissionStatus,
 } from '../controllers/ideas.controllers.js';
 
 const router = express.Router();

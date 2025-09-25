@@ -23,7 +23,7 @@ const IdeaCard = ({ idea, onVoteUpdate }) => {
       });
 
       const data = await response.json();
-      
+
       if (data.success) {
         onVoteUpdate(idea._id, data.data.votes);
         setShowVoteInput(false);
@@ -43,52 +43,52 @@ const IdeaCard = ({ idea, onVoteUpdate }) => {
     return new Date(dateString).toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'short',
-      day: 'numeric'
+      day: 'numeric',
     });
   };
 
   return (
     <motion.div
-      className="bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-700 hover:border-blue-500"
+      className="rounded-xl border border-gray-700 bg-gray-800 p-6 shadow-lg transition-all duration-300 hover:border-blue-500 hover:shadow-xl"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       whileHover={{ y: -5 }}
     >
       {/* Header */}
-      <div className="flex justify-between items-start mb-4">
+      <div className="mb-4 flex items-start justify-between">
         <div className="flex-1">
-          <h3 className="text-xl font-bold text-white mb-2 line-clamp-2">
-            {idea.title}
-          </h3>
-          <div className="flex items-center text-sm text-gray-400 mb-2">
+          <h3 className="mb-2 line-clamp-2 text-xl font-bold text-white">{idea.title}</h3>
+          <div className="mb-2 flex items-center text-sm text-gray-400">
             <span className="mr-4">👤 {idea.submittedBy}</span>
             <span>📅 {formatDate(idea.createdAt)}</span>
           </div>
         </div>
-        
+
         {/* Vote Button */}
-        <div className="flex flex-col items-center ml-4">
+        <div className="ml-4 flex flex-col items-center">
           <motion.button
             onClick={handleVote}
             disabled={isVoting}
-            className={`p-3 rounded-full transition-all duration-300 ${
-              isVoting
-                ? 'bg-gray-600 cursor-not-allowed'
-                : 'bg-blue-600 hover:bg-blue-700 transform hover:scale-110'
+            className={`rounded-full p-3 transition-all duration-300 ${
+              isVoting ? 'cursor-not-allowed bg-gray-600' : 'transform bg-blue-600 hover:scale-110 hover:bg-blue-700'
             }`}
             whileHover={{ scale: isVoting ? 1 : 1.1 }}
             whileTap={{ scale: 0.95 }}
           >
             {isVoting ? (
-              <svg className="w-6 h-6 text-white animate-spin" fill="none" viewBox="0 0 24 24">
+              <svg className="h-6 w-6 animate-spin text-white" fill="none" viewBox="0 0 24 24">
                 <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                <path
+                  className="opacity-75"
+                  fill="currentColor"
+                  d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                ></path>
               </svg>
             ) : (
-              <span className="text-white text-xl">👍</span>
+              <span className="text-xl text-white">👍</span>
             )}
           </motion.button>
-          <span className="text-white font-bold mt-1">{idea.votes}</span>
+          <span className="mt-1 font-bold text-white">{idea.votes}</span>
         </div>
       </div>
 
@@ -97,23 +97,21 @@ const IdeaCard = ({ idea, onVoteUpdate }) => {
         <motion.div
           initial={{ opacity: 0, height: 0 }}
           animate={{ opacity: 1, height: 'auto' }}
-          className="mb-4 p-3 bg-gray-700 rounded-lg"
+          className="mb-4 rounded-lg bg-gray-700 p-3"
         >
-          <label className="block text-white text-sm mb-2">
-            Enter your email to vote:
-          </label>
+          <label className="mb-2 block text-sm text-white">Enter your email to vote:</label>
           <div className="flex gap-2">
             <input
               type="email"
               value={userEmail}
               onChange={(e) => setUserEmail(e.target.value)}
               placeholder="your.email@example.com"
-              className="flex-1 px-3 py-2 bg-gray-600 border border-gray-500 rounded text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="flex-1 rounded border border-gray-500 bg-gray-600 px-3 py-2 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
             <button
               onClick={handleVote}
               disabled={!userEmail || isVoting}
-              className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 disabled:bg-gray-600"
+              className="rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700 disabled:bg-gray-600"
             >
               Vote
             </button>
@@ -122,18 +120,13 @@ const IdeaCard = ({ idea, onVoteUpdate }) => {
       )}
 
       {/* Description */}
-      <p className="text-gray-300 mb-4 line-clamp-4">
-        {idea.description}
-      </p>
+      <p className="mb-4 line-clamp-4 text-gray-300">{idea.description}</p>
 
       {/* Tags */}
       {idea.tags && idea.tags.length > 0 && (
-        <div className="flex flex-wrap gap-2 mb-4">
+        <div className="mb-4 flex flex-wrap gap-2">
           {idea.tags.map((tag, index) => (
-            <span
-              key={index}
-              className="px-3 py-1 bg-blue-600 text-white text-sm rounded-full"
-            >
+            <span key={index} className="rounded-full bg-blue-600 px-3 py-1 text-sm text-white">
               #{tag}
             </span>
           ))}
@@ -143,24 +136,24 @@ const IdeaCard = ({ idea, onVoteUpdate }) => {
       {/* Resources Needed */}
       {idea.resourcesNeeded && (
         <div className="mb-4">
-          <h4 className="text-white font-medium mb-2">🛠️ Resources Needed:</h4>
-          <p className="text-gray-400 text-sm line-clamp-2">
-            {idea.resourcesNeeded}
-          </p>
+          <h4 className="mb-2 font-medium text-white">🛠️ Resources Needed:</h4>
+          <p className="line-clamp-2 text-sm text-gray-400">{idea.resourcesNeeded}</p>
         </div>
       )}
 
       {/* Status Badge */}
-      <div className="flex justify-between items-center">
-        <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-          idea.status === 'selected' 
-            ? 'bg-green-600 text-white'
-            : idea.status === 'in_development'
-            ? 'bg-yellow-600 text-white'
-            : idea.status === 'completed'
-            ? 'bg-purple-600 text-white'
-            : 'bg-gray-600 text-white'
-        }`}>
+      <div className="flex items-center justify-between">
+        <span
+          className={`rounded-full px-3 py-1 text-sm font-medium ${
+            idea.status === 'selected'
+              ? 'bg-green-600 text-white'
+              : idea.status === 'in_development'
+                ? 'bg-yellow-600 text-white'
+                : idea.status === 'completed'
+                  ? 'bg-purple-600 text-white'
+                  : 'bg-gray-600 text-white'
+          }`}
+        >
           {idea.status === 'submitted' && '📝 Submitted'}
           {idea.status === 'selected' && '🌟 Selected'}
           {idea.status === 'in_development' && '🚧 In Development'}
@@ -169,7 +162,7 @@ const IdeaCard = ({ idea, onVoteUpdate }) => {
 
         {/* Collaborators count */}
         {idea.collaborators && idea.collaborators.length > 0 && (
-          <span className="text-gray-400 text-sm">
+          <span className="text-sm text-gray-400">
             👥 {idea.collaborators.length} collaborator{idea.collaborators.length !== 1 ? 's' : ''}
           </span>
         )}
@@ -185,15 +178,13 @@ const IdeaCard = ({ idea, onVoteUpdate }) => {
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-300 text-sm truncate max-w-xs"
+                className="max-w-xs truncate text-sm text-blue-400 hover:text-blue-300"
               >
                 🖼️ Media {index + 1}
               </a>
             ))}
             {idea.mediaUrls.length > 3 && (
-              <span className="text-gray-400 text-sm">
-                +{idea.mediaUrls.length - 3} more
-              </span>
+              <span className="text-sm text-gray-400">+{idea.mediaUrls.length - 3} more</span>
             )}
           </div>
         </div>

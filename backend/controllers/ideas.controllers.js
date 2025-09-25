@@ -8,9 +8,9 @@ export const submitIdea = async (req, res) => {
 
     // Check if submission is open
     if (!Ideas.isSubmissionOpen()) {
-      return res.status(400).json(
-        apiResponse(400, null, 'Idea submission is only allowed during the first week of each month')
-      );
+      return res
+        .status(400)
+        .json(apiResponse(400, null, 'Idea submission is only allowed during the first week of each month'));
     }
 
     // Get current submission period
@@ -20,13 +20,11 @@ export const submitIdea = async (req, res) => {
     const existingIdea = await Ideas.findOne({
       submitterEmail,
       submissionMonth: month,
-      submissionYear: year
+      submissionYear: year,
     });
 
     if (existingIdea) {
-      return res.status(400).json(
-        apiResponse(400, null, 'You can only submit one idea per month')
-      );
+      return res.status(400).json(apiResponse(400, null, 'You can only submit one idea per month'));
     }
 
     // Create new idea
@@ -39,19 +37,15 @@ export const submitIdea = async (req, res) => {
       resourcesNeeded,
       mediaUrls: mediaUrls || [],
       submissionMonth: month,
-      submissionYear: year
+      submissionYear: year,
     });
 
     await newIdea.save();
 
-    res.status(201).json(
-      apiResponse(201, newIdea, 'Idea submitted successfully')
-    );
+    res.status(201).json(apiResponse(201, newIdea, 'Idea submitted successfully'));
   } catch (error) {
     console.error('Error submitting idea:', error);
-    res.status(500).json(
-      apiResponse(500, null, 'Internal server error')
-    );
+    res.status(500).json(apiResponse(500, null, 'Internal server error'));
   }
 };
 
@@ -67,34 +61,36 @@ export const getCurrentMonthIdeas = async (req, res) => {
     const ideas = await Ideas.find({
       submissionMonth: month,
       submissionYear: year,
-      isArchived: false
+      isArchived: false,
     })
-    .sort({ [sortBy]: sortOrder, createdAt: -1 })
-    .skip(skip)
-    .limit(parseInt(limit))
-    .select('-voters'); // Don't expose voter details
+      .sort({ [sortBy]: sortOrder, createdAt: -1 })
+      .skip(skip)
+      .limit(parseInt(limit))
+      .select('-voters'); // Don't expose voter details
 
     const totalIdeas = await Ideas.countDocuments({
       submissionMonth: month,
       submissionYear: year,
-      isArchived: false
+      isArchived: false,
     });
 
     res.status(200).json(
-      apiResponse(200, {
-        ideas,
-        currentPage: parseInt(page),
-        totalPages: Math.ceil(totalIdeas / limit),
-        totalIdeas,
-        submissionPeriod: `${month} ${year}`,
-        isSubmissionOpen: Ideas.isSubmissionOpen()
-      }, 'Ideas retrieved successfully')
+      apiResponse(
+        200,
+        {
+          ideas,
+          currentPage: parseInt(page),
+          totalPages: Math.ceil(totalIdeas / limit),
+          totalIdeas,
+          submissionPeriod: `${month} ${year}`,
+          isSubmissionOpen: Ideas.isSubmissionOpen(),
+        },
+        'Ideas retrieved successfully',
+      ),
     );
   } catch (error) {
     console.error('Error getting ideas:', error);
-    res.status(500).json(
-      apiResponse(500, null, 'Internal server error')
-    );
+    res.status(500).json(apiResponse(500, null, 'Internal server error'));
   }
 };
 
@@ -104,14 +100,10 @@ export const getTrendingIdeas = async (req, res) => {
     const { limit = 5 } = req.query;
     const trendingIdeas = await Ideas.getTrendingIdeas(parseInt(limit));
 
-    res.status(200).json(
-      apiResponse(200, trendingIdeas, 'Trending ideas retrieved successfully')
-    );
+    res.status(200).json(apiResponse(200, trendingIdeas, 'Trending ideas retrieved successfully'));
   } catch (error) {
     console.error('Error getting trending ideas:', error);
-    res.status(500).json(
-      apiResponse(500, null, 'Internal server error')
-    );
+    res.status(500).json(apiResponse(500, null, 'Internal server error'));
   }
 };
 
@@ -122,37 +114,27 @@ export const voteForIdea = async (req, res) => {
     const { userEmail } = req.body;
 
     if (!userEmail) {
-      return res.status(400).json(
-        apiResponse(400, null, 'User email is required')
-      );
+      return res.status(400).json(apiResponse(400, null, 'User email is required'));
     }
 
     const idea = await Ideas.findById(ideaId);
     if (!idea) {
-      return res.status(404).json(
-        apiResponse(404, null, 'Idea not found')
-      );
+      return res.status(404).json(apiResponse(404, null, 'Idea not found'));
     }
 
     // Check if user can vote (hasn't voted already)
     if (!idea.canUserVote(userEmail)) {
-      return res.status(400).json(
-        apiResponse(400, null, 'You have already voted for this idea')
-      );
+      return res.status(400).json(apiResponse(400, null, 'You have already voted for this idea'));
     }
 
     // Add vote
     idea.addVote(userEmail);
     await idea.save();
 
-    res.status(200).json(
-      apiResponse(200, { votes: idea.votes }, 'Vote added successfully')
-    );
+    res.status(200).json(apiResponse(200, { votes: idea.votes }, 'Vote added successfully'));
   } catch (error) {
     console.error('Error voting for idea:', error);
-    res.status(500).json(
-      apiResponse(500, null, 'Internal server error')
-    );
+    res.status(500).json(apiResponse(500, null, 'Internal server error'));
   }
 };
 
@@ -163,36 +145,26 @@ export const removeVoteFromIdea = async (req, res) => {
     const { userEmail } = req.body;
 
     if (!userEmail) {
-      return res.status(400).json(
-        apiResponse(400, null, 'User email is required')
-      );
+      return res.status(400).json(apiResponse(400, null, 'User email is required'));
     }
 
     const idea = await Ideas.findById(ideaId);
     if (!idea) {
-      return res.status(404).json(
-        apiResponse(404, null, 'Idea not found')
-      );
+      return res.status(404).json(apiResponse(404, null, 'Idea not found'));
     }
 
     // Remove vote
     const voteRemoved = idea.removeVote(userEmail);
     if (!voteRemoved) {
-      return res.status(400).json(
-        apiResponse(400, null, 'You have not voted for this idea')
-      );
+      return res.status(400).json(apiResponse(400, null, 'You have not voted for this idea'));
     }
 
     await idea.save();
 
-    res.status(200).json(
-      apiResponse(200, { votes: idea.votes }, 'Vote removed successfully')
-    );
+    res.status(200).json(apiResponse(200, { votes: idea.votes }, 'Vote removed successfully'));
   } catch (error) {
     console.error('Error removing vote:', error);
-    res.status(500).json(
-      apiResponse(500, null, 'Internal server error')
-    );
+    res.status(500).json(apiResponse(500, null, 'Internal server error'));
   }
 };
 
@@ -201,24 +173,16 @@ export const getIdeaById = async (req, res) => {
   try {
     const { ideaId } = req.params;
 
-    const idea = await Ideas.findById(ideaId)
-      .populate('collaborators', 'name email role')
-      .select('-voters'); // Don't expose voter details
+    const idea = await Ideas.findById(ideaId).populate('collaborators', 'name email role').select('-voters'); // Don't expose voter details
 
     if (!idea) {
-      return res.status(404).json(
-        apiResponse(404, null, 'Idea not found')
-      );
+      return res.status(404).json(apiResponse(404, null, 'Idea not found'));
     }
 
-    res.status(200).json(
-      apiResponse(200, idea, 'Idea retrieved successfully')
-    );
+    res.status(200).json(apiResponse(200, idea, 'Idea retrieved successfully'));
   } catch (error) {
     console.error('Error getting idea:', error);
-    res.status(500).json(
-      apiResponse(500, null, 'Internal server error')
-    );
+    res.status(500).json(apiResponse(500, null, 'Internal server error'));
   }
 };
 
@@ -229,9 +193,7 @@ export const selectIdeaForDevelopment = async (req, res) => {
 
     const idea = await Ideas.findById(ideaId);
     if (!idea) {
-      return res.status(404).json(
-        apiResponse(404, null, 'Idea not found')
-      );
+      return res.status(404).json(apiResponse(404, null, 'Idea not found'));
     }
 
     // Mark as selected for development
@@ -241,14 +203,10 @@ export const selectIdeaForDevelopment = async (req, res) => {
 
     await idea.save();
 
-    res.status(200).json(
-      apiResponse(200, idea, 'Idea selected for development')
-    );
+    res.status(200).json(apiResponse(200, idea, 'Idea selected for development'));
   } catch (error) {
     console.error('Error selecting idea:', error);
-    res.status(500).json(
-      apiResponse(500, null, 'Internal server error')
-    );
+    res.status(500).json(apiResponse(500, null, 'Internal server error'));
   }
 };
 
@@ -260,26 +218,18 @@ export const joinIdeaCollaboration = async (req, res) => {
 
     const idea = await Ideas.findById(ideaId);
     if (!idea) {
-      return res.status(404).json(
-        apiResponse(404, null, 'Idea not found')
-      );
+      return res.status(404).json(apiResponse(404, null, 'Idea not found'));
     }
 
     if (idea.status !== 'selected' && idea.status !== 'in_development') {
-      return res.status(400).json(
-        apiResponse(400, null, 'This idea is not open for collaboration yet')
-      );
+      return res.status(400).json(apiResponse(400, null, 'This idea is not open for collaboration yet'));
     }
 
     // Check if user already joined
-    const existingCollaborator = idea.collaborators.find(
-      collaborator => collaborator.email === email
-    );
+    const existingCollaborator = idea.collaborators.find((collaborator) => collaborator.email === email);
 
     if (existingCollaborator) {
-      return res.status(400).json(
-        apiResponse(400, null, 'You have already joined this project')
-      );
+      return res.status(400).json(apiResponse(400, null, 'You have already joined this project'));
     }
 
     // Add collaborator
@@ -290,14 +240,10 @@ export const joinIdeaCollaboration = async (req, res) => {
 
     await idea.save();
 
-    res.status(200).json(
-      apiResponse(200, idea.collaborators, 'Successfully joined the collaboration')
-    );
+    res.status(200).json(apiResponse(200, idea.collaborators, 'Successfully joined the collaboration'));
   } catch (error) {
     console.error('Error joining collaboration:', error);
-    res.status(500).json(
-      apiResponse(500, null, 'Internal server error')
-    );
+    res.status(500).json(apiResponse(500, null, 'Internal server error'));
   }
 };
 
@@ -313,7 +259,7 @@ export const getSubmissionStatus = async (req, res) => {
       const existingIdea = await Ideas.findOne({
         submitterEmail: userEmail,
         submissionMonth: month,
-        submissionYear: year
+        submissionYear: year,
       });
       hasSubmittedThisMonth = !!existingIdea;
     }
@@ -324,18 +270,20 @@ export const getSubmissionStatus = async (req, res) => {
     const daysLeftForSubmission = isSubmissionOpen ? 7 - currentDay + 1 : 0;
 
     res.status(200).json(
-      apiResponse(200, {
-        isSubmissionOpen,
-        submissionPeriod: `${month} ${year}`,
-        hasSubmittedThisMonth,
-        daysLeftForSubmission,
-        submissionEndsAt: isSubmissionOpen ? new Date(now.getFullYear(), now.getMonth(), 7, 23, 59, 59) : null
-      }, 'Submission status retrieved successfully')
+      apiResponse(
+        200,
+        {
+          isSubmissionOpen,
+          submissionPeriod: `${month} ${year}`,
+          hasSubmittedThisMonth,
+          daysLeftForSubmission,
+          submissionEndsAt: isSubmissionOpen ? new Date(now.getFullYear(), now.getMonth(), 7, 23, 59, 59) : null,
+        },
+        'Submission status retrieved successfully',
+      ),
     );
   } catch (error) {
     console.error('Error getting submission status:', error);
-    res.status(500).json(
-      apiResponse(500, null, 'Internal server error')
-    );
+    res.status(500).json(apiResponse(500, null, 'Internal server error'));
   }
 };
