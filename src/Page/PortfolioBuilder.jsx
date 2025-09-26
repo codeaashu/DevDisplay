@@ -1,4 +1,5 @@
 import React from 'react';
+import DynamicPortfolioGenerator from './DynamicPortfolioGenerator';
 
 const PortfolioBuilderPage = () => {
   return (
@@ -28,6 +29,7 @@ const PortfolioBuilderPage = () => {
           </span>
         </button>
       </a>
+      <DynamicPortfolioGenerator />
     </div>
   );
 };
