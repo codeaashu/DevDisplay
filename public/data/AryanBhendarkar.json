@@ -1,32 +1,13 @@
 {
   "name": "Aryan Bhendarkar",
   "location": "Bangalore",
-  "bio": "Learning hard stuff !",
-  "avatar": "https://github.com/your-github-username.png",
-  "portfolio": "Your Portfolio URL or Github URL",
-  "skills": ["Your Skill 1", "Your Skill 2", "..."],
+  "bio": "Learning hard stuff!",
+  "avatar": "https://github.com/Aryan-Bhendarkar.png",
+  "skills": ["HTML", "CSS", "JavaScript", "TYPESCRIPT", "REACTJS", "GitHub", "Git"],
   "social": {
     "GitHub": "https://github.com/Aryan-Bhendarkar",
-    "Twitter": "https://twitter.com/your-twitter-username",
-    "LinkedIn": "www.linkedin.com/in/aryan-bhendarkar",
-    "Instagram": "https://www.instagram.com/your-instgram-username",
+    "LinkedIn": "https://www.linkedin.com/in/aryan-bhendarkar",
     "Email": "bhendarkararyan@gmail.com",
-    "Discord": "https://discord.com/users/your-discord-id",
-    "LeetCode": "https://leetcode.com/u/Aryan_Bhendarkar/",
-    "Codeforces": "https://codeforces.com/profile/your-codeforces-username",
-    "HackerRank": "https://www.hackerrank.com/your-hackerrank-username",
-    "StackOverflow": "https://stackoverflow.com/users/your-stackoverflow-id",
-    "YouTube": "https://www.youtube.com/c/your-youtube-channel",
-    "DevTo": "https://dev.to/your-dev-profile",
-    "Hashnode": "https://hashnode.com/@your-hashnode-username",
-    "Behance": "https://www.behance.net/your-behance-profile",
-    "Dribbble": "https://dribbble.com/your-dribbble-profile",
-    "Figma": "https://www.figma.com/@your-figma-profile",
-    "Replit": "https://replit.com/@your-replit-username",
-    "BuyMeACoffee": "https://www.buymeacoffee.com/your-coffee-profile",
-    "ProductHunt": "https://www.producthunt.com/@your-producthunt-profile",
-    "Medium": "https://medium.com/@your-medium-profile",
-    "Reddit": "https://www.reddit.com/user/your-reddit-username",
-    "Unstop": "https://unstop.com/@your-unstop-username"
+    "LeetCode": "https://leetcode.com/u/Aryan_Bhendarkar/"
   }
 }
