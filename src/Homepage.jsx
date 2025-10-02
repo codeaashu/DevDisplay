@@ -280,6 +280,28 @@ function App() {
             });
           }
         }
+      } else if (criteria === 'bio') {
+        // Enhanced bio/description search with fuzzy matching
+        if (fuse) {
+          const bioFuse = new Fuse(combinedData, {
+            keys: ['bio'],
+            threshold: 0.3,
+            includeScore: true,
+          });
+          const fuseResults = bioFuse.search(value);
+          filteredResults = fuseResults.map((result) => result.item);
+
+          // Fallback to exact match if no fuzzy results
+          if (filteredResults.length === 0) {
+            filteredResults = combinedData.filter((user) => {
+              return normalizeString(user.bio || '').includes(normalizeString(value));
+            });
+          }
+        } else {
+          filteredResults = combinedData.filter((user) => {
+            return normalizeString(user.bio || '').includes(normalizeString(value));
+          });
+        }
       } else if (criteria === 'location') {
         // Enhanced location search with fuzzy matching
         if (fuse) {
@@ -398,6 +420,13 @@ function App() {
 
         if (aSocialExact && !bSocialExact) return -1;
         if (!aSocialExact && bSocialExact) return 1;
+
+        // Check for exact matches in bio/description
+        const aBioExact = normalizeString(a.bio || '').includes(searchValue);
+        const bBioExact = normalizeString(b.bio || '').includes(searchValue);
+
+        if (aBioExact && !bBioExact) return -1;
+        if (!aBioExact && bBioExact) return 1;
 
         // Finally, sort alphabetically by name
         return a.name.localeCompare(b.name);

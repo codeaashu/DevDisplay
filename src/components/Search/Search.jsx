@@ -97,17 +97,7 @@ function Search({ onSearch }) {
         </a>
       </StyledWrapper>
       <div className="relative flex items-center justify-end space-x-4">
-        <select
-          className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
-          value={searchCriteria}
-          onChange={handleCriteriaChange}
-        >
-          <option value="all">All Fields</option>
-          <option value="name">Name</option>
-          <option value="location">Location</option>
-          <option value="skill">Skills</option>
-        </select>
-        <div className="relative w-full">
+        <div className="relative flex-[3]">
           <input
             className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 w-full rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 pr-20 font-spaceMono text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
             ref={searchInput}
@@ -136,6 +126,17 @@ function Search({ onSearch }) {
             icon={faMicrophone}
           /> */}
         </div>
+        <select
+          className="focus:border-primaryFocus focus:bg-primaryLight dark:focus:border-secondaryFocus dark:focus:bg-secondaryLight h-12 flex-1 rounded-lg border-2 border-borderSecondary bg-primaryColor px-4 py-3 text-base text-secondaryColor outline-none dark:border-borderColor dark:bg-secondaryColor dark:text-white"
+          value={searchCriteria}
+          onChange={handleCriteriaChange}
+        >
+          <option value="all">All Fields</option>
+          <option value="name">Name</option>
+          <option value="location">Location</option>
+          <option value="skill">Skills</option>
+          <option value="bio">Description</option>
+        </select>
       </div>
 
       <VoiceSearch setVoiceText={setVoiceText} isListening={isListening} setIsListening={setIsListening} />
