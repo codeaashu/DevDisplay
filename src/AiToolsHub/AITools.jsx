@@ -66,6 +66,54 @@ const aiTools = [
     ],
     url: 'https://www.deepseek.com',
   },
+  // Added more AI tools here
+  {
+    title: 'ElevenLabs Voice AI',
+    description:
+      'ElevenLabs provides advanced voice synthesis and analysis tools for creating realistic and expressive speech.',
+    features: ['High-quality voice generation', 'Voice cloning and customization', 'Emotion detection in speech'],
+    url: 'https://elevenlabs.io',
+  },
+  {
+    title: 'Memelord Meme Resource',
+    description: 'Memelord offers a collection of AI-generated memes and meme templates for creative expression.',
+    features: ['AI-generated meme suggestions', 'Customizable meme templates', 'Trending meme collections'],
+    url: 'https://memelord.com',
+  },
+  {
+    title: 'Clonify UI Library',
+    description: 'Clonify provides a library of pre-built UI components and templates for rapid web development.',
+    features: ['Responsive UI components', 'Customizable templates', 'Easy integration with frameworks'],
+    url: 'https://clonify.com',
+  },
+  {
+    title: 'Inbound Email Platform',
+    description: 'Inbound offers an AI-powered email platform for personalized marketing and customer engagement.',
+    features: [
+      'Automated email campaigns',
+      'Personalized content recommendations',
+      'Analytics and performance tracking',
+    ],
+    url: 'https://inbound.com',
+  },
+  {
+    title: 'Uncode Framer Components',
+    description: 'Uncode provides a set of components for Framer, enabling designers to create interactive prototypes.',
+    features: ['Pre-built Framer components', 'Interactive animations', 'Customizable design elements'],
+    url: 'https://uncode.com',
+  },
+  {
+    title: 'V30 Social Media Tool',
+    description: 'V30 offers AI tools for social media management, including content scheduling and analytics.',
+    features: ['Automated content scheduling', 'Social media analytics', 'Audience engagement tools'],
+    url: 'https://v30.com',
+  },
+  {
+    title: 'VoiceTypr Voice Dictation',
+    description: 'VoiceTypr provides AI-powered voice dictation tools for transcribing speech to text.',
+    features: ['Real-time voice transcription', 'Multi-language support', 'Customizable voice models'],
+    url: 'https://voicetypr.com',
+  },
 ];
 
 const AITools = () => {
