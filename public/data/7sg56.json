@@ -1,14 +1,25 @@
 {
-    "name": "Sourish Ghosh",
-    "location": "Chennai",
-    "bio": "Creating the unimaginable one step at a time",
-    "avatar": "https://github.com/7sg56.png",
-    "portfolio": "https://sourish-ghosh.vercel.app",
-    "skills": ["Next.js", "TypeScript", "three.js", "Supabase", "Tailwind CSS", "Shadcn UI", "Express.js", "MongoDB", "Redis"],
-    "social": {
-      "GitHub": "https://github.com/7sg56",
-      "Twitter": "https://x.com/sourishghosh777",
-      "LinkedIn": "https://www.linkedin.com/in/7sg56",
-      "Email": "sghosh.ile.7@gmail.com"
-    }
+  "name": "Sourish Ghosh",
+  "location": "Chennai, India",
+  "bio": "Web Developer, Game Developer and a Software Engineer, creating impactful solutions one step at a time",
+  "avatar": "https://github.com/7sg56.png",
+  "portfolio": "https://sourish-ghosh.vercel.app",
+  "skills": [
+    "Next.js",
+    "TypeScript",
+    "three.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Express.js",
+    "MongoDB",
+    "Redis",
+    "MySQL",
+    "C/C++"
+  ],
+  "social": {
+    "GitHub": "https://github.com/7sg56",
+    "Twitter": "https://x.com/sourishghosh777",
+    "LinkedIn": "https://www.linkedin.com/in/7sg56",
+    "Email": "sghosh.ile.7@gmail.com"
   }
+}
