@@ -102,9 +102,10 @@ function Search({ onSearch }) {
           value={searchCriteria}
           onChange={handleCriteriaChange}
         >
+          <option value="all">All Fields</option>
           <option value="name">Name</option>
           <option value="location">Location</option>
-          <option value="skill">Skill</option>
+          <option value="skill">Skills</option>
         </select>
         <div className="relative w-full">
           <input
