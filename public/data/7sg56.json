@@ -1,7 +1,7 @@
 {
   "name": "Sourish Ghosh",
-  "location": "Chennai",
-  "bio": "Creating the unimaginable one step at a time",
+  "location": "Chennai, India",
+  "bio": "Web Developer, Game Developer and a Software Engineer, creating impactful solutions one step at a time",
   "avatar": "https://github.com/7sg56.png",
   "portfolio": "https://sourish-ghosh.vercel.app",
   "skills": [
@@ -10,10 +10,11 @@
     "three.js",
     "Supabase",
     "Tailwind CSS",
-    "Shadcn UI",
     "Express.js",
     "MongoDB",
-    "Redis"
+    "Redis",
+    "MySQL",
+    "C/C++"
   ],
   "social": {
     "GitHub": "https://github.com/7sg56",
