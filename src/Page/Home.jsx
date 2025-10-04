@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, memo, useMemo, useCallback } from 'react';
 import styled from 'styled-components';
 import Navbar from '../components/Navbar';
 import Globe from '../components/Globe';
@@ -68,7 +68,7 @@ import { SiDevdotto } from 'react-icons/si';
 
 const GITHUB_REPO = 'codeaashu/DevDisplay';
 
-const Hero = () => {
+const Hero = memo(() => {
   const [stars, setStars] = useState(null);
 
   useEffect(() => {
@@ -183,7 +183,9 @@ const Hero = () => {
       <div className="mb-20"></div>
     </section>
   );
-};
+});
+
+Hero.displayName = 'Hero';
 
 const StyledButton = styled.button`
   cursor: pointer;
@@ -318,7 +320,7 @@ const StyledDot = styled.div`
   }
 `;
 
-const TechFeatures = () => {
+const TechFeatures = memo(() => {
   return (
     <section className="tech-features-section mt-[60%] max-w-[90%] px-4 py-16 text-white xs:mt-0">
       <div className="mx-auto my-12 max-w-[80%] text-center">
@@ -766,7 +768,9 @@ const TechFeatures = () => {
       {/*Adding New Features */}
     </section>
   );
-};
+});
+
+TechFeatures.displayName = 'TechFeatures';
 
 const Tags = () => {
   const tags = [
