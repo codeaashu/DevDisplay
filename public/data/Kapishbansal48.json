@@ -1,0 +1,24 @@
+{
+  "name": "Kapish Bansal",
+  "location": "Delhi, India",
+  "bio": "A developer passionate about building systems for the web 🌐.",
+  "avatar": "https://avatars.githubusercontent.com/u/134728855?v=4",
+  "skills": [
+    "C++",
+    "Java",
+    "Javascript",
+    "React",
+    "MySQL",
+    "Git",
+    "GitHub",
+    "Tailwind CSS",
+    "Web Development",
+    "Frontend",
+    "DSA"
+    ],
+  "social": {
+    "GitHub": "https://github.com/Kapishbansal48",
+    "LinkedIn": "https://www.linkedin.com/in/kapish-bansal-18b196246/",
+    "Email": "kapishbansal2004@gmail.com"
+  }
+}
