@@ -1,0 +1,13 @@
+{
+  "name": "Aryan Bhendarkar",
+  "location": "Bangalore",
+  "bio": "Learning hard stuff!",
+  "avatar": "https://github.com/Aryan-Bhendarkar.png",
+  "skills": ["HTML", "CSS", "JavaScript", "TYPESCRIPT", "REACTJS", "GitHub", "Git"],
+  "social": {
+    "GitHub": "https://github.com/Aryan-Bhendarkar",
+    "LinkedIn": "https://www.linkedin.com/in/aryan-bhendarkar",
+    "Email": "bhendarkararyan@gmail.com",
+    "LeetCode": "https://leetcode.com/u/Aryan_Bhendarkar/"
+  }
+}
