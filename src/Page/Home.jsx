@@ -1276,7 +1276,7 @@ const Home = () => {
       <div style={{ margin: '30px 0' }}></div>
       <Badges />
       <div style={{ margin: '20px 0' }}></div>
-      <DeveloperCard />
+      {/* <DeveloperCard /> */}
       <SupportersComponent />
       <Footer />
     </div>

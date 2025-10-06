@@ -64,7 +64,7 @@ function App() {
   };
 
   const normalizeString = (str) => {
-    if (!str) return ''; // Return an empty string if str is undefined or null
+    if (!str) return '';
     return str
       .toLowerCase()
       .replace(/\s*,\s*/g, ' ')
@@ -73,6 +73,7 @@ function App() {
   };
 
   const handleSearch = ({ value, criteria }) => {
+    if (currentPage !== 1) setCurrentPage(1);
     const normalizedValue = normalizeString(value);
 
     if (criteria !== 'skill') {
@@ -87,8 +88,19 @@ function App() {
 
       setProfiles(filteredResults);
     } else if (criteria === 'skill') {
-      if (value.length > 0) {
-        const setOfSearchSkills = new Set(value.map((skill) => skill.toLowerCase()));
+      if (value && value.length > 0) {
+        const searchSkills =
+          typeof value === 'string'
+            ? value
+                .toLowerCase()
+                .split(',')
+                .map((skill) => skill.trim())
+                .filter((skill) => skill.length > 0)
+            : Array.isArray(value)
+              ? value.map((skill) => skill.toLowerCase())
+              : [value.toLowerCase()];
+
+        const setOfSearchSkills = new Set(searchSkills);
         const filteredUsers = shuffledProfiles.filter((user) =>
           user.skills.some((skill) => setOfSearchSkills.has(skill.toLowerCase())),
         );
@@ -117,10 +129,25 @@ function App() {
   };
 
   useEffect(() => {
-    profilesRef.current.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
+    const scrollContainer = profilesRef.current;
+    if (scrollContainer) {
+      const canScroll = scrollContainer.scrollHeight > scrollContainer.clientHeight + 5; // small tolerance
+      if (canScroll) {
+        try {
+          scrollContainer.scrollTo({ top: 0, behavior: 'smooth' });
+        } catch (e) {
+          scrollContainer.scrollTop = 0;
+        }
+      } else {
+        try {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } catch (e) {
+          window.scrollTo(0, 0);
+        }
+      }
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   }, [currentPage]);
 
   const getPaginatedData = () => {

@@ -24,3 +24,9 @@
 
 `Aayush Kumar` https://github.com/beingaayush
 ![IMG-20250409-WA0005](https://github.com/user-attachments/assets/e8dd64c1-bcfa-432c-b9e1-de79249f45a2)
+
+`Kwizera Caleb` https://github.com/KWIZERA-CALEB/
+<img width="1884" height="973" alt="Screenshot-2025-08-30-221941" src="https://github.com/user-attachments/assets/9138dfb6-cbda-4b3e-b658-9ad5e3082d2c" />
+
+`Mehul Kumar` https://github.com/WonderSTK/
+<img width="1911" height="906" alt="Screenshot-2025-09-21-115502" src="https://github.com/user-attachments/assets/281991e7-cfdb-4957-be43-78602b79595b" />

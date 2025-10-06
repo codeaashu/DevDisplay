@@ -1,0 +1,34 @@
+{
+  "name": "Thirumalesh Pinninti",
+  "location": "Hyderabad, India",
+  "bio": "DevOps Engineer & Cloud Architect | Google Cloud Expert | AI & Blockchain Specialist",
+  "avatar": "https://github.com/thirumaleshp.png",
+  "portfolio": "https://thirumalesh.xyz",
+  "skills": [
+    "Python",
+    "C",
+    "Google Cloud Platform (GCP)",
+    "AWS",
+    "Terraform",
+    "Jenkins",
+    "Docker",
+    "Ansible",
+    "Bash Scripting",
+    "Git & GitHub",
+    "Linux (Ubuntu, CentOS)",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Blockchain",
+    "DevOps"
+  ],
+  "social": {
+    "GitHub": "https://github.com/thirumaleshp",
+    "Twitter": "https://twitter.com/thirumaleshx",
+    "LinkedIn": "https://www.linkedin.com/in/thirumalesh-pinninti",
+    "Instagram": "https://www.instagram.com/thirumalesh_pinninti",
+    "Email": "thirumalesh@thirumalesh.xyz",
+    "Discord": "https://discord.com/users/thirumalesh_",
+    "DevTo": "https://dev.to/thirumaleshp",
+    "Reddit": "https://www.reddit.com/user/thirumaleshp/"
+  }
+}

@@ -2630,5 +2630,19 @@
     "liveUrl": "https://navneet-portfolio.netwaycabs.com/",
     "repo": "#",
     "techStack": "reactjs, nodejs"
+  },
+  {
+    "author": "Kwizera Caleb",
+    "screenshot": "https://github.com/user-attachments/assets/9138dfb6-cbda-4b3e-b658-9ad5e3082d2c",
+    "liveUrl": "https://calebkwizera.vercel.app/",
+    "repo": "https://github.com/KWIZERA-CALEB/portfolio",
+    "techStack": "Nextjs, Shadcn, Tailwindcss, Typescript, Vercel, Frame motion"
+  },
+  {
+    "author": "Mehul Kumar",
+    "screenshot": "https://github.com/user-attachments/assets/281991e7-cfdb-4957-be43-78602b79595b",
+    "liveUrl": "https://personal-portfolio-liard-five.vercel.app/",
+    "repo": "https://github.com/WonderSTK/personal_portfolio",
+    "techStack": "Next.js, React.js, Three.js, Tailwind CSS, ShadCN"
   }
 ]

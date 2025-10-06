@@ -297,6 +297,24 @@ const OpportunitiesCards = () => {
 
   const Opportunities = [
     {
+      title: 'Hackathons',
+      description: 'Explore & Participate in Global Hackathons in One Place.',
+      link: '/Hackathons',
+      tags: ['Hackathons', 'Online Hackathons', 'Offline Hackathons'],
+    },
+    {
+      title: 'Tech Events',
+      description: 'Explore & Participate in Global Tech Events, Fest, Conferences & Meetups.',
+      link: '/Events',
+      tags: ['Tech Events', 'Tech Fest', 'Tech Conferences ', 'Tech Meetups'],
+    },
+    {
+      title: 'OpenSource Program',
+      description: 'Explore & Participate in Global OpenSource Programs.',
+      link: '/OpenSource',
+      tags: ['OpenSource Program', 'GSOC', 'Hacktoberfest', 'Outreachy', 'MLH Fellowship', 'GSSOC', 'SWOC'],
+    },
+    {
       title: 'Jobs',
       description: 'Explore & Find the best jobs Hybrid, Onsite & Remote.',
       link: '/Jobs',
@@ -315,24 +333,6 @@ const OpportunitiesCards = () => {
       tags: ['Freelancing', 'Work', 'Job', 'Online Work', 'Offline Work', 'Remote Work'],
     },
     {
-      title: 'Hackathons',
-      description: 'Explore & Participate in Global Hackathons in One Place.',
-      link: '/Hackathons',
-      tags: ['Hackathons', 'Online Hackathons', 'Offline Hackathons'],
-    },
-    {
-      title: 'Competitions',
-      description: 'Explore & Participate in Global Tech Competitions.',
-      link: '/Competitions',
-      tags: ['Competitions', 'Tech Competitions', 'Coding Competitions'],
-    },
-    {
-      title: 'Tech Events',
-      description: 'Explore & Participate in Global Tech Events, Fest, Conferences & Meetups.',
-      link: '/Events',
-      tags: ['Tech Events', 'Tech Fest', 'Tech Conferences ', 'Tech Meetups'],
-    },
-    {
       title: 'Bootcamps',
       description: 'Explore & Participate in Global Bootcamps to levelup yourself.',
       link: '/Bootcamps',
@@ -345,10 +345,10 @@ const OpportunitiesCards = () => {
       tags: ['Certifications', 'Tech Certifications', 'Coding Certifications', 'Skill Certifications'],
     },
     {
-      title: 'OpenSource Program',
-      description: 'Explore & Participate in Global OpenSource Programs.',
-      link: '/OpenSource',
-      tags: ['OpenSource Program', 'GSOC', 'Hacktoberfest', 'Outreachy', 'MLH Fellowship', 'GSSOC', 'SWOC'],
+      title: 'Competitions',
+      description: 'Explore & Participate in Global Tech Competitions.',
+      link: '/Competitions',
+      tags: ['Competitions', 'Tech Competitions', 'Coding Competitions'],
     },
   ];
 
