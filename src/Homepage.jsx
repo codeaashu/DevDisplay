@@ -170,7 +170,7 @@ function App() {
       );
     }
     const paginatedData = getPaginatedData();
-    return paginatedData.map((currentRecord, index) => <Profile data={currentRecord} key={index} />);
+    return paginatedData.map((currentRecord) => <Profile data={currentRecord} key={currentRecord.id} />);
   };
 
   return currentUrl === '/' ? (
