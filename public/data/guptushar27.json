@@ -1,0 +1,11 @@
+{
+  "name": "Tushar Khandelwal",
+  "location": "Udaipur.Rajasthan",
+  "bio": "Hey i am Tushar Khandelwal currently contributing in open source and preparing for Gsoc 2025.",
+  "avatar": "https://github.com/guptushar27.png",
+  "skills": ["AI/ML", "SQL", "PYTHON", "Git", "GitHub"],
+  "social": {
+    "GitHub": "https://github.com/guptushar27",
+    "LinkedIn": "https://www.linkedin.com/in/tushar-khandelwal07"
+  }
+}

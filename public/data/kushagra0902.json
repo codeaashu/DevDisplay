@@ -1,0 +1,15 @@
+{
+  "name": "Kushagra Kinra",
+  "location": "Jodhpur, Rajasthan",
+  "bio": "I am a 2nd year CSE B.Tech student who is exploring open-source and distributed systems",
+  "avatar": "https://github.com/kushagra0902.png",
+  "skills": ["Js", "Node/express", "golang", "flutter", "network basics", "python", "pytorch"],
+  "social": {
+    "GitHub": "https://github.com/kushagra0902",
+    "LinkedIn": "http://www.linkedin.com/in/kushagra-kinra-965153370",
+    "Instagram": "https://www.instagram.com/kushagra_kinra",
+    "Email": "your-email-id",
+    "Discord": "https://discord.com/users/kushagrakinra4247",
+    "LeetCode": "https://leetcode.com/mZb7awOwuv"
+  }
+}

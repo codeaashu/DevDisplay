@@ -1,0 +1,13 @@
+{
+  "name": "Md Wasirul",
+  "location": "Hyderabad",
+  "bio": "BCA final year || Aspiring Web Developer",
+  "avatar": "https://github.com/MdWasirul.png",
+  "portfolio": "https://mdwasirul-portfolio.vercel.app/",
+  "skills": ["React Js", "TypeScript", "JavaScript", "TailwindCss", "HTML", "CSS", "GIT", "GITHUB", "..."],
+  "social": {
+    "GitHub": "https://github.com/MdWasirul",
+    "LinkedIn": "https://www.linkedin.com/in/md-wasirul-ab8a96271/",
+    "Email": "techbymdwasirul2024@gmail.com"
+  }
+}
