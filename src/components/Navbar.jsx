@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { FiChevronDown, FiArrowRight, FiHome, FiBarChart2, FiPieChart } from 'react-icons/fi';
+import { FiChevronDown } from 'react-icons/fi';
 import { AnimatePresence, motion } from 'framer-motion';
-// import { FiUser, FiBriefcase, FiClipboard } from 'react-icons/fi';
 
 const Navbar = () => {
   const [selected, setSelected] = useState(null);
   const [dir, setDir] = useState(null);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const handleSetSelected = (menu) => {
     if (typeof selected === 'number' && typeof menu === 'number') {
@@ -17,121 +17,164 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full bg-gray-900 text-white shadow-md">
-      <div className="max-w-10xl mx-auto flex items-center justify-between px-4 py-2">
+    <nav className="fixed left-0 top-0 z-50 w-full bg-gray-900 text-white shadow-md">
+      <div className="max-w-10xl mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
-        <div className="text-2xl font-bold">
+        <div className="flex items-center gap-2">
           <a href="/home">
-            <img src="./DevDisplay ICON.png" alt="DevDisplay" className="h-16 w-16" />
+            <img src="./DevDisplay ICON.png" alt="DevDisplay" className="h-10 w-10" />
           </a>
+          <span className="text-lg font-bold">DevDisplay</span>
         </div>
 
-        {/* Tabs positioned between center and right side */}
-        <div className="flex flex-1 justify-end pr-48">
-          <div className="hidden items-center gap-4 space-x-6 md:flex">
-            <Tabs selected={selected} handleSetSelected={handleSetSelected} dir={dir} />
-          </div>
+        {/* Desktop Tabs */}
+        <div className="hidden items-center gap-4 pr-8 md:flex">
+          <Tabs selected={selected} handleSetSelected={handleSetSelected} dir={dir} />
         </div>
 
-        {/* Right-side content (if any) */}
-        <div className="flex items-center">{/* Add any right-side content here */}</div>
+        {/* Hamburger for Mobile */}
+        <div className="flex items-center md:hidden">
+          <Hamburger menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        </div>
       </div>
+
+      {/* Desktop Dropdown Content */}
+      <AnimatePresence>{selected && <Content dir={dir} selected={selected} />}</AnimatePresence>
+
+      {/* Mobile Fullscreen Menu with original content */}
+      {/* Mobile Fullscreen Menu with original content and scroll fade-in */}
+      <AnimatePresence>
+        {menuOpen && (
+          <motion.div
+            initial={{ x: '100%' }}
+            animate={{ x: 0 }}
+            exit={{ x: '100%' }}
+            transition={{ duration: 0.3, ease: 'easeInOut' }}
+            className="fixed inset-0 z-40 overflow-y-auto bg-black/90 p-6 backdrop-blur-sm"
+          >
+            <button onClick={() => setMenuOpen(false)} className="absolute right-4 top-4 text-2xl font-bold text-white">
+              ✕
+            </button>
+            <div className="mt-12 space-y-12">
+              {TABS.map((tab) => (
+                <motion.div
+                  key={tab.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{ duration: 0.5, ease: 'easeOut' }}
+                >
+                  <h2 className="mb-4 text-xl font-semibold">{tab.title}</h2>
+                  <tab.Component />
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </nav>
   );
 };
 
-const Tabs = ({ selected, handleSetSelected, dir }) => {
-  return (
-    <div onMouseLeave={() => handleSetSelected(null)} className="relative flex h-fit gap-2">
-      {TABS.map((t) => (
-        <Tab key={t.id} selected={selected} handleSetSelected={handleSetSelected} tab={t.id}>
-          {t.title}
-        </Tab>
-      ))}
-
-      <AnimatePresence>{selected && <Content dir={dir} selected={selected} />}</AnimatePresence>
-    </div>
-  );
-};
-
-const Tab = ({ children, tab, handleSetSelected, selected }) => {
-  return (
-    <button
-      id={`shift-tab-${tab}`}
-      onMouseEnter={() => handleSetSelected(tab)}
-      onClick={() => handleSetSelected(tab)}
-      className={`flex items-center gap-1 rounded-full px-3 py-1.5 text-sm transition-colors ${
-        selected === tab ? 'bg-neutral-800 text-neutral-100' : 'text-neutral-400'
+/* ---------------- Hamburger Animation ---------------- */
+const Hamburger = ({ menuOpen, setMenuOpen }) => (
+  <button
+    onClick={() => setMenuOpen(!menuOpen)}
+    className="relative flex h-6 w-6 flex-col justify-between focus:outline-none"
+  >
+    <span
+      className={`block h-0.5 w-full transform bg-white transition duration-300 ease-in-out ${
+        menuOpen ? 'translate-y-2.5 rotate-45' : ''
       }`}
-    >
-      <span>{children}</span>
-      <FiChevronDown className={`transition-transform ${selected === tab ? 'rotate-180' : ''}`} />
-    </button>
-  );
-};
+    />
+    <span
+      className={`block h-0.5 w-full transform bg-white transition duration-300 ease-in-out ${
+        menuOpen ? 'opacity-0' : ''
+      }`}
+    />
+    <span
+      className={`block h-0.5 w-full transform bg-white transition duration-300 ease-in-out ${
+        menuOpen ? '-translate-y-2.5 -rotate-45' : ''
+      }`}
+    />
+  </button>
+);
 
-const Content = ({ selected, dir }) => {
-  return (
-    <motion.div
-      id="overlay-content"
-      initial={{ opacity: 0, y: 8 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: 8 }}
-      className="absolute left-0 top-[calc(100%_+_24px)] w-96 rounded-lg border border-neutral-600 bg-gradient-to-b from-neutral-900 via-neutral-900 to-neutral-800 p-4"
-    >
-      <Bridge />
-      <Nub selected={selected} />
+const Tabs = ({ selected, handleSetSelected, dir }) => (
+  <div onMouseLeave={() => handleSetSelected(null)} className="relative flex gap-2">
+    {TABS.map((t) => (
+      <Tab key={t.id} selected={selected} handleSetSelected={handleSetSelected} tab={t.id}>
+        {t.title}
+      </Tab>
+    ))}
+  </div>
+);
 
-      {TABS.map((t) => (
-        <div className="overflow-hidden" key={t.id}>
-          {selected === t.id && (
-            <motion.div
-              initial={{
-                opacity: 0,
-                x: dir === 'l' ? 100 : dir === 'r' ? -100 : 0,
-              }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.25, ease: 'easeInOut' }}
-            >
-              <t.Component />
-            </motion.div>
-          )}
-        </div>
-      ))}
-    </motion.div>
-  );
-};
+const Tab = ({ children, tab, handleSetSelected, selected }) => (
+  <button
+    id={`shift-tab-${tab}`}
+    onMouseEnter={() => handleSetSelected(tab)}
+    onClick={() => handleSetSelected(tab)}
+    className={`flex items-center gap-1 rounded-full px-3 py-1.5 text-sm transition-colors ${
+      selected === tab ? 'bg-neutral-800 text-neutral-100' : 'text-neutral-400'
+    }`}
+  >
+    <span>{children}</span>
+    <FiChevronDown className={`transition-transform ${selected === tab ? 'rotate-180' : ''}`} />
+  </button>
+);
+
+const Content = ({ selected, dir }) => (
+  <motion.div
+    id="overlay-content"
+    initial={{ opacity: 0, y: 8 }}
+    animate={{ opacity: 1, y: 0 }}
+    exit={{ opacity: 0, y: 8 }}
+    className="absolute left-1/2 top-[calc(100%_+_24px)] w-96 -translate-x-1/2 rounded-lg border border-neutral-600 bg-gradient-to-b from-neutral-900 via-neutral-900 to-neutral-800 p-4"
+  >
+    <Bridge />
+    <Nub selected={selected} />
+
+    {TABS.map((t) => (
+      <div className="overflow-hidden" key={t.id}>
+        {selected === t.id && (
+          <motion.div
+            initial={{
+              opacity: 0,
+              x: dir === 'l' ? 100 : dir === 'r' ? -100 : 0,
+            }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.25, ease: 'easeInOut' }}
+          >
+            <t.Component />
+          </motion.div>
+        )}
+      </div>
+    ))}
+  </motion.div>
+);
 
 const Bridge = () => <div className="absolute -top-[24px] left-0 right-0 h-[24px]" />;
 
 const Nub = ({ selected }) => {
   const [left, setLeft] = useState(0);
-
-  useEffect(() => {
-    moveNub();
-  }, [selected]);
+  useEffect(() => moveNub(), [selected]);
 
   const moveNub = () => {
     if (selected) {
       const hoveredTab = document.getElementById(`shift-tab-${selected}`);
       const overlayContent = document.getElementById('overlay-content');
-
       if (!hoveredTab || !overlayContent) return;
-
       const tabRect = hoveredTab.getBoundingClientRect();
       const { left: contentLeft } = overlayContent.getBoundingClientRect();
-
       const tabCenter = tabRect.left + tabRect.width / 2 - contentLeft;
-
       setLeft(tabCenter);
     }
   };
 
   return (
     <motion.span
-      style={{
-        clipPath: 'polygon(0 0, 100% 0, 50% 50%, 0% 100%)',
-      }}
+      style={{ clipPath: 'polygon(0 0, 100% 0, 50% 50%, 0% 100%)' }}
       animate={{ left }}
       transition={{ duration: 0.25, ease: 'easeInOut' }}
       className="absolute left-1/2 top-0 h-4 w-4 -translate-x-1/2 -translate-y-1/2 rotate-45 rounded-tl border border-neutral-600 bg-neutral-900"
@@ -139,6 +182,7 @@ const Nub = ({ selected }) => {
   );
 };
 
+/* ---------------- Original Tab Contents ---------------- */
 const Developers = () => (
   <div>
     <div className="flex gap-4">
@@ -230,36 +274,6 @@ const Developers = () => (
   </div>
 );
 
-// const VerifyNow = () => (
-//   <div className="grid grid-cols-3 gap-4 divide-x divide-neutral-700">
-//     <a
-//       href="https://github.com/codeaashu/DevDisplay/blob/main/CONTRIBUTING.md#-add-your-profile-on-devdisplay-"
-//       className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
-//     >
-//       {/* <FiHome className="mb-2 text-xl text-indigo-300" /> */}
-//       <FiUser className="mb-2 text-xl text-indigo-300" />
-//       <span className="text-xs">Add Profile</span>
-//     </a>
-//     <a
-//       href="https://www.devdisplay.org/PortfolioShowcase"
-//       className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
-//     >
-//       {/* <FiBarChart2 className="mb-2 text-xl text-indigo-300" /> */}
-//       <FiBriefcase className="mb-2 text-xl text-indigo-300" />
-//       <span className="text-xs">Add Portfolio</span>
-//     </a>
-//     <a
-//       href="https://www.devdisplay.org/ProjectShowcase"
-//       className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
-//     >
-//       {/* <FiPieChart className="mb-2 text-xl text-indigo-300" /> */}
-//       {/* <FiFolder className="mb-2 text-xl text-indigo-300" /> */}
-//       <FiClipboard className="mb-2 text-xl text-indigo-300" />
-//       <span className="text-xs">Add Projects</span>
-//     </a>
-//   </div>
-// );
-
 const Connect = () => (
   <div>
     <div className="flex gap-4">
@@ -333,22 +347,9 @@ const Explore = () => (
 );
 
 const TABS = [
-  {
-    title: 'Developers',
-    Component: Developers,
-  },
-  {
-    title: 'Connect',
-    Component: Connect,
-  },
-  // {
-  //   title: 'Verify Now',
-  //   Component: VerifyNow,
-  // },
-  {
-    title: 'Explore',
-    Component: Explore,
-  },
+  { title: 'Developers', Component: Developers },
+  { title: 'Connect', Component: Connect },
+  { title: 'Explore', Component: Explore },
 ].map((n, idx) => ({ ...n, id: idx + 1 }));
 
 export default Navbar;
