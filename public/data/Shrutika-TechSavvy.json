@@ -1,0 +1,28 @@
+{
+  "name": "Shrutika Pawar",
+  "location": "Pune, India",
+  "bio": "Open-source enthusiast with a passion for contributing to community-driven projects, upcoming intern at HSBC",
+  "skills": [
+    "Mysql",
+    "HTML",
+    "CSS",
+    "Javascript",
+    "MERN",
+    "ReactJS",
+    "NodeJS",
+    "Express",
+    "MongoDB",
+    "GraphQL",
+    "Database",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Shrutika-TechSavvy",
+    "LinkedIn": "https://www.linkedin.com/in/shrutika-pawar-242537252",
+    "Email": "shrutikapawar951@gmail.com",
+    "LeetCode": "https://leetcode.com/u/shrutika_pawar9/"
+  }
+}
