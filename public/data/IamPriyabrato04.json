@@ -1,0 +1,34 @@
+{
+  "name": "Priyabrato Saha",
+  "location": "Kolkata, India",
+  "bio": "Passionate about coding and full-stack web Development, with skills in C++, React.js, Next.js, Node-express.js, PostgresSQL and Mongo DB, Prisma.",
+  "avatar": "https://github.com/IamPriyabrato04.png",
+  "portfolio": "https://github.com/IamPriyabrato04",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "PostgresSQL",
+    "C++ Language",
+    "Prisma ORM",
+    "Git",
+    "GitHub",
+    "Web Development"
+  ],
+  "social": {
+    "GitHub": "https://github.com/IamPriyabrato04",
+    "Twitter": "https://twitter.comsahpriyabrato",
+    "LinkedIn": "https://www.linkedin.com/in/priyabrato-saha-88958724a/",
+    "Instagram": "https://www.instagram.com/priyabrato.001",
+    "Email": "sahpriyabrato@gmail.com",
+    "Discord": "https://discord.com/users/priyabratosaha",
+    "LeetCode": "https://leetcode.com/IamPriyabrato",
+    "Codeforces": "https://codeforces.com/profile/Iampriyabrato2004",
+    "Unstop": "https://unstop.com/@priyasah4719"
+  }
+}
