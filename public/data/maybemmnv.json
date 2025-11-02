@@ -1,0 +1,16 @@
+{
+  "name": "Manav Kausha",
+  "location": "Delhi",
+  "bio": "Your Bio should be 20-30 words not more than that",
+  "avatar": "https://github.com/mayebmnv.png",
+  "portfolio": "https://portfolio-manavs-projects-1f5448b0.vercel.app/",
+  "skills": ["TensorFow", "LangChain ", "FastAPI", "HuggingFace",""],
+  "social": {
+    "GitHub": "https://github.com/maybemnv",
+    "Twitter": "https://twitter.com/maybemnv",
+    "LinkedIn": "https://www.linkedin.com/in/maybemnv",
+    "Instagram": "https://www.instagram.com/maybe.mnv",
+    "Email": "maybemnv@gmail.com",
+    "Discord": "https://discord.com/users/751306489574195230",
+  }
+}
