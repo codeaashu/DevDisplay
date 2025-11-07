@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { ArrowLeft, Search, FileText, Sparkles, Zap, Edit, Eye, Download, Share2, TrendingUp } from 'lucide-react';
 import styled from 'styled-components';
 import Marquee from 'react-fast-marquee';

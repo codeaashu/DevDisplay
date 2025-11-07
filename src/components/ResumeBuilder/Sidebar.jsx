@@ -1,7 +1,7 @@
 'use client';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
-import { Check, ChevronRight, ChevronLeft, Menu, X } from 'lucide-react';
+import { Check, ChevronRight, Menu, X } from 'lucide-react';
 
 function Sidebar({
   sections,
