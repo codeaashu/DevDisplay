@@ -9,7 +9,7 @@ const AchieverJourneyPage = () => {
   const [achieverData, setAchieverData] = useState(null);
 
   useEffect(() => {
-    const item = achievers.find((item) => item.id == id);
+    const item = achievers.find((item) => item.id === id);
     setAchieverData(item);
   }, [id]);
 
