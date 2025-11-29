@@ -3,7 +3,6 @@
   "location": "London, UK",
   "bio": "I'm a threeJS Developer, I've been coding for as long as I remember and have been working in the area since 2018! I'm currently working as a threeJS Developer at a fortune500 in Lisbon and trying to learn more everyday about the latest techs.",
   "avatar": "https://github.com/deruxhalter3js.png",
-  "portfolio": "https://github.com/deruxhalter3js",
   "skills": [
     "ThreeJs",
     "Javascript",
@@ -28,7 +27,6 @@
     "GitHub": "https://github.com/deruxhalter3js",
     "Twitter": "https://twitter.com/DavidMwas2_0",
     "LinkedIn": "https://www.linkedin.com/in/david-mwas-a57186235",
-    "Instagram": "https://www.instagram.com/devdisplay",
-    "Email": "#"
+    "Email": "deruxhalter3js@example.com"
   }
 }

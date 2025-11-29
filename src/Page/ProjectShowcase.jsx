@@ -375,7 +375,7 @@ const ProjectCard = ({ project }) => {
   const { title, description, tech, github_url, username, maker_image, live_url } = project;
 
   return (
-    <div className="rounded-lg border border-gray-700 bg-gray-900 p-5 shadow-lg transition-all duration-300 hover:scale-105">
+    <div className="rounded-lg border border-blue-600 bg-gray-900 p-5 shadow-lg transition-all duration-300 hover:scale-105">
       <div className="mb-4 flex items-center">
         <img src={maker_image} alt={username} className="mr-4 h-10 w-10 rounded-full" />
         <h2 className="text-xl font-semibold text-white">{title}</h2>
@@ -399,7 +399,7 @@ const ProjectCard = ({ project }) => {
         </a>
         {live_url && (
           <a
-            href={github_url}
+            href={live_url}
             target="_blank"
             rel="noreferrer"
             className="flex items-center text-sm text-[#00a6fb] hover:underline"

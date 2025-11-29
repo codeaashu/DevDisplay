@@ -1,0 +1,41 @@
+{
+  "name": "Mehul Kumar",
+  "location": "Rajasthan",
+  "bio": "Frontend Developer & Web3 Enthusiast | Crafting exceptional user experiences with React, Next.js, and TypeScript | Exploring the decentralized future with Solidity, Ether.js, Web3.js and Hardhat",
+  "avatar": "https://github.com/WonderSTK.png",
+  "portfolio": "https://personal-portfolio-liard-five.vercel.app/",
+  "skills": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "TypeScript",
+    "Solidity",
+    "React",
+    "Redux",
+    "Next.js",
+    "Tailwind CSS",
+    "C/C++",
+    "SQL",
+    "Python",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "MySQL",
+    "Firebase",
+    "Supabase",
+    "GraphQL",
+    "Docker",
+    "AWS",
+    "Framer Motion",
+    "Web3.js",
+    "Ethers.js"
+  ],
+  "social": {
+    "GitHub": "https://github.com/WonderSTK",
+    "LinkedIn": "https://www.linkedin.com/in/mehul-kumar-19209b203/",
+    "Email": "mehulparmar9694@gmail.com",
+    "Instagram": "https://www.instagram.com/wonderstk",
+    "Discord": "https://discord.com/users/im_mehulk"
+  },
+  "verified": true
+}

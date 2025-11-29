@@ -6,3 +6,27 @@
 
 `Ayush Kumar Verma` https://github.com/Ayush2426
 ![Screenshot 2025-06-28 003815](https://github.com/user-attachments/assets/314c25e6-28f6-46d9-8f11-312ab2a0e34c)
+
+`Sonali Mishra` https://github.com/sonali131
+<img width="1886" height="860" alt="Screenshot 2025-08-20 142706" src="https://github.com/user-attachments/assets/5eb7cd3f-4e97-4b47-939d-85854e572c32" />
+
+`Navneet Vishwakarma`
+<img width="1397" height="912" alt="portfolio" src="https://github.com/user-attachments/assets/1d61152d-dacc-4b75-93d0-9eea909b8687" />
+
+`Piyush Gupta` https://github.com/Piyush-t24
+<img width="1900" height="912" alt="Screenshot-2025-04-28-025015" src="https://github.com/user-attachments/assets/156af719-5af9-467b-8fa8-0d3d645c51bb" />
+
+`Rohan Shrivastava` https://github.com/RohanShrivastava08
+<img width="1920" height="1080" alt="Screenshot-220-" src="https://github.com/user-attachments/assets/4469e5af-5200-4158-9ff9-a578682db7cb" />
+
+`Amit Kumar` https://github.com/amitkumardemo
+<img width="1919" height="870" alt="Screenshot-2025-04-01-000920" src="https://github.com/user-attachments/assets/18b83967-350f-41bf-818b-b8f0182a2f00" />
+
+`Aayush Kumar` https://github.com/beingaayush
+![IMG-20250409-WA0005](https://github.com/user-attachments/assets/e8dd64c1-bcfa-432c-b9e1-de79249f45a2)
+
+`Kwizera Caleb` https://github.com/KWIZERA-CALEB/
+<img width="1884" height="973" alt="Screenshot-2025-08-30-221941" src="https://github.com/user-attachments/assets/9138dfb6-cbda-4b3e-b658-9ad5e3082d2c" />
+
+`Mehul Kumar` https://github.com/WonderSTK/
+<img width="1911" height="906" alt="Screenshot-2025-09-21-115502" src="https://github.com/user-attachments/assets/281991e7-cfdb-4957-be43-78602b79595b" />

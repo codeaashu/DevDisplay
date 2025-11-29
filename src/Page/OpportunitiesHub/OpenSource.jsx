@@ -757,31 +757,17 @@ const OSProgramCardComponent = ({
 
 const OSProgramList = [
   {
-    organizer: 'Social and Reskilll',
-    title: 'Social Summer of Code (SSoC)',
+    organizer: 'Open Source Connect India',
+    title: 'Open Source Connect India',
     description:
-      'Social Summer of Code (SSoC) is an open-source program organized by Social and Reskilll, designed to connect students with open-source organizations and projects. It aims to promote open-source participation and provide mentorship to students.',
-    timeline: 'JUN 10',
-    Duration: '10 June - 23 Aug',
+      'Open Source Connect India is more than just an event. It’s a national movement fueled by the spirit of Independence, innovation, and collective growth. As we celebrate the legacy of our freedom fighters who dreamed of a self-reliant India, we take their vision forward into the digital age by empowering our youth, builders, and changemakers to shape the world through open-source collaboration.',
+    timeline: 'August 15',
+    Duration: '15th - 30th August 2025',
     type: 'Beginner-friendly, Open Source',
-    guidelines: 'https://reskilll.com/hack/ssoc4',
-    applyLink: 'https://reskilll.com/hack/ssoc4',
-    poster: '/assets/opensourceProgram/SSOC4.png',
-    shareLink: '#ssoc4',
-  },
-  {
-    organizer: 'MLH',
-    title: 'MLH Fellowship Spring 2025',
-    description:
-      'Collaborate with peers in a remote team to contribute to real open-source software projects under mentorship. Get paid while gaining practical development experience.',
-    timeline: 'May 31',
-    Duration: 'Starts May 19th',
-    type: 'Student-friendly, Open Source',
-    guidelines:
-      'https://docs.google.com/document/d/e/2PACX-1vQ4m8tMZKfc9ZvwGXOGJOUkfGHHVpQsaLfwA2Ky1gpjK_8B9jltbs5H8jCfOS_1M-eBGmymiZL_n0TT/pub',
-    applyLink: 'https://fellowship.mlh.io/',
-    poster: '/assets/opensourceProgram/MLH.jpg',
-    shareLink: '#mlh-fellowship',
+    guidelines: 'https://www.osconnect.org/',
+    applyLink: 'https://www.osconnect.org/',
+    poster: '/assets/opensourceProgram/OSCI.png',
+    shareLink: '#osci2025',
   },
   {
     organizer: 'GirlScript Foundation',
@@ -808,6 +794,33 @@ const OSProgramList = [
     applyLink: 'https://hacktoberfest.com/',
     poster: '/assets/opensourceProgram/Hacktoberfest.jpg',
     shareLink: '#hacktoberfest2025',
+  },
+  {
+    organizer: 'Social and Reskilll',
+    title: 'Social Summer of Code (SSoC)',
+    description:
+      'Social Summer of Code (SSoC) is an open-source program organized by Social and Reskilll, designed to connect students with open-source organizations and projects. It aims to promote open-source participation and provide mentorship to students.',
+    timeline: 'JUN 10',
+    Duration: '10 June - 23 Aug',
+    type: 'Beginner-friendly, Open Source',
+    guidelines: 'https://reskilll.com/hack/ssoc4',
+    applyLink: 'https://reskilll.com/hack/ssoc4',
+    poster: '/assets/opensourceProgram/SSOC4.png',
+    shareLink: '#ssoc4',
+  },
+  {
+    organizer: 'MLH',
+    title: 'MLH Fellowship Spring 2025',
+    description:
+      'Collaborate with peers in a remote team to contribute to real open-source software projects under mentorship. Get paid while gaining practical development experience.',
+    timeline: 'May 31',
+    Duration: 'Starts May 19th',
+    type: 'Student-friendly, Open Source',
+    guidelines:
+      'https://docs.google.com/document/d/e/2PACX-1vQ4m8tMZKfc9ZvwGXOGJOUkfGHHVpQsaLfwA2Ky1gpjK_8B9jltbs5H8jCfOS_1M-eBGmymiZL_n0TT/pub',
+    applyLink: 'https://fellowship.mlh.io/',
+    poster: '/assets/opensourceProgram/MLH.jpg',
+    shareLink: '#mlh-fellowship',
   },
   // {
   //   organizer: 'Outreachy',

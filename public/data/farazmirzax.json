@@ -1,0 +1,39 @@
+{
+  "name": "Faraz Mirza",
+  "location": "Lucknow",
+  "bio": "Software dev by day, ML tinkerer by obsession, deploying in the cloud and contributing to open source on the side.",
+  "avatar": "https://github.com/farazmirzax.png",
+  "portfolio": "farazmirza.vercel.app",
+  "skills": [
+    "Python",
+    "Machine Learning",
+    "Deep Learning",
+    "Data Analysis & Visualization",
+    "NumPy & Pandas",
+    "Scikit-learn",
+    "TensorFlow & PyTorch",
+    "JavaScript & TypeScript",
+    "React & Next.js",
+    "SvelteKit",
+    "REST APIs",
+    "SQL & NoSQL",
+    "Git & GitHub",
+    "Docker & Containerization",
+    "CI/CD Pipelines",
+    "AWS Cloud",
+    "Cloud Deployment & Hosting",
+    "Problem Solving & DSA",
+    "Critical Thinking",
+    "Team Collaboration",
+    "Effective Communication",
+    "Adaptability",
+    "Time Management"
+  ],
+  "social": {
+    "GitHub": "https://github.com/farazmirzax",
+    "Twitter": "https://x.com/FarazMirza68904",
+    "LinkedIn": "https://www.linkedin.com/in/faraz-mirza-488a2627b/",
+    "Email": "farazmirza866@gmail.com",
+    "Discord": "https://discord.com/users/josefumikujo"
+  }
+}

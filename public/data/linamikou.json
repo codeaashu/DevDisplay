@@ -3,7 +3,6 @@
   "location": "Paris, France",
   "bio": "Pursuing a Master's at HEC Paris, with 2 years of experience as an engineer building scalable applications. ",
   "avatar": "https://github.com/linamikou.png",
-  "portfolio": "https://github.com/linamikou",
   "skills": [
     "Node.js",
     "PHP",
@@ -25,7 +24,6 @@
     "GitHub": "https://github.com/linamikou",
     "Twitter": "https://twitter.com/mikou_lina",
     "LinkedIn": "https://www.linkedin.com/in/lina-mikou-960985312/",
-    "Instagram": "https://www.instagram.com/devdisplay",
-    "Email": "#"
+    "Email": "linamikou@example.com"
   }
 }

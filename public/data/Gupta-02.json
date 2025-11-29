@@ -1,0 +1,13 @@
+{
+  "name": "Prathyun Gupta",
+  "location": "Hyderbad",
+  "bio": "I am prathyun gupta a passionate devoluper and contributot",
+  "avatar": "https://github.com/Gupta-02.png",
+  "portfolio": "https://github.com/Gupta-02",
+  "skills": ["MERN", "React", "Node.js", "Express", "MongoDB", "Git", "GitHub", "JavaScript", "HTML", "CSS"],
+  "social": {
+    "GitHub": "https://github.com/Gupta-02",
+    "Email": "guptagit150@gmail.com",
+    "Discord": "https://discord.com/users/PRATHYUN"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Mehedi Hasan Khairul",
+  "location": "Dhaka, Bangladesh",
+  "bio": "Full-Stack JavaScript Developer with hands-on experience in building modern web applications. I craft modern web apps with React, Node.js, Express & MongoDB. Self-taught, project-driven, and always learning to build better.",
+  "avatar": "https://github.com/mehedihasankhairul.png",
+  "portfolio": "https://imehedi.me",
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Firebase",
+    "HTML",
+    "CSS",
+    "Git",
+    "Docker"
+  ],
+  "social": {
+    "GitHub": "https://github.com/mehedihasankhairul",
+    "Twitter": "https://twitter.com/mhkhairul78",
+    "LinkedIn": "https://www.linkedin.com/in/mhkhairul",
+    "Instagram": "https://www.instagram.com/mehedihasan.khairul",
+    "Email": "mhkhairul78@gmail.com",
+    "Discord": "https://discord.com/users/imehedi",
+    "LeetCode": "https://leetcode.com/mhkhairul78",
+    "Codeforces": "https://codeforces.com/profile/Mehedi_hasan_khairul",
+    "HackerRank": "https://www.hackerrank.com/mhkhairul78",
+    "YouTube": "https://www.youtube.com/@imehedi78",
+    "DevTo": "https://dev.to/mehedihasankhairul",
+    "Medium": "https://medium.com/@mhkhairul78",
+    "Reddit": "https://www.reddit.com/user/Friendly_Look_4961/",
+    "Facebook": "https://www.facebook.com/mahedihasan.khairul"
+  }
+}
