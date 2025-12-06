@@ -21,27 +21,27 @@ const shareContent = (url) => {
 // List of Global hackathons
 
 const hackathons = [
-  {
-    organizer: 'TIC - The Incite Crew',
-    title: 'Pinnacle Hacks',
-    location: 'Coimbatore, India',
-    date: 'Sep 20 - 21',
-    domains: ['Offline', 'Open Innovation', '24 Hours Hackathon'],
-    applyLink: 'https://tic-pinnacle-hacks-2025.devfolio.co/?ref=37575e18b3',
-    poster: '/assets/Hackathons/TIC Pinnacle Hacks.jpg',
-    shareLink: '#pinnaclehacks',
-  },
-  {
-    organizer: 'Tata Group',
-    title: 'Tata Imagination Challenge 2025',
-    location: 'Online',
-    date: 'Sep 22',
-    domains: ['Challenge', 'Open Innovation', 'Business Plan', 'Entrepreneurship'],
-    applyLink:
-      'https://unstop.com/competitions/tata-imagination-challenge-2025-tata-group-1543000?lb=s8cgmb2g&utm_medium=Share&utm_source=imaashuu19859&utm_campaign=Competitions',
-    poster: '/assets/Hackathons/Tata Imagination Challenge 2025.webp',
-    shareLink: '#tata-imagination-challenge-2025',
-  },
+  // {
+  //   organizer: 'TIC - The Incite Crew',
+  //   title: 'Pinnacle Hacks',
+  //   location: 'Coimbatore, India',
+  //   date: 'Sep 20 - 21',
+  //   domains: ['Offline', 'Open Innovation', '24 Hours Hackathon'],
+  //   applyLink: 'https://tic-pinnacle-hacks-2025.devfolio.co/?ref=37575e18b3',
+  //   poster: '/assets/Hackathons/TIC Pinnacle Hacks.jpg',
+  //   shareLink: '#pinnaclehacks',
+  // },
+  // {
+  //   organizer: 'Tata Group',
+  //   title: 'Tata Imagination Challenge 2025',
+  //   location: 'Online',
+  //   date: 'Sep 22',
+  //   domains: ['Challenge', 'Open Innovation', 'Business Plan', 'Entrepreneurship'],
+  //   applyLink:
+  //     'https://unstop.com/competitions/tata-imagination-challenge-2025-tata-group-1543000?lb=s8cgmb2g&utm_medium=Share&utm_source=imaashuu19859&utm_campaign=Competitions',
+  //   poster: '/assets/Hackathons/Tata Imagination Challenge 2025.webp',
+  //   shareLink: '#tata-imagination-challenge-2025',
+  // },
   {
     organizer: 'NexVerse IITM',
     title: 'NexHack: Hack the Track of AI Impact',
