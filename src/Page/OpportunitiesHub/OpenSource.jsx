@@ -756,32 +756,32 @@ const OSProgramCardComponent = ({
 };
 
 const OSProgramList = [
-  {
-    organizer: 'Open Source Connect India',
-    title: 'Open Source Connect India',
-    description:
-      'Open Source Connect India is more than just an event. It’s a national movement fueled by the spirit of Independence, innovation, and collective growth. As we celebrate the legacy of our freedom fighters who dreamed of a self-reliant India, we take their vision forward into the digital age by empowering our youth, builders, and changemakers to shape the world through open-source collaboration.',
-    timeline: 'August 15',
-    Duration: '15th - 30th August 2025',
-    type: 'Beginner-friendly, Open Source',
-    guidelines: 'https://www.osconnect.org/',
-    applyLink: 'https://www.osconnect.org/',
-    poster: '/assets/opensourceProgram/OSCI.png',
-    shareLink: '#osci2025',
-  },
-  {
-    organizer: 'GirlScript Foundation',
-    title: 'GirlScript Summer of Code 2025',
-    description:
-      'An open-source program where you can contribute to various projects and get mentorship, swags, and certifications. It’s beginner-friendly and inclusive.',
-    timeline: 'July 2025',
-    Duration: 'July - August 2025',
-    type: 'Beginner-friendly, Open Source',
-    guidelines: 'https://gssoc.girlscript.tech/',
-    applyLink: 'https://gssoc.girlscript.tech/',
-    poster: '/assets/opensourceProgram/GSSOC.jpg',
-    shareLink: '#gssoc2025',
-  },
+  // {
+  //   organizer: 'Open Source Connect India',
+  //   title: 'Open Source Connect India',
+  //   description:
+  //     'Open Source Connect India is more than just an event. It’s a national movement fueled by the spirit of Independence, innovation, and collective growth. As we celebrate the legacy of our freedom fighters who dreamed of a self-reliant India, we take their vision forward into the digital age by empowering our youth, builders, and changemakers to shape the world through open-source collaboration.',
+  //   timeline: 'August 15',
+  //   Duration: '15th - 30th August 2025',
+  //   type: 'Beginner-friendly, Open Source',
+  //   guidelines: 'https://www.osconnect.org/',
+  //   applyLink: 'https://www.osconnect.org/',
+  //   poster: '/assets/opensourceProgram/OSCI.png',
+  //   shareLink: '#osci2025',
+  // },
+  // {
+  //   organizer: 'GirlScript Foundation',
+  //   title: 'GirlScript Summer of Code 2025',
+  //   description:
+  //     'An open-source program where you can contribute to various projects and get mentorship, swags, and certifications. It’s beginner-friendly and inclusive.',
+  //   timeline: 'July 2025',
+  //   Duration: 'July - August 2025',
+  //   type: 'Beginner-friendly, Open Source',
+  //   guidelines: 'https://gssoc.girlscript.tech/',
+  //   applyLink: 'https://gssoc.girlscript.tech/',
+  //   poster: '/assets/opensourceProgram/GSSOC.jpg',
+  //   shareLink: '#gssoc2025',
+  // },
   // {
   //   organizer: 'DigitalOcean',
   //   title: 'Hacktoberfest 2025',
