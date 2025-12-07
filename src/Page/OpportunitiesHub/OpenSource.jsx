@@ -808,20 +808,20 @@ const OSProgramList = [
     poster: '/assets/opensourceProgram/SSOC4.png',
     shareLink: '#ssoc4',
   },
-  {
-    organizer: 'MLH',
-    title: 'MLH Fellowship Spring 2025',
-    description:
-      'Collaborate with peers in a remote team to contribute to real open-source software projects under mentorship. Get paid while gaining practical development experience.',
-    timeline: 'May 31',
-    Duration: 'Starts May 19th',
-    type: 'Student-friendly, Open Source',
-    guidelines:
-      'https://docs.google.com/document/d/e/2PACX-1vQ4m8tMZKfc9ZvwGXOGJOUkfGHHVpQsaLfwA2Ky1gpjK_8B9jltbs5H8jCfOS_1M-eBGmymiZL_n0TT/pub',
-    applyLink: 'https://fellowship.mlh.io/',
-    poster: '/assets/opensourceProgram/MLH.jpg',
-    shareLink: '#mlh-fellowship',
-  },
+  // {
+  //   organizer: 'MLH',
+  //   title: 'MLH Fellowship Spring 2025',
+  //   description:
+  //     'Collaborate with peers in a remote team to contribute to real open-source software projects under mentorship. Get paid while gaining practical development experience.',
+  //   timeline: 'May 31',
+  //   Duration: 'Starts May 19th',
+  //   type: 'Student-friendly, Open Source',
+  //   guidelines:
+  //     'https://docs.google.com/document/d/e/2PACX-1vQ4m8tMZKfc9ZvwGXOGJOUkfGHHVpQsaLfwA2Ky1gpjK_8B9jltbs5H8jCfOS_1M-eBGmymiZL_n0TT/pub',
+  //   applyLink: 'https://fellowship.mlh.io/',
+  //   poster: '/assets/opensourceProgram/MLH.jpg',
+  //   shareLink: '#mlh-fellowship',
+  // },
   // {
   //   organizer: 'Outreachy',
   //   title: 'Outreachy May 2025 Cohort',
