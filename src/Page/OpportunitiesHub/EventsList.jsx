@@ -51,27 +51,27 @@ const techevents = [
     poster: '/assets/Events/SheSecures.png',
     shareLink: '#shesecures',
   },
-  {
-    organizer: 'GDG Noida',
-    title: 'Design Samvaad',
-    location: 'TBD, Noida, India',
-    date: 'Sep 20',
-    domains: ['Technology', 'Developer', 'AI', 'Design'],
-    applyLink: 'https://www.commudle.com/communities/gdg-noida/events/design-samvaad',
-    poster: '/assets/Events/Design Samvaad.png',
-    shareLink: '#designsamvaad',
-  },
-  {
-    organizer: 'GDG Ludhiana',
-    title: 'DevFest Ludhiana 2025',
-    location: 'GNDEC, Ludhiana, India',
-    date: 'Oct 11',
-    domains: ['Technology', 'Developer', 'GDG', 'DevFest', 'Networking'],
-    applyLink:
-      'https://gdg.community.dev/events/details/google-gdg-ludhiana-presents-devfest-ludhiana-2025-train-the-trainer-edition/',
-    poster: '/assets/Events/DevFest Ludhiana 2025.png',
-    shareLink: '#devfestludhiana',
-  },
+  // {
+  //   organizer: 'GDG Noida',
+  //   title: 'Design Samvaad',
+  //   location: 'TBD, Noida, India',
+  //   date: 'Sep 20',
+  //   domains: ['Technology', 'Developer', 'AI', 'Design'],
+  //   applyLink: 'https://www.commudle.com/communities/gdg-noida/events/design-samvaad',
+  //   poster: '/assets/Events/Design Samvaad.png',
+  //   shareLink: '#designsamvaad',
+  // },
+  // {
+  //   organizer: 'GDG Ludhiana',
+  //   title: 'DevFest Ludhiana 2025',
+  //   location: 'GNDEC, Ludhiana, India',
+  //   date: 'Oct 11',
+  //   domains: ['Technology', 'Developer', 'GDG', 'DevFest', 'Networking'],
+  //   applyLink:
+  //     'https://gdg.community.dev/events/details/google-gdg-ludhiana-presents-devfest-ludhiana-2025-train-the-trainer-edition/',
+  //   poster: '/assets/Events/DevFest Ludhiana 2025.png',
+  //   shareLink: '#devfestludhiana',
+  // },
 ];
 
 const StyledtecheventsCard = styled.div`
