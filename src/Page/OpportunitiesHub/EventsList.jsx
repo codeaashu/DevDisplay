@@ -21,16 +21,16 @@ const shareContent = (url) => {
 // List of Global Tech Events
 
 const techevents = [
-  {
-    organizer: 'GDG New Delhi',
-    title: 'Google I/O Extended New Delhi 2025',
-    location: 'ThoughtWorks, Gurugram, India',
-    date: 'Sep 13',
-    domains: ['Technology', 'Developer', 'GDG', 'Google I/O'],
-    applyLink: 'https://www.commudle.com/communities/gdg-new-delhi/events/google-i-o-extended-new-delhi',
-    poster: '/assets/Events/Google IO Delhi.jpg',
-    shareLink: '#googleiodelhi',
-  },
+  // {
+  //   organizer: 'GDG New Delhi',
+  //   title: 'Google I/O Extended New Delhi 2025',
+  //   location: 'ThoughtWorks, Gurugram, India',
+  //   date: 'Sep 13',
+  //   domains: ['Technology', 'Developer', 'GDG', 'Google I/O'],
+  //   applyLink: 'https://www.commudle.com/communities/gdg-new-delhi/events/google-i-o-extended-new-delhi',
+  //   poster: '/assets/Events/Google IO Delhi.jpg',
+  //   shareLink: '#googleiodelhi',
+  // },
   // {
   //   organizer: 'GDG Gurugram',
   //   title: 'DevFest Gurugram 2025',
