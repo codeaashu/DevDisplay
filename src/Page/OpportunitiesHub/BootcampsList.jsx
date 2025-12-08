@@ -77,17 +77,17 @@ const bootcamp = [
     poster: '/assets/Bootcamps/Super Admin Bootcamp - Spring 2025.png',
     shareLink: '#super-admin-bootcamp',
   },
-  {
-    organizer: 'HubSpot Academy',
-    title: 'RevOps Bootcamp',
-    duration: '6 Weeks',
-    level: 'Intermediate',
-    skills: ['RevOps Process Mapping', 'RevOps Strategy'],
-    applyLink:
-      'https://events.academy.hubspot.com/events/details/hubspot-academy-revops-bootcamp-spring-2025-presents-revops-bootcamp-spring-2025-2025-05-08/',
-    poster: '/assets/Bootcamps/RevOps Bootcamp - Spring 2025.png',
-    shareLink: '#revops-bootcamp',
-  },
+  // {
+  //   organizer: 'HubSpot Academy',
+  //   title: 'RevOps Bootcamp',
+  //   duration: '6 Weeks',
+  //   level: 'Intermediate',
+  //   skills: ['RevOps Process Mapping', 'RevOps Strategy'],
+  //   applyLink:
+  //     'https://events.academy.hubspot.com/events/details/hubspot-academy-revops-bootcamp-spring-2025-presents-revops-bootcamp-spring-2025-2025-05-08/',
+  //   poster: '/assets/Bootcamps/RevOps Bootcamp - Spring 2025.png',
+  //   shareLink: '#revops-bootcamp',
+  // },
   // {
   //   organizer: 'HubSpot Academy',
   //   title: 'Pipeline Generation Bootcamp',
