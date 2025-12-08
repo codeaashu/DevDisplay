@@ -461,16 +461,16 @@ const ResourcesCards = () => {
                       ))}
                     </div>
                   </div>
-                  {['Notes', 'Roadmaps', 'Preparation', 'Research Paper', 'Useful APIs'].includes(resources.title) ? (
-                    <StyledButton disabled>
-                      <div className="inner">Coming Soon</div>
-                    </StyledButton>
-                  ) : (
-                    <StyledButton onClick={() => (window.location.href = resources.link)}>
-                      <div className="blob1" />
-                      <div className="inner">Explore Now</div>
-                    </StyledButton>
-                  )}
+                  <StyledButton
+                    type="button"
+                    onClick={(event) => {
+                      event.preventDefault();
+                      window.location.href = resources.link;
+                    }}
+                  >
+                    <div className="blob1" />
+                    <div className="inner">Explore Now</div>
+                  </StyledButton>
                 </div>
                 <div className="dot" />
               </a>
