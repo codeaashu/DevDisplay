@@ -66,17 +66,17 @@ const bootcamp = [
     poster: '/assets/Bootcamps/Video Bootcamp for Marketing, Sales, and Service - Spring 2025.png',
     shareLink: '#video-bootcamp-for-marketing-sales--services',
   },
-  {
-    organizer: 'HubSpot Academy',
-    title: 'Super Admin Bootcamp',
-    duration: '6 Weeks',
-    level: 'Intermediate',
-    skills: ['Setting up HubSpot', 'Configuration and Security'],
-    applyLink:
-      'https://events.academy.hubspot.com/events/details/hubspot-academy-super-admin-bootcamp-spring-2025-presents-super-admin-bootcamp-spring-2025-2025-05-08/',
-    poster: '/assets/Bootcamps/Super Admin Bootcamp - Spring 2025.png',
-    shareLink: '#super-admin-bootcamp',
-  },
+  // {
+  //   organizer: 'HubSpot Academy',
+  //   title: 'Super Admin Bootcamp',
+  //   duration: '6 Weeks',
+  //   level: 'Intermediate',
+  //   skills: ['Setting up HubSpot', 'Configuration and Security'],
+  //   applyLink:
+  //     'https://events.academy.hubspot.com/events/details/hubspot-academy-super-admin-bootcamp-spring-2025-presents-super-admin-bootcamp-spring-2025-2025-05-08/',
+  //   poster: '/assets/Bootcamps/Super Admin Bootcamp - Spring 2025.png',
+  //   shareLink: '#super-admin-bootcamp',
+  // },
   // {
   //   organizer: 'HubSpot Academy',
   //   title: 'RevOps Bootcamp',
