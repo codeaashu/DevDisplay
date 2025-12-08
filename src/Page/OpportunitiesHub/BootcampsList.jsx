@@ -55,17 +55,17 @@ const bootcamp = [
     poster: '/assets/Bootcamps/Account-Based Marketing Bootcamp Spring 2025.png',
     shareLink: '#account-based-marketing-bootcamp',
   },
-  {
-    organizer: 'HubSpot Academy',
-    title: 'Video Bootcamp for Marketing, Sales, and Service',
-    duration: '4 Weeks',
-    level: 'Intermediate',
-    skills: ['Marketing', 'Sales', 'Customer Service'],
-    applyLink:
-      'https://events.academy.hubspot.com/events/details/hubspot-academy-video-bootcamp-for-marketing-sales-and-service-spring-2025-presents-video-bootcamp-for-marketing-sales-and-service-spring-2025-2025-05-07/',
-    poster: '/assets/Bootcamps/Video Bootcamp for Marketing, Sales, and Service - Spring 2025.png',
-    shareLink: '#video-bootcamp-for-marketing-sales--services',
-  },
+  // {
+  //   organizer: 'HubSpot Academy',
+  //   title: 'Video Bootcamp for Marketing, Sales, and Service',
+  //   duration: '4 Weeks',
+  //   level: 'Intermediate',
+  //   skills: ['Marketing', 'Sales', 'Customer Service'],
+  //   applyLink:
+  //     'https://events.academy.hubspot.com/events/details/hubspot-academy-video-bootcamp-for-marketing-sales-and-service-spring-2025-presents-video-bootcamp-for-marketing-sales-and-service-spring-2025-2025-05-07/',
+  //   poster: '/assets/Bootcamps/Video Bootcamp for Marketing, Sales, and Service - Spring 2025.png',
+  //   shareLink: '#video-bootcamp-for-marketing-sales--services',
+  // },
   // {
   //   organizer: 'HubSpot Academy',
   //   title: 'Super Admin Bootcamp',
