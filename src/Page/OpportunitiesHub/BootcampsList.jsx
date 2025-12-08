@@ -129,17 +129,17 @@ const bootcamp = [
     poster: '/assets/Bootcamps/Google Project Management Professional Certificate.png',
     shareLink: '#google-project-management-professional-certificate',
   },
-  {
-    organizer: 'Udemy',
-    title: 'Complete Full-Stack Web Development Bootcamp',
-    duration: '61 hours',
-    level: 'Intermediate',
-    skills: ['Web Development', 'Full Stack', 'Backend', 'Frontend', 'Database', 'Paid'],
-    applyLink:
-      'https://www.udemy.com/share/1013gG3@vFw3WU1bEGYVy7rvGUXmeKb5WYPRqfmhxr8gYIuu5ul-QyKkjjv8GH_oYgs2tTnDKg==/',
-    poster: '/assets/Courses/AngelaFullStackDev.png',
-    shareLink: '#complete-full-stack-web-development-bootcamp',
-  },
+  // {
+  //   organizer: 'Udemy',
+  //   title: 'Complete Full-Stack Web Development Bootcamp',
+  //   duration: '61 hours',
+  //   level: 'Intermediate',
+  //   skills: ['Web Development', 'Full Stack', 'Backend', 'Frontend', 'Database', 'Paid'],
+  //   applyLink:
+  //     'https://www.udemy.com/share/1013gG3@vFw3WU1bEGYVy7rvGUXmeKb5WYPRqfmhxr8gYIuu5ul-QyKkjjv8GH_oYgs2tTnDKg==/',
+  //   poster: '/assets/Courses/AngelaFullStackDev.png',
+  //   shareLink: '#complete-full-stack-web-development-bootcamp',
+  // },
   // {
   //   organizer: 'Udemy',
   //   title: 'Complete Python Pro Bootcamp',
