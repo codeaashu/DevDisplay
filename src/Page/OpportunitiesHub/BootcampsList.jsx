@@ -140,17 +140,17 @@ const bootcamp = [
     poster: '/assets/Courses/AngelaFullStackDev.png',
     shareLink: '#complete-full-stack-web-development-bootcamp',
   },
-  {
-    organizer: 'Udemy',
-    title: 'Complete Python Pro Bootcamp',
-    duration: '52 hours',
-    level: 'Intermediate',
-    skills: ['Python', 'Backend', 'Data Science', 'Machine Learning', 'Paid'],
-    applyLink:
-      'https://www.udemy.com/share/103IHM3@PpzlFKvoy_U8C44nS4mcr3ctFo9qRxCWrgOqCDeXLdFS6ybdfqRrtt4QuxJwC5Rhdw==/',
-    poster: '/assets/Courses/AngelaPython.png',
-    shareLink: '#complete-python-pro-bootcamp',
-  },
+  // {
+  //   organizer: 'Udemy',
+  //   title: 'Complete Python Pro Bootcamp',
+  //   duration: '52 hours',
+  //   level: 'Intermediate',
+  //   skills: ['Python', 'Backend', 'Data Science', 'Machine Learning', 'Paid'],
+  //   applyLink:
+  //     'https://www.udemy.com/share/103IHM3@PpzlFKvoy_U8C44nS4mcr3ctFo9qRxCWrgOqCDeXLdFS6ybdfqRrtt4QuxJwC5Rhdw==/',
+  //   poster: '/assets/Courses/AngelaPython.png',
+  //   shareLink: '#complete-python-pro-bootcamp',
+  // },
 ];
 
 const StyledbootcampCard = styled.div`
