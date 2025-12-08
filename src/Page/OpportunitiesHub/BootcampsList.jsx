@@ -88,17 +88,17 @@ const bootcamp = [
     poster: '/assets/Bootcamps/RevOps Bootcamp - Spring 2025.png',
     shareLink: '#revops-bootcamp',
   },
-  {
-    organizer: 'HubSpot Academy',
-    title: 'Pipeline Generation Bootcamp',
-    duration: '6 Weeks',
-    level: 'Intermediate',
-    skills: ['HubSpot Flywheel', 'Lead Identification'],
-    applyLink:
-      'https://events.academy.hubspot.com/events/details/hubspot-academy-pipeline-generation-bootcamp-spring-2025-presents-pipeline-generation-bootcamp-spring-2025-2025-05-07/',
-    poster: '/assets/Bootcamps/Pipeline Generation Bootcamp - Spring 2025.png',
-    shareLink: '#pipeline-generation-bootcamp',
-  },
+  // {
+  //   organizer: 'HubSpot Academy',
+  //   title: 'Pipeline Generation Bootcamp',
+  //   duration: '6 Weeks',
+  //   level: 'Intermediate',
+  //   skills: ['HubSpot Flywheel', 'Lead Identification'],
+  //   applyLink:
+  //     'https://events.academy.hubspot.com/events/details/hubspot-academy-pipeline-generation-bootcamp-spring-2025-presents-pipeline-generation-bootcamp-spring-2025-2025-05-07/',
+  //   poster: '/assets/Bootcamps/Pipeline Generation Bootcamp - Spring 2025.png',
+  //   shareLink: '#pipeline-generation-bootcamp',
+  // },
   // {
   //   organizer: 'Coursera',
   //   title: 'Fundamentals of Computing Specialization',
