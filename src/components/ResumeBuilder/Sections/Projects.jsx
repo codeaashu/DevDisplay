@@ -1,19 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import {
-  Code2,
-  Trash2,
-  Plus,
-  ArrowLeft,
-  ArrowRight,
-  Link,
-  Github,
-  Lightbulb,
-  Wrench,
-  FileEdit,
-  Star,
-} from 'lucide-react';
+import { Code2, Trash2, Plus, ArrowLeft, ArrowRight, Link, Github, Wrench, FileEdit } from 'lucide-react';
 import { useResume } from '../context/ResumeContext';
 import '../styles/FormSections.css';
 

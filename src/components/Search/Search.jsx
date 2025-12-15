@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import styled from 'styled-components';
 import useDebounce from '../../hooks/useDebouncer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlass, faXmark, faMicrophone } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass, faXmark } from '@fortawesome/free-solid-svg-icons';
 import VoiceSearch from './VoiceSearch';
 import { FaCheckCircle } from 'react-icons/fa';
 
