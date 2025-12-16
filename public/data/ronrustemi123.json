@@ -1,0 +1,13 @@
+{
+  "name": "Ron Rustemi",
+  "location": "Tetovo, North Macedonia",
+  "bio": "Full-stack JavaScript Developer based in Tetovo, North Macedonia",
+  "avatar": "https://github.com/ronrustemi123.png",
+  "portfolio": "https://ronrustemi.vercel.app/",
+  "skills": ["Next.js", "React", "TypeScript", "TailwindCSS", "Node.js", "Express.js", "Docker", "AWS", "PostgreSQL"],
+  "social": {
+    "GitHub": "https://github.com/ronrustemi123",
+    "LinkedIn": "https://www.linkedin.com/in/ron-rustemi-92bb16359/",
+    "Email": "ronrustemi9@gmail.com",
+  }
+}
