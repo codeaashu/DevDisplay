@@ -699,6 +699,8 @@ const OSProgramCardComponent = ({
     }
   };
 
+  const isExternalGuidelines = guidelines?.startsWith('http');
+
   return (
     <StyledOSProgramCard id={shareLink.substring(1)}>
       <div className="poster">
@@ -744,10 +746,17 @@ const OSProgramCardComponent = ({
           <h2 className="text-lg font-bold text-white">{title}</h2>
           <p className="text-center text-sm text-gray-300">{description}</p>
           <div className="info mt-2 flex flex-col items-center gap-1 rounded-lg border border-[#00a6fb] bg-gray-900 bg-opacity-50 px-14 py-3 text-sm text-white shadow-lg backdrop-blur-md transition-all hover:bg-gray-800">
-            <a href={guidelines} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-              <FontAwesomeIcon icon={faBookOpen} className="text-[#00a6fb]" />
-              <span className="font-medium">Guidelines</span>
-            </a>
+            {isExternalGuidelines ? (
+              <a href={guidelines} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                <FontAwesomeIcon icon={faBookOpen} className="text-[#00a6fb]" />
+                <span className="font-medium">Guidelines</span>
+              </a>
+            ) : (
+              <Link to={guidelines} className="flex items-center gap-2">
+                <FontAwesomeIcon icon={faBookOpen} className="text-[#00a6fb]" />
+                <span className="font-medium">Guidelines</span>
+              </Link>
+            )}
           </div>
         </div>
       </div>
@@ -764,7 +773,7 @@ const OSProgramList = [
     timeline: 'March 2025',
     Duration: 'May - August 2025',
     type: 'Student-friendly, Open Source',
-    guidelines: 'https://summerofcode.withgoogle.com/',
+    guidelines: '/OpenSource/gsoc',
     applyLink: 'https://summerofcode.withgoogle.com/',
     poster: '/assets/opensourceProgram/GSoC.png',
     shareLink: '#gsoc2026',
