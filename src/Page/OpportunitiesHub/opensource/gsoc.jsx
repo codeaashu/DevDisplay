@@ -387,14 +387,14 @@ export default function GsocPage() {
         </div>
       </section>
 
-      <section className="relative overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 px-6 py-24">
+      <section className="relative overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 px-4 py-12 sm:px-6 sm:py-16 md:py-20 lg:py-24">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute right-10 top-10 h-96 w-96 rounded-full bg-cyan-500 blur-3xl" />
-          <div className="absolute bottom-10 left-10 h-96 w-96 rounded-full bg-blue-500 blur-3xl" />
+          <div className="absolute right-2 top-2 h-40 w-40 rounded-full bg-cyan-500 blur-2xl sm:right-4 sm:top-4 sm:h-48 sm:w-48 sm:blur-3xl md:right-10 md:top-10 md:h-96 md:w-96" />
+          <div className="absolute bottom-2 left-2 h-40 w-40 rounded-full bg-blue-500 blur-2xl sm:bottom-4 sm:left-4 sm:h-48 sm:w-48 sm:blur-3xl md:bottom-10 md:left-10 md:h-96 md:w-96" />
         </div>
-        <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center justify-center gap-12">
+        <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center justify-center gap-8 sm:gap-10 md:gap-12">
           {/* Everything You Need to Crack */}
-          <h1 className="text-center text-4xl font-black leading-tight text-white md:text-5xl lg:text-6xl">
+          <h1 className="text-center text-2xl font-black leading-tight text-white sm:text-3xl md:text-5xl lg:text-6xl">
             <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
               Everything You Need to Crack
             </span>
@@ -410,14 +410,14 @@ export default function GsocPage() {
           </div>
 
           {/* 2026 */}
-          <h1 className="text-center text-5xl font-black leading-tight text-white lg:text-6xl">
+          <h1 className="text-center text-3xl font-black leading-tight text-white sm:text-4xl md:text-5xl lg:text-6xl">
             <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">2026</span>
           </h1>
         </div>
       </section>
 
-      <section className="bg-slate-900 px-6 py-12">
-        <div className="mx-auto flex max-w-5xl flex-col gap-6">
+      <section className="bg-slate-900 px-4 py-8 sm:px-6 sm:py-10 md:py-12">
+        <div className="mx-auto flex max-w-5xl flex-col gap-4 sm:gap-6">
           <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/80 shadow-xl">
             <div className="px-6 py-5 text-center">
               <a
@@ -431,9 +431,9 @@ export default function GsocPage() {
             </div>
           </div>
 
-          <div className="space-y-3">
-            <h2 className="text-2xl font-bold">Participant Proposals</h2>
-            <p className="text-slate-300">
+          <div className="space-y-2 sm:space-y-3">
+            <h2 className="text-xl font-bold sm:text-2xl">Participant Proposals</h2>
+            <p className="text-sm text-slate-300 sm:text-base">
               Explore the mentors, orgs, and proposals alumni have worked on. Tap any card to view their project and
               proposal.
             </p>
