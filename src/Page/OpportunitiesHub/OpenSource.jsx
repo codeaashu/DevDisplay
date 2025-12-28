@@ -757,6 +757,19 @@ const OSProgramCardComponent = ({
 
 const OSProgramList = [
   {
+    organizer: 'Google',
+    title: 'Google Summer of Code 2026',
+    description:
+      'Google Summer of Code is a global program that offers students stipends to write code for various open-source projects during the summer. It provides an opportunity to work with mentors from open-source organizations and gain real-world software development experience.',
+    timeline: 'March 2025',
+    Duration: 'May - August 2025',
+    type: 'Student-friendly, Open Source',
+    guidelines: 'https://summerofcode.withgoogle.com/',
+    applyLink: 'https://summerofcode.withgoogle.com/',
+    poster: '/assets/opensourceProgram/GSoC.png',
+    shareLink: '#gsoc2026',
+  },
+  {
     organizer: 'Open Source Connect India',
     title: 'Open Source Connect India',
     description:
