@@ -380,18 +380,39 @@ const ProposalCard = ({ name, organization, project, proposal }) => {
 export default function GsocPage() {
   return (
     <main className="min-h-screen bg-slate-950 text-white">
-      <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
-        <div className="absolute inset-0">
-          <img
-            src="/assets/opensourceProgram/GSoC.png"
-            alt="Google Summer of Code"
-            className="h-full w-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/50 via-slate-950/60 to-slate-950" />
+      <section className="relative overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute right-10 top-10 h-96 w-96 rounded-full bg-cyan-500 blur-3xl" />
+          <div className="absolute bottom-10 left-10 h-96 w-96 rounded-full bg-blue-500 blur-3xl" />
         </div>
-        <div className="relative z-10 mx-auto max-w-3xl px-6 text-center">
-          <h1 className="text-4xl font-extrabold md:text-5xl">Google Summer of Code 2026</h1>
-          <p className="mt-4 text-lg text-slate-200">Goldmines for GSoC enthusiasts</p>
+      </section>
+
+      <section className="relative overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 px-6 py-24">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute right-10 top-10 h-96 w-96 rounded-full bg-cyan-500 blur-3xl" />
+          <div className="absolute bottom-10 left-10 h-96 w-96 rounded-full bg-blue-500 blur-3xl" />
+        </div>
+        <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center justify-center gap-12">
+          {/* Everything You Need to Crack */}
+          <h1 className="text-center text-4xl font-black leading-tight text-white md:text-5xl lg:text-6xl">
+            <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+              Everything You Need to Crack
+            </span>
+          </h1>
+
+          {/* GSoC Image */}
+          <div className="relative w-full overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">
+            <img
+              src="/assets/opensourceProgram/GSoC.png"
+              alt="Google Summer of Code 2026"
+              className="h-auto w-full object-cover"
+            />
+          </div>
+
+          {/* 2026 */}
+          <h1 className="text-center text-5xl font-black leading-tight text-white lg:text-6xl">
+            <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">2026</span>
+          </h1>
         </div>
       </section>
 
