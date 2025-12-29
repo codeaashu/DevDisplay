@@ -775,7 +775,7 @@ const OSProgramList = [
     type: 'Student-friendly, Open Source',
     guidelines: '/OpenSource/gsoc',
     applyLink: 'https://summerofcode.withgoogle.com/',
-    poster: '/assets/opensourceProgram/GSoC.png',
+    poster: '/assets/opensourceProgram/GSOC.png',
     shareLink: '#gsoc2026',
   },
   {

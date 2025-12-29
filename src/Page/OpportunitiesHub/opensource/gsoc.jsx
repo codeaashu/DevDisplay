@@ -393,17 +393,17 @@ export default function GsocPage() {
           <div className="absolute bottom-2 left-2 h-40 w-40 rounded-full bg-blue-500 blur-2xl sm:bottom-4 sm:left-4 sm:h-48 sm:w-48 sm:blur-3xl md:bottom-10 md:left-10 md:h-96 md:w-96" />
         </div>
         <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center justify-center gap-8 sm:gap-10 md:gap-12">
-          {/* Everything You Need to Crack */}
+          {/* Everything You Need to Decode */}
           <h1 className="text-center text-2xl font-black leading-tight text-white sm:text-3xl md:text-5xl lg:text-6xl">
             <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-              Everything You Need to Crack
+              Everything You Need to Decode
             </span>
           </h1>
 
           {/* GSoC Image */}
           <div className="relative w-full overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">
             <img
-              src="/assets/opensourceProgram/GSoC.png"
+              src="/assets/opensourceProgram/GSOC.png"
               alt="Google Summer of Code 2026"
               className="h-auto w-full object-cover"
             />
