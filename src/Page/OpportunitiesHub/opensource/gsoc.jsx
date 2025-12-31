@@ -194,6 +194,12 @@ const proposals = [
     organization: 'Org - Wikimedia',
     proposal: 'https://www.mediawiki.org/wiki/Book_management',
   },
+  {
+    name: 'Unknown',
+    organization: 'Org - Chromium',
+    proposal:
+      'https://docs.google.com/document/d/1IOj4hSdPl8h1-8zYK_Gt3OxA0R44SLbmr-ZH3f9yDXM/edit?tab=t.0#heading=h.f9xi00yo67jk',
+  },
 ];
 
 const Pattern = () => {
@@ -374,12 +380,12 @@ export default function GsocPage() {
                   GSoC 2026 Timeline
                 </a>
                 <a
-                  href="https://docs.google.com/document/d/1IOj4hSdPl8h1-8zYK_Gt3OxA0R44SLbmr-ZH3f9yDXM/edit?tab=t.0#heading=h.f9xi00yo67jk"
+                  href="https://github.com/codeaashu/GSOC-The-Beginners-Guide"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center justify-center rounded-full bg-cyan-500/20 px-4 py-2 text-base font-semibold text-cyan-100 transition hover:bg-cyan-500/30"
                 >
-                  Proposal Structure Guide Template
+                  The Beginners Guide to GSoC
                 </a>
               </div>
             </div>
