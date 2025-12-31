@@ -5,345 +5,340 @@ import GsocLoader from '../../../components/GsocLoader';
 const proposals = [
   {
     name: 'Namay Rohatgi',
-    organization: 'The Honeynet Project',
-    project: 'https://github.com/honeynet/project-namay',
-    proposal: '',
+    organization: 'Org - The Honeynet Project',
+    proposal: 'https://drive.google.com/file/d/1B0iz-aeAvNLbavW3eGXmfqk4J8hMX24N/view',
   },
   {
     name: 'Adesh Gupta',
-    organization: 'Graphite',
-    project: 'https://github.com/graphite-project/adesh',
+    organization: 'Org - Graphite',
     proposal: 'https://docs.google.com/document/d/adesh-graphite',
   },
   {
     name: 'Krishna Pandey',
-    organization: 'LLVM Compiler Infrastructure',
-    project: 'https://github.com/llvm/krishna-pandey',
+    organization: 'Org - LLVM Compiler Infrastructure',
     proposal: 'https://docs.google.com/document/d/krishna-llvm',
   },
   {
     name: 'Ayush Chandekar',
-    organization: 'Git',
-    project: 'https://github.com/git/ayush-chandekar',
+    organization: 'Org - Git',
     proposal: 'https://docs.google.com/document/d/ayush-git',
   },
   {
     name: 'Praneeth Sarode',
-    organization: 'libssh',
-    project: 'https://github.com/libssh/praneeth',
+    organization: 'Org - libssh',
     proposal: 'https://docs.google.com/document/d/praneeth-libssh',
   },
   {
     name: 'Varun R Mallya',
-    organization: 'GNOME Foundation',
+    organization: 'Org - GNOME Foundation',
     project: 'https://github.com/GNOME/varun-mallya',
     proposal: 'https://docs.google.com/document/d/varun-gnome',
   },
   {
     name: 'Lakshya Shishir Khandelwal',
-    organization: 'MIT App Inventor',
+    organization: 'Org - MIT App Inventor',
     project: 'https://github.com/mit-cml/lakshya',
     proposal: 'https://docs.google.com/document/d/lakshya-mit-appinventor',
   },
   {
     name: 'Sukhman Singh',
-    organization: 'Freifunk.net',
+    organization: 'Org - Freifunk.net',
     project: 'https://github.com/freifunk/sukhman',
     proposal: 'https://docs.google.com/document/d/sukhman-freifunk',
   },
   {
     name: 'Divyansh Jain',
-    organization: 'GNOME Foundation',
+    organization: 'Org - GNOME Foundation',
     project: 'https://github.com/GNOME/divyansh',
     proposal: 'https://docs.google.com/document/d/divyansh-gnome',
   },
   {
     name: 'Ashish',
-    organization: 'MetaCall',
+    organization: 'Org - MetaCall',
     project: 'https://github.com/metacall/ashish',
     proposal: 'https://docs.google.com/document/d/ashish-metacall',
   },
   {
     name: 'Khushal Agrawal',
-    organization: 'Inkscape',
+    organization: 'Org - Inkscape',
     project: 'https://github.com/inkscape/khushal',
     proposal: 'https://docs.google.com/document/d/khushal-inkscape',
   },
   {
     name: 'Darshan Kumar',
-    organization: 'CNCF',
+    organization: 'Org - CNCF',
     project: 'https://github.com/cncf/darshan',
     proposal: 'https://docs.google.com/document/d/darshan-cncf',
   },
   {
     name: 'Gurmannat Sohal',
-    organization: 'GNOME Foundation',
+    organization: 'Org - GNOME Foundation',
     project: 'https://github.com/GNOME/gurmannat',
     proposal: 'https://docs.google.com/document/d/gurmannat-gnome',
   },
   {
     name: 'Patel Jainil',
-    organization: 'Pitivi',
+    organization: 'Org - Pitivi',
     project: 'https://github.com/pitivi/jainil',
     proposal: 'https://docs.google.com/document/d/jainil-pitivi',
   },
   {
     name: 'Vansh Uppal',
-    organization: 'Inkscape',
+    organization: 'Org - Inkscape',
     project: 'https://github.com/inkscape/vansh',
     proposal: 'https://docs.google.com/document/d/vansh-inkscape',
   },
   {
     name: 'Bashar Ahmed',
-    organization: 'Inkscape',
+    organization: 'Org - Inkscape',
     project: 'https://github.com/inkscape/bashar',
     proposal: 'https://docs.google.com/document/d/bashar-inkscape',
   },
   {
     name: 'Ishan Rawat',
-    organization: 'Monado',
+    organization: 'Org - Monado',
     project: 'https://github.com/Monado/ishan',
     proposal: 'https://docs.google.com/document/d/ishan-monado',
   },
   {
     name: 'Pragyansh Chaturvedi',
-    organization: 'ScummVM',
+    organization: 'Org - ScummVM',
     project: 'https://github.com/scummvm/pragyansh',
     proposal: 'https://docs.google.com/document/d/pragyansh-scummvm',
   },
   {
     name: 'Priyansh Rathi',
-    organization: 'Godot Engine',
+    organization: 'Org - Godot Engine',
     project: 'https://github.com/godotengine/priyansh',
     proposal: 'https://docs.google.com/document/d/priyansh-godot',
   },
   {
     name: 'Rohith Varma Buddaraju',
-    organization: 'TARDIS RT Collaboration',
+    organization: 'Org - TARDIS RT Collaboration',
     project: 'https://github.com/tardis-sn/rohith',
     proposal: 'https://docs.google.com/document/d/rohith-tardis',
   },
   {
     name: 'Sri Sai Natha Rao Pathange',
-    organization: 'Neutralinojs',
+    organization: 'Org - Neutralinojs',
     project: 'https://github.com/neutralinojs/srisainatha',
     proposal: 'https://docs.google.com/document/d/srinatha-neutralinojs',
   },
   {
     name: 'Manas Chaudhary',
-    organization: 'xrdesktop',
+    organization: 'Org - xrdesktop',
     project: 'https://github.com/xrdesktop/manas',
     proposal: 'https://docs.google.com/document/d/manas-xrdesktop',
   },
   {
     name: 'Gaurav Genani',
-    organization: 'Cilium',
+    organization: 'Org - Cilium',
     project: 'https://github.com/cilium/gaurav',
     proposal: 'https://docs.google.com/document/d/gaurav-cilium',
   },
   {
     name: 'Aviral Jain',
-    organization: 'CloudCV',
+    organization: 'Org - CloudCV',
     project: 'https://github.com/Cloud-CV/aviral',
     proposal: 'https://docs.google.com/document/d/aviral-cloudcv',
   },
   {
     name: 'Shreyaa Sharma',
-    organization: 'Ceph',
+    organization: 'Org - Ceph',
     project: 'https://github.com/ceph/shreyaa',
     proposal: 'https://docs.google.com/document/d/shreyaa-ceph',
   },
   {
     name: 'Ashutosh Bharambe',
-    organization: 'NumFOCUS',
+    organization: 'Org - NumFOCUS',
     project: 'https://github.com/numfocus/ashutosh',
     proposal: 'https://docs.google.com/document/d/ashutosh-numfocus',
   },
   {
     name: 'Mohit Sharma',
-    organization: 'OWASP',
+    organization: 'Org - OWASP',
     project: 'https://github.com/OWASP/mohit',
     proposal: 'https://docs.google.com/document/d/mohit-owasp',
   },
   {
     name: 'Nupur Agrawal',
-    organization: 'The Libreswan Project',
+    organization: 'Org - The Libreswan Project',
     project: 'https://github.com/libreswan/nupur',
     proposal: 'https://docs.google.com/document/d/nupur-libreswan',
   },
   {
     name: 'Ayan Choudhary',
-    organization: 'Creative Commons',
+    organization: 'Org - Creative Commons',
     project: 'https://github.com/creativecommons/ayan',
     proposal: 'https://docs.google.com/document/d/ayan-cc',
   },
   {
     name: 'Supratik Das',
-    organization: 'Continuous Delivery Foundation',
+    organization: 'Org - Continuous Delivery Foundation',
     project: 'https://github.com/cdfoundation/supratik',
     proposal: 'https://docs.google.com/document/d/supratik-cdf',
   },
   {
     name: 'Shreyaa Sharma',
-    organization: 'Public Lab (Outreachy)',
+    organization: 'Org - Public Lab (Outreachy)',
     project: 'https://github.com/publiclab/shreyaa',
     proposal: 'https://docs.google.com/document/d/shreyaa-publiclab',
   },
   {
     name: 'Ashutosh Bharambe',
-    organization: 'Julia (Julia SoC)',
+    organization: 'Org - Julia (Julia SoC)',
     project: 'https://github.com/JuliaLang/ashutosh',
     proposal: 'https://docs.google.com/document/d/ashutosh-julia',
   },
   {
     name: 'Vaibhav',
-    organization: 'Zulip',
+    organization: 'Org - Zulip',
     project: 'https://github.com/zulip/vaibhav',
     proposal: 'https://docs.google.com/document/d/vaibhav-zulip',
   },
   {
     name: 'Kanav Gupta',
-    organization: 'The Julia Language',
+    organization: 'Org - The Julia Language',
     project: 'https://github.com/JuliaLang/kanav',
     proposal: 'https://docs.google.com/document/d/kanav-julia',
   },
   {
     name: 'Agrim Mittal',
-    organization: 'Bundler',
+    organization: 'Org - Bundler',
     project: 'https://github.com/bundler/agrim',
     proposal: 'https://docs.google.com/document/d/agrim-bundler',
   },
   {
     name: 'Deepesh Pathak',
-    organization: 'CloudCV',
+    organization: 'Org - CloudCV',
     project: 'https://github.com/Cloud-CV/deepesh',
     proposal: 'https://docs.google.com/document/d/deepesh-cloudcv',
   },
   {
     name: 'Gautham Goli',
-    organization: 'Homebrew',
+    organization: 'Org - Homebrew',
     project: 'https://github.com/Homebrew/gautham',
     proposal: 'https://docs.google.com/document/d/gautham-homebrew',
   },
   {
     name: 'Chirag Maheshwari',
-    organization: 'Amahi',
+    organization: 'Org - Amahi',
     project: 'https://github.com/amahi/chirag',
     proposal: 'https://docs.google.com/document/d/chirag-amahi',
   },
   {
     name: 'Utkarsh Gupta',
-    organization: 'CloudCV',
+    organization: 'Org - CloudCV',
     project: 'https://github.com/Cloud-CV/utkarsh',
     proposal: 'https://docs.google.com/document/d/utkarsh-cloudcv',
   },
   {
     name: 'Ketan Gupta',
-    organization: 'Tiled',
+    organization: 'Org - Tiled',
     project: 'https://github.com/mapeditor/ketan',
     proposal: 'https://docs.google.com/document/d/ketan-tiled',
   },
   {
     name: 'Harkirat Singh',
-    organization: 'Mozilla',
+    organization: 'Org - Mozilla',
     project: 'https://github.com/mozilla/harkirat',
     proposal: 'https://docs.google.com/document/d/harkirat-mozilla',
   },
   {
     name: 'Ravinder Nehra',
-    organization: 'Honeynet Project',
+    organization: 'Org - Honeynet Project',
     project: 'https://github.com/honeynet/ravinder',
     proposal: 'https://docs.google.com/document/d/ravinder-honeynet',
   },
   {
     name: 'Karan Desai',
-    organization: 'TARDIS',
+    organization: 'Org - TARDIS',
     project: 'https://github.com/tardis-sn/karan',
     proposal: 'https://docs.google.com/document/d/karan-tardis',
   },
   {
     name: 'Ashish Chaudhary',
-    organization: 'CloudCV',
+    organization: 'Org - CloudCV',
     project: 'https://github.com/Cloud-CV/ashish',
     proposal: 'https://docs.google.com/document/d/ashish-cloudcv',
   },
   {
     name: 'Asutosh Palai',
-    organization: 'Ruby',
+    organization: 'Org - Ruby',
     project: 'https://github.com/ruby/asutosh',
     proposal: 'https://docs.google.com/document/d/asutosh-ruby',
   },
   {
     name: 'Harkirat Singh',
-    organization: 'Gambit',
+    organization: 'Org - Gambit',
     project: 'https://github.com/gambit-scheme/harkirat',
     proposal: 'https://docs.google.com/document/d/harkirat-gambit',
   },
   {
     name: 'Amanpreet Singh',
-    organization: 'jQuery Mobile',
+    organization: 'Org - jQuery Mobile',
     project: 'https://github.com/jquery/jquery-mobile-amanpreet',
     proposal: 'https://docs.google.com/document/d/amanpreet-jquery-mobile',
   },
   {
     name: 'Dhaval Kapil',
-    organization: 'LabLua',
+    organization: 'Org - LabLua',
     project: 'https://github.com/lablua/dhaval',
     proposal: 'https://docs.google.com/document/d/dhaval-lablua',
   },
   {
     name: 'Aarti Dwivedi',
-    organization: 'Portland State University',
+    organization: 'Org - Portland State University',
     project: 'https://github.com/psu/aarti',
   },
   {
     name: 'Abhishek Das',
-    organization: 'Open Web Application Security Project',
+    organization: 'Org - Open Web Application Security Project',
     project: 'https://github.com/OWASP/abhishek',
   },
   {
     name: 'Amanpreet Singh',
-    organization: 'Wikimedia',
+    organization: 'Org - Wikimedia',
     project: 'https://github.com/wikimedia/amanpreet',
     proposal: 'https://docs.google.com/document/d/amanpreet-wikimedia',
   },
   {
     name: 'Deepali Jain',
-    organization: 'Wikimedia',
+    organization: 'Org - Wikimedia',
     project: 'https://github.com/wikimedia/deepali',
     proposal: 'https://docs.google.com/document/d/deepali-wikimedia',
   },
   {
     name: 'Jayant Jain',
-    organization: 'CodeComat',
+    organization: 'Org - CodeComat',
     project: 'https://github.com/CodeComat/jayant',
     proposal: 'https://docs.google.com/document/d/jayant-codecomat',
   },
   {
     name: 'Jay Bosamiya',
-    organization: 'Nmap Security Scanner',
+    organization: 'Org - Nmap Security Scanner',
     project: 'https://github.com/nmap/jay',
     proposal: 'https://docs.google.com/document/d/jay-nmap',
   },
   {
     name: 'Aarti Dwivedi',
-    organization: 'Wikimedia',
+    organization: 'Org - Wikimedia',
     project: 'https://github.com/wikimedia/aarti',
   },
   {
     name: 'Abhishek Das',
-    organization: 'Dept. of Biomedical Informatics, Emory University',
+    organization: 'Org - Dept. of Biomedical Informatics, Emory University',
     project: 'https://github.com/emory/abhishek',
     proposal: 'https://docs.google.com/document/d/abhishek-emory',
   },
   {
     name: 'Richa Jain',
-    organization: 'Wikimedia',
+    organization: 'Org - Wikimedia',
     project: 'https://github.com/wikimedia/richa',
   },
   {
     name: 'Ashwini Khare',
-    organization: 'Statistics Online Computational Resource',
+    organization: 'Org - Statistics Online Computational Resource',
     project: 'https://github.com/SOCR/ashwini',
   },
 ];
@@ -443,7 +438,7 @@ const StyledWrapper = styled.div`
   }
 `;
 
-const ProposalCard = ({ name, organization, project, proposal }) => {
+const ProposalCard = ({ name, organization, proposal }) => {
   return (
     <div className="flex flex-col gap-4 rounded-2xl border border-slate-800 bg-slate-900/70 p-5 shadow-xl transition hover:-translate-y-1 hover:shadow-2xl">
       <div className="space-y-1">
@@ -452,23 +447,13 @@ const ProposalCard = ({ name, organization, project, proposal }) => {
       </div>
       <div className="flex flex-wrap gap-3 text-sm">
         <a
-          href={project}
+          href={proposal}
           target="_blank"
           rel="noreferrer"
           className="rounded-full border border-cyan-400/50 px-3 py-1 text-cyan-100 transition hover:bg-cyan-500/10"
         >
-          Project
+          Proposal
         </a>
-        {proposal && (
-          <a
-            href={proposal}
-            target="_blank"
-            rel="noreferrer"
-            className="rounded-full bg-cyan-500/20 px-3 py-1 text-cyan-100 transition hover:bg-cyan-500/30"
-          >
-            Proposal
-          </a>
-        )}
       </div>
     </div>
   );
