@@ -7,7 +7,7 @@ const proposals = [
     name: 'Namay Rohatgi',
     organization: 'The Honeynet Project',
     project: 'https://github.com/honeynet/project-namay',
-    proposal: 'https://docs.google.com/document/d/namay-honeynet',
+    proposal: '',
   },
   {
     name: 'Adesh Gupta',
@@ -526,6 +526,22 @@ export default function GsocPage() {
                   className="inline-flex items-center justify-center rounded-full bg-cyan-500/20 px-4 py-2 text-base font-semibold text-cyan-100 transition hover:bg-cyan-500/30"
                 >
                   List of GSoC Organizations
+                </a>
+                <a
+                  href="https://summerofcode.withgoogle.com/programs/2026"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center justify-center rounded-full bg-cyan-500/20 px-4 py-2 text-base font-semibold text-cyan-100 transition hover:bg-cyan-500/30"
+                >
+                  GSoC 2026 Timeline
+                </a>
+                <a
+                  href="https://docs.google.com/document/d/1IOj4hSdPl8h1-8zYK_Gt3OxA0R44SLbmr-ZH3f9yDXM/edit?tab=t.0#heading=h.f9xi00yo67jk"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center justify-center rounded-full bg-cyan-500/20 px-4 py-2 text-base font-semibold text-cyan-100 transition hover:bg-cyan-500/30"
+                >
+                  Proposal Structure Guide Template
                 </a>
               </div>
             </div>
