@@ -43,6 +43,13 @@ const StyledWrapper = styled.div`
     color: #fff;
 
     scale: 2;
+
+    @media (min-width: 768px) {
+      scale: 2.5;
+    }
+    @media (min-width: 1280px) {
+      scale: 3;
+    }
   }
 
   .loader {

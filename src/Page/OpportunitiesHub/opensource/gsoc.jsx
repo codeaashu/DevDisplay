@@ -395,8 +395,9 @@ export default function GsocPage() {
         </div>
         <div className="relative z-10 mx-auto grid max-w-6xl items-center gap-8 sm:gap-10 md:grid-cols-2 md:gap-12">
           <div className="space-y-4 text-center md:text-left">
-            <p className="text-xl font-semibold tracking-wide text-slate-200 sm:text-3xl">
-              Everything You Need to Decode
+            <p className="text-xl font-semibold tracking-wide text-slate-200 sm:text-5xl">
+              Everything <br />
+              You Need to Decode
             </p>
             <div className="flex justify-center md:justify-start">
               <div className="relative overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">
