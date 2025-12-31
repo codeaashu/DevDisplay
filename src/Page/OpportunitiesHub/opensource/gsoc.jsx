@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 import GsocLoader from '../../../components/GsocLoader';
 
 const proposals = [
@@ -347,6 +348,101 @@ const proposals = [
   },
 ];
 
+const Pattern = () => {
+  return (
+    <StyledWrapper>
+      <div className="matrix-container">
+        <div className="matrix-grid" />
+      </div>
+    </StyledWrapper>
+  );
+};
+
+const StyledWrapper = styled.div`
+  width: 100%;
+  height: 100%;
+  .matrix-container {
+    width: 100%;
+    height: 100%;
+    perspective: 1500px;
+    position: relative;
+    background-color: #0d0d1a;
+    overflow: hidden;
+  }
+
+  .matrix-grid {
+    width: 100%;
+    height: 100%;
+    background:
+      linear-gradient(#262645 1px, transparent 1px), linear-gradient(90deg, #262645 1px, transparent 1px),
+      repeating-linear-gradient(45deg, rgba(0, 255, 170, 0.05) 0px 1px, transparent 1px 12px),
+      repeating-linear-gradient(-45deg, rgba(0, 255, 170, 0.05) 0px 1px, transparent 1px 12px),
+      radial-gradient(circle at center, #0a0a1a 0%, #000 100%);
+    background-size:
+      28px 28px,
+      28px 28px,
+      50px 50px,
+      50px 50px,
+      cover;
+    border: 1px solid rgba(0, 255, 170, 0.1);
+    box-shadow:
+      inset 0 0 40px rgba(0, 255, 170, 0.1),
+      0 0 60px rgba(0, 255, 170, 0.15);
+    transform-style: preserve-3d;
+    transition: all 0.6s ease-in-out;
+    position: relative;
+  }
+
+  .matrix-grid::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, transparent, rgba(0, 255, 170, 0.4), transparent);
+    animation: borderFlow 6s linear infinite;
+    pointer-events: none;
+    mask:
+      linear-gradient(#fff 0 0) padding-box,
+      linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+  }
+
+  .matrix-grid::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 160px;
+    height: 160px;
+    background: radial-gradient(circle, rgba(0, 255, 170, 0.15) 0%, transparent 70%);
+    transform: translate(-50%, -50%);
+    animation: pulse 3.5s ease-in-out infinite alternate;
+    z-index: 1;
+  }
+
+  @keyframes borderFlow {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: translate(-50%, -50%) scale(0.85);
+      opacity: 0.2;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1.1);
+      opacity: 0.5;
+    }
+  }
+`;
+
 const ProposalCard = ({ name, organization, project, proposal }) => {
   return (
     <div className="flex flex-col gap-4 rounded-2xl border border-slate-800 bg-slate-900/70 p-5 shadow-xl transition hover:-translate-y-1 hover:shadow-2xl">
@@ -380,77 +476,82 @@ const ProposalCard = ({ name, organization, project, proposal }) => {
 
 export default function GsocPage() {
   return (
-    <main className="min-h-screen bg-slate-950 text-white">
-      <section className="relative overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute right-10 top-10 h-96 w-96 rounded-full bg-cyan-500 blur-3xl" />
-          <div className="absolute bottom-10 left-10 h-96 w-96 rounded-full bg-blue-500 blur-3xl" />
-        </div>
-      </section>
+    <div className="relative min-h-screen w-full">
+      <div className="fixed inset-0 z-0">
+        <Pattern />
+      </div>
+      <main className="relative z-10 min-h-screen text-white">
+        <section className="relative overflow-hidden">
+          <div className="absolute inset-0 opacity-10">
+            <div className="absolute right-10 top-10 h-96 w-96 rounded-full bg-cyan-500 blur-3xl" />
+            <div className="absolute bottom-10 left-10 h-96 w-96 rounded-full bg-blue-500 blur-3xl" />
+          </div>
+        </section>
 
-      <section className="relative overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 px-4 py-12 sm:px-6 sm:py-16 md:py-20 lg:py-24">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute right-2 top-2 h-40 w-40 rounded-full bg-cyan-500 blur-2xl sm:right-4 sm:top-4 sm:h-48 sm:w-48 sm:blur-3xl md:right-10 md:top-10 md:h-96 md:w-96" />
-          <div className="absolute bottom-2 left-2 h-40 w-40 rounded-full bg-blue-500 blur-2xl sm:bottom-4 sm:left-4 sm:h-48 sm:w-48 sm:blur-3xl md:bottom-10 md:left-10 md:h-96 md:w-96" />
-        </div>
-        <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-8 sm:gap-10 md:grid-cols-2 md:gap-32">
-          <div className="space-y-4 text-center md:text-left">
-            <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-xl font-semibold tracking-wide text-transparent sm:text-5xl">
-              Everything
-            </p>
-            <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-xl font-semibold tracking-wide text-transparent sm:text-5xl">
-              You Need to Decode:
-            </p>
-            <div className="flex justify-center md:justify-start">
-              <div className="relative max-w-md overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">
-                <img
-                  src="/assets/opensourceProgram/GSOC.png"
-                  alt="Google Summer of Code 2026"
-                  className="h-auto w-full object-cover"
-                />
+        <section className="relative overflow-hidden px-4 py-12 sm:px-6 sm:py-16 md:py-20 lg:py-24">
+          <div className="absolute inset-0 opacity-10">
+            <div className="absolute right-2 top-2 h-40 w-40 rounded-full bg-cyan-500 blur-2xl sm:right-4 sm:top-4 sm:h-48 sm:w-48 sm:blur-3xl md:right-10 md:top-10 md:h-96 md:w-96" />
+            <div className="absolute bottom-2 left-2 h-40 w-40 rounded-full bg-blue-500 blur-2xl sm:bottom-4 sm:left-4 sm:h-48 sm:w-48 sm:blur-3xl md:bottom-10 md:left-10 md:h-96 md:w-96" />
+          </div>
+          <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-8 sm:gap-10 md:grid-cols-2 md:gap-32">
+            <div className="space-y-4 text-center md:text-left">
+              <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-xl font-semibold tracking-wide text-transparent sm:text-5xl">
+                Everything
+              </p>
+              <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-xl font-semibold tracking-wide text-transparent sm:text-5xl">
+                You Need to Decode:
+              </p>
+              <div className="flex justify-center md:justify-start">
+                <div className="relative max-w-md overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">
+                  <img
+                    src="/assets/opensourceProgram/GSOC.png"
+                    alt="Google Summer of Code 2026"
+                    className="h-auto w-full object-cover"
+                  />
+                </div>
               </div>
             </div>
+            <GsocLoader />
           </div>
-          <GsocLoader />
-        </div>
-      </section>
+        </section>
 
-      <section className="bg-slate-900 px-4 py-8 sm:px-6 sm:py-10 md:py-12">
-        <div className="mx-auto flex max-w-5xl flex-col gap-4 sm:gap-6">
-          <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/80 shadow-xl">
-            <div className="px-6 py-5 text-center">
-              <a
-                href="https://www.gsocorganizations.dev/"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center justify-center rounded-full bg-cyan-500/20 px-4 py-2 text-base font-semibold text-cyan-100 transition hover:bg-cyan-500/30"
-              >
-                List of GSoC Organizations
-              </a>
+        <section className="px-4 py-8 sm:px-6 sm:py-10 md:py-12">
+          <div className="mx-auto flex max-w-5xl flex-col gap-4 sm:gap-6">
+            <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/80 shadow-xl">
+              <div className="px-6 py-5 text-center">
+                <a
+                  href="https://www.gsocorganizations.dev/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center justify-center rounded-full bg-cyan-500/20 px-4 py-2 text-base font-semibold text-cyan-100 transition hover:bg-cyan-500/30"
+                >
+                  List of GSoC Organizations
+                </a>
+              </div>
+            </div>
+
+            <div className="space-y-2 sm:space-y-3">
+              <h2 className="text-xl font-bold sm:text-2xl">Participant Proposals</h2>
+              <p className="text-sm text-slate-300 sm:text-base">
+                Explore the mentors, orgs, and proposals alumni have worked on. Tap any card to view their project and
+                proposal.
+              </p>
+            </div>
+
+            <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+              {proposals.map((entry) => (
+                <ProposalCard
+                  key={`${entry.name}-${entry.organization}`}
+                  name={entry.name}
+                  organization={entry.organization}
+                  project={entry.project}
+                  proposal={entry.proposal}
+                />
+              ))}
             </div>
           </div>
-
-          <div className="space-y-2 sm:space-y-3">
-            <h2 className="text-xl font-bold sm:text-2xl">Participant Proposals</h2>
-            <p className="text-sm text-slate-300 sm:text-base">
-              Explore the mentors, orgs, and proposals alumni have worked on. Tap any card to view their project and
-              proposal.
-            </p>
-          </div>
-
-          <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-            {proposals.map((entry) => (
-              <ProposalCard
-                key={`${entry.name}-${entry.organization}`}
-                name={entry.name}
-                organization={entry.organization}
-                project={entry.project}
-                proposal={entry.proposal}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
-    </main>
+        </section>
+      </main>
+    </div>
   );
 }
