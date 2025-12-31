@@ -392,27 +392,25 @@ export default function GsocPage() {
           <div className="absolute right-2 top-2 h-40 w-40 rounded-full bg-cyan-500 blur-2xl sm:right-4 sm:top-4 sm:h-48 sm:w-48 sm:blur-3xl md:right-10 md:top-10 md:h-96 md:w-96" />
           <div className="absolute bottom-2 left-2 h-40 w-40 rounded-full bg-blue-500 blur-2xl sm:bottom-4 sm:left-4 sm:h-48 sm:w-48 sm:blur-3xl md:bottom-10 md:left-10 md:h-96 md:w-96" />
         </div>
-        <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center justify-center gap-8 sm:gap-10 md:gap-12">
-          {/* Everything You Need to Decode */}
-          <h1 className="text-center text-2xl font-black leading-tight text-white sm:text-3xl md:text-5xl lg:text-6xl">
-            <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+        <div className="relative z-10 mx-auto grid max-w-6xl items-center gap-8 sm:gap-10 md:grid-cols-2 md:gap-12">
+          <div className="space-y-4 text-center md:text-left">
+            <p className="text-base font-semibold tracking-wide text-slate-200 sm:text-lg">
               Everything You Need to Decode
-            </span>
-          </h1>
+            </p>
+            <h1 className="text-5xl font-black leading-tight text-white sm:text-6xl lg:text-7xl">
+              <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+                GSoC 2026
+              </span>
+            </h1>
+          </div>
 
-          {/* GSoC Image */}
-          <div className="relative w-full overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">
+          <div className="relative overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">
             <img
               src="/assets/opensourceProgram/GSOC.png"
               alt="Google Summer of Code 2026"
               className="h-auto w-full object-cover"
             />
           </div>
-
-          {/* 2026 */}
-          <h1 className="text-center text-3xl font-black leading-tight text-white sm:text-4xl md:text-5xl lg:text-6xl">
-            <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">2026</span>
-          </h1>
         </div>
       </section>
 
