@@ -495,14 +495,14 @@ export default function GsocPage() {
           </div>
           <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-8 sm:gap-10 md:grid-cols-2 md:gap-32">
             <div className="space-y-4 text-center md:text-left">
-              <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-xl font-semibold tracking-wide text-transparent sm:text-5xl">
+              <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-3xl font-semibold tracking-wide text-transparent sm:text-5xl">
                 Everything
               </p>
-              <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-xl font-semibold tracking-wide text-transparent sm:text-5xl">
+              <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-3xl font-semibold tracking-wide text-transparent sm:text-5xl">
                 You Need to Decode:
               </p>
               <div className="flex justify-center md:justify-start">
-                <div className="relative max-w-md overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">
+                <div className="relative w-full max-w-md overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">
                   <img
                     src="/assets/opensourceProgram/GSOC.png"
                     alt="Google Summer of Code 2026"
@@ -538,7 +538,7 @@ export default function GsocPage() {
               </p>
             </div>
 
-            <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {proposals.map((entry) => (
                 <ProposalCard
                   key={`${entry.name}-${entry.organization}`}

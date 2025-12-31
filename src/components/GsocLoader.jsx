@@ -22,7 +22,13 @@ const GsocLoader = () => {
 
 const StyledWrapper = styled.div`
   /* Container to reserve space for the scaled element */
-  min-height: 240px;
+  min-height: 150px;
+  @media (min-width: 480px) {
+    min-height: 200px;
+  }
+  @media (min-width: 768px) {
+    min-height: 240px;
+  }
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,8 +48,11 @@ const StyledWrapper = styled.div`
     user-select: none;
     color: #fff;
 
-    scale: 2;
+    scale: 1.2;
 
+    @media (min-width: 480px) {
+      scale: 1.8;
+    }
     @media (min-width: 768px) {
       scale: 2.5;
     }
