@@ -82,10 +82,10 @@ const StyledWrapper = styled.div`
     height: 100%;
 
     background-image:
-      radial-gradient(circle at 50% 50%, #ff0 0%, transparent 50%),
-      radial-gradient(circle at 45% 45%, #f00 0%, transparent 45%),
+      radial-gradient(circle at 50% 50%, rgba(0, 174, 255, 1) 0%, transparent 50%),
+      radial-gradient(circle at 45% 45%, rgba(0, 225, 255, 1) 0%, transparent 45%),
       radial-gradient(circle at 55% 55%, #0ff 0%, transparent 45%),
-      radial-gradient(circle at 45% 55%, #0f0 0%, transparent 45%),
+      radial-gradient(circle at 45% 55%, rgba(255, 213, 0, 1) 0%, transparent 45%),
       radial-gradient(circle at 55% 45%, #00f 0%, transparent 45%);
     mask: radial-gradient(circle at 50% 50%, transparent 0%, transparent 10%, black 25%);
     animation:
