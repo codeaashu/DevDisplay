@@ -495,7 +495,7 @@ export default function GsocPage() {
           </div>
           <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-8 sm:gap-10 md:grid-cols-2 md:gap-32">
             <div className="space-y-4 text-center md:text-left">
-              <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-3xl font-semibold tracking-wide text-transparent sm:text-5xl">
+              <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-3xl font-semibold tracking-wide text-transparent sm:text-8xl">
                 Everything
               </p>
               <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-3xl font-semibold tracking-wide text-transparent sm:text-5xl">
