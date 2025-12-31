@@ -1,4 +1,5 @@
 import React from 'react';
+import GsocLoader from '../../../components/GsocLoader';
 
 const proposals = [
   {
@@ -394,23 +395,21 @@ export default function GsocPage() {
         </div>
         <div className="relative z-10 mx-auto grid max-w-6xl items-center gap-8 sm:gap-10 md:grid-cols-2 md:gap-12">
           <div className="space-y-4 text-center md:text-left">
-            <p className="text-base font-semibold tracking-wide text-slate-200 sm:text-lg">
+            <p className="text-xl font-semibold tracking-wide text-slate-200 sm:text-3xl">
               Everything You Need to Decode
             </p>
-            <h1 className="text-5xl font-black leading-tight text-white sm:text-6xl lg:text-7xl">
-              <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-                GSoC 2026
-              </span>
-            </h1>
+            <div className="flex justify-center md:justify-start">
+              <div className="relative overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">
+                <img
+                  src="/assets/opensourceProgram/GSOC.png"
+                  alt="Google Summer of Code 2026"
+                  className="h-auto w-full object-cover"
+                />
+              </div>
+            </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">
-            <img
-              src="/assets/opensourceProgram/GSOC.png"
-              alt="Google Summer of Code 2026"
-              className="h-auto w-full object-cover"
-            />
-          </div>
+          <GsocLoader />
         </div>
       </section>
 
