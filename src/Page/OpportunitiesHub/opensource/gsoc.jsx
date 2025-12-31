@@ -398,9 +398,11 @@ export default function GsocPage() {
             <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-xl font-semibold tracking-wide text-transparent sm:text-5xl">
               Everything
             </p>
-            <p className="text-xl font-semibold tracking-wide text-slate-200 sm:text-5xl">You Need to Decode</p>
+            <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-xl font-semibold tracking-wide text-transparent sm:text-5xl">
+              You Need to Decode:
+            </p>
             <div className="flex justify-center md:justify-start">
-              <div className="relative overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">
+              <div className="relative max-w-md overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">
                 <img
                   src="/assets/opensourceProgram/GSOC.png"
                   alt="Google Summer of Code 2026"
@@ -409,7 +411,6 @@ export default function GsocPage() {
               </div>
             </div>
           </div>
-
           <GsocLoader />
         </div>
       </section>
