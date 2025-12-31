@@ -395,7 +395,9 @@ export default function GsocPage() {
         </div>
         <div className="relative z-10 mx-auto grid max-w-6xl items-center gap-8 sm:gap-10 md:grid-cols-2 md:gap-12">
           <div className="space-y-4 text-center md:text-left">
-            <p className="text-xl font-semibold tracking-wide text-slate-200 sm:text-5xl">Everything</p>
+            <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-xl font-semibold tracking-wide text-transparent sm:text-5xl">
+              Everything
+            </p>
             <p className="text-xl font-semibold tracking-wide text-slate-200 sm:text-5xl">You Need to Decode</p>
             <div className="flex justify-center md:justify-start">
               <div className="relative overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">

@@ -11,12 +11,18 @@ module.exports = {
       },
       animation: {
         ['loop-scroll']: 'loop-scroll 50s linear infinite',
+        'text-gradient': 'text-gradient 1.5s linear infinite',
       },
       keyframes: {
         'loop-scroll': {
           from: { transform: 'translateX(0)' },
           to: {
             transform: 'translateX(-100%)',
+          },
+        },
+        'text-gradient': {
+          to: {
+            backgroundPosition: '200% center',
           },
         },
       },
