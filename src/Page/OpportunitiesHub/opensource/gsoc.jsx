@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import GsocLoader from '../../../components/GsocLoader';
 
@@ -7,11 +7,6 @@ const proposals = [
     name: 'Adesh Gupta',
     organization: 'Org - Graphite',
     proposal: 'https://docs.google.com/document/d/1VY8ccwwpNhQdqefwBJN4QS1NLHeWzrEgbiYAA9WBwqE/edit?usp=sharing',
-  },
-  {
-    name: 'Krishna Pandey',
-    organization: 'Org - LLVM Compiler Infrastructure',
-    proposal: 'https://docs.google.com/document/d/1ASLkruWPY0uojwcOJc571Qk8jsGORW4NzOGPwXL9FgQ/edit?usp=sharing',
   },
   {
     name: 'Ayush Chandekar',
@@ -185,16 +180,6 @@ const proposals = [
     proposal: 'https://docs.google.com/document/d/16xIbGHdqmJExXlksMso--rOecZ34j0-iVskw9gUK3P8/edit?usp=sharing',
   },
   {
-    name: 'Dhaval Kapil',
-    organization: 'Org - LabLua',
-    proposal: 'https://docs.google.com/document/d/1HlkBkoBnJJ8Mgrkl8YZAzJyh9Xl1QLxB7mP4_YPB-60/edit?usp=sharing',
-  },
-  {
-    name: 'Deepali Jain',
-    organization: 'Org - Wikimedia',
-    proposal: 'https://www.mediawiki.org/wiki/Book_management',
-  },
-  {
     name: 'Unknown',
     organization: 'Org - Chromium',
     proposal:
@@ -299,26 +284,319 @@ const StyledWrapper = styled.div`
 
 const ProposalCard = ({ name, organization, proposal }) => {
   return (
-    <div className="flex flex-col gap-4 rounded-2xl border border-slate-800 bg-slate-900/70 p-5 shadow-xl transition hover:-translate-y-1 hover:shadow-2xl">
-      <div className="space-y-1">
-        <p className="text-sm uppercase tracking-wide text-cyan-300">{organization}</p>
-        <h3 className="text-xl font-semibold text-white">{name}</h3>
-      </div>
-      <div className="flex flex-wrap gap-3 text-sm">
-        <a
-          href={proposal}
-          target="_blank"
-          rel="noreferrer"
-          className="rounded-full border border-cyan-400/50 px-3 py-1 text-cyan-100 transition hover:bg-cyan-500/10"
-        >
-          Proposal
-        </a>
-      </div>
-    </div>
+    <CardStyledWrapper>
+      <a href={proposal} target="_blank" rel="noreferrer" className="card-link">
+        <div className="card">
+          <div className="content">
+            <div className="back">
+              <div className="back-content">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50px"
+                  height="50px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#ffffff"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                <strong>Proposal</strong>
+              </div>
+            </div>
+            <div className="front">
+              <div className="img">
+                <div className="circle"></div>
+                <div className="circle" id="right"></div>
+                <div className="circle" id="bottom"></div>
+              </div>
+              <div className="front-content">
+                <small className="badge">Proposal Details</small>
+                <div className="middle">{organization}</div>
+                <div className="description">
+                  <div className="title">
+                    <p className="title">
+                      <strong>{name}</strong>
+                    </p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="15"
+                      height="15"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#20c997"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                      <polyline points="15 3 21 3 21 9" />
+                      <line x1="10" y1="14" x2="21" y2="3" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </CardStyledWrapper>
   );
 };
 
+const StyledLink = styled.a`
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(34, 211, 238, 0.3);
+  color: #cffafe;
+  font-weight: 600;
+  text-decoration: none;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(34, 211, 238, 0.1);
+  font-size: 0.9rem;
+
+  @media (min-width: 640px) {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    border-color: rgba(34, 211, 238, 0.8);
+    box-shadow: 0 0 20px rgba(34, 211, 238, 0.4);
+    background: rgba(15, 23, 42, 0.8);
+    color: #fff;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shine {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: 0.5s;
+  }
+
+  &:hover .shine {
+    left: 100%;
+    transition: 0.5s;
+  }
+`;
+
+const CardStyledWrapper = styled.div`
+  .card {
+    overflow: visible;
+    width: 100%;
+    height: 320px;
+    perspective: 1000px;
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms;
+    box-shadow: 0px 0px 10px 1px #000000ee;
+    border-radius: 5px;
+  }
+
+  .front,
+  .back {
+    background-color: #151515;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .back {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .back::before {
+    position: absolute;
+    content: ' ';
+    display: block;
+    width: 160px;
+    height: 160%;
+    background: linear-gradient(90deg, transparent, #66e3ffff, #66e3ffff, #66e3ffff, #66e3ffff, transparent);
+    animation: rotation_481 5000ms infinite linear;
+  }
+
+  .back-content {
+    position: absolute;
+    width: 99%;
+    height: 99%;
+    background-color: #151515;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .card:hover .content {
+    transform: rotateY(180deg);
+  }
+
+  @keyframes rotation_481 {
+    0% {
+      transform: rotateZ(0deg);
+    }
+
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+
+  .front {
+    transform: rotateY(180deg);
+    color: white;
+  }
+
+  .front .front-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .front-content .badge {
+    background-color: #00000055;
+    padding: 2px 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    width: fit-content;
+  }
+
+  .front-content .middle {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: #e2e8f0;
+  }
+
+  .description {
+    box-shadow: 0px 0px 10px 5px #00000088;
+    width: 100%;
+    padding: 10px;
+    background-color: #00000099;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+  }
+
+  .title {
+    font-size: 11px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title p {
+    width: 50%;
+  }
+
+  .card-footer {
+    color: #ffffff88;
+    margin-top: 5px;
+    font-size: 8px;
+  }
+
+  .front .img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #66e0ffff;
+    position: relative;
+    filter: blur(15px);
+    animation: floating 2600ms infinite linear;
+  }
+
+  #bottom {
+    background-color: #66b0ffff;
+    left: 50px;
+    top: 0px;
+    width: 150px;
+    height: 150px;
+    animation-delay: -800ms;
+  }
+
+  #right {
+    background-color: #ffa322ff;
+    left: 160px;
+    top: -80px;
+    width: 30px;
+    height: 30px;
+    animation-delay: -1800ms;
+  }
+
+  @keyframes floating {
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(10px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
+`;
+
 export default function GsocPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="relative min-h-screen w-full">
       <div className="fixed inset-0 z-0">
@@ -339,10 +617,10 @@ export default function GsocPage() {
           </div>
           <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-8 sm:gap-10 md:grid-cols-2 md:gap-32">
             <div className="space-y-4 text-center md:text-left">
-              <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-3xl font-semibold tracking-wide text-transparent sm:text-8xl">
+              <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-4xl font-semibold tracking-wide text-transparent sm:text-6xl md:text-8xl">
                 Everything
               </p>
-              <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-3xl font-semibold tracking-wide text-transparent sm:text-5xl">
+              <p className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text pb-2 text-2xl font-semibold tracking-wide text-transparent sm:text-4xl md:text-5xl">
                 You Need to Decode:
               </p>
               <div className="flex justify-center md:justify-start">
@@ -360,45 +638,88 @@ export default function GsocPage() {
         </section>
 
         <section className="px-4 py-8 sm:px-6 sm:py-10 md:py-12">
-          <div className="mx-auto flex max-w-5xl flex-col gap-4 sm:gap-6">
-            <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/80 shadow-xl">
-              <div className="px-6 py-5 text-center">
-                <a
-                  href="https://www.gsocorganizations.dev/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center justify-center rounded-full bg-cyan-500/20 px-4 py-2 text-base font-semibold text-cyan-100 transition hover:bg-cyan-500/30"
-                >
-                  List of GSoC Organizations
-                </a>
-                <a
-                  href="https://summerofcode.withgoogle.com/programs/2026"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center justify-center rounded-full bg-cyan-500/20 px-4 py-2 text-base font-semibold text-cyan-100 transition hover:bg-cyan-500/30"
-                >
-                  GSoC 2026 Timeline
-                </a>
-                <a
-                  href="https://github.com/codeaashu/GSOC-The-Beginners-Guide"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center justify-center rounded-full bg-cyan-500/20 px-4 py-2 text-base font-semibold text-cyan-100 transition hover:bg-cyan-500/30"
-                >
-                  The Beginners Guide to GSoC
-                </a>
-              </div>
+          <div className="mx-auto flex max-w-[95%] flex-col gap-4 sm:gap-6">
+            <div className="flex flex-wrap justify-center gap-8 py-6">
+              <StyledLink href="https://github.com/codeaashu/GSOC-The-Beginners-Guide" target="_blank" rel="noreferrer">
+                <span className="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                  </svg>
+                </span>
+                <span>The Beginners Guide to GSoC</span>
+                <div className="shine"></div>
+              </StyledLink>
+
+              <StyledLink href="https://summerofcode.withgoogle.com/programs/2026" target="_blank" rel="noreferrer">
+                <span className="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                </span>
+                <span>GSoC 2026 Timeline</span>
+                <div className="shine"></div>
+              </StyledLink>
+
+              <StyledLink href="https://www.gsocorganizations.dev/" target="_blank" rel="noreferrer">
+                <span className="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <line x1="8" y1="6" x2="21" y2="6"></line>
+                    <line x1="8" y1="12" x2="21" y2="12"></line>
+                    <line x1="8" y1="18" x2="21" y2="18"></line>
+                    <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                    <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                    <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                  </svg>
+                </span>
+                <span>List of GSoC Organizations</span>
+                <div className="shine"></div>
+              </StyledLink>
             </div>
 
-            <div className="space-y-2 sm:space-y-3">
-              <h2 className="text-xl font-bold sm:text-2xl">Participant Proposals</h2>
-              <p className="text-sm text-slate-300 sm:text-base">
-                Explore the mentors, orgs, and proposals alumni have worked on. Tap any card to view their project and
-                proposal.
+            <div className="space-y-4 text-center sm:space-y-6">
+              <h2 className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text text-4xl font-extrabold tracking-tight text-transparent sm:text-5xl md:text-6xl">
+                Selected Participant Proposals
+              </h2>
+              <p className="mx-auto max-w-2xl text-base text-slate-300 sm:text-lg">
+                Explore the selected proposals of GSoC alumni. Tap any card to view their project and proposal.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {proposals.map((entry) => (
                 <ProposalCard
                   key={`${entry.name}-${entry.organization}`}
@@ -408,6 +729,45 @@ export default function GsocPage() {
                   proposal={entry.proposal}
                 />
               ))}
+            </div>
+            <br />
+
+            <div className="space-y-8 text-center sm:space-y-8">
+              <h2 className="animate-text-gradient bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text text-4xl font-extrabold tracking-tight text-transparent sm:text-5xl md:text-6xl">
+                Make Your First Open Source Contribution!
+              </h2>
+              <p className="mx-auto max-w-3xl text-base text-lg font-bold text-slate-300">
+                Create your Developer profile through open source contribution on DevDisplay.
+              </p>
+              <div className="flex flex-col items-center justify-center gap-8 rounded-xl border border-slate-600 bg-transparent p-6 md:p-10">
+                <img
+                  src="https://www.devdisplay.org/DDColorLOGO.png"
+                  alt="DevDisplay Logo"
+                  className="h-12 w-auto md:h-20"
+                />
+                <StyledLink href="https://www.devdisplay.org/" target="_blank" rel="noreferrer">
+                  <span className="icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="8.5" cy="7" r="4"></circle>
+                      <line x1="20" y1="8" x2="20" y2="14"></line>
+                      <line x1="23" y1="11" x2="17" y2="11"></line>
+                    </svg>
+                  </span>
+                  <span className="uppercase tracking-wider">Add Your Profile</span>
+                  <div className="shine"></div>
+                </StyledLink>
+              </div>
             </div>
           </div>
         </section>
