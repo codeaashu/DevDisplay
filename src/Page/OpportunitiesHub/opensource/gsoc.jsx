@@ -715,7 +715,7 @@ export default function GsocPage() {
                 Selected Participant Proposals
               </h2>
               <p className="mx-auto max-w-2xl text-base text-slate-300 sm:text-lg">
-                Explore the selected proposals of GSoC alumni. Tap any card to view their project and proposal.
+                Explore the selected proposals of GSoC alumni. Tap any card to view their proposal.
               </p>
             </div>
 
