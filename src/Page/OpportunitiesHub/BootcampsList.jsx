@@ -21,29 +21,29 @@ const shareContent = (url, organizer, title) => {
 // List of Global Tech Bootcamps
 
 const bootcamp = [
-  {
-    organizer: 'Freecodecamp',
-    title: 'JavaScript Algorithms and DS',
-    duration: '4 Weeks',
-    level: 'Intermediate',
-    skills: ['JavaScript', 'Algorithms', 'Data Structures'],
-    referralCode: 'devdisplay',
-    ApplyLink: 'https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/',
-    poster: '/assets/Certifications/JavaScript Algorithms and DS.png',
-    shareLink: '#javascript-algorithms-ds',
-  },
+  // {
+  //   organizer: 'Freecodecamp',
+  //   title: 'JavaScript Algorithms and DS',
+  //   duration: '4 Weeks',
+  //   level: 'Intermediate',
+  //   skills: ['JavaScript', 'Algorithms', 'Data Structures'],
+  //   referralCode: 'devdisplay',
+  //   ApplyLink: 'https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/',
+  //   poster: '/assets/Certifications/JavaScript Algorithms and DS.png',
+  //   shareLink: '#javascript-algorithms-ds',
+  // },
 
-  {
-    organizer: 'HubSpot Academy',
-    title: 'CRM Customization Bootcamp for Developers',
-    duration: '6 Weeks',
-    level: 'Intermediate',
-    skills: ['HubSpot API', 'React-based custom cards'],
-    applyLink:
-      'https://events.academy.hubspot.com/events/details/hubspot-academy-crm-customization-bootcamp-for-developers-spring-2025-presents-crm-customization-bootcamp-for-developers-spring-2025-2025-05-07/',
-    poster: '/assets/Bootcamps/CRM Customization Bootcamp for Developers Spring 2025.png',
-    shareLink: '#crm-customization-bootcamp-for-developers',
-  },
+  // {
+  //   organizer: 'HubSpot Academy',
+  //   title: 'CRM Customization Bootcamp for Developers',
+  //   duration: '6 Weeks',
+  //   level: 'Intermediate',
+  //   skills: ['HubSpot API', 'React-based custom cards'],
+  //   applyLink:
+  //     'https://events.academy.hubspot.com/events/details/hubspot-academy-crm-customization-bootcamp-for-developers-spring-2025-presents-crm-customization-bootcamp-for-developers-spring-2025-2025-05-07/',
+  //   poster: '/assets/Bootcamps/CRM Customization Bootcamp for Developers Spring 2025.png',
+  //   shareLink: '#crm-customization-bootcamp-for-developers',
+  // },
   {
     organizer: 'HubSpot Academy',
     title: 'Account-Based Marketing Bootcamp',
