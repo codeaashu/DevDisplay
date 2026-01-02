@@ -32,7 +32,6 @@ const bootcamp = [
   //   poster: '/assets/Certifications/JavaScript Algorithms and DS.png',
   //   shareLink: '#javascript-algorithms-ds',
   // },
-
   // {
   //   organizer: 'HubSpot Academy',
   //   title: 'CRM Customization Bootcamp for Developers',
@@ -44,17 +43,17 @@ const bootcamp = [
   //   poster: '/assets/Bootcamps/CRM Customization Bootcamp for Developers Spring 2025.png',
   //   shareLink: '#crm-customization-bootcamp-for-developers',
   // },
-  {
-    organizer: 'HubSpot Academy',
-    title: 'Account-Based Marketing Bootcamp',
-    duration: '6 Weeks',
-    level: 'Intermediate',
-    skills: ['Sales & Marketing', 'ABM dashboards'],
-    applyLink:
-      'https://events.academy.hubspot.com/events/details/hubspot-academy-account-based-marketing-bootcamp-spring-2025-presents-account-based-marketing-bootcamp-spring-2025-2025-05-06/',
-    poster: '/assets/Bootcamps/Account-Based Marketing Bootcamp Spring 2025.png',
-    shareLink: '#account-based-marketing-bootcamp',
-  },
+  // {
+  //   organizer: 'HubSpot Academy',
+  //   title: 'Account-Based Marketing Bootcamp',
+  //   duration: '6 Weeks',
+  //   level: 'Intermediate',
+  //   skills: ['Sales & Marketing', 'ABM dashboards'],
+  //   applyLink:
+  //     'https://events.academy.hubspot.com/events/details/hubspot-academy-account-based-marketing-bootcamp-spring-2025-presents-account-based-marketing-bootcamp-spring-2025-2025-05-06/',
+  //   poster: '/assets/Bootcamps/Account-Based Marketing Bootcamp Spring 2025.png',
+  //   shareLink: '#account-based-marketing-bootcamp',
+  // },
   // {
   //   organizer: 'HubSpot Academy',
   //   title: 'Video Bootcamp for Marketing, Sales, and Service',
