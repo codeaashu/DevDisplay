@@ -72,7 +72,7 @@ const Footer = () => {
               <i className="fab fa-linkedin-in"></i>
             </a>
             <a
-              href="https://x.com/devdisplay_"
+              href="https://x.com/DevDisplayOrg"
               target="_blank"
               rel="noopener noreferrer"
               className="transform text-3xl transition-transform hover:scale-110 hover:text-[#00a6fb]"
