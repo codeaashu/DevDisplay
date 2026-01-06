@@ -271,7 +271,7 @@ const Connect = () => (
         <a href="https://www.linkedin.com/company/devdisplay/" className="block text-sm text-neutral-400">
           LinkedIn
         </a>
-        <a href="https://twitter.com/devdisplay_" className="block text-sm text-neutral-400">
+        <a href="https://twitter.com/DevDisplayOrg" className="block text-sm text-neutral-400">
           Twitter
         </a>
         <a href="https://instagram.com/devdisplay" className="block text-sm text-neutral-400">
