@@ -87,7 +87,7 @@ function App() {
         <meta name="twitter:title" content="DevDisplay - Paradise for developers" />
         <meta name="twitter:description" content="Connect, Collab, Code, Create, Conquer" />
         <meta name="twitter:image" content="https://www.devdisplay.org/twitter-image.jpg" />
-        <meta name="twitter:site" content="@devdisplay_" />
+        <meta name="twitter:site" content="@DevDisplayOrg" />
 
         <meta name="robots" content="index, follow" />
 
