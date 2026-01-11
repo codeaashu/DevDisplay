@@ -1,0 +1,15 @@
+{
+  "name": "Ananya V Hegde",
+  "location": "Bengaluru",
+  "bio": "Hi, I'm a Web Developer skilled in MERN Stack ✦ I’m passionate about creating innovative solutions ✦ Tech is my thing ✦ UX/UI Nerd.",
+  "avatar": "https://github.com/Ananya-Hegde2001.png",
+  "portfolio": "https://ananyavhegde.vercel.app",
+  "skills": ["JavaScript", "Reactjs", "Nodejs"],
+  "social": {
+    "GitHub": "https://github.com/Ananya-Hegde2001",
+    "Twitter": "https://x.com/HegdeAnany49037",
+    "LinkedIn": "https://www.linkedin.com/in/ananyahegde-",
+    "Email": "ananyavhegde2001@gmail.com",
+    "Medium": "https://medium.com/@ananyavhegde2001",
+  }
+}
