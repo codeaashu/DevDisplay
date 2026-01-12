@@ -4,7 +4,19 @@
   "bio": "Hi, I'm a Web Developer skilled in MERN Stack ✦ I’m passionate about creating innovative solutions ✦ Tech is my thing ✦ UX/UI Nerd.",
   "avatar": "https://github.com/Ananya-Hegde2001.png",
   "portfolio": "https://ananyavhegde.vercel.app",
-  "skills": ["JavaScript", "Reactjs", "Nodejs"],
+  "skills": [
+    "JavaScript",
+    "Reactjs",
+    "Nodejs",
+    "Expressjs",
+    "MongoDB",
+    "HTML",
+    "CSS",
+    "MERN Stack",
+    "Web Development",
+    "Git",
+    "GitHub"
+  ],
   "social": {
     "GitHub": "https://github.com/Ananya-Hegde2001",
     "Twitter": "https://x.com/HegdeAnany49037",
