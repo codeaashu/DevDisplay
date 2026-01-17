@@ -38,7 +38,7 @@
   },
   "scripts": {
     "start": "NODE_OPTIONS=--localstorage-file=.node-localstorage react-scripts start",
-    "build": "NODE_OPTIONS=--localstorage-file=.node-localstorage react-scripts build",
+    "build": "CI=false NODE_OPTIONS=--localstorage-file=.node-localstorage react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prettier": "prettier --write \"**/*\"",
