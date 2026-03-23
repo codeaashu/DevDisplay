@@ -1,0 +1,24 @@
+{
+  "name": "Swati Chaudhari",
+  "location": "Maharashtra, India",
+  "bio": "Engineering student pursuing Computer Science",
+  "avatar": "https://github.com/ChaudhariSwati.png",
+  "portfolio": "https://github.com/ChaudhariSwati",
+  "skills": [
+    "JavaScript",
+    "C++",
+    "HTML",
+    "CSS",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub",
+    "DSA",
+    "Problem Solving"
+  ],
+  "social": {
+    "GitHub": "https://github.com/ChaudhariSwati",
+    "LinkedIn": "https://www.linkedin.com/in/swati-chaudhari-5w-a-t/",
+    "Email": "swatidchaudhary17@gmail.com"
+  }
+}
