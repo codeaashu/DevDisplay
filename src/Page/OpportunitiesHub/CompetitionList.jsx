@@ -21,17 +21,17 @@ const shareContent = (url) => {
 // List of Global Competitions
 
 const Competitions = [
-  {
-    organizer: 'Google',
-    title: 'GEN AI Exchange Program',
-    location: 'Online',
-    date: 'Aug 28',
-    domains: ['Open Innovation', 'real-world challenges', 'Google Cloud', 'Generative AI', 'Google AI'],
-    applyLink:
-      'https://vision.hack2skill.com/event/genaiexchange/?utm_source=hack2skill&utm_medium=teamdashboard&utm_term=referral-1&utm_campaign=genaiexchange&utm_content=673a30cde4555f1991506e5f',
-    poster: '/assets/Hackathons/GEN AI Exchange Program.jpg',
-    shareLink: '#gen-ai-exchange-program',
-  },
+  // {
+  //   organizer: 'Google',
+  //   title: 'GEN AI Exchange Program',
+  //   location: 'Online',
+  //   date: 'Aug 28',
+  //   domains: ['Open Innovation', 'real-world challenges', 'Google Cloud', 'Generative AI', 'Google AI'],
+  //   applyLink:
+  //     'https://vision.hack2skill.com/event/genaiexchange/?utm_source=hack2skill&utm_medium=teamdashboard&utm_term=referral-1&utm_campaign=genaiexchange&utm_content=673a30cde4555f1991506e5f',
+  //   poster: '/assets/Hackathons/GEN AI Exchange Program.jpg',
+  //   shareLink: '#gen-ai-exchange-program',
+  // },
 ];
 
 const StyledCompetitionsCard = styled.div`

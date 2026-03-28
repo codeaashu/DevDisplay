@@ -58,7 +58,7 @@ The following behaviors are unacceptable in the DevDisplay community:
 - **Connect on Social Media**:
   - **GitHub Organization**: https://github.com/devdisplay
   - **LinkedIn**: https://www.linkedin.com/company/devdisplay/
-  - **Twitter**: https://x.com/devdisplay_
+  - **Twitter**: https://x.com/DevDisplayOrg
   - **Instagram**: https://www.instagram.com/devdisplay/
 
 ---

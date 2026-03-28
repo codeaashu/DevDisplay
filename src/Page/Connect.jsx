@@ -1219,7 +1219,7 @@ const Connect = () => {
       id: 'twitter',
       name: 'Twitter',
       description: 'Follow us on Twitter',
-      url: 'https://twitter.com/devdisplay_',
+      url: 'https://twitter.com/DevDisplayOrg',
       icon: <SiX />,
       bgColor: '#000000',
       iconColor: '#fff',

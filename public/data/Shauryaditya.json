@@ -1,0 +1,31 @@
+{
+  "name": "Shauryaditya Bardhan",
+  "location": "West Bengal, Kolkata",
+  "bio": "Enthusiastic web developer with knowledge in various domains ",
+  "avatar": "https://github.com/Shauryaditya.png",
+  "portfolio": "https://shauryaditya.vercel.app",
+  "skills": [
+    "Mysql",
+    "HTML",
+    "CSS",
+    "Javascript",
+    "MERN",
+    "ReactJS",
+    "NodeJS",
+    "Express",
+    "MongoDB",
+    "GraphQL",
+    "Database",
+    "Web Development",
+    "Frontend",
+    "Git",
+    "GitHub"
+  ],
+  "social": {
+    "GitHub": "https://github.com/Shauryaditya",
+    "Twitter": "https://x.com/ShauryadityaB",
+    "LinkedIn": "https://www.linkedin.com/in/shauryaditya-bardhan/",
+    "Instagram": "https://www.instagram.com/shaurya_2105",
+    "Email": "shauryadityab@gmail.com"
+  }
+}

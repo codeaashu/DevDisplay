@@ -234,8 +234,8 @@ const Contribution = () => {
             </li>
             <li>
               <strong>Twitter:</strong>{' '}
-              <a href="https://twitter.com/devdisplay_" className="text-[#00a6fb] underline">
-                https://twitter.com/devdisplay_
+              <a href="https://x.com/DevDisplayOrg" className="text-[#00a6fb] underline">
+                https://x.com/DevDisplayOrg
               </a>
             </li>
             <li>
