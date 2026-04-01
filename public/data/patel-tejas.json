@@ -1,0 +1,36 @@
+{
+  "name": "Tejas Patel",
+  "location": "Ahmedabad, Gujarat, India",
+  "bio": "Full stack developer passionate about building scalable web apps, AI-powered products, and exploring finance, trading, and modern technologies like Web3 and machine learning.",
+  "avatar": "https://github.com/your-github-username.png",
+  "portfolio": "https://tejaspatel.vercel.app",
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Prisma",
+    "Firebase",
+    "Redux",
+    "Zustand",
+    "Recoil",
+    "Python",
+    "Java",
+    "AI/ML",
+    "Web3",
+    "REST APIs",
+    "System Design",
+    "CI/CD",
+    "AWS"
+  ],
+  "social": {
+    "GitHub": "https://github.com/patel-tejas",
+    "Twitter": "https://x.com/tejaspatel1532",
+    "LinkedIn": "https://www.linkedin.com/in/pateltejas2005/",
+    "Instagram": "https://www.instagram.com/_me.tez_/",
+    "Email": "techtezofficial@gmail.com",
+  }
+}
