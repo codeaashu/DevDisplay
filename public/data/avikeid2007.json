@@ -1,0 +1,24 @@
+{
+  "name": "Avnish Kumar",
+  "location": "Ghaziabad, India",
+  "bio": "Software builder focused on .NET, WinUI, and full-stack development. Passionate about creating practical tools, local AI solutions, and scalable enterprise applications.",
+  "avatar": "https://github.com/avikeid2007.png",
+  "portfolio": "https://avnishkumar.co.in/",
+  "skills": [
+    "C#",
+    "WinUI",
+    "UWP",
+    "Uno Platform",
+    ".NET",
+    "ASP.NET Core",
+    "Azure",
+    "REST APIs",
+    "AI Integration"
+  ],
+  "social": {
+    "GitHub": "https://github.com/avikeid2007",
+    "Twitter": "https://twitter.com/avikeid2007",
+    "LinkedIn": "https://www.linkedin.com/in/avnishkumar1",
+    "StackOverflow": "https://stackoverflow.com/users/7550820/avnish-kumar"
+  }
+}
