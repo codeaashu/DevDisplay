@@ -37,8 +37,8 @@
     "yocto-queue": "^1.2.0"
   },
   "scripts": {
-    "start": "NODE_OPTIONS=--localstorage-file=.node-localstorage react-scripts start",
-    "build": "CI=false NODE_OPTIONS=--localstorage-file=.node-localstorage react-scripts build",
+    "start": "react-scripts start",
+    "build": "cross-env CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prettier": "prettier --write \"**/*\"",
@@ -68,6 +68,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
     "flag": "^5.0.1",
     "husky": "^9.1.7",
     "json-loader": "^0.5.7",
