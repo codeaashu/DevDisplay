@@ -4,10 +4,18 @@
   "bio": "Full Stack Developer & AI Builder. Creating AI-powered tools and open-source projects like llm-eval.",
   "avatar": "https://github.com/ashish7802.png",
   "portfolio": "https://ashyada.netlify.app",
-  "skills": ["Python", "FastAPI", "React", "Node.js", "MongoDB", "JavaScript", "AI/LLM APIs"],
+  "skills": [
+    "Python",
+    "FastAPI",
+    "React",
+    "Node.js",
+    "MongoDB",
+    "JavaScript",
+    "AI/LLM APIs"
+  ],
   "social": {
-    "GitHub": "https://github.com/ashish7802",
-    "LinkedIn": "https://www.linkedin.com/in/ashish-yadav-ab206124a",
-    "Email": "ashishyadav4818@gmail.com"
+    "gitHub": "https://github.com/ashish7802",
+    "linkedIn": "https://www.linkedin.com/in/ashish-yadav-ab206124a",
+    "email": "ashishyadav4818@gmail.com"
   }
 }
