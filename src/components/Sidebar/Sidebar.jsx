@@ -25,7 +25,7 @@ function Sidebar() {
   // }
 
   function handleHome() {
-    navigate('/v3');
+    navigate('/Home');
   }
 
   // function handleAboutUs() {

@@ -6,7 +6,7 @@ import { Analytics } from '@vercel/analytics/react';
 import Homepage from './Homepage';
 // Introducing DevDisplay
 // import home from './page/Home.jsx';
-import V3Page from './Page/V3Page.jsx';
+import Home from './Page/Home.jsx';
 // NavBar Pages
 import About from './Page/About.jsx';
 import Connect from './Page/Connect.jsx';
@@ -108,7 +108,7 @@ function App() {
         <Route index element={<Homepage />} />
         {/* Introducing DevDisplay */}
         {/* <Route path="/Home" element={<Home />} /> */}
-        <Route path="/v3" element={<V3Page />} />
+        <Route path="/Home" element={<Home />} />
         {/* NavBar Pages */}
         <Route path="/About" element={<About />} />
         <Route path="/Connect" element={<Connect />} />
