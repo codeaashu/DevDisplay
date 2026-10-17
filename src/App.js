@@ -99,7 +99,7 @@ function App() {
 
         <meta name="theme-color" content="#317EFB" />
 
-        <meta name="author" content="Ashutosh Singh" />
+        <meta name="author" content="aashuu" />
 
         <meta property="og:locale" content="en_US" />
       </Helmet>

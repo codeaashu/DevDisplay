@@ -1162,7 +1162,7 @@ const DeveloperCard = () => {
           <img src="/CREATOR.jpg" alt="Developer" className="h-20 w-20 rounded-full object-cover" />
           <div>
             <h2 className="flex items-center text-xl font-bold">
-              Ashutosh Singh <FaCheckCircle className="ml-2 text-blue-400" />
+              aashuu <FaCheckCircle className="ml-2 text-blue-400" />
             </h2>
             <p className="flex items-center gap-2 text-sm text-gray-300">
               <FaMapMarkerAlt className="text-blue-400" /> Mostly On DevDisplay

@@ -92,7 +92,7 @@ function Search({ onSearch }) {
               <div className="username">Dev Pioneer</div>
               <div className="lable-message">
                 Add Your Profile
-                <FaCheckCircle className="ml-2 rounded-full border-[1px] border-[#0ea5e9] p-0.5 text-xl text-[#0ea5e9]" />
+                <FaCheckCircle className="ml-1.5 rounded-full border-[1px] border-[#0ea5e9] text-[#0ea5e9]" />
               </div>
               <div className="user-id">@devpioneer</div>
             </div>
@@ -155,18 +155,19 @@ const StyledWrapper = styled.div`
   font-family: 'Merriweather Sans', sans-serif;
 
   display: flex;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  gap: 14px;
+  gap: 10px;
   height: 100%;
 
   .developers-count {
     display: flex;
     align-items: center;
-    gap: 8px;
-    height: 40px;
-    padding: 6px 16px;
-    font-size: 16px;
+    gap: 6px;
+    height: 34px;
+    padding: 5px 12px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--text-color, rgb(24, 186, 255));
     background-color: rgba(20, 29, 47, 1);
@@ -181,7 +182,7 @@ const StyledWrapper = styled.div`
   }
 
   .developers-count-icon {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   #btn-message {
@@ -190,7 +191,7 @@ const StyledWrapper = styled.div`
     --bg-color: rgba(20, 29, 47, 1);
     --bg-hover-color: rgba(20, 29, 47, 1);
     --online-status: rgb(24, 186, 255);
-    --font-size: 16px;
+    --font-size: 14px;
     --btn-transition: all 0.2s ease-out;
   }
 
@@ -209,9 +210,9 @@ const StyledWrapper = styled.div`
     background-color: var(--bg-color);
     border-radius: 68px;
     cursor: pointer;
-    padding: 6px 10px 6px 6px;
+    padding: 5px 10px 5px 5px;
     width: fit-content;
-    height: 40px;
+    height: 34px;
     border: 1px solid rgb(24, 186, 255); /* Thin border */
     overflow: hidden;
     position: relative;
@@ -219,8 +220,8 @@ const StyledWrapper = styled.div`
   }
 
   .button-message:hover {
-    height: 56px;
-    padding: 8px 20px 8px 8px;
+    height: 48px;
+    padding: 7px 16px 7px 7px;
     background-color: var(--bg-hover-color);
     transition: var(--btn-transition);
   }
@@ -230,16 +231,16 @@ const StyledWrapper = styled.div`
   }
 
   .content-avatar {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     margin: 0;
     transition: var(--btn-transition);
     position: relative;
   }
 
   .button-message:hover .content-avatar {
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
   }
 
   .avatar {
@@ -310,6 +311,7 @@ const StyledWrapper = styled.div`
     opacity: 1;
     transform: scaleY(1);
     transition: var(--btn-transition);
+    white-space: nowrap;
   }
 
   .button-message:hover .username {
@@ -350,6 +352,36 @@ const StyledWrapper = styled.div`
     height: 16px;
     background-color: var(--bg-color-sup);
     border-radius: 20px;
+  }
+
+  /*==============================================*/
+  @media (max-width: 640px) {
+    gap: 8px;
+
+    #btn-message {
+      --font-size: 11px;
+    }
+
+    .button-message {
+      height: 30px;
+      padding: 4px 8px 4px 4px;
+    }
+
+    .content-avatar {
+      width: 20px;
+      height: 20px;
+    }
+
+    .developers-count {
+      height: 30px;
+      padding: 4px 10px;
+      font-size: 11px;
+      gap: 5px;
+    }
+
+    .developers-count-icon {
+      font-size: 10px;
+    }
   }
 
   /*==============================================*/
