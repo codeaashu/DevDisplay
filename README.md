@@ -2,7 +2,10 @@
 
 <!-- [![Enable GitHub Dark Mode for best view →](https://img.shields.io/badge/Enable%20GitHub%20Dark%20Mode%20For%20Best%20View-Click%20Here-blue?style=for-the-badge&logo=github#gh-light-mode-only)](https://github.com/settings/appearance) -->
 
-Backed by **[2C Labs](https://www.2clabs.tech/)** <img width="14" height="24" alt="tryscribe" src="./public/2CLabs.png" /> Creation Company
+<img width="14" height="24" alt="tryscribe" src="./public/2CLabs.png" /><br>
+Backed by **[2C Labs](https://www.2clabs.tech/)** - Creation Company
+
+---
 
 <!-- <table align="center">
      <thead align="center">
@@ -32,8 +35,6 @@ Backed by **[2C Labs](https://www.2clabs.tech/)** <img width="14" height="24" al
 <!-- <a href="https://www.devdisplay.org/"><img src="./public/assets/DevDisplayLOGO/NameTagline.png" width="300px" /></a><br> -->
 
 <a href="https://www.devdisplay.org/"><img src="./public/DDColorLOGO.png" width="500px" /></a><br>
-
-The First Display for Developers.
 
 `Global Open Source Platform for Developers to Showcase Their Skills Through Open Source.`<br>
 
