@@ -136,7 +136,7 @@ Backed by **[2C Labs](https://www.2clabs.tech/)** - Creation Company
 
 <div align="center">
 <img align="center" src="./public/star.png" width="150px" />
-  <h1>Connect with DevDisplay Organization <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Raising%20Hands.webp" alt="Raising Hands" width="25" height="25" /></h1>
+  <h1>Connect with 2C Labs<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Raising%20Hands.webp" alt="Raising Hands" width="25" height="25" /></h1>
 </div>
 <table align="center">
      <thead>
@@ -152,11 +152,11 @@ Backed by **[2C Labs](https://www.2clabs.tech/)** - Creation Company
      <tbody align="center">
         <tr border: 2px;>
             <td><b><a href="https://github.com/2clabshq"> GitHub </a></b></td>
-            <td><b><a href="https://discord.gg/chyt2UgTv5"> Discord </a></b></td>
+            <!-- <td><b><a href="https://discord.gg/chyt2UgTv5"> Discord </a></b></td> -->
           <!--  <td><b><a href="https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4"> WA </a></b></td> -->
-            <td><b><a href="https://www.linkedin.com/company/devdisplay/"> Linkedin </a></b></td>
-            <td><b><a href="https://x.com/DevDisplayOrg"> Twitter </a></b></td>
-            <td><b><a href="https://www.instagram.com/devdisplay/"> Insta. </a></b></td>
+            <td><b><a href="https://www.linkedin.com/company/2clabshq/"> Linkedin </a></b></td>
+            <td><b><a href="https://x.com/2clabs"> Twitter </a></b></td>
+            <td><b><a href="https://www.instagram.com/2clabs/"> Insta. </a></b></td>
         </tr>
      </tbody>
 </table></div>
