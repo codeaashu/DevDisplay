@@ -137,7 +137,7 @@ function Sidebar() {
         <button className="button" onClick={handleHome}>
           <div className="blob1" />
           <div className="blob2" />
-          <div className="inner">DevDisplay v3.0</div>
+          <div className="inner">Developer </div>
         </button>
       </StyledWrapper>
     </div>
