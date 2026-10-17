@@ -34,7 +34,7 @@
 The First Display for Developers.<br>
 <a href="https://www.devdisplay.org/"><img src="./public/DDColorLOGO.png" width="500px" /></a><br>
 
-`The First Global Platform for Developers to Fulfill All Their Tech Needs.`<br>
+`Global Open Source Platform for Developers to Showcase Their Skills Through Open Source.`<br>
 
 <h2 align="center"> Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer </h2>
 
