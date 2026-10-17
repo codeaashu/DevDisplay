@@ -142,7 +142,7 @@ Backed by **[2C Labs](https://www.2clabs.tech/)** - Creation Company
      <thead>
          <tr>
             <td><img src="./public/assets/SocialLogo/GitHub.png" alt="GitHub Logo" width="50"></td>
-            <td><img src="./public/assets/SocialLogo/Discord.png" alt="Discord Logo" width="50"></td>
+            <!-- <td><img src="./public/assets/SocialLogo/Discord.png" alt="Discord Logo" width="50"></td> -->
            <!-- <td><img src="./public/assets/SocialLogo/WhatsApp.png" alt="WhatsApp Logo" width="50"></td> -->
             <td><img src="./public/assets/SocialLogo/Linkedin.webp" alt="Linkedin Logo" width="50"></td>
             <td><img src="./public/assets/SocialLogo/X.png" alt="Twitter Logo" width="50"></td>
