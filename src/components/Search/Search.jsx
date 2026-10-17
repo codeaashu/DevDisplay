@@ -4,7 +4,10 @@ import useDebounce from '../../hooks/useDebouncer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faXmark, faMicrophone } from '@fortawesome/free-solid-svg-icons';
 import VoiceSearch from './VoiceSearch';
-import { FaCheckCircle } from 'react-icons/fa';
+import { FaCheckCircle, FaUsers } from 'react-icons/fa';
+import filenames from '../../ProfilesList.json';
+
+const totalDevelopers = filenames.length;
 
 function Search({ onSearch }) {
   const [searchValue, setSearchValue] = useState('');
@@ -95,6 +98,10 @@ function Search({ onSearch }) {
             </div>
           </button>
         </a>
+        <div className="developers-count">
+          <FaUsers className="developers-count-icon" />
+          <span>{totalDevelopers} OS Developers</span>
+        </div>
       </StyledWrapper>
       <div className="relative flex items-center justify-end space-x-4">
         <select
@@ -150,7 +157,32 @@ const StyledWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 14px;
   height: 100%;
+
+  .developers-count {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 40px;
+    padding: 6px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-color, rgb(24, 186, 255));
+    background-color: rgba(20, 29, 47, 1);
+    border: 1px solid rgb(24, 186, 255);
+    border-radius: 68px;
+    box-shadow:
+      0 0 2.17382px rgba(0, 0, 0, 0.049),
+      0 1.75px 6.01034px rgba(0, 0, 0, 0.07),
+      0 3.63px 14.4706px rgba(0, 0, 0, 0.091),
+      0 22px 48px rgba(0, 0, 0, 0.14);
+    white-space: nowrap;
+  }
+
+  .developers-count-icon {
+    font-size: 14px;
+  }
 
   #btn-message {
     --text-color: rgb(24, 186, 255);
