@@ -64,7 +64,8 @@ function Sidebar() {
       </div>
       {/* <div className="text-center text-xs text-secondaryColor  dark:text-white">CONNECT COLLAB CODE CREATE CONQUER</div> */}
       <div className="text-center text-secondaryColor dark:text-white">
-        Global Open Source Platform for Developers to showcase their developer skills through open source.
+        Global Open Source Platform for Developers to showcase their developer skills through open source.The First
+        Display for Developers.
       </div>
       {/* <div className="flex flex-wrap items-center justify-center gap-2 pt-5 ">
         <a
