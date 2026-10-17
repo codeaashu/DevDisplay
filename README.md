@@ -141,6 +141,7 @@ Backed by **[2C Labs](https://www.2clabs.tech/)** - Creation Company
 <table align="center">
      <thead>
          <tr>
+            <td><img src="./public/2CLabs.png" alt="2C Labs Logo" width="50"></td>
             <td><img src="./public/assets/SocialLogo/GitHub.png" alt="GitHub Logo" width="50"></td>
             <!-- <td><img src="./public/assets/SocialLogo/Discord.png" alt="Discord Logo" width="50"></td> -->
            <!-- <td><img src="./public/assets/SocialLogo/WhatsApp.png" alt="WhatsApp Logo" width="50"></td> -->
@@ -151,6 +152,7 @@ Backed by **[2C Labs](https://www.2clabs.tech/)** - Creation Company
     </thead>
      <tbody align="center">
         <tr border: 2px;>
+            <td><b><a href="https://www.2clabs.tech/"> Website </a></b></td>
             <td><b><a href="https://github.com/2clabshq"> GitHub </a></b></td>
             <!-- <td><b><a href="https://discord.gg/chyt2UgTv5"> Discord </a></b></td> -->
           <!--  <td><b><a href="https://chat.whatsapp.com/Dcl21sgGDIpHURESSuH0p4"> WA </a></b></td> -->
