@@ -31,8 +31,9 @@ Backed by **[2C Labs](https://www.2clabs.tech/)** <img width="14" height="24" al
 
 <!-- <a href="https://www.devdisplay.org/"><img src="./public/assets/DevDisplayLOGO/NameTagline.png" width="300px" /></a><br> -->
 
-
 <a href="https://www.devdisplay.org/"><img src="./public/DDColorLOGO.png" width="500px" /></a><br>
+
+The First Display for Developers.
 
 `Global Open Source Platform for Developers to Showcase Their Skills Through Open Source.`<br>
 
