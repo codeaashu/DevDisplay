@@ -1,0 +1,13 @@
+{
+  "name": "Haarsh Aacharya",
+  "username": "haarshaacharya",
+  "location": "Ahmedabad, India",
+  "bio": "Frontend Developer | HTML CSS JS",
+  "github": "https://github.com/haarshaacharya",
+  "portfolio": "",
+  "linkedin": "https://www.linkedin.com/in/haarsh-aacharya-ha31/",
+  "skills": ["HTML", "CSS", "JavaScript"],
+  "available": true,
+  "avatar": "https://github.com/haarshaacharya.png",
+  "verified": false
+}
