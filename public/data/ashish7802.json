@@ -1,0 +1,12 @@
+{
+  "name": "Ashish Yadav",
+  "location": "Lucknow, Uttar Pradesh, India",
+  "bio": "Full Stack Developer & AI Builder specializing in React, Node.js, and Python. I build scalable web applications and AI-powered automation tools. Available for work!",
+  "avatar": "https://github.com/ashish7802.png",
+  "portfolio": "https://github.com/ashish7802",
+  "skills": ["React.js", "Node.js", "Python", "JavaScript", "TailwindCSS", "Git", "REST APIs"],
+  "social": {
+    "GitHub": "https://github.com/ashish7802",
+    "Email": "ashishyadav4818@gmail.com"
+  }
+}
